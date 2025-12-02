@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "sv",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Klockan \u00E4r aktiv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59657Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Ingen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596571Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Env\u00E4gs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596571Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Tv\u00E5v\u00E4gs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596572Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Programvaruversion {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596572Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-timmars",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596573Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-timmars (inledande nolla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596573Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-timmars",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596574Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-timmars (inledande nolla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596574Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Kunde inte skapa mappen {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596575Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Anpassad varaktighet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596575Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modifierad varaktighet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596575Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Ursprunglig l\u00E4ngd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596576Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596576Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog och digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596577Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596577Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Klockan \u00E4r inaktiv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596577Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Mitt i veckan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596578Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministeriet - Punkt 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596579Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministeriet - Punkt 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596579Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministeriet - Punkt 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596579Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatisk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59658Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Filbaserad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59658Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manuell",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596581Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Avslutande f\u00F6redrag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596581Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Avslutande kommentarer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596582Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "F\u00F6rsamlingsbibelstudium",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596582Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Andliga p\u00E4rlor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596583Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Levnadss\u00E4tt - Del 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596583Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Levnadss\u00E4tt - Del 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596584Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Inledande kommentarer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596584Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Denna m\u00E5nads presentationer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596585Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Offentligt samtal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596585Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Bibell\u00E4sning",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596585Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Servicesamtal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596586Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Skatter pratar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596586Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Vakttornsstudiet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596587Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Helgen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596587Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-timmars (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596587Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-timmars (inledande nolla och am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596588Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Ingen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596588Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Inst\u00E4llningarna \u00E4r inte tillg\u00E4ngliga medan timern \u00E4r ig\u00E5ng!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596588Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Inst\u00E4llningar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596589Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Skatter",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596589Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Departement",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59659Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Levande",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59659Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Helgen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596591Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Inst\u00E4llningar inaktiverade av administrat\u00F6ren!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596591Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministeriet - Punkt 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596591Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Kretsbes\u00F6k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596592Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ST\u00C4NG NEDR\u00C4KNING",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596592Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Hj\u00E4lp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596593Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[kretsbes\u00F6k]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596593Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Ny version tillg\u00E4nglig!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596594Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "HUVUD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596594Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "\u00C5tkomstkod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596594Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Anpassningsl\u00E4ge mitt i veckan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596595Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Anpassningsl\u00E4ge f\u00F6r helgen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596595Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Till\u00E5t uppr\u00E4kningsv\u00E4xling",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596596Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Alltid p\u00E5 topp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596596Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "FJ\u00C4RRKONTROLLERAPPAR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596596Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATISKT L\u00C4GE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596597Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "KLOCKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596597Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEBKLOCKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596597Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "NEDR\u00C4KNING TILL M\u00D6TET",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596598Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "V\u00E4xla mellan kretsbes\u00F6k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596598Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digitalt klockformat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596598Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Aktiverad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596599Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Helsk\u00E4rmsl\u00E4ge f\u00F6r klocka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596599Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-adress",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.5966Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "M\u00F6te",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.5966Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "M\u00F6tesstarttider (1 per rad)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.5966Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "DIVERSE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596601Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "\u00D6vervaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596601Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Visa muspekaren",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596601Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "S\u00E4tt varje starttid p\u00E5 en ny rad.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596602Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Anv\u00E4nd vilket tidsformat du vill!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596602Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Inkludera valfritt en dag, t.ex. \u0022tors 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596602Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Anteckningar:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596603Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "\u00D6PPEN PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596603Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "L\u00E4ge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596603Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Beh\u00E5ll studenttiden",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596604Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Varaktighet f\u00F6r ih\u00E5llande samtal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596604Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Hamn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596605Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "FJ\u00C4RR\u00C5TKOMST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596605Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Visa sektor p\u00E5 analog klocka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596605Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Bredd p\u00E5 delad sk\u00E4rm:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596606Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TESTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596606Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Strypt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596606Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Timern r\u00E4knar upp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596607Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TIMERF\u00D6NSTER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596607Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Tid p\u00E5 dagen under timern",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596607Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Volym:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596608Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Spr\u00E5k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596608Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Starta om OnlyT efter att du har bytt spr\u00E5k.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596608Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Minska 1 m\nCtrl - Minska 15 s\nShift - Minska 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596609Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "\u00D6ka 1 m\nCtrl - \u00D6ka 15 s\nShift - \u00D6ka 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596609Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manuellt l\u00E4ge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59661Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Nedr\u00E4kning",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59661Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "R\u00E4knar upp\u00E5t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59661Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekunder",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59661Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Aktiverad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596611Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Aktiverad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596611Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Aktiverad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596611Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Visa sekunder",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596612Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Visa ram",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596612Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Klockram",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596612Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Zoomniv\u00E5:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596613Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Plats",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596613Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Botten",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596613Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Nederst till v\u00E4nster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596614Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Nederst till h\u00F6ger",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596614Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centrum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596615Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "V\u00E4nster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596615Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "R\u00E4tt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596615Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "B\u00E4sta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596616Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "\u00D6vre v\u00E4nster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596616Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "\u00D6vre h\u00F6gra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596616Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "OK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596617Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Hamnen \u00F6ppnad och bokning gjord",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596617Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Kunde inte \u00F6ppna porten (se logg)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596618Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Genererad tidsrapport",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596618Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generera rapporter",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596618Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Avslutande segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596619Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Interimssegment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596619Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Introduktionssegment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596619Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Loggningsniv\u00E5",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59662Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Fels\u00F6k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59662Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Fel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59662Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "D\u00F6dlig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596621Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Information",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596621Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "M\u00E5ngordig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596621Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Varning",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596622Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Analysera m\u00F6testimerdata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596622Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Rapporten genererades INTE!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596622Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "SE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596623Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatiskt ljud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596623Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Klicka f\u00F6r att ringa klockan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596623Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "L\u00E4ngd (min)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596624Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Element",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596624Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Ringa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596624Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Urtavla och digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596625Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596625Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Genomskinlig bakgrund",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596626Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Observera att bildsk\u00E4rmen styrs via en kommandoradsinst\u00E4llning.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596626Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Timerbakgrundsgradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596626Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Klocka bakgrundsgradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596627Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Timerram",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596627Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Platt klocka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596628Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Helgen inkluderar fredag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596629Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "F\u00F6nsterf\u00F6rsett",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596629Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "F\u00F6nsterf\u00F6rsett",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59663Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "St\u00E4ng nedr\u00E4kningsf\u00F6nstret",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59663Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Kan inte \u00F6ppna den transparenta nedr\u00E4kningen i f\u00F6nster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59663Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Klocka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596631Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Timers",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596631Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "off-line...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596631Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Krymp vid minimering",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596632Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "prim\u00E4r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596632Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Observera att utdata \u00E4r inst\u00E4lld p\u00E5 NDI via en kommandoradsinst\u00E4llning.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596632Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Borde du ha startat timern?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596633Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Popup-p\u00E5minnelser",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596633Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "M\u00F6tet p\u00E5g\u00E5r i {0} minuter \u00F6vertid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596634Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "M\u00F6tet \u00E4r {0} minuter f\u00F6r sent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596634Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Aviseringar om \u00F6verskridande/underskridande",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596634Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "M\u00F6rkt l\u00E4ge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596635Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "N\u00E4ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596635Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Spara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596635Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Uppdatera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596636Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfigurera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596636Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Beg\u00E4r \u00E5tkomst",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596636Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Avf\u00E4rda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596637Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "M\u00F6tet b\u00F6rjar om",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596637Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skanna med mobil enhet f\u00F6r att visa webbklockan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596637Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Plattform:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596638Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Status:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596638Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Helsk\u00E4rmsl\u00E4ge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596638Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u00D6ka tiden (\u002B1 min). H\u00F6gerklicka f\u00F6r fler alternativ.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596639Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Minska tiden (-1 min). H\u00F6gerklicka f\u00F6r fler alternativ.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596639Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Generera tidsrapport (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596639Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Visa nedr\u00E4kningstimer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59664Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Ny version tillg\u00E4nglig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59664Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Inst\u00E4llningar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.59664Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Hj\u00E4lp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596641Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Krymp till kompakt l\u00E4ge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596641Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekunder",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596642Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596642Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minuter",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596642Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekunder",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596643Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596643Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minuter",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596643Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "N\u00C4TVERKSBEH\u00D6RIGHETER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596643Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Blixttimer under f\u00F6rl\u00E4ngning",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596644Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Ring i klockan vid \u00F6vertid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596644Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Redo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596644Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Spring",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596645Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pausad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596645Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "\u00D6vertid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596645Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Stoppad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596646Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Ange \u00E5tkomstkod...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596646Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596646Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigurerad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596647Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Inte konfigurerad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:06.596647Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:06.596664Z"
+}

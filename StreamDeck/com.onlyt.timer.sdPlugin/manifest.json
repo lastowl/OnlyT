@@ -1,0 +1,97 @@
+{
+    "Name": "OnlyT Timer Control",
+    "Description": "Control OnlyT meeting timer - start, stop timers and ring the bell",
+    "Author": "OnlyT",
+    "Version": "1.0.0",
+    "Category": "OnlyT",
+    "CategoryIcon": "images/category-icon",
+    "Icon": "images/plugin-icon",
+    "URL": "https://github.com/AntonyCorbett/OnlyT",
+    "CodePath": "plugin.js",
+    "PropertyInspectorPath": "pi.html",
+    "OS": [
+        {
+            "Platform": "mac",
+            "MinimumVersion": "10.14"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "6.0"
+    },
+    "SDKVersion": 2,
+    "Actions": [
+        {
+            "Name": "Start Timer",
+            "UUID": "com.onlyt.timer.start",
+            "Icon": "images/start-icon",
+            "Tooltip": "Start the timer for a specific talk",
+            "States": [
+                {
+                    "Image": "images/start-icon",
+                    "Title": "Start"
+                }
+            ],
+            "PropertyInspectorPath": "pi.html"
+        },
+        {
+            "Name": "Stop Timer",
+            "UUID": "com.onlyt.timer.stop",
+            "Icon": "images/stop-icon",
+            "Tooltip": "Stop the currently running timer",
+            "States": [
+                {
+                    "Image": "images/stop-icon",
+                    "Title": "Stop"
+                }
+            ],
+            "PropertyInspectorPath": "pi.html"
+        },
+        {
+            "Name": "Toggle Timer",
+            "UUID": "com.onlyt.timer.toggle",
+            "Icon": "images/toggle-icon",
+            "Tooltip": "Toggle timer - start if stopped, stop if running",
+            "States": [
+                {
+                    "Image": "images/start-icon",
+                    "Title": "Start"
+                },
+                {
+                    "Image": "images/stop-icon",
+                    "Title": "Stop"
+                }
+            ],
+            "PropertyInspectorPath": "pi.html"
+        },
+        {
+            "Name": "Ring Bell",
+            "UUID": "com.onlyt.timer.bell",
+            "Icon": "images/bell-icon",
+            "Tooltip": "Ring the bell sound",
+            "States": [
+                {
+                    "Image": "images/bell-icon",
+                    "Title": "Bell"
+                }
+            ],
+            "PropertyInspectorPath": "pi.html"
+        },
+        {
+            "Name": "Next Talk",
+            "UUID": "com.onlyt.timer.next",
+            "Icon": "images/next-icon",
+            "Tooltip": "Start timer for the next talk in the schedule",
+            "States": [
+                {
+                    "Image": "images/next-icon",
+                    "Title": "Next"
+                }
+            ],
+            "PropertyInspectorPath": "pi.html"
+        }
+    ]
+}

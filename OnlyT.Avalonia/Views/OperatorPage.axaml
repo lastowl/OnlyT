@@ -1,0 +1,405 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:OnlyT.Avalonia.ViewModels"
+             xmlns:loc="using:OnlyT.Avalonia.Services.Localization"
+             mc:Ignorable="d" d:DesignWidth="395" d:DesignHeight="350"
+             x:Class="OnlyT.Avalonia.Views.OperatorPage"
+             x:DataType="vm:OperatorPageViewModel">
+
+    <UserControl.Resources>
+        <!-- Bell icon path data -->
+        <PathGeometry x:Key="BellPathData">M11.945504,0.99398804C10.951509,0.99398804,10.156516,1.8880005,10.156516,2.9809875L10.156516,3.2799988 10.156516,3.3789978 10.45451,3.3789978C10.85251,3.3789978 11.24951,3.2799988 11.647502,3.2799988 12.243499,3.2799988 12.740497,3.2799988 13.237495,3.3789978L13.535489,3.3789978 13.535489,3.2799988 13.535489,2.9809875C13.734485,1.8880005,12.939492,0.99398804,11.945504,0.99398804z M11.945504,0C13.436491,0,14.628484,1.2919922,14.628484,2.9809875L14.628484,3.5780029 14.42948,3.5780029 14.628484,3.677002C17.80846,4.5709839 20.193438,6.8569946 20.193438,9.7389832 20.193438,10.634003 19.995442,11.428986 19.597449,12.123993 19.398445,14.807007 19.398445,18.881989 21.485436,20.869995 24.765412,23.850983 23.870413,26.036987 23.473414,26.733002L13.237495,26.733002 12.343496,26.733002 12.343496,29.117981 12.442495,29.117981C12.939492,29.316986 13.336493,29.813995 13.336493,30.509003 13.336493,31.303986 12.641499,32 11.846506,32 11.051506,32 10.355512,31.303986 10.355512,30.509003 10.355512,29.912994 10.752512,29.415985 11.24951,29.117981L11.349508,29.117981 11.349508,26.733002 10.45451,26.733002 0.41758832,26.733002C0.020587989,26.036987 -0.87440217,23.751984 2.4055731,20.869995 4.7905499,18.78299 4.5915539,13.912994 4.2935597,11.328979 4.094556,10.733002 3.9955575,10.136993 3.9955575,9.6399841 3.9955575,6.8569946 5.9825427,4.4719849 9.0635216,3.5780029L9.3615238,3.4779968 9.3615238,3.3789978 9.3615238,2.9809875C9.3615238,1.2919922,10.554508,0,11.945504,0z</PathGeometry>
+        <!-- Play icon (triangle pointing right) -->
+        <PathGeometry x:Key="PlayIcon">M8,5.14V19.14L19,12.14L8,5.14Z</PathGeometry>
+        <!-- Stop icon (square) -->
+        <PathGeometry x:Key="StopIcon">M6,6H18V18H6V6Z</PathGeometry>
+        <!-- Plus icon -->
+        <PathGeometry x:Key="PlusIcon">M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z</PathGeometry>
+        <!-- Minus icon (with bounds matching plus icon for proper centering) -->
+        <PathGeometry x:Key="MinusIcon">M19,13H5V11H19V13Z M12,5V5 M12,19V19</PathGeometry>
+        <!-- Cog/Settings icon -->
+        <PathGeometry x:Key="CogIcon">M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z</PathGeometry>
+        <!-- Help icon (question mark) -->
+        <PathGeometry x:Key="HelpIcon">M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z</PathGeometry>
+        <!-- Shrink icon (collapse) -->
+        <PathGeometry x:Key="ShrinkIcon">M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z</PathGeometry>
+        <!-- Download icon -->
+        <PathGeometry x:Key="DownloadIcon">M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z</PathGeometry>
+        <!-- Expand icon -->
+        <PathGeometry x:Key="ExpandIcon">M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z</PathGeometry>
+        <!-- Timer/Countdown icon -->
+        <PathGeometry x:Key="TimerIcon">M12,20A7,7 0 0,1 5,13A7,7 0 0,1 12,6A7,7 0 0,1 19,13A7,7 0 0,1 12,20M12,4A9,9 0 0,0 3,13A9,9 0 0,0 12,22A9,9 0 0,0 21,13A9,9 0 0,0 12,4M12.5,8H11V14L15.75,16.85L16.5,15.62L12.5,13.25V8M7.88,3.39L6.6,1.86L2,5.71L3.29,7.24L7.88,3.39M22,5.72L17.4,1.86L16.11,3.39L20.71,7.25L22,5.72Z</PathGeometry>
+        <!-- Close icon -->
+        <PathGeometry x:Key="CloseIcon">M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z</PathGeometry>
+        <!-- Report/Document icon -->
+        <PathGeometry x:Key="ReportIcon">M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,19L12,15H9V10H15V15L13,19H10Z</PathGeometry>
+    </UserControl.Resources>
+
+    <Viewbox>
+        <Grid Width="379" Height="311" Margin="8,2,8,2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="31*" />
+                <RowDefinition Height="130*" />
+                <RowDefinition Height="73*" />
+                <RowDefinition Height="62*" />
+            </Grid.RowDefinitions>
+
+            <!-- Row 0: Shrink Mode Buttons (visible when InShrinkMode) -->
+            <Grid Grid.Row="0" IsVisible="{Binding InShrinkMode}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="1"
+                        Margin="0,-12,0,0"
+                        HorizontalAlignment="Right"
+                        Command="{Binding ShowSettingsCommand}"
+                        Background="Transparent"
+                        BorderThickness="0">
+                    <Path Data="{StaticResource CogIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="28" Height="28"/>
+                </Button>
+
+                <Button Grid.Column="2"
+                        Margin="0,-12,0,0"
+                        HorizontalAlignment="Right"
+                        Command="{Binding ExpandFromShrinkCommand}"
+                        Background="Transparent"
+                        BorderThickness="0">
+                    <Path Data="{StaticResource ExpandIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="28" Height="28"/>
+                </Button>
+
+                <Button Grid.Column="3"
+                        Margin="0,-12,0,0"
+                        HorizontalAlignment="Right"
+                        Command="{Binding CloseAppCommand}"
+                        Background="Transparent"
+                        BorderThickness="0">
+                    <Path Data="{StaticResource CloseIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="28" Height="28"/>
+                </Button>
+            </Grid>
+
+            <!-- Row 0: Talk Selector (visible when NotInShrinkMode) -->
+            <Grid Grid.Row="0" IsVisible="{Binding NotInShrinkMode}">
+                <!-- ComboBox for non-manual mode -->
+                <ComboBox FontSize="14"
+                          IsEnabled="{Binding IsNotRunning}"
+                          ItemsSource="{Binding Talks}"
+                          SelectedItem="{Binding SelectedTalk}"
+                          MaxDropDownHeight="600"
+                          MinHeight="28"
+                          Padding="8,4"
+                          VerticalContentAlignment="Center"
+                          IsVisible="{Binding IsNotManualMode}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Height="22">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="50" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Column="0"
+                                           Foreground="{DynamicResource MaterialBodyLightBrush}"
+                                           VerticalAlignment="Center"
+                                           Text="{Binding OriginalOrModifiedDurationAsString}" />
+                                <TextBlock Grid.Column="1"
+                                           VerticalAlignment="Center"
+                                           Text="{Binding Name}"
+                                           TextTrimming="CharacterEllipsis" />
+                                <TextBlock Grid.Column="2"
+                                           VerticalAlignment="Center"
+                                           Foreground="{Binding OvertimeBrush}"
+                                           Text="{Binding OvertimeString}" />
+                            </Grid>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+
+                <!-- Manual Mode Label -->
+                <TextBlock Margin="0,-7,0,7"
+                           VerticalAlignment="Center"
+                           FontSize="14"
+                           Text="{loc:Localize MANUAL_MODE}"
+                           IsVisible="{Binding IsManualMode}" />
+            </Grid>
+
+            <!-- Row 1: Timer Display Area -->
+            <Grid Grid.Row="1" Margin="0,10,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="227*" />
+                    <ColumnDefinition Width="35*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Timer Display Border -->
+                <Border Grid.Column="0"
+                        Grid.ColumnSpan="{Binding TimeDisplayColumnSpan}"
+                        Padding="10,10,14,10"
+                        Background="Black"
+                        CornerRadius="10">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Bell Icon -->
+                        <Button Grid.Column="0"
+                                Command="{Binding BellToggleClickCommand}"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                VerticalAlignment="Top"
+                                IsVisible="{Binding NotInShrinkMode}"
+                                Cursor="Hand">
+                            <Path Data="{StaticResource BellPathData}"
+                                  Fill="{Binding BellColour}"
+                                  Stretch="Uniform"
+                                  Width="16"
+                                  Height="20"
+                                  ToolTip.Tip="{Binding BellTooltip}"
+                                  IsVisible="{Binding IsBellVisible}" />
+                        </Button>
+
+                        <!-- Circuit Visit Indicator -->
+                        <TextBlock Grid.Column="1"
+                                   Margin="0,-5,0,0"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Top"
+                                   Foreground="#f3dcbc"
+                                   Text="{loc:Localize CIRCUIT_VISIT_BRACKETS}"
+                                   IsVisible="{Binding IsCircuitVisit}" />
+
+                        <!-- Large Timer Display -->
+                        <TextBlock Grid.Column="0"
+                                   Grid.ColumnSpan="2"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="80"
+                                   FontWeight="Bold"
+                                   Foreground="{Binding TextColorBrush}"
+                                   Text="{Binding TimeDisplay}"
+                                   FontFamily="Consolas, Courier New, monospace" />
+
+                        <!-- Duration Indicators -->
+                        <StackPanel Grid.Column="0"
+                                    Grid.ColumnSpan="2"
+                                    Margin="0,0,0,-5"
+                                    VerticalAlignment="Bottom"
+                                    Orientation="Horizontal"
+                                    IsVisible="{Binding NotInShrinkMode}">
+                            <TextBlock Foreground="{Binding Duration1Colour}"
+                                       Text="{Binding Duration1String}"
+                                       ToolTip.Tip="{Binding Duration1Tooltip}" />
+                            <TextBlock Margin="5,0,5,0"
+                                       Foreground="#bba991"
+                                       Text="{Binding Duration1ArrowString}" />
+                            <TextBlock Foreground="{Binding Duration2Colour}"
+                                       Text="{Binding Duration2String}"
+                                       ToolTip.Tip="{Binding Duration2Tooltip}" />
+                            <TextBlock Margin="5,0,5,0"
+                                       Foreground="#bba991"
+                                       Text="{Binding Duration2ArrowString}" />
+                            <TextBlock Foreground="{Binding Duration3Colour}"
+                                       Text="{Binding Duration3String}"
+                                       ToolTip.Tip="{Binding Duration3Tooltip}" />
+                        </StackPanel>
+
+                        <!-- Count Up/Down Toggle -->
+                        <Button Grid.Column="1"
+                                Width="22"
+                                Margin="0,0,0,-5"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Bottom"
+                                Command="{Binding ToggleCountUpCommand}"
+                                IsEnabled="{Binding IsNotRunning}"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                ToolTip.Tip="{Binding CountUpOrDownTooltip}"
+                                IsVisible="{Binding ShowUpDownButton}">
+                            <Path Data="{Binding CountUpOrDownImageData}"
+                                  Fill="#f3dcbc"
+                                  Stretch="Uniform"
+                                  Width="16"
+                                  Height="20" />
+                        </Button>
+                    </Grid>
+                </Border>
+
+                <!-- +/- Buttons Column -->
+                <StackPanel Grid.Column="1"
+                            Margin="10,5,0,5"
+                            VerticalAlignment="Center"
+                            Spacing="4"
+                            IsVisible="{Binding NotInShrinkMode}">
+                    <Button Height="35"
+                            Padding="0"
+                            Command="{Binding IncrementTimeCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_INCREASE_TIME}">
+                        <Button.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="{loc:Localize MENU_PLUS_15_SEC}" Command="{Binding IncrementTime15Command}"/>
+                                <MenuItem Header="{loc:Localize MENU_PLUS_1_MIN}" Command="{Binding IncrementTimeCommand}"/>
+                                <MenuItem Header="{loc:Localize MENU_PLUS_5_MIN}" Command="{Binding IncrementTime5Command}"/>
+                            </ContextMenu>
+                        </Button.ContextMenu>
+                        <Path Data="{StaticResource PlusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="20" Height="20"/>
+                    </Button>
+                    <Button Height="35"
+                            Padding="0"
+                            Command="{Binding DecrementTimeCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_DECREASE_TIME}">
+                        <Button.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="{loc:Localize MENU_MINUS_15_SEC}" Command="{Binding DecrementTime15Command}"/>
+                                <MenuItem Header="{loc:Localize MENU_MINUS_1_MIN}" Command="{Binding DecrementTimeCommand}"/>
+                                <MenuItem Header="{loc:Localize MENU_MINUS_5_MIN}" Command="{Binding DecrementTime5Command}"/>
+                            </ContextMenu>
+                        </Button.ContextMenu>
+                        <Path Data="{StaticResource MinusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="20" Height="20"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- Row 2: Start Button (visible when not running) -->
+            <Button Grid.Row="2"
+                    Grid.RowSpan="{Binding StartStopButtonRowSpan}"
+                    Height="{Binding StartStopButtonHeight}"
+                    Command="{Binding StartCommand}"
+                    Background="#424242"
+                    IsVisible="{Binding IsNotRunning}">
+                <Path Data="{StaticResource PlayIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+            </Button>
+
+            <!-- Row 2: Stop Button (visible when running) -->
+            <Button Grid.Row="2"
+                    Grid.RowSpan="{Binding StartStopButtonRowSpan}"
+                    Height="{Binding StartStopButtonHeight}"
+                    Command="{Binding StopCommand}"
+                    Background="#7B1FA2"
+                    IsVisible="{Binding IsRunning}">
+                <Path Data="{StaticResource StopIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+            </Button>
+
+            <!-- Row 3: Bottom Controls -->
+            <Grid Grid.Row="3"
+                  Margin="0,10,0,0"
+                  IsVisible="{Binding NotInShrinkMode}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Circuit Visit Toggle (left side) -->
+                <Grid Grid.Column="0"
+                      IsEnabled="{Binding IsNotRunning}"
+                      IsVisible="{Binding ShouldShowCircuitVisitToggle}"
+                      MaxWidth="180">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ToggleSwitch Grid.Column="0"
+                                  Margin="5,0,0,0"
+                                  HorizontalAlignment="Left"
+                                  VerticalAlignment="Center"
+                                  IsChecked="{Binding IsCircuitVisit}" />
+                    <TextBlock Grid.Column="1"
+                               VerticalAlignment="Center"
+                               Text="{loc:Localize CIRCUIT_VISIT}"
+                               TextWrapping="Wrap"
+                               Margin="5,0,0,0" />
+                </Grid>
+
+                <!-- Buttons (right side) -->
+                <StackPanel Grid.Column="1"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Spacing="8">
+                    <!-- Generate Report Button -->
+                    <Button Command="{Binding GenerateReportCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_GENERATE_REPORT}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19">
+                        <Path Data="{StaticResource ReportIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
+                    <!-- Countdown Button -->
+                    <Button Command="{Binding ShowCountdownCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_SHOW_COUNTDOWN}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19">
+                        <Path Data="{StaticResource TimerIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
+                    <!-- New Version Download Button -->
+                    <Button ToolTip.Tip="{loc:Localize TIP_NEW_VERSION}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19"
+                            IsVisible="{Binding IsNewVersionAvailable}">
+                        <Path Data="{StaticResource DownloadIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
+                    <!-- Help Button -->
+                    <Button Command="{Binding HelpCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_HELP}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19">
+                        <Path Data="{StaticResource HelpIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
+                    <!-- Settings Button -->
+                    <Button Command="{Binding ShowSettingsCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_SETTINGS}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19">
+                        <Path Data="{StaticResource CogIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
+                    <!-- Shrink Button -->
+                    <Button Command="{Binding ShrinkToCompactCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_SHRINK}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19">
+                        <Path Data="{StaticResource ShrinkIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- Reminder Notification Overlay -->
+            <Border Grid.Row="0"
+                    Grid.RowSpan="4"
+                    Background="#E0FF9800"
+                    CornerRadius="8"
+                    Padding="15"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    IsVisible="{Binding IsReminderShowing}">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="{Binding ReminderMessage}"
+                               FontSize="16"
+                               FontWeight="Bold"
+                               Foreground="White"
+                               TextAlignment="Center"/>
+                    <Button Content="{loc:Localize BTN_DISMISS}"
+                            Command="{Binding DismissReminderCommand}"
+                            HorizontalAlignment="Center"
+                            Padding="20,8"
+                            Background="White"
+                            Foreground="#FF9800"/>
+                </StackPanel>
+            </Border>
+
+        </Grid>
+    </Viewbox>
+
+</UserControl>

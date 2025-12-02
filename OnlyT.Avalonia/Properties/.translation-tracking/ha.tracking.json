@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ha",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell yana aiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521047Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Babu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521048Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Hanya daya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521049Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Hanya biyu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52105Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Sigar software {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52105Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-hour",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521051Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-hour (sifilin jagora)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521051Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-hour",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521052Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-hour (sifilin jagora)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521053Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "An kasa \u0199ir\u0199irar babban fayil {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521053Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Tsawon lokacin da aka daidaita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521054Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Tsawon lokaci da aka canza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521054Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Lokacin asali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521055Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogue",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521056Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogue da Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521056Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521056Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell ba ya aiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521057Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Tsakar mako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521058Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ma\u0027aikatar - Abu na 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521058Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ma\u0027aikatar - Abu na 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521059Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ma\u0027aikatar - Abu na 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521059Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Na atomatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52106Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "tushen fayil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52106Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521061Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Kammala Magana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521062Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Karshen Sharhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521062Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Nazarin Littafi Mai Tsarki na Ikilisiya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521063Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Duwatsu na Ruhaniya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521064Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Rayuwa - Part 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521064Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Rayuwa - Part 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521065Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Bude Comments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521065Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Gabatarwar Wannan Watan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521066Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Maganar Jama\u0027a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521066Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Karatun Littafi Mai Tsarki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521067Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Maganar Sabis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521067Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Maganar Taska",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521068Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Nazarin Hasumiyar Tsaro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521068Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Karshen mako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521069Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-hour (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52107Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-hour (sifilin jagora \u0026 am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52107Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Babu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521071Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Babu saituna yayin da mai \u0199idayar lokaci ke gudana!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521071Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Saituna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521072Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Taska",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521072Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ma\u0027aikatar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521073Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Rayuwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521074Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Karshen mako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521074Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "An kashe saituna ta mai gudanarwa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521075Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ma\u0027aikatar - Abu na 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521075Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ziyarar zagaye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521076Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "RUFE KASA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521076Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Taimako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521077Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ziyarar zagayawa]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521077Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Akwai sabon sigar!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521078Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "BABBAR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521078Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Lambar shiga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521079Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Yanayin daidaitawa na tsakiyar mako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521079Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Yanayin karbuwa na karshen mako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52108Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Bada damar kirgawa jujjuyawar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52108Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Koyaushe a saman",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521081Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APPS masu nisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521081Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "KYAUTA TA AUTOMATIC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521082Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521082Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "Agogon Yanar Gizo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521083Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "KISAR TARO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521083Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Canza ziyarar zagaye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521084Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Tsarin agogo na dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521084Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "An kunna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521085Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Yanayin agogo mai cikakken allo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521085Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adireshin IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521086Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Ganawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521087Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Lokacin farawa taro (1 kowane layi)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521087Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "MABABBANCI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521088Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Saka idanu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521088Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Nuna alamar linzamin kwamfuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521089Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Sanya kowane lokacin farawa akan sabon layi.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521089Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Yi amfani da kowane tsarin lokaci da kuke so!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52109Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Zabi ya ha\u0257a da yini \u0257aya, misali. \u0022Kashi 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52109Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Bayanan kula:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521091Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "BUDE PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521091Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Yanayin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521091Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Dage lokacin dalibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521092Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Naci tsawon lokacin magana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521093Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521093Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "HANYAR WUTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521094Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Nuna sashin akan agogon analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521094Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Fa\u0257in allo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521095Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "GWADA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521095Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Matsi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521096Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Mai \u0199idayar lokaci yana \u0199irgawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521096Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "GIDAN TIMER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521097Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Lokaci na rana a \u0199ar\u0199ashin mai \u0199idayar lokaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521097Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Girma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521098Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Harshe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521099Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Da fatan za a sake farawa OnlyT bayan canza yaren.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521099Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Rage 1m\nCtrl - Rage 15s\nShift - Rage 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.5211Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "\u0198ara 1m\nCtrl - \u0198ara 15s\nShift - \u0198ara 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.5211Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Yanayin manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.5211Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "\u0198ididdigar \u0199asa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521101Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Ana kirgawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521101Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} seconds",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521102Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "An kunna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521103Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "An kunna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521103Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "An kunna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521103Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Nuna da\u0199i\u0199a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521104Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Nuna firam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521104Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Firam \u0257in agogo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521105Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Matsayin zu\u0199owa:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521105Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Wuri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521106Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Kasa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521106Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Kasan hagu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521107Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Kasa dama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521108Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Cibiyar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521108Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Hagu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521109Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Dama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521109Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Sama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52111Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Hagu sama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52111Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Sama dama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521111Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "KO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521112Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "An bu\u0257e tashar jiragen ruwa kuma an yi ajiyar wuri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521112Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "An kasa bu\u0257e tashar jiragen ruwa (duba log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521113Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Rahoton lokaci da aka \u0199ir\u0199ira",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521113Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u0198ir\u0199irar rahotanni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521113Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Bangaren \u0198arshe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521114Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Bangaren wucin gadi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521114Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Bangaren Gabatarwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521115Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Matsayin shiga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521115Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Gyara kuskure",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521116Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Kuskure",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521116Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "M",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521117Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Bayani",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521117Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Verbose",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521118Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Gargadi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521118Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Ana nazarin bayanan lokacin saduwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521119Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "BA a samar da rahoto ba!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521119Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "DUBI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521119Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Sauti ta atomatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52112Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Danna don \u0199ara kararrawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52112Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Tsawon lokaci (mintuna)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521121Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Abubuwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521121Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Bugun kira",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521122Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dial da dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521123Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521123Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Bayani mai gaskiya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521123Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Lura cewa ana sarrafa mai saka idanu ta hanyar saitin layin umarni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521124Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Mai \u0199ididdigewa bayan gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521124Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Clock bango gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521126Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Tsarin lokaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521127Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Agogo mai lebur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521127Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Karshen mako ya hada da Juma\u0027a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521128Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Windowed",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521128Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Windowed",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521129Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Rufe Tagan Kidayar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521129Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Ba za a iya bu\u0257e kirgawa ta \u0022taga\u0022 bayyane ba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52113Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Agogo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52113Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Masu \u0199idayar lokaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521131Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521131Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Rage \u0199aranci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521132Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "firamare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521132Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Lura cewa an saita fitarwa zuwa NDI ta hanyar saitin layin umarni.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521133Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Ya kamata ku fara lokacin?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521133Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Tunatarwa mai fa\u0027ida",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521134Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Taron yana gudana {0} mintuna akan kari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521134Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Taron yana gudana cikin mintuna {0} cikin lokaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521135Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Fa\u0257akarwa / \u0198arfafa sanarwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521135Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Yanayin duhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521135Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Kusa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521136Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ajiye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521136Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Sake sabuntawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521137Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Sanya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521137Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Neman Shiga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521138Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Korar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521138Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "An fara taro a ciki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521139Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Duba tare da na\u0027urar hannu don duba agogon gidan yanar gizo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521139Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Dandalin:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52114Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Matsayi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52114Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Yanayin Cikakken allo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52114Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u0198ara lokacin (\u002B1 min). Danna-dama don \u0199arin za\u0253u\u0253\u0253uka.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521141Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Rage lokacin (-1 min). Danna-dama don \u0199arin za\u0253u\u0253\u0253uka.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521142Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "\u0198ir\u0199irar rahoton lokaci (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521142Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Nuna lokacin kirgawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521142Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Akwai sabon siga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521143Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Saituna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521143Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Taimako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521144Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Rage zuwa m yanayin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521144Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 seconds",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521145Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521145Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 mintuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521146Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 seconds",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521146Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "- minti 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521146Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "- Minti 5",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521147Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "IZININ NETWORK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521147Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Mai \u0199ididdigewa Flash A lokacin kari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521148Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "ringa \u0199ararrawa Lokacin kari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521148Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Shirye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521148Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Gudu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521149Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "An dakata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52115Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Karin lokaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52115Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Tsaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.52115Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Shigar da lambar shiga...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521151Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521152Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "An saita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521152Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Ba a daidaita shi ba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:45.521153Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:45.521172Z"
+}

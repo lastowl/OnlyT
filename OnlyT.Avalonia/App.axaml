@@ -1,0 +1,18 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialStyles="using:Material.Styles.Themes"
+             x:Class="OnlyT.Avalonia.App"
+             RequestedThemeVariant="Default">
+    <Application.Styles>
+        <materialStyles:MaterialTheme BaseTheme="Light" PrimaryColor="BlueGrey" SecondaryColor="Amber" />
+        <StyleInclude Source="avares://OnlyT/Controls/AnalogueClock/ClockControlStyles.axaml"/>
+    </Application.Styles>
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Custom colours - will be swapped at runtime for dark/light mode -->
+                <ResourceInclude Source="avares://OnlyT/Themes/CustomColours.axaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

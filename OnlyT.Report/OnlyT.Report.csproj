@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Nullable>Enable</Nullable>
   </PropertyGroup>
@@ -36,8 +36,15 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent" Condition="'$(OS)' == 'Windows_NT'">
     <Exec Command="copy &quot;$(ProjectDir)Properties\Resources.jv-ID.resx&quot; &quot;$(ProjectDir)Properties\Resources.jv-Latn-ID.resx&quot;&#xD;&#xA;copy &quot;$(ProjectDir)Properties\Resources.no-NO.resx&quot; &quot;$(ProjectDir)Properties\Resources.no.resx&quot;&#xD;&#xA;copy &quot;$(ProjectDir)Properties\Resources.pap-PAP.resx&quot; &quot;$(ProjectDir)Properties\Resources.pap.resx&quot;&#xD;&#xA;copy &quot;$(ProjectDir)Properties\Resources.tl-PH.resx&quot; &quot;$(ProjectDir)Properties\Resources.fil-PH.resx&quot;&#xD;&#xA;&#xD;&#xA;" />
+  </Target>
+
+  <Target Name="PreBuildUnix" BeforeTargets="PreBuildEvent" Condition="'$(OS)' != 'Windows_NT'">
+    <Exec Command="cp -f &quot;$(ProjectDir)Properties/Resources.jv-ID.resx&quot; &quot;$(ProjectDir)Properties/Resources.jv-Latn-ID.resx&quot; 2>/dev/null || true" />
+    <Exec Command="cp -f &quot;$(ProjectDir)Properties/Resources.no-NO.resx&quot; &quot;$(ProjectDir)Properties/Resources.no.resx&quot; 2>/dev/null || true" />
+    <Exec Command="cp -f &quot;$(ProjectDir)Properties/Resources.pap-PAP.resx&quot; &quot;$(ProjectDir)Properties/Resources.pap.resx&quot; 2>/dev/null || true" />
+    <Exec Command="cp -f &quot;$(ProjectDir)Properties/Resources.tl-PH.resx&quot; &quot;$(ProjectDir)Properties/Resources.fil-PH.resx&quot; 2>/dev/null || true" />
   </Target>
 
 </Project>

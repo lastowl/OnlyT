@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "sw",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell iko amilifu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851709Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Hakuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85171Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Njia moja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851711Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Njia mbili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851711Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Toleo la programu {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851712Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "Saa 12",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851713Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "Saa 12 (sifuri inayoongoza)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851713Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "Saa 24",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851714Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "Saa 24 (sifuri inayoongoza)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851714Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Haikuweza kuunda folda {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851715Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Muda uliobadilishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851715Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Muda uliobadilishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851716Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Muda asili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851717Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851717Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogi na Dijiti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851718Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Dijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851718Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell haitumiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851719Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Katikati ya wiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851719Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Wizara - Kipengele cha 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85172Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Wizara - Kipengee 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85172Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Wizara - Kipengele cha 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851721Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Otomatiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851721Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Kulingana na faili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851722Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Mwongozo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851723Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Hotuba ya Kuhitimisha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851723Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Maoni ya Kuhitimisha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851724Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Funzo la Biblia la Kutaniko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851725Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Vito vya Kiroho",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851725Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Kuishi - Sehemu ya 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851726Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Kuishi - Sehemu ya 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851726Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Kufungua Maoni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851727Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Mawasilisho ya Mwezi Huu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851728Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Mazungumzo ya Umma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851728Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Usomaji wa Biblia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851728Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Mazungumzo ya Huduma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851729Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Mazungumzo ya Hazina",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851729Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Funzo la Mnara wa Mlinzi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85173Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Mwishoni mwa wiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851731Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "Saa 12 (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851731Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "Saa 12 (sifuri ya kwanza \u0026 asubuhi/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851732Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Hakuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851732Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Mipangilio haipatikani kipima muda kinaendelea!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851733Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Mipangilio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851733Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Hazina",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851734Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Wizara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851735Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Kuishi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851735Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Mwishoni mwa wiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851736Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Mipangilio imezimwa na msimamizi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851736Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Wizara - Kipengele cha 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851737Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ziara ya mzunguko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851737Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "FUNGA KUHESABU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851738Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Msaada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851738Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ziara ya mzunguko]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851739Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Toleo jipya linapatikana!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851739Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "KUU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85174Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Msimbo wa ufikiaji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85174Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Hali ya kubadilika ya katikati ya wiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851741Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Hali ya kubadilika wikendi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851742Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Ruhusu kugeuza-hesabu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851742Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Daima juu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851743Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APPS ZA NDANI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851743Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "HALI YA OTOMATIKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851744Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "KENGELE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851744Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "SAA YA WAVUTI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851745Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "MKUTANO HESABU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851745Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Kugeuza ziara ya mzunguko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851745Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Umbizo la saa ya kidijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851746Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Imewashwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851747Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Hali ya saa ya skrini nzima",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851747Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Anwani ya IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851748Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Mkutano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851748Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Saa za kuanza kwa mkutano (1 kwa kila mstari)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851749Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "MBALIMBALI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851749Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Kufuatilia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85175Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Onyesha kiashiria cha kipanya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85175Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Weka kila wakati wa kuanza kwenye mstari mpya.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851751Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Tumia muundo wa wakati wowote unaopenda!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851751Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Kwa hiari jumuisha siku, k.m. \u0022Thu 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851751Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Vidokezo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851752Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "FUNGUA BANDARI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851752Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Hali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851753Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Endelea wakati wa mwanafunzi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851753Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Endelea muda wa mazungumzo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851754Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Bandari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851754Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "UPATIKANAJI WA NDANI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851755Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Onyesha sekta kwenye saa ya analogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851755Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Upana wa skrini:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851756Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "JARIBU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851756Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Kaba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851757Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Kipima muda kinahesabiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851757Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "WINDOW YA TIMER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851758Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Wakati wa siku chini ya kipima muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851758Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Kiasi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851759Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Lugha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851759Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Tafadhali anzisha upya OnlyT baada ya kubadilisha lugha.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85176Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Punguza 1m\nCtrl - Punguza sekunde 15\nShift - Punguza 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85176Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Kuongeza 1m\nCtrl - Ongeza 15s\nShift - Ongeza 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851761Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Hali ya Mwongozo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851761Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Kuhesabu chini",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851762Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Kuhesabu juu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851762Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "Sekunde {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851762Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Imewashwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851763Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Imewashwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851763Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Imewashwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851764Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Onyesha sekunde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851764Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Onyesha fremu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851765Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Fremu ya saa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851765Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Kiwango cha kukuza:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851766Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Mahali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851766Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Chini",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851767Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Chini kushoto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851767Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Chini kulia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851768Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Kituo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851768Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Kushoto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851769Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Sawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851769Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Juu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85177Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Juu kushoto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85177Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Juu kulia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851771Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Sawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851771Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Bandari ilifunguliwa na uhifadhi kufanywa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851772Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Haikuweza kufungua mlango (angalia kumbukumbu)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851772Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Ripoti ya muda iliyozalishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851773Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Tengeneza ripoti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851773Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Sehemu ya Kuhitimisha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851774Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Sehemu ya Muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851774Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Sehemu ya Utangulizi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851775Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Kiwango cha ukataji miti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851775Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Tatua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851776Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Hitilafu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851776Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "mbaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851777Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Habari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851777Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Kitenzi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851777Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Onyo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851778Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Inachanganua data ya kipima muda cha mkutano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851778Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Ripoti HAIJATOLEWA!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851779Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "TAZAMA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851779Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Sauti kiotomatiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85178Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Bofya ili kupiga kengele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85178Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Muda (dakika)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851781Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Vipengele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851781Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Piga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851782Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Piga na digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851784Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Dijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851784Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Mandharinyuma yenye uwazi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851784Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Kumbuka kuwa kifuatilia kinadhibitiwa na mpangilio wa mstari wa amri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851785Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "gradient ya mandharinyuma ya kipima muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851785Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "gradient ya nyuma ya saa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851786Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Muafaka wa kipima muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851786Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Saa ya gorofa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851787Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Mwishoni mwa wiki ni pamoja na Ijumaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851787Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Iliyo na dirisha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851788Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Iliyo na dirisha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851788Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Funga Dirisha la Kuhesabu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851789Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Haiwezi kufungua hesabu \u0022iliyo na madirisha\u0022 yenye uwazi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851789Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Saa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85179Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Vipima muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85179Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "nje ya mtandao...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851791Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Punguza kwa kupunguza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851791Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "msingi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851792Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Kumbuka kuwa matokeo yamewekwa kwa NDI kupitia mpangilio wa safu ya amri.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851792Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Je, ulipaswa kuanza kipima saa?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851793Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Vikumbusho ibukizi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851793Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Mkutano unatumia dakika {0} za ziada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851793Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Mkutano unaendelea kwa dakika {0} chini ya muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851794Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Arifa za Overrun/Underrun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851794Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Hali ya giza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851795Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Funga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851795Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Hifadhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851796Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Onyesha upya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851796Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Sanidi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851797Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Omba Ufikiaji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851797Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Ondoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851797Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Mkutano unaanza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851798Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Changanua kwa kutumia kifaa cha mkononi ili kuona saa ya wavuti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851798Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Jukwaa:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851799Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Hali:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851799Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Hali ya Skrini Kamili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.8518Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Ongeza muda (\u002B1 min). Bofya kulia kwa chaguo zaidi.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.8518Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Punguza muda (dakika-1). Bofya kulia kwa chaguo zaidi.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.8518Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Tengeneza ripoti ya muda (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851801Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Onyesha kipima muda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851801Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Toleo jipya linapatikana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851802Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Mipangilio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851802Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Msaada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851802Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Punguza hadi kwenye hali ya kuunganishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851803Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekunde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851804Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851804Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B dakika 5",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851804Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "- Sekunde 15",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851805Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851806Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "- dakika 5",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851806Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "RUHUSA ZA MTANDAO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851806Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Kipima Muda cha Mweko Wakati wa Muda wa ziada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851807Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Piga Kengele Wakati wa Ziada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851807Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Tayari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851808Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Kukimbia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851808Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Imesitishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851809Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Muda wa ziada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851809Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Imesimamishwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851809Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Weka msimbo wa ufikiaji...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85181Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.85181Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Imesanidiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851811Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Haijasanidiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:44.851811Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:44.85183Z"
+}

@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "hu",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "A cseng\u0151 akt\u00EDv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72207Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Egyik sem",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722071Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Egyir\u00E1ny\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722071Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "K\u00E9tir\u00E1ny\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722072Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Szoftver verzi\u00F3: {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722072Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 \u00F3r\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722072Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 \u00F3r\u00E1s (vezet\u0151 nulla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722073Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 \u00F3r\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722073Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 \u00F3r\u00E1s (vezet\u0151 nulla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722073Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nem siker\u00FClt l\u00E9trehozni a(z) {0} mapp\u00E1t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722074Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Alkalmazott id\u0151tartam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722074Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "M\u00F3dos\u00EDtott id\u0151tartam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722075Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Eredeti id\u0151tartam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722075Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Hasonl\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722075Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Anal\u00F3g \u00E9s digit\u00E1lis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722075Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digit\u00E1lis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722076Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "A cseng\u0151 inakt\u00EDv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722076Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "H\u00E9tk\u00F6znap",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722077Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Miniszt\u00E9rium - 1. t\u00E9tel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722077Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Miniszt\u00E9rium - 2. pont",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722077Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Miniszt\u00E9rium - 3. pont",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722077Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatikus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722078Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "F\u00E1jl alap\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722078Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "K\u00E9zik\u00F6nyv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722079Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Z\u00E1r\u00F3besz\u00E9d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722079Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Z\u00E1r\u00F3 megjegyz\u00E9sek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722079Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Gy\u00FClekezeti bibliatanulm\u00E1nyoz\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72208Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Lelki kincsek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72208Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u00C9let - 1. r\u00E9sz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72208Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u00C9let - 2. r\u00E9sz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722081Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Nyit\u00F3 megjegyz\u00E9sek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722081Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "E h\u00F3nap el\u0151ad\u00E1sai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722081Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Nyilv\u00E1nos besz\u00E9lget\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722082Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Bibliaolvas\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722082Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Szolg\u00E1lati besz\u00E9lget\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722082Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Kincsek Besz\u00E9lget\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722082Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u0150rtorony-tanulm\u00E1nyoz\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722083Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "H\u00E9tv\u00E9gi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722083Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 \u00F3r\u00E1s (de./du.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722084Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 \u00F3r\u00E1s form\u00E1tum (vezet\u0151 nulla \u00E9s de./du.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722084Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Egyik sem",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722084Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Az id\u0151z\u00EDt\u0151 fut\u00E1sa k\u00F6zben a be\u00E1ll\u00EDt\u00E1sok nem \u00E9rhet\u0151k el!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722085Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Be\u00E1ll\u00EDt\u00E1sok",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722085Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Kincsek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722085Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Miniszt\u00E9rium",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722086Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u00C9l\u0151",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722086Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "H\u00E9tv\u00E9gi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722086Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "A be\u00E1ll\u00EDt\u00E1sokat a rendszergazda letiltotta!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722087Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Miniszt\u00E9rium - 4. pont",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722087Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "K\u00F6r\u00FAt l\u00E1togat\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722087Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "VISSZASZ\u00C1ML\u00C1L\u00C1S BEZ\u00C1R\u00C1SA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722087Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Seg\u00EDts\u00E9g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722088Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[k\u00F6r\u00FAt l\u00E1togat\u00E1s]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722088Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "\u00DAj verzi\u00F3 el\u00E9rhet\u0151!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722088Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "F\u0150",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722089Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Hozz\u00E1f\u00E9r\u00E9si k\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722089Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "H\u00E9tk\u00F6znapi adapt\u00EDv m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722089Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "H\u00E9tv\u00E9gi adapt\u00EDv m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72209Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Visszasz\u00E1ml\u00E1l\u00E1s enged\u00E9lyez\u00E9se v\u00E1lt\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72209Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Mindig a cs\u00FAcson",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72209Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "T\u00C1VOLI ALKALMAZ\u00C1SOK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72209Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATIKUS \u00DCZEMM\u00D3D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722091Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "HARANG",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722091Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEBES \u00D3RA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722091Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "TAL\u00C1LKOZ\u00D3 VISSZASZ\u00C1ML\u00C1L\u00C1S",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722091Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "K\u00F6r\u00FAt l\u00E1togat\u00E1s v\u00E1lt\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722092Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digit\u00E1lis \u00F3ra form\u00E1tum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722092Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Enged\u00E9lyezve",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722092Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Teljes k\u00E9perny\u0151s \u00F3ra m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722093Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-c\u00EDm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722093Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Tal\u00E1lkoz\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722093Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Megbesz\u00E9l\u00E9s kezd\u00E9si id\u0151pontjai (soronk\u00E9nt 1)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722094Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "K\u00DCL\u00D6NF\u00C9LE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722094Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722094Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Eg\u00E9rmutat\u00F3 megjelen\u00EDt\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722095Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Minden kezd\u00E9si id\u0151pontot \u00FAj sorba \u00EDrjon.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722095Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Haszn\u00E1lj b\u00E1rmilyen id\u0151form\u00E1tumot!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722095Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Opcion\u00E1lisan adjon meg egy napot, pl. \u201ECs\u00FCt\u00F6rt\u00F6k 19:15\u201D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722095Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Megjegyz\u00E9sek:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722096Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "NY\u00CDLT KIK\u00D6T\u0150",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722096Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "M\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722096Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Tartsa fenn a di\u00E1kid\u0151t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722097Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Besz\u00E9lget\u00E9s id\u0151tartam\u00E1nak fenntart\u00E1sa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722097Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Kik\u00F6t\u0151",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722097Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "T\u00C1VOLI HOZZ\u00C1F\u00C9R\u00C9S",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722098Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Szektor megjelen\u00EDt\u00E9se anal\u00F3g \u00F3r\u00E1n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722098Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Osztott k\u00E9perny\u0151 sz\u00E9less\u00E9ge:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722098Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TESZT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722098Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Fojtott",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722099Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Az id\u0151z\u00EDt\u0151 visszasz\u00E1mol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722099Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "ID\u0150Z\u00CDT\u0150 ABLAK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.7221Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Napszak id\u0151z\u00EDt\u0151 alatt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.7221Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "K\u00F6tet:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.7221Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Nyelv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.7221Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "K\u00E9rj\u00FCk, ind\u00EDtsa \u00FAjra az OnlyT-t a nyelv m\u00F3dos\u00EDt\u00E1sa ut\u00E1n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722101Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Cs\u00F6kkent\u00E9s 1 perccel\nCtrl - Cs\u00F6kkent\u00E9s 15 m\u00E1sodperccel\nShift - Cs\u00F6kkent\u00E9s 5 perccel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722101Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "N\u00F6vel\u00E9s 1 perccel\nCtrl - N\u00F6vel\u00E9s 15 m\u00E1sodperccel\nShift - N\u00F6vel\u00E9s 5 perccel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722101Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manu\u00E1lis m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722102Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Visszasz\u00E1ml\u00E1l\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722102Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Sz\u00E1mol\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722102Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} m\u00E1sodperc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722102Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Enged\u00E9lyezve",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722103Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Enged\u00E9lyezve",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722103Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Enged\u00E9lyezve",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722103Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "M\u00E1sodpercek megjelen\u00EDt\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722104Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Keret megjelen\u00EDt\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722104Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "\u00D3rakeret",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722104Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Nagy\u00EDt\u00E1si szint:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722104Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Elhelyezked\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722105Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Als\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722105Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Bal als\u00F3 sarokban",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722105Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Jobb als\u00F3 sarokban",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722106Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "K\u00F6zpont",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722106Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Balra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722106Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Jobbra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722107Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Fels\u0151",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722107Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Bal fels\u0151 sarok",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722107Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Jobb fels\u0151 sarokban",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722108Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "RENDBEN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722108Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Kik\u00F6t\u0151 megnyitva \u00E9s foglal\u00E1s megt\u00F6rt\u00E9nt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722109Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nem siker\u00FClt megnyitni a portot (l\u00E1sd a napl\u00F3t)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722109Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "L\u00E9trehozott id\u0151z\u00EDt\u00E9si jelent\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722109Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Jelent\u00E9sek gener\u00E1l\u00E1sa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722109Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Befejez\u0151 szakasz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72211Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "K\u00F6ztes szegmens",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72211Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Bevezet\u0151 szegmens",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72211Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Napl\u00F3z\u00E1si szint",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72211Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Hibakeres\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722111Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Hiba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722111Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Hal\u00E1los",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722111Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Inform\u00E1ci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722112Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "B\u0151besz\u00E9d\u0171",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722112Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Figyelmeztet\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722112Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Megbesz\u00E9l\u00E9s id\u0151z\u00EDt\u0151 adatainak elemz\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722112Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Jelent\u00E9s NEM gener\u00E1l\u00F3dott!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722113Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "KIL\u00C1T\u00C1S",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722114Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatikus hangjelz\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722114Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Kattintson a cseng\u0151 megsz\u00F3laltat\u00E1s\u00E1hoz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722114Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Id\u0151tartam (perc)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722114Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elemek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722115Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "T\u00E1rcsa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722115Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "T\u00E1rcs\u00E1s \u00E9s digit\u00E1lis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722115Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digit\u00E1lis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722115Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "\u00C1tl\u00E1tsz\u00F3 h\u00E1tt\u00E9r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722116Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Vegye figyelembe, hogy a monitort parancssori be\u00E1ll\u00EDt\u00E1s vez\u00E9rli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722116Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Id\u0151z\u00EDt\u0151 h\u00E1tt\u00E9r sz\u00EDn\u00E1tmenet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722116Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "\u00D3ra h\u00E1tt\u00E9r sz\u00EDn\u00E1tmenet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722117Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Id\u0151z\u00EDt\u0151 keret",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722117Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Lapos \u00F3ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722117Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "A h\u00E9tv\u00E9ge p\u00E9nteket is mag\u00E1ban foglalja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722118Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ablakos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722118Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ablakos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722118Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Visszasz\u00E1ml\u00E1l\u00F3 ablak bez\u00E1r\u00E1sa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722118Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nem lehet megnyitni az \u00E1tl\u00E1tsz\u00F3 \u0022ablakos\u0022 visszasz\u00E1ml\u00E1l\u00F3t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722119Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "\u00D3ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722119Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Id\u0151z\u00EDt\u0151k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722119Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72212Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Zsugor\u00EDt\u00E1s minimaliz\u00E1l\u00E1skor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72212Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "els\u0151dleges",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72212Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Vegye figyelembe, hogy a kimenet NDI-re van \u00E1ll\u00EDtva egy parancssori be\u00E1ll\u00EDt\u00E1son kereszt\u00FCl.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72212Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Elind\u00EDtanod kellett volna az id\u0151z\u00EDt\u0151t?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722121Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Felugr\u00F3 eml\u00E9keztet\u0151k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722121Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "A megbesz\u00E9l\u00E9s {0} perccel t\u00FAl\u00F3r\u00E1zik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722121Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "A megbesz\u00E9l\u00E9s {0} perccel a tervezettn\u00E9l r\u00F6videbb ideig tart",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722121Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "T\u00FAll\u00E9p\u00E9si/alulfut\u00E1si \u00E9rtes\u00EDt\u00E9sek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722122Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "S\u00F6t\u00E9t m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722122Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "K\u00F6zeli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722122Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Megtakar\u00EDt\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722123Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Friss\u00EDt\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722123Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfigur\u00E1l\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722123Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Hozz\u00E1f\u00E9r\u00E9s k\u00E9r\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722123Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Elvet\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722124Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "A tal\u00E1lkoz\u00F3 kezdete:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722124Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Szkennel\u00E9s mobileszk\u00F6zzel a web\u00F3ra megtekint\u00E9s\u00E9hez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722124Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platform:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722125Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "\u00C1llapot:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722125Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Teljes k\u00E9perny\u0151s m\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722125Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Id\u0151 n\u00F6vel\u00E9se (\u002B1 perc). Kattintson jobb gombbal a tov\u00E1bbi lehet\u0151s\u00E9gek\u00E9rt.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722125Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Cs\u00F6kkentse az id\u0151t (-1 perc). Kattintson jobb gombbal a tov\u00E1bbi lehet\u0151s\u00E9gek\u00E9rt.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722126Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Id\u0151z\u00EDt\u00E9si jelent\u00E9s gener\u00E1l\u00E1sa (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722126Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Visszasz\u00E1ml\u00E1l\u00F3 megjelen\u00EDt\u00E9se",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722126Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "\u00DAj verzi\u00F3 el\u00E9rhet\u0151",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722126Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Be\u00E1ll\u00EDt\u00E1sok",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722127Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Seg\u00EDts\u00E9g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722127Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "\u00D6sszeh\u00FAz\u00E1s kompakt m\u00F3dba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722127Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 m\u00E1sodperc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722128Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 perc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722128Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 perc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722128Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 m\u00E1sodperc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722128Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 perc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722129Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 perc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722129Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "H\u00C1L\u00D3ZATI ENGED\u00C9LYEK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722129Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash id\u0151z\u00EDt\u0151 hosszabb\u00EDt\u00E1s alatt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722129Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Csenget\u00E9s hosszabb\u00EDt\u00E1skor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72213Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "K\u00E9sz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72213Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Fut\u00E1s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72213Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Sz\u00FCneteltetett",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.72213Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "T\u00FAl\u00F3ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722131Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Le\u00E1ll\u00EDtva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722131Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Adja meg a hozz\u00E1f\u00E9r\u00E9si k\u00F3dot...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722131Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "perc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722132Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigur\u00E1lva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722132Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nincs konfigur\u00E1lva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:10.722132Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:10.722143Z"
+}

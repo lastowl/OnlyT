@@ -1,0 +1,90 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:clock="using:OnlyT.Avalonia.Controls.AnalogueClock">
+
+    <Style Selector="clock|ClockControl">
+        <Setter Property="Width" Value="500"/>
+        <Setter Property="Height" Value="500"/>
+        <Setter Property="Template">
+            <ControlTemplate>
+                <Viewbox Stretch="Uniform">
+                    <Canvas Name="ClockCanvas" Width="500" Height="500">
+                        <!-- Outer dial (background) -->
+                        <Ellipse Name="OuterDial"
+                                 Width="500" Height="500"
+                                 Canvas.Left="0" Canvas.Top="0"
+                                 Fill="#2C2C2C"
+                                 Stroke="#404040"
+                                 StrokeThickness="2"/>
+
+                        <!-- Middle dial -->
+                        <Ellipse Name="MiddleDial"
+                                 Width="480" Height="480"
+                                 Canvas.Left="10" Canvas.Top="10"
+                                 Fill="#1E1E1E"/>
+
+                        <!-- Inner dial (white clock face like WPF original) -->
+                        <Ellipse Name="InnerDial"
+                                 Width="466" Height="466"
+                                 Canvas.Left="17" Canvas.Top="17"
+                                 Fill="White"/>
+
+                        <!-- Duration sector paths (for timer visualization) -->
+                        <Path Name="SectorPath1" Fill="#99FF99" Stroke="#dddddd" StrokeThickness="1"/>
+                        <Path Name="SectorPath2" Fill="#E6FFE6" Stroke="#dddddd" StrokeThickness="1"/>
+                        <Path Name="SectorPath3" Fill="#FFB399" Stroke="#dddddd" StrokeThickness="1"/>
+
+                        <!-- Hour hand - black, thick -->
+                        <Line Name="HourHand"
+                              StartPoint="0,-120"
+                              EndPoint="0,0"
+                              Stroke="Black"
+                              StrokeThickness="18"
+                              StrokeLineCap="Round"
+                              Canvas.Left="250"
+                              Canvas.Top="250">
+                            <Line.RenderTransform>
+                                <RotateTransform Angle="0" CenterX="0" CenterY="0"/>
+                            </Line.RenderTransform>
+                        </Line>
+
+                        <!-- Minute hand - black, medium -->
+                        <Line Name="MinuteHand"
+                              StartPoint="0,-160"
+                              EndPoint="0,0"
+                              Stroke="Black"
+                              StrokeThickness="12"
+                              StrokeLineCap="Round"
+                              Canvas.Left="250"
+                              Canvas.Top="250">
+                            <Line.RenderTransform>
+                                <RotateTransform Angle="0" CenterX="0" CenterY="0"/>
+                            </Line.RenderTransform>
+                        </Line>
+
+                        <!-- Second hand - red, thin, with tail -->
+                        <Line Name="SecondHand"
+                              StartPoint="0,-190"
+                              EndPoint="0,40"
+                              Stroke="Firebrick"
+                              StrokeThickness="2"
+                              Canvas.Left="250"
+                              Canvas.Top="230">
+                            <Line.RenderTransform>
+                                <RotateTransform Angle="0" CenterX="0" CenterY="0"/>
+                            </Line.RenderTransform>
+                        </Line>
+
+                        <!-- Centre point -->
+                        <Ellipse Name="CentrePointDial"
+                                 Width="30" Height="30"
+                                 Canvas.Left="235" Canvas.Top="235"
+                                 Fill="#FFD1D1D1"
+                                 Stroke="Black"
+                                 StrokeThickness="3"/>
+                    </Canvas>
+                </Viewbox>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+</Styles>

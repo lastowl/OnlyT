@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "cy",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Mae\u0027r gloch yn weithredol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883709Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Dim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883709Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Unffordd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88371Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dwyffordd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883711Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Fersiwn meddalwedd {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883711Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 awr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883712Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 awr (sero blaenllaw)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883712Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 awr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883713Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 awr (sero blaenllaw)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883713Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Methwyd creu ffolder {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883713Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Hyd wedi\u0027i addasu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883714Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Hyd wedi\u0027i addasu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883714Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Hyd gwreiddiol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883715Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883715Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog a Digidol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883715Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digidol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883716Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Mae\u0027r gloch yn anactif",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883716Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Canol wythnos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883717Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Gweinidogaeth - Eitem 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883717Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Gweinidogaeth - Eitem 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883717Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Gweinidogaeth - Eitem 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883718Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Awtomatig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883718Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Yn seiliedig ar ffeiliau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883719Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Llawlyfr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883719Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Sgwrs Gloi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88372Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Sylwadau Cloi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88372Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Astudiaeth Feiblaidd y Gynulleidfa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883721Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Gemau Ysbrydol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883721Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Byw - Rhan 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883721Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Byw - Rhan 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883722Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Sylwadau Agoriadol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883722Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Cyflwyniadau\u0027r Mis Hwn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883723Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Sgwrs Gyhoeddus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883723Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Darlleniad Beiblaidd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883723Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Sgwrs Gwasanaeth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883724Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Sgwrs Trysorau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883724Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Astudiaeth T\u0175r Gwylio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883725Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Penwythnos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883725Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 awr (yb/yp)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883725Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 awr (sero blaenllaw ac am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883726Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Dim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883726Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Nid yw\u0027r gosodiadau ar gael tra bod yr amserydd yn rhedeg!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883726Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Gosodiadau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883727Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Trysorau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883727Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Gweinidogaeth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883728Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Byw",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883728Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Penwythnos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883728Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Gosodiadau wedi\u0027u hanalluogi gan y gweinyddwr!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883729Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Gweinidogaeth - Eitem 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883729Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ymweliad \u00E2\u0027r gylchdaith",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883729Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "CYFRIF I LAWR CAU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88373Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Cymorth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88373Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ymweliad cylchdaith]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883731Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Fersiwn newydd ar gael!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883731Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PRIF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883731Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Cod mynediad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883732Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Modd addasol canol wythnos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883732Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Modd addasol penwythnos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883733Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Caniat\u00E1u newid cyfrif i fyny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883733Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Bob amser ar y brig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883734Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APIAU O BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883734Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODD AWTOMATIG",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883734Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "CLOCH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883734Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "CLOC GWE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883735Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "CYFRIF I LAWR Y CYFARFOD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883735Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Togl ymweliad cylchdaith",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883735Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Fformat cloc digidol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883736Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Wedi\u0027i alluogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883736Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Modd cloc sgrin lawn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883737Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Cyfeiriad IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883737Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Cyfarfod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883737Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Amseroedd cychwyn cyfarfodydd (1 fesul llinell)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883738Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "AMRYWIOL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883738Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883738Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Dangos pwyntydd y llygoden",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883739Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Rhowch bob amser cychwyn ar linell newydd.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883739Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Defnyddiwch unrhyw fformat amser rydych chi\u0027n ei hoffi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883739Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Gallwch gynnwys diwrnod yn ddewisol, e.e. \u0022Iau 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88374Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Nodiadau:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88374Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PORTH AGOR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883741Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Modd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883741Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Parhau ag amser myfyrwyr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883741Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Parhau i barhau i siarad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883742Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Porthladd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883742Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "MYNEDIAD O BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883742Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Dangos sector ar gloc analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883743Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Lled sgrin hollt:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883743Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "PRAWF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883743Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Wedi\u0027i gyfyngu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883744Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Mae\u0027r amserydd yn cyfrif i fyny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883744Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "FFENEST AMSERYDD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883745Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Amser y dydd o dan yr amserydd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883745Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Cyfrol:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883745Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Iaith",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883746Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Ailgychwynwch OnlyT ar \u00F4l newid yr iaith.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883746Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Lleihau 1m\nCtrl - Lleihau 15e\nShift - Lleihau 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883746Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Cynyddu 1m\nCtrl - Cynyddu 15e\nShift - Cynyddu 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883747Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Modd \u00E2 llaw",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883747Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Cyfrif i lawr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883747Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Cyfrif i fyny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883747Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} eiliad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883748Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Wedi\u0027i alluogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883748Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Wedi\u0027i alluogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883748Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Wedi\u0027i alluogi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883749Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Dangos eiliadau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883749Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Dangos ffr\u00E2m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88375Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Ffr\u00E2m cloc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88375Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Lefel chwyddo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88375Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Lleoliad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883751Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Gwaelod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883751Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Chwith isaf",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883752Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Dde isaf",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883752Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Canolfan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883752Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Chwith",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883753Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Dde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883753Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Top",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883753Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Chwith uchaf",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883754Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Uchaf ar y dde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883754Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Iawn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883755Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Porthladd wedi\u0027i agor a archeb wedi\u0027i gwneud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883755Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Methwyd agor y porthladd (gweler y log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883755Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Adroddiad amseru wedi\u0027i gynhyrchu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883756Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Cynhyrchu adroddiadau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883756Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Segment Cloi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883757Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Segment Dros Dro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883757Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Segment Cyflwyniadol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883757Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Lefel logio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883758Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Dadfygio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883758Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Gwall",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883759Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Angheuol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883759Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Gwybodaeth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883759Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Llawer o Amlwg",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88376Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Rhybudd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88376Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Dadansoddi data amserydd cyfarfodydd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88376Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Adroddiad NI chafodd ei gynhyrchu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88376Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "GOLWG",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883761Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Swnio\u0027n awtomatig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883761Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Cliciwch i ganu\u0027r gloch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883761Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Hyd (munudau)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883763Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elfennau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883763Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Deialu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883763Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Deialu a digidol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883764Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digidol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883764Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Cefndir tryloyw",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883764Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Nodwch fod y monitor yn cael ei reoli gan osodiad llinell orchymyn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883765Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Graddiant cefndir yr amserydd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883765Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Graddiant cefndir cloc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883765Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Ffr\u00E2m amserydd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883766Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Cloc fflat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883766Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Mae\u0027r penwythnos yn cynnwys dydd Gwener",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883767Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ffenestredig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883767Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ffenestredig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883767Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Cau\u0027r Ffenestr Cyfrif i Lawr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883768Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Methu agor cyfrif i lawr \u0022mewn ffenestr\u0022 tryloyw",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883768Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Cloc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883768Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Amseryddion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883769Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "all-lein...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883769Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Lleihau wrth leihau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883769Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "cynradd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88377Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Sylwch fod allbwn wedi\u0027i osodi i NDI trwy osodiad llinell orchymyn.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88377Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "A ddylech chi fod wedi cychwyn yr amserydd?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88377Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Atgofion naidlen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883771Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Mae\u0027r cyfarfod yn rhedeg am {0} munud o oramser",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883771Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Mae\u0027r cyfarfod yn rhedeg {0} munud yn rhy hwyr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883772Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Hysbysiadau gor-redeg/tan-redeg",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883772Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Modd tywyll",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883772Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Cau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883773Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Cadw",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883773Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Adnewyddu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883773Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Ffurfweddu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883774Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Gofyn am Fynediad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883774Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Diystyru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883774Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Mae\u0027r cyfarfod yn dechrau yn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883775Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Sganiwch gyda dyfais symudol i weld cloc y we",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883775Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platfform:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883775Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Statws:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883776Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Modd Sgrin Llawn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883776Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Cynyddwch yr amser (\u002B1 munud). Cliciwch ar y dde am fwy o opsiynau.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883776Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Lleihau\u0027r amser (-1 munud). Cliciwch ar y dde am fwy o opsiynau.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883777Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Cynhyrchu adroddiad amseru (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883777Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Dangos yr amserydd cyfrif i lawr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883777Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Fersiwn newydd ar gael",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883778Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Gosodiadau",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883778Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Cymorth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883778Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Lleihau i\u0027r modd cryno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883779Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 eiliad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883779Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 munud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88378Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 munud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88378Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 eiliad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.88378Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 munud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883781Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 munud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883781Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "CANIAT\u00C2DAU RHWYDWAITH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883782Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Amserydd Flash yn ystod Goramser",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883782Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Canwch y Gloch Pan fyddwch chi\u0027n Chwarae Goramser",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883782Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Parod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883782Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Rhedeg",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883783Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Wedi\u0027i oedi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883783Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Goramser",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883783Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Wedi stopio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883784Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Rhowch y cod mynediad...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883784Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "munud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883784Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Wedi\u0027i ffurfweddu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883785Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Heb ei Ffurfweddu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.883785Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:24.883799Z"
+}

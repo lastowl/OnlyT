@@ -8,10 +8,37 @@ Windows Meeting Timer using C#, WPF and custom analogue clock control. Designed 
 
 ### System Requirements
 
+**Windows (WPF Version):**
 * Windows 10
 * 2GB RAM
 * 20MB Hard disk space
 * Internet connection (for "Automatic" Operating Mode only)
+
+**Cross-Platform (Avalonia Version):**
+* Windows 10 or later / macOS 10.15 or later / Linux with GTK3
+* 2GB RAM
+* 30MB Hard disk space
+* Internet connection (for "Automatic" Operating Mode only)
+
+### Cross-Platform Support
+
+OnlyT now includes a cross-platform version built with Avalonia UI that runs on **Windows, macOS, and Linux**!
+
+The original Windows WPF version (`OnlyT` project) remains unchanged and fully supported. The cross-platform version (`OnlyT.Avalonia` project) provides the same functionality across all platforms while sharing most of the business logic.
+
+**Building the Cross-Platform Version:**
+
+```bash
+# On Linux/macOS
+./build-cross-platform.sh
+
+# On Windows
+build-cross-platform.cmd
+```
+
+This will build versions for Windows, macOS (both Intel and Apple Silicon), and Linux.
+
+For more information about the cross-platform version, see [OnlyT.Avalonia/README.md](OnlyT.Avalonia/README.md).
 
 ### Download
 

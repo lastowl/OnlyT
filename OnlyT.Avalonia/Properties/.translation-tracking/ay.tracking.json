@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ay",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell ukax activo ukhamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684696Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Janiwkhitisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684697Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "M\u00E4 thakhinjam sara\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684698Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "P\u00E4 thakhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684698Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Software ukax {0} ukan u\u00F1t\u0027ayatawa.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684699Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 horanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.6847Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-hora (nayr\u00EFr cero) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684701Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 pachanakawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684701Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 pacha (nayr\u00EFr cero) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684702Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Janiw carpeta {0} lura\u00F1jamakiti.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684703Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Adaptado kuna pachasa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684703Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Mayjt\u2019ayata pachana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684704Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Qalltanx kuna pachas utjani",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684704Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Anal\u00F3gico satawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684705Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Anal\u00F3gico ukat Digital ukanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684705Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digital ukan u\u00F1t\u2019ayata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684706Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell ukax inactivo ukhamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684706Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Chika semananxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684707Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerio - 1 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684708Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerio - 2 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684708Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerio - 3 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684709Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Autom\u00E1tico ukhamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684709Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Archivo ukarjam u\u00F1t\u2019ayata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68471Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Amparampi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68471Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Tukuya\u00F1ataki Arst\u02BC\u00E4wi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684711Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Tukuya\u00F1ataki Arunaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684712Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Taman Bibliat Yatjjata\u00F1ataki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684712Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Ajayun Gemas ukanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684713Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Jaka\u00F1a - 1 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684713Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Jaka\u00F1a - 2 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684714Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Jisk\u2019a Arunaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684714Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Jichha Phaxsin U\u00F1acht\u2019\u00E4winakapa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684715Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Jaqinakan Arst\u2019\u00E4wipa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684716Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Biblia Liyt\u02BCa\u00F1ataki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684716Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Servicio tuqit Arst\u02BC\u00E4wi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684716Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Tesoros ukanakat parlt\u02BCa\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684717Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Yatiya\u00F1ataki revistat yatjjata\u00F1ataki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684718Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Siman tukuya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684718Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 pacha (am/pm) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684719Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-hora (cero nayr\u00EFr \u0026 am/pm) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684719Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Janiwkhitisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68472Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "\u00A1Ajustes ukax janiw utjkiti kunawsatix tiempox apnaqaski ukhaxa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68472Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684721Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Tesoros ukanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684721Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Yatiya\u00F1ataki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684722Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Jaka\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684722Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Siman tukuya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684723Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "\u00A1Ajustes ukax administrador ukan jan ch\u2019amanchatawa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684723Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerio - 4 t\u2019aqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684724Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Circuito ukar sara\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684725Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "JANK\u2019A JANK\u2019AK UTJA\u00D1APATAKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684725Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Yanapa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684726Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[circuito ukar sara\u00F1a].",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684727Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "\u00A1Machaq versi\u00F3n ukax utjiwa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684727Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "WAKISKIRI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684727Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "C\u00F3digo de acceso ukaxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684728Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Modo adaptativo chika semananxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684729Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Modo adaptativo ukax semana tukuyankiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684729Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Jakhuwi-up toggle ukar jaysa\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68473Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Sapa kutiw patat u\u00F1t\u2019ayasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68473Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "REMOTO APPS ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684731Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODO AUTOM\u00C1TICO ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684731Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684732Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "RELOJ WEB UKAX UTJKI UKANAKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684732Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "TANTACHASI\u00D1ATAKI JANK\u2019AK ARSU\u00D1ATAKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684733Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Circuito ukar visitt\u2019a\u00F1ax toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684733Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Reloj digital ukax formato ukaniwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684734Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Ukax ch\u2019amanchatawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684734Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Pantalla phuqhat reloj u\u00F1acht\u2019aya\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684735Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP u\u00F1t\u2019ayawi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684735Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Tantach\u00E4wi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684736Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Tantachasi\u00F1 qallta\u00F1 pachanaka (1 sapa l\u00EDnea) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684736Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "MISILANYAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684737Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Pantalla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684737Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "U\u00F1acht\u2019aya\u00F1a mouse puntero",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684738Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Sapa qallta pachaxa machaq chiqaru ucha\u00F1awa.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684738Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "\u00A1Kuna formato de tiempo apnaqa\u00F1as wakisispa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684739Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Ukhamaraki, m\u00E4 urux u\u00F1t\u2019ayatarakiwa, p.e. \u0022Jue 19:15 pacha\u0022.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68474Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Qhansuyinaka:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68474Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PUERTO JISKT\u2019A\u00D1ATAKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684741Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Modo ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684741Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Yatiqirinakan pachapar jan jaytja\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684742Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Kuna pachas arst\u2019a\u00F1ax wakisispa uk jan jaytja\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684743Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Puyrtu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684743Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "JAYA JAQINAKAN MANQ\u2019A\u00D1ANAKAPA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684744Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "U\u00F1acht\u2019aya\u00F1a sector ukaxa reloj anal\u00F3gico ukankiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684744Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Pantalla jaljata ancho: 1.1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684745Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "YANT\u0027A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684745Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Ukax m\u00E4 estrangulador ukhamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684746Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Tiempo ukax jakthapitawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684746Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "VENTANA TIMER UKAXA WAKICHATAWA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684747Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Urun pachax pachaparjamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684747Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Wulumina:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684748Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Aru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684748Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Ukhamaraki, OnlyT ukax aru mayjt\u2019aya\u00F1 tukuyatat wasitat qallta\u00F1a.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684749Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Jisk\u2019acha\u00F1a 1m\nCtrl - Jisk\u2019acha\u00F1a 15s\nTurno - Jisk\u2019acha\u00F1a 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684749Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Jiltawi 1m\nCtrl - Jisk\u2019a 15s\nTurno - Jiltawi 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68475Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Modo manual ukaxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68475Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Ukax akham sa\u00F1 muni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684751Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Jakhu\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684751Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} segundonaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684753Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Ukax ch\u2019amanchatawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684753Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Ukax ch\u2019amanchatawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684754Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Ukax ch\u2019amanchatawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684754Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Segundanaka u\u00F1acht\u2019aya\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684754Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "U\u00F1acht\u2019aya\u00F1a marco",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684755Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Reloj ukan marcopa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684755Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Nivel de zoom ukax akhamawa:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684756Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Kawkhachiqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684757Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Aynacha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684757Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Uka manqhanxa ch\u2019iqa tuqiru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684758Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Uka aynacharu ch\u2019iqa tuqiru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684758Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Chika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684759Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Ch\u0027iqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684759Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Waliki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68476Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Alaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68476Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Pata ch\u2019iqa tuqiru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684761Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Uka pata tuqiruxa ch\u2019iqa tuqiru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684761Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "WALIKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684762Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Puerto jist\u2019aratawa ukatxa reserva ukaxa luratarakiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684763Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "\u00A1Janiw puerto jist\u2019ara\u00F1jam\u00E4k\u00E4nti (registro u\u00F1xatt\u2019a\u00F1a)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684763Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "U\u00F1stayata pacha yatiyawi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684763Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Yatiyawinak lura\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684764Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Tukuya\u00F1ataki Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684764Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Segmento Interino ukaxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684765Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Qallta\u00F1ataki Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684765Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Nivel de registro ukaxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684766Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684766Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Pantja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684767Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Sint\u0027ata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684767Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Yatiy\u00E4wi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684768Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Verboso ukat juk\u2019ampinaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684768Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Yatiyawi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684769Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Tantach\u00E4w pacha u\u00F1akipa\u00F1 yatiyawinak u\u00F1akipa\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684769Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "\u00A1Yatiy\u00E4wix JANIW generat\u00E4kiti!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684769Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "NAYRA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68477Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Autom\u00E1ticamente ukax sonido ukhamawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68477Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Campana ist\u2019a\u00F1atakis ch\u2019iqt\u2019a\u00F1amawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684771Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Kuna pachakamasa (mins) 1.1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684771Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementos ukanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684772Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684772Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Marcaci\u00F3n ukat digital ukanak u\u00F1t\u2019aya\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684773Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digital ukan u\u00F1t\u2019ayata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684773Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Transparente u\u00F1tawi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684774Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Qhanacht\u2019a\u00F1atakix monitor ukax m\u00E4 comando-linea ukan utt\u2019ayatawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684774Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Timer ukax gradiente de fondo ukankiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684774Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Reloj qhip\u00E4xan gradiente",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684775Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Marco de tiempo ukaxa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684775Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Reloj plano satawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684776Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Semana tukuyanx viernes uruw utji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684776Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ventananakampi u\u00F1t\u2019atawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684777Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ventananakampi u\u00F1t\u2019atawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684777Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Jisk\u2019a Conteo Regresiva Ventana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684778Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Janiw qhana \u0022ventana\u0022 jakthapiwi jist\u0027ara\u00F1jamakiti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684778Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Riluju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684778Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Tiempo u\u00F1t\u2019atanaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684779Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "jan u\u00F1t\u0027ata...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684779Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Ukhama jisk\u2019acha\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68478Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "nayriri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68478Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Qhanacht\u2019a\u00F1atakix mistuwix NDI ukar u\u00F1t\u2019ayatawa m\u00E4 kamachi-linea ukan utt\u2019ayata.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684781Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u00BFTiempo u\u00F1t\u2019aya\u00F1 qallta\u00F1ax wakisispati?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684781Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Pop-up amtawinaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684782Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Tantach\u00E4wix {0} minutos ukjaw juk\u2019amp pachax sarantaski",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684782Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Tantach\u00E4wix {0} minutos ukjaw sarantaski",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684783Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Overrun/Underrun yatiyawinak u\u00F1t\u2019aya\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684783Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Ch\u2019amaka modalidad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684784Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Jist\u0027anta\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684784Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ima\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684785Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Refresco lura\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684785Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Configurar u\u00F1t\u2019aya\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684785Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "U\u00F1t\u2019aya\u00F1ataki mayi\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684786Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Khitanuku\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684786Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Tantach\u00E4wix 1000 maran qalltawayi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684787Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Dispositivo m\u00F3vil ukampiw escanear reloj web u\u00F1akipa\u00F1ataki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684787Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Palataphurma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684788Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Istaru:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684788Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Modo de Pantalla Phuqata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684789Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa (\u002B1 min). Ch\u2019iqa tuqiru ch\u2019iqt\u2019a\u00F1a juk\u2019ampi amtawinakataki.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684789Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Tiempo jisk\u2019acha\u00F1a (-1 min). Ch\u2019iqa tuqiru ch\u2019iqt\u2019a\u00F1a juk\u2019ampi amtawinakataki.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68479Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Uka pacha yatiyawi lura\u00F1a (PDF) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68479Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "U\u00F1acht\u2019aya\u00F1a jakthapiwi pacha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.68479Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Machaq versi\u00F3n ukax utjiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684791Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684791Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Yanapa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684792Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Ukax m\u00E4 modo compacto ukar u\u00F1tasitawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684792Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 segundos ukjawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684793Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minuto ukhawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684793Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minutos ukjawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684793Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 segundos ukjawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684794Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 t\u2019ijturjama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684794Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 t\u2019ijturjama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684795Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "RED UKAN PERMISO UKANAKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684795Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Timer Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684796Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Campana Timbre Kunapachatixa Jach\u2019a pachana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684796Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Waliki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684797Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Jala\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684797Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "M\u00E4 juk\u2019a samart\u2019a\u00F1a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684798Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Ukax m\u00E4 juk\u2019a pachanakanwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684798Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Sayt\u2019asiwayiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684799Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "C\u00F3digo de acceso ukar manta\u00F1amawa...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.684799Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.6848Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Ukax wakicht\u2019atawa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.6848Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Janiw Configurado ukham\u00E4kiti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:09.6848Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:28:09.684821Z"
+}

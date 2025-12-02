@@ -1,0 +1,99 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:OnlyT.Avalonia.ViewModels"
+        xmlns:clock="using:OnlyT.Avalonia.Controls.AnalogueClock"
+        xmlns:local="using:OnlyT.Avalonia.Converters"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+        x:Class="OnlyT.Avalonia.Views.TimerOutputWindow"
+        x:DataType="vm:TimerOutputViewModel"
+        Title="OnlyT Timer"
+        Icon="/Assets/icon.ico"
+        Width="800" Height="600"
+        WindowState="Normal"
+        Background="{Binding BackgroundColor}">
+
+    <Design.DataContext>
+        <vm:TimerOutputViewModel/>
+    </Design.DataContext>
+
+    <Grid RowDefinitions="*,Auto,Auto">
+        <!-- Main clock area (Row 0) -->
+        <Grid Grid.Row="0">
+            <!-- When both clocks visible: vertical stack layout -->
+            <Grid RowDefinitions="3*,2*"
+                  IsVisible="{Binding ShowBothClocks}">
+                <!-- Analogue clock on top (60% of space) -->
+                <Viewbox Grid.Row="0"
+                         Margin="10"
+                         Opacity="{Binding FlashOpacity}"
+                         Stretch="Uniform"
+                         StretchDirection="Both">
+                    <clock:ClockControl IsFlat="{Binding IsClockFlat}"
+                                        IsRunning="{Binding IsClockRunning}"
+                                        DurationSector="{Binding DurationSector}"
+                                        DigitalTimeFormat24Hours="{Binding DigitalTimeFormat24Hours}"
+                                        DigitalTimeFormatShowLeadingZero="{Binding DigitalTimeFormatShowLeadingZero}"
+                                        DigitalTimeFormatAMPM="{Binding DigitalTimeFormatAMPM}"
+                                        Width="500" Height="500"/>
+                </Viewbox>
+
+                <!-- Digital clock below (40% of space) -->
+                <Viewbox Grid.Row="1"
+                         Margin="10,0,10,10"
+                         Opacity="{Binding FlashOpacity}"
+                         Stretch="Uniform"
+                         StretchDirection="DownOnly">
+                    <TextBlock Text="{Binding TimeDisplay}"
+                               FontSize="200"
+                               FontWeight="Bold"
+                               FontFamily="Consolas,Courier New,monospace"
+                               Foreground="{Binding TextColor}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Viewbox>
+            </Grid>
+
+            <!-- Digital clock only (full size) -->
+            <Viewbox IsVisible="{Binding ShowDigitalClockOnly}"
+                     Opacity="{Binding FlashOpacity}">
+                <TextBlock Text="{Binding TimeDisplay}"
+                           FontSize="200"
+                           FontWeight="Bold"
+                           FontFamily="Consolas,Courier New,monospace"
+                           Foreground="{Binding TextColor}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </Viewbox>
+
+            <!-- Analogue clock only (full size with percentage control) -->
+            <Viewbox IsVisible="{Binding ShowAnalogueClockOnly}"
+                     Margin="20"
+                     Opacity="{Binding FlashOpacity}"
+                     MaxWidth="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToSizeConverter.Instance}}"
+                     MaxHeight="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToSizeConverter.Instance}}"
+                     Stretch="Uniform"
+                     StretchDirection="Both">
+                <clock:ClockControl IsFlat="{Binding IsClockFlat}"
+                                    IsRunning="{Binding IsClockRunning}"
+                                    DurationSector="{Binding DurationSector}"
+                                    DigitalTimeFormat24Hours="{Binding DigitalTimeFormat24Hours}"
+                                    DigitalTimeFormatShowLeadingZero="{Binding DigitalTimeFormatShowLeadingZero}"
+                                    DigitalTimeFormatAMPM="{Binding DigitalTimeFormatAMPM}"
+                                    Width="500" Height="500"/>
+            </Viewbox>
+        </Grid>
+
+        <!-- Time of day display -->
+        <TextBlock Grid.Row="2"
+                   Text="{Binding CurrentTimeOfDay}"
+                   IsVisible="{Binding ShowTimeOfDay}"
+                   FontSize="48"
+                   FontFamily="Consolas,Courier New,monospace"
+                   Foreground="{DynamicResource MaterialBodyLightBrush}"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+    </Grid>
+
+</Window>

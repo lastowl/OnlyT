@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "fi",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Kello on aktiivinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270093Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Ei mit\u00E4\u00E4n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270094Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Yksisuuntainen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270094Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Kaksisuuntainen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270095Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Ohjelmistoversio {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270096Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 tunnin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270096Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 tuntia (etunolla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270097Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 tunnin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270098Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 tuntia (etunolla)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270098Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Kansiota {0} ei voitu luoda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270099Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Mukautettu kesto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270099Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Muokattu duraatio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.2701Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Alkuper\u00E4inen kesto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270101Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analoginen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270101Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analoginen ja digitaalinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270116Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digitaalinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270117Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Kello ei ole aktiivinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270118Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Keskiviikko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270118Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministeri\u00F6 - Kohta 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270119Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministeri\u00F6 - Kohta 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270119Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministeri\u00F6 - Kohta 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27012Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automaattinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270121Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Tiedostopohjainen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270122Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manuaalinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270122Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Loppupuhe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270123Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Loppup\u00E4\u00E4telm\u00E4t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270123Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Seurakunnan raamatuntutkistelu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270124Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Hengelliset jalokivet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270125Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "El\u00E4m\u00E4 - Osa 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270125Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "El\u00E4m\u00E4 - Osa 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270126Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Avauskommentit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270126Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "T\u00E4m\u00E4n kuun esitykset",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270127Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Julkinen keskustelu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270127Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Raamatun lukeminen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270128Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Palvelukeskustelu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270129Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Aarteiden keskustelu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270129Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Vartiotornin tutkistelu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27013Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Viikonloppu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27013Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 tuntia (aamu/iltap\u00E4iv\u00E4)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270131Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-tuntinen (etunolla ja am/ip)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270131Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Ei mit\u00E4\u00E4n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270132Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Asetukset eiv\u00E4t ole k\u00E4ytett\u00E4viss\u00E4 ajastimen ollessa k\u00E4ynniss\u00E4!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270132Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Asetukset",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270133Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Aarteita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270133Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministeri\u00F6",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270134Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Asuminen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270135Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Viikonloppu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270135Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Asetukset on poistettu k\u00E4yt\u00F6st\u00E4 j\u00E4rjestelm\u00E4nvalvojan toimesta!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270136Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministeri\u00F6 - Kohta 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270136Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Kiertuevierailu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270137Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "SULJE L\u00C4HT\u00D6LASKENTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270137Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Auttaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270138Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[piirivierailu]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270139Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Uusi versio saatavilla!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270139Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "P\u00C4\u00C4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27014Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "P\u00E4\u00E4sykoodi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27014Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Keskiviikon mukautuva tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270141Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Viikonlopun mukautuva tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270141Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Salli laskuri p\u00E4\u00E4lle/pois",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270142Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Aina huipulla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270142Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "ET\u00C4SOVELLUKSET",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270143Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMAATTINEN TILA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270143Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "KELLO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270144Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "VERKKOKELLO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270144Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "KOKOUSLASKENTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270145Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Piirin vierailun vaihto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270145Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digitaalinen kellomuoto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270146Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "K\u00E4yt\u00F6ss\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270146Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Koko n\u00E4yt\u00F6n kellotila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270147Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-osoite",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270147Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Kokous",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270148Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Kokouksen alkamisajat (1 rivi\u00E4 kohden)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270148Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "SEKALAISET",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270149Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "N\u00E4ytt\u00F6",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270149Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "N\u00E4yt\u00E4 hiiren osoitin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27015Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Kirjoita jokainen aloitusaika uudelle riville.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27015Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "K\u00E4yt\u00E4 mit\u00E4 tahansa haluamaasi aikamuotoa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270151Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Voit halutessasi lis\u00E4t\u00E4 p\u00E4iv\u00E4n, esim. \u0022to 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270151Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Huomautuksia:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270152Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "AVOIN PORTTI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270152Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270152Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Pid\u00E4 opiskelija-aikaa yll\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270153Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Jatka puheen kestoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270154Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Portti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270154Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "ET\u00C4K\u00C4YTT\u00D6",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270155Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "N\u00E4yt\u00E4 sektori analogisella kellolla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270155Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Jaetun n\u00E4yt\u00F6n leveys:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270156Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TESTATA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270156Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Kaasutettu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270157Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Ajastin laskee yl\u00F6sp\u00E4in",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270157Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "AJASTINIKKUNA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270158Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Kellonaika ajastimen alla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270158Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Tilavuus:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270159Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Kieli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270159Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "K\u00E4ynnist\u00E4 OnlyT uudelleen kielen vaihtamisen j\u00E4lkeen.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27016Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "V\u00E4henn\u00E4 1 min\nCtrl - V\u00E4henn\u00E4 15 s\nShift - V\u00E4henn\u00E4 5 min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27016Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Lis\u00E4\u00E4 1 min\nCtrl - Lis\u00E4\u00E4 15 s\nShift - Lis\u00E4\u00E4 5 min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270161Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manuaalinen tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270161Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Lasketaan alas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270162Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Laskeminen yl\u00F6sp\u00E4in",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270162Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekuntia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270163Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "K\u00E4yt\u00F6ss\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270163Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "K\u00E4yt\u00F6ss\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270164Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "K\u00E4yt\u00F6ss\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270164Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "N\u00E4yt\u00E4 sekunnit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270165Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "N\u00E4yt\u00E4 kehys",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270165Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Kellon kehys",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270166Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Zoomaustaso:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270166Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Sijainti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270167Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Pohja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270167Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Vasen alakulma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270168Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Oikeassa alakulmassa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270168Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Keskusta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270169Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Vasen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27017Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Oikea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27017Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Yl\u00E4osa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270171Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Ylh\u00E4\u00E4ll\u00E4 vasemmalla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270171Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Oikeassa yl\u00E4kulmassa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270172Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "OK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270172Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Satama avattu ja varaus tehty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270173Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Porttia ei voitu avata (katso loki)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270173Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Luotu ajoitusraportti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270174Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Luo raportteja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270174Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "P\u00E4\u00E4t\u00F6sosio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270175Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "V\u00E4livaihe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270175Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Johdanto-osa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270176Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Kirjaustaso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270176Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Virheenkorjaus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270177Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Virhe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270178Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Kuolemaan johtava",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270178Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Tiedot",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270179Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Monisanainen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270179Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Varoitus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27018Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Kokousajastindatan analysointi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27018Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Raporttia EI luotu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270181Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "N\u00C4KYM\u00C4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270181Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "\u00C4\u00E4ni automaattisesti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270182Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Klikkaa soittaaksesi kelloa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270182Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Kesto (min)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270183Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270183Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Soita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270184Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Valinta- ja digitaalinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270184Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digitaalinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270185Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "L\u00E4pin\u00E4kyv\u00E4 tausta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270185Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Huomaa, ett\u00E4 n\u00E4ytt\u00F6\u00E4 ohjataan komentoriviasetuksella",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270186Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Ajastimen taustagradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270186Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Kellon taustagradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270187Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Ajastimen kehys",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270187Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Litte\u00E4 kello",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270188Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Viikonloppu sis\u00E4lt\u00E4\u00E4 perjantain",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270189Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ikkunallinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270189Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ikkunallinen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27019Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Sulje l\u00E4ht\u00F6laskentaikkuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27019Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "L\u00E4pin\u00E4kyv\u00E4\u00E4 \u0022ikkunoitua\u0022 l\u00E4ht\u00F6laskentaa ei voi avata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270191Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Kello",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270191Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Ajastimet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270192Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline-tilassa...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270192Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Kutista minimoinnin yhteydess\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270193Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "ensisijainen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270193Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Huomaa, ett\u00E4 l\u00E4ht\u00F6asetukseksi asetetaan NDI komentoriviasetuksella.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270194Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Olisitko pit\u00E4nyt k\u00E4ynnist\u00E4\u00E4 ajastin?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270194Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Ponnahdusikkunamuistutukset",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270195Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Kokous jatkuu {0} minuuttia ylity\u00F6aikaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270195Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Kokous on {0} minuuttia alle aikataulun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270196Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Ylitys-/alitusilmoitukset",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270196Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tumma tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270197Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "L\u00E4hell\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270197Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Tallentaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270198Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "P\u00E4ivit\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270198Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "M\u00E4\u00E4rit\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270199Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Pyyd\u00E4 k\u00E4ytt\u00F6oikeutta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270199Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Hylk\u00E4\u00E4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.2702Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Kokous alkaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.2702Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skannaa mobiililaitteella n\u00E4hd\u00E4ksesi verkkokellon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270201Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Alusta:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270201Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Status:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270202Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Koko n\u00E4yt\u00F6n tila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270202Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Lis\u00E4\u00E4 aikaa (\u002B1 min). Napsauta hiiren kakkospainikkeella n\u00E4hd\u00E4ksesi lis\u00E4\u00E4 vaihtoehtoja.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270203Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Lyhenn\u00E4 aikaa (-1 min). Napsauta hiiren kakkospainikkeella n\u00E4hd\u00E4ksesi lis\u00E4\u00E4 vaihtoehtoja.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270203Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Luo ajoitusraportti (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270204Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "N\u00E4yt\u00E4 l\u00E4ht\u00F6laskenta-ajastin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270204Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Uusi versio saatavilla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270205Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Asetukset",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270205Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Auttaa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270206Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Pienenn\u00E4 kompaktiin tilaan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270215Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekuntia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270216Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minuutti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270217Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minuuttia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270217Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekuntia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270217Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minuutti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270218Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minuuttia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270218Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "VERKKO-OIKEUDET",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270219Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash-ajastin jatkoajalla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270219Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Soita kelloa jatkoajalla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27022Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Valmis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.27022Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Juoksu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270221Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Keskeytetty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270221Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Jatkoaika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270222Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Pys\u00E4htynyt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270222Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Sy\u00F6t\u00E4 p\u00E4\u00E4sykoodi...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270223Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270223Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "M\u00E4\u00E4ritetty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270224Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Ei m\u00E4\u00E4ritetty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:08.270224Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:08.270244Z"
+}

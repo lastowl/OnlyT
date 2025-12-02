@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "si",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "\u0DC3\u0DD3\u0DB1\u0DD4\u0DC0 \u0DC3\u0D9A\u0DCA\u200D\u0DBB\u0DD2\u0DBA\u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614795Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "\u0D9A\u0DD2\u0DC3\u0DD2\u0DC0\u0D9A\u0DCA \u0DB1\u0DD0\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614797Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "\u0D91\u0D9A \u0DB8\u0DCF\u0DBB\u0DCA\u0D9C\u0DBA\u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614798Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "\u0DAF\u0DCA\u0DC0\u0DD2-\u0DB8\u0DCF\u0DBB\u0DCA\u0D9C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614798Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "\u0DB8\u0DD8\u0DAF\u0DD4\u0D9A\u0DCF\u0D82\u0D9C \u0D85\u0DB1\u0DD4\u0DC0\u0DCF\u0DAF\u0DBA {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614799Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "\u0DB4\u0DD0\u0DBA 12",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.6148Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "\u0DB4\u0DD0\u0DBA 12 (\u0D89\u0DAF\u0DD2\u0DBB\u0DD2 \u0DB6\u0DD2\u0D82\u0DAF\u0DD4\u0DC0)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614801Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "\u0DB4\u0DD0\u0DBA 24 \u0DB4\u0DD4\u0DBB\u0DCF\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614802Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "\u0DB4\u0DD0\u0DBA-24 (\u0D89\u0DAF\u0DD2\u0DBB\u0DD2 \u0DB6\u0DD2\u0D82\u0DAF\u0DD4\u0DC0)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614803Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "{0} \u0DC6\u0DDD\u0DBD\u0DCA\u0DA9\u0DBB\u0DBA \u0DB1\u0DD2\u0DBB\u0DCA\u0DB8\u0DCF\u0DAB\u0DBA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DA7 \u0DB1\u0DDC\u0DC4\u0DD0\u0D9A\u0DD2 \u0DC0\u0DD2\u0DBA.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614804Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "\u0D85\u0DB1\u0DD4\u0DC0\u0DBB\u0DCA\u0DAD\u0DB1\u0DBA \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF \u0D9A\u0DCF\u0DBD \u0DC3\u0DD3\u0DB8\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614805Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "\u0DC0\u0DD9\u0DB1\u0DC3\u0DCA \u0D9A\u0DC5 \u0D9A\u0DCF\u0DBD \u0DC3\u0DD3\u0DB8\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614806Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "\u0DB8\u0DD4\u0DBD\u0DCA \u0D9A\u0DCF\u0DBD \u0DC3\u0DD3\u0DB8\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614806Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "\u0D87\u0DB1\u0DBD\u0DDC\u0D9C\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614807Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "\u0D87\u0DB1\u0DBD\u0DDC\u0D9C\u0DCA \u0DC3\u0DC4 \u0DA9\u0DD2\u0DA2\u0DD2\u0DA7\u0DBD\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614808Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "\u0DA9\u0DD2\u0DA2\u0DD2\u0DA7\u0DBD\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614809Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "\u0DC3\u0DD3\u0DB1\u0DD4\u0DC0 \u0D85\u0D9A\u0DCA\u200D\u0DBB\u0DD2\u0DBA\u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61481Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "\u0DC3\u0DAD\u0DD2\u0DBA \u0DB8\u0DD0\u0DAF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61481Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "\u0D85\u0DB8\u0DCF\u0DAD\u0DCA\u200D\u0DBA\u0DCF\u0D82\u0DC1\u0DBA - \u0D85\u0DBA\u0DD2\u0DAD\u0DB8\u0DBA 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614811Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "\u0D85\u0DB8\u0DCF\u0DAD\u0DCA\u200D\u0DBA\u0DCF\u0D82\u0DC1\u0DBA - \u0D85\u0DBA\u0DD2\u0DAD\u0DB8\u0DBA 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614812Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "\u0D85\u0DB8\u0DCF\u0DAD\u0DCA\u200D\u0DBA\u0DCF\u0D82\u0DC1\u0DBA - \u0D85\u0DBA\u0DD2\u0DAD\u0DB8\u0DBA 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614813Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "\u0DC3\u0DCA\u0DC0\u0DBA\u0D82\u0D9A\u0DCA\u200D\u0DBB\u0DD3\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614814Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "\u0D9C\u0DDC\u0DB1\u0DD4-\u0DB4\u0DCF\u0DAF\u0D9A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614815Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "\u0D85\u0DAD\u0DCA\u0DB4\u0DDC\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614816Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "\u0D85\u0DC0\u0DC3\u0DCF\u0DB1 \u0D9A\u0DAD\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614817Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "\u0D85\u0DC0\u0DC3\u0DCF\u0DB1 \u0D85\u0DAF\u0DC4\u0DC3\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614818Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "\u0DC3\u0DB7\u0DCF \u0DB6\u0DBA\u0DD2\u0DB6\u0DBD\u0DCA \u0DB4\u0DCF\u0DA9\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614819Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "\u0D86\u0DAD\u0DCA\u0DB8\u0DD2\u0D9A \u0DB8\u0DD0\u0DAB\u0DD2\u0D9A\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614819Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u0DA2\u0DD3\u0DC0\u0DAD\u0DCA\u0DC0\u0DD3\u0DB8 - 1 \u0D9A\u0DDC\u0DA7\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61482Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u0DA2\u0DD3\u0DC0\u0DAD\u0DCA\u0DC0\u0DD3\u0DB8 - 2 \u0D9A\u0DDC\u0DA7\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614821Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "\u0D86\u0DBB\u0DB8\u0DCA\u0DB7\u0D9A \u0D85\u0DAF\u0DC4\u0DC3\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614822Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "\u0DB8\u0DD9\u0DB8 \u0DB8\u0DCF\u0DC3\u0DBA\u0DDA \u0D89\u0DAF\u0DD2\u0DBB\u0DD2\u0DB4\u0DAD\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614823Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DC3\u0DD2\u0DAF\u0DCA\u0DB0 \u0D9A\u0DAD\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614823Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u0DB6\u0DBA\u0DD2\u0DB6\u0DBD\u0DCA \u0D9A\u0DD2\u0DBA\u0DC0\u0DD3\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614824Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "\u0DC3\u0DDA\u0DC0\u0DCF \u0D9A\u0DAD\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614825Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "\u0DB1\u0DD2\u0DB0\u0DB1\u0DCA \u0D9A\u0DAD\u0DCF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614825Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u0DB8\u0DD4\u0DBB\u0DA7\u0DD0\u0DB9 \u0DB4\u0DCF\u0DA9\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614827Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "\u0DC3\u0DAD\u0DD2 \u0D85\u0DB1\u0DCA\u0DAD\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614827Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "\u0DB4\u0DD0\u0DBA 12 (\u0DB4\u0DD9.\u0DC0./\u0DB4.\u0DC0.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614828Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "\u0DB4\u0DD0\u0DBA 12 (\u0D89\u0DAF\u0DD2\u0DBB\u0DD2\u0DBA\u0DD9\u0DB1\u0DCA \u0DB6\u0DD2\u0D82\u0DAF\u0DD4\u0DC0 \u0DC3\u0DC4 \u0DB4\u0DD9.\u0DC0./\u0DB4.\u0DC0.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614829Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "\u0D9A\u0DD2\u0DC3\u0DD2\u0DC0\u0D9A\u0DCA \u0DB1\u0DD0\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61483Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DBA \u0D9A\u0DCA\u200D\u0DBB\u0DD2\u0DBA\u0DCF\u0DAD\u0DCA\u0DB8\u0D9A \u0DC0\u0DB1 \u0D85\u0DAD\u0DBB\u0DAD\u0DD4\u0DBB \u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8\u0DCA \u0DB1\u0DDC\u0DB8\u0DD0\u0DAD!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614831Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "\u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614831Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "\u0DC0\u0DC3\u0DCA\u0DAD\u0DD4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614832Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "\u0D85\u0DB8\u0DCF\u0DAD\u0DCA\u200D\u0DBA\u0DCF\u0D82\u0DC1\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614833Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u0DA2\u0DD3\u0DC0\u0DB1 \u0DBB\u0DA7\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614834Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "\u0DC3\u0DAD\u0DD2 \u0D85\u0DB1\u0DCA\u0DAD\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614835Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "\u0DB4\u0DBB\u0DD2\u0DB4\u0DCF\u0DBD\u0D9A \u0DC0\u0DD2\u0DC3\u0DD2\u0DB1\u0DCA \u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8\u0DCA \u0D85\u0D9A\u0DCA\u200D\u0DBB\u0DD3\u0DBA \u0D9A\u0DBB \u0D87\u0DAD!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614835Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "\u0D85\u0DB8\u0DCF\u0DAD\u0DCA\u200D\u0DBA\u0DCF\u0D82\u0DC1\u0DBA - \u0D85\u0DBA\u0DD2\u0DAD\u0DB8\u0DBA 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614836Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "\u0DB4\u0DBB\u0DD2\u0DB4\u0DAE \u0DC3\u0D82\u0DA0\u0DCF\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614837Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8 \u0DC0\u0DC3\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614838Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "\u0D8B\u0DAF\u0DC0\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614839Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[\u0DB4\u0DBB\u0DD2\u0DB4\u0DAE \u0DC3\u0D82\u0DA0\u0DCF\u0DBB\u0DBA]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61484Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "\u0DB1\u0DC0 \u0D85\u0DB1\u0DD4\u0DC0\u0DCF\u0DAF\u0DBA \u0DAD\u0DD2\u0DB6\u0DDA!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61484Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DB0\u0DCF\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614841Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DC0\u0DDA\u0DC1 \u0D9A\u0DDA\u0DAD\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614842Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "\u0DC3\u0DAD\u0DD2 \u0DB8\u0DD0\u0DAF \u0D85\u0DB1\u0DD4\u0DC0\u0DBB\u0DCA\u0DAD\u0DB1 \u0DB8\u0DCF\u0DAF\u0DD2\u0DBD\u0DD2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614843Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "\u0DC3\u0DAD\u0DD2 \u0D85\u0DB1\u0DCA\u0DAD \u0D85\u0DB1\u0DD4\u0DC0\u0DBB\u0DCA\u0DAD\u0DB1 \u0DB8\u0DCF\u0DAF\u0DD2\u0DBD\u0DD2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614844Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DDA \u0DA7\u0DDC\u0D9C\u0DBD\u0DBA\u0DA7 \u0D89\u0DA9 \u0DAF\u0DD9\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614844Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "\u0DC3\u0DD0\u0DB8\u0DC0\u0DD2\u0DA7\u0DB8 \u0D89\u0DC4\u0DC5\u0DD2\u0DB1\u0DCA\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614845Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "\u0DAF\u0DD4\u0DBB\u0DC3\u0DCA\u0DAE \u0DBA\u0DD9\u0DAF\u0DD4\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614846Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "\u0DC3\u0DCA\u0DC0\u0DBA\u0D82\u0D9A\u0DCA\u200D\u0DBB\u0DD3\u0DBA \u0DB8\u0DCF\u0DAF\u0DD2\u0DBD\u0DD2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614846Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "\u0DB6\u0DD9\u0DBD\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614847Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "\u0DC0\u0DD9\u0DB6\u0DCA \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614848Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8\u0DCA \u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614848Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "\u0DB4\u0DBB\u0DD2\u0DB4\u0DAE \u0DB1\u0DD0\u0DBB\u0DB9\u0DD3\u0DB8\u0DCA \u0DA7\u0DDC\u0D9C\u0DBD\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614849Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "\u0DA9\u0DD2\u0DA2\u0DD2\u0DA7\u0DBD\u0DCA \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4 \u0D86\u0D9A\u0DD8\u0DAD\u0DD2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61485Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "\u0DC3\u0DB6\u0DBD \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614851Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "\u0DB4\u0DD6\u0DBB\u0DCA\u0DAB \u0DAD\u0DD2\u0DBB \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4 \u0DB4\u0DCA\u200D\u0DBB\u0D9A\u0DCF\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614852Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP \u0DBD\u0DD2\u0DB4\u0DD2\u0DB1\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614853Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614853Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8\u0DCA \u0D86\u0DBB\u0DB8\u0DCA\u0DB7\u0D9A \u0DC0\u0DDA\u0DBD\u0DCF\u0DC0\u0DB1\u0DCA (\u0DB4\u0DDA\u0DC5\u0DD2\u0DBA\u0D9A\u0DA7 1)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614854Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u0DC0\u0DD2\u0DC0\u0DD2\u0DB0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614855Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "\u0D85\u0DB0\u0DD3\u0D9A\u0DCA\u0DC2\u0DAB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614855Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "\u0DB8\u0DD6\u0DC3\u0DD2\u0D9A \u0DAF\u0DBB\u0DCA\u0DC1\u0D9A\u0DBA \u0DB4\u0DD9\u0DB1\u0DCA\u0DC0\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614856Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "\u0DC3\u0DD1\u0DB8 \u0D86\u0DBB\u0DB8\u0DCA\u0DB7\u0D9A \u0DC0\u0DDA\u0DBD\u0DCF\u0DC0\u0D9A\u0DCA\u0DB8 \u0DB1\u0DC0 \u0DBB\u0DDA\u0D9B\u0DCF\u0DC0\u0D9A \u0DAD\u0DB6\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614857Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "\u0D94\u0DB6 \u0D9A\u0DD0\u0DB8\u0DAD\u0DD2 \u0D95\u0DB1\u0DD1\u0DB8 \u0D9A\u0DCF\u0DBD \u0D86\u0D9A\u0DD8\u0DAD\u0DD2\u0DBA\u0D9A\u0DCA \u0DB7\u0DCF\u0DC0\u0DD2\u0DAD\u0DCF \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614857Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "\u0DC0\u0DD2\u0D9A\u0DBD\u0DCA\u0DB4\u0DBA\u0D9A\u0DCA \u0DBD\u0DD9\u0DC3 \u0DAF\u0DD2\u0DB1\u0DBA\u0D9A\u0DCA \u0D87\u0DAD\u0DD4\u0DC5\u0DAD\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1, \u0D8B\u0DAF\u0DCF. \u0022\u0DB6\u0DCA\u200D\u0DBB\u0DC4\u0DC3\u0DCA\u0DB4\u0DAD\u0DD2\u0DB1\u0DCA\u0DAF\u0DCF 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614858Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "\u0DC3\u0DA7\u0DC4\u0DB1\u0DCA:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614859Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "\u0DC0\u0DD2\u0DC0\u0DD8\u0DAD \u0DC0\u0DBB\u0DCF\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614859Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "\u0DB8\u0DCF\u0DAF\u0DD2\u0DBD\u0DD2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61486Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "\u0DC1\u0DD2\u0DC2\u0DCA\u200D\u0DBA \u0D9A\u0DCF\u0DBD\u0DBA \u0DAF\u0DD2\u0D9C\u0DA7\u0DB8 \u0D9A\u0DBB\u0D9C\u0DD9\u0DB1 \u0DBA\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614861Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "\u0DB1\u0DDC\u0DB1\u0DC0\u0DAD\u0DD2\u0DB1 \u0D9A\u0DAD\u0DCF \u0D9A\u0DCF\u0DBD\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614861Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "\u0DC0\u0DBB\u0DCF\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614862Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "\u0DAF\u0DD4\u0DBB\u0DC3\u0DCA\u0DAE \u0DB4\u0DCA\u200D\u0DBB\u0DC0\u0DDA\u0DC1\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614863Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "\u0D87\u0DB1\u0DBD\u0DDC\u0D9C\u0DCA \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4\u0DC0\u0DDA \u0D85\u0D82\u0DC1\u0DBA \u0DB4\u0DD9\u0DB1\u0DCA\u0DC0\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614864Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "\u0DAD\u0DD2\u0DBB \u0DB6\u0DD9\u0DAF\u0DD3\u0DB8\u0DDA \u0DB4\u0DC5\u0DBD:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614865Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "\u0DB4\u0DBB\u0DD3\u0D9A\u0DCA\u0DC2\u0DAB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614865Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "\u0DAD\u0DBD\u0DCA\u0DBD\u0DD4 \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614866Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DBA \u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DBB\u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614867Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DCA \u0D9A\u0DC0\u0DD4\u0DC5\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614867Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DBA \u0DBA\u0DA7\u0DAD\u0DDA \u0DAF\u0DC0\u0DC3\u0DDA \u0DC0\u0DDA\u0DBD\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614868Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "\u0DB4\u0DBB\u0DD2\u0DB8\u0DCF\u0DC0:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614868Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "\u0DB7\u0DCF\u0DC2\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614869Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "\u0DB7\u0DCF\u0DC2\u0DCF\u0DC0 \u0DC0\u0DD9\u0DB1\u0DC3\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DD9\u0DB1\u0DCA \u0DB4\u0DC3\u0DD4 \u0D9A\u0DBB\u0DD4\u0DAB\u0DCF\u0D9A\u0DBB OnlyT \u0DB1\u0DD0\u0DC0\u0DAD \u0D86\u0DBB\u0DB8\u0DCA\u0DB7 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61487Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "1m \u0D85\u0DA9\u0DD4 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1\nCtrl - 15m \u0D85\u0DA9\u0DD4 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1\nShift - 5m \u0D85\u0DA9\u0DD4 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61487Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "1m \u0DC0\u0DD0\u0DA9\u0DD2 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1\nCtrl - 15m \u0DC0\u0DD0\u0DA9\u0DD2 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1\nShift - 5m \u0DC0\u0DD0\u0DA9\u0DD2 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614871Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "\u0D85\u0DAD\u0DD2\u0DB1\u0DCA \u0DB4\u0DCA\u200D\u0DBB\u0D9A\u0DCF\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614872Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614872Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DBB\u0DB8\u0DD2\u0DB1\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614873Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "\u0DAD\u0DAD\u0DCA\u0DB4\u0DBB {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614874Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "\u0DC3\u0DB6\u0DBD \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614874Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "\u0DC3\u0DB6\u0DBD \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614875Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "\u0DC3\u0DB6\u0DBD \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614875Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "\u0DAD\u0DAD\u0DCA\u0DB4\u0DBB \u0DB4\u0DD9\u0DB1\u0DCA\u0DC0\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614876Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "\u0DBB\u0DCF\u0DB8\u0DD4\u0DC0 \u0DB4\u0DD9\u0DB1\u0DCA\u0DC0\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614877Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "\u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4 \u0DBB\u0DCF\u0DB8\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614878Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "\u0DC0\u0DD2\u0DC1\u0DCF\u0DBD\u0DB1 \u0DB8\u0DA7\u0DCA\u0DA7\u0DB8:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614878Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "\u0DC3\u0DCA\u0DAE\u0DCF\u0DB1\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614879Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "\u0DB4\u0DC4\u0DC5",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61488Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "\u0DB4\u0DC4\u0DC5 \u0DC0\u0DB8\u0DCA\u0DB4\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614881Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "\u0DB4\u0DC4\u0DC5 \u0DAF\u0D9A\u0DD4\u0DAB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614882Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "\u0DB8\u0DB0\u0DCA\u200D\u0DBA\u0DC3\u0DCA\u0DAE\u0DCF\u0DB1\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614882Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "\u0DC0\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614883Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "\u0DC4\u0DBB\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614884Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "\u0D89\u0DC4\u0DC5\u0DA7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614884Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "\u0D89\u0DC4\u0DC5 \u0DC0\u0DB8\u0DDA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614885Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "\u0D89\u0DC4\u0DC5 \u0DAF\u0D9A\u0DD4\u0DAB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614886Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "\u0DC4\u0DBB\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614887Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "\u0DC0\u0DBB\u0DCF\u0DBA \u0DC0\u0DD2\u0DC0\u0DD8\u0DAD \u0D9A\u0DBB \u0DC0\u0DD9\u0DB1\u0DCA \u0D9A\u0DBB\u0DC0\u0DCF \u0D9C\u0DB1\u0DCA\u0DB1\u0DCF \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614888Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "\u0DAD\u0DDC\u0DA7 \u0DC0\u0DD2\u0DC0\u0DD8\u0DAD \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DA7 \u0DB1\u0DDC\u0DC4\u0DD0\u0D9A\u0DD2 \u0DC0\u0DD2\u0DBA (\u0DBD\u0DDC\u0D9C\u0DBA \u0DB6\u0DBD\u0DB1\u0DCA\u0DB1)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614888Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "\u0DA2\u0DB1\u0DB1\u0DBA \u0D9A\u0DC5 \u0D9A\u0DCF\u0DBD \u0DB1\u0DD2\u0DBB\u0DCA\u0DAB \u0DC0\u0DCF\u0DBB\u0DCA\u0DAD\u0DCF\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614889Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u0DC0\u0DCF\u0DBB\u0DCA\u0DAD\u0DCF \u0DA2\u0DB1\u0DB1\u0DBA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61489Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "\u0DC3\u0DB8\u0DCF\u0DB4\u0DCA\u0DAD\u0DD2 \u0D9A\u0DDC\u0DA7\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61489Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "\u0D85\u0DB1\u0DCA\u0DAD\u0DBB\u0DCA\u0D9A\u0DCF\u0DBD\u0DD3\u0DB1 \u0D9A\u0DDC\u0DA7\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614891Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "\u0DC4\u0DB3\u0DD4\u0DB1\u0DCA\u0DC0\u0DCF\u0DAF\u0DD3\u0DB8\u0DDA \u0D9A\u0DDC\u0DA7\u0DC3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614892Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "\u0DBD\u0DDC\u0D9C\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DDA \u0DB8\u0DA7\u0DCA\u0DA7\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614893Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "\u0DB1\u0DD2\u0DAF\u0DDC\u0DC3\u0DCA\u0D9A\u0DBB\u0DAB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614893Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "\u0DAF\u0DDD\u0DC2\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614894Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u0DB8\u0DCF\u0DBB\u0DCF\u0DB1\u0DCA\u0DAD\u0DD2\u0D9A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614895Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "\u0DC3\u0DCA\u0DAE\u0DCF\u0DB1\u0DBA \u0DBA\u0DDC\u0DB8\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614896Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "\u0DC0\u0DCF\u0DA0\u0DD2\u0D9A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614896Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "\u0D85\u0DC0\u0DC0\u0DCF\u0DAF\u0DBA\u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614897Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "\u0DC4\u0DB8\u0DD4\u0DC0\u0DD3\u0DB8\u0DCA \u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DCA \u0DAF\u0DAD\u0DCA\u0DAD \u0DC0\u0DD2\u0DC1\u0DCA\u0DBD\u0DDA\u0DC2\u0DAB\u0DBA \u0D9A\u0DBB\u0DB8\u0DD2\u0DB1\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614898Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "\u0DC0\u0DCF\u0DBB\u0DCA\u0DAD\u0DCF\u0DC0 \u0DA2\u0DB1\u0DB1\u0DBA \u0D9A\u0DBB \u0DB1\u0DD0\u0DAD!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614898Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "\u0DAF\u0DD0\u0D9A\u0DCA\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614899Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "\u0DC3\u0DCA\u0DC0\u0DBA\u0D82\u0D9A\u0DCA\u200D\u0DBB\u0DD3\u0DBA\u0DC0 \u0DC1\u0DB6\u0DCA\u0DAF \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.6149Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "\u0DC3\u0DD3\u0DB1\u0DD4\u0DC0 \u0DB1\u0DCF\u0DAF \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DA7 \u0D9A\u0DCA\u0DBD\u0DD2\u0D9A\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614902Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "\u0D9A\u0DCF\u0DBD \u0DC3\u0DD3\u0DB8\u0DCF\u0DC0 (\u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614903Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "\u0DB8\u0DD6\u0DBD\u0DAF\u0DCA\u200D\u0DBB\u0DC0\u0DCA\u200D\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614903Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "\u0DA9\u0DBA\u0DBD\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614904Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "\u0DA9\u0DBA\u0DBD\u0DCA \u0DC3\u0DC4 \u0DA9\u0DD2\u0DA2\u0DD2\u0DA7\u0DBD\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614905Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "\u0DA9\u0DD2\u0DA2\u0DD2\u0DA7\u0DBD\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614905Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "\u0DC0\u0DD2\u0DB1\u0DD2\u0DC0\u0DD2\u0DAF \u0DB4\u0DD9\u0DB1\u0DD9\u0DB1 \u0DB4\u0DC3\u0DD4\u0DB6\u0DD2\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614906Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "\u0DB8\u0DDC\u0DB1\u0DD2\u0DA7\u0DBB\u0DBA \u0DC0\u0DD2\u0DB0\u0DCF\u0DB1 \u0DBB\u0DDA\u0D9B\u0DCF \u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8\u0D9A\u0DD2\u0DB1\u0DCA \u0DB4\u0DCF\u0DBD\u0DB1\u0DBA \u0DC0\u0DB1 \u0DB6\u0DC0 \u0DC3\u0DBD\u0D9A\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614907Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DCA \u0DB4\u0DC3\u0DD4\u0DB6\u0DD2\u0DB8\u0DCA \u0D85\u0DB1\u0DD4\u0D9A\u0DCA\u200D\u0DBB\u0DB8\u0DAB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614907Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "\u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4 \u0DB4\u0DC3\u0DD4\u0DB6\u0DD2\u0DB8\u0DCA \u0D85\u0DB1\u0DD4\u0D9A\u0DCA\u200D\u0DBB\u0DB8\u0DAB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614908Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DCA \u0DBB\u0DCF\u0DB8\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614909Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "\u0DB4\u0DD0\u0DAD\u0DBD\u0DD2 \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61491Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "\u0DC3\u0DAD\u0DD2 \u0D85\u0DB1\u0DCA\u0DAD\u0DBA\u0DDA \u0DC3\u0DD2\u0D9A\u0DD4\u0DBB\u0DCF\u0DAF\u0DCF \u0D87\u0DAD\u0DD4\u0DC5\u0DAD\u0DCA \u0DC0\u0DDA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61491Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "\u0D9A\u0DC0\u0DD4\u0DC5\u0DD4 \u0DC3\u0DC4\u0DD2\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614911Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "\u0D9A\u0DC0\u0DD4\u0DC5\u0DD4 \u0DC3\u0DC4\u0DD2\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614912Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DDA \u0D9A\u0DC0\u0DD4\u0DC5\u0DD4\u0DC0 \u0DC0\u0DC3\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614912Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "\u0DC0\u0DD2\u0DB1\u0DD2\u0DC0\u0DD2\u0DAF \u0DB4\u0DD9\u0DB1\u0DD9\u0DB1 \u0022\u0D9A\u0DC0\u0DD4\u0DC5\u0DD4 \u0DC3\u0DC4\u0DD2\u0DAD\u0022 \u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8 \u0DC0\u0DD2\u0DC0\u0DD8\u0DAD \u0D9A\u0DC5 \u0DB1\u0DDC\u0DC4\u0DD0\u0D9A.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614913Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "\u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4\u0DC0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614914Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "\u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614914Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "\u0DB1\u0DDC\u0DB6\u0DD0\u0DB3\u0DD2...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614915Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "\u0D85\u0DC0\u0DB8 \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8 \u0DB8\u0DAD \u0DC4\u0DD0\u0D9A\u0DD2\u0DBD\u0DD3\u0DB8",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614916Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DCF\u0DAE\u0DB8\u0DD2\u0D9A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614917Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u0DC0\u0DD2\u0DB0\u0DCF\u0DB1 \u0DBB\u0DDA\u0D9B\u0DCF \u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8 \u0DC4\u0DBB\u0DC4\u0DCF \u0DB4\u0DCA\u200D\u0DBB\u0DAD\u0DD2\u0DAF\u0DCF\u0DB1\u0DBA NDI \u0DBD\u0DD9\u0DC3 \u0DC3\u0D9A\u0DC3\u0DCF \u0D87\u0DAD\u0DD2 \u0DB6\u0DC0 \u0DC3\u0DBD\u0D9A\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614917Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u0D94\u0DB6 \u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DBA \u0D86\u0DBB\u0DB8\u0DCA\u0DB7 \u0D9A\u0DC5 \u0DBA\u0DD4\u0DAD\u0DD4\u0DAF?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614918Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "\u0D8B\u0DAD\u0DCA\u0DB4\u0DAD\u0DB1 \u0DB8\u0DAD\u0D9A\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614919Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8 \u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4 {0} \u0D9A \u0D85\u0DAD\u0DD2\u0D9A\u0DCF\u0DBD\u0DBA\u0D9A\u0DD2\u0DB1\u0DCA \u0D9A\u0DCA\u200D\u0DBB\u0DD2\u0DBA\u0DCF\u0DAD\u0DCA\u0DB8\u0D9A \u0DC0\u0DDA.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614919Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8 \u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4 {0}\u0D9A\u0DCA \u0D87\u0DAD\u0DD4\u0DC5\u0DAD \u0DB4\u0DD0\u0DC0\u0DD0\u0DAD\u0DCA\u0DC0\u0DDA.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61492Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "\u0D89\u0D9A\u0DCA\u0DB8\u0DC0\u0DCF \u0D9C\u0DD2\u0DBA/\u0D85\u0DA9\u0DD4 \u0DC0\u0DD6 \u0DAF\u0DD0\u0DB1\u0DD4\u0DB8\u0DCA\u0DAF\u0DD3\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61492Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "\u0D85\u0DB3\u0DD4\u0DBB\u0DD4 \u0DB4\u0DCA\u200D\u0DBB\u0D9A\u0DCF\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614921Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "\u0DC0\u0DC3\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614922Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "\u0DC3\u0DD4\u0DBB\u0D9A\u0DD2\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614923Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "\u0DB1\u0DD0\u0DC0\u0DD4\u0DB8\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614923Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "\u0DC0\u0DD2\u0DB1\u0DCA\u200D\u0DBA\u0DCF\u0DC3 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614924Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DC0\u0DDA\u0DC1\u0DBA \u0D89\u0DBD\u0DCA\u0DBD\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614925Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "\u0D89\u0DC0\u0DAD\u0DBD\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614926Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "\u0DBB\u0DD0\u0DC3\u0DCA\u0DC0\u0DD3\u0DB8 \u0D86\u0DBB\u0DB8\u0DCA\u0DB7 \u0DC0\u0DB1\u0DCA\u0DB1\u0DDA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614926Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "\u0DC0\u0DD9\u0DB6\u0DCA \u0D94\u0DBB\u0DBD\u0DDD\u0DC3\u0DD4\u0DC0 \u0DB6\u0DD0\u0DBD\u0DD3\u0DB8\u0DA7 \u0DA2\u0D82\u0D9C\u0DB8 \u0D8B\u0DB4\u0DCF\u0D82\u0D9C\u0DBA \u0DC3\u0DB8\u0D9F \u0DC3\u0DCA\u0D9A\u0DD1\u0DB1\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614927Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "\u0DC0\u0DDA\u0DAF\u0DD2\u0D9A\u0DCF\u0DC0:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614928Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "\u0DAD\u0DAD\u0DCA\u0DAD\u0DCA\u0DC0\u0DBA:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614928Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "\u0DC3\u0DB8\u0DCA\u0DB4\u0DD6\u0DBB\u0DCA\u0DAB \u0DAD\u0DD2\u0DBB \u0DB4\u0DCA\u200D\u0DBB\u0D9A\u0DCF\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614929Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u0D9A\u0DCF\u0DBD\u0DBA \u0DC0\u0DD0\u0DA9\u0DD2 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1 (\u002B1 min). \u0DAD\u0DC0\u0DAD\u0DCA \u0DC0\u0DD2\u0D9A\u0DBD\u0DCA\u0DB4 \u0DC3\u0DB3\u0DC4\u0DCF \u0DAF\u0D9A\u0DD4\u0DAB\u0DD4-\u0D9A\u0DCA\u0DBD\u0DD2\u0D9A\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61493Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "\u0D9A\u0DCF\u0DBD\u0DBA \u0D85\u0DA9\u0DD4 \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1 (\u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4 -1). \u0DAD\u0DC0\u0DAD\u0DCA \u0DC0\u0DD2\u0D9A\u0DBD\u0DCA\u0DB4 \u0DC3\u0DB3\u0DC4\u0DCF \u0DAF\u0D9A\u0DD4\u0DAB\u0DD4-\u0D9A\u0DCA\u0DBD\u0DD2\u0D9A\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61493Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "\u0D9A\u0DCF\u0DBD\u0DC3\u0DA7\u0DC4\u0DB1\u0DCA \u0DC0\u0DCF\u0DBB\u0DCA\u0DAD\u0DCF\u0DC0 \u0DA2\u0DB1\u0DB1\u0DBA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1 (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614931Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "\u0D9C\u0DAB\u0DB1\u0DCA \u0D9A\u0DD2\u0DBB\u0DD3\u0DB8\u0DDA \u0D9A\u0DCF\u0DBD \u0D9C\u0DAB\u0D9A\u0DBA \u0DB4\u0DD9\u0DB1\u0DCA\u0DC0\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614931Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "\u0DB1\u0DC0 \u0D85\u0DB1\u0DD4\u0DC0\u0DCF\u0DAF\u0DBA \u0DAD\u0DD2\u0DB6\u0DDA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614932Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "\u0DC3\u0DD0\u0D9A\u0DC3\u0DD4\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614933Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "\u0D8B\u0DAF\u0DC0\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614933Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "\u0DC3\u0D82\u0DBA\u0DD4\u0D9A\u0DCA\u0DAD \u0DB4\u0DCA\u200D\u0DBB\u0D9A\u0DCF\u0DBB\u0DBA\u0DA7 \u0DC4\u0DD0\u0D9A\u0DD2\u0DBD\u0DD9\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614934Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B\u0DAD\u0DAD\u0DCA\u0DB4\u0DBB 15 \u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614935Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B\u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614935Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B\u0DB8\u0DD2\u0DB1\u0DD2\u0DAD\u0DCA\u0DAD\u0DD4 5 \u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614936Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "\u0DAD\u0DAD\u0DCA\u0DB4\u0DBB -15",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614937Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 \u0DC0\u0DD2\u0DB1\u0DCF\u0DA9\u0DD2\u0DBA\u0D9A\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614937Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "- \u0DC0\u0DD2\u0DB1\u0DCF\u0DA9\u0DD2 5 \u0DBA\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614938Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "\u0DA2\u0DCF\u0DBD \u0D85\u0DC0\u0DC3\u0DBB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614938Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "\u0D85\u0DAD\u0DD2\u0D9A\u0DCF\u0DBD \u0D85\u0DAD\u0DBB\u0DAD\u0DD4\u0DBB \u0DC6\u0DCA\u0DBD\u0DD1\u0DC2\u0DCA \u0DA7\u0DBA\u0DD2\u0DB8\u0DBB\u0DBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614939Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "\u0D85\u0DAD\u0DD2\u0D9A\u0DCF\u0DBD\u0DBA\u0DDA\u0DAF\u0DD3 \u0DC3\u0DD3\u0DB1\u0DD4\u0DC0 \u0DB1\u0DCF\u0DAF \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61494Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "\u0DC3\u0DD6\u0DAF\u0DCF\u0DB1\u0DB8\u0DCA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.61494Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "\u0DAF\u0DD4\u0DC0\u0DB1\u0DC0\u0DCF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614941Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "\u0DC0\u0DD2\u0DBB\u0DCF\u0DB8 \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614942Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "\u0D9A\u0DCF\u0DBD\u0DBA\u0DAD\u0DCA \u0D91\u0D9A\u0DCA\u0D9A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614942Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "\u0DB1\u0DD0\u0DC0\u0DD0\u0DAD\u0DCA\u0DAD\u0DD4\u0DC0\u0DCF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614943Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "\u0DB4\u0DCA\u200D\u0DBB\u0DC0\u0DDA\u0DC1 \u0D9A\u0DDA\u0DAD\u0DBA \u0D87\u0DAD\u0DD4\u0DC5\u0DAD\u0DCA \u0D9A\u0DBB\u0DB1\u0DCA\u0DB1...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614944Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "\u0DB8\u0DD2\u0DB1\u0DD2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614944Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "\u0DC0\u0DD2\u0DB1\u0DCA\u200D\u0DBA\u0DCF\u0DC3 \u0D9A\u0DBB\u0DB1 \u0DBD\u0DAF\u0DD3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614945Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "\u0DC0\u0DD2\u0DB1\u0DCA\u200D\u0DBA\u0DCF\u0DC3 \u0D9A\u0DBB \u0DB1\u0DD0\u0DAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:34.614946Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:34.614975Z"
+}

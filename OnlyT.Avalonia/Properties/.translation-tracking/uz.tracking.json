@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "uz",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell faol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996961Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Yo\u0027q",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996962Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Bir tomonga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996962Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Ikki tomonlama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996963Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Dasturiy ta\u02BCminot versiyasi {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996963Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 soat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996964Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 soatlik (etakchi nol)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996964Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 soat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996965Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 soat (etakchi nol)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996965Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "{0} jildini yaratib bo\u2018lmadi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996966Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Moslashtirilgan muddat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996966Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "O\u0027zgartirilgan muddat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996967Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Asl muddat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996967Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996967Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog va raqamli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996968Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Raqamli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996968Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell faol emas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996969Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Hafta o\u0027rtasida",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996969Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Vazirlik - 1-band",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99697Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Vazirlik - 2-band",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99697Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Vazirlik \u2013 3-band",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996971Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Avtomatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996971Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Faylga asoslangan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996972Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Qo\u0027llanma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996972Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Yakuniy suhbat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996972Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Yakuniy mulohazalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996973Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Jamoat Muqaddas Kitob tadqiqi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996973Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Ruhiy marvaridlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996974Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Yashash - 1-qism",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996974Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Yashash - 2-qism",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996974Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Izohlarni ochish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996975Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Bu oylik taqdimotlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996975Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Ommaviy suhbat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996976Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Injil o\u0027qish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996976Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Xizmat suhbati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996976Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Treasures Talk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996977Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Qo\u0027riqchi minorasini tadqiq qilish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996977Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Dam olish kunlari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996977Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 soat (soat/soat)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996978Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-soat (asosiy nol va ertalab/kech)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996978Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Yo\u0027q",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996979Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Taymer ishlayotgan vaqtda sozlamalar mavjud emas!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996979Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Sozlamalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996979Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Xazinalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99698Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "vazirligi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99698Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Yashash",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996981Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Dam olish kunlari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996981Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Sozlamalar administrator tomonidan o\u0027chirilgan!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996981Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Vazirlik \u2013 4-band",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996982Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Davraga tashrif",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996982Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ORTA SAAQNI YOPISH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996983Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Yordam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996983Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[avval tashrifi]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996983Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Yangi versiya mavjud!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996984Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "ASOSIY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996984Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Kirish kodi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996984Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Hafta o\u0027rtasida moslashish rejimi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996985Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Dam olish kunlariga moslashish rejimi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996985Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Hisobni o\u0027zgartirishga ruxsat bering",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996986Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Har doim tepada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996986Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "MOSOQTA ILOVALAR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996986Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AVTOMAT REJIM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996987Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996987Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEB SOAT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996987Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "UCHRASHGAN ORTAGA SAAQ",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996988Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Aylanaga tashrif buyurishni yoqish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996988Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Raqamli soat formati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996988Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Yoqilgan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996989Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "To\u0027liq ekranli soat rejimi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996989Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP manzili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99699Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Uchrashuv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99699Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Uchrashuv boshlanish vaqti (har bir satrda 1 ta)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99699Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "TURLI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996991Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996991Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Sichqoncha ko\u0027rsatkichini ko\u0027rsatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996991Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Har bir boshlanish vaqtini yangi qatorga qo\u0027ying.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996992Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Istalgan vaqt formatidan foydalaning!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996992Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Ixtiyoriy ravishda bir kunni qo\u0027shing, masalan. \u0022Pas 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996992Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Eslatmalar:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996993Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PORT OCHIQ",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996993Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Rejim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996994Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Talabalik vaqtini davom ettiring",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996994Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Doimiy suhbat davomiyligi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996995Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996995Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "MASAFLI KIRISH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996995Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Analog soatda sektorni ko\u0027rsatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996996Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Ajratilgan ekran kengligi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996996Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996996Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Bosilgan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996997Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Taymer sanaydi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996997Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TAYMER OYZASI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996997Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Taymer ostida kun vaqti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996998Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Hajmi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996998Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Til",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996999Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Tilni o\u0027zgartirgandan so\u0027ng OnlyT ni qayta ishga tushiring.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996999Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "1 m kamaytiring\nCtrl - 15 soniyani kamaytiring\nShift - 5 m kamaytiring",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.996999Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "1 m oshiring\nCtrl - 15 soniyani oshiring\nShift - 5 m oshirish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Qo\u0027lda rejim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Hisoblash",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Hisoblash",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997001Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} soniya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997001Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Yoqilgan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997001Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Yoqilgan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997002Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Yoqilgan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997002Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "soniyalarni ko\u0027rsatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997002Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Ramkani ko\u0027rsatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997003Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Soat ramkasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997003Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Kattalashtirish darajasi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997004Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Joylashuv",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997004Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Pastki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997004Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Pastki chap",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997005Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Pastki o\u0027ng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997005Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Markaz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997005Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Chapga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997006Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "To\u0027g\u0027ri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997006Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Yuqori",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997007Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Yuqori chap",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997007Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Yuqori o\u0027ng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997007Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "KELISHDIKMI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997008Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port ochildi va bron qilindi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997008Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Portni ochib bo\u0027lmadi (jurnalga qarang)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997008Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Yaratilgan vaqt hisoboti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997009Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Hisobotlarni yaratish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997009Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Yakuniy segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99701Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Vaqtinchalik segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997011Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Kirish bo\u0027limi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997011Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Ro\u0027yxatga olish darajasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997012Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Nosozliklarni tuzatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997012Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Xato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997012Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Fatal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997013Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Ma\u0027lumot",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997013Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Batafsil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997013Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Ogohlantirish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997014Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Uchrashuv taymer ma\u0027lumotlarini tahlil qilish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997014Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Hisobot yaratilmadi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997014Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "KO\u02BBRISH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997014Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Avtomatik ovoz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997015Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Qo\u0027ng\u0027iroq chalish uchun bosing",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997015Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Davomiyligi (daqiqa)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997015Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997016Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Tering",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997016Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Qo\u0027ng\u0027iroq va raqamli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997017Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Raqamli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997017Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Shaffof fon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997017Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "E\u0027tibor bering, monitor buyruq qatori sozlamalari bilan boshqariladi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997018Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Taymer fon gradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997018Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Soat fon gradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997018Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Taymer ramkasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997019Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Yassi soat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997019Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Dam olish kunlari jumani o\u0027z ichiga oladi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997019Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Derazalangan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99702Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Derazalangan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99702Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Ortga hisoblash oynasini yoping",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99702Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Shaffof \u0022oynali\u0022 ortga hisoblashni ochib bo\u0027lmaydi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997021Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Soat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997021Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Taymerlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997021Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "oflayn...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997022Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Kichraytirish va kamaytirish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997022Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "asosiy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997022Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "E\u0027tibor bering, chiqish buyruq qatori sozlamalari orqali NDI ga o\u0027rnatiladi.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997023Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Taymerni ishga tushirish kerakmidi?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997023Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Qalqib chiquvchi eslatmalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997023Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Uchrashuv {0} daqiqa qo\u02BBshimcha ish vaqti davom etmoqda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997023Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Uchrashuv {0} daqiqa kam vaqt davom etmoqda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997024Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Haddan tashqari bajarilish/to\u0027liq bajarilganligi haqida bildirishnomalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997024Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Qorong\u0027i rejim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997025Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Yopish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997025Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Saqlash",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997025Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Yangilash",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997026Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Sozlang",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997026Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Kirish so\u0027rovi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997026Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Rad etish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997027Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Uchrashuv boshlanadi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997027Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Veb-soatni ko\u0027rish uchun mobil qurilma bilan skanerlang",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997027Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997028Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Holati:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997028Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "To\u0027liq ekran rejimi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997028Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Vaqtni oshiring (\u002B1 min). Qo\u0027shimcha parametrlar uchun o\u0027ng tugmasini bosing.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997028Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Vaqtni qisqartirish (-1 min). Qo\u0027shimcha parametrlar uchun o\u0027ng tugmasini bosing.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997029Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Vaqt hisobotini yaratish (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997029Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Ortga hisoblash taymerini ko\u0027rsatish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997029Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Yangi versiya mavjud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99703Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Sozlamalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99703Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Yordam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.99703Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Yilni ixcham rejimga qisqartiring",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997031Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 soniya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997031Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 daqiqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997031Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 daqiqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997032Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 soniya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997032Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 daqiqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997032Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 daqiqa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997033Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "TARMOQ RUXSATLARI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997033Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Qo\u0027shimcha ish vaqtida miltillovchi taymer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997033Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Qo\u0027shimcha ish vaqtida qo\u0027ng\u0027iroq",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997034Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Tayyor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997034Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Yugurish",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997034Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pauza qilingan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997035Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Vaqt o\u0027tishi bilan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997035Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "To\u0027xtatildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997035Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Kirish kodini kiriting...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997035Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997036Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Sozlangan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997036Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Sozlanmagan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:00.997037Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:28:00.997051Z"
+}

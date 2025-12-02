@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "sk",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Zvon je akt\u00EDvny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915917Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "\u017Diadne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915918Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Jednosmern\u00E1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915918Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Obojsmern\u00FD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915919Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Verzia softv\u00E9ru {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915919Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-hodinov\u00FD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915919Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-hodinov\u00FD (po\u010Diato\u010Dn\u00E1 nula)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91592Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 hod\u00EDn denne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91592Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 hod\u00EDn (po\u010Diato\u010Dn\u00E1 nula)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915921Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nepodarilo sa vytvori\u0165 prie\u010Dinok {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915921Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Prisp\u00F4soben\u00E9 trvanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915922Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Upraven\u00E1 trvanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915922Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "P\u00F4vodn\u00E1 d\u013A\u017Eka trvania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915922Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Anal\u00F3gov\u00FD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915923Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Anal\u00F3gov\u00E9 a digit\u00E1lne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915923Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digit\u00E1lne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915923Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Zvon\u010Dek je neakt\u00EDvny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915924Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "V polovici t\u00FD\u017Ed\u0148a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915924Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerstvo - Bod 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915924Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerstvo - Bod 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915925Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerstvo - Bod 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915925Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatick\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915925Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "S\u00FAborov\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915926Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manu\u00E1lne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915926Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Z\u00E1vere\u010Dn\u00E1 re\u010D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915927Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Z\u00E1vere\u010Dn\u00E9 koment\u00E1re",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915927Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "\u0160t\u00FAdium Biblie v zbore",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915927Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Duchovn\u00E9 drahokamy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915928Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "B\u00FDvanie - 1. \u010Das\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915928Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u017Divot - 2. \u010Das\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915929Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "\u00DAvodn\u00E9 koment\u00E1re",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915929Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Prezent\u00E1cie tohto mesiaca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915929Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Verejn\u00E1 diskusia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91593Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u010C\u00EDtanie Biblie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91593Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Servisn\u00E1 diskusia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91593Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Rozhovor o pokladoch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91593Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u0160t\u00FAdium Str\u00E1\u017Enej ve\u017Ee",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915931Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "V\u00EDkend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915931Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-hodinov\u00FD (dopoludnia/popoludn\u00ED)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915932Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-hodinov\u00FD form\u00E1t (po\u010Diato\u010Dn\u00E1 nula a form\u00E1t am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915932Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "\u017Diadne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915932Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Nastavenia nie s\u00FA k dispoz\u00EDcii, k\u00FDm je spusten\u00FD \u010Dasova\u010D!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915933Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Nastavenia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915933Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Poklady",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915933Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerstvo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915934Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "B\u00FDvanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915934Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "V\u00EDkend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915934Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Nastavenia zablokoval administr\u00E1tor!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915935Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerstvo - Bod 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915935Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "N\u00E1v\u0161teva okruhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915935Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ZAVRIE\u0164 ODPO\u010C\u00CDTAVANIE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915936Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pomocn\u00EDk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915936Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[n\u00E1v\u0161teva kraja]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915936Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nov\u00E1 verzia k dispoz\u00EDcii!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915937Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "HLAVN\u00C9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915937Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Pr\u00EDstupov\u00FD k\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915937Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Adapt\u00EDvny re\u017Eim v strede t\u00FD\u017Ed\u0148a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915938Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "V\u00EDkendov\u00FD adapt\u00EDvny re\u017Eim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915938Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Povoli\u0165 prep\u00EDnanie odpo\u010D\u00EDtavania nahor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915938Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "V\u017Edy na vrchole",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915939Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "VZDIALEN\u00C9 APLIK\u00C1CIE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915939Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATICK\u00DD RE\u017DIM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915939Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "ZVON",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915939Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEBOV\u00C9 HODINY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91594Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "Odpo\u010D\u00EDtavanie stretnutia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91594Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Prep\u00EDna\u010D n\u00E1v\u0161tevy okruhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91594Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Form\u00E1t digit\u00E1lnych hod\u00EDn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915941Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Povolen\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915941Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Re\u017Eim hod\u00EDn na cel\u00FA obrazovku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915941Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adresa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915942Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Stretnutie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915942Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "\u010Casy za\u010Diatku stretnut\u00ED (1 na riadok)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915942Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "R\u00D4ZNE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915942Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915943Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Zobrazi\u0165 ukazovate\u013E my\u0161i",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915943Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Ka\u017Ed\u00FD \u010Das za\u010Diatku nap\u00ED\u0161te na nov\u00FD riadok.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915943Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Pou\u017Eite \u013Eubovo\u013En\u00FD form\u00E1t \u010Dasu, ktor\u00FD sa v\u00E1m p\u00E1\u010Di!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915943Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Volite\u013Ene uve\u010Fte de\u0148, napr. \u201E\u0160tv 19:15\u201C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915944Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Pozn\u00E1mky:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915944Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "OTVOREN\u00DD PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915944Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Re\u017Eim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915944Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Vytrva\u0165 \u0161tudentsk\u00FD \u010Das",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915945Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Trvanie pretrv\u00E1vaj\u00FAceho hovoru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915945Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Pr\u00EDstav",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915946Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "VZDIALEN\u00DD PR\u00CDSTUP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915946Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Zobrazi\u0165 sektor na anal\u00F3gov\u00FDch hodin\u00E1ch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915946Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "\u0160\u00EDrka rozdelenej obrazovky:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915947Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915947Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "\u0160krten\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915947Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "\u010Casova\u010D odpo\u010D\u00EDtava",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915947Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "\u010CASOVA\u010C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915948Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "\u010Cas d\u0148a pod \u010Dasova\u010Dom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915948Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Objem:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915948Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Jazyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915949Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Po zmene jazyka re\u0161tartujte OnlyT.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915949Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Zn\u00ED\u017Ei\u0165 o 1 m\nCtrl - Zn\u00ED\u017Ei\u0165 o 15 s\nShift - Zn\u00ED\u017Ei\u0165 o 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915949Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Zv\u00E4\u010D\u0161i\u0165 o 1 m\nCtrl - Zv\u00E4\u010D\u0161i\u0165 o 15 s\nShift - Zv\u00E4\u010D\u0161i\u0165 o 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91595Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manu\u00E1lny re\u017Eim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91595Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Odpo\u010D\u00EDtavanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91595Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Po\u010D\u00EDtanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915951Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sek\u00FAnd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915951Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Povolen\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915951Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Povolen\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915951Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Povolen\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915952Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Zobrazi\u0165 sekundy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915952Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Zobrazi\u0165 r\u00E1m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915952Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "R\u00E1m hod\u00EDn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915953Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "\u00DArove\u0148 pribl\u00ED\u017Eenia:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915953Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Poloha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915953Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Spodn\u00E1 \u010Das\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915954Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "V\u013Eavo dole",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915954Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Vpravo dole",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915954Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centrum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915955Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "V\u013Eavo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915955Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Vpravo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915955Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Hore",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915955Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "V\u013Eavo hore",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915956Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Vpravo hore",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915956Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "V poriadku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915957Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Pr\u00EDstav otvoren\u00FD a rezerv\u00E1cia vykonan\u00E1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915957Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nepodarilo sa otvori\u0165 port (pozri protokol)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915957Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Vygenerovan\u00E1 spr\u00E1va o na\u010Dasovan\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915957Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generovanie preh\u013Eadov",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915958Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Z\u00E1vere\u010Dn\u00FD segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915958Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Medzisegment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915958Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "\u00DAvodn\u00FD segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915959Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "\u00DArove\u0148 protokolovania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915959Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Ladenie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915959Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Chyba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91596Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Smrte\u013En\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91596Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Inform\u00E1cie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91596Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Podrobn\u00FD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915961Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "POZOR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915961Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Anal\u00FDza \u00FAdajov \u010Dasova\u010Da stretnutia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915961Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Spr\u00E1va NIE JE vygenerovan\u00E1!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915962Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "ZOBRAZI\u0164",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915962Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automaticky zvuk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915962Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Kliknite pre zazvonenie zvon\u010Deka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915962Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Trvanie (min)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915963Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Prvky",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915963Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Vyto\u010Di\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915964Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "\u010C\u00EDseln\u00EDk a digit\u00E1lny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915964Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digit\u00E1lne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915964Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Prieh\u013Eadn\u00E9 pozadie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915965Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Upozor\u0148ujeme, \u017Ee monitor je ovl\u00E1dan\u00FD nastaven\u00EDm pr\u00EDkazov\u00E9ho riadka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915965Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Prechod pozadia \u010Dasova\u010Da",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915965Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Prechod pozadia hod\u00EDn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915966Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "\u010Casov\u00FD r\u00E1mec",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915966Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Ploch\u00E9 hodiny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915966Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "V\u00EDkend zah\u0155\u0148a piatok",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915967Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "S oknom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915967Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "S oknom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915967Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Zatvori\u0165 okno odpo\u010D\u00EDtavania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915967Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Ned\u00E1 sa otvori\u0165 prieh\u013Eadn\u00E9 odpo\u010D\u00EDtavanie v okne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915968Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Hodiny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915968Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "\u010Casova\u010De",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915968Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915969Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Zmen\u0161i\u0165 pri minimaliz\u00E1cii",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915969Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "prim\u00E1rny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91597Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Upozor\u0148ujeme, \u017Ee v\u00FDstup je nastaven\u00FD na NDI pomocou nastavenia pr\u00EDkazov\u00E9ho riadka.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91597Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Mal si spusti\u0165 \u010Dasova\u010D?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91597Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Kontextov\u00E9 pripomienky",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91597Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Stretnutie trv\u00E1 {0} min\u00FAt nad\u010Das",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915971Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Stretnutie trv\u00E1 o {0} min\u00FAt krat\u0161ie ako je \u010Das",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915971Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Upozornenia na prekro\u010Denie/nedoplnenie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915971Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tmav\u00FD re\u017Eim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915971Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Zatvori\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915972Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ulo\u017Ei\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915972Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Obnovi\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915972Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfigurova\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915973Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "\u017Diados\u0165 o pr\u00EDstup",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915973Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Zavrie\u0165",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915973Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Stretnutie sa za\u010D\u00EDna o",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915973Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Naskenujte mobiln\u00FDm zariaden\u00EDm a zobrazte webov\u00E9 hodiny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915974Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915974Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Stav:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915974Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Re\u017Eim celej obrazovky",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915975Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Pred\u013A\u017Ete \u010Das (\u002B1 min). Kliknite prav\u00FDm tla\u010Didlom my\u0161i pre viac mo\u017Enost\u00ED.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915975Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Skr\u00E1ti\u0165 \u010Das (-1 min). Kliknite prav\u00FDm tla\u010Didlom my\u0161i pre viac mo\u017Enost\u00ED.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915975Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Vygenerova\u0165 spr\u00E1vu o na\u010Dasovan\u00ED (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915975Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Zobrazi\u0165 odpo\u010D\u00EDtavanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915976Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Nov\u00E1 verzia k dispoz\u00EDcii",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915976Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Nastavenia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915976Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pomocn\u00EDk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915976Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Zmen\u0161i\u0165 do kompaktn\u00E9ho re\u017Eimu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915977Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sek\u00FAnd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915977Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 min\u00FAta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915977Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 min\u00FAt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915978Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sek\u00FAnd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915978Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 min\u00FAta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915978Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 min\u00FAt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915978Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "SIE\u0164OV\u00C9 POVOLENIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915979Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "\u010Casova\u010D blesku po\u010Das pred\u013A\u017Eenia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915979Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Zvo\u0148te pri pred\u013A\u017Een\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915979Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Pripraven\u00FD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915979Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Beh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91598Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pozastaven\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91598Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Nad\u010Dasy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91598Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Zastaven\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.91598Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Zadajte pr\u00EDstupov\u00FD k\u00F3d...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915981Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915981Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Nakonfigurovan\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915981Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nie je nakonfigurovan\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:09.915981Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:09.915994Z"
+}

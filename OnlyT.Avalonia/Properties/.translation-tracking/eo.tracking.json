@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "eo",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Sonorilo estas aktiva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934202Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Neniu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934203Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Unudirekta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934204Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dudirekta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934204Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Programara versio {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934205Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-hora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934205Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-hora (anta\u016Da nulo)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934206Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-hora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934206Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-hora (anta\u016Da nulo)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934207Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Ne eblis krei dosierujon {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934207Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Adaptita da\u016Dro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934208Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modifita da\u016Dro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934208Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Origina da\u016Dro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934209Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analoga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934209Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analoga kaj Cifereca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934209Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Cifereca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93421Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Sonorilo estas neaktiva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93421Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Mezsemajno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934211Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerio - Ero 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934211Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerio - Ero 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934212Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerio - Ero 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934212Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "A\u016Dtomata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934213Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Dosier-bazita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934213Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manlibro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934214Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Fina Parolado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934214Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Finaj Komentoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934215Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Bibliostudo de la Parokanaro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934216Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Spiritaj Gemoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934216Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Vivado - Parto 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934217Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Vivado - Parto 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934217Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Komencaj Komentoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934218Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Prezentoj de \u0109i tiu monato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934218Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Publika Babilado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934218Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Bibliolegado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934219Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Serva Babilado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934219Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Trezoroj Parolas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934219Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Studo pri Gardoturo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93422Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Semajnfino",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934221Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-hora (matene/posttagmeze)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934221Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-hora (anta\u016Da nulo kaj matene/posttagmeze)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934221Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Neniu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934222Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Agordoj ne haveblas dum la tempigilo funkcias!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934222Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Agordoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934223Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Trezoroj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934223Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934224Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Vivado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934224Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Semajnfino",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934225Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Agordoj mal\u015Daltitaj de administranto!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934225Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerio - Ero 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934225Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Cirkvita vizito",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934226Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "FERMI RETRONOMBRADO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934226Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Helpu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934227Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[cirkvita vizito]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934227Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nova versio havebla!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934228Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "\u0108efa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934228Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Alirkodo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934229Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Mezsemajna adapta re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934229Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Semajnfina adapta re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93423Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Permesi \u015Daltilon de suprenkalkulo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93423Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "\u0108iam supre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934231Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "MALPROKSIMAJ APLIKA\u0134OJ",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934231Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "A\u016CTOMATA RE\u011CIMO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934231Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "SONORILO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934232Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "TTT-HORLO\u011CO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934232Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "KUNVENA RETRONOMBRADO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934233Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "\u015Calti/\u015Dalti cirkvitviziton",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934233Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Cifereca horlo\u011Da formato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934234Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Ebligita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934234Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Plenekrana horlo\u011Dre\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934235Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-adreso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934235Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Kunveno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934235Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Komencaj tempoj de kunvenoj (1 por linio)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934236Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "DIVERSA\u0134OJ",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934236Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitoro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934236Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Montri musmontrilon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934237Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Metu \u0109iun komenctempon sur novan linion.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934237Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Uzu ajnan tempoformaton, kiun vi \u015Datas!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934237Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "La\u016Dvole inkluzivi tagon, ekz. \u0022\u0134a\u016D 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934238Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Notoj:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934238Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "MALFERMA HAVENO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934239Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934239Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Da\u016Drigi studentan tempon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934239Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Da\u016Drigo de parolado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93424Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Haveno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93424Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "FORA ALIRO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934241Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Montri sektoron sur analoga horlo\u011Do",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934241Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Lar\u011Do de dividita ekrano:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934241Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TESTO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934242Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Strangolita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934242Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Tempigilo nombras supren",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934242Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TEMPIGILO-FENESTRO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934243Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Tempo de la tago sub tempmezurilo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934243Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Volumo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934243Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Lingvo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934244Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Bonvolu rekomenci OnlyT post \u015Dan\u011Do de la lingvo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934244Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Malpliigi 1m\nCtrl - Malpliigi 15s\nShift - Malpliigi 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934245Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Pligrandigi 1m\nCtrl - Pligrandigi 15s\nShift - Pligrandigi 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934245Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Mana re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934245Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Rekalkulado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934246Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Kalkulante supren",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934246Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekundoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934246Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Ebligita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934247Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Ebligita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934247Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Ebligita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934247Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Montri sekundojn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934248Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Montri kadron",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934248Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Horlo\u011Da kadro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934248Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Zoomnivelo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934249Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Loko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934249Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Fundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934249Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Malsupre maldekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93425Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Malsupre dekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93425Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934251Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Maldekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934251Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Dekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934252Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Supro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934252Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Supre maldekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934253Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Supre dekstre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934253Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Bone",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934254Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Haveno malfermita kaj rezervo farita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934254Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Ne eblis malfermi la pordon (vidu la protokolon)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934255Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Generita tempiga raporto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934255Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generi raportojn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934255Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Konkluda Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934256Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Provizora Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934256Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Enkonduka Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934257Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Registra nivelo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934257Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Sencimigi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934257Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Eraro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934258Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Mortiga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934258Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934259Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Multvorta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934259Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Averto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934259Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Analizante datumojn de kunventempigilo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93426Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Raporto NE generita!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93426Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "VIDU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93426Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "A\u016Dtomate sono",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934261Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Alklaku por sonigi sonorilon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934261Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Da\u016Dro (minutoj)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934261Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934262Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Disku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934262Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Ciferdisko kaj cifereca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934263Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Cifereca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934263Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Travidebla fono",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934264Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Notu, ke la ekrano estas kontrolata per komandlinia agordo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934265Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Tempigilo fona gradiento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934265Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Horlo\u011Da fona gradiento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934265Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Tempmezurilo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934266Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Plata horlo\u011Do",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934266Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Semajnfino inkluzivas vendredon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934267Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Fenestro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934267Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Fenestro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934267Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Fermi la retronombradan fenestron",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934268Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Ne eblas malfermi travideblan \u0022fenestron\u0022 retronombradon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934268Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Horlo\u011Do",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934268Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Tempigiloj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934269Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "senkonekte...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934269Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "\u015Crumpi dum minimumigo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934269Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "primara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93427Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Notu, ke la eligo estas agordita al NDI per komandlinia agordo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93427Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u0108u vi devus esti startiginta la tempigilon?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934271Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "\u015Cprucfenestraj memorigiloj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934271Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "La kunveno da\u016Dras {0} minutojn kromtempe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934271Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "La kunveno da\u016Dras {0} minutojn malpli ol la tempo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934272Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Sciigoj pri superkuro/subkuro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934272Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Malhela re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934272Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Fermi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934273Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Konservi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934273Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Refre\u015Digi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934274Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Agordi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934274Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Peti Aliron",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934274Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Malakcepti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934275Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Kunveno komenci\u011Das en",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934275Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skanu per portebla aparato por vidi retan horlo\u011Don",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934275Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platformo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934276Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Stato:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934276Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Plena Ekranre\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934277Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Pligrandigu la tempon (\u002B1 minuto). Dekstreklaku por pli da opcioj.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934277Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Malpliigu tempon (-1 min). Dekstreklaku por pli da opcioj.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934277Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Generi tempigan raporton (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934278Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Montri retronombran tempigilon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934278Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Nova versio havebla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934279Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Agordoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934279Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Helpu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934279Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "\u015Crumpi al kompakta re\u011Dimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93428Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekundoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.93428Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934281Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minutoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934281Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekundoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934281Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934282Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minutoj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934282Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "RETAJ PERMESOJ",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934282Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Fulmtempilo Dum Kromtempo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934283Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Sonorigu Sonorilon Kiam Kromlaboro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934283Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Preta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934284Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Kurado",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934284Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pa\u016Dzita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934284Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Kromlaboro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934285Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Haltigita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934285Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Enigu alirkodon...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934285Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934286Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigurita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934286Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Ne agordita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:13.934286Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:28:13.934305Z"
+}

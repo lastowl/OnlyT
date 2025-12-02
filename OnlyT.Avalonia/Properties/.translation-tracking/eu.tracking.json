@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "eu",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Kanpaia aktibo dago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79748Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Bat ere ez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797496Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Noranzko bakarra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797497Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Bi norabideko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797498Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Softwarearen bertsioa {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797498Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 orduko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797499Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 orduko (aurreko zeroa)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797499Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 orduko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797499Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 ordu (aurreko zeroa)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.7975Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Ezin izan da {0} karpeta sortu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.7975Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Iraupen egokitua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797501Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Iraupen aldatua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797501Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Jatorrizko iraupena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797502Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogikoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797502Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogikoa eta digitala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797502Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digitala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797503Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Kanpaia inaktibo dago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797503Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Aste erdian",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797503Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerioa - 1. elementua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797504Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerioa - 2. elementua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797504Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerioa - 3. elementua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797505Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatikoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797505Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Fitxategietan oinarritutako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797505Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Eskuzkoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797506Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Amaierako hitzaldia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797506Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Amaierako iruzkinak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797507Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Kongregazioko Biblia Azterketa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797507Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Harribitxi espiritualak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797507Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Bizitza - 1. zatia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797508Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Bizitza - 2. zatia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797508Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Hasierako iruzkinak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797509Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Hilabete honetako aurkezpenak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797509Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Jendaurreko hitzaldia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797509Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Biblia irakurketa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797509Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Zerbitzu-hitzaldia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79751Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Altxorrei buruzko solasaldia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79751Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Zaintza-zaintzailearen azterketa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797511Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Asteburua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797511Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 orduko (goizez/arratsaldez)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797511Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 orduko (aurreko zeroa eta goizeko/arratsaldeko digituak)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797512Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Bat ere ez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797512Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Ezarpenak ez daude eskuragarri tenporizadorea martxan dagoen bitartean!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797512Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Ezarpenak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797513Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Altxorrak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797513Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerioa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797514Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Bizi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797514Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Asteburua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797514Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Administratzaileak ezarpenak desgaitu ditu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797515Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerioa - 4. elementua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797515Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Zirkuituaren bisita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797516Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ATZERAKO KONTAKETA ITXIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797516Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Laguntza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797516Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[zirkuitu bisita]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797517Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Bertsio berria eskuragarri!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797517Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "NAGUSIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797517Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Sarbide-kodea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797518Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Aste erdialdeko modu moldagarria",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797518Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Asteburuko modu moldagarria",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797519Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Goranzko kontaketa etengailua baimendu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797519Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Beti gainean.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797519Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "URRUNEKO APLIKAZIOAK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79752Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODU AUTOMATIKOA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79752Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "KANPAIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79752Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEB ERLOJUA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79752Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "BILERAREN ATZERAKO KONTAKETA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797521Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Zirkuituaren bisita txandakatzeko/desaktibatzeko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797521Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Erloju digitalaren formatua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797522Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Gaituta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797522Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Pantaila osoko erloju modua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797522Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP helbidea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797523Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Bilera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797523Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Bileren hasiera orduak (lerro bakoitzeko 1)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797523Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "ASKOTARIKOAK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797524Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitorea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797524Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Erakutsi saguaren erakuslea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797525Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Jarri hasiera-ordu bakoitza lerro berri batean.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797525Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Erabili nahi duzun ordu formatua!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797526Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Aukeran, egun bat sartu dezakezu, adibidez, \u0022Osteguna 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797526Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Oharrak:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797526Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PORTU IREKIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797527Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Modua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797527Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Ikasleen denbora mantendu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797527Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Elkarrizketa-iraupena mantendu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797528Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Portua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797528Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "URRUNEKO SARBIDEA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797528Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Erakutsi sektorea erloju analogikoan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797529Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Pantaila zatituaren zabalera:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797529Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "PROBA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797529Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Mugatuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79753Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Tenporizadorea gora doa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79753Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TENPORIZADOREAREN LEIHOA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79753Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Eguneko ordua tenporizadorearen arabera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797531Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Bolumena:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797531Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Hizkuntza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797531Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Hizkuntza aldatu ondoren, berrabiarazi OnlyT.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797532Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Txikitu 1m\nKtrl - Txikitu 15s\nMaius - Txikitu 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797532Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Handitu 1m\nKtrl - Handitu 15s\nMaius - Handitu 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797533Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Eskuzko modua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797533Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Atzerako kontaketa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797533Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Goranzko zenbatzen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797534Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797534Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Gaituta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797534Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Gaituta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797535Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Gaituta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797535Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Erakutsi segundoak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797535Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Erakutsi markoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797536Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Erlojuaren markoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797536Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Zoom maila:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797537Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Kokapena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797537Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Behea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797537Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Behean ezkerrean",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797538Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Beheko eskuinean",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797538Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Zentroa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797538Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Ezkerra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797539Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Eskuinera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797539Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Goia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797539Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Goian ezkerrean",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79754Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Goian eskuinera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79754Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Ados",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797541Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Portua ireki eta erreserba egin da",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797541Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Ezin izan da portua ireki (ikusi erregistroa)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797541Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Sortutako denbora-txostena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797542Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Txostenak sortu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797542Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Amaierako segmentua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797542Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Tarteko segmentua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797543Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Sarrerako segmentua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797543Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Erregistro maila",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797543Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Araztu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797544Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Errorea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797544Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Hilgarria",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797544Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informazioa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797545Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Xehetasun handikoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797545Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Abisua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797545Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Bilera-tenporizadorearen datuak aztertzea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797545Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Txostena EZ da sortu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797546Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "IKUSI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797549Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatikoki soinua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797549Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Klik egin kanpaia jotzeko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797549Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Iraupena (minutuak)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79755Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementuak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79755Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Markatu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79755Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Txandala eta digitala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797551Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digitala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797551Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Atzeko plano gardena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797551Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Kontuan izan monitorearen kontrola komando-lerroko ezarpena dela.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797552Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Tenporizadorearen atzeko planoaren gradientea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797552Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Erlojuaren atzeko planoaren gradientea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797552Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Tenporizadore-markoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797553Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Erloju laua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797553Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Asteburuak ostirala barne hartzen du",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797554Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Leihoan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797554Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Leihoan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797554Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Itxi atzerako kontaketaren leihoa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797555Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Ezin da atzerako kontaketa gardena ireki \u0022leihoan\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797555Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Erlojua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797556Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Tenporizadoreak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797556Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "lineaz kanpo...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797556Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Txikitu minimizatzean",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797557Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "lehen mailako",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797557Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Kontuan izan irteera NDIra ezartzen dela komando-lerroko ezarpen baten bidez.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797557Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Tenporizadorea martxan jarri beharko zenuke?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797558Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Abisuak laster-leihoetan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797558Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Bilera {0} minutu luzatzen ari da",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797558Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Bilera {0} minutu gutxiagorekin doa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797559Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Gainezkatze/gutxiegitasun jakinarazpenak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797559Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Modu iluna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797559Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Itxi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79756Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Gorde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79756Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Freskatu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79756Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfiguratu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797561Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Eskatu sarbidea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797561Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Baztertu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797561Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Bilera hasten da hemen:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797562Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Eskaneatu gailu mugikorrarekin web erlojua ikusteko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797562Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Plataforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797562Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Egoera:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797563Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Pantaila osoko modua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797563Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Handitu denbora (\u002B1 min). Egin klik eskuineko botoiarekin aukera gehiago ikusteko.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797563Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Txikitu denbora (-1 min). Egin klik eskuineko botoiarekin aukera gehiago ikusteko.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797563Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Sortu denbora-txostena (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797564Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Erakutsi atzerako kontaketa tenporizadorea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797564Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Bertsio berria eskuragarri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797564Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Ezarpenak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797565Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Laguntza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797565Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Txikitu modu trinkora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797565Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797566Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minutu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797566Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minutu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797566Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797567Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minutu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797567Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minutu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797567Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "SAREKO BAIMENAK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797567Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Denbora gehigarrian flash tenporizadorea",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797568Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Jo kanpaia luzapenetan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797568Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Prest",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797569Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Korrika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797569Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pausatua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797569Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Ordu gehigarriak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797569Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Geldituta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79757Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Sartu sarbide-kodea...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.79757Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "minutu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797571Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfiguratuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797571Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Konfiguratu gabe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.797571Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:21.797583Z"
+}

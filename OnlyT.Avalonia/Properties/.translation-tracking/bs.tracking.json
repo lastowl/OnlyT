@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "bs",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Zvono je aktivno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554435Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Nijedan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554436Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Jednosmjerno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554437Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dvosmjerno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554437Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Verzija softvera {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554438Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 sati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554438Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 sati (po\u010Detna nula)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554439Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 sata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554439Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 sata (po\u010Detna nula)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55444Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nije mogu\u0107e kreirati mapu {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55444Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Prilago\u0111eno trajanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554441Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modificirano trajanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554441Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Originalno trajanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554442Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554442Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogni i digitalni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554442Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digitalni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554443Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Zvono je neaktivno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554443Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Sredina sedmice",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554444Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministarstvo - Stavka 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554444Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministarstvo - Stavka 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554444Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministarstvo - Stavka 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554445Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatski",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554446Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Zasnovano na datotekama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554446Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Ru\u010Dno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554447Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Zavr\u0161ni govor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554447Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Zaklju\u010Dni komentari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554448Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Biblijski studij u skup\u0161tini",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554448Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Duhovni dragulji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554449Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u017Divot - 1. dio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554449Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u017Divot - 2. dio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55445Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Uvodni komentari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55445Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Prezentacije ovog mjeseca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55445Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Javni razgovor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554451Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u010Citanje Biblije",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554451Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Razgovor o usluzi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554451Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Razgovor o blagu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554452Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Studija Stra\u017Earske kule",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554453Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Vikend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554453Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 sati (prijepodne/popodne)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554454Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 sati (po\u010Detna nula i am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554454Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Nijedan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554454Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Postavke nisu dostupne dok je tajmer uklju\u010Den!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554455Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Postavke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554455Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Blaga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554456Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministarstvo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554456Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u017Divot",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554457Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Vikend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554457Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Postavke je onemogu\u0107io administrator!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554457Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministarstvo - Stavka 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554458Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Posjeta krugu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554458Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ZATVORI ODBROJAVANJE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554459Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pomo\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554459Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[posjeta okrugu]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554459Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nova verzija dostupna!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55446Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "GLAVNO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55446Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Pristupni kod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554461Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Adaptivni na\u010Din rada usred sedmice",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554461Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Vikend adaptivni na\u010Din rada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554462Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Dozvoli prebacivanje na odbrojavanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554462Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Uvijek na vrhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554462Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "UDALJENE APLIKACIJE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554463Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATSKI RE\u017DIM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554463Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "ZVONO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554464Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEB SAT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554464Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "ODBROJAVANJE DO SASTANKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554464Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Prekida\u010D za posjetu krugu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554465Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Format digitalnog sata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554465Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Omogu\u0107eno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554466Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Re\u017Eim sata preko cijelog ekrana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554466Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adresa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554466Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Sastanak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554467Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Vrijeme po\u010Detka sastanka (1 po redu)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554467Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "RAZNO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554467Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554468Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Prika\u017Ei pokaziva\u010D mi\u0161a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554468Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Svako vrijeme po\u010Detka stavite u novi red.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554468Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Koristite bilo koji format vremena koji \u017Eelite!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554469Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Opcionalno uklju\u010Dite dan, npr. \u0022\u010Det 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554469Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Napomene:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554469Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "OTVORENI PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55447Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Na\u010Din rada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55447Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Istrajno studentsko vrijeme",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554471Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Trajanje razgovora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554471Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Luka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554471Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "UDALJENI PRISTUP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554472Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Prika\u017Ei sektor na analognom satu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554472Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "\u0160irina podijeljenog ekrana:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554473Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554473Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Usporeno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554473Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Tajmer odbrojava",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554474Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "PROZOR TAJMERA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554474Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Vrijeme dana pod tajmerom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554475Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Volumen:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554475Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Jezik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554475Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Molimo vas da ponovo pokrenite OnlyT nakon promjene jezika.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554476Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Smanji 1 m\nCtrl - Smanji 15 s\nShift - Smanji 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554476Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Pove\u0107aj 1m\nCtrl - Pove\u0107aj 15s\nShift - Pove\u0107aj 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554477Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Ru\u010Dni na\u010Din rada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554477Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Odbrojavanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554477Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Brojanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554478Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekundi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554478Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Omogu\u0107eno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554479Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Omogu\u0107eno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554479Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Omogu\u0107eno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554479Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Prika\u017Ei sekunde",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55448Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Prika\u017Ei okvir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55448Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Okvir sata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554481Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Nivo zumiranja:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554481Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Lokacija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554482Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Dno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554482Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Dolje lijevo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554483Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Dolje desno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554483Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554484Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Lijevo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554484Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Desno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554485Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Vrh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554485Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Gore lijevo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554486Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Gore desno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554486Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "U redu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554486Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Luka otvorena i rezervacija izvr\u0161ena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554487Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nije mogu\u0107e otvoriti port (pogledajte zapisnik)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554487Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Generisani izvje\u0161taj o vremenu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554488Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generiranje izvje\u0161taja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554488Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Zavr\u0161ni segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554489Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Privremeni segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554489Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Uvodni segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554489Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Nivo evidentiranja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55449Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Otklanjanje gre\u0161aka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55449Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Gre\u0161ka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554491Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Fatalno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554491Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informacije",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554491Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Op\u0161irno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554492Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Upozorenje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554492Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Analiziranje podataka o tajmeru sastanka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554493Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Izvje\u0161taj NIJE generiran!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554493Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "POGLED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554493Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatski zvuk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554494Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Kliknite za zvuk zvona",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554494Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Trajanje (minute)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554496Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554496Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Broj\u010Danik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554496Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Broj\u010Danik i digitalni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554497Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digitalni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554497Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Prozirna pozadina",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554498Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Imajte na umu da se monitorom upravlja pomo\u0107u postavke komandne linije",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554498Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Gradijent pozadine tajmera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554498Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Gradijent pozadine sata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554499Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Okvir tajmera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554499Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Ravni sat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.5545Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Vikend uklju\u010Duje petak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.5545Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "S prozorom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.5545Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "S prozorom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554501Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Zatvori prozor za odbrojavanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554501Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nije mogu\u0107e otvoriti prozirno odbrojavanje u prozoru",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554502Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Sat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554502Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Tajmeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554503Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "van mre\u017Ee...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554503Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Smanji pri minimiziranju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554503Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "primarni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554504Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Imajte na umu da je izlaz postavljen na NDI putem postavke komandne linije.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554504Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Trebao si pokrenuti tajmer?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554505Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Iska\u010Du\u0107i podsjetnici",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554505Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Sastanak traje {0} minuta du\u017Ee",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554505Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Sastanak traje {0} minuta kra\u0107e od predvi\u0111enog vremena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554506Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Obavje\u0161tenja o prekora\u010Denju/nedostajanju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554506Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tamni na\u010Din rada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554506Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Zatvori",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554507Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Sa\u010Duvaj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554507Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Osvje\u017Ei",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554508Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfiguriraj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554508Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Zahtjev za pristup",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554509Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Odbaci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554509Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Sastanak po\u010Dinje za",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554509Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skenirajte mobilnim ure\u0111ajem da biste vidjeli web sat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55451Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55451Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Status:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554511Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Re\u017Eim preko cijelog ekrana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554511Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Pove\u0107ajte vrijeme (\u002B1 min). Kliknite desnim tasterom mi\u0161a za vi\u0161e opcija.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554511Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Smanjite vrijeme (-1 min). Kliknite desnim tasterom mi\u0161a za vi\u0161e opcija.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554512Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Generiraj izvje\u0161taj o vremenu (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554512Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Prika\u017Ei tajmer za odbrojavanje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554512Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Dostupna nova verzija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554513Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Postavke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554513Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pomo\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554513Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Smanji u kompaktni na\u010Din rada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554514Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekundi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554514Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554515Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554515Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekundi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554516Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554516Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554517Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "MRE\u017DNE DOZVOLE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554517Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Tajmer blica tokom produ\u017Eetka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554517Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Zvoni zvono kada se radi prekovremeno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554518Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Spremno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554518Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Tr\u010Danje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554519Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pauzirano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554519Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Produ\u017Eeci",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55452Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Zaustavljeno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.55452Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Unesite pristupni kod...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554521Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554521Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigurisano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554522Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nije konfigurirano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:19.554522Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:19.554538Z"
+}

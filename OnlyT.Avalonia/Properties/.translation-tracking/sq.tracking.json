@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "sq",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Zilja \u00EBsht\u00EB aktive",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000138Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Asnj\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000139Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Nj\u00EBdrejtim\u00EBsh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000139Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dykah\u00EBsh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000139Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Versioni i softuerit {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00014Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-or\u00EBshe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00014Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-or\u00EBshe (zero fillestare)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000141Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-or\u00EBshe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000141Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-or\u00EBshe (zero fillestare)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000141Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nuk mund t\u00EB krijohej dosja {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000142Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Koh\u00EBzgjatja e p\u00EBrshtatur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000142Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Koh\u00EBzgjatja e modifikuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000142Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Koh\u00EBzgjatja origjinale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000143Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000143Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog dhe Dixhital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000143Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Dixhitale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000144Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Zilja \u00EBsht\u00EB joaktive",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000144Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Mesjav\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000144Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministria - Pika 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000145Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministria - Pika 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000145Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministria - Pika 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000145Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000146Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Bazuar n\u00EB skedar\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000146Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000146Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Bised\u00EB P\u00EBrfundimtare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000147Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Komente P\u00EBrfundimtare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000147Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Studimi i Bibl\u00EBs n\u00EB Kongregacion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000148Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Xhevahiret Shpirt\u00EBrore",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000148Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Jeta - Pjesa 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000148Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Jeta - Pjesa 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000149Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Komentet hap\u00EBse",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000149Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Prezantimet e k\u00EBtij muaji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000149Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Bised\u00EB Publike",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00015Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Leximi i Bibl\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00015Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Bised\u00EB Sh\u00EBrbimi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00015Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Biseda p\u00EBr Thesaret",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00015Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Studimi i Kull\u00EBs s\u00EB Roj\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000151Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Fundjav\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000151Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-or\u00EBshe (paradite/mbasdite)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000151Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-or\u00EBshe (zero dhe paradite/mbr\u00EBmje)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000152Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Asnj\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000152Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Cil\u00EBsimet nuk jan\u00EB t\u00EB disponueshme nd\u00EBrsa koh\u00EBmat\u00EBsi \u00EBsht\u00EB n\u00EB pun\u00EB!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000152Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Cil\u00EBsimet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000153Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Thesare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000153Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000154Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "T\u00EB jetosh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000154Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Fundjav\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000154Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Cil\u00EBsimet jan\u00EB \u00E7aktivizuar nga administratori!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000155Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministria - Pika 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000155Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Vizit\u00EB n\u00EB qark",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000155Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "MBYLL NUM\u00CBRIMI MBRAPSHT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000156Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Ndihm\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000156Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[vizit\u00EB n\u00EB qark]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000156Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Versioni i ri i disponuesh\u00EBm!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000157Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "KRYESORE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000157Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Kodi i aksesit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000157Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Modaliteti adaptues i mesjav\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000158Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Modaliteti adaptues i fundjav\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000158Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Lejo aktivizimin e num\u00EBrimit rrit\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000158Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Gjithmon\u00EB n\u00EB krye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000159Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APLIKACIONE N\u00CB DISTANC\u00CB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000159Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODALIA AUTOMATIKE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000159Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "ZILA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00016Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "ORA E WEB-IT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00016Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "NUM\u00CBRIMI MBRAPSHT I TAKIMIT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00016Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "\u00C7el\u00EBsi i vizitave n\u00EB qark",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000161Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Formati i or\u00EBs dixhitale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000161Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Aktivizuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000161Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Modaliteti i or\u00EBs me ekran t\u00EB plot\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000162Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adresa IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000162Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Takim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000162Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Orari i fillimit t\u00EB takimit (1 p\u00EBr rresht)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000163Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "T\u00CB NDRYSHME",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000163Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000163Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Shfaq treguesin e mausit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000163Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Vendosni \u00E7do koh\u00EB fillimi n\u00EB nj\u00EB rresht t\u00EB ri.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000164Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "P\u00EBrdorni \u00E7do format kohor q\u00EB d\u00EBshironi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000164Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "P\u00EBrfshini opsionalisht nj\u00EB dit\u00EB, p.sh. \u0022E enjte 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000164Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Sh\u00EBnime:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000165Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "HAP PORTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000165Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Modaliteti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000165Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Vazhdoni koh\u00EBn e studentit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000165Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Vazhdoni koh\u00EBzgjatjen e bised\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000166Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000166Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "QASJE N\u00CB LARG\u00CBSI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000166Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Shfaq sektorin n\u00EB or\u00EBn analoge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000167Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Gjer\u00EBsia e ekranit t\u00EB ndar\u00EB:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000167Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000167Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "I frenuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000168Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Koh\u00EBmat\u00EBsi num\u00EBron lart",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000168Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "Dritarja e Koh\u00EBmat\u00EBsit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000168Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Ora e dit\u00EBs n\u00EBn koh\u00EBmat\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000168Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "V\u00EBllimi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000169Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Gjuha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000169Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Ju lutemi rinisni OnlyT pasi t\u00EB keni ndryshuar gjuh\u00EBn.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000169Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Zvog\u00EBlo 1m\nCtrl - Zvog\u00EBlo 15s\nShift - Zvog\u00EBlo 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000169Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Rrit 1m\nCtrl - Rrit 15s\nShift - Rrit 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00017Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Modaliteti manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00017Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Duke num\u00EBruar mbrapsht",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00017Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Duke num\u00EBruar lart",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00017Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekonda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000171Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Aktivizuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000171Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Aktivizuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000171Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Aktivizuar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000171Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Shfaq sekondat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000172Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Shfaq korniz\u00EBn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000172Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Korniza e or\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000172Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Niveli i zmadhimit:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000173Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Vendndodhja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000173Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Fundi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000173Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Posht\u00EB majtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000173Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Posht\u00EB djathtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000174Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Qend\u00EBr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000174Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Majtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000174Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Djathtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000175Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Krye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000175Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Lart majtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000176Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Sip\u00EBr djathtas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000176Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "N\u00EB rregull",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000176Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Porti u hap dhe rezervimi u b\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000177Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nuk mundi ta hapte port\u00EBn (shih regjistrin)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000177Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Raporti i koh\u00EBs s\u00EB gjeneruar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000177Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Gjeneroni raporte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000177Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Segmenti P\u00EBrfundimtar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000178Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Segmenti i P\u00EBrkohsh\u00EBm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000178Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Segmenti Hyr\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000178Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Niveli i regjistrimit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000179Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Debug",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000179Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Gabim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000179Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Fatal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000179Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informacion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00018Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "I holl\u00EBsish\u00EBm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00018Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Paralajm\u00EBrim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00018Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Duke analizuar t\u00EB dh\u00EBnat e koh\u00EBmat\u00EBsit t\u00EB takimit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000181Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Raporti NUK \u00EBsht\u00EB gjeneruar!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000181Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "PAMJE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000182Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Z\u00EBri automatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000182Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Klikoni p\u00EBr t\u00EB aktivizuar zilen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000182Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Koh\u00EBzgjatja (minuta)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000183Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000183Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Dial",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000183Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dial dhe dixhital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000184Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Dixhitale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000184Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Sfond transparent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000184Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Vini re se monitori kontrollohet nga nj\u00EB cil\u00EBsim i linj\u00EBs s\u00EB komand\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000185Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Gradienti i sfondit t\u00EB koh\u00EBmat\u00EBsit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000185Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Gradienti i sfondit t\u00EB or\u00EBs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000185Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Korniza e koh\u00EBmat\u00EBsit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000186Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Or\u00EB e shesht\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000186Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Fundjava p\u00EBrfshin t\u00EB premten",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000186Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Me dritare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000187Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Me dritare",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000187Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Mbyll dritaren e num\u00EBrimit mbrapsht",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000187Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nuk mund t\u00EB hapet num\u00EBrimi mbrapsht transparent \u0022i dritarezuar\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000187Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Ora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000188Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Koh\u00EBmat\u00EBsit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000188Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "jasht\u00EB linje...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000188Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Tkurr n\u00EB minimizim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000188Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "primar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000189Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Vini re se rezultati \u00EBsht\u00EB vendosur n\u00EB NDI n\u00EBp\u00EBrmjet nj\u00EB cil\u00EBsimi t\u00EB linj\u00EBs s\u00EB komand\u00EBs.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000189Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "A duhej ta kishe nisur koh\u00EBmat\u00EBsin?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000189Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Kujtesa pop-up",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000189Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Takimi do t\u00EB zgjas\u00EB {0} minuta shtes\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00019Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Takimi po zhvillohet {0} minuta m\u00EB von\u00EB se orari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00019Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Njoftime mbingarkese/n\u00EBnngarkese",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.00019Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Modaliteti i err\u00EBt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000191Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Mbyll",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000191Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ruaj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000191Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Rifresko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000192Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfiguro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000192Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "K\u00EBrko Qasje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000192Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Hiq",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000192Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Takimi fillon n\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000193Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skano me pajisje celulare p\u00EBr t\u00EB par\u00EB or\u00EBn n\u00EB internet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000193Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000193Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Statusi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000193Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Modaliteti i Ekranit t\u00EB Plot\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000194Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Rrit koh\u00EBn (\u002B1 min). Klikoni me t\u00EB djatht\u00EBn p\u00EBr m\u00EB shum\u00EB opsione.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000194Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Zvog\u00EBlo koh\u00EBn (-1 minut\u00EB). Klikoni me t\u00EB djatht\u00EBn p\u00EBr m\u00EB shum\u00EB opsione.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000194Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Gjeneroni raportin e koh\u00EBs (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000195Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Shfaq koh\u00EBmat\u00EBsin e num\u00EBrimit mbrapsht",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000195Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Version i ri i disponuesh\u00EBm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000195Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Cil\u00EBsimet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000195Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Ndihm\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000196Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Tkurr n\u00EB modalitetin kompakt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000196Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekonda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000196Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000196Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000197Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekonda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000197Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000197Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000197Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "LEJET E RRJETIT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000198Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Koh\u00EBmat\u00EBsi i shpejt\u00EB gjat\u00EB koh\u00EBs shtes\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000198Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Bie Zileja Kur Koh\u00EBzgjatja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000198Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Gati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000198Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Vrapim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000199Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "U ndalua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000199Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Koh\u00EB shtes\u00EB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000199Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "U ndal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000199Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Fut kodin e hyrjes...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.0002Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.0002Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfiguruar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.0002Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nuk \u00EBsht\u00EB konfiguruar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.000201Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:18.000212Z"
+}

@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ga",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "T\u00E1 an clog gn\u00EDomhach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152017Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Dada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152018Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Aontreo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152018Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dh\u00E1 bhealach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152019Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Leagan bogearra\u00ED {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152019Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 uair an chloig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152019Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 uair an chloig (nialas tosaigh)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15202Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 uair an chloig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15202Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 uair an chloig (nialas tosaigh)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15202Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "N\u00EDorbh fh\u00E9idir fillte\u00E1n {0} a chruth\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152021Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Fad oiri\u00FAnaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152021Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Fad modhnaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152021Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Fad bunaidh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152022Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Anal\u00F3gach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152022Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Anal\u00F3gach agus Digiteach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152022Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digiteach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152023Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "T\u00E1 Bell neamhghn\u00EDomhach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152023Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "L\u00E1r na seachtaine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152023Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Aireacht - M\u00EDr 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152024Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Aireacht - M\u00EDr 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152024Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Aireacht - M\u00EDr 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152024Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Uathoibr\u00EDoch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152025Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Bunaithe ar chomhaid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152025Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "L\u00E1mhleabhar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152025Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Comhr\u00E1 Deiridh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152026Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Tr\u00E1chtanna Deiridh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152026Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Staid\u00E9ar B\u00EDobla an Phobail",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152026Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Seoda Spiorad\u00E1lta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152027Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Maireacht\u00E1il - Cuid 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152027Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Maireacht\u00E1il - Cuid 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152027Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Tr\u00E1chtanna Oscailte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152028Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Cur i L\u00E1thair na M\u00EDosa seo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152028Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Comhr\u00E1 Poibl\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152028Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "L\u00E9amh an Bh\u00EDobla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152029Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Comhr\u00E1 Seirbh\u00EDse",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152029Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Caint na Seoda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152029Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Staid\u00E9ar an T\u00FAr Faire",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15203Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Deireadh Seachtaine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15203Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 uair an chloig (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152031Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 uair an chloig (n\u00E1id tosaigh \u0026 am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152031Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Dada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152031Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "N\u00EDl socruithe ar f\u00E1il agus an lasc ama ag rith!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152031Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Socruithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152032Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Seoda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152032Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Aireacht",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152033Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Maireacht\u00E1il",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152033Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Deireadh Seachtaine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152033Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Socruithe d\u00EDchumasaithe ag an riarth\u00F3ir!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152034Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Aireacht - M\u00EDr 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152034Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Cuairt ar an gCiorcad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152034Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "D\u00DAN COMHAIREAMH S\u00CDOS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152035Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Cabhair",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152035Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[cuairt ciorcaid]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152035Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Leagan nua ar f\u00E1il!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152036Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PR\u00CDOMH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152036Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "C\u00F3d rochtana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152036Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "M\u00F3d oiri\u00FAnaitheach l\u00E1r na seachtaine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152037Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "M\u00F3d oiri\u00FAnaitheach deireadh seachtaine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152037Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Ceadaigh comhaireamh suas a athr\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152037Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "I gc\u00F3na\u00ED ar bharr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152038Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "Aipeanna Iarg\u00FAlta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152038Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "M\u00F3d Uathoibr\u00EDoch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152038Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "CLOG",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152038Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "CLOG GR\u00C9AS\u00C1IN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152039Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "COMHAIREAMH S\u00CDOS DO CHRUINNI\u00DA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152039Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Scor\u00E1naigh cuairte ciorcaid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152039Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Form\u00E1id cloig dhigitigh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15204Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Cumasaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15204Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "M\u00F3d clog l\u00E1nsc\u00E1ile\u00E1in",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15204Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Seoladh IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152041Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Cruinni\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152041Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Amanna tosaithe cruinnithe (1 in aghaidh an l\u00EDne)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152041Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "ILGHN\u00C9ITHEACH",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152042Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monat\u00F3ir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152042Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Taispe\u00E1in pointeoir luiche",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152042Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Cuir gach am tosaithe ar l\u00EDne nua.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152042Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Bain \u00FAs\u00E1id as aon fhorm\u00E1id ama is mian leat!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152043Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Is f\u00E9idir l\u00E1 a chur san \u00E1ireamh m\u00E1s mian leat, m.sh. \u0022D\u00E9ardaoin 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152043Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "N\u00F3ta\u00ED:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152043Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PORT OSCAILTE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152043Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "M\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152044Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Am mac l\u00E9inn buan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152044Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Fad lean\u00FAnach cainte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152044Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Calafort",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152045Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "ROCHTAIN CIAND",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152045Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Taispe\u00E1in earn\u00E1il ar chlog anal\u00F3gach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152045Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Leithead sc\u00E1ile\u00E1in scoilte:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152045Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "T\u00C1ST\u00C1IL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152046Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Srianta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152046Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Comhaireamh an lasc ama suas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152046Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "FUINNEOG AMAIRE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152047Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Am an lae faoin lasc ama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152047Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Imleabhar:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152047Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Teanga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152047Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Atosaigh OnlyT tar \u00E9is duit an teanga a athr\u00FA.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152048Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Laghdaigh 1m\nCtrl - Laghdaigh 15s\nShift - Laghdaigh 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152048Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "M\u00E9adaigh 1m\nCtrl - M\u00E9adaigh 15s\nShift - M\u00E9adaigh 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152048Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "M\u00F3d l\u00E1imhe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152048Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Ag comhaireamh s\u00EDos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152049Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Ag comhaireamh suas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152049Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} soicind",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152049Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Cumasaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152049Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Cumasaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15205Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Cumasaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15205Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Taispe\u00E1in soicind\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15205Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Taispe\u00E1in fr\u00E1ma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15205Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Fr\u00E1ma cloig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152051Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Leibh\u00E9al s\u00FAm\u00E1la:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152051Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Su\u00EDomh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152051Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Bun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152051Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Bun ar chl\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152052Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Bun ar dheis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152052Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "L\u00E1r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152052Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Ar chl\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152053Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Ar dheis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152053Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Barr",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152053Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Barr ar chl\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152053Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Barr ar dheis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152054Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Ceart go leor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152054Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Calafort oscailte agus \u00E1irithint d\u00E9anta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152055Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "N\u00EDorbh fh\u00E9idir an port a oscailt (f\u00E9ach an log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152055Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Tuarasc\u00E1il ama ginte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152055Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Ginigh tuarasc\u00E1lacha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152055Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Deighleog Deiridh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152056Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Deighleog Eatramhach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152056Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Deighleog R\u00E9amhr\u00E1iteach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152057Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Leibh\u00E9al log\u00E1la",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152057Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "D\u00EDfhabht\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152057Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Earr\u00E1id",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152058Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Marfach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152058Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Eolas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152058Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Fad\u00F3ch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152058Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Rabhadh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152059Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Ag anail\u00EDsi\u00FA sonra\u00ED lasc ama cruinnithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152059Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "N\u00EDor gineadh tuarasc\u00E1il!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152059Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "AMH\u00C1IN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152059Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Fuaim go huathoibr\u00EDoch",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15206Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Clice\u00E1il chun an clog a fhuaimni\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15206Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Fad (n\u00F3im\u00E9id)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15206Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Eilimint\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15206Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Diailigh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152061Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dhiaili\u00FA agus digiteach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152061Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digiteach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152061Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "C\u00FAlra tr\u00E9dhearcach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152062Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Tabhair faoi deara go riala\u00EDtear an monat\u00F3ir le socr\u00FA l\u00EDne ordaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152062Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Gr\u00E1d\u00E1n c\u00FAlra an lasc ama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152062Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Gr\u00E1d\u00E1n c\u00FAlra cloig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152063Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Fr\u00E1ma lasc ama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152063Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Clog cothrom",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152063Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Deireadh seachtaine san \u00E1ireamh D\u00E9 hAoine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152064Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Fuinneogach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152064Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Fuinneogach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152064Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "D\u00FAn Fuinneog Chomhairimh S\u00EDos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152064Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "N\u00ED f\u00E9idir comhaireamh s\u00EDos tr\u00E9dhearcach \u0022i bhfuinneog\u0022 a oscailt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152065Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Clog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152065Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Amad\u00F3ir\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152065Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "as l\u00EDne...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152066Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Laghdaigh ar \u00EDoslaghd\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152066Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "pr\u00EDomh\u00FAil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152066Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Tabhair faoi deara go socra\u00EDtear an t-aschur go NDI tr\u00ED shocr\u00FA l\u00EDne ordaithe.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152066Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Ar cheart duit an lasc ama a thos\u00FA?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152067Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Meabhr\u00FAch\u00E1in an\u00EDos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152067Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "T\u00E1 an cruinni\u00FA ar si\u00FAl {0} n\u00F3im\u00E9ad breise",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152067Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "T\u00E1 an cruinni\u00FA ar si\u00FAl {0} n\u00F3im\u00E9ad faoi bhun an ama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152067Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "F\u00F3gra\u00ED r\u00F3-tharraingthe/faoi thr\u00E9imh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152068Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "M\u00F3d dorcha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152068Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "D\u00FAn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152068Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "S\u00E1bh\u00E1il",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152068Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Athnuachan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152069Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Cumraigh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152069Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Iarr Rochtain",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152069Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "D\u00EDbhe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15207Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Tosa\u00EDonn an cruinni\u00FA i",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15207Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Scan\u00E1il le gl\u00E9as soghluaiste chun clog gr\u00E9as\u00E1in a fheice\u00E1il",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15207Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Ard\u00E1n:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.15207Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "St\u00E1das:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152071Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "M\u00F3d L\u00E1nsc\u00E1ile\u00E1in",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152071Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "M\u00E9adaigh an t-am (\u002B1 n\u00F3im\u00E9ad). Clice\u00E1il ar dheis le haghaidh tuilleadh roghanna.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152071Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Laghdaigh an t-am (-1 n\u00F3im\u00E9ad). Clice\u00E1il ar dheis le haghaidh tuilleadh roghanna.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152071Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Tuairisc ama a ghini\u00FAint (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152072Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Taispe\u00E1in an lasc ama comhairimh s\u00EDos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152072Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Leagan nua ar f\u00E1il",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152072Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Socruithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152072Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Cabhair",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152073Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Laghdaigh go m\u00F3d dl\u00FAth",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152073Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 soicind",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152073Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 n\u00F3im\u00E9ad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152073Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 n\u00F3im\u00E9ad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152074Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 soicind",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152074Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 n\u00F3im\u00E9ad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152074Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 n\u00F3im\u00E9ad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152075Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "CEADANNA L\u00CDONRA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152075Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Amaire Splanc le linn Am Breise",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152075Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Buail an Clog le linn Am Breise",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152075Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "R\u00E9idh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152076Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Rith",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152076Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Sosaithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152076Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Am breise",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152076Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Stoptha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152077Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Cuir isteach c\u00F3d rochtana...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152077Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "n\u00F3im",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152077Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Cumraithe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152078Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Gan Cumr\u00FA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:24.152078Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:24.152092Z"
+}

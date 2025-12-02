@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Newtonsoft.Json;
+
+namespace OnlyT.Avalonia.MeetingTalkTimesFeed;
+
+public sealed class Meeting
+{
+    [JsonProperty]
+    public DateTime Date { get; set; }
+
+    [JsonProperty]
+    public List<TalkTimer> Talks { get; } = [];
+
+    public override string ToString()
+    {
+        var sb = new StringBuilder();
+
+        sb.Append(Date.ToShortDateString());
+        foreach (var talk in Talks)
+        {
+            sb.Append(", ");
+            sb.Append(talk);
+        }
+
+        return sb.ToString();
+    }
+}

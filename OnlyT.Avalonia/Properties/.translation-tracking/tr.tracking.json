@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "tr",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "\u00C7an aktif",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717884Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Hi\u00E7biri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717885Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Tek Y\u00F6n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717886Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "\u00C7ift y\u00F6nl\u00FC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717887Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Yaz\u0131l\u0131m s\u00FCr\u00FCm\u00FC {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717887Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 saatlik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717888Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 saatlik (\u00F6nceki s\u0131f\u0131r)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717888Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 saat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717888Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 saat (\u00F6nceki s\u0131f\u0131r)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717889Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "{0} klas\u00F6r\u00FC olu\u015Fturulamad\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717889Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Uyarlanm\u0131\u015F s\u00FCre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71789Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "De\u011Fi\u015Ftirilmi\u015F s\u00FCre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71789Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Orijinal s\u00FCre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71789Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717891Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog ve Dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717891Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717891Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Zil etkin de\u011Fil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717892Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Hafta ortas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717892Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Bakanl\u0131k - Madde 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717892Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Bakanl\u0131k - Madde 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717893Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Bakanl\u0131k - Madde 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717893Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Otomatik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717894Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Dosya tabanl\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717894Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manuel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717894Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Sonu\u00E7 Konu\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717895Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Sonu\u00E7 Yorumlar\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717895Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Cemaat \u0130ncil \u00C7al\u0131\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717896Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Manevi M\u00FCcevherler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717896Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Ya\u015Fam - B\u00F6l\u00FCm 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717896Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Ya\u015Fam - B\u00F6l\u00FCm 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717897Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "A\u00E7\u0131l\u0131\u015F Yorumlar\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717897Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Bu Ay\u0131n Sunumlar\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717897Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Kamu Konu\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717898Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u0130ncil Okuma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717898Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Hizmet Konu\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717898Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Hazine Konu\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717899Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "G\u00F6zc\u00FC Kulesi \u00C7al\u0131\u015Fmas\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717899Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Hafta sonu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.7179Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 saatlik (sabah/ak\u015Fam)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.7179Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 saatlik (\u00F6nceki s\u0131f\u0131r ve sabah/\u00F6\u011Fleden sonra)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.7179Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Hi\u00E7biri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717901Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Zamanlay\u0131c\u0131 \u00E7al\u0131\u015F\u0131rken ayarlar kullan\u0131lamaz!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717901Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Ayarlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717902Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Hazineler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717902Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Bakanl\u0131k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717902Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Ya\u015Famak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717903Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Hafta sonu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717903Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Ayarlar y\u00F6netici taraf\u0131ndan devre d\u0131\u015F\u0131 b\u0131rak\u0131ld\u0131!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717903Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Bakanl\u0131k - Madde 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717904Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Devre ziyareti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717904Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "KAPANMA GER\u0130 SAYIMI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717904Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Yard\u0131m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717905Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[devre ziyareti]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717905Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Yeni s\u00FCr\u00FCm mevcut!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717905Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "ANA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717906Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Eri\u015Fim kodu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717906Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Haftan\u0131n ortas\u0131nda uyarlanabilir mod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717907Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Hafta sonu uyarlanabilir modu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717907Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Geri say\u0131m ge\u00E7i\u015Fine izin ver",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717907Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Her zaman zirvede",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717908Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "UZAK UYGULAMALAR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717908Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "OTOMAT\u0130K MOD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717908Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "Z\u0130L",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717909Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEB SAAT\u0130",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717909Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "TOPLANTI GER\u0130 SAYIMI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717909Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Devre ziyareti ge\u00E7i\u015Fi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71791Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Dijital saat bi\u00E7imi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71791Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Etkinle\u015Ftirilmi\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71791Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Tam ekran saat modu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717911Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adresi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717911Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Toplant\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717912Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Toplant\u0131 ba\u015Flang\u0131\u00E7 saatleri (sat\u0131r ba\u015F\u0131na 1)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717912Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u00C7E\u015E\u0130TL\u0130",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717912Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monit\u00F6r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717912Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Fare i\u015Faret\u00E7isini g\u00F6ster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717913Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Her ba\u015Flang\u0131\u00E7 saatini yeni bir sat\u0131ra yaz\u0131n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717913Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "\u0130stedi\u011Finiz zaman format\u0131n\u0131 kullan\u0131n!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717913Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "\u0130ste\u011Fe ba\u011Fl\u0131 olarak bir g\u00FCn ekleyin, \u00F6rne\u011Fin \u0022Per 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717914Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Notlar:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717914Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "A\u00C7IK PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717914Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Mod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717915Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "\u00D6\u011Frenci zaman\u0131n\u0131 devam ettir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717915Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Konu\u015Fma s\u00FCresini kal\u0131c\u0131 hale getir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717916Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Liman",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717916Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "UZAKTAN ER\u0130\u015E\u0130M",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717916Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Sekt\u00F6r\u00FC analog saatte g\u00F6ster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717917Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "B\u00F6l\u00FCnm\u00FC\u015F ekran geni\u015Fli\u011Fi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717917Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717918Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "K\u0131s\u0131lm\u0131\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717918Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Zamanlay\u0131c\u0131 saymaya devam ediyor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717918Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "ZAMANLAYICI PENCERES\u0130",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717918Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Zamanlay\u0131c\u0131 alt\u0131ndaki g\u00FCn\u00FCn saati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717919Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Hacim:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717919Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Dil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717919Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "L\u00FCtfen dili de\u011Fi\u015Ftirdikten sonra OnlyT\u0027yi yeniden ba\u015Flat\u0131n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71792Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "1 dk Azalt\nCtrl - 15 sn Azalt\nShift - 5 dk Azalt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71792Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "1 dk. artt\u0131r\nCtrl - 15 sn. artt\u0131r\nShift - 5 dk. artt\u0131r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71792Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manuel mod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717921Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Geri say\u0131m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717921Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Sayma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717921Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} saniye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717921Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Etkinle\u015Ftirilmi\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717922Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Etkinle\u015Ftirilmi\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717922Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Etkinle\u015Ftirilmi\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717922Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Saniyeleri g\u00F6ster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717923Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "G\u00F6steri \u00E7er\u00E7evesi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717923Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Saat \u00E7er\u00E7evesi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717923Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Yak\u0131nla\u015Ft\u0131rma d\u00FCzeyi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717924Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Konum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717924Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Alt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717924Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Sol alt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717925Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Sa\u011F alt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717925Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Merkez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717926Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Sol",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717926Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Sa\u011F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717926Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Tepe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717927Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Sol \u00FCst",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717927Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Sa\u011F \u00FCst",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717927Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "TAMAM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717928Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Liman a\u00E7\u0131ld\u0131 ve rezervasyon yap\u0131ld\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717928Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Port a\u00E7\u0131lamad\u0131 (g\u00FCnl\u00FC\u011Fe bak\u0131n)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717928Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Olu\u015Fturulan zamanlama raporu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717929Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Raporlar olu\u015Fturun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717929Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Sonu\u00E7 B\u00F6l\u00FCm\u00FC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717929Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Ge\u00E7ici Segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71793Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Giri\u015F B\u00F6l\u00FCm\u00FC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71793Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "G\u00FCnl\u00FCk kayd\u0131 seviyesi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71793Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Hata ay\u0131klama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717931Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Hata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717931Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u00D6l\u00FCmc\u00FCl",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717931Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Bilgi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717932Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Ayr\u0131nt\u0131l\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717932Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Uyar\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717932Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Toplant\u0131 zamanlay\u0131c\u0131 verilerinin analizi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717933Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Rapor OLU\u015ETURULMADI!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717933Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "G\u00D6R\u00DC\u015E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717933Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Otomatik ses",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717934Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Zil sesini duymak i\u00E7in t\u0131klay\u0131n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717934Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "S\u00FCre (dakika)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717934Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717934Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Aramak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717935Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Kadran ve dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717935Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Dijital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717935Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "\u015Eeffaf arka plan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717936Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Monit\u00F6r\u00FCn bir komut sat\u0131r\u0131 ayar\u0131yla kontrol edildi\u011Fini unutmay\u0131n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717936Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Zamanlay\u0131c\u0131 arka plan gradyan\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717937Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Saat arka plan gradyan\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717937Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Zamanlay\u0131c\u0131 \u00E7er\u00E7evesi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717938Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "D\u00FCz saat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717938Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Hafta sonu Cuma g\u00FCn\u00FCn\u00FC i\u00E7erir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717938Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Pencereli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717939Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Pencereli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717939Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Geri Say\u0131m Penceresini Kapat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717939Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "\u015Eeffaf \u0022pencereli\u0022 geri say\u0131m a\u00E7\u0131lam\u0131yor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71794Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Saat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71794Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Zamanlay\u0131c\u0131lar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71794Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "\u00E7evrimd\u0131\u015F\u0131...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717941Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "K\u00FC\u00E7\u00FCltmek yerine k\u00FC\u00E7\u00FClt\u00FCn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717941Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "\u00F6ncelik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717941Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u00C7\u0131kt\u0131n\u0131n komut sat\u0131r\u0131 ayar\u0131yla NDI olarak ayarland\u0131\u011F\u0131n\u0131 unutmay\u0131n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717942Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Zamanlay\u0131c\u0131y\u0131 ba\u015Flatmal\u0131 m\u0131yd\u0131n?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717942Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "A\u00E7\u0131l\u0131r hat\u0131rlat\u0131c\u0131lar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717942Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Toplant\u0131 {0} dakika fazla mesai yap\u0131yor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717942Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Toplant\u0131 {0} dakika gecikmeli olarak devam ediyor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717943Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "A\u015F\u0131r\u0131/Az bildirimleri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717943Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Karanl\u0131k mod",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717943Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Kapal\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717944Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Kaydetmek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717944Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Yenile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717944Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Yap\u0131land\u0131r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717945Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Eri\u015Fim Talebinde Bulunun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717945Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Azletmek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717945Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Toplant\u0131 ba\u015Fl\u0131yor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717945Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Web saatini g\u00F6r\u00FCnt\u00FClemek i\u00E7in mobil cihaz\u0131n\u0131zla taray\u0131n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717946Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platform:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717946Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Durum:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717946Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Tam Ekran Modu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717946Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "S\u00FCreyi art\u0131r\u0131n (\u002B1 dk). Daha fazla se\u00E7enek i\u00E7in sa\u011F t\u0131klay\u0131n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717947Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "S\u00FCreyi azalt\u0131n (-1 dk). Daha fazla se\u00E7enek i\u00E7in sa\u011F t\u0131klay\u0131n.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717947Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Zamanlama raporu olu\u015Ftur (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717947Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Geri say\u0131m zamanlay\u0131c\u0131s\u0131n\u0131 g\u00F6ster",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717948Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Yeni s\u00FCr\u00FCm mevcut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717948Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Ayarlar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717948Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Yard\u0131m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717949Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Kompakt moda k\u00FC\u00E7\u00FClt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717949Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 saniye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717949Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71795Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71795Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 saniye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.71795Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717951Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717951Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "A\u011E \u0130Z\u0130NLER\u0130",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717951Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Uzatma S\u00FCresince Fla\u015F Zamanlay\u0131c\u0131s\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717951Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Uzatmalarda Zil \u00C7alar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717952Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Haz\u0131r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717952Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Ko\u015Fma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717952Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Duraklat\u0131ld\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717953Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Mesai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717953Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Durduruldu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717953Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Eri\u015Fim kodunu girin...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717954Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "dakika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717954Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Yap\u0131land\u0131r\u0131ld\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717954Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Yap\u0131land\u0131r\u0131lmad\u0131",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:05.717955Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:05.71797Z"
+}

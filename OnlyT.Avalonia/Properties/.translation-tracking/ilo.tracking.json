@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ilo",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Aktibo ni Bell",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563092Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Awan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563093Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Maymaysa ti dalan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563094Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dua ti dalan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563095Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Bersion ti software {0} .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563095Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-oras",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563095Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-oras (mangidaulo a sero) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563096Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-oras nga oras",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563097Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-oras (mangidaulo a sero) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563097Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Saan a makaaramid ti folder {0} .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563097Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Naibagay ti kapaut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563098Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Nabaliwan ti kapautna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563098Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Orihinal a kapaut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563099Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogo nga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563099Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogo ken Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563099Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digital nga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.5631Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Saan nga aktibo ni Bell",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.5631Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Tengnga ti lawas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563101Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerio - Item 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563101Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerio - Item 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563101Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerio - Item 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563102Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatiko nga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563102Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Naibasar iti file",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563102Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Giya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563103Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Pananggibus a Palawag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563103Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Dagiti Panggibus a Komento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563104Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Panagadal iti Biblia ti Kongregasion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563104Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Dagiti Naespirituan a Gems",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563105Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Panagbiag - Paset 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563105Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Panagbiag - Paset 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563105Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Pananglukat a Komento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563106Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Dagiti Presentasion iti Daytoy a Bulan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563106Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Palawag iti Publiko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563106Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Panagbasa iti Biblia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563107Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Palawag iti Serbisio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563107Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Pagsasaritaan dagiti Gameng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563107Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Panagadal iti Pagwanawanan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563108Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Gibus ti lawas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563108Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-oras (agsapa/malem) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563109Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-oras (mangidaulo a sero \u0026 am/pm) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563109Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Awan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563109Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Saan a magun-od dagiti setting bayat nga agtartaray ti timer!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56311Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Dagiti Setting",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56311Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Dagiti gameng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563111Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerio",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563111Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Panagbiag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563112Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Gibus ti lawas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563112Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Dagiti panagitunos ket nabalbaliwan babaen ti administrador!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563112Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerio - Item 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563112Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Panagbisita iti sirkito",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563113Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "CLOSE COUNTDOWN TI PANAGBILANG",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563113Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Tulong",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563114Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[panagbisita iti sirkito].",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563114Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Baro a bersion ti magun-odan!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563114Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "KANGRUNAAN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563115Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Kodigo ti akses",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563115Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Midweek nga adaptive mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563115Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Adaptibo a mode ti ngudo ti lawas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563116Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Bay-an ti count-up toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563116Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Kanayon nga adda iti ngato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563116Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "REMOTE nga APPS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563117Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATIKO A MODO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563117Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563117Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "RELO TI WEB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563118Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "PANANGIBILANG ITI PANAGMIING",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563118Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Toggle ti panagbisita iti sirkito",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563118Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digital a pormat ti relo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563119Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Na-enable",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563119Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Modo ti relo ti naan-anay nga iskrin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56312Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Address ti IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56312Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Taripnong",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563121Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Oras ti panangrugi ti miting (1 iti tunggal linia) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563121Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "SUROK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563121Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitoren",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563122Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Ipakita ti mouse pointer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563122Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Ikabil ti tunggal oras ti panangrugi iti baro a linia.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563122Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Usaren ti aniaman a pormat ti oras a kayatmo!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563123Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Opsional nga iraman ti maysa nga aldaw, e.g. \u0022Hub 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563123Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Dagiti Pakaammo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563123Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "LUKAT TI PUERTO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563124Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Modo ti Modo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563124Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Itultuloy ti oras ti estudiante",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563124Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Itultuloy ti kapaut ti panagsarita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563125Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Puerto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563125Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "REMOTE ACCESS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563126Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Ipakita ti sektor iti analog a relo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563126Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Kalawa ti split-screen:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563126Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "EKSAMEN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563127Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Nag-throttle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563127Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Timer ti agbilang nga agpangato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563127Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TIMER WINDOW TI TIMER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563128Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Oras ti aldaw iti sidong ti timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563128Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Kapigsa:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563128Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Lengguahe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563129Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Pangngaasi nga irugi manen ti OnlyT kalpasan ti panangbalbaliw ti pagsasao.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563129Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Bumassit ti 1m\nCtrl - Bumassit ti 15s\nShift - Bumassit ti 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563129Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Ipangato ti 1m\nCtrl - Ipangato ti 15s\nShift - Ipangato ti 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56313Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manual nga modo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56313Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Agbilang nga agpababa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56313Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Agbilang nga agpangato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563131Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} nga segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563131Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Na-enable",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563131Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Na-enable",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563131Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Na-enable",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563132Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Ipakita dagiti segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563132Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Ipakita ti kuadro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563132Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Kuadro ti relo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563133Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Lebel ti panag-zoom:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563133Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Lokasion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563133Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Lansad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563134Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Iti baba a kannigid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563134Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Iti baba a kannawan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563134Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Sentro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563135Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Kannigid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563135Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Kusto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563136Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Ngato",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563136Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Nangato a kannigid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563136Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Nangato a kannawan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563137Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "OK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563137Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Naluktan ti puerto ken naaramid ti reserbasion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563137Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Saan a malukatan ti puerto (kitaen ti log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563138Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Napataud ti report ti timing",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563138Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Mangpataud kadagiti report",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563138Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Panggibus a Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563139Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Interim a Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563139Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Pakauna a Segmento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563139Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Lebel ti panagtroso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56314Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Debug ti panag-debug",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563141Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Biddut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563141Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Makapatay",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563141Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Impormasion",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563142Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Nasasao a berbose",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563142Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Pakdaar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563142Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Panag-analisar ti datos ti timer ti miting",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563143Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "SAAN a napataud ti Report!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563143Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "KITAEN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563144Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatiko nga aguni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563144Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "I-click tapno aguni ti kampana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563144Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Kapaut (mins) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563145Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Dagiti Elemento",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563145Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "I-dial-mo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563145Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dial ken digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563146Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digital nga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563146Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Transparent a likudan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563146Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Paliiwenyo a ti monitor ket kontrolado babaen ti command-line setting",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563147Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Timer nga background nga gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563147Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Relo nga background gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563148Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Kuadro ti timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563148Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Flat nga relo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563148Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Karaman iti ngudo ti lawas ti Biernes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563149Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Nabintana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563149Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Nabintana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563149Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Iserram ti Bintana ti Panagbilang",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56315Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Saan a mabalin a luktan ti transparent a \u0022windowed\u0022 a panagbilang",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56315Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Orasan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56315Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Dagiti timers",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563151Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline nga...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563151Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Shrink ti minimize",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563152Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "kangrunaan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563152Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Panunoten a ti rimmuar ket naikeddeng iti NDI babaen ti maysa a panagitunos ti linia ti bilin.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563153Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Rumbeng kadi a rinugiam ti timer?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563153Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Dagiti pop-up a palagip",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563153Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Ti miting ket agtartaray iti {0} a minuto nga overtime",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563154Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Ti miting ket agtartaray iti {0} a minuto iti undertime",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563154Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Overrun/Underrun dagiti pakaammo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563154Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Nasipnget a kasasaad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563155Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Iserra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563155Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ispalen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563155Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Refresh ti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563156Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "I-configure ti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563156Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Kiddawen ti Access",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563156Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Papanawen",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563157Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Mangrugi ti gimong iti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563157Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "I-scan babaen ti mobile device tapno makita ti web clock",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563158Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Plataporma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563158Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Estado:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563158Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Buo nga Modo ti Iskrin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563158Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Paaduen ti oras (\u002B1 min). I-right-click para iti ad-adu pay a pagpilian.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563159Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Kissayan ti oras (-1 min). I-right-click para iti ad-adu pay a pagpilian.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563159Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Mangpataud ti report ti panagoras (PDF) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56316Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Ipakita ti countdown timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56316Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Baro a bersion ti magun-odan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56316Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Dagiti Setting",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.56316Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Tulong",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563161Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Agkissay iti compact mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563161Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 nga segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563162Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 a minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563162Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 a minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563162Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 nga segundo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563162Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563163Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 nga minuto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563163Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "PANANGIPAAY ITI NETWORK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563164Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Timer Bayat ti Overtime",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563164Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Iring Bell No Overtime",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563164Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Nakasagana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563165Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Panagtaray",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563165Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Nagsardeng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563166Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Overtime",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563166Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Nagsardeng",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563166Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Iserrek ti kodigo ti akses...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563167Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563167Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Naikonfigura",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563168Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Saan a Na-configure",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:41.563168Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:41.563182Z"
+}

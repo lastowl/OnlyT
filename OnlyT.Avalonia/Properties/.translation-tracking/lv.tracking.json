@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "lv",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Zvans ir akt\u012Bvs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458161Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Neviens",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458162Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Vienvirziena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458163Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Divvirzienu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458164Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Programmat\u016Bras versija {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458164Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 stundu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458164Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 stundas (vado\u0161\u0101 nulle)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458165Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 stundu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458166Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 stundas (vado\u0161\u0101 nulle)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458166Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nevar\u0113ja izveidot mapi {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458167Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Piel\u0101gots ilgums",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458167Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modific\u0113ts ilgums",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458168Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "S\u0101kotn\u0113jais ilgums",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458168Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogais",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458168Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogais un digit\u0101lais",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458169Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digit\u0101ls",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458169Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Zvans ir neakt\u012Bvs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45817Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Ned\u0113\u013Cas vid\u016B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45817Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministrija \u2014 1.\u00A0punkts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458171Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministrija \u2014 2.\u00A0punkts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458171Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministrija \u2014 3.\u00A0punkts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458171Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Autom\u0101tiska",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458172Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Uz failiem balst\u012Bts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458173Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manu\u0101li",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458173Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Nosl\u0113guma runa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458174Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Nosl\u0113guma koment\u0101ri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458174Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Draudzes B\u012Bbeles studijas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458175Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Gar\u012Bgie d\u0101rgakme\u0146i",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458175Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Dz\u012Bvo\u0161ana - 1. da\u013Ca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458176Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Dz\u012Bvo\u0161ana - 2. da\u013Ca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458176Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Atkl\u0101\u0161anas koment\u0101ri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458177Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "\u0160\u012B m\u0113ne\u0161a prezent\u0101cijas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458177Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Publiska saruna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458177Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "B\u012Bbeles las\u012B\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458178Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Pakalpojumu saruna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458178Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "D\u0101rgumu saruna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458179Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Sargtor\u0146a studija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458179Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Ned\u0113\u013Cas nogale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45818Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 stundu (priek\u0161pusdien\u0101/p\u0113cpusdien\u0101)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45818Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 stundu form\u0101ts (s\u0101kuma nulle un am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458181Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Neviens",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458181Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Iestat\u012Bjumi nav pieejami, kam\u0113r darbojas taimeris!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458182Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Iestat\u012Bjumi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458182Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "D\u0101rgumi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458183Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministrija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458183Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Dz\u012Bvo\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458183Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Ned\u0113\u013Cas nogale",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458184Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Administrators ir atsp\u0113jojis iestat\u012Bjumus!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458189Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministrija \u2014 4.\u00A0punkts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45819Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ap\u013Ca apmekl\u0113jums",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45819Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "AIZV\u0112RT ATPAKA\u013BSKAITU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458191Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pal\u012Bdz\u012Bba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458191Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[apgabala apmekl\u0113jums]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458192Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Pieejama jauna versija!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458192Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "GALVEN\u0100",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458193Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Piek\u013Cuves kods",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458193Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Adapt\u012Bvais re\u017E\u012Bms ned\u0113\u013Cas vid\u016B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458194Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Adapt\u012Bvais re\u017E\u012Bms ned\u0113\u013Cas nogal\u0113",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458194Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "At\u013Caut skait\u012B\u0161anas p\u0101rsl\u0113g\u0161anu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458195Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Vienm\u0113r aug\u0161pus\u0113",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458195Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "ATT\u0100L\u0100S LIETOTNES",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458196Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOM\u0100TISKAIS RE\u017D\u012AMS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458196Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "Zvans",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458196Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "T\u012AMEK\u013BA PULKSTENIS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458197Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "SAN\u0100KSMES ATSKAIT\u012A\u0160ANA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458197Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Ap\u013Ca apmekl\u0113juma p\u0101rsl\u0113g\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458197Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digit\u0101l\u0101 pulkste\u0146a form\u0101ts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458198Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Iesp\u0113jots",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458198Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Pilnekr\u0101na pulkste\u0146a re\u017E\u012Bms",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458199Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adrese",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458199Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Sapulce",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.4582Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Sapulces s\u0101kuma laiki (1 katr\u0101 rind\u0101)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.4582Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "DA\u017D\u0100DI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.4582Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitors",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458201Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "R\u0101d\u012Bt peles r\u0101d\u012Bt\u0101ju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458201Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Katru s\u0101kuma laiku ierakstiet jaun\u0101 rind\u0101.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458202Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Izmantojiet jebkuru sev t\u012Bkamu laika form\u0101tu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458202Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "P\u0113c izv\u0113les iek\u013Caujiet dienu, piem\u0113ram, \u0022Ceturtdiena, plkst. 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458202Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Piez\u012Bmes:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458203Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "ATV\u0112RT\u0100 OSTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458203Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Re\u017E\u012Bms",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458204Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Saglab\u0101jiet studenta laiku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458204Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Sarunas ilguma saglab\u0101\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458204Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Ports",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458205Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "ATT\u0100L\u0100 PIEEJA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458205Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "R\u0101d\u012Bt sektoru analogaj\u0101 pulksten\u012B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458206Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Dal\u012Bt\u0101 ekr\u0101na platums:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458206Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TESTS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458207Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Ierobe\u017Eots",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458207Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Taimeris skaita atpaka\u013C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458207Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TAIMERA LOGS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458208Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Dienas laiks taimer\u012B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458208Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Apjoms:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458208Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Valoda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458209Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "P\u0113c valodas mai\u0146as, l\u016Bdzu, restart\u0113jiet OnlyT.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458209Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Samazin\u0101t par 1 min\nCtrl\u00A0\u2014 samazin\u0101t par 15\u00A0s\nShift\u00A0\u2014 samazin\u0101t par 5\u00A0min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45821Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Palielin\u0101t par 1 min\nCtrl\u00A0\u2014 palielin\u0101t par 15\u00A0s\nShift\u00A0\u2014 palielin\u0101t par 5\u00A0min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45821Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manu\u0101lais re\u017E\u012Bms",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45821Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Atpaka\u013Cskait\u012B\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458211Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Skait\u012B\u0161ana uz priek\u0161u",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458211Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekundes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458211Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Iesp\u0113jots",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458212Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Iesp\u0113jots",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458212Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Iesp\u0113jots",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458213Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "R\u0101d\u012Bt sekundes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458213Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "R\u0101d\u012Bt r\u0101mi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458213Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Pulkste\u0146a r\u0101mis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458214Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "T\u0101lummai\u0146as l\u012Bmenis:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458214Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Atra\u0161an\u0101s vieta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458214Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Apak\u0161\u0101",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458215Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Apak\u0161\u0101 pa kreisi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458215Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Apak\u0161\u0101 labaj\u0101 pus\u0113",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458216Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centrs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458216Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Kreis\u0101",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458217Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Pa labi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458217Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Aug\u0161\u0101",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458217Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Aug\u0161\u0113j\u0101 kreisaj\u0101 pus\u0113",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458218Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Aug\u0161\u0113j\u0101 labaj\u0101 pus\u0113",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458218Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Labi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458219Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Osta atv\u0113rta un rezerv\u0101cija veikta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458219Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nevar\u0113ja atv\u0113rt portu (skat\u012Bt \u017Eurn\u0101lu)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45822Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "\u0122ener\u0113ts laika p\u0101rskats",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45822Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u0122ener\u0113t atskaites",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45822Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Nosl\u0113guma segments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458221Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Pagaidu segments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458221Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Ievada segments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458222Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Me\u017Eizstr\u0101des l\u012Bmenis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458222Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Atk\u013C\u016Bdo\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458222Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "K\u013C\u016Bda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458223Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Fat\u0101ls",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458223Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Inform\u0101cija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458223Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Izv\u0113r\u012Bgs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458224Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Br\u012Bdin\u0101jums",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458224Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "San\u0101ksmes taimera datu anal\u012Bze",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458224Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Zi\u0146ojums NAV \u0123ener\u0113ts!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458225Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "SKAT\u012AT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458225Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Autom\u0101tiska ska\u0146a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458226Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Noklik\u0161\u0137iniet, lai atska\u0146otu zvanu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458227Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Ilgums (min\u016Bt\u0113s)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458227Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458228Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Zvan\u012Bt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458228Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Ciparn\u012Bcas un digit\u0101lais",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458229Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digit\u0101ls",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458229Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Caursp\u012Bd\u012Bgs fons",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458229Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "\u0145emiet v\u0113r\u0101, ka monitoru kontrol\u0113 komandrindas iestat\u012Bjums.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45823Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Taimera fona gradients",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45823Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Pulkste\u0146a fona gradients",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45823Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Taimera r\u0101mis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458231Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Plakanais pulkstenis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458231Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Ned\u0113\u013Cas nogal\u0113 ietilpst piektdiena",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458231Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Logu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458232Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Logu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458232Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Aizv\u0113rt atpaka\u013Cskait\u012B\u0161anas logu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458233Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nevar atv\u0113rt caursp\u012Bd\u012Bgu atpaka\u013Cskait\u012B\u0161anu ar logu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458233Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Pulkstenis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458233Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Taimeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458234Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "bezsaist\u0113...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458234Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Samazin\u0101t, minimiz\u0113jot",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458235Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "prim\u0101rais",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458235Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u0145emiet v\u0113r\u0101, ka izvade ir iestat\u012Bta uz NDI, izmantojot komandrindas iestat\u012Bjumu.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458235Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Vai vajadz\u0113ja iesl\u0113gt taimeri?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458236Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Uznirsto\u0161ie atg\u0101din\u0101jumi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458236Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "San\u0101ksme tiek pagarin\u0101ta par {0} min\u016Bt\u0113m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458236Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "San\u0101ksme ilgst {0} min\u016Btes par \u012Bs\u0101ku laiku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458237Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "P\u0101rsnieg\u0161anas/nepietiekam\u012Bbas pazi\u0146ojumi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458237Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tum\u0161ais re\u017E\u012Bms",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458238Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Aizv\u0113rt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458238Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Saglab\u0101t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458238Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Atsvaidzin\u0101t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458239Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfigur\u0113t",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458239Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Piepras\u012Bt piek\u013Cuvi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45824Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Noraid\u012Bt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45824Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "San\u0101ksme s\u0101kas plkst.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45824Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Sken\u0113jiet ar mobilo ier\u012Bci, lai skat\u012Btu t\u012Bmek\u013Ca pulksteni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458241Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458241Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Statuss:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458241Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Pilnekr\u0101na re\u017E\u012Bms",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458242Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Palielin\u0101t laiku (\u002B1 min). Noklik\u0161\u0137iniet ar peles labo pogu, lai skat\u012Btu citas opcijas.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458242Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Samazin\u0101t laiku (-1 min). Noklik\u0161\u0137iniet ar peles labo pogu, lai skat\u012Btu citas opcijas.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458243Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Laika atskaites \u0123ener\u0113\u0161ana (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458243Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "R\u0101d\u012Bt atpaka\u013Cskait\u012B\u0161anas taimeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458243Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Pieejama jauna versija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458244Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Iestat\u012Bjumi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458244Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pal\u012Bdz\u012Bba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458244Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Samazin\u0101t kompaktaj\u0101 re\u017E\u012Bm\u0101",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458245Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekundes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458245Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 min\u016Bte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458245Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 min\u016Btes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458246Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekundes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458246Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 min\u016Bte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458246Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 min\u016Btes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458247Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "T\u012AKLA AT\u013BAUJAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458247Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Zibspuldzes taimeris papildlaika laik\u0101",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458247Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Zvan\u012Bt p\u0113c papildlaika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458248Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Gatavs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458248Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Skrie\u0161ana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458249Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Aptur\u0113ts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458249Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Virsstundas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458249Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Aptur\u0113ts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45825Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Ievadiet piek\u013Cuves kodu...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.45825Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458251Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigur\u0113ts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458251Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nav konfigur\u0113ts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:16.458251Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:16.458267Z"
+}

@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "et",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Kell on aktiivne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787938Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Puudub",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787938Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "\u00DChesuunaline",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78794Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Kahesuunaline",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78794Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Tarkvaraversioon {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787941Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-tunnine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787942Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-tunnine (eesmine null)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787942Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-tunnine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787943Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-tunnine (eesmine null)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787943Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Kausta {0} loomine eba\u00F5nnestus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787944Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Kohandatud kestus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787945Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Muudetud kestus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787945Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Algne kestus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787946Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analoog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787946Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analoog- ja digitaalne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787947Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digitaalne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787947Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Kell on mitteaktiivne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787948Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "N\u00E4dala keskpaik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787948Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministeerium - punkt 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787949Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministeerium - punkt 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78795Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministeerium - punkt 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78795Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automaatne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787951Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Failip\u00F5hine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787952Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Kasutusjuhend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787953Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "L\u00F5ppk\u00F5ne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787953Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "L\u00F5pps\u00F5nad",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787954Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Koguduse piibliuurimine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787954Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Vaimsed p\u00E4rlid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787955Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Elu - 1. osa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787956Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Elu - 2. osa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787956Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Avakommentaarid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787957Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Selle kuu ettekanded",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787958Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Avalik vestlus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787958Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Piibli lugemine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787959Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Teenistusvestlus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787959Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Aarete jutt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78796Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Vahitorni uurimine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787961Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "N\u00E4dalavahetus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787961Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-tunnine (hommikul/p\u00E4rastl\u00F5unal)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787962Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-tunnine (eesolev null ja am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787962Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Puudub",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787963Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Taimeri t\u00F6\u00F6tamise ajal pole seaded saadaval!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787964Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Seaded",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787965Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Aarded",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787965Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministeerium",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787966Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Elu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787967Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "N\u00E4dalavahetus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787967Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Administraatori poolt seaded keelatud!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787967Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministeerium - punkt 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787968Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ringkonnak\u00FClastus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787968Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "SULGE LOENDUS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787969Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Abi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787969Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ringkonnak\u00FClastus]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78797Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Uus versioon saadaval!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787971Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PEAMINE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787971Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Juurdep\u00E4\u00E4sukood",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787972Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "N\u00E4dala keskel kohanduv re\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787972Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "N\u00E4dalavahetuse kohanduv re\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787976Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Luba edasiloenduse l\u00FCliti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787977Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Alati tipus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787978Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "KAUGRAKENDUSED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787978Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMAATNE RE\u017DIIM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787979Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "KELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787979Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "VEEBIKELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787979Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "KOOSOLEKU LOENDUS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78798Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Ringkonnak\u00FClastuse l\u00FCliti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78798Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digitaalse kella formaat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787981Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Lubatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787981Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "T\u00E4isekraani kellare\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787982Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-aadress",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787982Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Koosolek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787982Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Koosoleku algusajad (1 rea kohta)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787983Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "MUUD ASJAD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787983Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787984Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "N\u00E4ita hiirekursorit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787984Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Kirjuta iga algusaeg uuele reale.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787985Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Kasutage mis tahes teile sobivat ajavormingut!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787985Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Soovi korral lisage p\u00E4ev, nt \u0022N 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787985Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "M\u00E4rkused:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787997Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "AVATUD SADAM",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787998Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Re\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787998Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "J\u00E4tkake \u00F5pilase aega",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787999Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "J\u00E4tka vestluse kestust",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.787999Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Sadam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "KAUGLIGIP\u00C4\u00C4S",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788001Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "N\u00E4ita sektorit analoogkellal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788001Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Jagatud ekraani laius:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788002Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788002Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Piiratud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788003Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Taimer loeb edasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788003Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TAIMERI AKEN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788004Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Kellaaeg taimeri all",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788005Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Maht:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788005Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Keel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788006Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "P\u00E4rast keele muutmist taask\u00E4ivitage OnlyT.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788006Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "V\u00E4henda 1 min\nCtrl - V\u00E4henda 15 s\nShift - V\u00E4henda 5 min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788006Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Suurenda 1 min\nCtrl - Suurenda 15 s\nShift - Suurenda 5 min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788007Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "K\u00E4sitsire\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788007Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Loendamine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788008Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Loendamine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788008Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekundit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788008Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Lubatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788009Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Lubatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788009Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Lubatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78801Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "N\u00E4ita sekundeid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78801Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "N\u00E4ita raami",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788011Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Kella raam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788011Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Suumi tase:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788012Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Asukoht",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788012Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Alumine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788013Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "All vasakul",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788013Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "All paremal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788014Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Keskus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788014Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Vasakule",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788015Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Parem",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788015Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "\u00DClemine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788016Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "\u00DCleval vasakul",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788017Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "\u00DCleval paremal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788017Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Olgu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788018Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Sadam avatud ja broneering tehtud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788019Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Porti ei \u00F5nnestunud avada (vt logi)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788019Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Genereeritud ajaaruanne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78802Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Aruannete genereerimine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78802Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "L\u00F5ppsegment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788021Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Vahepealne segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788021Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Sissejuhatav osa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788022Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Logimise tase",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788022Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Silumine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788023Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Viga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788023Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Surmav",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788024Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Teave",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788024Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Paljus\u00F5naline",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788025Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Hoiatus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788025Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Koosoleku taimeri andmete anal\u00FC\u00FCsimine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788026Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Aruannet EI genereeritud!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788029Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "VAADE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78803Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automaatne heli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78803Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Kl\u00F5psa, et kellahelin heliseks",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788031Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Kestus (min)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788031Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elemendid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788031Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Vali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788032Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Valimisketas ja digitaalne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788032Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digitaalne",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788033Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "L\u00E4bipaistev taust",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788033Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Pane t\u00E4hele, et monitori juhitakse k\u00E4surea s\u00E4ttega",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788034Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Taimeri taustagradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788034Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Kella tausta gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788035Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Taimeri raam",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788035Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Tasane kell",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788036Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "N\u00E4dalavahetus h\u00F5lmab reedet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788036Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Aknaga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788037Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Aknaga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788037Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Sulge loenduri aken",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788038Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "L\u00E4bipaistvat \u0022aknaga\u0022 loendurit ei saa avada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788038Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Kell",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788039Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Taimerid",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78804Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "v\u00F5rgu\u00FChenduseta...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78804Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Kahanda minimeerimisel",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788041Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "esmane",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788041Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Pane t\u00E4hele, et v\u00E4ljundiks on k\u00E4surea s\u00E4tte kaudu seatud NDI.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788042Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Kas oleksid pidanud taimeri k\u00E4ivitama?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788043Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "H\u00FCpikmeeldetuletused",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788043Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Koosolek kestab {0} minutit \u00FCletunnit\u00F6\u00F6d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788044Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Koosolek kestab {0} minutit ajaga alla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788044Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "\u00DCle-/alajooksu teavitused",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788044Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tume re\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788045Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Sule",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788045Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Salvesta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788046Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "V\u00E4rskenda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788047Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfigureeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788047Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Taotle juurdep\u00E4\u00E4su",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788047Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "J\u00E4ta vahele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788048Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Koosolek algab",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788048Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Veebikella vaatamiseks skannige mobiilseadmega",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788049Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platvorm:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788049Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Staatus:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788049Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "T\u00E4isekraanire\u017Eiim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78805Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Suurenda aega (\u002B1 min). Paremkl\u00F5psake lisavalikute n\u00E4gemiseks.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788051Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "V\u00E4henda aega (-1 min). Paremkl\u00F5psake lisavalikute n\u00E4gemiseks.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788051Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Ajastusaruande genereerimine (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788051Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "N\u00E4ita loendurit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788052Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Uus versioon saadaval",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788052Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Seaded",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788053Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Abi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788053Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Kahanda kompaktseks re\u017Eiimiks",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788054Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekundit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788054Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788054Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minutit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788055Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekundit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788055Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788056Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minutit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788056Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "V\u00D5RGU LUBADE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788056Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flashi taimer lisaaja ajal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788057Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Helista kella lisaaja saabudes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788057Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Valmis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788057Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Jooksmine",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788058Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Peatatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788058Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Lisaaeg",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788059Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Peatatud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788059Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Sisesta ligip\u00E4\u00E4sukood...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78806Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "minuti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.78806Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Konfigureeritud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788061Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Pole konfigureeritud",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:15.788061Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:15.788076Z"
+}

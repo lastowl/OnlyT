@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "pl",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Dzwon jest aktywny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045824Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Nic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045825Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Jednokierunkowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045825Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dwukierunkowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045826Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Wersja oprogramowania {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045826Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-godzinny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045826Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-godzinny (zero wiod\u0105ce)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045827Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-godzinny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045827Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-godzinny (zero wiod\u0105ce)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045827Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nie mo\u017Cna utworzy\u0107 folderu {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045828Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Dostosowany czas trwania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045828Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Zmodyfikowany czas trwania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045829Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Oryginalny czas trwania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045829Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045829Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogowe i cyfrowe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045829Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Cyfrowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04583Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Dzwonek jest nieaktywny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04583Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "\u015Arodowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045831Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerstwo - Pozycja 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045831Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerstwo - Pozycja 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045831Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerstwo - Pozycja 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045832Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatyczny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045832Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Oparte na plikach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045832Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Podr\u0119cznik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045833Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Wyk\u0142ad ko\u0144cowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045833Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Uwagi ko\u0144cowe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045834Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Studium Biblii w Zborze",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045834Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Klejnoty duchowe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045834Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u017Bycie - cz\u0119\u015B\u0107 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045835Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u017Bycie - cz\u0119\u015B\u0107 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045835Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Komentarze otwieraj\u0105ce",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045835Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Prezentacje w tym miesi\u0105cu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045836Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Wyk\u0142ad publiczny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045836Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Czytanie Biblii",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045836Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Rozmowa serwisowa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045836Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Rozmowy o skarbach",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045837Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Studium Stra\u017Cnicy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045837Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Weekend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045837Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-godzinny (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045838Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-godzinny (zero na pocz\u0105tku i am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045838Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Nic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045839Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Ustawienia niedost\u0119pne podczas dzia\u0142ania timera!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045839Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Ustawienia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045839Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Skarby",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04584Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerstwo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04584Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u017Byj\u0105cy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04584Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Weekend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045841Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Ustawienia wy\u0142\u0105czone przez administratora!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045841Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerstwo - Pozycja 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045841Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Wizyta w obwodzie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045841Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "ZAMKNIJ ODLICZANIE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045842Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pomoc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045842Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[wizyta obwodowa]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045842Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nowa wersja dost\u0119pna!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045843Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "G\u0141\u00D3WNY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045843Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Kod dost\u0119pu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045843Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Tryb adaptacyjny w \u015Brodku tygodnia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045844Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Tryb adaptacyjny weekendowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045844Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Zezwalaj na prze\u0142\u0105czanie zliczania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045844Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Zawsze na szczycie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045845Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APLIKACJE ZDALNE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045845Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "TRYB AUTOMATYCZNY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045845Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "DZWONEK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045845Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "ZEGAR INTERNETOWY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045846Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "ODLICZANIE DO SPOTKANIA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045846Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Prze\u0142\u0105cznik wizyty w obwodzie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045846Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Format zegara cyfrowego",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045847Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "W\u0142\u0105czony",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045847Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Tryb zegara pe\u0142noekranowego",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045847Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adres IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045848Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Spotkanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045848Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Godziny rozpocz\u0119cia spotkania (1 na wiersz)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045848Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "R\u00D3\u017BNORODNY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045848Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045849Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Poka\u017C wska\u017Anik myszy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045849Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Ka\u017Cd\u0105 godzin\u0119 rozpocz\u0119cia nale\u017Cy wpisa\u0107 w nowym wierszu.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045849Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "U\u017Cyj dowolnego formatu czasu!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04585Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Opcjonalnie uwzgl\u0119dnij dzie\u0144, np. \u201ECzw. 19:15\u201D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04585Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Uwagi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04585Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "OTWARTY PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04585Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Tryb",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045851Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Utrzymaj czas studencki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045851Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Czas trwania ci\u0105g\u0142ej rozmowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045851Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045852Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "ZDALNY DOST\u0118P",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045852Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Poka\u017C sektor na zegarze analogowym",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045852Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Szeroko\u015B\u0107 podzielonego ekranu:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045853Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045853Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Zd\u0142awiony",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045853Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Timer odlicza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045853Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "OKNO CZASOMIERZA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045854Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Pora dnia pod timerem",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045854Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Tom:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045854Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "J\u0119zyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045855Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Po zmianie j\u0119zyka uruchom ponownie OnlyT.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045855Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Zmniejsz o 1 min\nCtrl \u2013 Zmniejsz o 15 s\nShift \u2013 Zmniejsz o 5 min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045855Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Zwi\u0119ksz o 1 m\nCtrl \u2013 Zwi\u0119ksz o 15 s\nShift \u2013 Zwi\u0119ksz o 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045856Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Tryb r\u0119czny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045856Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Odliczanie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045856Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Liczenie w g\u00F3r\u0119",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045856Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekund",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045857Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "W\u0142\u0105czony",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045857Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "W\u0142\u0105czony",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045857Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "W\u0142\u0105czony",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045857Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Poka\u017C sekundy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045858Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Poka\u017C ramk\u0119",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045858Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Rama zegara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045858Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Poziom powi\u0119kszenia:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045858Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Lokalizacja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045859Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Sp\u00F3d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045859Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Lewy dolny r\u00F3g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045859Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Prawy dolny r\u00F3g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04586Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centrum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04586Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Lewy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04586Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Prawid\u0142owy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045861Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Szczyt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045861Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Lewy g\u00F3rny r\u00F3g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045861Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Prawy g\u00F3rny r\u00F3g",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045862Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "OK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045862Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port otwarty i rezerwacja dokonana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045862Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nie uda\u0142o si\u0119 otworzy\u0107 portu (zobacz dziennik)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045863Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Wygenerowany raport czasowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045863Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generuj raporty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045863Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Segment ko\u0144cowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045864Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Segment przej\u015Bciowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045864Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Segment wprowadzaj\u0105cy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045864Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Poziom rejestrowania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045864Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Odpluskwi\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045865Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "B\u0142\u0105d",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045865Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u015Amiertelny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045865Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informacja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045866Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Gadatliwy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045866Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Ostrze\u017Cenie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045866Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Analiza danych z timera spotka\u0144",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045866Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Raport NIE zosta\u0142 wygenerowany!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045868Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "POGL\u0104D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045868Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatycznie d\u017Awi\u0119k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045868Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Kliknij, aby w\u0142\u0105czy\u0107 dzwonek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045869Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Czas trwania (min)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045869Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045869Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Cyferblat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04587Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Tarcza i cyfrowa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04587Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Cyfrowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04587Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Przezroczyste t\u0142o",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045871Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Nale\u017Cy pami\u0119ta\u0107, \u017Ce monitor jest kontrolowany za pomoc\u0105 ustawie\u0144 wiersza polece\u0144",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045871Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Gradient t\u0142a timera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045871Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Gradient t\u0142a zegara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045871Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Ramka timera",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045872Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Zegar p\u0142aski",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045872Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Weekend obejmuje pi\u0105tek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045872Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Okienkowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045872Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Okienkowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045873Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Zamknij okno odliczania",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045873Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nie mo\u017Cna otworzy\u0107 przezroczystego odliczania w trybie \u201Eokienkowym\u201D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045873Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Zegar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045873Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Timery",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045874Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "niedost\u0119pne...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045874Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Zmniejszaj, minimalizuj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045874Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "podstawowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045875Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Nale\u017Cy pami\u0119ta\u0107, \u017Ce wyj\u015Bcie jest ustawiane na NDI za pomoc\u0105 ustawienia wiersza polece\u0144.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045875Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Czy nale\u017Cy uruchomi\u0107 stoper?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045875Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Przypomnienia typu pop-up",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045875Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Spotkanie trwa {0} minut d\u0142u\u017Cej",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045876Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Spotkanie b\u0119dzie trwa\u0142o {0} minut kr\u00F3cej",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045876Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Powiadomienia o przekroczeniu/niedope\u0142nieniu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045876Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tryb ciemny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045877Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Zamkn\u0105\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045877Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Ratowa\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045877Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Od\u015Bwie\u017Ca\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045877Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfiguruj",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045878Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Popro\u015B o dost\u0119p",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045878Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Odrzuca\u0107",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045878Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Spotkanie rozpoczyna si\u0119 za",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045878Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Zeskanuj za pomoc\u0105 urz\u0105dzenia mobilnego, aby wy\u015Bwietli\u0107 zegar internetowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045879Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045879Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Status:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045879Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Tryb pe\u0142noekranowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04588Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Wyd\u0142u\u017C czas (\u002B1 min). Kliknij prawym przyciskiem myszy, aby uzyska\u0107 wi\u0119cej opcji.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04588Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Skr\u00F3\u0107 czas (-1 min). Kliknij prawym przyciskiem myszy, aby zobaczy\u0107 wi\u0119cej opcji.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04588Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Wygeneruj raport czasowy (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.04588Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Poka\u017C licznik czasu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045881Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Nowa wersja dost\u0119pna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045881Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Ustawienia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045881Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pomoc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045881Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Zmniejsz do trybu kompaktowego",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045882Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekund",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045882Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045882Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045882Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekund",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045883Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minuta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045883Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045883Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "UPRAWNIENIA SIECIOWE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045883Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Timer podczas nadgodzin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045884Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Zadzwo\u0144 dzwonkiem, gdy nadgodziny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045884Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Gotowy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045884Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Dzia\u0142anie",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045885Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Wstrzymano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045885Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Nadgodziny",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045886Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Zatrzymany",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045886Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Wprowad\u017A kod dost\u0119pu...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045886Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045886Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Skonfigurowano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045887Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nie skonfigurowano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:04.045887Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:04.045908Z"
+}

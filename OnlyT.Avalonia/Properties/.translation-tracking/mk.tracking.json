@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "mk",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "\u0405\u0432\u043E\u043D\u0447\u0435\u0442\u043E \u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874051Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "\u041D\u0438\u0448\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874052Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "\u0415\u0434\u043D\u043E\u043D\u0430\u0441\u043E\u0447\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874052Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "\u0414\u0432\u043E\u043D\u0430\u0441\u043E\u0447\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874053Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "\u0412\u0435\u0440\u0437\u0438\u0458\u0430 \u043D\u0430 \u0441\u043E\u0444\u0442\u0432\u0435\u0440 {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874053Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-\u0447\u0430\u0441\u043E\u0432\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874054Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-\u0447\u0430\u0441\u043E\u0432\u043D\u0430 (\u0432\u043E\u0434\u0435\u0447\u043A\u0430 \u043D\u0443\u043B\u0430)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874054Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-\u0447\u0430\u0441\u043E\u0432\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874054Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-\u0447\u0430\u0441\u043E\u0432\u043D\u0430 (\u0432\u043E\u0434\u0435\u0447\u043A\u0430 \u043D\u0443\u043B\u0430)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874055Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0432 \u0434\u0430 \u043A\u0440\u0435\u0438\u0440\u0430\u043C \u043F\u0430\u043F\u043A\u0430 {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874055Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "\u041F\u0440\u0438\u043B\u0430\u0433\u043E\u0434\u0435\u043D\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u0440\u0430\u0435\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874056Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "\u0418\u0437\u043C\u0435\u043D\u0435\u0442\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u0440\u0430\u0435\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874056Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "\u041E\u0440\u0438\u0433\u0438\u043D\u0430\u043B\u043D\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u0440\u0430\u0435\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874056Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "\u0410\u043D\u0430\u043B\u043E\u0433\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874057Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "\u0410\u043D\u0430\u043B\u043E\u0433\u043D\u0438 \u0438 \u0434\u0438\u0433\u0438\u0442\u0430\u043B\u043D\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874057Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "\u0414\u0438\u0433\u0438\u0442\u0430\u043B\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874057Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "\u0405\u0432\u043E\u043D\u0447\u0435\u0442\u043E \u0435 \u043D\u0435\u0430\u043A\u0442\u0438\u0432\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874058Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "\u0421\u0440\u0435\u0434\u0435 \u043D\u0435\u0434\u0435\u043B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874058Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E - \u0422\u043E\u0447\u043A\u0430 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874058Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E - \u0422\u043E\u0447\u043A\u0430 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874059Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E - \u0422\u043E\u0447\u043A\u0430 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874059Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0441\u043A\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87406Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "\u0411\u0430\u0437\u0438\u0440\u0430\u043D\u043E \u043D\u0430 \u0434\u0430\u0442\u043E\u0442\u0435\u043A\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87406Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "\u041F\u0440\u0438\u0440\u0430\u0447\u043D\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87406Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "\u0417\u0430\u043A\u043B\u0443\u0447\u0435\u043D \u0433\u043E\u0432\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874061Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "\u0417\u0430\u043A\u043B\u0443\u0447\u043D\u0438 \u043A\u043E\u043C\u0435\u043D\u0442\u0430\u0440\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874061Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "\u0421\u043E\u0431\u0440\u0430\u043D\u0438\u0441\u043A\u043E \u043F\u0440\u043E\u0443\u0447\u0443\u0432\u0430\u045A\u0435 \u043D\u0430 \u0411\u0438\u0431\u043B\u0438\u0458\u0430\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874062Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "\u0414\u0443\u0445\u043E\u0432\u043D\u0438 \u0441\u043A\u0430\u043F\u043E\u0446\u0435\u043D\u043E\u0441\u0442\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874062Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u0416\u0438\u0432\u0435\u0435\u045A\u0435 - \u0414\u0435\u043B 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874062Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u0416\u0438\u0432\u0435\u0435\u045A\u0435 - \u0414\u0435\u043B 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874063Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "\u0412\u043E\u0432\u0435\u0434\u043D\u0438 \u043A\u043E\u043C\u0435\u043D\u0442\u0430\u0440\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874063Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "\u041F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u0438 \u0437\u0430 \u043E\u0432\u043E\u0458 \u043C\u0435\u0441\u0435\u0446",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874063Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "\u0408\u0430\u0432\u043D\u043E \u043F\u0440\u0435\u0434\u0430\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874064Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u0427\u0438\u0442\u0430\u045A\u0435 \u043D\u0430 \u0411\u0438\u0431\u043B\u0438\u0458\u0430\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874064Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "\u0420\u0430\u0437\u0433\u043E\u0432\u043E\u0440 \u0437\u0430 \u0441\u043B\u0443\u0436\u0431\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874064Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "\u0420\u0430\u0437\u0433\u043E\u0432\u043E\u0440 \u0437\u0430 \u0431\u043E\u0433\u0430\u0442\u0441\u0442\u0432\u0430\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874064Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u0421\u0442\u0443\u0434\u0438\u0458\u0430 \u043D\u0430 \u0421\u0442\u0440\u0430\u0436\u0430\u0440\u0441\u043A\u0430 \u043A\u0443\u043B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874065Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "\u0412\u0438\u043A\u0435\u043D\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874065Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-\u0447\u0430\u0441\u043E\u0432\u043D\u043E (\u043F\u0440\u0435\u0442\u043F\u043B\u0430\u0434\u043D\u0435/\u043F\u043E\u043F\u043B\u0430\u0434\u043D\u0435)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874066Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-\u0447\u0430\u0441\u043E\u0432\u0435\u043D (\u0432\u043E\u0434\u0435\u0447\u043A\u0438 \u043D\u0443\u043B\u0430 \u0438 \u043F\u0440\u0435\u0442\u043F\u043B\u0430\u0434\u043D\u0435/\u043F\u043E\u043F\u043B\u0430\u0434\u043D\u0435)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874066Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "\u041D\u0438\u0448\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874066Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "\u041F\u043E\u0441\u0442\u0430\u0432\u043A\u0438\u0442\u0435 \u043D\u0435 \u0441\u0435 \u0434\u043E\u0441\u0442\u0430\u043F\u043D\u0438 \u0434\u043E\u0434\u0435\u043A\u0430 \u0440\u0430\u0431\u043E\u0442\u0438 \u0442\u0430\u0458\u043C\u0435\u0440\u043E\u0442!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874067Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "\u041F\u043E\u0441\u0442\u0430\u0432\u043A\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874067Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "\u0411\u043E\u0433\u0430\u0442\u0441\u0442\u0432\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874068Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874068Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u0416\u0438\u0432\u0435\u0435\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874068Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "\u0412\u0438\u043A\u0435\u043D\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874068Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "\u041F\u043E\u0441\u0442\u0430\u0432\u043A\u0438\u0442\u0435 \u0441\u0435 \u043E\u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D\u0438 \u043E\u0434 \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u0442!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874069Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "\u041C\u0438\u043D\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043E - \u0422\u043E\u0447\u043A\u0430 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874069Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "\u041F\u043E\u0441\u0435\u0442\u0430 \u043D\u0430 \u043A\u043E\u043B\u043E\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87407Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "\u0417\u0410\u0422\u0412\u041E\u0420\u0415\u0422\u0415 \u0413\u041E \u041E\u0414\u0411\u0420\u041E\u0408\u0423\u0412\u0410\u040A\u0415\u0422\u041E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87407Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "\u041F\u043E\u043C\u043E\u0448",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87407Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[\u043F\u043E\u0441\u0435\u0442\u0430 \u043D\u0430 \u043A\u043E\u043B\u043E]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874071Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "\u0414\u043E\u0441\u0442\u0430\u043F\u043D\u0430 \u0435 \u043D\u043E\u0432\u0430 \u0432\u0435\u0440\u0437\u0438\u0458\u0430!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874071Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "\u0413\u041B\u0410\u0412\u041D\u0410",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874071Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "\u041A\u043E\u0434 \u0437\u0430 \u043F\u0440\u0438\u0441\u0442\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874072Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "\u0410\u0434\u0430\u043F\u0442\u0438\u0432\u0435\u043D \u0440\u0435\u0436\u0438\u043C \u043D\u0430 \u0441\u0440\u0435\u0434\u0438\u043D\u0430 \u043E\u0434 \u043D\u0435\u0434\u0435\u043B\u0430\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874072Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "\u0412\u0438\u043A\u0435\u043D\u0434 \u0430\u0434\u0430\u043F\u0442\u0438\u0432\u0435\u043D \u0440\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874072Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "\u0414\u043E\u0437\u0432\u043E\u043B\u0438 \u043F\u0440\u0435\u0444\u0440\u043B\u0443\u0432\u0430\u045A\u0435 \u043D\u0430 \u0437\u0433\u043E\u043B\u0435\u043C\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874073Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "\u0421\u0435\u043A\u043E\u0433\u0430\u0448 \u043D\u0430 \u0432\u0440\u0432\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874073Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "\u0414\u0410\u041B\u0415\u0427\u0418\u041D\u0421\u041A\u0418 \u0410\u041F\u041B\u0418\u041A\u0410\u0426\u0418\u0418",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874073Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "\u0410\u0412\u0422\u041E\u041C\u0410\u0422\u0421\u041A\u0418 \u0420\u0415\u0416\u0418\u041C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874074Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "\u0405\u0412\u041E\u041D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874074Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "\u0412\u0415\u0411 \u0427\u0410\u0421\u041E\u0412\u041D\u0418\u041A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874074Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "\u041E\u0414\u0411\u0420\u041E\u0408\u0423\u0412\u0410\u040A\u0415 \u041D\u0410 \u0421\u041E\u0421\u0422\u0410\u041D\u041E\u041A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874074Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "\u041F\u0440\u0435\u043A\u0438\u043D\u0443\u0432\u0430\u0447 \u0437\u0430 \u043F\u043E\u0441\u0435\u0442\u0430 \u043D\u0430 \u043A\u043E\u043B\u043E\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874075Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "\u0424\u043E\u0440\u043C\u0430\u0442 \u043D\u0430 \u0434\u0438\u0433\u0438\u0442\u0430\u043B\u0435\u043D \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874075Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "\u041E\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874076Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "\u0420\u0435\u0436\u0438\u043C \u043D\u0430 \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A \u043D\u0430 \u0446\u0435\u043B \u0435\u043A\u0440\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874076Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP \u0430\u0434\u0440\u0435\u0441\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874076Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "\u0421\u043E\u0441\u0442\u0430\u043D\u043E\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874077Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "\u0412\u0440\u0435\u043C\u0438\u045A\u0430 \u043D\u0430 \u043F\u043E\u0447\u0435\u0442\u043E\u043A \u043D\u0430 \u0441\u043E\u0441\u0442\u0430\u043D\u043E\u0446\u0438 (1 \u043F\u043E \u0440\u0435\u0434)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874077Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u0420\u0410\u0417\u041D\u041E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874077Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "\u041C\u043E\u043D\u0438\u0442\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874078Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "\u041F\u0440\u0438\u043A\u0430\u0436\u0438 \u043F\u043E\u043A\u0430\u0436\u0443\u0432\u0430\u0447 \u043D\u0430 \u0433\u043B\u0443\u0432\u0447\u0435\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874078Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "\u0421\u0442\u0430\u0432\u0435\u0442\u0435 \u0433\u043E \u0441\u0435\u043A\u043E\u0435 \u0432\u0440\u0435\u043C\u0435 \u043D\u0430 \u043F\u043E\u0447\u0435\u0442\u043E\u043A \u043D\u0430 \u043D\u043E\u0432\u0430 \u043B\u0438\u043D\u0438\u0458\u0430.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874078Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "\u041A\u043E\u0440\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u043E \u043A\u043E\u0458 \u0431\u0438\u043B\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0441\u043A\u0438 \u0444\u043E\u0440\u043C\u0430\u0442 \u0448\u0442\u043E \u0432\u0438 \u0441\u0435 \u0434\u043E\u043F\u0430\u0453\u0430!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874078Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "\u041E\u043F\u0446\u0438\u043E\u043D\u0430\u043B\u043D\u043E \u0432\u043A\u043B\u0443\u0447\u0435\u0442\u0435 \u0434\u0435\u043D, \u043D\u0430 \u043F\u0440. \u201E\u0427\u0435\u0442 19:15\u201C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874078Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "\u0411\u0435\u043B\u0435\u0448\u043A\u0438:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874079Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "\u041E\u0422\u0412\u041E\u0420\u0415\u041D\u041E \u041F\u041E\u0420\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874079Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "\u0420\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874079Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u0442\u0435 \u0441\u043E \u0441\u0442\u0443\u0434\u0435\u043D\u0442\u0441\u043A\u043E\u0442\u043E \u0432\u0440\u0435\u043C\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87408Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u0442\u0435 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u0440\u0430\u0435\u045A\u0435\u0442\u043E \u043D\u0430 \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87408Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "\u041F\u043E\u0440\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87408Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "\u0414\u0410\u041B\u0415\u0427\u0418\u041D\u0421\u041A\u0418 \u041F\u0420\u0418\u0421\u0422\u0410\u041F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874081Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "\u041F\u0440\u0438\u043A\u0430\u0436\u0438 \u0441\u0435\u043A\u0442\u043E\u0440 \u043D\u0430 \u0430\u043D\u0430\u043B\u043E\u0433\u0435\u043D \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874081Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "\u0428\u0438\u0440\u0438\u043D\u0430 \u043D\u0430 \u043F\u043E\u0434\u0435\u043B\u0435\u043D \u0435\u043A\u0440\u0430\u043D:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874081Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "\u0422\u0415\u0421\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874082Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "\u041F\u0440\u0438\u0433\u0443\u0448\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874082Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "\u0422\u0430\u0458\u043C\u0435\u0440\u043E\u0442 \u0431\u0440\u043E\u0438 \u043D\u0430\u0433\u043E\u0440\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874082Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "\u041F\u0420\u041E\u0417\u041E\u0420\u0415\u0426 \u041D\u0410 \u0422\u0410\u0408\u041C\u0415\u0420",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874083Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "\u0412\u0440\u0435\u043C\u0435 \u043E\u0434 \u0434\u0435\u043D\u043E\u0442 \u043F\u043E\u0434 \u0442\u0430\u0458\u043C\u0435\u0440\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874083Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "\u0412\u043E\u043B\u0443\u043C\u0435\u043D:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874083Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "\u0408\u0430\u0437\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874083Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "\u0420\u0435\u0441\u0442\u0430\u0440\u0442\u0438\u0440\u0430\u0458\u0442\u0435 \u0433\u043E OnlyT \u043E\u0442\u043A\u0430\u043A\u043E \u045C\u0435 \u0433\u043E \u043F\u0440\u043E\u043C\u0435\u043D\u0438\u0442\u0435 \u0458\u0430\u0437\u0438\u043A\u043E\u0442.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874084Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "\u041D\u0430\u043C\u0430\u043B\u0438 1 \u043C\nCtrl - \u041D\u0430\u043C\u0430\u043B\u0438 15 \u0441\u0435\u043A\u0443\u043D\u0434\u0438\nShift - \u041D\u0430\u043C\u0430\u043B\u0438 5 \u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874084Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "\u0417\u0433\u043E\u043B\u0435\u043C\u0438 1 \u043C\nCtrl - \u0417\u0433\u043E\u043B\u0435\u043C\u0438 15 \u0441\u0435\u043A\u0443\u043D\u0434\u0438\nShift - \u0417\u0433\u043E\u043B\u0435\u043C\u0438 5 \u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874084Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "\u0420\u0430\u0447\u0435\u043D \u0440\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874084Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "\u041E\u0434\u0431\u0440\u043E\u0458\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874085Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "\u0411\u0440\u043E\u0435\u045A\u0435 \u043D\u0430\u0433\u043E\u0440\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874085Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} \u0441\u0435\u043A\u0443\u043D\u0434\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874085Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "\u041E\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874085Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "\u041E\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874086Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "\u041E\u0432\u043E\u0437\u043C\u043E\u0436\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874086Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "\u041F\u0440\u0438\u043A\u0430\u0436\u0438 \u0441\u0435\u043A\u0443\u043D\u0434\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874086Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "\u041F\u0440\u0438\u043A\u0430\u0436\u0438 \u0440\u0430\u043C\u043A\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874087Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "\u0420\u0430\u043C\u043A\u0430 \u043D\u0430 \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874087Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "\u041D\u0438\u0432\u043E \u043D\u0430 \u0437\u0443\u043C\u0438\u0440\u0430\u045A\u0435:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874087Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "\u041B\u043E\u043A\u0430\u0446\u0438\u0458\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874087Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "\u0414\u043E\u043B\u0443",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874088Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "\u0414\u043E\u043B\u0443 \u043B\u0435\u0432\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874088Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "\u0414\u043E\u043B\u0443 \u0434\u0435\u0441\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874088Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "\u0426\u0435\u043D\u0442\u0430\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874089Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "\u041B\u0435\u0432\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874089Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "\u0414\u0435\u0441\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874089Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "\u0412\u0440\u0432",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87409Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "\u0413\u043E\u0440\u0435 \u043B\u0435\u0432\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87409Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "\u0413\u043E\u0440\u0435 \u0434\u0435\u0441\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87409Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "\u0412\u043E \u0440\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874091Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "\u041F\u0440\u0438\u0441\u0442\u0430\u043D\u0438\u0448\u0442\u0435\u0442\u043E \u0435 \u043E\u0442\u0432\u043E\u0440\u0435\u043D\u043E \u0438 \u0440\u0435\u0437\u0435\u0440\u0432\u0430\u0446\u0438\u0458\u0430\u0442\u0430 \u0435 \u043D\u0430\u043F\u0440\u0430\u0432\u0435\u043D\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874091Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "\u041D\u0435 \u043C\u043E\u0436\u0435\u0432 \u0434\u0430 \u0433\u043E \u043E\u0442\u0432\u043E\u0440\u0430\u043C \u043F\u043E\u0440\u0442\u043E\u0442 (\u0432\u0438\u0434\u0435\u0442\u0435 \u0433\u043E \u0434\u043D\u0435\u0432\u043D\u0438\u043A\u043E\u0442)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874091Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "\u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0430\u043D \u0438\u0437\u0432\u0435\u0448\u0442\u0430\u0458 \u0437\u0430 \u0432\u0440\u0435\u043C\u0435\u043D\u0441\u043A\u0430 \u0440\u0430\u043C\u043A\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874091Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0430\u0458 \u0438\u0437\u0432\u0435\u0448\u0442\u0430\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874093Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "\u0417\u0430\u043A\u043B\u0443\u0447\u0435\u043D \u0441\u0435\u0433\u043C\u0435\u043D\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874093Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "\u041F\u0440\u0438\u0432\u0440\u0435\u043C\u0435\u043D \u0441\u0435\u0433\u043C\u0435\u043D\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874094Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "\u0412\u043E\u0432\u0435\u0434\u0435\u043D \u0441\u0435\u0433\u043C\u0435\u043D\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874094Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "\u041D\u0438\u0432\u043E \u043D\u0430 \u0435\u0432\u0438\u0434\u0435\u043D\u0442\u0438\u0440\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874095Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "\u0414\u0435\u0431\u0430\u0433\u0438\u0440\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874095Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "\u0413\u0440\u0435\u0448\u043A\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874095Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u0424\u0430\u0442\u0430\u043B\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874095Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874096Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "\u0414\u0435\u0442\u0430\u043B\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874096Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "\u041F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0434\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874096Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "\u0410\u043D\u0430\u043B\u0438\u0437\u0438\u0440\u0430\u045A\u0435 \u043D\u0430 \u043F\u043E\u0434\u0430\u0442\u043E\u0446\u0438\u0442\u0435 \u043E\u0434 \u0442\u0430\u0458\u043C\u0435\u0440\u043E\u0442 \u0437\u0430 \u0441\u043E\u0441\u0442\u0430\u043D\u043E\u0446\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874097Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "\u0418\u0437\u0432\u0435\u0448\u0442\u0430\u0458\u043E\u0442 \u041D\u0415 \u0435 \u0433\u0435\u043D\u0435\u0440\u0438\u0440\u0430\u043D!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874097Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "\u041F\u0420\u0415\u0413\u041B\u0415\u0414",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874097Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u0441\u043A\u0438 \u0437\u0432\u0443\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874098Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "\u041A\u043B\u0438\u043A\u043D\u0435\u0442\u0435 \u0437\u0430 \u0434\u0430 \u0441\u0435 \u043E\u0433\u043B\u0430\u0441\u0438 \u0455\u0432\u043E\u043D\u0447\u0435\u0442\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874098Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "\u0412\u0440\u0435\u043C\u0435\u0442\u0440\u0430\u0435\u045A\u0435 (\u043C\u0438\u043D)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874098Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "\u0415\u043B\u0435\u043C\u0435\u043D\u0442\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874098Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "\u0411\u0438\u0440\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874099Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "\u0414\u0438\u0433\u0438\u0442\u0430\u043B\u0435\u043D \u0438 \u0434\u0438\u0433\u0438\u0442\u0430\u043B\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874099Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "\u0414\u0438\u0433\u0438\u0442\u0430\u043B\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874099Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "\u041F\u0440\u043E\u0455\u0438\u0440\u043D\u0430 \u043F\u043E\u0437\u0430\u0434\u0438\u043D\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.8741Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "\u0417\u0430\u0431\u0435\u043B\u0435\u0436\u0435\u0442\u0435 \u0434\u0435\u043A\u0430 \u043C\u043E\u043D\u0438\u0442\u043E\u0440\u043E\u0442 \u0441\u0435 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u0438\u0440\u0430 \u0441\u043E \u043F\u043E\u0441\u0442\u0430\u0432\u043A\u0430 \u043E\u0434 \u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u0442\u0430 \u043B\u0438\u043D\u0438\u0458\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.8741Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "\u0413\u0440\u0430\u0434\u0438\u0435\u043D\u0442 \u043D\u0430 \u043F\u043E\u0437\u0430\u0434\u0438\u043D\u0430\u0442\u0430 \u043D\u0430 \u0442\u0430\u0458\u043C\u0435\u0440\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.8741Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "\u0413\u0440\u0430\u0434\u0438\u0435\u043D\u0442 \u043D\u0430 \u043F\u043E\u0437\u0430\u0434\u0438\u043D\u0430\u0442\u0430 \u043D\u0430 \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.8741Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "\u0422\u0430\u0458\u043C\u0435\u0440\u0441\u043A\u0430 \u0440\u0430\u043C\u043A\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874101Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "\u0420\u0430\u043C\u0435\u043D \u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874101Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "\u0412\u0438\u043A\u0435\u043D\u0434\u043E\u0442 \u0432\u043A\u043B\u0443\u0447\u0443\u0432\u0430 \u043F\u0435\u0442\u043E\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874101Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "\u041F\u0440\u043E\u0437\u043E\u0440\u0435\u0446",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874102Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "\u041F\u0440\u043E\u0437\u043E\u0440\u0435\u0446",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874102Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "\u0417\u0430\u0442\u0432\u043E\u0440\u0438 \u0433\u043E \u043F\u0440\u043E\u0437\u043E\u0440\u0435\u0446\u043E\u0442 \u0437\u0430 \u043E\u0434\u0431\u0440\u043E\u0458\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874102Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "\u041D\u0435 \u043C\u043E\u0436\u0435 \u0434\u0430 \u0441\u0435 \u043E\u0442\u0432\u043E\u0440\u0438 \u0442\u0440\u0430\u043D\u0441\u043F\u0430\u0440\u0435\u043D\u0442\u043D\u043E \u201E\u043F\u0440\u043E\u0437\u043E\u0440\u0447\u0435\u043D\u043E\u201C \u043E\u0434\u0431\u0440\u043E\u0458\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874102Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "\u0427\u0430\u0441\u043E\u0432\u043D\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874103Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "\u0422\u0430\u0458\u043C\u0435\u0440\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874103Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "\u043E\u0444\u043B\u0430\u0458\u043D...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874103Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "\u0421\u043C\u0430\u043B\u0438 \u043F\u0440\u0438 \u043C\u0438\u043D\u0438\u043C\u0438\u0437\u0438\u0440\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874103Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "\u043F\u0440\u0438\u043C\u0430\u0440\u0435\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874104Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u0417\u0430\u0431\u0435\u043B\u0435\u0436\u0435\u0442\u0435 \u0434\u0435\u043A\u0430 \u0438\u0437\u043B\u0435\u0437\u043E\u0442 \u0435 \u043F\u043E\u0441\u0442\u0430\u0432\u0435\u043D \u043D\u0430 NDI \u043F\u0440\u0435\u043A\u0443 \u043F\u043E\u0441\u0442\u0430\u0432\u043A\u0430 \u043D\u0430 \u043A\u043E\u043C\u0430\u043D\u0434\u043D\u0430\u0442\u0430 \u043B\u0438\u043D\u0438\u0458\u0430.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874104Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u0414\u0430\u043B\u0438 \u0442\u0440\u0435\u0431\u0430\u0448\u0435 \u0434\u0430 \u0433\u043E \u0441\u0442\u0430\u0440\u0442\u0443\u0432\u0430\u0442\u0435 \u0442\u0430\u0458\u043C\u0435\u0440\u043E\u0442?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874104Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "\u0421\u043A\u043E\u043A\u0430\u0447\u043A\u0438 \u043F\u043E\u0442\u0441\u0435\u0442\u043D\u0438\u0446\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874105Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "\u0421\u043E\u0441\u0442\u0430\u043D\u043E\u043A\u043E\u0442 \u0442\u0440\u0430\u0435 {0} \u043C\u0438\u043D\u0443\u0442\u0438 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u043D\u043E \u0432\u0440\u0435\u043C\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874105Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "\u0421\u043E\u0441\u0442\u0430\u043D\u043E\u043A\u043E\u0442 \u0442\u0440\u0430\u0435 {0} \u043C\u0438\u043D\u0443\u0442\u0438 \u0441\u043E \u0437\u0430\u0434\u043E\u0446\u043D\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874105Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "\u0418\u0437\u0432\u0435\u0441\u0442\u0443\u0432\u0430\u045A\u0430 \u0437\u0430 \u043F\u0440\u0435\u0447\u0435\u043A\u043E\u0440\u0443\u0432\u0430\u045A\u0435/\u043F\u043E\u0434\u043F\u0440\u0435\u043A\u0440\u0448\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874105Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "\u0422\u0435\u043C\u0435\u043D \u0440\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874106Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "\u0417\u0430\u0442\u0432\u043E\u0440\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874106Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "\u0417\u0430\u0447\u0443\u0432\u0430\u0458",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874106Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "\u041E\u0441\u0432\u0435\u0436\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874107Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "\u041A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0438\u0440\u0430\u0458",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874107Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "\u0411\u0430\u0440\u0430\u045A\u0435 \u0437\u0430 \u043F\u0440\u0438\u0441\u0442\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874107Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "\u041E\u0442\u0444\u0440\u043B\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874107Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "\u0421\u0440\u0435\u0434\u0431\u0430\u0442\u0430 \u0437\u0430\u043F\u043E\u0447\u043D\u0443\u0432\u0430 \u0432\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874108Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "\u0421\u043A\u0435\u043D\u0438\u0440\u0430\u0458\u0442\u0435 \u0441\u043E \u043C\u043E\u0431\u0438\u043B\u0435\u043D \u0443\u0440\u0435\u0434 \u0437\u0430 \u0434\u0430 \u0433\u043E \u0432\u0438\u0434\u0438\u0442\u0435 \u0432\u0435\u0431-\u0447\u0430\u0441\u043E\u0432\u043D\u0438\u043A\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874108Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "\u041F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874108Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "\u0421\u0442\u0430\u0442\u0443\u0441:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874109Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "\u0420\u0435\u0436\u0438\u043C \u043D\u0430 \u0446\u0435\u043B \u0435\u043A\u0440\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874109Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u0417\u0433\u043E\u043B\u0435\u043C\u0438 \u0433\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u043E (\u002B1 \u043C\u0438\u043D.). \u041A\u043B\u0438\u043A\u043D\u0435\u0442\u0435 \u0441\u043E \u0434\u0435\u0441\u043D\u043E\u0442\u043E \u043A\u043E\u043F\u0447\u0435 \u0437\u0430 \u043F\u043E\u0432\u0435\u045C\u0435 \u043E\u043F\u0446\u0438\u0438.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874109Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "\u041D\u0430\u043C\u0430\u043B\u0438 \u0433\u043E \u0432\u0440\u0435\u043C\u0435\u0442\u043E (-1 \u043C\u0438\u043D.). \u041A\u043B\u0438\u043A\u043D\u0435\u0442\u0435 \u0441\u043E \u0434\u0435\u0441\u043D\u043E\u0442\u043E \u043A\u043E\u043F\u0447\u0435 \u0437\u0430 \u043F\u043E\u0432\u0435\u045C\u0435 \u043E\u043F\u0446\u0438\u0438.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874109Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "\u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0430\u0458 \u0438\u0437\u0432\u0435\u0448\u0442\u0430\u0458 \u0437\u0430 \u0432\u0440\u0435\u043C\u0435\u043D\u0441\u043A\u0430 \u0440\u0430\u043C\u043A\u0430 (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87411Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "\u041F\u0440\u0438\u043A\u0430\u0436\u0438 \u0442\u0430\u0458\u043C\u0435\u0440 \u0437\u0430 \u043E\u0434\u0431\u0440\u043E\u0458\u0443\u0432\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87411Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "\u0414\u043E\u0441\u0442\u0430\u043F\u043D\u0430 \u0435 \u043D\u043E\u0432\u0430 \u0432\u0435\u0440\u0437\u0438\u0458\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87411Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "\u041F\u043E\u0441\u0442\u0430\u0432\u043A\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.87411Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "\u041F\u043E\u043C\u043E\u0448",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874111Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "\u0421\u043C\u0430\u043B\u0438 \u0432\u043E \u043A\u043E\u043C\u043F\u0430\u043A\u0442\u0435\u043D \u0440\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874111Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 \u0441\u0435\u043A\u0443\u043D\u0434\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874111Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 \u043C\u0438\u043D\u0443\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874111Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 \u043C\u0438\u043D\u0443\u0442\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874112Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 \u0441\u0435\u043A\u0443\u043D\u0434\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874112Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 \u043C\u0438\u043D\u0443\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874112Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 \u043C\u0438\u043D\u0443\u0442\u0438",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874112Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "\u041C\u0420\u0415\u0416\u041D\u0418 \u0414\u041E\u0417\u0412\u041E\u041B\u0418",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874113Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "\u0424\u043B\u0435\u0448 \u0442\u0430\u0458\u043C\u0435\u0440 \u0437\u0430 \u0432\u0440\u0435\u043C\u0435 \u043D\u0430 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874113Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "\u0405\u0432\u043E\u043D\u0438 \u043D\u0430 \u0455\u0432\u043E\u043D\u0447\u0435\u0442\u043E \u043A\u043E\u0433\u0430 \u0435 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874113Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "\u041F\u043E\u0434\u0433\u043E\u0442\u0432\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874114Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "\u0422\u0440\u0447\u0430\u045A\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874114Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "\u041F\u0430\u0443\u0437\u0438\u0440\u0430\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874114Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "\u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u0435",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874115Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "\u0417\u0430\u043F\u0440\u0435\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874115Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "\u0412\u043D\u0435\u0441\u0435\u0442\u0435 \u0433\u043E \u043F\u0440\u0438\u0441\u0442\u0430\u043F\u043D\u0438\u043E\u0442 \u043A\u043E\u0434...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874115Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "\u043C\u0438\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874115Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "\u041A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0438\u0440\u0430\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874116Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "\u041D\u0435 \u0435 \u043A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0438\u0440\u0430\u043D\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:18.874116Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:18.874128Z"
+}

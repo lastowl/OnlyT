@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "sn",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell iri kushanda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904935Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Hapana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904936Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Nzira imwe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904937Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Nzira mbiri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904937Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Software shanduro {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904938Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-awa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904939Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-awa (inotungamira zero)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904939Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-awa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90494Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-awa (inotungamira zero)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90494Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Hatina kukwanisa kugadzira folda {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904941Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Yakagadziridzwa nguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904942Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modified duration",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904942Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Yekutanga nguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904943Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analogue",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904943Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogue uye Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904944Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904944Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell harisi kushanda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904945Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Pakati pevhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904946Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Hushumiri - Chinhu chekutanga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904946Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Hushumiri - Chinhu chechipiri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904947Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Hushumiri - Chikamu 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904947Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904948Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "File-based",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904948Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904949Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Hurukuro Yokugumisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90495Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Mhinduro Dzekupedzisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90495Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Chidzidzo cheBhaibheri Cheungano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904951Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Anokosha Pakunamata",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904952Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Kurarama - Chikamu 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904952Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Kurarama - Chikamu 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904953Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Kuvhura Comments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904953Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Mharidzo dzeMwedzi Uno",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904954Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Hurukuro Yavose",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904954Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Kuverenga Bhaibheri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904955Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Hurukuro Yebasa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904956Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Pfuma Hurukuro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904956Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Chidzidzo cheNharireyomurindi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904957Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Weekend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904957Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-awa (am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904958Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-awa (inotungamira zero \u0026 am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904959Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Hapana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904959Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Zvigadziriso hazviwanikwe apo timer iri kushanda!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90496Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Settings",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90496Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Pfuma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904961Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ushumiri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904961Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Kurarama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904962Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Weekend",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904962Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Zvirongwa zvadzimwa nemutungamiriri!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904963Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Hushumiri - Chinhu chechina",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904963Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Kushanya kwedunhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904964Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "CLOSE COUNTDOWN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904964Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Help",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904965Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[kushanya kwedunhu]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904965Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Shanduro itsva iripo!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904966Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "MAIN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904966Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Kodhi yekupinda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904967Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Pakati pesvondo adaptive mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904968Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Weekend adaptive mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904968Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Bvumira count-up toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904969Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Nguva dzose pamusoro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904969Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "REMOTE APPS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90497Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATIC MODE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90497Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904971Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WEB Clock",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904971Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "MHANGANO COUNTDOWN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904972Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Circuit visit toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904972Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digital wachi chimiro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904973Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Yagoneswa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904974Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Yakazara-screen wachi modhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904974Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP kero",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904975Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Musangano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904975Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Nguva dzekutanga musangano (1 pamutsara)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904976Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "ZVAKASIYANA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904976Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904976Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Ratidza chinongedzo chembeva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904977Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Isa nguva yega yega yekutanga pamutsara mutsva.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904977Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Shandisa chero nguva fomati yaunoda!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904978Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Optionally sanganisira zuva, e.g. \u0022Thu 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904978Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Notes:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904979Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "Vhura PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904979Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90498Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Ramba uchidzidzira nguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90498Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Ramba uchikurukura kwenguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904981Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904981Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "REMOTE ACCESS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904982Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Ratidza chikamu pawachi yeanalogu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904982Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Split-screen wide:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904983Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "TEST",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904983Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Throttled",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904984Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Timer kuverenga kumusoro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904984Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TIMER Hwindi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904985Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Nguva yezuva pasi pe timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904985Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Vhoriyamu:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904985Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Mutauro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904986Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Ndapota tangazve OnlyT mushure mekushandura mutauro.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904987Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Kudzikira 1m\nCtrl - Kuderedza 15s\nShift - Kuderera 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904987Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Wedzera 1m\nCtrl - Wedzera 15s\nShift - Wedzera 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904988Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Manual mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904988Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Kuverenga pasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904989Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Kuverenga kumusoro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904989Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} masekondi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904989Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Yagoneswa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90499Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Yagoneswa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90499Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Yagoneswa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904991Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Ratidza masekonzi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904991Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Ratidza furemu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904992Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Wachi furemu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904992Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Zoom level:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904993Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Nzvimbo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904993Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Pasi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904993Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Pazasi kuruboshwe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904994Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Pazasi kurudyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904995Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Center",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904995Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Ruboshwe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904996Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Rudyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904996Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Top",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904997Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Pamusoro kuruboshwe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904997Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Pamusoro kurudyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904998Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "OK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904998Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port yakavhurwa uye chengetedzo yakaitwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904999Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Hatina kukwanisa kuvhura chiteshi (ona gwaro)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.904999Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Yakagadzirwa timing report",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Gadzira mishumo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Kupedzisa Segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905001Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Interim Segment",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905001Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Nhanganyaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905002Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Kutema matanda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905002Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Debug",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905003Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Error",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905003Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Inouraya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905004Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Information",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905004Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Verbose",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905005Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Yambiro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905005Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Kuongorora data yenguva yemusangano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905005Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Mharidzo HAZVINA kugadzirwa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905006Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "VIEW",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905006Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Otomatiki kurira",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905007Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Dzvanya kuridza bhero",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905007Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Nguva (mins)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905007Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elements",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905008Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Dial",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905008Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dial uye digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905009Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905009Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Transparent background",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90501Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Ziva kuti iyo yekutarisa inodzorwa neyekuraira-mutsara kuseta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905011Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Nguva yekumashure gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905012Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Wachi yekumashure gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905012Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Timer frame",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905013Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Flat wachi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905014Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Kupera kwevhiki kunosanganisira Chishanu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905014Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Windowed",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905014Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Windowed",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905015Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Vhara Countdown Window",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905015Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Haikwanise kuvhura pachena \u0022window\u0022 countdown",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905016Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Clock",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905016Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Timers",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905017Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "pasina Indaneti...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905017Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Shumira pakuderedza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905018Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "primary",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905018Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Ziva kuti chinobuda chakaiswa kuNDI kuburikidza nekuraira-mutsara kuseta.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905019Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Waifanira kunge watanga timer?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905019Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Pop-up zviyeuchidzo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90502Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Musangano urikupfuura maminetsi {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90502Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Musangano urikuitwa maminetsi {0} pasina nguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905021Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Overrun/Underrun zviziviso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905021Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Rima mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905022Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Close",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905022Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Sevha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905023Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Refresh",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905023Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Configure",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905023Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Kumbira Kuwana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905024Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Dzinga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905024Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Musangano unotanga mukati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905025Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skena nenharembozha kuti uone wachi yewebhu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905025Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platform:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905026Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Mamiriro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905026Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Yakazara Screen Mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905026Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Wedzera nguva (\u002B1 min). Tinya-kurudyi kuti uwane dzimwe sarudzo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905027Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Kuderedza nguva (-1 min). Tinya-kurudyi kuti uwane dzimwe sarudzo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905027Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Gadzira rondedzero yenguva (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905028Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Ratidza countdown timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905028Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Shanduro itsva iripo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905029Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Settings",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905029Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Help",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90503Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Dzvanya kune compact mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.90503Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 masekondi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905031Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 miniti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905031Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 maminitsi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905032Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 seconds",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905032Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 miniti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905032Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 maminitsi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905033Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "NETWORK MVUME",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905033Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Timer Panguva Yakawedzerwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905034Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Ridza Bhero Kana Nguva Yakawedzerwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905034Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Ready",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905035Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Kumhanya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905035Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Paused",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905035Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Kupfuuridza nguva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905036Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Akamira",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905036Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Isa kodhi yekupinda...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905037Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905037Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Configured",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905038Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Not Configured",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:51.905038Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:51.905058Z"
+}

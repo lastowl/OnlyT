@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "yo",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell \u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201165Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Ko si",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201166Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Ona kan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201168Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "\u1ECCna meji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201168Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "\u1EB8ya software {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201169Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12-wakati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20117Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-wakati (odo asiwaju)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201171Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24-wakati",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201172Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-wakati (odo asiwaju)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201173Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Ko le \u1E63\u1EB9da folda {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201174Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Iye ti a \u1E63e deede",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201175Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Iye akoko ti a yipada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201176Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Atil\u1EB9ba iye akoko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201177Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Af\u1ECDw\u1ECD\u1E63e",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201178Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogue ati Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201178Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Oni-n\u1ECDmba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201179Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell j\u1EB9 al\u00E1\u00EC\u1E63i\u1E63\u1EB9m\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20118Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Midweek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201181Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ijoba - Nkan 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201182Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ijoba - Nkan 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201182Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ijoba - Nkan 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201183Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Laif\u1ECDw\u1ECDyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201184Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "orisun faili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201185Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Afowoyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201186Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "\u1ECCr\u1ECD ipari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201187Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Ipari Comments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201189Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "\u00CCk\u1EB9\u0301k\u1ECD\u0300\u1ECD\u0301 B\u00EDb\u00E9l\u00EC \u00CCj\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20119Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Aw\u1ECDn okuta iyebiye \u1EB8mi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20119Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Igbesi aye - Ap\u00E1 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201191Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Igbesi aye - Ap\u00E1 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201192Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Nsii Comments",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201193Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Aw\u1ECDn ifarahan O\u1E63u yii",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201194Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "\u1ECCr\u1ECD \u1ECCr\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201194Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Bibeli Kika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201195Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "\u1ECCr\u1ECD I\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201196Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "\u1ECCr\u1ECD I\u1E63ura",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201197Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u00CCk\u1EB9\u0301k\u1ECD\u0300\u1ECD\u0301 Il\u00E9 \u00CC\u1E63\u1ECD\u0301",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201198Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "\u00CCpar\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201199Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-wakati ( owur\u1ECD / ir\u1ECDl\u1EB9)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201199Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-wakati (odo asiwaju \u0026 am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.2012Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Ko si",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201201Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Eto ko si nigba ti aago n\u1E63i\u1E63\u1EB9!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201202Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Eto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201202Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Aw\u1ECDn i\u1E63ura",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201203Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ijoba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201204Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Gbigbe",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201205Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "\u00CCpar\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201206Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Aw\u1ECDn eto alaabo nipas\u1EB9 alabojuto!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201206Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ijoba - Nkan 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201207Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Circuit ibewo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201208Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "PADE COUNTdown",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201209Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Egba Mi O",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201209Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ab\u1EB9wo ayika]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20121Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Titun ti ikede wa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201211Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PATAKI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201212Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Wiw\u1ECDle koodu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201213Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Midweek a\u1E63amubad\u1ECDgba mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201214Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Ipo imudara \u00ECpar\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201215Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Gba kika-soke toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201215Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Nigbagbogbo lori oke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201216Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "Aw\u1ECDn ohun elo jijin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201217Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "Ipo Aif\u1ECDw\u1ECDyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201217Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELLO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201218Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "Aago ayelujara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201219Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "\u00CCK\u00DAN \u00CCp\u00E0d\u00E9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201219Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Circuit ibewo toggle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20122Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Digital aago kika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201221Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Ti \u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201222Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Ipo aago iboju kikun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201223Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adir\u1EB9si IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201224Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Ipade",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201224Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Aw\u1ECDn akoko ib\u1EB9r\u1EB9 ipade (1 fun laini)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201225Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "ORISIRISI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201226Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "At\u1EB9le",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201226Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "\u1E62e afihan it\u1ECDka asin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201227Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Fi k\u1ECD\u1ECDkan ibere akoko lori titun kan ila.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201228Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Lo \u1ECDna kika akoko eyikeyi ti o f\u1EB9!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201238Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Ni yiyan p\u1EB9lu \u1ECDj\u1ECD kan, fun ap\u1EB9\u1EB9r\u1EB9. T\u00FAl 19:15 .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201239Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Aw\u1ECDn ak\u1ECDsil\u1EB9:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201239Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "ebute oko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20124Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Ipo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201241Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Duro akoko akeko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201242Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Duro iye akoko \u1ECDr\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201242Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Ibudo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201243Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "Wiw\u1ECDle lat\u1ECDna jijin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201244Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "\u1E62e afihan eka lori aago af\u1ECDw\u1ECD\u1E63e",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201245Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Pipin iboju:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201246Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "Idanwo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201246Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Fif\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201247Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Aago ka soke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201248Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "FURUKO Aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201249Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Akoko ti \u1ECDj\u1ECD lab\u1EB9 aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201249Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Iw\u1ECDn didun:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20125Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Ede",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201251Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "J\u1ECDw\u1ECD tun b\u1EB9r\u1EB9 NikanT l\u1EB9hin iyipada ede naa.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201251Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Din 1m\nKonturolu - Din 15s\nYi l\u1ECD yi b\u1ECD - Din 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201252Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Alekun 1m\nCtrl - Mu 15s p\u1ECD si\nYi l\u1ECD yi b\u1ECD - Mu 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201253Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Ipo af\u1ECDw\u1ECD\u1E63e",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201253Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Kika isal\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201254Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Kika soke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201255Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "Aaya {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201255Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Ti \u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201256Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Ti \u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201257Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Ti \u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201281Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "\u1E62e afihan aw\u1ECDn i\u1E63\u1EB9ju-aaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201281Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Fi fireemu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201282Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "fireemu aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201282Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Ipele sun-un:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201283Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Ipo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201283Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Isal\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201284Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Isal\u1EB9 osi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201284Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Isal\u1EB9 \u1ECDtun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201285Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Aarin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201285Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Osi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201286Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "\u1ECCtun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201286Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Oke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201287Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Oke apa osi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201287Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Oke \u1ECDtun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201288Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "O DARA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201288Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port la ati ifi\u1E63ura \u1E63e",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201289Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Ko le \u1E63ii ibudo (wo log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201289Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Ijab\u1ECD akoko ti ipil\u1EB9\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20129Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u1E62\u1EB9da aw\u1ECDn ijab\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20129Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Abala ipari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201291Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Abala igba die",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201291Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Abala iforowero",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201292Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Ipele iw\u1ECDle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201292Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "\u1E62atunk\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201293Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Asise",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201293Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Apaniyan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201293Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Alaye",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201294Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "\u1ECCr\u1ECD-\u1ECDr\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201294Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Ikilo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201295Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "\u1E62i\u1E63ay\u1EB9wo data aago ipade",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201295Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Iroyin KO ti ipil\u1EB9\u1E63\u1EB9!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201296Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "WO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201296Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Ohun laif\u1ECDw\u1ECDyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201296Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "T\u1EB9 lati dun agogo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201297Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Iye akoko (i\u1E63\u1EB9ju)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201297Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Aw\u1ECDn eroja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201298Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Kiakia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201298Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Kiakia ati oni-n\u1ECDmba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201299Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Oni-n\u1ECDmba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201299Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Sihin l\u1EB9hin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.2013Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "\u1E62e akiyesi pe at\u1EB9le naa j\u1EB9 i\u1E63akoso nipas\u1EB9 eto laini a\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.2013Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Aago isale itesiwaju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201301Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Aago isale itesiwaju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201301Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "fireemu aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201302Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Aago alapin",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201302Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "\u00CCpar\u00ED p\u1EB9lu Friday",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201303Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ferese",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201303Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ferese",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201304Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Pa Ferese kika kika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201304Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Ko le \u1E63ii \u1E63i\u1E63afihan kika kika \u201Cwindowed\u201D.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201305Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201305Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Aago",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201306Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "aisinipo...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201307Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Din lori dinku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201308Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "jc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201308Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u1E62e akiyesi pe a \u1E63eto i\u1E63el\u1ECDp\u1ECD si NDI nipas\u1EB9 eto laini a\u1E63\u1EB9.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201309Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u1E62e o y\u1EB9 ki o ti b\u1EB9r\u1EB9 aago naa?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201309Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Aw\u1ECDn olurannileti agbejade",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20131Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Ipade na n\u1E63i\u1E63\u1EB9 {0} iseju iseju iseju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20131Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Ipade na n \u1E63i\u1E63\u1EB9 {0} i\u1E63\u1EB9ju lab\u1EB9 akoko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20131Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "A\u1E63eju / Aw\u1ECDn iwifunni ti a ko\u1E63e",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201311Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Ipo dudu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201311Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Sunm\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201312Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Fipam\u1ECD",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201312Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Tuntun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201313Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Tunto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201313Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Beere Wiw\u1ECDle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201314Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Y\u1ECD\u1ECD kuro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201314Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Ipade b\u1EB9r\u1EB9 ni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201315Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "\u1E62e \u1ECDl\u1ECDj\u1EB9 p\u1EB9lu \u1EB9r\u1ECD alagbeka lati wo aago w\u1EB9\u1EB9bu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201315Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Syeed:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201315Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Ipo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201316Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Ipo Iboju ni kikun",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201316Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u00C0k\u00F3k\u00F2 p\u1ECD\u0300 s\u00ED (\u002B1 \u00EC\u1E63\u1EB9\u0301j\u00FA). T\u1EB9-\u1ECDtun fun aw\u1ECDn a\u1E63ayan di\u1EB9 sii.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201317Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Akoko idinku (-1 min). T\u1EB9-\u1ECDtun fun aw\u1ECDn a\u1E63ayan di\u1EB9 sii.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201317Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "\u1E62\u1EB9da ijab\u1ECD akoko (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201317Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "\u1E62e afihan aago kika",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201318Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Titun ti ikede wa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201318Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Eto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201319Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Egba Mi O",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201319Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Isunki si iwap\u1ECD mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20132Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 aaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.20132Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 iseju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201321Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B 5 i\u1E63\u1EB9ju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201321Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 aaya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201322Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 iseju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201322Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 i\u1E63\u1EB9ju",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201323Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "Aw\u1ECDn igbanilaaye NETWORK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201323Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Aago Nigba lofi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201323Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Oruka Bell Nigba ti Lofi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201324Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "\u1E62etan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201324Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "N\u1E63i\u1E63\u1EB9",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201325Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Daduro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201325Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Afikun asiko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201326Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Duro",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201326Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "T\u1EB9 koodu iw\u1ECDle sii...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201327Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201327Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Tunto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201328Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Ko tunto",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:46.201328Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:46.201348Z"
+}

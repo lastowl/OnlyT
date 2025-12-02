@@ -1,0 +1,356 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:OnlyT.Avalonia.ViewModels"
+        xmlns:options="using:OnlyT.Avalonia.Services.Options"
+        xmlns:loc="using:OnlyT.Avalonia.Services.Localization"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="900"
+        x:Class="OnlyT.Avalonia.Views.SettingsWindow"
+        x:DataType="vm:SettingsViewModel"
+        Title="Settings"
+        Icon="/Assets/icon.ico"
+        Width="750" Height="850"
+        CanResize="True"
+        MinHeight="600"
+        MinWidth="400">
+
+    <Design.DataContext>
+        <vm:SettingsViewModel/>
+    </Design.DataContext>
+
+    <Window.Styles>
+        <!-- GroupBox Card Style -->
+        <Style Selector="Border.GroupCard">
+            <Setter Property="Background" Value="{DynamicResource MaterialCardBackgroundBrush}"/>
+            <Setter Property="CornerRadius" Value="4"/>
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="330"/>
+        </Style>
+        <Style Selector="TextBlock.GroupHeader">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Margin" Value="0,0,0,12"/>
+        </Style>
+        <Style Selector="TextBlock.Notes">
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="Foreground" Value="{DynamicResource MaterialBodyLightBrush}"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Margin" Value="0,4,0,0"/>
+        </Style>
+        <Style Selector="CheckBox">
+            <Setter Property="Margin" Value="0,0,0,8"/>
+        </Style>
+        <Style Selector="ComboBox">
+            <Setter Property="Margin" Value="0,0,0,12"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="MinHeight" Value="32"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Styles>
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Header with back button -->
+        <Button Grid.Row="0"
+                Click="OnCloseClick"
+                HorizontalAlignment="Stretch"
+                Height="40"
+                Margin="0"
+                CornerRadius="0">
+            <PathIcon Data="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+                      Width="24" Height="24"/>
+        </Button>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Visible">
+            <WrapPanel Margin="10" Orientation="Horizontal">
+
+                <!-- MAIN SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize MAIN_SECTION}"/>
+
+                        <TextBlock Text="{loc:Localize MONITOR}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding AvailableMonitors}"
+                                  SelectedItem="{Binding SelectedMonitor}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <CheckBox Content="{loc:Localize LBL_FULL_SCREEN_MODE}"
+                                  IsChecked="{Binding FullScreenMode}"/>
+
+                        <TextBlock Text="{loc:Localize OP_MODE}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding OperatingModes}"
+                                  SelectedItem="{Binding OperatingMode}"/>
+
+                        <TextBlock Text="{loc:Localize DIGITAL_CLOCK_FORMAT}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding ClockHourFormats}"
+                                  SelectedItem="{Binding SelectedClockHourFormat}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="options:ClockHourFormatItem">
+                                    <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <CheckBox Content="{loc:Localize SHOW_SECONDS}"
+                                  IsChecked="{Binding ShowDigitalSeconds}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- AUTO MODE SECTION -->
+                <Border Classes="GroupCard" IsVisible="{Binding IsAutomaticMode}">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize AUTO_SECTION}"/>
+
+                        <TextBlock Text="{loc:Localize MEETING}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding MeetingTypes}"
+                                  SelectedItem="{Binding MidWeekOrWeekend}"/>
+
+                        <TextBlock Text="{loc:Localize ADAPTIVE_MIDWEEK}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding AdaptiveModes}"
+                                  SelectedItem="{Binding MidWeekAdaptiveMode}"/>
+
+                        <TextBlock Text="{loc:Localize ADAPTIVE_WEEKEND}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding AdaptiveModes}"
+                                  SelectedItem="{Binding WeekendAdaptiveMode}"/>
+
+                        <CheckBox Content="{loc:Localize CIRCUIT_VISIT}"
+                                  IsChecked="{Binding IsCircuitVisit}"/>
+
+                        <CheckBox Content="{loc:Localize PERSIST_STUDENT_TIME}"
+                                  IsChecked="{Binding PersistStudentTime}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- BELL SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize BELL_SECTION}"/>
+
+                        <CheckBox Content="{loc:Localize ENABLED_BELL}"
+                                  IsChecked="{Binding IsBellEnabled}"/>
+
+                        <CheckBox Content="{loc:Localize AUTO_BELL}"
+                                  IsChecked="{Binding AutoBell}"/>
+
+                        <TextBlock FontSize="12" Margin="0,8,0,4">
+                            <Run Text="{loc:Localize VOLUME}"/>
+                            <Run Text=" "/>
+                            <Run Text="{Binding BellVolumePercent}"/>
+                            <Run Text="%"/>
+                        </TextBlock>
+                        <Slider Minimum="0" Maximum="100"
+                                Value="{Binding BellVolumePercent}"
+                                TickFrequency="10"/>
+
+                        <Button Content="{loc:Localize TEST}"
+                                Command="{Binding TestBellCommand}"
+                                Width="160" Height="32"
+                                HorizontalAlignment="Left"
+                                Margin="0,15,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- TIMER WINDOW SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize TIMER_WIN_SECTION}"/>
+
+                        <TextBlock Text="{loc:Localize FULL_SCREEN_CLOCK}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding ClockModes}"
+                                  SelectedItem="{Binding FullScreenClockMode}"/>
+
+                        <TextBlock FontSize="12" Margin="0,8,0,4">
+                            <Run Text="{loc:Localize SPLIT_WIDTH}"/>
+                            <Run Text=" "/>
+                            <Run Text="{Binding AnalogueClockWidthPercent}"/>
+                            <Run Text="%"/>
+                        </TextBlock>
+                        <Slider Minimum="30" Maximum="100"
+                                Value="{Binding AnalogueClockWidthPercent}"
+                                TickFrequency="10"
+                                Margin="0,0,0,12"/>
+
+                        <CheckBox Content="{loc:Localize TIMER_BACKGROUND_COLOUR}"
+                                  IsChecked="{Binding ShowBackgroundOnTimer}"/>
+
+                        <CheckBox Content="{loc:Localize TIME_UNDER_TIMER}"
+                                  IsChecked="{Binding ShowTimeOfDayUnderTimer}"/>
+
+                        <CheckBox Content="{loc:Localize SECTOR_ANALOG_CLOCK}"
+                                  IsChecked="{Binding ShowDurationSector}"/>
+
+                        <CheckBox Content="{loc:Localize MOUSE_PTR}"
+                                  IsChecked="{Binding ShowMousePointerInTimerDisplay}"/>
+
+                        <CheckBox Content="{loc:Localize TIMER_FLASH_OVERTIME}"
+                                  IsChecked="{Binding FlashTimerWhenOvertime}"/>
+
+                        <CheckBox Content="{loc:Localize TIMER_BELL_OVERTIME}"
+                                  IsChecked="{Binding BellOnOvertime}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- WEB CLOCK SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize CLOCK_SECTION}"/>
+
+                        <Image Source="{Binding QrCodeImage}"
+                               Width="150" Height="150"
+                               Margin="0,0,0,10"
+                               IsVisible="{Binding QrCodeImage, Converter={x:Static ObjectConverters.IsNotNull}}"/>
+
+                        <TextBlock Text="{Binding WebClockUrl}"
+                                   FontSize="11"
+                                   TextAlignment="Center"
+                                   Foreground="{DynamicResource MaterialBodyLightBrush}"
+                                   Margin="0,0,0,10"/>
+
+                        <TextBlock Classes="Notes" Text="{loc:Localize MSG_SCAN_QR_CODE}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- API SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize APPS_SECTION}"/>
+
+                        <CheckBox Content="{loc:Localize THROTTLED}"
+                                  IsChecked="{Binding IsApiThrottled}"/>
+
+                        <TextBlock Text="{loc:Localize ACCESS_CODE}" FontSize="12" Margin="0,0,0,4"/>
+                        <TextBox Text="{Binding ApiAccessCode}"
+                                 Watermark="{loc:Localize WATERMARK_ACCESS_CODE}"
+                                 PasswordChar="●"
+                                 Margin="0,0,0,12"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- COUNTDOWN SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize COUNTDOWN_SECTION}"/>
+
+                        <CheckBox Content="{loc:Localize COUNTDOWN_TRANSPARENT}"
+                                  IsChecked="{Binding IsCountdownWindowTransparent}"/>
+
+                        <TextBlock FontSize="12" Margin="0,8,0,4">
+                            <Run Text="{loc:Localize COUNTDOWN_DURATION_MINS}"/>
+                            <Run Text=" "/>
+                            <Run Text="{Binding CountdownDurationMins}"/>
+                            <Run Text=" "/><Run Text="{loc:Localize UNIT_MIN}"/>
+                        </TextBlock>
+                        <Slider Minimum="1" Maximum="60"
+                                Value="{Binding CountdownDurationMins}"
+                                TickFrequency="5"
+                                Margin="0,0,0,12"/>
+
+                        <TextBlock Text="{loc:Localize MEETING_STARTS}" FontSize="12" Margin="0,0,0,4"/>
+                        <TextBox Text="{Binding MeetingStartTimesText}"
+                                 Height="100"
+                                 AcceptsReturn="True"
+                                 TextWrapping="Wrap"
+                                 Watermark="Mon 19:00&#x0a;Sat 10:00"
+                                 Margin="0,0,0,8"/>
+
+                        <TextBlock Classes="Notes" Text="{loc:Localize MTG_START_NOTES3}"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- NETWORK SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize SECTION_NETWORK}"/>
+
+                        <Grid ColumnDefinitions="Auto,*" Margin="0,0,0,4">
+                            <TextBlock Grid.Column="0" Text="{loc:Localize LBL_PLATFORM}" FontSize="12"/>
+                            <TextBlock Grid.Column="1" Text="{Binding FirewallPlatformName}"
+                                       FontSize="12" Margin="8,0,0,0"/>
+                        </Grid>
+                        <Grid ColumnDefinitions="Auto,*" Margin="0,0,0,8">
+                            <TextBlock Grid.Column="0" Text="{loc:Localize LBL_STATUS}" FontSize="12"/>
+                            <TextBlock Grid.Column="1" Text="{Binding FirewallStatusDisplay}"
+                                       FontSize="12" Margin="8,0,0,0"
+                                       Foreground="{Binding FirewallStatusColor}"/>
+                        </Grid>
+
+                        <TextBlock Classes="Notes" Text="{Binding FirewallStatusText}" Margin="0,0,0,12"/>
+
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Content="{loc:Localize BTN_REFRESH}"
+                                    Command="{Binding RefreshFirewallStatusCommand}"
+                                    Height="28" Padding="12,4"/>
+                            <Button Content="{loc:Localize BTN_CONFIGURE}"
+                                    Command="{Binding ConfigureFirewallCommand}"
+                                    IsVisible="{Binding CanConfigureFirewall}"
+                                    Height="28" Padding="12,4"/>
+                            <Button Content="{loc:Localize BTN_REQUEST_ACCESS}"
+                                    Command="{Binding RequestNetworkAccessCommand}"
+                                    IsVisible="{Binding IsMacOS}"
+                                    Height="28" Padding="12,4"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- MISC SECTION -->
+                <Border Classes="GroupCard">
+                    <StackPanel>
+                        <TextBlock Classes="GroupHeader" Text="{loc:Localize MISC_SECTION}"/>
+
+                        <CheckBox Content="{loc:Localize DARK_MODE}"
+                                  IsChecked="{Binding IsDarkMode}"/>
+
+                        <CheckBox Content="{loc:Localize ALWAYS_ON_TOP}"
+                                  IsChecked="{Binding AlwaysOnTop}"/>
+
+                        <CheckBox Content="{loc:Localize SHRINK_ON_MINIMISE}"
+                                  IsChecked="{Binding ShrinkOnMinimise}"/>
+
+                        <CheckBox Content="{loc:Localize TIMER_REMINDER}"
+                                  IsChecked="{Binding TimerReminder}"/>
+
+                        <TextBlock Text="{loc:Localize LOGGING_LEVEL}" FontSize="12" Margin="0,8,0,4"/>
+                        <ComboBox ItemsSource="{Binding LogLevels}"
+                                  SelectedItem="{Binding SelectedLogLevel}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:LogEventLevelItem">
+                                    <TextBlock Text="{Binding DisplayName}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <TextBlock Text="{loc:Localize LANGUAGE}" FontSize="12" Margin="0,0,0,4"/>
+                        <ComboBox ItemsSource="{Binding AvailableLanguages}"
+                                  SelectedItem="{Binding SelectedLanguage}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate x:DataType="loc:LanguageItem">
+                                    <TextBlock Text="{Binding NativeName}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+
+                        <TextBlock Classes="Notes" Text="{loc:Localize RESTART_LANGUAGE}"/>
+                    </StackPanel>
+                </Border>
+
+            </WrapPanel>
+        </ScrollViewer>
+
+        <!-- Save Button at Bottom -->
+        <Button Grid.Row="1"
+                Content="{loc:Localize BTN_SAVE}"
+                Click="OnSaveClick"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Width="120" Height="40"
+                Margin="0,0,20,20"
+                FontSize="14"/>
+    </Grid>
+
+</Window>

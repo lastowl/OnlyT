@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="using:OnlyT.Avalonia.Views"
+        xmlns:controls="using:OnlyT.Avalonia.Controls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="650" d:DesignHeight="600"
+        x:Class="OnlyT.Avalonia.Views.MainWindow"
+        Title="OnlyT - Meeting Timer"
+        Icon="/Assets/icon.ico"
+        Width="420" Height="350"
+        MinWidth="420" MinHeight="350"
+        CanResize="True">
+    <Grid>
+        <views:OperatorPage x:Name="OperatorPageView"/>
+        <controls:SnackbarControl VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+    </Grid>
+</Window>

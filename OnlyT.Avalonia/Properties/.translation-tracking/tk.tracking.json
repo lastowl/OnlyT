@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "tk",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell i\u015Fje\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069566Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Hi\u00E7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069567Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Bir tarapla\u00FDyn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069569Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Iki tarapla\u00FDyn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06957Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Programma \u00FCpj\u00FCn\u00E7iligi wersi\u00FDasy {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069571Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 sagat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069571Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 sagat (\u00F6\u0148debaryjy nol)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069572Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 sagat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069574Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 sagat (\u00F6\u0148debaryjy nol)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069575Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "{0 folder bukjasyny d\u00F6redip bolmady",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069576Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "U\u00FDgunla\u015Fdyrylan dowamlylyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069576Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "\u00DC\u00FDtgedilen dowamlylyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069577Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Asyl dowamlylygy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069578Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069579Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog we Sanly",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06958Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Sanly",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06958Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell hereketsiz",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069581Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Orta aralyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069582Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministrlik - 1-nji bent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069583Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministrlik - 2-nji bent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069583Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministrlik - 3-nji bent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069584Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Awtomat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069585Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Fa\u00FDl esasly",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069586Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Gollanma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069587Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Jemle\u00FDji geple\u015Fik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069588Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Jemle\u00FDji teswirler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069589Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Mukaddes Kitaby \u00F6wrenmek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06959Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Ruhy gymmatlyklar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069591Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Livinga\u015Fa\u00FDy\u015F - 1-nji b\u00F6l\u00FCm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069592Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Livinga\u015Fa\u00FDy\u015F - 2-nji b\u00F6l\u00FCm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069593Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "D\u00FC\u015F\u00FCndiri\u015Fler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069594Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Bu a\u00FDy\u0148 \u00E7yky\u015Flary",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069594Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "K\u00F6p\u00E7\u00FClikle\u00FDin geple\u015Fik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069595Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Injili okamak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069596Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Hyzmat geple\u015Fik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069596Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Hazynalar barada s\u00F6hbet",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069597Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u201CWatchtower\u201D okuwy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069598Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Dyn\u00E7 g\u00FCni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069599Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 sagat (irden / ag\u015Fam)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.0696Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 sagat (\u00F6\u0148debaryjy nol \u0026 am / pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.0696Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Hi\u00E7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069601Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Taymer i\u015Fle\u00FD\u00E4n wagty sazlamalar el\u00FDeterli d\u00E4l!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069602Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Sazlamalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069603Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Hazynalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069604Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministrlik",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069605Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Livinga\u015Famak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069606Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Dyn\u00E7 g\u00FCni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069606Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Sazla\u00FDjylar administrator tarapyndan \u00FDapyldy!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069607Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministrlik - 4-nji bent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069608Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Gezelen\u00E7 sapary",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069609Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "OSAKYN SANY",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06961Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "K\u00F6mek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06961Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[a\u00FDlaw sapary]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069612Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "T\u00E4ze wersi\u00FDa el\u00FDeterli!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069612Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "Esasy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069613Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Giri\u015F kody",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069614Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Orta aralyk u\u00FDgunla\u015Fma tertibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069615Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Dyn\u00E7 g\u00FCni u\u00FDgunla\u015Fma tertibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069616Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Hasaplamaga rugsat beri\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069617Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Elmydama \u00FDokarda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069617Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APPLERI AEMDY ..",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069618Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "Awtomatiki usul",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069619Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069619Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "Web sahypasy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06962Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "Du\u015Fu\u015Fyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069621Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "A\u00FDlaw saparyny \u00FC\u00FDtgetmek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069621Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Sanly sagat formaty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069622Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "I\u015Fledildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069623Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Doly ekranly sagat tertibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069624Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adresi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069625Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Du\u015Fu\u015Fyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069626Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Du\u015Fu\u015Fygy\u0148 ba\u015Flan\u00FDan wagtlary (her setirde 1)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069626Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "GATNA\u015EYK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069627Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069628Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Sy\u00E7anjygy\u0148 g\u00F6rkezijisini g\u00F6rkez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069628Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Her ba\u015Flangy\u00E7 wagtyny t\u00E4ze setirde go\u00FDu\u0148.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069629Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Isl\u00E4n wagty\u0148yz formaty\u0148yzy ulany\u0148!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06963Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Islege g\u00F6r\u00E4 bir g\u00FCn go\u015Fu\u0148, meselem. \u0022\u00C7ar\u015Fenbe 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06963Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Bellikler:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069631Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "A\u00C7YLAN PORT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069632Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Reodeim",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069632Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Talyp wagtyny dowam etdiri\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069633Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Geple\u015Fik dowamlylygy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069634Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069635Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "A\u00C7YRMAK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069636Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Analog sagatda sektory g\u00F6rkezi\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069636Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "B\u00F6l\u00FCnen ekrany\u0148 gi\u0148ligi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069637Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "Synag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069638Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Oturdy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069638Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Taymer hasaplan\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069639Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "TIMER WINDOW",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06964Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Taymer astynda g\u00FCn\u00FC\u0148 wagty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069641Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "G\u00F6wr\u00FCmi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069641Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Dil",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069642Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Dili \u00FC\u00FDtgedeni\u0148izden so\u0148 di\u0148eT-ni t\u00E4zeden a\u00E7magy\u0148yzy ha\u00FDy\u015F ed\u00FD\u00E4ris.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069643Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "1m azaldy\u0148\nCtrl - 15-i azaltmak\nShift - 5m azaltmak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069643Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "1m k\u00F6peltmek\nCtrl - 15-i k\u00F6peltmek\nShift - 5m k\u00F6peltmek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069644Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "El bilen i\u015Flemek tertibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069645Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Hasaplamak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069645Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Hasaplamak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069646Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekunt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069647Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "I\u015Fledildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069647Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "I\u015Fledildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069648Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "I\u015Fledildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069649Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Sekuntlary g\u00F6rkezi\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069649Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "\u00C7ar\u00E7uwany g\u00F6rkez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06965Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Sagat \u00E7ar\u00E7uwasy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069651Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Ulaltmak derejesi:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069651Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Locationerle\u015F\u00FD\u00E4n \u00FDeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069652Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "A\u015Fakda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069653Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "A\u015Fakda \u00E7ep",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069654Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "A\u015Fakda sag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069655Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Merkez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069656Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "\u00C7ep",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069656Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Dogry",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069657Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Topokarky",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069658Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Leftokarky \u00E7ep",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069659Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Rightokarda sagda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069659Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Bol\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06966Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port a\u00E7yldy we \u00F6\u0148\u00FCnden bellik edildi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069661Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Porty a\u00E7yp bolmady (g\u00FCndelige seredi\u0148)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069662Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "D\u00F6redilen wagt hasabaty",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069663Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Hasabat d\u00F6redi\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069664Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Jemle\u00FDji b\u00F6l\u00FCm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069664Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Aralyk b\u00F6l\u00FCm",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069665Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Giri\u015F b\u00F6l\u00FCmi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069666Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Giri\u015F derejesi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069667Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "D\u00FCzedi\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069667Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Roral\u0148y\u015Flyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069669Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u00D6ld\u00FCriji",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06967Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Maglumat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06967Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Verbose",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069671Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Du\u00FDdury\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069671Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Du\u015Fu\u015Fygy\u0148 ta\u00FDmer maglumatlaryny seljermek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069672Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Hasabat d\u00F6redilmedi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069673Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "G\u00D6RN\u00DC\u015E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069674Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Awtomatiki ses",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069674Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Ja\u0148 etmek \u00FC\u00E7in basy\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069675Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Dowamlylygy (minut)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069676Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069676Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Ja\u0148 edi\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069677Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "A\u00FDlamak we sanly",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069678Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Sanly",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069679Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "A\u00E7-a\u00E7an fon",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069679Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Monitory\u0148 bu\u00FDruk setiri bilen dolandyryl\u00FDandygyny \u00FDady\u0148yzdan \u00E7ykarma\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069682Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Hasapla\u00FDjy fon gradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069683Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Sagat fon gradienti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069683Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Taymer \u00E7ar\u00E7uwasy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069684Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Tekiz sagat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069685Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Dyn\u00E7 g\u00FCni anna g\u00FCn\u00FCni \u00F6z i\u00E7ine al\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069686Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Penjireli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069687Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Penjireli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069687Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Hasapla\u00FDy\u015F penjiresini \u00FDapy\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069688Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "A\u00E7-a\u00E7an \u0022penjireli\u0022 hasaplamany a\u00E7yp bolma\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069689Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Sagat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069689Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Taymerler",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06969Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "awtonom ...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069691Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Minimalla\u015Fdyrmak \u00FC\u00E7in gysy\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069691Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "ba\u015Flangy\u00E7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069692Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u00C7yky\u015Fy\u0148 bu\u00FDruk setiri arkaly NDI-e d\u00FCz\u00FClendigini unutma\u0148.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069693Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Hasapla\u00FDjyny ba\u015Flamalymy?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069693Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "A\u00E7yl\u00FDan \u00FDatlatmalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069694Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Du\u015Fu\u015Fyk {0} minutdan artyk i\u015Fle\u00FD\u00E4r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069695Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Du\u015Fu\u015Fyk {0} minut dowam ed\u00FD\u00E4r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069695Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Du\u00FDdury\u015Flary artdyrmak / a\u015Fmak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069696Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Gara\u0148ky re .im",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069697Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": ".Akyn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069697Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Sakla\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069699Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "T\u00E4zele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.0697Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Sazlamak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.0697Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Giri\u015F ha\u00FDy\u015F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069701Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "I\u015Fden a\u00FDyrmak",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069702Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Du\u015Fu\u015Fyk ba\u015Fla\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069702Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Web sagady g\u00F6rmek \u00FC\u00E7in ykjam enjam bilen skanirl\u00E4\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069703Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069704Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": ": Agda\u00FDy:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069704Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Doly ekran tertibi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069705Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Wagt k\u00F6peltmek (\u002B1 min). Has k\u00F6p m\u00FCmkin\u00E7ilik \u00FC\u00E7in sag d\u00FCwm\u00E4 basy\u0148.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069706Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Wagty\u0148 azalmagy (-1 min). Has k\u00F6p m\u00FCmkin\u00E7ilik \u00FC\u00E7in sag d\u00FCwm\u00E4 basy\u0148.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069706Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Wagt hasabatyny d\u00F6redi\u0148 (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069707Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Hasapla\u00FDjy ta\u00FDmerini g\u00F6rkez",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069708Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "T\u00E4ze wersi\u00FDa bar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069708Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Sazlamalar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069709Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "K\u00F6mek",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06971Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Ykjam re toime gysy\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069711Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekunt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069711Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069712Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069713Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekunt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069714Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069715Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069716Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "TERJIME EDIPLERI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069716Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "I\u015F wagtyny\u0148 dowamynda fle\u015F ta\u00FDmer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069717Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "I\u015F wagtyndan artyk ja\u0148",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069717Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Ta\u00FD\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069718Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Ylga\u00FDar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069719Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Saklandy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069719Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "I\u015F wagtyndan artyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06972Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Durdy",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.06972Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Giri\u015F koduny girizi\u0148 ...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069721Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069722Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Sazlanan",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069723Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Sazlanmadyk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:03.069724Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:28:03.069755Z"
+}

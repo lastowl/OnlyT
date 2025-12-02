@@ -1,0 +1,46 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="60"
+             x:Class="OnlyT.Avalonia.Controls.SnackbarControl">
+
+    <Border x:Name="SnackbarBorder"
+            Background="#323232"
+            CornerRadius="4"
+            Padding="16,12"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom"
+            Margin="0,0,0,20"
+            IsVisible="False"
+            MinWidth="200"
+            MaxWidth="500">
+        <Border.Transitions>
+            <Transitions>
+                <DoubleTransition Property="Opacity" Duration="0:0:0.3"/>
+            </Transitions>
+        </Border.Transitions>
+
+        <Grid ColumnDefinitions="*,Auto">
+            <TextBlock x:Name="MessageText"
+                       Grid.Column="0"
+                       Text="Message"
+                       Foreground="White"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       TextWrapping="Wrap"/>
+
+            <Button x:Name="ActionButton"
+                    Grid.Column="1"
+                    Content="OK"
+                    Background="Transparent"
+                    Foreground="#FFC400"
+                    FontWeight="Bold"
+                    FontSize="14"
+                    Margin="16,0,0,0"
+                    Padding="8,4"
+                    IsVisible="False"
+                    Click="OnActionClick"/>
+        </Grid>
+    </Border>
+</UserControl>

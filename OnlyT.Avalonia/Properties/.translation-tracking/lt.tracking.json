@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "lt",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Varpas aktyvus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208867Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "N\u0117ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208868Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Vienpusis eismas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208869Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Dvipusis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208869Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Programin\u0117s \u012Frangos versija {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20887Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 valand\u0173",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20887Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 valand\u0173 (prie\u0161ais nul\u012F)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20887Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 valand\u0173",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208871Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 valand\u0173 (prie\u0161nulis)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208871Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Nepavyko sukurti aplanko {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208872Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Adaptuota trukm\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208872Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Modifikuota trukm\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208872Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Pradin\u0117 trukm\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208873Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analoginis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208873Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analoginis ir skaitmeninis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208873Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Skaitmeninis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208874Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Varpas neaktyvus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208874Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Savait\u0117s vidurys",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208874Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministerija \u2013 1 punktas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208875Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministerija \u2013 2 punktas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208875Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministerija \u2013 3 punktas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208875Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Automatinis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208876Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Fail\u0173 pagrindu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208876Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Rankinis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208877Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Baigiamoji kalba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208877Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Baigiamosios pastabos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208878Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Bendruomen\u0117s Biblijos studijos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208878Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Dvasiniai brangakmeniai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208878Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Gyvenimas - 1 dalis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208879Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Gyvenimas \u2013 2 dalis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208879Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "\u012E\u017Eanginiai komentarai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208879Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "\u0160io m\u0117nesio pristatymai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20888Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Vie\u0161as pokalbis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20888Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Biblijos skaitymas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20888Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Paslaug\u0173 pokalbis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208881Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Lobi\u0173 pokalbiai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208881Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Sargybos bok\u0161to studijos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208882Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Savaitgalis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208882Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 valand\u0173 (rytas/po piet\u0173)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208883Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 valand\u0173 (prie\u0161nulis ir am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208883Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "N\u0117ra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208883Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Nustatymai negalimi, kai veikia laikmatis!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208884Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Nustatymai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208884Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Lobiai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208884Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministerija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208885Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Gyvenimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208885Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Savaitgalis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208886Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Administratorius i\u0161jung\u0117 nustatymus!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208886Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministerija \u2013 4 punktas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208886Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Apsilankymas trasoje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208887Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "U\u017DDARYTI ATGALIN\u012E SKAITIKL\u012E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208887Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pagalba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208887Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[aplankyti tras\u0105]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208888Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nauja versija prieinama!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208888Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PAGRINDINIS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208888Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Prieigos kodas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208889Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Adaptyvusis re\u017Eimas savait\u0117s viduryje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208889Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Savaitgalio adaptyvus re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20889Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Leisti skai\u010Diavimo \u012F priek\u012F perjungim\u0105",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20889Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Visada vir\u0161uje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20889Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "NUOTOLIN\u0116S PROGRAM\u0116L\u0116S",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208891Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "AUTOMATINIS RE\u017DIMAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208891Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "VARPAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208891Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "INTERNETINIS LAIKRODIS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208891Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "SUSITIKIMO ATSKAITINIS SKAI\u010CIAVIMAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208892Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Apsilankymo grandin\u0117je perjungiklis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208892Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Skaitmeninio laikrod\u017Eio formatas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208893Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "\u012Ejungta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208893Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Viso ekrano laikrod\u017Eio re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208894Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP adresas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208894Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Susitikimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208894Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Susitikimo prad\u017Eios laikas (1 eilut\u0117je)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208894Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u012EVAIR\u016AS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208895Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitorius",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208895Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Rodyti pel\u0117s \u017Eymekl\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208895Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Kiekvien\u0105 prad\u017Eios laik\u0105 \u012Fra\u0161ykite naujoje eilut\u0117je.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208896Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Naudokite bet kok\u012F jums patinkant\u012F laiko format\u0105!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208896Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Pasirinktinai \u012Ftraukite dien\u0105, pvz., \u201EKetvirtadienis 19:15\u201C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208896Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Pastabos:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208897Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "ATVIRAS UOSTAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208897Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208897Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "I\u0161laikykite studento laik\u0105",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208897Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "I\u0161laikyti pokalbio trukm\u0119",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208898Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Uostas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208898Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "NUOTOLIN\u0116 PRIEIGA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208899Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Rodyti sektori\u0173 analoginiame laikrodyje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208899Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Padalintojo ekrano plotis:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208899Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "BANDYMAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.2089Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Drosselinis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.2089Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Laikmatis skai\u010Diuoja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.2089Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "LAIKMA\u010CIO LANGAS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208901Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Paros laikas pagal laikmat\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208901Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "T\u016Bris:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208901Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Kalba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208902Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Pakeit\u0119 kalb\u0105, paleiskite \u201EOnlyT\u201C i\u0161 naujo.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208902Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Suma\u017Einti 1 min.\nCtrl \u2013 suma\u017Einti 15 s.\nShift \u2013 suma\u017Einti 5 min.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208902Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Padidinti 1 min.\nCtrl \u2013 padidinti 15 s\nShift \u2013 padidinti 5 min.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208902Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Rankinis re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208903Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Skai\u010Diavimas atgal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208903Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Skai\u010Diavimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208903Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sekund\u017Ei\u0173",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208904Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "\u012Ejungta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208904Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "\u012Ejungta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208904Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "\u012Ejungta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208904Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Rodyti sekundes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208905Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Rodyti r\u0117mel\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208905Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Laikrod\u017Eio r\u0117melis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208905Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Mastelio keitimo lygis:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208906Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Vieta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208906Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Apa\u010Dia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208906Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Apa\u010Dioje kair\u0117je",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208907Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Apa\u010Dioje de\u0161in\u0117je",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208907Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centras",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208907Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Kair\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208908Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "De\u0161in\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208908Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Vir\u0161uje",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208908Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Vir\u0161uje kair\u0117je",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208908Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Vir\u0161uje de\u0161in\u0117je",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20891Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "Gerai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20891Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Uostas atidarytas ir rezervacija atlikta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208911Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Nepavyko atidaryti prievado (\u017Er. \u017Eurnal\u0105)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208911Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Sugeneruota laiko ataskaita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208911Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generuoti ataskaitas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208911Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Baigiamasis segmentas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208912Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Tarpinis segmentas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208912Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "\u012Evadinis segmentas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208912Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Registravimo lygis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208913Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Derinimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208913Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Klaida",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208913Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Mirtinas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208913Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informacija",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208914Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "I\u0161samus",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208914Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "\u012Esp\u0117jimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208914Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Susitikimo laikma\u010Dio duomen\u0173 analiz\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208915Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Ataskaita NEgeneruota!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208915Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "PER\u017DI\u016AR\u0116TI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208915Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Automatinis garsas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208915Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Spustel\u0117kite, kad suskamb\u0117t\u0173 varpas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208916Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Trukm\u0117 (min.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208916Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elementai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208916Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Rinkti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208917Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Cirkulis ir skaitmeninis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208917Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Skaitmeninis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208917Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Skaidrus fonas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208918Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Atkreipkite d\u0117mes\u012F, kad monitori\u0173 valdo komandin\u0117s eilut\u0117s nustatymas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208918Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Laikma\u010Dio fono gradientas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208918Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Laikrod\u017Eio fono gradientas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208918Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Laikma\u010Dio r\u0117melis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208919Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Plok\u0161\u010Dias laikrodis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208919Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Savaitgalis apima penktadien\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208919Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Languotas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20892Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Languotas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20892Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "U\u017Edaryti atgalinio skai\u010Diavimo lang\u0105",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20892Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Nepavyksta atidaryti permatomo \u201Elanginio\u201C atgalinio skai\u010Diavimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208921Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Laikrodis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208921Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Laikma\u010Diai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208921Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "neprisijungus...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208922Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Suma\u017Einti minimizuojant",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208922Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "pirminis",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208922Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Atkreipkite d\u0117mes\u012F, kad i\u0161vestis nustatoma \u012F NDI per komandin\u0117s eilut\u0117s nustatym\u0105.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208923Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Ar reik\u0117jo \u012Fjungti laikmat\u012F?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208923Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "I\u0161\u0161okantys priminimai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208923Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Susitikimas t\u0119siasi {0} minutes vir\u0161valand\u017Eius",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208923Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Susitikimas trunka {0} minut\u0117mis l\u0117\u010Diau nei \u012Fprastai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208924Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Prane\u0161imai apie vir\u0161ijim\u0105 / nepakankam\u0105 va\u017Eiavim\u0105",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208924Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Tamsusis re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208924Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "U\u017Edaryti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208925Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "I\u0161saugoti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208925Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Atnaujinti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208925Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Konfig\u016Bruoti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208926Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Pra\u0161yti prieigos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208926Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Atmesti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208926Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Susitikimas prasideda po",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208926Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Nuskaitykite mobiliuoju \u012Frenginiu, kad per\u017Ei\u016Br\u0117tum\u0117te internetin\u012F laikrod\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208927Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Platforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208927Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "B\u016Bsena:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208927Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Viso ekrano re\u017Eimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208928Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Padidinti laik\u0105 (\u002B1 min.). De\u0161iniuoju pel\u0117s mygtuku spustel\u0117kite, jei norite pamatyti daugiau parink\u010Di\u0173.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208928Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Suma\u017Einti laik\u0105 (-1 min.). Spustel\u0117kite de\u0161iniuoju pel\u0117s mygtuku, jei norite pamatyti daugiau parink\u010Di\u0173.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208928Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Laiko ataskaitos generavimas (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208929Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Rodyti atgalin\u012F laikmat\u012F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208929Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Nauja versija prieinama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208929Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Nustatymai",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208929Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pagalba",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20893Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Suma\u017Einti iki kompakti\u0161ko re\u017Eimo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20893Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sekund\u017Ei\u0173",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.20893Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208931Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minut\u0117s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208931Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sekund\u017Ei\u0173",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208931Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut\u0117",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208932Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minut\u0117s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208932Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "TINKLO LEIDIMAI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208932Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Blykst\u0117s laikmatis prat\u0119simo metu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208933Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Skambinkite varpu prat\u0119simo metu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208933Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Pasiruo\u0161\u0119s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208933Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "B\u0117gimas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208933Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Pristabdyta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208934Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Prat\u0119simas",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208934Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Sustabdyta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208934Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "\u012Eveskite prieigos kod\u0105...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208934Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208935Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Sukonfig\u016Bruota",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208935Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Nesukonfig\u016Bruota",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:17.208935Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:17.208948Z"
+}

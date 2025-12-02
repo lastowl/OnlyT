@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "is",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bjallan er virk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432105Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Enginn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432106Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Einbrei\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432107Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Tv\u00EDhli\u00F0a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432107Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Hugb\u00FAna\u00F0ar\u00FAtg\u00E1fa {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432107Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 t\u00EDma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432108Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 klukkustundir (n\u00FAll \u00ED forgrunni)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432108Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 t\u00EDma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432109Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 klukkustundir (n\u00FAll \u00ED forgrunni)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432109Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "Gat ekki b\u00FAi\u00F0 til m\u00F6ppuna {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43211Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "A\u00F0laga\u00F0 t\u00EDmalengd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43211Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Breytt t\u00EDmalengd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43211Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Upprunaleg lengd",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432111Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432111Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analog og stafr\u00E6n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432111Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Stafr\u00E6nt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432112Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bjallan er \u00F3virk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432112Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Mi\u00F0vikudagur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432112Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "R\u00E1\u00F0uneyti\u00F0 - Li\u00F0ur 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432113Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "R\u00E1\u00F0uneyti\u00F0 - Li\u00F0ur 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432113Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "R\u00E1\u00F0uneyti\u00F0 - Li\u00F0ur 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432113Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Sj\u00E1lfvirkt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432114Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Skr\u00E1arbundi\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432114Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Handb\u00F3k",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432114Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Lokaor\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432115Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Lokaor\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432115Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Safna\u00F0arbibl\u00EDun\u00E1m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432116Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Andlegir gimsteinar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432116Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "A\u00F0 lifa - 1. hluti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432117Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "A\u00F0 lifa - 2. hluti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432117Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Opnunarathugasemdir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432117Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Kynningar \u00FEessa m\u00E1na\u00F0ar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432118Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Opinber umr\u00E6\u00F0a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432118Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Bibl\u00EDulestur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432118Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "\u00DEj\u00F3nustuspjall",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432118Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Fj\u00E1rsj\u00F3\u00F0sspjall",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432119Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Var\u00F0turnsn\u00E1m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432119Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Helgi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432119Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 t\u00EDma (f.h./e.h.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43212Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 t\u00EDma (n\u00FAll \u00E1 undan og f.h./e.h.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43212Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Enginn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43212Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Stillingar eru ekki tilt\u00E6kar \u00E1 me\u00F0an t\u00EDmam\u00E6lirinn er \u00ED gangi!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432121Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Stillingar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432121Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Fj\u00E1rsj\u00F3\u00F0ir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432121Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "R\u00E1\u00F0uneyti\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432122Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "L\u00EDf",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432122Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Helgi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432122Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Stillingar \u00F3virkja\u00F0ar af stj\u00F3rnanda!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432123Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "R\u00E1\u00F0uneyti\u00F0 - Li\u00F0ur 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432123Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Heims\u00F3kn \u00E1 hringr\u00E1sina",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432124Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "LOKA NI\u00D0URTALNINGU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432124Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Hj\u00E1lp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432125Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[heims\u00F3kn \u00E1 sv\u00E6\u00F0i]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432125Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "N\u00FD \u00FAtg\u00E1fa f\u00E1anleg!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432126Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "A\u00D0AL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432126Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "A\u00F0gangsk\u00F3\u00F0i",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432126Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "A\u00F0l\u00F6gunarhamur um mi\u00F0ja viku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432127Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "A\u00F0l\u00F6gunarhamur um helgar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432127Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Leyfa upptalningu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432127Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Alltaf \u00E1 toppnum",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432127Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "FJARST\u00DDRINGARFORRIT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432128Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "SJ\u00C1LFVIRK HAMUR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432128Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BJALL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432128Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "VEFKLUKKA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432128Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "NI\u00D0URTALNING FYRIR FUND",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432129Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Heims\u00F3knarrofi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432129Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Stafr\u00E6n klukkusni\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432129Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Virkt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43213Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Klukkustilling \u00ED fullum skj\u00E1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43213Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "IP-tala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432131Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Fundur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432131Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Upphafst\u00EDmar fundar (einn \u00ED hverri l\u00EDnu)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432131Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u00DDMISLEGT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432131Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Skj\u00E1r",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432132Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "S\u00FDna m\u00FAsarbendilinn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432132Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Settu hvern upphafst\u00EDma \u00ED n\u00FDja l\u00EDnu.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432132Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Nota\u00F0u hva\u00F0a t\u00EDmasni\u00F0 sem \u00FE\u00E9r s\u00FDnist!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432133Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "H\u00E6gt er a\u00F0 tilgreina dag, t.d. \u201Efim 19:15\u201C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432133Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Athugasemdir:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432133Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "OPNA\u00D0 HAFN",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432134Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Stilling",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432134Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Halda \u00E1fram nemendat\u00EDma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432134Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Lengd vi\u00F0varandi tals",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432134Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "H\u00F6fn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432135Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "FJARA\u00D0GANGUR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432135Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "S\u00FDna geira \u00E1 hli\u00F0r\u00E6nni klukku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432135Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Breidd \u00E1 skiptum skj\u00E1:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432136Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "PR\u00D3F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432136Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "\u00DEr\u00FDstingur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432136Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "T\u00EDmam\u00E6lirinn telur upp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432136Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "T\u00CDMAM\u00C6LINGARGLUGGI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432137Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "T\u00EDmi dags undir t\u00EDmam\u00E6li",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432137Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "R\u00FAmm\u00E1l:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432137Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Tungum\u00E1l",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432138Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Endurr\u00E6stu OnlyT eftir a\u00F0 \u00FE\u00FA hefur breytt tungum\u00E1linu.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432138Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Minnka um 1 m\nCtrl - Minnka um 15 sek\nShift - Minnka um 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432138Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Auka um 1 m\nCtrl - Auka um 15 sek\u00FAndur\nShift - Auka um 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432139Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Handvirk stilling",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432139Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Ni\u00F0urteljandi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432139Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "A\u00F0 telja upp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43214Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} sek\u00FAndur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43214Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Virkt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43214Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Virkt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432141Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Virkt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432141Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "S\u00FDna sek\u00FAndur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432141Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "S\u00FDna ramma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432142Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Klukkugrind",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432142Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "A\u00F0dr\u00E1ttarstig:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432142Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Sta\u00F0setning",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432142Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Ne\u00F0st",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432143Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Ne\u00F0st til vinstri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432143Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Ne\u00F0st til h\u00E6gri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432143Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Mi\u00F0st\u00F6\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432144Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Vinstri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432144Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "H\u00E6gri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432144Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Efst",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432145Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Efst til vinstri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432145Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Efst til h\u00E6gri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432145Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "\u00CD lagi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432146Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "H\u00F6fnin opnu\u00F0 og b\u00F3kun ger\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432146Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "Gat ekki opna\u00F0 porti\u00F0 (sj\u00E1 skr\u00E1)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432146Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "B\u00FAi\u00F0 til t\u00EDmasetningarsk\u00FDrslu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432147Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "B\u00FAa til sk\u00FDrslur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432147Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Lokahluti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432147Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Millibilshluti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432148Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Inngangshluti",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432148Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Sk\u00F3garh\u00F6ggunarstig",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432148Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Villuleit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432149Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Villa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432149Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Banv\u00E6nt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432149Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Uppl\u00FDsingar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43215Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Or\u00F0r\u00F3mur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43215Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Vi\u00F0v\u00F6run",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43215Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "A\u00F0 greina fundart\u00EDmag\u00F6gn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43215Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Sk\u00FDrsla EKKI b\u00FAin til!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432151Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "SJ\u00D3N",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432151Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Sj\u00E1lfkrafa hlj\u00F3\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432151Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Smelltu til a\u00F0 hringja bj\u00F6llu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432151Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Lengd (m\u00EDn.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432151Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "\u00DE\u00E6ttir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432152Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Hringja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432152Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Sk\u00EDfa og stafr\u00E6n",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432152Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Stafr\u00E6nt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432153Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Gagns\u00E6r bakgrunnur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432153Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Athugi\u00F0 a\u00F0 skj\u00E1rinn er stj\u00F3rna\u00F0ur me\u00F0 skipanal\u00EDnustillingu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432153Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Bakgrunnslitall fyrir t\u00EDmastilli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432154Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Bakgrunnslitull klukku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432154Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "T\u00EDmam\u00E6lirammi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432155Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Flat klukka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432155Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Helgin felur \u00ED s\u00E9r f\u00F6studag",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432156Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Glugga\u00F0ur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432156Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Glugga\u00F0ur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432156Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Loka ni\u00F0urtalningarglugga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432156Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "Get ekki opna\u00F0 gegns\u00E6ja ni\u00F0urtalningu \u00ED \u201Eglugga\u201C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432157Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Klukka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432157Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "T\u00EDmam\u00E6lir",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432157Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "\u00E1n nettengingar...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432157Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Minnka vi\u00F0 l\u00E1gmarka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432158Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "a\u00F0al",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432158Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Athugi\u00F0 a\u00F0 \u00FAttak er stillt \u00E1 NDI me\u00F0 skipanal\u00EDnustillingu.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432158Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Hef\u00F0ir\u00F0u \u00E1tt a\u00F0 r\u00E6sa t\u00EDmam\u00E6linn?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432159Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Sprettigluggar \u00E1minningar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432159Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Fundurinn er \u00ED {0} m\u00EDn\u00FAtna framlengingu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432159Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Fundurinn er {0} m\u00EDn\u00FAtum of stuttur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432159Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Tilkynningar um fram\u00FArkeyrslu/undirkeyrslu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43216Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "D\u00F6kk stilling",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43216Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Loka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43216Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Vista",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43216Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Endurn\u00FDja",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432161Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Stilla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432161Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Bei\u00F0ni um a\u00F0gang",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432161Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Hafna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432161Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Fundur hefst kl.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432162Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skanna\u00F0u me\u00F0 snjallt\u00E6ki til a\u00F0 sko\u00F0a vefklukku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432162Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Pallur:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432162Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Sta\u00F0a:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432162Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Fullskj\u00E1stilling",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432163Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Auka t\u00EDmann (\u002B1 m\u00EDn). H\u00E6grismelltu til a\u00F0 sj\u00E1 fleiri valkosti.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432163Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Minnka\u00F0u t\u00EDmann (-1 m\u00EDn). H\u00E6grismelltu til a\u00F0 sj\u00E1 fleiri valkosti.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432163Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "B\u00FAa til t\u00EDmasetningarsk\u00FDrslu (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432164Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "S\u00FDna ni\u00F0urtalningart\u00EDma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432164Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "N\u00FD \u00FAtg\u00E1fa \u00ED bo\u00F0i",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432164Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Stillingar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432164Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Hj\u00E1lp",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432165Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Minnka \u00ED \u00FEjappa\u00F0a stillingu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432165Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 sek\u00FAndur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432165Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 m\u00EDn\u00FAta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432166Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 m\u00EDn\u00FAtur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432166Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 sek\u00FAndur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432166Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 m\u00EDn\u00FAta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432166Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 m\u00EDn\u00FAtur",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432167Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "NETKERFISHEIMILDIR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432167Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flasst\u00EDmastillir \u00ED framlengingu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432167Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Hringdu bj\u00F6llu \u00FEegar framlenging er \u00ED gangi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432167Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Tilb\u00FAinn",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432168Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Hlaup",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432168Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Hl\u00E9 gert",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432168Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Yfirvinna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432168Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "St\u00F6\u00F0va\u00F0",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432169Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Sl\u00E1\u00F0u inn a\u00F0gangsk\u00F3\u00F0a...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432169Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "m\u00EDn.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432169Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Stillt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.432169Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "Ekki stillt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:20.43217Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:20.432181Z"
+}

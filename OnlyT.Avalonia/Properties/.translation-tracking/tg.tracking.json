@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "tg",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "\u0417\u0430\u043D\u0433\u0438 \u0444\u0430\u044A\u043E\u043B \u0430\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292163Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "\u04B2\u0435\u04B7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292163Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "\u0420\u043E\u04B3\u0438 \u042F\u043A\u04B7\u043E\u043D\u0438\u0431\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292164Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "\u0414\u0443\u0442\u0430\u0440\u0430\u0444\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292165Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "\u0412\u0435\u0440\u0441\u0438\u044F\u0438 \u043D\u0430\u0440\u043C\u0430\u0444\u0437\u043E\u0440 {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292166Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 \u0441\u043E\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292166Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-\u0441\u043E\u0430\u0442 (\u0441\u0438\u0444\u0440 \u043F\u0435\u0448\u0431\u0430\u0440\u0430\u043D\u0434\u0430)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292167Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 \u0441\u043E\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292168Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 \u0441\u043E\u0430\u0442 (\u0441\u0438\u0444\u0440 \u043F\u0435\u0448\u0431\u0430\u0440\u0430\u043D\u0434\u0430)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292168Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "\u041F\u0430\u043F\u043A\u0430\u0438 {0} \u044D\u04B7\u043E\u0434 \u043A\u0430\u0440\u0434\u0430 \u043D\u0430\u0448\u0443\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292169Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u0438\u0438 \u043C\u0443\u0442\u043E\u0431\u0438\u049B\u0448\u0443\u0434\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292169Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u0438\u0438 \u0442\u0430\u0493\u0438\u0440\u0451\u0444\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29217Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u0438\u0438 \u0430\u0441\u043B\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292171Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "\u0410\u043D\u0430\u043B\u043E\u0433\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292171Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "\u0410\u043D\u0430\u043B\u043E\u0433\u04E3 \u0432\u0430 \u0440\u0430\u049B\u0430\u043C\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292172Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "\u0420\u0430\u049B\u0430\u043C\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292172Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "\u0411\u0435\u043B\u043B \u0493\u0430\u0439\u0440\u0438\u0444\u0430\u044A\u043E\u043B \u0430\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292173Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "\u041C\u0438\u0451\u043D\u0430\u0438 \u04B3\u0430\u0444\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292173Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "\u0412\u0430\u0437\u043E\u0440\u0430\u0442 - \u0431\u0430\u043D\u0434\u0438 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292174Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "\u0412\u0430\u0437\u043E\u0440\u0430\u0442 - \u0431\u0430\u043D\u0434\u0438 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292174Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "\u0412\u0430\u0437\u043E\u0440\u0430\u0442 - \u0431\u0430\u043D\u0434\u0438 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292175Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "\u0410\u0432\u0442\u043E\u043C\u0430\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292176Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "\u0414\u0430\u0440 \u0430\u0441\u043E\u0441\u0438 \u0444\u0430\u0439\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292176Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "\u0414\u0430\u0441\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292177Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "\u0421\u0443\u0445\u0431\u0430\u0442\u0438 \u0447\u0430\u043C\u044A\u0431\u0430\u0441\u0442\u0439",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292177Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "\u041C\u0443\u043B\u043E\u04B3\u0438\u0437\u0430\u04B3\u043E\u0438 \u04B7\u0430\u043C\u044A\u0431\u0430\u0441\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292178Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "\u041E\u043C\u04EF\u0437\u0438\u0448\u0438 \u041A\u0438\u0442\u043E\u0431\u0438 \u041C\u0443\u049B\u0430\u0434\u0434\u0430\u0441 \u0434\u0430\u0440 \u04B7\u0430\u043C\u044A\u043E\u043C\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292179Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "\u0413\u0430\u043D\u04B7\u04B3\u043E\u0438 \u0440\u04EF\u04B3\u043E\u043D\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292179Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "\u0417\u0438\u043D\u0434\u0430\u0433\u04E3 - \u049A\u0438\u0441\u043C\u0438 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29218Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "\u0417\u0438\u043D\u0434\u0430\u0433\u04E3 - \u049A\u0438\u0441\u043C\u0438 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292181Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "\u0418\u0444\u0442\u0438\u0442\u043E\u04B3\u0438 \u0448\u0430\u0440\u04B3\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292181Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "\u041C\u0443\u0430\u0440\u0440\u0438\u0444\u0438\u0438 \u0438\u043D \u043C\u043E\u04B3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292182Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "\u0421\u0443\u0445\u0431\u0430\u0442\u0438 \u043E\u043C\u043C\u0430\u0432\u0439",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292182Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "\u0425\u043E\u043D\u0438\u0448\u0438 \u0411\u0438\u0431\u043B\u0438\u044F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292183Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "\u0421\u0443\u04B3\u0431\u0430\u0442\u0438 \u0445\u0438\u0434\u043C\u0430\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292183Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "\u0411\u0430\u04B3\u0441\u0438 \u0445\u0430\u0437\u0438\u043D\u0430\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292184Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "\u041E\u043C\u04EF\u0437\u0438\u0448\u0438 \u00AB\u0411\u0443\u0440\u04B7\u0438 \u0434\u0438\u0434\u0431\u043E\u043D\u04E3\u00BB.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292184Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "\u0420\u04EF\u0437\u0438 \u0438\u0441\u0442\u0438\u0440\u043E\u04B3\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292185Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-\u0441\u043E\u0430\u0442 (\u0441\u043E\u0430\u0442\u0438 \u0441\u0430\u04B3\u0430\u0440)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292185Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-\u0441\u043E\u0430\u0442 (\u043F\u0435\u0448 \u0430\u0437 \u0441\u0438\u0444\u0440 \u0432\u0430 \u0441\u0430\u04B3\u0430\u0440 / \u0448\u0430\u0431)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292186Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "\u04B2\u0435\u04B7",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292186Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "\u04B2\u0430\u043D\u0433\u043E\u043C\u0438 \u043A\u043E\u0440 \u043A\u0430\u0440\u0434\u0430\u043D\u0438 \u0442\u0430\u0439\u043C\u0435\u0440 \u0442\u0430\u043D\u0437\u0438\u043C\u043E\u0442 \u0434\u0430\u0441\u0442\u0440\u0430\u0441 \u043D\u0435\u0441\u0442!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292187Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "\u0422\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292188Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "\u0413\u0430\u043D\u04B7\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292188Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "\u0432\u0430\u0437\u043E\u0440\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292189Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "\u0417\u0438\u043D\u0434\u0430\u0433\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29219Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "\u0420\u04EF\u0437\u0438 \u0438\u0441\u0442\u0438\u0440\u043E\u04B3\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29219Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "\u0422\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u04B3\u043E \u0430\u0437 \u04B7\u043E\u043D\u0438\u0431\u0438 \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440 \u0445\u043E\u043C\u04EF\u0448 \u043A\u0430\u0440\u0434\u0430 \u0448\u0443\u0434\u0430\u0430\u043D\u0434!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29219Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "\u0412\u0430\u0437\u043E\u0440\u0430\u0442 - \u0431\u0430\u043D\u0434\u0438 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292191Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "\u0411\u043E\u0437\u0434\u0438\u0434 \u0430\u0437 \u0434\u0430\u0432\u0440\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292192Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "\u041F\u0423\u0428\u0422\u0410\u0418 \u0421\u0410\u04B2\u0423\u0420",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292192Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "\u041A\u04EF\u043C\u0430\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292193Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[\u0431\u043E\u0437\u0434\u0438\u0434 \u0430\u0437 \u043D\u043E\u04B3\u0438\u044F\u0432\u04E3]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292193Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "\u0412\u0435\u0440\u0441\u0438\u044F\u0438 \u043D\u0430\u0432 \u0434\u0430\u0441\u0442\u0440\u0430\u0441!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292194Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "\u0410\u0421\u041E\u0421\u0419",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292194Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "\u0420\u0430\u043C\u0437\u0438 \u0434\u0430\u0441\u0442\u0440\u0430\u0441\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292195Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "\u04B2\u043E\u043B\u0430\u0442\u0438 \u043C\u0443\u0442\u043E\u0431\u0438\u049B\u0448\u0430\u0432\u04E3 \u0434\u0430\u0440 \u043C\u0438\u0451\u043D\u0430\u0438 \u04B3\u0430\u0444\u0442\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292195Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "\u0420\u0435\u04B7\u0430\u0438 \u043C\u0443\u0442\u043E\u0431\u0438\u049B\u0448\u0430\u0432\u04E3 \u0434\u0430\u0440 \u0440\u04EF\u0437\u04B3\u043E\u0438 \u0438\u0441\u0442\u0438\u0440\u043E\u04B3\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292196Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "\u0411\u0430 \u0438\u0432\u0430\u0437\u043A\u0443\u043D\u0438\u0438 \u04B3\u0438\u0441\u043E\u0431\u043A\u0443\u043D\u04E3 \u0438\u04B7\u043E\u0437\u0430\u0442 \u0434\u0438\u04B3\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292196Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "\u04B2\u0430\u043C\u0435\u0448\u0430 \u0434\u0430\u0440 \u0431\u043E\u043B\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292197Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "\u0411\u0410\u0420\u041D\u041E\u041C\u0410\u04B2\u041E\u0418 \u0414\u0423\u0420\u0414",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292197Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "\u0420\u0415\u0416\u0418\u041C\u0418 \u0410\u0412\u0422\u041E\u041C\u0410\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292198Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "\u0417\u0410\u041D\u0413",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292198Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "\u0412\u0415\u0411 \u0421\u041E\u0410\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292199Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "\u0421\u0410\u04B2\u0410\u04B2\u041E\u0418 \u0412\u041E\u0425\u0423\u0420\u04E2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292199Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "\u0413\u0443\u0437\u0430\u0440\u0438\u0448 \u0431\u0430 \u0433\u0430\u0440\u0434\u0438\u0448",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.2922Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "\u0424\u043E\u0440\u043C\u0430\u0442\u0438 \u0441\u043E\u0430\u0442\u0438 \u0440\u0430\u049B\u0430\u043C\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.2922Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "\u0424\u0430\u044A\u043E\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292201Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "\u04B2\u043E\u043B\u0430\u0442\u0438 \u0441\u043E\u0430\u0442\u0438 \u043F\u0443\u0440\u0440\u0430\u0438 \u044D\u043A\u0440\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292201Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "\u0421\u0443\u0440\u043E\u0493\u0430\u0438 IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292202Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "\u0412\u043E\u0445\u04EF\u0440\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292202Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "\u0412\u0430\u049B\u0442\u0438 \u043E\u0493\u043E\u0437\u0438 \u0432\u043E\u0445\u04EF\u0440\u04E3 (1 \u0434\u0430\u0440 \u044F\u043A \u0441\u0430\u0442\u0440)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292203Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "\u0413\u0423\u041D\u041E\u0413\u0423\u041D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292203Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "\u041C\u043E\u043D\u0438\u0442\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292204Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "\u041D\u0438\u0448\u043E\u043D\u0434\u0438\u04B3\u0430\u043D\u0434\u0430\u0438 \u043C\u0443\u0448\u0440\u043E \u043D\u0438\u0448\u043E\u043D \u0434\u0438\u04B3\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292204Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "\u04B2\u0430\u0440 \u044F\u043A \u0432\u0430\u049B\u0442\u0438 \u043E\u0493\u043E\u0437\u0440\u043E \u0434\u0430\u0440 \u0445\u0430\u0442\u0438 \u043D\u0430\u0432 \u0433\u0443\u0437\u043E\u0440\u0435\u0434.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292205Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "\u04B2\u0430\u0440 \u0444\u043E\u0440\u043C\u0430\u0442\u0438 \u0432\u0430\u049B\u0442\u0440\u043E, \u043A\u0438 \u0431\u0430 \u0448\u0443\u043C\u043E \u043C\u0430\u044A\u049B\u0443\u043B \u0430\u0441\u0442, \u0438\u0441\u0442\u0438\u0444\u043E\u0434\u0430 \u0431\u0430\u0440\u0435\u0434!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292205Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "\u0418\u0445\u0442\u0438\u0451\u0440\u04E3 \u044F\u043A \u0440\u04EF\u0437\u0440\u043E \u0434\u043E\u0445\u0438\u043B \u043A\u0443\u043D\u0435\u0434, \u043C\u0430\u0441\u0430\u043B\u0430\u043D. \u0022\u041F\u0435\u0448 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292206Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "\u042D\u0437\u043E\u04B3\u04B3\u043E:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292206Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "\u0411\u0410\u041D\u0414\u0410\u0420\u0418 \u041A\u0423\u0428\u041E\u0414\u0410",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292207Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "\u0420\u0435\u0436\u0438\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292207Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u0438\u0438 \u0432\u0430\u049B\u0442\u0438 \u0434\u043E\u043D\u0438\u0448\u04B7\u04EF\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292208Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u0438\u0438 \u0433\u0443\u0444\u0442\u0443\u0433\u04EF",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292208Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "\u041F\u043E\u0440\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292209Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "\u0414\u0410\u0421\u0422\u0420\u0410\u0421\u0418\u0418 \u0414\u0423\u0420\u0423\u0421\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292209Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "\u041D\u0430\u043C\u043E\u0438\u0448\u0438 \u0441\u0435\u043A\u0442\u043E\u0440 \u0434\u0430\u0440 \u0441\u043E\u0430\u0442\u0438 \u0430\u043D\u0430\u043B\u043E\u0433\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29221Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "\u041F\u0430\u04B3\u043D\u043E\u0438 \u044D\u043A\u0440\u0430\u043D\u0438 \u0442\u0430\u049B\u0441\u0438\u043C\u0448\u0443\u0434\u0430:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292211Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "\u0421\u0410\u041D\u0427\u0418\u0428",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292211Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "\u0424\u0438\u0448\u0443\u0440\u0434\u0430\u0448\u0443\u0434\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292211Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "\u0412\u0430\u049B\u0442\u0441\u0430\u043D\u04B7 \u04B3\u0438\u0441\u043E\u0431 \u043C\u0435\u043A\u0443\u043D\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292212Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "\u0420\u0410\u0412\u0417\u0410\u041D\u0418 \u0422\u0410\u0419\u041C\u0415\u0420",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292212Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "\u0412\u0430\u049B\u0442\u0438 \u0440\u04EF\u0437 \u0434\u0430\u0440 \u0437\u0435\u0440\u0438 \u0442\u0430\u0439\u043C\u0435\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292213Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "\u04B2\u0430\u04B7\u043C:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292213Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "\u0417\u0430\u0431\u043E\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292214Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "\u041B\u0443\u0442\u0444\u0430\u043D, \u043F\u0430\u0441 \u0430\u0437 \u0442\u0430\u0493\u0438\u0440 \u0434\u043E\u0434\u0430\u043D\u0438 \u0437\u0430\u0431\u043E\u043D, OnlyT-\u0440\u043E \u0431\u043E\u0437\u043E\u0493\u043E\u0437 \u043D\u0430\u043C\u043E\u0435\u0434.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292214Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "1 \u043C \u043A\u0430\u043C \u043A\u0443\u043D\u0435\u0434\nCtrl - 15 \u0441\u043E\u043D\u0438\u044F \u043A\u0430\u043C \u043A\u0443\u043D\u0435\u0434\n\u0413\u0443\u0437\u0430\u0440\u0438\u0448 - 5\u043C \u043A\u0430\u043C \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292215Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "1 \u043C \u0437\u0438\u0451\u0434 \u043A\u0443\u043D\u0435\u0434\nCtrl - 15 \u0441\u043E\u043D\u0438\u044F \u0437\u0438\u0451\u0434 \u043A\u0443\u043D\u0435\u0434\n\u0428\u0438\u0444\u0442 - 5\u043C \u0437\u0438\u0451\u0434 \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292215Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "\u0420\u0435\u0436\u0438\u043C\u0438 \u0434\u0430\u0441\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292216Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "\u04B2\u0438\u0441\u043E\u0431 \u043A\u0430\u0440\u0434\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292216Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "\u04B2\u0438\u0441\u043E\u0431 \u043A\u0430\u0440\u0434\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292216Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} \u0441\u043E\u043D\u0438\u044F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292217Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "\u0424\u0430\u044A\u043E\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292217Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "\u0424\u0430\u044A\u043E\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292218Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "\u0424\u0430\u044A\u043E\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292218Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "\u0421\u043E\u043D\u0438\u044F\u04B3\u043E\u0440\u043E \u043D\u0438\u0448\u043E\u043D \u0434\u0438\u04B3\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292218Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "\u041D\u0430\u043C\u043E\u0438\u0448\u0438 \u0447\u0430\u04B3\u043E\u0440\u0447\u04EF\u0431\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292219Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "\u0427\u0430\u04B3\u043E\u0440\u0447\u04EF\u0431\u0430\u0438 \u0441\u043E\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29222Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "\u0421\u0430\u0442\u04B3\u0438 \u043C\u0430\u0441\u0448\u0442\u0430\u0431:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29222Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "\u04B6\u043E\u0439\u0433\u0438\u0440\u0448\u0430\u0432\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292221Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "\u041F\u043E\u0451\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292221Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "\u0414\u0430\u0440 \u043F\u043E\u0451\u043D\u0438 \u0447\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292222Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "\u0414\u0430\u0440 \u043F\u043E\u0451\u043D\u0438 \u0440\u043E\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292222Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "\u041C\u0430\u0440\u043A\u0430\u0437",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292223Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "\u0427\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292223Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "\u0414\u0443\u0440\u0443\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292224Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "\u0431\u043E\u043B\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292224Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "\u0411\u043E\u043B\u043E\u0438 \u0447\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292225Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "\u0410\u0437 \u0431\u043E\u043B\u043E\u0438 \u0440\u043E\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292225Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "\u0414\u0423\u0420\u0423\u0421\u0422",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292226Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "\u041F\u043E\u0440\u0442 \u043A\u0443\u0448\u043E\u0434\u0430 \u0432\u0430 \u0444\u0430\u0440\u043C\u043E\u0438\u0448 \u0434\u043E\u0434\u0430 \u0448\u0443\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292226Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "\u041F\u043E\u0440\u0442\u0440\u043E \u043A\u0443\u0448\u043E\u0434\u0430 \u043D\u0430\u0442\u0430\u0432\u043E\u043D\u0438\u0441\u0442 (\u0431\u0430 \u0433\u0443\u0437\u043E\u0440\u0438\u0448 \u043D\u0438\u0433\u0430\u0440\u0435\u0434)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292227Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "\u04B2\u0438\u0441\u043E\u0431\u043E\u0442 \u0434\u0430\u0440 \u0431\u043E\u0440\u0430\u0438 \u0432\u0430\u049B\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292228Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "\u04B2\u0438\u0441\u043E\u0431\u043E\u0442\u04B3\u043E \u044D\u04B7\u043E\u0434 \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292228Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "\u0411\u0430\u0445\u0448\u0438 \u0445\u043E\u0442\u0438\u043C\u0430\u0432\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292229Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "\u0421\u0435\u0433\u043C\u0435\u043D\u0442\u0438 \u043C\u0443\u0432\u0430\u049B\u049B\u0430\u0442\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29223Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "\u0411\u0430\u0445\u0448\u0438 \u043C\u0443\u049B\u0430\u0434\u0434\u0438\u043C\u0430\u0432\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29223Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "\u0421\u0430\u0442\u04B3\u0438 \u0441\u0430\u0431\u0442\u0438 \u043D\u043E\u043C",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292231Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "\u0438\u0441\u043B\u043E\u04B3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292231Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "\u0425\u0430\u0442\u043E\u0433\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292232Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "\u0424\u0430\u043B\u043E\u043A\u0430\u0442\u043E\u0432\u0430\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292233Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "\u041C\u0430\u044A\u043B\u0443\u043C\u043E\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292233Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "\u041C\u0443\u0444\u0430\u0441\u0441\u0430\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292234Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "\u041E\u0433\u043E\u04B3\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292235Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "\u0422\u0430\u04B3\u043B\u0438\u043B\u0438 \u043C\u0430\u044A\u043B\u0443\u043C\u043E\u0442\u0438 \u0442\u0430\u0439\u043C\u0435\u0440\u0438 \u0432\u043E\u0445\u04EF\u0440\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292235Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "\u04B2\u0438\u0441\u043E\u0431\u043E\u0442 \u0442\u0430\u0432\u043B\u0438\u0434 \u043D\u0430\u0448\u0443\u0434\u0430\u0430\u0441\u0442!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292236Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "\u041D\u0410\u041C\u041E\u0418\u0428",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292236Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "\u0411\u0430 \u0442\u0430\u0432\u0440\u0438 \u0445\u0443\u0434\u043A\u043E\u0440 \u0441\u0430\u0434\u043E \u043C\u0435\u0434\u0438\u04B3\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292237Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "\u0411\u0430\u0440\u043E\u0438 \u0441\u0430\u0434\u043E \u0434\u043E\u0434\u0430\u043D\u0438 \u0437\u0430\u043D\u0433 \u043A\u043B\u0438\u043A \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292237Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "\u0414\u0430\u0432\u043E\u043C\u043D\u043E\u043A\u04E3 (\u0434\u0430\u049B.)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292238Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "\u0423\u043D\u0441\u0443\u0440\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292238Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "\u0420\u0430\u049B\u0430\u043C \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292239Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "\u0420\u0430\u049B\u0430\u043C \u0432\u0430 \u0440\u0430\u049B\u0430\u043C\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292239Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "\u0420\u0430\u049B\u0430\u043C\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29224Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "\u0417\u0430\u043C\u0438\u043D\u0430\u0438 \u0448\u0430\u0444\u0444\u043E\u0444",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29224Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "\u0414\u0430\u0440 \u0445\u043E\u0442\u0438\u0440 \u0434\u043E\u0440\u0435\u0434, \u043A\u0438 \u043C\u043E\u043D\u0438\u0442\u043E\u0440 \u0442\u0430\u0432\u0430\u0441\u0441\u0443\u0442\u0438 \u0442\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u0438 \u0441\u0430\u0442\u0440\u0438 \u0444\u0430\u0440\u043C\u043E\u043D \u0438\u0434\u043E\u0440\u0430 \u043A\u0430\u0440\u0434\u0430 \u043C\u0435\u0448\u0430\u0432\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29224Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "\u0413\u0440\u0430\u0434\u0438\u0435\u043D\u0442\u0438 \u0437\u0430\u043C\u0438\u043D\u0430\u0438 \u0442\u0430\u0439\u043C\u0435\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292241Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "\u0413\u0440\u0430\u0434\u0438\u0435\u043D\u0442\u0438 \u043F\u0430\u0441\u0437\u0430\u043C\u0438\u043D\u0430\u0438 \u0441\u043E\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292241Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "\u0427\u0430\u04B3\u043E\u0440\u0447\u04EF\u0431\u0430\u0438 \u0442\u0430\u0439\u043C\u0435\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292242Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "\u0421\u043E\u0430\u0442\u0438 \u04B3\u0430\u043C\u0432\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292242Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "\u0420\u04EF\u0437\u04B3\u043E\u0438 \u0438\u0441\u0442\u0438\u0440\u043E\u04B3\u0430\u0442 \u04B7\u0443\u043C\u044A\u0430\u0440\u043E \u0434\u0430\u0440 \u0431\u0430\u0440 \u043C\u0435\u0433\u0438\u0440\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292243Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "\u0422\u0438\u0440\u0435\u0437\u0430\u0434\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292243Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "\u0422\u0438\u0440\u0435\u0437\u0430\u0434\u043E\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292244Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "\u0420\u0430\u0432\u0437\u0430\u043D\u0430\u0438 \u04B3\u0438\u0441\u043E\u0431\u0440\u043E \u043F\u04EF\u0448\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292244Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "\u0411\u043E\u0437\u0433\u0430\u0448\u0442\u0438 \u0448\u0430\u0444\u0444\u043E\u0444\u0438 \u0022\u0442\u0438\u0440\u0435\u0437\u0430\u0448\u0443\u0434\u0430\u0022-\u0438 \u04B3\u0438\u0441\u043E\u0431\u0440\u043E \u043A\u0443\u0448\u043E\u0434\u0430 \u043D\u0430\u043C\u0435\u0442\u0430\u0432\u043E\u043D\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292245Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "\u0421\u043E\u0430\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292246Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "\u0422\u0430\u0439\u043C\u0435\u0440\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292246Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "\u043E\u0444\u043B\u0430\u0439\u043D...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292247Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "\u041A\u0430\u043C \u043A\u0430\u0440\u0434\u0430\u043D \u0431\u0430 \u04B3\u0430\u0434\u0434\u0438 \u0430\u049B\u0430\u043B\u043B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292247Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "\u0438\u0431\u0442\u0438\u0434\u043E\u0439",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292248Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "\u0414\u0430\u0440 \u0445\u043E\u0442\u0438\u0440 \u0434\u043E\u0440\u0435\u0434, \u043A\u0438 \u0431\u0430\u0440\u043E\u043C\u0430\u0434 \u0431\u0430 NDI \u0442\u0430\u0432\u0430\u0441\u0441\u0443\u0442\u0438 \u0442\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u0438 \u0441\u0430\u0442\u0440\u0438 \u0444\u0430\u0440\u043C\u043E\u043D \u043C\u0443\u049B\u0430\u0440\u0440\u0430\u0440 \u043A\u0430\u0440\u0434\u0430 \u043C\u0435\u0448\u0430\u0432\u0430\u0434.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292249Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "\u041E\u0451 \u0448\u0443\u043C\u043E \u0431\u043E\u044F\u0434 \u0442\u0430\u0439\u043C\u0435\u0440\u0440\u043E \u043E\u0493\u043E\u0437 \u043C\u0435\u043A\u0430\u0440\u0434\u0435\u0434?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292249Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "\u0401\u0434\u0440\u0430\u0441\u043A\u0443\u043D\u0438\u04B3\u043E\u0438 \u043F\u043E\u043F-\u0430\u043F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29225Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "\u0412\u043E\u0445\u04EF\u0440\u04E3 {0} \u0434\u0430\u049B\u0438\u049B\u0430\u0438 \u0438\u0437\u043E\u0444\u04E3 \u0438\u0434\u043E\u043C\u0430 \u0434\u043E\u0440\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29225Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "\u0412\u043E\u0445\u04EF\u0440\u04E3 {0} \u0434\u0430\u049B\u0438\u049B\u0430 \u043A\u0430\u043C\u0442\u0430\u0440 \u0434\u0430\u0432\u043E\u043C \u043C\u0435\u043A\u0443\u043D\u0430\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292251Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "\u041E\u0433\u043E\u04B3\u0438\u04B3\u043E\u0438 \u0430\u0437 \u04B3\u0430\u0434 \u0437\u0438\u0451\u0434 / \u043A\u0430\u043C\u0448\u0443\u0434\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292251Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "\u04B2\u043E\u043B\u0430\u0442\u0438 \u0442\u043E\u0440\u0438\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292252Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "\u041F\u04EF\u0448\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292252Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "\u0417\u0430\u0445\u0438\u0440\u0430 \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292253Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "\u041D\u0430\u0432\u0441\u043E\u0437\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292254Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "\u0422\u0430\u043D\u0437\u0438\u043C \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292254Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "\u0414\u0430\u0440\u0445\u043E\u0441\u0442\u0438 \u0434\u0430\u0441\u0442\u0440\u0430\u0441\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292255Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "\u0425\u043E\u0440\u0438\u04B7 \u043A\u0430\u0440\u0434\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292255Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "\u0412\u043E\u0445\u04EF\u0440\u04E3 \u0434\u0430\u0440 \u0448",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292256Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "\u0411\u0430\u0440\u043E\u0438 \u0434\u0438\u0434\u0430\u043D\u0438 \u0441\u043E\u0430\u0442\u0438 \u0432\u0435\u0431 \u0431\u043E \u0434\u0430\u0441\u0442\u0433\u043E\u04B3\u0438 \u043C\u043E\u0431\u0438\u043B\u04E3 \u0441\u043A\u0430\u043D \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292256Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "\u041F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0430:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292257Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "\u0421\u0442\u0430\u0442\u0443\u0441:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292257Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "\u04B2\u043E\u043B\u0430\u0442\u0438 \u043F\u0443\u0440\u0440\u0430\u0438 \u044D\u043A\u0440\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292257Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "\u0411\u0430\u043B\u0430\u043D\u0434 \u0431\u0430\u0440\u0434\u043E\u0448\u0442\u0430\u043D\u0438 \u0432\u0430\u049B\u0442 (\u002B1 \u0434\u0430\u049B\u0438\u049B\u0430). \u0411\u0430\u0440\u043E\u0438 \u0438\u043C\u043A\u043E\u043D\u043E\u0442\u0438 \u0431\u0435\u0448\u0442\u0430\u0440, \u0442\u0443\u0433\u043C\u0430\u0438 \u0440\u043E\u0441\u0442\u0440\u043E \u043A\u043B\u0438\u043A \u043A\u0443\u043D\u0435\u0434.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292258Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "\u041A\u043E\u04B3\u0438\u0448 \u0434\u043E\u0434\u0430\u043D\u0438 \u0432\u0430\u049B\u0442 (-1 \u0434\u0430\u049B\u0438\u049B\u0430). \u0411\u0430\u0440\u043E\u0438 \u0438\u043C\u043A\u043E\u043D\u043E\u0442\u0438 \u0431\u0435\u0448\u0442\u0430\u0440, \u0442\u0443\u0433\u043C\u0430\u0438 \u0440\u043E\u0441\u0442\u0440\u043E \u043A\u043B\u0438\u043A \u043A\u0443\u043D\u0435\u0434.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292258Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "\u042D\u04B7\u043E\u0434\u0438 \u0433\u0443\u0437\u043E\u0440\u0438\u0448\u0438 \u0432\u0430\u049B\u0442 (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292259Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "\u0412\u0430\u049B\u0442\u0441\u0430\u043D\u04B7\u0438 \u0430\u049B\u0438\u0431\u0448\u0443\u043C\u043E\u0440\u0440\u043E \u043D\u0438\u0448\u043E\u043D \u0434\u0438\u04B3\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292259Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "\u0412\u0435\u0440\u0441\u0438\u044F\u0438 \u043D\u0430\u0432 \u0434\u0430\u0441\u0442\u0440\u0430\u0441",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29226Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "\u0422\u0430\u043D\u0437\u0438\u043C\u043E\u0442\u04B3\u043E",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.29226Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "\u041A\u04EF\u043C\u0430\u043A",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292261Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "\u0411\u0430 \u04B3\u043E\u043B\u0430\u0442\u0438 \u043F\u0430\u0439\u043C\u043E\u043D \u043A\u04EF\u0447 \u043A\u0443\u043D\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292261Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 \u0441\u043E\u043D\u0438\u044F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292262Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 \u0434\u0430\u049B\u0438\u049B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292262Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 \u0434\u0430\u049B\u0438\u049B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292262Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 \u0441\u043E\u043D\u0438\u044F",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292263Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 \u0434\u0430\u049B\u0438\u049B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292263Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 \u0434\u0430\u049B\u0438\u049B\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292264Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "\u0418\u04B7\u043E\u0437\u0430\u0442\u04B3\u043E\u0438 \u0448\u0430\u0431\u0430\u043A\u0430\u0432\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292264Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "\u0412\u0430\u049B\u0442\u0441\u0430\u043D\u04B7\u0438 \u0444\u043B\u0435\u0448\u0434\u043E\u0440 \u0434\u0430\u0440 \u0432\u0430\u049B\u0442\u0438 \u0438\u0437\u043E\u0444\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292265Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "\u0417\u0430\u043D\u0433\u0438 \u0437\u0430\u043D\u0433 \u04B3\u0430\u043D\u0433\u043E\u043C\u0438 \u0438\u0437\u043E\u0444\u0430\u043A\u043E\u0440\u04E3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292265Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "\u0422\u0430\u0439\u0451\u0440",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292265Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "\u0414\u0430\u0432\u0438\u0434\u0430\u043D",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292266Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "\u0422\u0430\u0432\u0430\u049B\u049B\u0443\u0444 \u043A\u0430\u0440\u0434\u0430 \u0448\u0443\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292266Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "\u0411\u043E \u0433\u0443\u0437\u0430\u0448\u0442\u0438 \u0432\u0430\u049B\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292267Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "\u0418\u0441\u0442\u0435\u0434",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292267Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "\u0420\u0430\u043C\u0437\u0438 \u0434\u0430\u0441\u0442\u0440\u0430\u0441\u0438\u0440\u043E \u0432\u043E\u0440\u0438\u0434 \u043A\u0443\u043D\u0435\u0434...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292268Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "\u0434\u0430\u049B",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292268Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "\u041A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0430\u0442\u0441\u0438\u044F\u0448\u0443\u0434\u0430",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292269Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "\u041A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0430\u0442\u0441\u0438\u044F \u043D\u0430\u0448\u0443\u0434\u0430\u0430\u0441\u0442",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:28:02.292269Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:28:02.292289Z"
+}

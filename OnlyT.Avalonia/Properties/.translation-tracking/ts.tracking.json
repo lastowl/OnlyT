@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ts",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "Bell u gingiriteka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569119Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Hava",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56912Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Ndlela yin\u2019we",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56912Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Matlhelo mambirhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569121Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Vuhundzuluxi bya software {0}.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569121Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 wa tiawara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569122Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12-wa tiawara (ziro leyi rhangelaka) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569122Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 wa tiawara",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569122Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24-wa tiawara (ziro leyi rhangelaka) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569123Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "A swi koteki ku endla folda ya {0}.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569123Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Nkarhi lowu cinciweke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569124Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Nkarhi lowu cinciweke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569124Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Nkarhi wo sungula",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569124Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Xifaniso xa xifaniso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569125Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Analogue na Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569125Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Xidijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569126Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "Bell a nga tirhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569126Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Exikarhi ka vhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569126Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Vutirheli - Nchumu wa 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569127Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Vutirheli - Nchumu wa 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569127Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Vutirheli - Nchumu wa 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569128Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Swi endliwa hi ku tisungulela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569128Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Swi sekeriwe eka fayili",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569129Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manyuwali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569129Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Nkulumo yo gimeta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569129Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Mavonelo Yo Hetelela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56913Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Dyondzo Ya Bibele Ya Vandlha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569131Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Swiribyana swa Moya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569131Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Ku hanya - Xiphemu xa 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569132Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Ku hanya - Xiphemu xa 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569132Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Mavonelo Yo Pfula",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569132Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Switiviso Swa N\u2019hweti Leyi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569133Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Nkulumo ya le rivaleni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569133Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Ku Hlaya Bibele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569134Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Nkulumo ya Vutirheli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569134Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Nkulumo ya Xuma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569134Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Dyondzo Ya Xihondzo xo Rindza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569135Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Mahelo ya vhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569135Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12-wa awara (nimixo/madyambu) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569136Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12-wa tiawara (ku rhangela zero \u0026 am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569136Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Hava",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569137Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "Switirhisiwa a swi kumeki loko timer yi ri karhi yi tirha!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569137Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Switirhisiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569137Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Xuma xa rifuwo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569138Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Vutirheli",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569138Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Ku tshama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569139Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Mahelo ya vhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569139Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Switirhisiwa swi pfaleriwile hi mulawuri!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569139Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Vutirheli - Nchumu wa 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56914Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Ku endzela ka xifundzha",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56914Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "XITLHANYI XA LE HENHLA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569141Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Pfuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569141Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[ku endzela ka xifundzha].",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569142Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Vuhundzuluxeri lebyintshwa bya kumeka!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569142Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "XIKULU",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569145Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Khodi ya mfikelelo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569146Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Mode yo cinca-cinca ya le xikarhi ka vhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569165Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Mode yo cinca-cinca ya mahelo-vhiki",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569166Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Pfumelela ku hlayela ku cinca-cinca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569166Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Minkarhi hinkwayo ehenhla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569167Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "TI-APPS TA LE KULENI",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569167Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODE YA AUTOMATIC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569167Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "BELL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569168Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "WACHI YA WEB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569168Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "XITLHANYI XA NHLANGANO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569168Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Ku endzela xifundzha ku cinca-cinca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569169Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Xivumbeko xa wachi ya xidijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569169Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Swi pfuriwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56917Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Mode ya wachi ya xikirini lexi heleleke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56917Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adirese ya IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569171Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Nhlengeletano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569171Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Minkarhi yo sungula minhlangano (1 hi layini) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569171Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "SWO HAMBANA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569172Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Valanga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569172Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Kombisa xikombiso xa mbeva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569172Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Veka nkarhi wun\u2019wana ni wun\u2019wana wo sungula eka layini leyintshwa.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569173Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Tirhisa xivumbeko xihi na xihi xa nkarhi lexi u xi tsakelaka!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569173Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Hi ku hlawula katsa siku, e.g. \u0022Ravumune 19:15\u0022.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569173Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Switsundzuxo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569174Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "VULA RIBUWA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569174Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569174Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Pfumelela nkarhi wa xichudeni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569175Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Pfumelela nkarhi wa mbulavulo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569175Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Ribuweni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569176Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "KU FIKELELA HI KU KULE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569176Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Kombisa xiyenge eka wachi ya analog",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569176Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Ku anama ka xikirini lexi avaneke:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569177Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "XIKAMBELO",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569177Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Ku pfaleriwa hi throttle",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569178Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "Timer yi hlayela ehenhla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569178Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "FASITERE RA TIMER",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569178Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Nkarhi wa siku ehansi ka timer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569179Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Vholumu:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569179Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Ririmi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56918Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Hi kombela u sungula nakambe OnlyT endzhaku ko cinca ririmi.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56918Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Ku hunguta 1m\nCtrl - Ku hunguta 15s\nKu cinca - Ku hunguta 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56918Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Ku engetela 1m\nCtrl - Ku engetela 15s\nShift - Ku engetela 5m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569181Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Mode ya manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569181Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Ku hlayela ehansi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569181Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Ku hlayela ehenhla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569182Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} tisekoni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569182Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Swi pfuriwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569182Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Swi pfuriwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569183Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Swi pfuriwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569183Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Kombisa tisekoni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569183Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Kombisa furemu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569184Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Fureme ya wachi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569184Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Level ya ku kurisa: .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569184Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Ndhawu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569185Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Tshaku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569185Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "Ehansi eximatsini",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569185Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "Ehansi exineneni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569188Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Xikarhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569188Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Ximatsi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569189Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Mfanelo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569189Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Henhla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56919Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "Ehenhla eximatsini",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56919Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "Ehenhla exineneni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56919Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "LULAMILE",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569191Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port yi pfuriwile naswona reservation yi endliwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569191Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "A swi swi kotanga ku pfula ribuwa (vona log)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569192Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Xiviko xa nkarhi lexi endliweke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569192Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Ku tumbuluxa swiviko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569192Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Xiyenge xo Hetelela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569193Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Xiyenge xa Nkarhinyana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569193Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Xiyenge xa Xingheniso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569193Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Level ya ku tsema mirhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569194Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Ku lulamisa swihoxo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569194Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Xihoxo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569194Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Nghozi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569195Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Marungula",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569195Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Ku vulavula hi marito",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569195Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Xilemukisi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569196Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "Ku xopaxopa datha ya nkarhi wa nhlengeletano",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569196Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Xiviko A XI endliwanga!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569196Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "VONA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569197Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "Hi ku tisungulela mpfumawulo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569197Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Click ku twala bele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569198Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Nkarhi wo leha (mins) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569198Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Swiaki swa nkoka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569198Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Dayela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569199Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dayela na xidijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569199Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Xidijitali",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569199Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Ndzandzelelano lowu nga erivaleni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.5692Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Xiya leswaku monitor yi lawuriwa hi xiyimiso xa layini ya swileriso",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.5692Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Timer ya le ndzhaku ya gradient",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.5692Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Xirhendzevutana xa le ndzhaku xa wachi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569201Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Fureme ya nkarhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569201Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "Wachi ya xiphepherhele",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569201Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "Mahelo ya vhiki ya katsa na Ravuntlhanu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569202Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Ku ni mafasitere",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569202Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Ku ni mafasitere",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569202Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Pfala Fasitere ro Hlayela endzhaku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569203Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "A swi koteki ku pfula ku hlayela endzhaku loku nga erivaleni \u0022windowed\u0022.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569203Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "Tliloko",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569204Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Swipimelo swa nkarhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569204Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "offline...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569204Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Shrink eka ku hunguta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569205Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "phurayimari",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569205Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Xiya leswaku vuhumelerisi byi vekiwile eka NDI hi ku tirhisa xiyimiso xa layini ya swileriso.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569205Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Xana a wu fanele u sungule ku veka nkarhi?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569206Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Switsundzuxo leswi humelelaka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569206Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "Nhlangano wu famba {0} wa timinete hi nkarhi wo engetela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569206Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "Nhlangano wu famba {0} wa timinete ehansi ka nkarhi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569207Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Switiviso swa ku tlula/ku hunguta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569207Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Mode ya munyama",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569207Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Pfala",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569207Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Hlayisa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569208Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Pfuxeta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569208Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Hlela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569209Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Xikombelo xa Mfikelelo",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569209Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Bakanya",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569209Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "Nhlangano wu sungula hi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569209Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Skena hi xitirhisiwa xa movha ku vona wachi ya webu",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56921Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Ndhawu:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56921Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Xiyimo:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.56921Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Mode ya Xikirini lexi heleleke",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569211Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Engetela nkarhi (\u002B1 min). Right-click ku kuma swin\u2019wana leswi u nga swi hlawulaka.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569211Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Ku hunguta nkarhi (-1 min). Right-click ku kuma swin\u2019wana leswi u nga swi hlawulaka.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569211Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Ku tumbuluxa xiviko xa nkarhi (PDF) .",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569212Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Kombisa nkarhi wo hlayela endzhaku",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569212Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Vuhundzuluxeri lebyintshwa bya kumeka",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569212Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Switirhisiwa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569212Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Pfuna",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569213Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Ku hunguteka ku ya eka xiyimo xa compact",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569213Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 wa tisekoni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569214Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 wa minete",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569214Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 wa timinete",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569214Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 wa tisekoni",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569215Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 wa minete",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569215Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 wa timinete",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569215Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "MIPFUMELO WA NETWORK",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569216Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Flash Timer Hi Nkarhi Wa Nkarhi wo Engetela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569216Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Ring Bell Loko Nkarhi wo Engetela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569216Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Lulamile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569216Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "Tsutsuma",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569217Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "Ku yimanyana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569217Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "Nkarhi wo engetela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569217Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Ku yimile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569218Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Nghenisa khodi yo nghena...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569218Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569218Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Ku hleriwile",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569219Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "A Swi Hlela",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:56.569219Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:56.569233Z"
+}

@@ -1,0 +1,1224 @@
+{
+  "CultureCode": "ca",
+  "Translations": {
+    "ACTIVE_BELL": {
+      "Key": "ACTIVE_BELL",
+      "Value": "La campana est\u00E0 activa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050381Z"
+    },
+    "ADAPTIVE_MODE_NONE": {
+      "Key": "ADAPTIVE_MODE_NONE",
+      "Value": "Cap",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050381Z"
+    },
+    "ADAPTIVE_MODE_ONE_WAY": {
+      "Key": "ADAPTIVE_MODE_ONE_WAY",
+      "Value": "Unidireccional",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050382Z"
+    },
+    "ADAPTIVE_MODE_TWO_WAY": {
+      "Key": "ADAPTIVE_MODE_TWO_WAY",
+      "Value": "Bidireccional",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050382Z"
+    },
+    "APP_VER": {
+      "Key": "APP_VER",
+      "Value": "Versi\u00F3 del programari {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050383Z"
+    },
+    "CLOCK_FORMAT_12": {
+      "Key": "CLOCK_FORMAT_12",
+      "Value": "12 hores",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050383Z"
+    },
+    "CLOCK_FORMAT_12Z": {
+      "Key": "CLOCK_FORMAT_12Z",
+      "Value": "12 hores (zero inicial)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050384Z"
+    },
+    "CLOCK_FORMAT_24": {
+      "Key": "CLOCK_FORMAT_24",
+      "Value": "24 hores",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050384Z"
+    },
+    "CLOCK_FORMAT_24Z": {
+      "Key": "CLOCK_FORMAT_24Z",
+      "Value": "24 hores (zero inicial)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050385Z"
+    },
+    "CREATE_FOLDER_ERROR": {
+      "Key": "CREATE_FOLDER_ERROR",
+      "Value": "No s\u0027ha pogut crear la carpeta {0}",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050385Z"
+    },
+    "DURATION_ADAPTED": {
+      "Key": "DURATION_ADAPTED",
+      "Value": "Durada adaptada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050385Z"
+    },
+    "DURATION_MODIFIED": {
+      "Key": "DURATION_MODIFIED",
+      "Value": "Durada modificada",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050386Z"
+    },
+    "DURATION_ORIGINAL": {
+      "Key": "DURATION_ORIGINAL",
+      "Value": "Durada original",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050386Z"
+    },
+    "FULL_SCREEN_ANALOGUE": {
+      "Key": "FULL_SCREEN_ANALOGUE",
+      "Value": "Anal\u00F2gic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050387Z"
+    },
+    "FULL_SCREEN_BOTH": {
+      "Key": "FULL_SCREEN_BOTH",
+      "Value": "Anal\u00F2gic i digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050387Z"
+    },
+    "FULL_SCREEN_DIGITAL": {
+      "Key": "FULL_SCREEN_DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050388Z"
+    },
+    "INACTIVE_BELL": {
+      "Key": "INACTIVE_BELL",
+      "Value": "La campana est\u00E0 inactiva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050388Z"
+    },
+    "MIDWEEK": {
+      "Key": "MIDWEEK",
+      "Value": "Entre setmana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050388Z"
+    },
+    "MINISTRY1": {
+      "Key": "MINISTRY1",
+      "Value": "Ministeri - \u00CDtem 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050389Z"
+    },
+    "MINISTRY2": {
+      "Key": "MINISTRY2",
+      "Value": "Ministeri - \u00CDtem 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050389Z"
+    },
+    "MINISTRY3": {
+      "Key": "MINISTRY3",
+      "Value": "Ministeri - \u00CDtem 3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05039Z"
+    },
+    "OP_MODE_AUTO": {
+      "Key": "OP_MODE_AUTO",
+      "Value": "Autom\u00E0tic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05039Z"
+    },
+    "OP_MODE_FILE": {
+      "Key": "OP_MODE_FILE",
+      "Value": "Basat en fitxers",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050391Z"
+    },
+    "OP_MODE_MANUAL": {
+      "Key": "OP_MODE_MANUAL",
+      "Value": "Manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050391Z"
+    },
+    "TALK_CONCLUDING": {
+      "Key": "TALK_CONCLUDING",
+      "Value": "Xerrada final",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050391Z"
+    },
+    "TALK_CONCLUDING_COMMENTS": {
+      "Key": "TALK_CONCLUDING_COMMENTS",
+      "Value": "Comentaris finals",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050392Z"
+    },
+    "TALK_CONG_STUDY": {
+      "Key": "TALK_CONG_STUDY",
+      "Value": "Estudi b\u00EDblic de la congregaci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050392Z"
+    },
+    "TALK_DIGGING": {
+      "Key": "TALK_DIGGING",
+      "Value": "Joies espirituals",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050393Z"
+    },
+    "TALK_LIVING1": {
+      "Key": "TALK_LIVING1",
+      "Value": "Viure - Part 1",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050393Z"
+    },
+    "TALK_LIVING2": {
+      "Key": "TALK_LIVING2",
+      "Value": "Viure - Part 2",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050394Z"
+    },
+    "TALK_OPENING_COMMENTS": {
+      "Key": "TALK_OPENING_COMMENTS",
+      "Value": "Comentaris inicials",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050394Z"
+    },
+    "TALK_PRESENTATIONS": {
+      "Key": "TALK_PRESENTATIONS",
+      "Value": "Presentacions d\u0027aquest mes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050394Z"
+    },
+    "TALK_PUBLIC": {
+      "Key": "TALK_PUBLIC",
+      "Value": "Xerrada p\u00FAblica",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050395Z"
+    },
+    "TALK_READING": {
+      "Key": "TALK_READING",
+      "Value": "Lectura de la B\u00EDblia",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050395Z"
+    },
+    "TALK_SERVICE": {
+      "Key": "TALK_SERVICE",
+      "Value": "Xerrada de servei",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050395Z"
+    },
+    "TALK_TREASURES": {
+      "Key": "TALK_TREASURES",
+      "Value": "Tresors Talk",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050396Z"
+    },
+    "TALK_WT": {
+      "Key": "TALK_WT",
+      "Value": "Estudi de la Torre de Guaita",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050396Z"
+    },
+    "WEEKEND": {
+      "Key": "WEEKEND",
+      "Value": "Cap de setmana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050397Z"
+    },
+    "CLOCK_FORMAT_12AMPM": {
+      "Key": "CLOCK_FORMAT_12AMPM",
+      "Value": "12 hores (mat\u00ED/tarda)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050397Z"
+    },
+    "CLOCK_FORMAT_12ZAMPM": {
+      "Key": "CLOCK_FORMAT_12ZAMPM",
+      "Value": "12 hores (zero inicial i am/pm)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050397Z"
+    },
+    "MONITOR_NONE": {
+      "Key": "MONITOR_NONE",
+      "Value": "Cap",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050398Z"
+    },
+    "NOT_AVAIL_TIMER_RUNNING": {
+      "Key": "NOT_AVAIL_TIMER_RUNNING",
+      "Value": "La configuraci\u00F3 no est\u00E0 disponible mentre el temporitzador est\u00E0 en marxa!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050398Z"
+    },
+    "SETTINGS": {
+      "Key": "SETTINGS",
+      "Value": "Configuraci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050399Z"
+    },
+    "SECTION_TREASURES": {
+      "Key": "SECTION_TREASURES",
+      "Value": "Tresors",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050399Z"
+    },
+    "SECTION_MINISTRY": {
+      "Key": "SECTION_MINISTRY",
+      "Value": "Ministeri",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.0504Z"
+    },
+    "SECTION_LIVING": {
+      "Key": "SECTION_LIVING",
+      "Value": "Viure",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.0504Z"
+    },
+    "SECTION_WEEKEND": {
+      "Key": "SECTION_WEEKEND",
+      "Value": "Cap de setmana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.0504Z"
+    },
+    "NOT_AVAIL_ADMIN": {
+      "Key": "NOT_AVAIL_ADMIN",
+      "Value": "Configuraci\u00F3 desactivada per l\u0027administrador!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050401Z"
+    },
+    "MINISTRY4": {
+      "Key": "MINISTRY4",
+      "Value": "Ministeri - \u00CDtem 4",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050401Z"
+    },
+    "CIRCUIT_VISIT": {
+      "Key": "CIRCUIT_VISIT",
+      "Value": "Visita al circuit",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050401Z"
+    },
+    "CLOSE_COUNTDOWN": {
+      "Key": "CLOSE_COUNTDOWN",
+      "Value": "COMPTE ENRERE DE TANCAMENT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050402Z"
+    },
+    "HELP": {
+      "Key": "HELP",
+      "Value": "Ajuda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050402Z"
+    },
+    "CIRCUIT_VISIT_BRACKETS": {
+      "Key": "CIRCUIT_VISIT_BRACKETS",
+      "Value": "[visita de circuit]",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050403Z"
+    },
+    "NEW_VERSION": {
+      "Key": "NEW_VERSION",
+      "Value": "Nova versi\u00F3 disponible!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050403Z"
+    },
+    "MAIN_SECTION": {
+      "Key": "MAIN_SECTION",
+      "Value": "PRINCIPAL",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050403Z"
+    },
+    "ACCESS_CODE": {
+      "Key": "ACCESS_CODE",
+      "Value": "Codi d\u0027acc\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050404Z"
+    },
+    "ADAPTIVE_MIDWEEK": {
+      "Key": "ADAPTIVE_MIDWEEK",
+      "Value": "Mode adaptatiu de mitja setmana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050404Z"
+    },
+    "ADAPTIVE_WEEKEND": {
+      "Key": "ADAPTIVE_WEEKEND",
+      "Value": "Mode adaptatiu de cap de setmana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050404Z"
+    },
+    "ALLOW_COUNT_UP_TOGGLE": {
+      "Key": "ALLOW_COUNT_UP_TOGGLE",
+      "Value": "Activa el recompte ascendent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050405Z"
+    },
+    "ALWAYS_ON_TOP": {
+      "Key": "ALWAYS_ON_TOP",
+      "Value": "Sempre a dalt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050405Z"
+    },
+    "APPS_SECTION": {
+      "Key": "APPS_SECTION",
+      "Value": "APLICACIONS REMOTABLES",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050406Z"
+    },
+    "AUTO_SECTION": {
+      "Key": "AUTO_SECTION",
+      "Value": "MODE AUTOM\u00C0TIC",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050406Z"
+    },
+    "BELL_SECTION": {
+      "Key": "BELL_SECTION",
+      "Value": "CAMPANA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050406Z"
+    },
+    "CLOCK_SECTION": {
+      "Key": "CLOCK_SECTION",
+      "Value": "RELLOTGE WEB",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050407Z"
+    },
+    "COUNTDOWN_SECTION": {
+      "Key": "COUNTDOWN_SECTION",
+      "Value": "COMPTE ENRERE DE LA REUNI\u00D3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050407Z"
+    },
+    "CO_VISIT_TOGGLE": {
+      "Key": "CO_VISIT_TOGGLE",
+      "Value": "Visita al circuit activa/desactiva",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050407Z"
+    },
+    "DIGITAL_CLOCK_FORMAT": {
+      "Key": "DIGITAL_CLOCK_FORMAT",
+      "Value": "Format de rellotge digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050408Z"
+    },
+    "ENABLED": {
+      "Key": "ENABLED",
+      "Value": "Activat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050408Z"
+    },
+    "FULL_SCREEN_CLOCK": {
+      "Key": "FULL_SCREEN_CLOCK",
+      "Value": "Mode de rellotge de pantalla completa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050409Z"
+    },
+    "IP_ADDRESS": {
+      "Key": "IP_ADDRESS",
+      "Value": "Adre\u00E7a IP",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050409Z"
+    },
+    "MEETING": {
+      "Key": "MEETING",
+      "Value": "Reuni\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050409Z"
+    },
+    "MEETING_STARTS": {
+      "Key": "MEETING_STARTS",
+      "Value": "Horaris d\u0027inici de les reunions (1 per l\u00EDnia)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05041Z"
+    },
+    "MISC_SECTION": {
+      "Key": "MISC_SECTION",
+      "Value": "DIVERSOS",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05041Z"
+    },
+    "MONITOR": {
+      "Key": "MONITOR",
+      "Value": "Monitor",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05041Z"
+    },
+    "MOUSE_PTR": {
+      "Key": "MOUSE_PTR",
+      "Value": "Mostra el punter del ratol\u00ED",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050411Z"
+    },
+    "MTG_START_NOTES1": {
+      "Key": "MTG_START_NOTES1",
+      "Value": "Poseu cada hora d\u0027inici en una l\u00EDnia nova.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050411Z"
+    },
+    "MTG_START_NOTES2": {
+      "Key": "MTG_START_NOTES2",
+      "Value": "Fes servir el format de temps que vulguis!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050411Z"
+    },
+    "MTG_START_NOTES3": {
+      "Key": "MTG_START_NOTES3",
+      "Value": "Opcionalment, incloeu un dia, p. ex. \u0022Dj 19:15\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050412Z"
+    },
+    "NOTES": {
+      "Key": "NOTES",
+      "Value": "Notes:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050412Z"
+    },
+    "OPEN_PORT": {
+      "Key": "OPEN_PORT",
+      "Value": "PORT OBERT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050412Z"
+    },
+    "OP_MODE": {
+      "Key": "OP_MODE",
+      "Value": "Mode",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050413Z"
+    },
+    "PERSIST_STUDENT_TIME": {
+      "Key": "PERSIST_STUDENT_TIME",
+      "Value": "Mantenir el temps d\u0027estudiant",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050413Z"
+    },
+    "PERSIST_TALK_DURATION": {
+      "Key": "PERSIST_TALK_DURATION",
+      "Value": "Durada de la conversa persistent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050414Z"
+    },
+    "PORT": {
+      "Key": "PORT",
+      "Value": "Port",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050414Z"
+    },
+    "REMOTE_SECTION": {
+      "Key": "REMOTE_SECTION",
+      "Value": "ACC\u00C9S REMOT",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050414Z"
+    },
+    "SECTOR_ANALOG_CLOCK": {
+      "Key": "SECTOR_ANALOG_CLOCK",
+      "Value": "Mostra el sector al rellotge anal\u00F2gic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050415Z"
+    },
+    "SPLIT_WIDTH": {
+      "Key": "SPLIT_WIDTH",
+      "Value": "Amplada de pantalla dividida:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050415Z"
+    },
+    "TEST": {
+      "Key": "TEST",
+      "Value": "PROVA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050415Z"
+    },
+    "THROTTLED": {
+      "Key": "THROTTLED",
+      "Value": "Estrangulat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050416Z"
+    },
+    "TIMER_COUNT_UP": {
+      "Key": "TIMER_COUNT_UP",
+      "Value": "El temporitzador compta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050416Z"
+    },
+    "TIMER_WIN_SECTION": {
+      "Key": "TIMER_WIN_SECTION",
+      "Value": "FINESTRA DEL TEMPORITZADOR",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050417Z"
+    },
+    "TIME_UNDER_TIMER": {
+      "Key": "TIME_UNDER_TIMER",
+      "Value": "Hora del dia amb temporitzador",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050417Z"
+    },
+    "VOLUME": {
+      "Key": "VOLUME",
+      "Value": "Volum:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050417Z"
+    },
+    "LANGUAGE": {
+      "Key": "LANGUAGE",
+      "Value": "Llengua",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050418Z"
+    },
+    "RESTART_LANGUAGE": {
+      "Key": "RESTART_LANGUAGE",
+      "Value": "Si us plau, reinicieu OnlyT despr\u00E9s de canviar l\u0027idioma.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050418Z"
+    },
+    "TIME_DECREASE": {
+      "Key": "TIME_DECREASE",
+      "Value": "Disminueix 1 m\nCtrl - Disminueix 15 s\nMaj - Disminueix 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050418Z"
+    },
+    "TIME_INCREASE": {
+      "Key": "TIME_INCREASE",
+      "Value": "Augmenta 1 m\nCtrl - Augmenta 15 s\nMaj - Augmenta 5 m",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050419Z"
+    },
+    "MANUAL_MODE": {
+      "Key": "MANUAL_MODE",
+      "Value": "Mode manual",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050419Z"
+    },
+    "COUNTING_DOWN": {
+      "Key": "COUNTING_DOWN",
+      "Value": "Compte enrere",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050419Z"
+    },
+    "COUNTING_UP": {
+      "Key": "COUNTING_UP",
+      "Value": "Comptant cap amunt",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05042Z"
+    },
+    "X_SECONDS": {
+      "Key": "X_SECONDS",
+      "Value": "{0} segons",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05042Z"
+    },
+    "ENABLED_API": {
+      "Key": "ENABLED_API",
+      "Value": "Activat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05042Z"
+    },
+    "ENABLED_BELL": {
+      "Key": "ENABLED_BELL",
+      "Value": "Activat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050421Z"
+    },
+    "ENABLED_WEB_CLOCK": {
+      "Key": "ENABLED_WEB_CLOCK",
+      "Value": "Activat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050421Z"
+    },
+    "SHOW_SECONDS": {
+      "Key": "SHOW_SECONDS",
+      "Value": "Mostra els segons",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050421Z"
+    },
+    "SHOW_COUNTDOWN_FRAME": {
+      "Key": "SHOW_COUNTDOWN_FRAME",
+      "Value": "Mostra el marc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050422Z"
+    },
+    "SHOW_CLOCK_FRAME": {
+      "Key": "SHOW_CLOCK_FRAME",
+      "Value": "Marc de rellotge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050422Z"
+    },
+    "COUNTDOWN_ZOOM": {
+      "Key": "COUNTDOWN_ZOOM",
+      "Value": "Nivell de zoom:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050422Z"
+    },
+    "LOCATION_ON_SCREEN": {
+      "Key": "LOCATION_ON_SCREEN",
+      "Value": "Ubicaci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050423Z"
+    },
+    "SCREEN_LOCATION_BOTTOM": {
+      "Key": "SCREEN_LOCATION_BOTTOM",
+      "Value": "Part inferior",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050423Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_LEFT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_LEFT",
+      "Value": "A baix a l\u0027esquerra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050424Z"
+    },
+    "SCREEN_LOCATION_BOTTOM_RIGHT": {
+      "Key": "SCREEN_LOCATION_BOTTOM_RIGHT",
+      "Value": "A baix a la dreta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050424Z"
+    },
+    "SCREEN_LOCATION_CENTRE": {
+      "Key": "SCREEN_LOCATION_CENTRE",
+      "Value": "Centre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050425Z"
+    },
+    "SCREEN_LOCATION_LEFT": {
+      "Key": "SCREEN_LOCATION_LEFT",
+      "Value": "Esquerra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050425Z"
+    },
+    "SCREEN_LOCATION_RIGHT": {
+      "Key": "SCREEN_LOCATION_RIGHT",
+      "Value": "Dreta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050425Z"
+    },
+    "SCREEN_LOCATION_TOP": {
+      "Key": "SCREEN_LOCATION_TOP",
+      "Value": "Superior",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050426Z"
+    },
+    "SCREEN_LOCATION_TOP_LEFT": {
+      "Key": "SCREEN_LOCATION_TOP_LEFT",
+      "Value": "A dalt a l\u0027esquerra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050426Z"
+    },
+    "SCREEN_LOCATION_TOP_RIGHT": {
+      "Key": "SCREEN_LOCATION_TOP_RIGHT",
+      "Value": "A dalt a la dreta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050427Z"
+    },
+    "OK": {
+      "Key": "OK",
+      "Value": "D\u0027acord",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050427Z"
+    },
+    "PORT_OPENED": {
+      "Key": "PORT_OPENED",
+      "Value": "Port obert i reserva feta",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050427Z"
+    },
+    "PORT_OPEN_FAILED": {
+      "Key": "PORT_OPEN_FAILED",
+      "Value": "No s\u0027ha pogut obrir el port (vegeu el registre)!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050428Z"
+    },
+    "GENERATING_REPORT": {
+      "Key": "GENERATING_REPORT",
+      "Value": "Informe de temps generat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050428Z"
+    },
+    "SHOULD_GENERATE_REPORTS": {
+      "Key": "SHOULD_GENERATE_REPORTS",
+      "Value": "Generar informes",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050429Z"
+    },
+    "CONCLUDING_SEGMENT": {
+      "Key": "CONCLUDING_SEGMENT",
+      "Value": "Segment final",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050429Z"
+    },
+    "INTERIM_SEGMENT": {
+      "Key": "INTERIM_SEGMENT",
+      "Value": "Segment Intermedi",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050429Z"
+    },
+    "INTRO_SEGMENT": {
+      "Key": "INTRO_SEGMENT",
+      "Value": "Segment introductori",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05043Z"
+    },
+    "LOGGING_LEVEL": {
+      "Key": "LOGGING_LEVEL",
+      "Value": "Nivell de registre",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05043Z"
+    },
+    "LOG_LEVEL_DEBUG": {
+      "Key": "LOG_LEVEL_DEBUG",
+      "Value": "Depuraci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05043Z"
+    },
+    "LOG_LEVEL_ERROR": {
+      "Key": "LOG_LEVEL_ERROR",
+      "Value": "Error",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050431Z"
+    },
+    "LOG_LEVEL_FATAL": {
+      "Key": "LOG_LEVEL_FATAL",
+      "Value": "Fatal",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050431Z"
+    },
+    "LOG_LEVEL_INFORMATION": {
+      "Key": "LOG_LEVEL_INFORMATION",
+      "Value": "Informaci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050432Z"
+    },
+    "LOG_LEVEL_VERBOSE": {
+      "Key": "LOG_LEVEL_VERBOSE",
+      "Value": "Verbos",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050432Z"
+    },
+    "LOG_LEVEL_WARNING": {
+      "Key": "LOG_LEVEL_WARNING",
+      "Value": "Av\u00EDs",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050434Z"
+    },
+    "ANALYSING_REPORT_DATA": {
+      "Key": "ANALYSING_REPORT_DATA",
+      "Value": "An\u00E0lisi de les dades del temporitzador de reunions",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050434Z"
+    },
+    "NO_REPORT": {
+      "Key": "NO_REPORT",
+      "Value": "Informe NO generat!",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050434Z"
+    },
+    "VIEW_REPORT": {
+      "Key": "VIEW_REPORT",
+      "Value": "VISTA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050435Z"
+    },
+    "AUTO_BELL": {
+      "Key": "AUTO_BELL",
+      "Value": "So autom\u00E0tic",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050435Z"
+    },
+    "SOUND_BELL": {
+      "Key": "SOUND_BELL",
+      "Value": "Fes clic per fer sonar la campana",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050435Z"
+    },
+    "COUNTDOWN_DURATION_MINS": {
+      "Key": "COUNTDOWN_DURATION_MINS",
+      "Value": "Durada (minuts)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050436Z"
+    },
+    "COUNTDOWN_ELEMENTS": {
+      "Key": "COUNTDOWN_ELEMENTS",
+      "Value": "Elements",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050436Z"
+    },
+    "DIAL": {
+      "Key": "DIAL",
+      "Value": "Marcar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050436Z"
+    },
+    "DIAL_AND_DIGITAL": {
+      "Key": "DIAL_AND_DIGITAL",
+      "Value": "Dial i digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050437Z"
+    },
+    "DIGITAL": {
+      "Key": "DIGITAL",
+      "Value": "Digital",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050437Z"
+    },
+    "COUNTDOWN_TRANSPARENT": {
+      "Key": "COUNTDOWN_TRANSPARENT",
+      "Value": "Fons transparent",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050437Z"
+    },
+    "CONTROLLED_BY_CMD_LINE": {
+      "Key": "CONTROLLED_BY_CMD_LINE",
+      "Value": "Tingueu en compte que el monitor es controla mitjan\u00E7ant una configuraci\u00F3 de l\u00EDnia d\u0027ordres",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050437Z"
+    },
+    "TIMER_BACKGROUND_COLOUR": {
+      "Key": "TIMER_BACKGROUND_COLOUR",
+      "Value": "Gradient de fons del temporitzador",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050438Z"
+    },
+    "CLOCK_BACKGROUND_COLOUR": {
+      "Key": "CLOCK_BACKGROUND_COLOUR",
+      "Value": "Gradient de fons de rellotge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050438Z"
+    },
+    "SHOW_TIMER_FRAME": {
+      "Key": "SHOW_TIMER_FRAME",
+      "Value": "Marc de temporitzador",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050438Z"
+    },
+    "FLAT_CLOCK": {
+      "Key": "FLAT_CLOCK",
+      "Value": "rellotge pla",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050439Z"
+    },
+    "WEEKEND_INCLUDES_FRIDAY": {
+      "Key": "WEEKEND_INCLUDES_FRIDAY",
+      "Value": "El cap de setmana inclou divendres",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050439Z"
+    },
+    "MONITOR_IS_WINDOWED": {
+      "Key": "MONITOR_IS_WINDOWED",
+      "Value": "Finestra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05044Z"
+    },
+    "COUNTDOWN_IS_WINDOWED": {
+      "Key": "COUNTDOWN_IS_WINDOWED",
+      "Value": "Finestra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05044Z"
+    },
+    "CLOSE_COUNTDOWN_TOOLTIP": {
+      "Key": "CLOSE_COUNTDOWN_TOOLTIP",
+      "Value": "Tanca la finestra del compte enrere",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05044Z"
+    },
+    "COUNTDOWN_STYLE_CONFLICT": {
+      "Key": "COUNTDOWN_STYLE_CONFLICT",
+      "Value": "No es pot obrir el compte enrere transparent en \u0022finestra\u0022",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050441Z"
+    },
+    "WEB_LINK_CLOCK": {
+      "Key": "WEB_LINK_CLOCK",
+      "Value": "rellotge",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050441Z"
+    },
+    "WEB_LINK_TIMERS": {
+      "Key": "WEB_LINK_TIMERS",
+      "Value": "Temporitzadors",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050441Z"
+    },
+    "WEB_OFFLINE": {
+      "Key": "WEB_OFFLINE",
+      "Value": "fora de l\u00EDnia...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050442Z"
+    },
+    "SHRINK_ON_MINIMISE": {
+      "Key": "SHRINK_ON_MINIMISE",
+      "Value": "Reduir en minimitzar",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050442Z"
+    },
+    "PRIMARY_MONITOR": {
+      "Key": "PRIMARY_MONITOR",
+      "Value": "prim\u00E0ria",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050442Z"
+    },
+    "TIMER_ON_NDI": {
+      "Key": "TIMER_ON_NDI",
+      "Value": "Tingueu en compte que la sortida es defineix com a NDI mitjan\u00E7ant una configuraci\u00F3 de l\u00EDnia d\u0027ordres.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050443Z"
+    },
+    "TIMER_REMINDER_MSG": {
+      "Key": "TIMER_REMINDER_MSG",
+      "Value": "Hauries d\u0027haver engegat el temporitzador?",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050443Z"
+    },
+    "TIMER_REMINDER": {
+      "Key": "TIMER_REMINDER",
+      "Value": "Recordatoris emergents",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050443Z"
+    },
+    "OVERRUN_MSG": {
+      "Key": "OVERRUN_MSG",
+      "Value": "La reuni\u00F3 s\u0027allargar\u00E0 {0} minuts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050444Z"
+    },
+    "UNDERRUN_MSG": {
+      "Key": "UNDERRUN_MSG",
+      "Value": "La reuni\u00F3 s\u0027est\u00E0 executant amb {0} minuts de retard.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050444Z"
+    },
+    "OVERRUN_NOTIFICATIONS": {
+      "Key": "OVERRUN_NOTIFICATIONS",
+      "Value": "Notificacions de sobreexecuci\u00F3/subexecuci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050444Z"
+    },
+    "DARK_MODE": {
+      "Key": "DARK_MODE",
+      "Value": "Mode fosc",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050445Z"
+    },
+    "BTN_CLOSE": {
+      "Key": "BTN_CLOSE",
+      "Value": "Tanca",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050445Z"
+    },
+    "BTN_SAVE": {
+      "Key": "BTN_SAVE",
+      "Value": "Desa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050445Z"
+    },
+    "BTN_REFRESH": {
+      "Key": "BTN_REFRESH",
+      "Value": "Actualitza",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050446Z"
+    },
+    "BTN_CONFIGURE": {
+      "Key": "BTN_CONFIGURE",
+      "Value": "Configura",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050446Z"
+    },
+    "BTN_REQUEST_ACCESS": {
+      "Key": "BTN_REQUEST_ACCESS",
+      "Value": "Sol\u00B7licita acc\u00E9s",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050446Z"
+    },
+    "BTN_DISMISS": {
+      "Key": "BTN_DISMISS",
+      "Value": "Ignora",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050447Z"
+    },
+    "MSG_MEETING_STARTS_IN": {
+      "Key": "MSG_MEETING_STARTS_IN",
+      "Value": "La reuni\u00F3 comen\u00E7a a",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050447Z"
+    },
+    "MSG_SCAN_QR_CODE": {
+      "Key": "MSG_SCAN_QR_CODE",
+      "Value": "Escaneja amb el dispositiu m\u00F2bil per veure el rellotge web",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050447Z"
+    },
+    "LBL_PLATFORM": {
+      "Key": "LBL_PLATFORM",
+      "Value": "Plataforma:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050448Z"
+    },
+    "LBL_STATUS": {
+      "Key": "LBL_STATUS",
+      "Value": "Estat:",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050448Z"
+    },
+    "LBL_FULL_SCREEN_MODE": {
+      "Key": "LBL_FULL_SCREEN_MODE",
+      "Value": "Mode de pantalla completa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050448Z"
+    },
+    "TIP_INCREASE_TIME": {
+      "Key": "TIP_INCREASE_TIME",
+      "Value": "Augmenta el temps (\u002B1 min). Fes clic amb el bot\u00F3 dret per obtenir m\u00E9s opcions.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050449Z"
+    },
+    "TIP_DECREASE_TIME": {
+      "Key": "TIP_DECREASE_TIME",
+      "Value": "Redueix el temps (-1 min). Fes clic amb el bot\u00F3 dret per obtenir m\u00E9s opcions.",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050449Z"
+    },
+    "TIP_GENERATE_REPORT": {
+      "Key": "TIP_GENERATE_REPORT",
+      "Value": "Generar informe de temps (PDF)",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050449Z"
+    },
+    "TIP_SHOW_COUNTDOWN": {
+      "Key": "TIP_SHOW_COUNTDOWN",
+      "Value": "Mostra el temporitzador de compte enrere",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050449Z"
+    },
+    "TIP_NEW_VERSION": {
+      "Key": "TIP_NEW_VERSION",
+      "Value": "Nova versi\u00F3 disponible",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05045Z"
+    },
+    "TIP_SETTINGS": {
+      "Key": "TIP_SETTINGS",
+      "Value": "Configuraci\u00F3",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.05045Z"
+    },
+    "TIP_HELP": {
+      "Key": "TIP_HELP",
+      "Value": "Ajuda",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050451Z"
+    },
+    "TIP_SHRINK": {
+      "Key": "TIP_SHRINK",
+      "Value": "Reduir a mode compacte",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050451Z"
+    },
+    "MENU_PLUS_15_SEC": {
+      "Key": "MENU_PLUS_15_SEC",
+      "Value": "\u002B15 segons",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050451Z"
+    },
+    "MENU_PLUS_1_MIN": {
+      "Key": "MENU_PLUS_1_MIN",
+      "Value": "\u002B1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050452Z"
+    },
+    "MENU_PLUS_5_MIN": {
+      "Key": "MENU_PLUS_5_MIN",
+      "Value": "\u002B5 minuts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050452Z"
+    },
+    "MENU_MINUS_15_SEC": {
+      "Key": "MENU_MINUS_15_SEC",
+      "Value": "-15 segons",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050452Z"
+    },
+    "MENU_MINUS_1_MIN": {
+      "Key": "MENU_MINUS_1_MIN",
+      "Value": "-1 minut",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050453Z"
+    },
+    "MENU_MINUS_5_MIN": {
+      "Key": "MENU_MINUS_5_MIN",
+      "Value": "-5 minuts",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050453Z"
+    },
+    "SECTION_NETWORK": {
+      "Key": "SECTION_NETWORK",
+      "Value": "PERMISOS DE XARXA",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050453Z"
+    },
+    "TIMER_FLASH_OVERTIME": {
+      "Key": "TIMER_FLASH_OVERTIME",
+      "Value": "Temporitzador de flaix durant la pr\u00F2rroga",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050454Z"
+    },
+    "TIMER_BELL_OVERTIME": {
+      "Key": "TIMER_BELL_OVERTIME",
+      "Value": "Toca el timbre quan hi hagi temps extra",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050454Z"
+    },
+    "STATUS_READY": {
+      "Key": "STATUS_READY",
+      "Value": "Llest",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050454Z"
+    },
+    "STATUS_RUNNING": {
+      "Key": "STATUS_RUNNING",
+      "Value": "C\u00F3rrer",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050455Z"
+    },
+    "STATUS_PAUSED": {
+      "Key": "STATUS_PAUSED",
+      "Value": "En pausa",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050455Z"
+    },
+    "STATUS_OVERTIME": {
+      "Key": "STATUS_OVERTIME",
+      "Value": "hores extres",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050455Z"
+    },
+    "STATUS_STOPPED": {
+      "Key": "STATUS_STOPPED",
+      "Value": "Aturat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050456Z"
+    },
+    "WATERMARK_ACCESS_CODE": {
+      "Key": "WATERMARK_ACCESS_CODE",
+      "Value": "Introdu\u00EFu el codi d\u0027acc\u00E9s...",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050456Z"
+    },
+    "UNIT_MIN": {
+      "Key": "UNIT_MIN",
+      "Value": "min",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050456Z"
+    },
+    "STATUS_CONFIGURED": {
+      "Key": "STATUS_CONFIGURED",
+      "Value": "Configurat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050457Z"
+    },
+    "STATUS_NOT_CONFIGURED": {
+      "Key": "STATUS_NOT_CONFIGURED",
+      "Value": "No configurat",
+      "Source": 1,
+      "LastUpdated": "2025-12-02T14:27:21.050457Z"
+    }
+  },
+  "LastUpdated": "2025-12-02T14:27:21.050472Z"
+}
