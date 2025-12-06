@@ -1,0 +1,118 @@
+; OnlyT Installer Script for Inno Setup
+; This script creates a Windows installer that bundles OnlyT and the StreamDeck plugin
+
+#define MyAppName "OnlyT"
+#define MyAppVersion "2.4.0.14"
+#define MyAppPublisher "OnlyT"
+#define MyAppURL "https://github.com/AntonyCorbett/OnlyT"
+#define MyAppExeName "OnlyT.exe"
+
+[Setup]
+; Application info
+AppId={{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
+AppName={#MyAppName}
+AppVersion={#MyAppVersion}
+AppPublisher={#MyAppPublisher}
+AppPublisherURL={#MyAppURL}
+AppSupportURL={#MyAppURL}
+AppUpdatesURL={#MyAppURL}
+
+; Installation directories
+DefaultDirName={autopf}\{#MyAppName}
+DefaultGroupName={#MyAppName}
+DisableProgramGroupPage=yes
+
+; Output settings
+OutputDir=..\..\dist\Windows
+OutputBaseFilename=OnlyT-Setup-{#MyAppVersion}
+SetupIconFile=..\..\OnlyT.Avalonia\Assets\onlyt.ico
+Compression=lzma2/ultra64
+SolidCompression=yes
+LZMAUseSeparateProcess=yes
+
+; Windows version requirements
+MinVersion=10.0
+ArchitecturesAllowed=x64compatible
+ArchitecturesInstallIn64BitMode=x64compatible
+
+; Privileges
+PrivilegesRequired=lowest
+PrivilegesRequiredOverridesAllowed=dialog
+
+; Appearance
+WizardStyle=modern
+WizardSizePercent=100
+
+; Signing (uncomment and configure for production)
+; SignTool=signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /a $f
+
+[Languages]
+Name: "english"; MessagesFile: "compiler:Default.isl"
+Name: "german"; MessagesFile: "compiler:Languages\German.isl"
+Name: "french"; MessagesFile: "compiler:Languages\French.isl"
+Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
+Name: "portuguese"; MessagesFile: "compiler:Languages\Portuguese.isl"
+Name: "italian"; MessagesFile: "compiler:Languages\Italian.isl"
+Name: "dutch"; MessagesFile: "compiler:Languages\Dutch.isl"
+Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
+Name: "japanese"; MessagesFile: "compiler:Languages\Japanese.isl"
+
+[Tasks]
+Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "streamdeck"; Description: "Install Stream Deck plugin"; GroupDescription: "Additional components:"; Flags: checkedonce
+
+[Files]
+; OnlyT Avalonia application files (from OnlyT.Avalonia project publish output)
+; The AssemblyName is set to "OnlyT" in the csproj, so the executable is OnlyT.exe
+Source: "..\..\publish\win-x64\OnlyT.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\..\publish\win-x64\OnlyT.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\..\publish\win-x64\OnlyT.pdb"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64\*.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\..\publish\win-x64\*.json"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64\runtimes\*"; DestDir: "{app}\runtimes"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+Source: "..\..\publish\win-x64\wwwroot\*"; DestDir: "{app}\wwwroot"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+
+; StreamDeck plugin - only install if user selects it AND StreamDeck is installed
+Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"; Tasks: streamdeck; Flags: ignoreversion recursesubdirs createallsubdirs
+
+[Icons]
+Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+
+[Run]
+Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
+
+[Code]
+// Check if Stream Deck is installed
+function IsStreamDeckInstalled(): Boolean;
+begin
+  Result := DirExists(ExpandConstant('{localappdata}\Elgato\StreamDeck'));
+end;
+
+// Custom initialization
+procedure InitializeWizard();
+begin
+  // If StreamDeck is not installed, uncheck and disable the task
+  if not IsStreamDeckInstalled() then
+  begin
+    WizardForm.TasksList.Checked[1] := False;
+    WizardForm.TasksList.ItemEnabled[1] := False;
+  end;
+end;
+
+// Show message about StreamDeck if not installed
+function NextButtonClick(CurPageID: Integer): Boolean;
+begin
+  Result := True;
+  if CurPageID = wpSelectTasks then
+  begin
+    if not IsStreamDeckInstalled() and WizardIsTaskSelected('streamdeck') then
+    begin
+      MsgBox('Stream Deck software is not installed. The Stream Deck plugin will not be installed.', mbInformation, MB_OK);
+      Result := True;
+    end;
+  end;
+end;
+
+[UninstallDelete]
+Type: filesandordirs; Name: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"

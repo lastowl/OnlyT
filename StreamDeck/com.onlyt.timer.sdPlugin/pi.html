@@ -212,12 +212,12 @@
                 }
 
                 // Add talks from API
-                if (data.TimerInfo && Array.isArray(data.TimerInfo)) {
-                    data.TimerInfo.forEach(talk => {
+                if (data.timerInfo && Array.isArray(data.timerInfo)) {
+                    data.timerInfo.forEach(talk => {
                         const opt = document.createElement('option');
-                        opt.value = talk.TalkId;
-                        opt.text = talk.TalkTitle || `Talk ${talk.TalkId}`;
-                        if (String(talk.TalkId) === currentValue) {
+                        opt.value = talk.talkId;
+                        opt.text = talk.talkTitle || `Talk ${talk.talkId}`;
+                        if (String(talk.talkId) === currentValue) {
                             opt.selected = true;
                         }
                         select.appendChild(opt);

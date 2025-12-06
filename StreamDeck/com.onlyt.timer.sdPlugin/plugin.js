@@ -131,7 +131,7 @@ async function handleKeyDown(action, context, payload) {
 async function startTimer(baseUrl, talkId, context) {
     // If no specific talk ID, use the first available or currently selected
     if (!talkId && currentTimerState.talks.length > 0) {
-        talkId = currentTimerState.talks[0].TalkId;
+        talkId = currentTimerState.talks[0].talkId;
     }
 
     if (!talkId) {
@@ -216,11 +216,11 @@ async function startNextTalk(baseUrl, context) {
 
     // Find the next talk that hasn't been completed
     const nextTalk = currentTimerState.talks.find(talk =>
-        talk.CompletedTimeSecs === null || talk.CompletedTimeSecs === 0
+        talk.completedTimeSecs === null || talk.completedTimeSecs === 0
     );
 
     if (nextTalk) {
-        await startTimer(baseUrl, nextTalk.TalkId, context);
+        await startTimer(baseUrl, nextTalk.talkId, context);
     } else {
         showAlert(context);
     }
@@ -234,9 +234,9 @@ async function refreshTimerState(baseUrl) {
         const response = await fetch(`${baseUrl}/api/v1/timers/`);
         const data = await response.json();
 
-        currentTimerState.talks = data.TimerInfo || [];
-        currentTimerState.isRunning = data.Status?.IsRunning || false;
-        currentTimerState.activeTalkId = data.Status?.TalkId || null;
+        currentTimerState.talks = data.timerInfo || [];
+        currentTimerState.isRunning = data.status?.isRunning || false;
+        currentTimerState.activeTalkId = data.status?.talkId || null;
 
         // Update all toggle button states
         updateAllToggleStates();
