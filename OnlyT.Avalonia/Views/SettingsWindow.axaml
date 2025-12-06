@@ -47,11 +47,11 @@
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
             <Setter Property="MinHeight" Value="32"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
-            <Setter Property="MaxDropDownHeight" Value="200"/>
+            <Setter Property="MaxDropDownHeight" Value="100"/>
         </Style>
         <Style Selector="ComboBoxItem">
-            <Setter Property="Padding" Value="8,4"/>
-            <Setter Property="MinHeight" Value="28"/>
+            <Setter Property="Padding" Value="8,2"/>
+            <Setter Property="MinHeight" Value="24"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
         </Style>
     </Window.Styles>
@@ -91,7 +91,13 @@
 
                         <TextBlock Text="{loc:Localize OP_MODE}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding OperatingModes}"
-                                  SelectedItem="{Binding OperatingMode}"/>
+                                  SelectedItem="{Binding OperatingMode}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <TextBlock Text="{loc:Localize DIGITAL_CLOCK_FORMAT}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding ClockHourFormats}"
@@ -115,15 +121,33 @@
 
                         <TextBlock Text="{loc:Localize MEETING}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding MeetingTypes}"
-                                  SelectedItem="{Binding MidWeekOrWeekend}"/>
+                                  SelectedItem="{Binding MidWeekOrWeekend}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <TextBlock Text="{loc:Localize ADAPTIVE_MIDWEEK}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding AdaptiveModes}"
-                                  SelectedItem="{Binding MidWeekAdaptiveMode}"/>
+                                  SelectedItem="{Binding MidWeekAdaptiveMode}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <TextBlock Text="{loc:Localize ADAPTIVE_WEEKEND}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding AdaptiveModes}"
-                                  SelectedItem="{Binding WeekendAdaptiveMode}"/>
+                                  SelectedItem="{Binding WeekendAdaptiveMode}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <CheckBox Content="{loc:Localize CIRCUIT_VISIT}"
                                   IsChecked="{Binding IsCircuitVisit}"/>
@@ -169,7 +193,13 @@
 
                         <TextBlock Text="{loc:Localize FULL_SCREEN_CLOCK}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding ClockModes}"
-                                  SelectedItem="{Binding FullScreenClockMode}"/>
+                                  SelectedItem="{Binding FullScreenClockMode}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <TextBlock FontSize="12" Margin="0,8,0,4">
                             <Run Text="{loc:Localize SPLIT_WIDTH}"/>
