@@ -184,7 +184,7 @@
     <value>Digitaal</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bel is niet actief</value>
+    <value>Bel is inactief</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Midweek</value>
@@ -582,7 +582,7 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Foutopsporing</value>
+    <value>Debug</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -590,7 +590,7 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kritiek</value>
+    <value>Fataal</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -622,7 +622,7 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Luid de bel</value>
+    <value>Klik om bel af te gaan</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">

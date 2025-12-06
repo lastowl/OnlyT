@@ -733,4 +733,115 @@ Shift - Increase 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurer</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Avvis</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Oppdater</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Be om tilgang</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Fullskjermmodus</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plattform:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekunder</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minutt</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minutter</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekunder</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minutt</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minutter</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Møtet begynner om</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skann med mobilenhet for å vise nettklokke</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>NETTVERKSTILLATELSER</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurert</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Ikke konfigurert</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Overtid</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pauset</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Kjører</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Stoppet</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Ring bjelle ved overtid</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Blink tid ved overtid</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Reduser tid (-1 min). Høyreklikk for flere alternativer.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generer tidsrapport (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Øk tid (+1 min). Høyreklikk for flere alternativer.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Ny versjon tilgjengelig</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Innstillinger</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Vis nedtellingstid</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Krymp til kompakt modus</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Skriv inn tilgangskode...</value>
+  </data>
 </root>

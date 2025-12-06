@@ -213,7 +213,7 @@
     <value>Studio biblico di congregazione</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Gemme Spirituali</value>
+    <value>Gemme spirituali</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Vita cristiana - Parte 1</value>
@@ -263,13 +263,13 @@
     <value>Impostazioni</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Tesori</value>
+    <value>TESORI DELLA PAROLA DI DIO</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministero</value>
+    <value>EFFICACI NEL MINISTERO</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Vita cristiana</value>
+    <value>VITA CRISTIANA</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Fine settimana</value>
@@ -732,5 +732,116 @@ Maiusc - Aggiungi 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Modalità scura</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configura</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Ignora</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Richiedi Accesso</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Modalità Schermo Intero</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Piattaforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Stato:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 secondi</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuto</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuti</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 secondi</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuto</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuti</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>L'adunanza inizia tra</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Scansiona con il dispositivo mobile per visualizzare l'orologio web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>PERMESSI DI RETE</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Configurato</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Non Configurato</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Tempo Scaduto</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>In Pausa</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Pronto</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>In Esecuzione</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Fermato</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Suona Campanello a Tempo Scaduto</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Timer Lampeggiante Durante Tempo Scaduto</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Diminuisci tempo (-1 min). Clic destro per più opzioni.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Genera rapporto tempi (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Aiuto</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Aumenta tempo (+1 min). Clic destro per più opzioni.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Nuova versione disponibile</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Mostra conto alla rovescia</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Riduci a modalità compatta</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Inserisci codice di accesso...</value>
   </data>
 </root>

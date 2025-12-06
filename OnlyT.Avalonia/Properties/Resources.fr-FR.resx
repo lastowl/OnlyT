@@ -207,10 +207,10 @@
     <value>Discours de fin</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Révision</value>
+    <value>Paroles de conclusion</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Étude biblique de l’assemblée</value>
+    <value>Étude biblique de l'assemblée</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
     <value>Perles spirituelles</value>
@@ -222,7 +222,7 @@
     <value>Vie chrétienne - 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Introduction</value>
+    <value>Paroles d'introduction</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
     <value>Présentations du mois</value>
@@ -263,13 +263,13 @@
     <value>Paramètres</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Joyaux de la Parole de Dieu</value>
+    <value>JOYAUX DE LA PAROLE DE DIEU</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Applique-toi au ministère</value>
+    <value>APPLIQUE-TOI AU MINISTÈRE</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Vie chrétienne</value>
+    <value>VIE CHRÉTIENNE</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Weekend</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Mode sombre</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configurer</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Ignorer</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Demander l'accès</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Mode plein écran</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plateforme :</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>État :</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 secondes</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minute</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minutes</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 secondes</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minute</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minutes</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>La réunion commence dans</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Scanner avec un appareil mobile pour afficher l'horloge web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>AUTORISATIONS RÉSEAU</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Configuré</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Non configuré</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Temps dépassé</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>En pause</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Prêt</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Arrêté</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Sonner la cloche en cas de dépassement</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Faire clignoter le chronomètre en cas de dépassement</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Diminuer le temps (-1 min). Clic droit pour plus d'options.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Générer un rapport de chronométrage (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Augmenter le temps (+1 min). Clic droit pour plus d'options.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Nouvelle version disponible</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Afficher le compte à rebours</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Réduire en mode compact</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Saisir le code d'accès...</value>
   </data>
 </root>

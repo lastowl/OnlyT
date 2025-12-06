@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell is active</value>
+    <value>Chuông đang hoạt động</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -181,10 +181,10 @@
     <value>Analogue and Digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Kỹ thuật số</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell is inactive</value>
+    <value>Chuông không hoạt động</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Midweek</value>
@@ -205,10 +205,10 @@
     <value>File-based</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manual</value>
+    <value>Thủ công</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Concluding Talk</value>
+    <value>Bài nói chuyện kết thúc</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Bình luận kết thúc</value>
@@ -220,31 +220,31 @@
     <value>Những viên ngọc thiêng liêng</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Living - Part 1</value>
+    <value>Cuộc sống - Phần 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Living - Part 2</value>
+    <value>Cuộc sống - Phần 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Bình luận mở đầu</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>This Month's Presentations</value>
+    <value>Bài thuyết trình của tháng này</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Public Talk</value>
+    <value>Nói chuyện trước công chúng</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Đọc Kinh Thánh</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Service Talk</value>
+    <value>Nói chuyện dịch vụ</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Treasures Talk</value>
+    <value>Nói chuyện kho báu</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Watchtower Study</value>
+    <value>Nghiên cứu Tháp Canh</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
     <value>Weekend</value>
@@ -374,7 +374,7 @@
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Màn hình</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Show mouse pointer</value>
@@ -408,7 +408,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>Cổng</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -423,7 +423,7 @@
     <value>Split-screen width:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>KIỂM TRA</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
@@ -469,11 +469,11 @@ Shift - Increase 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Currently counting down</value>
+    <value>Đếm ngược</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Currently counting up</value>
+    <value>Đếm xuôi</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -582,27 +582,27 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>Gỡ lỗi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Error</value>
+    <value>Lỗi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>Lỗi nghiêm trọng</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Information</value>
+    <value>Thông tin</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>Chi tiết</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Warning</value>
+    <value>Cảnh báo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
@@ -622,7 +622,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Sound the bell</value>
+    <value>Nhấn để phát chuông</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -642,7 +642,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Kỹ thuật số</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -701,7 +701,7 @@ Shift - Increase 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>ngoại tuyến...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">

@@ -207,7 +207,7 @@
     <value>Завершальні слова</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Повторення і анонс наступного зібрання</value>
+    <value>Кінцеві слова</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Вивчення Біблії у зборі</value>
@@ -263,13 +263,13 @@
     <value>Налаштування</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Скарби</value>
+    <value>СКАРБИ З БОЖОГО СЛОВА</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Вдосконалюймо служіння</value>
+    <value>ВДОСКОНАЛЮЙМО СВОЄ СЛУЖІННЯ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Християнське життя</value>
+    <value>ХРИСТИЯНСЬКЕ ЖИТТЯ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>У вихідні дні</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Налаштувати</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Відхилити</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Оновити</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Запитати доступ</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Повноекранний режим</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Платформа:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Статус:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 секунд</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 хвилина</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 хвилин</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 секунд</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 хвилина</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 хвилин</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Зібрання почнеться через</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Скануйте мобільним пристроєм, щоб переглянути веб-годинник</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>МЕРЕЖЕВІ ДОЗВОЛИ</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Налаштовано</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Не налаштовано</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Перевищення часу</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Призупинено</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Готовий</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Працює</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Зупинено</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Дзвонити при перевищенні часу</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Блимати таймером при перевищенні часу</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Зменшити час (-1 хв). Клацніть правою кнопкою для додаткових опцій.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Створити звіт про хронометраж (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Збільшити час (+1 хв). Клацніть правою кнопкою для додаткових опцій.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Доступна нова версія</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Показати зворотний відлік</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Зменшити до компактного режиму</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>хв</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Введіть код доступу...</value>
   </data>
 </root>

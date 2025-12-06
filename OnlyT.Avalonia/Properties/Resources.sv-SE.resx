@@ -207,7 +207,7 @@
     <value>Avslutande tal</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Sammanfattning</value>
+    <value>Avslutande ord</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Församlingens bibelstudium</value>
@@ -263,13 +263,13 @@
     <value>Inställningar</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Andliga guldkorn</value>
+    <value>HÖJDPUNKTER FRÅN BIBELN</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Övning för tjänsten</value>
+    <value>ÖVNING FÖR TJÄNSTEN</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Livet som kristen</value>
+    <value>LIVET SOM KRISTEN</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Helgmötet</value>
@@ -732,5 +732,116 @@ Shift - Öka 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Mörkt läge</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Stäng</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurera</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Avfärda</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Uppdatera</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Begär åtkomst</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Helskärmsläge</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plattform:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekunder</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minut</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuter</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekunder</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minut</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuter</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Mötet börjar om</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skanna med mobil enhet för att visa webbklocka</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>NÄTVERKSBEHÖRIGHETER</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurerad</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Ej konfigurerad</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Övertid</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pausad</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Kör</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Stoppad</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Ring klocka vid övertid</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Blinka timer vid övertid</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Minska tid (-1 min). Högerklicka för fler alternativ.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generera tidsrapport (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Hjälp</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Öka tid (+1 min). Högerklicka för fler alternativ.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Ny version tillgänglig</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Visa nedräkningstimer</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Krymp till kompakt läge</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Ange åtkomstkod...</value>
   </data>
 </root>

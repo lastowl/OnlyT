@@ -733,4 +733,115 @@ Shift - Increase 5m</value>
     <value>Tmavý režim</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurovat</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Obnovit</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Požádat o přístup</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Režim celé obrazovky</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Stav:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekund</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuta</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minut</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekund</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuta</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minut</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Schůzka začíná za</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Naskenujte mobilním zařízením pro zobrazení webových hodin</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>SÍŤOVÁ OPRÁVNĚNÍ</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Nakonfigurováno</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nenakonfigurováno</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Přesčas</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pozastaveno</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Připraveno</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Běží</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Zastaveno</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Zazvonit při přesčasu</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Blikat časovačem při přesčasu</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Snížit čas (-1 min). Pravým tlačítkem pro více možností.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Vygenerovat časový protokol (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Zvýšit čas (+1 min). Pravým tlačítkem pro více možností.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Nová verze k dispozici</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Zobrazit odpočet</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Zmenšit do kompaktního režimu</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Zadejte přístupový kód...</value>
+  </data>
 </root>

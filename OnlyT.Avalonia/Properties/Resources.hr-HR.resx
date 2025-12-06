@@ -207,13 +207,13 @@
     <value>Završni govor</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Završni komentar</value>
+    <value>Završna riječ</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Skupštinsko razmatranje Biblije</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Spiritual Gems</value>
+    <value>Tragajmo za duhovnim blagom</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Živimo - Točka 1</value>
@@ -222,7 +222,7 @@
     <value>Živimo - Točka 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Uvodni komentar</value>
+    <value>Uvodna riječ</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
     <value>Snimljena prezentacija</value>
@@ -263,13 +263,13 @@
     <value>Postavke</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Blago</value>
+    <value>BLAGO IZ BOŽJE RIJEČI</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Služba</value>
+    <value>NAUČIMO KVALITETNIJE PROPOVIJEDATI</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Živimo</value>
+    <value>ŽIVIMO KAO KRŠĆANI</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Vikend</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Tamni način rada</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfiguriraj</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Odbaci</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Osvježi</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Zatraži pristup</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Način rada preko cijelog zaslona</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekundi</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuta</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuta</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekundi</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuta</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuta</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Sastanak počinje za</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skenirajte mobilnim uređajem za prikaz web sata</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>MREŽNE DOZVOLE</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurirano</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nije konfigurirano</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Prekoračenje</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pauzirano</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Spremno</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Aktivno</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Zaustavljeno</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Zvono kod prekoračenja</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Treperenje mjerača tijekom prekoračenja</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Smanji vrijeme (-1 min). Desni klik za više opcija.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generiraj izvješće o vremenu (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Povećaj vrijeme (+1 min). Desni klik za više opcija.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Dostupna nova verzija</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Prikaži odbrojavanje</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Smanji u kompaktni način rada</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Unesite pristupni kod...</value>
   </data>
 </root>

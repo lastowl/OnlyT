@@ -207,7 +207,7 @@
     <value>Loppupuhe</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Kokouksen kertaus</value>
+    <value>Loppusanat</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Seurakunnan raamatuntutkistelu</value>
@@ -263,13 +263,13 @@
     <value>Asetukset</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Jumalan sanan aarteita</value>
+    <value>JUMALAN SANAN AARTEITA</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Valmennusta kenttäpalvelukseen</value>
+    <value>VALMENNUSTA KENTTÄTYÖHÖN</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Elämä kristittynä</value>
+    <value>ELÄMÄ KRISTITTYNÄ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Viikonloppu</value>
@@ -732,5 +732,116 @@ Vaihto - Lisää 5M</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Tumma tila</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Sulje</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Määritä</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Hylkää</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Päivitä</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Pyydä käyttöoikeus</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Koko näytön tila</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Alusta:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Tila:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekuntia</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuutti</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuuttia</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekuntia</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuutti</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuuttia</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Kokous alkaa</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skannaa mobiililaitteella nähdäksesi verkkokellon</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>VERKON KÄYTTÖOIKEUDET</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Määritetty</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Ei määritetty</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Yliaika</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Keskeytetty</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Valmis</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Käynnissä</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Pysäytetty</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Soita kello ylitettäessä</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Vilkuta ajastinta ylitettäessä</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Vähennä aikaa (-1 min). Napsauta hiiren oikealla painikkeella saadaksesi lisää vaihtoehtoja.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Luo ajoitusraportti (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Ohje</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Lisää aikaa (+1 min). Napsauta hiiren oikealla painikkeella saadaksesi lisää vaihtoehtoja.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Uusi versio saatavilla</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Näytä lähtölaskenta-ajastin</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Pienennä suppeaan tilaan</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Syötä käyttökoodi...</value>
   </data>
 </root>

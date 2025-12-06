@@ -213,7 +213,7 @@
     <value>Phần học Kinh Thánh của hội thánh</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Những viên ngọc thiêng liêng</value>
+    <value>Viên ngọc thiêng liêng</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Living - Part 1</value>
@@ -263,13 +263,13 @@
     <value>Settings</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Treasures</value>
+    <value>KHO BÁU TỪ KINH THÁNH</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministry</value>
+    <value>CẢI THIỆN THÁNH CHỨC</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Living</value>
+    <value>LỐI SỐNG CỦA MỘT TÍN ĐỒ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Weekend</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Yêu cầu truy cập</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Chế độ toàn màn hình</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Nền tảng:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Trạng thái:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 giây</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 phút</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 phút</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 giây</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 phút</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 phút</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Cuộc họp bắt đầu sau</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Quét bằng thiết bị di động để xem đồng hồ web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>QUYỀN MẠNG</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Đã cấu hình</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Chưa cấu hình</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Quá giờ</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Đã tạm dừng</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Sẵn sàng</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Đang chạy</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Đã dừng</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Rung chuông khi quá giờ</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Nhấp nháy bộ đếm khi quá giờ</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Giảm thời gian (-1 phút). Nhấp chuột phải để có thêm tùy chọn.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Tạo báo cáo thời gian (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Trợ giúp</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Tăng thời gian (+1 phút). Nhấp chuột phải để có thêm tùy chọn.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Đã có phiên bản mới</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Hiển thị bộ đếm ngược</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Thu nhỏ về chế độ gọn</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Nhập mã truy cập...</value>
   </data>
 </root>

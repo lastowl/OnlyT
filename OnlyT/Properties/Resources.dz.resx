@@ -118,23 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell is active</value>
+    <value>དྲིལ་བུ་ལཱ་འགན།</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>None</value>
+    <value>ག་ཡང་མེནམ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>One-way</value>
+    <value>ལམ།</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Two-way</value>
+    <value>གཉིས།</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Software version {0}</value>
+    <value>མཉེན་ཆས་ཐོན་རིམ་ {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
@@ -142,187 +142,187 @@
     <value>..\Resources\ClockHtmlTemplate.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-hour</value>
+    <value>༡༢-ཆུ་ཚོད་།</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-hour (leading zero)</value>
+    <value>༡༢-ཆུ་ཚོད་ ༼གཙོ་བསྟེན་ཀློག༽</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-hour</value>
+    <value>ཆུ་ཚོད་ ༢༤།</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-hour (leading zero)</value>
+    <value>༢༤-ཆུ་ཚོད་ ༼གཙོ་བསྟེན་ཀློག༽</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Could not create folder {0}</value>
+    <value>སྣོད་འཛིན་ {0} གསར་བསྐྲུན་འབད་མ་ཚུགས།</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Adapted duration</value>
+    <value>འཕྲི་སྣོན་འབད་མི།</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Modified duration</value>
+    <value>དུས་ཡུན་ལེགས་བཅོས་འབད་ཡོདཔ།</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Original duration</value>
+    <value>དུས་ཡུན་ངོ་མ།</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogue</value>
+    <value>འདྲ་མཚུངས་</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue and Digital</value>
+    <value>ཨེ་ན་ལོག་དང་ ཌི་ཇི་ཊལ།</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>ཌི་ཇི་ཊལ་</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell is inactive</value>
+    <value>དྲིལ་བུ་ལཱ་མེད།</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Midweek</value>
+    <value>བདུན་ཕྲག་བར་མ།</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministry - Item 1</value>
+    <value>ལྷན་ཁག་ - རྣམ་གྲངས་༡</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministry - Item 2</value>
+    <value>ལྷན་ཁག་ - རྣམ་གྲངས་༢</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministry - Item 3</value>
+    <value>ལྷན་ཁག་ - རྣམ་གྲངས།</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automatic</value>
+    <value>རང་བཞིན་</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>File-based</value>
+    <value>ཡིག་སྣོད་གཞི་བཞག་པ།</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manual</value>
+    <value>ལག༌དེབ</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Concluding Talk</value>
+    <value>ཁ་སླབཔ་མཇུག་བསྡུ།</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Concluding Comments</value>
+    <value>མཇུག་བསྡུའི་བསམ་ཆ།</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Congregation Bible Study</value>
+    <value>འདུ་འཛོམས་ བཀའ་འགྱུར་ཞིབ་འཇུག།</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Spiritual Gems</value>
+    <value>ཆོས་ཀྱི་ནོར་བུ།</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Living - Part 1</value>
+    <value>འཚོ་བ་ - ཆ་ཤས་ ༡ པ།</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Living - Part 2</value>
+    <value>འཚོ་བ་ - ཆ་ཤས་ ༢ པ།</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Opening Comments</value>
+    <value>ཁ་ཕྱེ་བའི་བསམ་ཚུལ།</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>This Month's Presentations</value>
+    <value>འདི་ཟླ་བའི་གསལ་བཤད།</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Public Talk</value>
+    <value>སྤྱི་བགྲོད།</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Bible Reading</value>
+    <value>བཀའ་འགྱུར་ལྷག་ཐངས།</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Service Talk</value>
+    <value>ཞབས་ཏོག་ཁ་སླབ།</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Treasures Talk</value>
+    <value>རྒྱུ་ནོར་ཁ་སྐོང༌།</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Watchtower Study</value>
+    <value>Watchtor ཞིབ་འཇུག།</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Weekend</value>
+    <value>གཟའ༌ཉིམ༌དང༌ཟླཝ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-hour (am/pm)</value>
+    <value>ཆུ་ཚོད་༡༢ (ཨམ་/pm)།</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-hour (leading zero &amp; am/pm)</value>
+    <value>12-ཆུ་ཚོད་ (གཙོ་བོའི་ཀླད་ཀོར་དང་ཨམ་/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>None</value>
+    <value>ག་ཡང་མེནམ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Settings not available while timer is running!</value>
+    <value>དུས་ཚོད་གཡོག་བཀོལ་བའི་སྐབས་ འཐོབ་མ་ཚུགས་པའི་སྒྲིག་སྟངས་ཚུ་!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>སྒྲིག་སྟངས།</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Treasures</value>
+    <value>རྒྱུ་ནོར་ནི།</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministry</value>
+    <value>ལྷན་ཁག་</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Living</value>
+    <value>སྡོད༌ཡོདཔ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Weekend</value>
+    <value>གཟའ༌ཉིམ༌དང༌ཟླཝ</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Settings disabled by administrator!</value>
+    <value>བདག་སྐྱོང་པ་གིས་ ལྕོགས་མིན་བཟོ་ཡོད་པའི་སྒྲིག་སྟངས་ཚུ་!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministry - Item 4</value>
+    <value>ལྷན་ཁག་ - རྣམ་གྲངས་༤།</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Circuit visit</value>
+    <value>གློག་རྒྱུན་ལྟ་སྐོར་འབད་ནི།</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>CLOSE COUNTDOWN</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>གྲོགས་རམ།</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[circuit visit]</value>
+    <value>[ རྒྱང་བསྒྲགས་ལྟ་སྐོར་] .</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>New version available!</value>
+    <value>ཐོན་རིམ་གསརཔ་འཐོབ་ཚུགས་!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>MAIN</value>
+    <value>ངོ་མ་ར</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Access code</value>
+    <value>འཛུལ་སྤྱོད་ཨང་རྟགས།</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Midweek adaptive mode</value>
+    <value>བདུན་ཕྲག་བར་མའི་མཐུན་སྒྲིག་ཐབས་ལམ།</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Weekend adaptive mode</value>
+    <value>བདུན་ཕྲག་མཇུག་མཐུན་པའི་ཐབས་ལམ།</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Allow count-up toggle</value>
+    <value>གྱངས་ཁ་བརྐྱབ་ནི་ཚུ་ སོར་སྟོན་འབད་བཅུག།</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Always on top</value>
+    <value>ཨ་རྟག་ར་ ལྟག་ལུ་འབད།</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -330,11 +330,11 @@
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATIC MODE</value>
+    <value>རང་འགུལ་མོ་ཌི།</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>བི་ཨེལ་</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -342,594 +342,594 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>MEETING COUNTDOWN</value>
+    <value>མེས་ཀོ་རི་ཌིང་།</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Circuit visit toggle</value>
+    <value>Circuit ལུ་ལྟ་སྐོར་འབད་ནི།</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Digital clock format</value>
+    <value>ཌི་ཇི་ཊཱལ་ཆུ་ཚོད་ཀྱི་རྩ་སྒྲིག་།</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Enabled</value>
+    <value>ལྕོགས་ཅན་བཟོ་ཡོདཔ།</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Full-screen clock mode</value>
+    <value>གསལ་གཞི་ཧྲིལ་བུ་ཆུ་ཚོད་ཀྱི་ཐབས་ལམ།</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>IP address</value>
+    <value>IP ཁ་བྱང་།</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Meeting</value>
+    <value>འཛོམས་ནི</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Meeting start times (1 per line)</value>
+    <value>ཞལ་འཛོམས་འགོ་བཙུགས་པའི་དུས་ཚོད་ (གྲལ་ཐིག་རེ་ལུ་༡)།</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>MISCELLANEOUS</value>
+    <value>སྣ༌མང</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitor</value>
+    <value>ལྟ༌རྟོག༌འབད༌ནི</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Show mouse pointer</value>
+    <value>མཱའུསི་དཔག་བྱེད་སྟོན།</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Put each start time on a new line.</value>
+    <value>གྲལ་ཐིག་གསརཔ་གུ་འགོ་བཙུགས་པའི་དུས་ཚོད་རེ་རེ་བཞིན་དུ་བཙུགས།</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Use any time format you like!</value>
+    <value>ཁྱོད་ཀྱིས་དགའ་མི་ རྩ་སྒྲིག་གང་རུང་ཅིག་ལག་ལེན་འཐབ།</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Optionally include a day, e.g. "Thu 19:15"</value>
+    <value>གདམ་ཁ་ཅན་སྦེ་ ཉིནམ་གཅིག་ཡང་ དཔེར་ན། "Thu 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Notes:</value>
+    <value>དྲན་ཐོ།</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>OPEN PORT</value>
+    <value>OPEN PORT .</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>ཐབས་ལམ།</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Persist student time</value>
+    <value>སློབ་ཕྲུག་གི་དུས་ཚོད།</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Persist talk duration</value>
+    <value>ཆེད་བསྟོད་ཀྱི་སྐད་ཆ།</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>གྲུ་ཆགས་ས</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>REMOTE ACCESS</value>
+    <value>REMOTE བསྡུ་སྒྲིག།</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Show sector on analogue clock</value>
+    <value>ཨེ་ནཱ་ལོག་ཆུ་ཚོད་གུ་སྡེ་ཚན་སྟོན།</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Split-screen width:</value>
+    <value>བགོ་བཤའ་-གསལ་གཞི་རྒྱ་ཁྱོན་:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>ཆོས་རྒྱུགས</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Throttled</value>
+    <value>བསྟོད་པ་</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Timer counts up</value>
+    <value>དུས་ཚོད་ཀྱིས་རྩིས་ཡར་སེང་།</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER WINDOW</value>
+    <value>TIMER དབུགས་རིང་།</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Time of day under timer</value>
+    <value>དུས་ཚོད་ཀྱི་དུས་ཚོད་ཀྱི་ཉིནམ་གྱི་དུས་ཚོད།</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Volume:</value>
+    <value>ཤོང་ཚད:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
-    <value>Language</value>
+    <value>སྐད༌ཡིག</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Please restart OnlyT after changing the language.</value>
+    <value>སྐད་ཡིག་འདི་བསྒྱུར་བཅོས་འབད་ཚར་བའི་ཤུལ་ལས་རྐྱངམ་ཅིག་ ལོག་འགོ་བཙུགས་གནང་།</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Decrease 1m
-Ctrl - Decrease 15s
-Shift - Decrease 5m</value>
+    <value>1m མར་ཕབ་འབད།
+Ctrl - མར་འབབ་ ༡༥s ཚུ།
+སོར་ལྡེ་ - ༥m མར་ཕབ་འབད།</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Increase 1m
-Ctrl - Increase 15s
-Shift - Increase 5m</value>
+    <value>1m ཡར་སེང་།
+Ctrl - ༡༥s ཡར་སེང་།
+སོར་ལྡེ་ - ༥m ཡར་སེང་།</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manual mode</value>
+    <value>ལག་དེབ་ཐབས་ལམ།</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Currently counting down</value>
+    <value>མར་ཐོ་རྩིས་དང༌།</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Currently counting up</value>
+    <value>ཡར་ཐོ་རྩིས་དང༌།</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} seconds</value>
+    <value>{0} སྐར་ཆ།</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Enabled</value>
+    <value>ལྕོགས་ཅན་བཟོ་ཡོདཔ།</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Enabled</value>
+    <value>ལྕོགས་ཅན་བཟོ་ཡོདཔ།</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Enabled</value>
+    <value>ལྕོགས་ཅན་བཟོ་ཡོདཔ།</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Show seconds</value>
+    <value>གཉིས་པ་ཚུ་སྟོན།</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Show frame</value>
+    <value>གཞི་ཁྲམ་སྟོན།</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Clock frame</value>
+    <value>ཆུ་ཚོད་གཞི་ཁྲམ།</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Zoom level:</value>
+    <value>ཟུམ་གནས་རིམ་:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Location</value>
+    <value>ས་གནས</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Bottom</value>
+    <value>གཤམ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Bottom left</value>
+    <value>འོག་མར་གཡོན་པ།</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Bottom right</value>
+    <value>མཇུག་མཐའ ོ།</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Centre</value>
+    <value>ལྟེ་བ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Left</value>
+    <value>གཡོན</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Right</value>
+    <value>གཡས</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Top</value>
+    <value>དྲག༌ཤོས</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Top left</value>
+    <value>གཡོན་ཁ་ཐུག་ལུ་</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Top right</value>
+    <value>མགོ་གཡས་པ།</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>བཏུབ</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port opened and reservation made</value>
+    <value>གྲུ་ཁ་ཁ་ཕྱེ་མི་དང་ བཀག་འཛིན་འབད་ཡོདཔ།</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Could not open the port (see log)!</value>
+    <value>འདྲེན་ལམ་ཁ་ཕྱེ་མི་ཚུགས་ (དྲན་ཐོ་བལྟ་)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Generated timing report</value>
+    <value>དུས་ཚོད་སྙན་ཞུ།</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Generate reports</value>
+    <value>སྙན་ཞུ་གསར་བསྐྲུན་འབད།</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Concluding Segment</value>
+    <value>དབྱེ་ཚན་མཇུག་བསྡུ།</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Interim Segment</value>
+    <value>གནས་སྐབས་ཀྱི་སྡེ་ཚན།</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Introductory Segment</value>
+    <value>ངོ་སྤྲོད་སྡེ་ཚན།</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Logging level</value>
+    <value>ནང་བསྐྱོད་གནས་རིམ་ཚུ།</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>དྲི་བ་སེལ་བ།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Error</value>
+    <value>ནོར་འཁྲུལ།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>གལ་ཆེན་ཆ་ཚང༌།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Information</value>
+    <value>བརྡ་དོན།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>རྒྱས་བཤད།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Warning</value>
+    <value>ཉེན་བརྡ།</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analysing meeting timer data</value>
+    <value>ཞལ་འཛོམས་ཀྱི་དུས་ཚོད་གནས་སྡུད་དབྱེ་དཔྱད་འབད་དོ།</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Report NOT generated!</value>
+    <value>བཟོ་བཏོན་མ་འབད་བའི་སྙན་ཞུ།</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>VIEW</value>
+    <value>བསམ༌འཆར</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automatically sound</value>
+    <value>རང་བཞིན་གྱིས་སྒྲ།</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Sound the bell</value>
+    <value>དྲིལ་བུ་བསྒྲགས་ནིའི་དོན་ལུ་ཨེབ་གཏང་འབད།</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Duration (mins)</value>
+    <value>དུས་ཡུན་ (མི་མི)།</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Elements</value>
+    <value>ཡན་ལག་།</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Dial</value>
+    <value>ཌའི་ཡལ།</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial and digital</value>
+    <value>ཌའི་ཡལ་དང་ དྲ་རྒྱ།</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>ཌི་ཇི་ཊལ་</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Transparent background</value>
+    <value>དྭངས་གསལ་གྱི་རྒྱབ་ལྗོངས།</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Note that the monitor is controlled by a command-line setting</value>
+    <value>བལྟ་རྟོག་པ་འདི་ བརྡ་བཀོད་གྲལ་ཐིག་གིས་ ཚད་འཛིན་འབདཝ་ཨིནམ་དྲན་འཛིན་འབད།</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Timer background gradient</value>
+    <value>རྒྱབ་གཞི་གྱེན་གཞི།</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Clock background gradient</value>
+    <value>ཆུ་ཚོད་རྒྱབ་ལྗོངས།</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Timer frame</value>
+    <value>་ ་ ི་གཞི་ཁྲམ།</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Flat clock</value>
+    <value>འཕྲེད་ཁའི་ཆུ།</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Weekend includes Friday</value>
+    <value>བདུན་ཕྲག་མཇུག་ནང་ གཟའ་སྤེནམ་ལུ་ཚུདཔ་ཨིན།</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>ངེས༌ཡོདཔ༌</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>ངེས༌ཡོདཔ༌</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Close Countdown Window</value>
+    <value>Close གྲངས་འབོར་གྱི་སྒོ་སྒྲིག་</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Cannot open transparent "windowed" countdown</value>
+    <value>དྭངས་གསལ་ "windowed" གྱངས་ཁ་ཁ་ཕྱེ་མི་ཚུགས།</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="TimersHtmlTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\timershtmltemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>Clock</value>
+    <value>ཆུ་ཚོད་འཁོར་ལོ</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Timers</value>
+    <value>དུས་ཚོད་ ་ ་ ས།</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>ཨོཕ་ལའིན་......</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Shrink on minimise</value>
+    <value>ཉུང་ཉུང་དུ་བསྒྱུར་བཅོས།</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primary</value>
+    <value>ངོ་མ་ར་</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Note that output is set to NDI via a command-line setting.</value>
+    <value>ཐོན་འབྲས་འདི་ བརྡ་བཀོད་སྒྲིག་སྟངས་བརྒྱུད་དེ་ ཨེན་ཌི་ཨའི་ལུ་གཞི་སྒྲིག་འབདཝ་ཨིན།</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Should you have started the timer?</value>
+    <value>ཁྱོད་ཀྱིས་དུས་ཚོད་འགོ་བཙུགས་དགོཔ་ཨིན་ན?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up reminders</value>
+    <value>པོཔ་-ཨཔ་དྲན་སྐུལ་ཚུ།</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>ཞལ་འཛོམས་འདི་ {0} སྐར་མའི་དུས་ཚོད་ གཡོག་བཀོལ་དོ།</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>ཞལ་འཛོམས་འདི་ {0} སྐར་མའི་སྐར་མ་ གཡོག་བཀོལ་དོ།</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun notifications</value>
+    <value>Overrun/Underrun བརྡ་བསྐུལ་ཚུ།</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>གནགཔོ་ཐབས་ལམ།</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>སྒོ་བསྡམ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>སྲུང༌སྐྱོབས༌འབད༌བ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>གསར་བསྐྲུན་འབད་</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>རིམ་སྒྲིག་འབད།</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>ཞུ་བ་འཛུལ་སྤྱོད་འབད་ནི།</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>ཁུངས༌མེད༌བརྩི༌ནི</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>ཞལ་འཛོམས་འདི་ ༢༠༠༨ ལས་ འགོ་བཙུགསཔ་ཨིན།</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>ཝེབ་ཆུ་ཚོད་བལྟ་ནིའི་དོན་ལུ་ འགྲུལ་འཕྲིན་ཐོག་ལས་ པར་ལེན་འབད།</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>ཁྲབ༌སྟེགས:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>གནས་ཚད:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>གསལ་གཞི་ཆ་ཚང་ཐབས་ལམ་</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>དུས་ཚོད་ཡར་སེང་ (+1 min). གདམ་ཁ་ཁ་གསལ་གྱི་དོན་ལུ་ གཡས་ཨེབ་གཏང་།</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>དུས་ཚོད་ (-༡ min) མར་ཕབ་འབད། གདམ་ཁ་ཁ་གསལ་གྱི་དོན་ལུ་ གཡས་ཨེབ་གཏང་།</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>དུས་ཚོད་སྙན་ཞུ་ (PDF) བཏོན་ནི།</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>གྱངས་ཁ་བརྐྱབ་ནིའི་དུས་ཚོད་སྟོན།</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>ཐོན་རིམ་གསར་པ།</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>སྒྲིག་སྟངས།</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>ཆ་རོགས་འབད་ནི</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>ཆུང་ཆུང་ཐབས་ལམ་ལུ་སོར་བསྒྱུར་འབད།</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 སྐར་ཆ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+༡ སྐར་མ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+༥ མོ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-༡༥ སྐར་ཆ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>སྐར་མ་ -༡ སྐར་མ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-༥ སྐར་མ།</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>NETWORK རང་ཆ་ཚུ།</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>དུས་ཚོད།དུས་ཚོད་ལས་ལྷག་པའི་དུས་ལུ།</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>Ring Bell གི་དུས་ཚོད།</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>གྲ་སྒྲིག་ཚུད་ཡོདཔ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>རྒྱུགས༌ནི</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>མཚམས་འཇོག་འབད་ཡོདཔ།</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>འཕྲེད་འཕེལ།</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>བཀག་བཞག།</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>འཛུལ་སྤྱོད་ཨང་རྟགས་...བཙུགས།</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>ཉེན༌ཚད༌</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>རིམ་སྒྲིག་འབད་ཡོདཔ།</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>རིམ་སྒྲིག་མ་འབད་བས།</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>རྒྱས་བཤད།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>དྲི་བ་སེལ་བ།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Information</value>
+    <value>བརྡ་དོན།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Warning</value>
+    <value>ཉེན་བརྡ།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Error</value>
+    <value>ནོར་འཁྲུལ།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>གལ་ཆེན་ཆ་ཚང༌།</value>
     <comment>Log level display name</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>དྲིལ་བུ་བསྒྲགས་ནིའི་དོན་ལུ་ཨེབ་གཏང་འབད།</value>
     <comment>Tooltip for bell during overtime</comment>
   </data>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell is active</value>
+    <value>དྲིལ་བུ་ལཱ་འགན།</value>
     <comment>Tooltip when bell is enabled</comment>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell is inactive</value>
+    <value>དྲིལ་བུ་ལཱ་མེད།</value>
     <comment>Tooltip when bell is disabled</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>ཡར་ཐོ་རྩིས་དང༌།</value>
     <comment>Timer mode tooltip</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>མར་ཐོ་རྩིས་དང༌།</value>
     <comment>Timer mode tooltip</comment>
   </data>
 </root>

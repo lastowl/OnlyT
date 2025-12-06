@@ -263,13 +263,13 @@
     <value>Setări</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Comori</value>
+    <value>COMORI DIN CUVÂNTUL LUI DUMNEZEU</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Predicare</value>
+    <value>SĂ FIM MAI EFICIENȚI ÎN PREDICARE</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Viața de creștin</value>
+    <value>VIAȚA DE CREȘTIN</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>La sfârșitul săptămânii</value>
@@ -732,5 +732,116 @@ Shift - Crește cu 5 min</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Mod întunecat</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configurează</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Respinge</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Actualizează</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Solicită acces</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Mod ecran complet</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platformă:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Stare:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 secunde</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minut</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minute</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 secunde</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minut</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minute</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Adunarea începe în</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Scanați cu dispozitivul mobil pentru a vizualiza ceasul web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>PERMISIUNI DE REȚEA</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Configurat</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Neconfigurat</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Timp suplimentar</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Întrerupt</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>În desfășurare</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Sonerie la depășirea timpului</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Clipire cronometru la depășirea timpului</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Scade timpul (-1 min). Clic dreapta pentru mai multe opțiuni.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generează raport de cronometrare (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Crește timpul (+1 min). Clic dreapta pentru mai multe opțiuni.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Versiune nouă disponibilă</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Afișează cronometru invers</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Restrânge la modul compact</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Introduceți codul de acces...</value>
   </data>
 </root>

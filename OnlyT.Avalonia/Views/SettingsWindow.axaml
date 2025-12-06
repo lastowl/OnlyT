@@ -47,6 +47,12 @@
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
             <Setter Property="MinHeight" Value="32"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="MaxDropDownHeight" Value="200"/>
+        </Style>
+        <Style Selector="ComboBoxItem">
+            <Setter Property="Padding" Value="8,4"/>
+            <Setter Property="MinHeight" Value="28"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
         </Style>
     </Window.Styles>
 

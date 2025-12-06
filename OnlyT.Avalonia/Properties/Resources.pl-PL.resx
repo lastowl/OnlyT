@@ -207,7 +207,7 @@
     <value>Uwagi końcowe</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Powtórka i zapowiedź następnego zebrania</value>
+    <value>Uwagi końcowe</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Zborowe studium Biblii</value>
@@ -263,13 +263,13 @@
     <value>Ustawienia</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Skarby ze Słowa Bożego</value>
+    <value>SKARBY ZE SŁOWA BOŻEGO</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ulepszajmy swą służbę</value>
+    <value>ULEPSZAJMY SWOJĄ SŁUŻBĘ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Chrześcijański tryb życia</value>
+    <value>CHRZEŚCIJAŃSKI TRYB ŻYCIA</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>W sobotę/niedzielę</value>
@@ -732,5 +732,116 @@ Shift - dodaj 5 minut</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Tryb ciemny</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Zamknij</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfiguruj</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Odrzuć</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Poproś o dostęp</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Tryb pełnoekranowy</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekund</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuta</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minut</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekund</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuta</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minut</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Zebranie rozpocznie się za</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Zeskanuj urządzeniem mobilnym, aby wyświetlić zegar internetowy</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>UPRAWNIENIA SIECIOWE</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Skonfigurowany</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nieskonfigurowany</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Przekroczony czas</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Wstrzymany</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Gotowy</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Uruchomiony</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Zatrzymany</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Sygnał dźwiękowy po przekroczeniu czasu</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Miganie licznika po przekroczeniu czasu</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Zmniejsz czas (-1 min). Kliknij prawym przyciskiem, aby zobaczyć więcej opcji.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Wygeneruj raport czasowy (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Zwiększ czas (+1 min). Kliknij prawym przyciskiem, aby zobaczyć więcej opcji.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Dostępna nowa wersja</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Pokaż licznik odliczający</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Zmniejsz do trybu kompaktowego</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Wprowadź kod dostępu...</value>
   </data>
 </root>

@@ -263,13 +263,13 @@
     <value>Pengaturan</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Harta</value>
+    <value>HARTA DALAM FIRMAN ALLAH</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Bersemangatlah Dalam Pelayanan</value>
+    <value>BERSEMANGATLAH DALAM PELAYANAN</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Kehidupan Kristen</value>
+    <value>KEHIDUPAN KRISTEN</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Akhir Pekan</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurasi</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Abaikan</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Muat Ulang</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Minta Akses</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Mode Layar Penuh</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platform:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 detik</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 menit</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 menit</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 detik</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 menit</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 menit</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Pertemuan dimulai dalam</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Pindai dengan perangkat seluler untuk melihat jam web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>IZIN JARINGAN</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Dikonfigurasi</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Belum Dikonfigurasi</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Waktu Tambahan</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Dijeda</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Siap</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Berjalan</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Berhenti</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Bunyikan Bel Saat Waktu Tambahan</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Kedipkan Penghitung Waktu Selama Waktu Tambahan</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Kurangi waktu (-1 menit). Klik kanan untuk opsi lainnya.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Buat laporan waktu (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Bantuan</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Tambah waktu (+1 menit). Klik kanan untuk opsi lainnya.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Versi baru tersedia</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Tampilkan penghitung mundur</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Perkecil ke mode kompak</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>men.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Masukkan kode akses...</value>
   </data>
 </root>

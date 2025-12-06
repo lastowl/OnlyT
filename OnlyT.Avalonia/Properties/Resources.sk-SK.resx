@@ -207,13 +207,13 @@
     <value>Záverečná reč</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Záverečné slová</value>
+    <value>Záver</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Zborové štúdium Biblie</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Poklady z Božieho Slova</value>
+    <value>Hľadáme duchovné poklady</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Život kresťana casť-1</value>
@@ -263,13 +263,13 @@
     <value>Nastavenie</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Poklady z Božieho Slova</value>
+    <value>POKLADY Z BOŽIEHO SLOVA</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Predvedenie</value>
+    <value>ZLEPŠUJME SA V SLUŽBE</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Život kresťana</value>
+    <value>ŽIVOT KRESŤANA</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Zhromaždenie cez víkend</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Tmavý mód</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Zavrieť</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurovať</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Zamietnuť</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Obnoviť</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Požiadať o prístup</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Režim celej obrazovky</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Stav:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekúnd</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minúta</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minút</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekúnd</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minúta</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minút</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Zhromaždenie začína o</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Naskenujte mobilným zariadením pre zobrazenie webových hodín</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>SIEŤOVÉ POVOLENIA</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Nakonfigurované</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nenakonfigurované</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Prekročený čas</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pozastavené</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Pripravené</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Beží</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Zastavené</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Zvoniť pri prekročení času</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Blikať časovač pri prekročení času</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Znížiť čas (-1 min). Pravé tlačidlo pre viac možností.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Vytvoriť časovú správu (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Zvýšiť čas (+1 min). Pravé tlačidlo pre viac možností.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>K dispozícii nová verzia</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Nastavenia</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Zobraziť odpočítavanie</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Zmenšiť na kompaktný režim</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Zadajte prístupový kód...</value>
   </data>
 </root>

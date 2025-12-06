@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Äänimerkki käytössä</value>
+    <value>Kello on aktiivinen</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -184,7 +184,7 @@
     <value>Digitaalinen</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Äänimerkki pois</value>
+    <value>Kello on passiivinen</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Viikkokokous</value>
@@ -469,11 +469,11 @@ Vaihto - Lisää 5M</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Laskentasuunta alas</value>
+    <value>Laskentaa alaspäin</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Laskentasuunta ylös</value>
+    <value>Laskentaa ylöspäin</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -582,7 +582,7 @@ Vaihto - Lisää 5M</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Vianetsintä</value>
+    <value>Virheenkorjaus</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -594,11 +594,11 @@ Vaihto - Lisää 5M</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informatiivinen</value>
+    <value>Tieto</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Laajennettu</value>
+    <value>Yksityiskohtainen</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -622,7 +622,7 @@ Vaihto - Lisää 5M</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Soita kelloa</value>
+    <value>Napsauta kellon äänittämiseksi</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">

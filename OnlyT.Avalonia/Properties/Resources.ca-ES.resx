@@ -733,4 +733,115 @@ Shift - Augmenta 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Tanca</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configura</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Descarta</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Actualitza</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Sol·licita accés</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Desa</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Mode de pantalla completa</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plataforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Estat:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 segons</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minut</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuts</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 segons</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minut</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuts</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>La reunió comença en</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Escaneja amb el dispositiu mòbil per veure el rellotge web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>PERMISOS DE XARXA</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Configurat</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>No configurat</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Temps addicional</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>En pausa</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Preparat</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>En execució</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Aturat</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Toca la campana en temps addicional</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Fes parpellejar el temporitzador durant el temps addicional</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Redueix el temps (-1 min). Clic dret per a més opcions.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Genera informe de temps (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Augmenta el temps (+1 min). Clic dret per a més opcions.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Nova versió disponible</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Mostra el temporitzador de compte enrere</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Redueix a mode compacte</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Introdueix el codi d'accés...</value>
+  </data>
 </root>

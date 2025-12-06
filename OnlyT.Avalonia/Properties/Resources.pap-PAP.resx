@@ -733,4 +733,115 @@ Shift - Increase 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Sera</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurá</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Disminí</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Aktua</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Pidi Akeso</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Warda</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Modus Pantaya Kompletu</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plataforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekònde</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minüt</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minüt</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekònde</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minüt</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minüt</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Reunion ta kuminsá den</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skanea ku dispozitivo móvil pa mira relò web</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>PERMISO DI RED</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurá</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>No Konfigurá</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Tempu Ekstra</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pauzá</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Kla</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Ta Kore</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Paralisá</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Toka Kanpana Ora Tempu Ekstra</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Kronòmeter Blink Durante Tempu Ekstra</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Disminuí tempu (-1 min). Klik drechi pa mas opshon.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generá informe di tempu (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Ayudo</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Oumentá tempu (+1 min). Klik drechi pa mas opshon.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Berzhon nobo disponibel</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Konfigureshon</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Mustra kronòmeter di konta bèk</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Haña mas chikí pa modus kompakto</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Introdusí kódigo di akeso...</value>
+  </data>
 </root>

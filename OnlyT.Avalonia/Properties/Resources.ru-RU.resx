@@ -263,13 +263,13 @@
     <value>Настройки</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Сокровища</value>
+    <value>СОКРОВИЩА ИЗ СЛОВА БОГА</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Навыки</value>
+    <value>ОТТАЧИВАЕМ НАВЫКИ СЛУЖЕНИЯ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Христианская жизнь</value>
+    <value>ХРИСТИАНСКАЯ ЖИЗНЬ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>В выходные дни</value>
@@ -732,5 +732,116 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Темная тема</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Настроить</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Запросить доступ</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Полноэкранный режим</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Платформа:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Статус:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 секунд</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 минута</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 минут</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 секунд</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 минута</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 минут</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Встреча начнется через</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Отсканируйте мобильным устройством для просмотра веб-часов</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>СЕТЕВЫЕ РАЗРЕШЕНИЯ</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Настроено</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Не настроено</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Превышение времени</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Приостановлено</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Остановлено</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Подать сигнал при превышении времени</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Мигать таймером при превышении времени</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Уменьшить время (-1 мин). Правый щелчок для дополнительных параметров.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Создать отчет о времени (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Увеличить время (+1 мин). Правый щелчок для дополнительных параметров.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Доступна новая версия</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Показать обратный отсчет</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Свернуть в компактный режим</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>мин.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Введите код доступа...</value>
   </data>
 </root>

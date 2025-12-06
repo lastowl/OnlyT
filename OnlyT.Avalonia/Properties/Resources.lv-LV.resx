@@ -733,4 +733,115 @@ Shift - Palielināt 5 min</value>
     <value>Tumšais režīms</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Aizvērt</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurēt</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Noraidīt</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Atsvaidzināt</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Pieprasīt piekļuvi</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Pilnekrāna režīms</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Statuss:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekundes</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minūte</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minūtes</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekundes</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minūte</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minūtes</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Sapulce sāksies pēc</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Skenējiet ar mobilo ierīci, lai skatītu tīmekļa pulksteni</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>TĪKLA ATĻAUJAS</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurēts</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nav konfigurēts</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Virsstundas</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Apturēts</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Gatavs</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Darbojas</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Apstādināts</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Zvana signāls virsstundu laikā</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Mirgo taimeris virsstundu laikā</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Samazināt laiku (-1 min). Ar labo peles pogu vairāk opciju.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Izveidot laika atskaiti (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Palīdzība</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Palielināt laiku (+1 min). Ar labo peles pogu vairāk opciju.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Pieejama jauna versija</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Iestatījumi</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Rādīt atpakaļskaitīšanas taimeri</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Samazināt uz kompakto režīmu</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Ievadiet piekļuves kodu...</value>
+  </data>
 </root>

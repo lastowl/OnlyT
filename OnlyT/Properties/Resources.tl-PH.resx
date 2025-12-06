@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell is active</value>
+    <value>Ang kampana ay aktibo</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -184,7 +184,7 @@
     <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell is inactive</value>
+    <value>Ang kampana ay hindi aktibo</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Gitnang Sanlinggo</value>
@@ -208,7 +208,7 @@
     <value>Manual</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Concluding Talk</value>
+    <value>Pagtatapos ng pag -uusap</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Pangwakas na Komento</value>
@@ -229,7 +229,7 @@
     <value>Pambungad na Komento</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>This Month's Presentations</value>
+    <value>Ang mga pagtatanghal ngayong buwan</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
     <value>Pahayag Pangmadla</value>
@@ -238,10 +238,10 @@
     <value>Pagbabasa ng Bibliya</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Service Talk</value>
+    <value>Serbisyo ng Serbisyo</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Treasures Talk</value>
+    <value>Mga Kayamanan mula sa Salita ng Diyos</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Pag-aaral ng Bantayan</value>
@@ -469,11 +469,11 @@ Shift - Increase 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Currently counting down</value>
+    <value>Binabawasan ang oras</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Currently counting up</value>
+    <value>Dinaragdagan ang oras</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -582,27 +582,27 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>I-debug</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Error</value>
+    <value>Kamalian</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>Mapanganib</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Information</value>
+    <value>Impormasyon</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>Detalyado</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Warning</value>
+    <value>Babala</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
@@ -622,7 +622,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Sound the bell</value>
+    <value>Mag-click upang tumugtog ng kampana</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -739,5 +739,107 @@ Shift - Increase 5m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuto</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Tumahimik</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Pag -urong sa compact mode</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Hindi na -configure</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuto</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Huminto</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Buong mode ng screen</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Flash timer sa panahon ng obertaym</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>Mga Pahintulot sa Network</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Handa na</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Nagsisimula ang pagpupulong</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Ipasok ang Access Code ...</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Mga setting</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Na -configure</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>I -configure</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>I -save</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 segundo</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 segundo</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Humiling ng pag -access</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Katayuan:</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Tumatakbo</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuto</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Bawasan ang oras (-1 min). Mag-right click para sa higit pang mga pagpipilian.</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Ipakita ang countdown timer</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>I -refresh</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Bumuo ng Ulat sa Timing (PDF)</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Mag -ring ng kampanilya kapag obertaym</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Magagamit ang bagong bersyon</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>I -scan gamit ang mobile device upang matingnan ang web orasan</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Tanggalin</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Tulong</value>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Malapit</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Dagdagan ang oras (+1 min). Mag-right click para sa higit pang mga pagpipilian.</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuto</value>
   </data>
 </root>

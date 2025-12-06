@@ -207,7 +207,7 @@
     <value>Slotlezing</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Besluit</value>
+    <value>Slutopmerkingen</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
     <value>Gemeentebijbelstudie</value>
@@ -263,13 +263,13 @@
     <value>Instellingen</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Schatten</value>
+    <value>SCHATTEN UIT GODS WOORD</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Velddienst</value>
+    <value>LEG JE TOE OP DE VELDDIENST</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Leven</value>
+    <value>LEVEN ALS CHRISTENEN</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Weekend</value>
@@ -732,5 +732,116 @@ Shift - Verhoog 5 m</value>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Donkere modus</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configureren</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Negeren</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Toegang aanvragen</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Volledig scherm</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platform:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 seconden</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuut</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuten</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 seconden</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuut</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuten</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Vergadering begint over</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Scan met mobiel apparaat om webklok te bekijken</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>NETWERKMACHTIGINGEN</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Geconfigureerd</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Niet geconfigureerd</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Overwerk</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Gepauzeerd</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Klaar</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Actief</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Gestopt</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Bel rinkelen bij overwerk</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Timer laten knipperen tijdens overwerk</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Tijd verminderen (-1 min). Rechtsklik voor meer opties.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Tijdrapport genereren (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Tijd verhogen (+1 min). Rechtsklik voor meer opties.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Nieuwe versie beschikbaar</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Afteltimer weergeven</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Verkleinen naar compacte modus</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Voer toegangscode in...</value>
   </data>
 </root>

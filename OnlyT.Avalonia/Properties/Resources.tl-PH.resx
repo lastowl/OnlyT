@@ -733,4 +733,115 @@ Shift - Increase 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="BTN_CLOSE" xml:space="preserve">
+    <value>Isara</value>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>I-configure</value>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Tanggalin</value>
+  </data>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>I-refresh</value>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Humiling ng Access</value>
+  </data>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>I-save</value>
+  </data>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Full Screen Mode</value>
+  </data>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platform:</value>
+  </data>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 segundo</value>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuto</value>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuto</value>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 segundo</value>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuto</value>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuto</value>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Magsisimula ang pulong sa loob ng</value>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>I-scan gamit ang mobile device upang tingnan ang web clock</value>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>MGA PAHINTULOT SA NETWORK</value>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Naka-configure</value>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Hindi Naka-configure</value>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Overtime</value>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Naka-pause</value>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Handa</value>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Tumatakbo</value>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Natigil</value>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Tumugtog ng Bell Kapag Overtime</value>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Mag-flash ang Timer Habang Overtime</value>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Bawasan ang oras (-1 min). Right-click para sa higit pang opsyon.</value>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Gumawa ng ulat ng oras (PDF)</value>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Tulong</value>
+  </data>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Dagdagan ang oras (+1 min). Right-click para sa higit pang opsyon.</value>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>May bagong bersyon na</value>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Ipakita ang countdown timer</value>
+  </data>
+  <data name="TIP_SHRINK" xml:space="preserve">
+    <value>Paliitin sa compact mode</value>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Ilagay ang access code...</value>
+  </data>
 </root>
