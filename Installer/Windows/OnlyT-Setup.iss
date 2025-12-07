@@ -89,14 +89,18 @@ begin
   Result := DirExists(ExpandConstant('{localappdata}\Elgato\StreamDeck'));
 end;
 
-// Custom initialization
-procedure InitializeWizard();
+// Called when wizard page changes - use this to modify task list when tasks page is shown
+procedure CurPageChanged(CurPageID: Integer);
 begin
-  // If StreamDeck is not installed, uncheck and disable the task
-  if not IsStreamDeckInstalled() then
+  // When we reach the tasks page, disable StreamDeck task if not installed
+  if CurPageID = wpSelectTasks then
   begin
-    WizardForm.TasksList.Checked[1] := False;
-    WizardForm.TasksList.ItemEnabled[1] := False;
+    if not IsStreamDeckInstalled() then
+    begin
+      // Index 0 = desktopicon, Index 1 = streamdeck
+      WizardForm.TasksList.Checked[1] := False;
+      WizardForm.TasksList.ItemEnabled[1] := False;
+    end;
   end;
 end;
 
