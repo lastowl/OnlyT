@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using CommunityToolkit.Mvvm.DependencyInjection;
@@ -445,6 +446,83 @@ public class App : Application
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to apply native title bar theme");
+        }
+    }
+
+    private void OnQuitClicked(object? sender, EventArgs e)
+    {
+        if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            desktop.Shutdown();
+        }
+    }
+
+    private async void OnAboutClicked(object? sender, EventArgs e)
+    {
+        try
+        {
+            if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop && desktop.MainWindow != null)
+            {
+                var version = VersionDetection.GetCurrentVersion();
+                var aboutWindow = new Window
+                {
+                    Title = "About OnlyT",
+                    Width = 400,
+                    Height = 250,
+                    WindowStartupLocation = WindowStartupLocation.CenterOwner,
+                    CanResize = false,
+                    Content = new StackPanel
+                    {
+                        Margin = new global::Avalonia.Thickness(30),
+                        Spacing = 15,
+                        HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center,
+                        VerticalAlignment = global::Avalonia.Layout.VerticalAlignment.Center,
+                        Children =
+                        {
+                            new TextBlock
+                            {
+                                Text = "OnlyT",
+                                FontSize = 28,
+                                FontWeight = global::Avalonia.Media.FontWeight.Bold,
+                                HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center
+                            },
+                            new TextBlock
+                            {
+                                Text = "Meeting Timer Application",
+                                FontSize = 14,
+                                HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center
+                            },
+                            new TextBlock
+                            {
+                                Text = $"Version {version}",
+                                FontSize = 12,
+                                HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center,
+                                Foreground = global::Avalonia.Media.Brushes.Gray
+                            },
+                            new TextBlock
+                            {
+                                Text = "© 2024 OnlyT",
+                                FontSize = 12,
+                                HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center,
+                                Foreground = global::Avalonia.Media.Brushes.Gray
+                            },
+                            new TextBlock
+                            {
+                                Text = "https://github.com/AntonyCorbett/OnlyT",
+                                FontSize = 11,
+                                HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center,
+                                Foreground = global::Avalonia.Media.Brushes.DodgerBlue
+                            }
+                        }
+                    }
+                };
+
+                await aboutWindow.ShowDialog(desktop.MainWindow);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to show About dialog");
         }
     }
 

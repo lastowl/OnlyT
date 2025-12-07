@@ -2,6 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:materialStyles="using:Material.Styles.Themes"
              x:Class="OnlyT.Avalonia.App"
+             Name="OnlyT"
              RequestedThemeVariant="Default">
     <Application.Styles>
         <materialStyles:MaterialTheme BaseTheme="Light" PrimaryColor="BlueGrey" SecondaryColor="Amber" />
@@ -15,4 +16,17 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
+    <!-- macOS Native Menu -->
+    <NativeMenu.Menu>
+        <NativeMenu>
+            <NativeMenuItem Header="OnlyT">
+                <NativeMenu>
+                    <NativeMenuItem Header="About OnlyT" Click="OnAboutClicked" />
+                    <NativeMenuItemSeparator />
+                    <NativeMenuItem Header="Quit OnlyT" Click="OnQuitClicked" Gesture="Cmd+Q" />
+                </NativeMenu>
+            </NativeMenuItem>
+        </NativeMenu>
+    </NativeMenu.Menu>
 </Application>

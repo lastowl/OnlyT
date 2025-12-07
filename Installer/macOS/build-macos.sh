@@ -1,6 +1,7 @@
 #!/bin/bash
 # OnlyT macOS Build and Notarization Script
 # This script builds, optionally signs/notarizes, and creates a DMG for OnlyT
+# Supports universal binary (Intel + Apple Silicon) builds
 
 set -e
 
@@ -20,13 +21,18 @@ APP_SPECIFIC_PASSWORD="${APP_SPECIFIC_PASSWORD:-}"  # xxxx-xxxx-xxxx-xxxx from a
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 BUILD_DIR="$PROJECT_ROOT/dist/macOS"
-PUBLISH_DIR="$PROJECT_ROOT/publish/osx-x64"
 APP_BUNDLE="$BUILD_DIR/$APP_NAME.app"
-DMG_NAME="$APP_NAME-$APP_VERSION.dmg"
 
-# Runtime identifiers for different architectures
-# osx-x64 for Intel, osx-arm64 for Apple Silicon
-RUNTIME_ID="${RUNTIME_ID:-osx-x64}"
+# Build type: "universal", "osx-x64", or "osx-arm64"
+# Default to universal if not specified
+BUILD_TYPE="${BUILD_TYPE:-universal}"
+
+# Set DMG name based on build type
+if [ "$BUILD_TYPE" = "universal" ]; then
+    DMG_NAME="$APP_NAME-$APP_VERSION-universal.dmg"
+else
+    DMG_NAME="$APP_NAME-$APP_VERSION-$BUILD_TYPE.dmg"
+fi
 
 # Determine if we can sign/notarize
 CAN_SIGN=false
@@ -41,7 +47,7 @@ fi
 
 echo "=== OnlyT macOS Build Script ==="
 echo "Version: $APP_VERSION"
-echo "Runtime: $RUNTIME_ID"
+echo "Build Type: $BUILD_TYPE"
 echo "Code Signing: $CAN_SIGN"
 echo "Notarization: $CAN_NOTARIZE"
 echo ""
@@ -66,10 +72,75 @@ fi
 rm -rf "$BUILD_DIR"
 mkdir -p "$BUILD_DIR"
 
-# Step 1: Build the application
+# Function to build for a specific runtime
+build_for_runtime() {
+    local runtime=$1
+    local output_dir="$PROJECT_ROOT/publish/$runtime"
+
+    echo "Building for $runtime..."
+    cd "$PROJECT_ROOT/OnlyT.Avalonia"
+    dotnet publish -c Release -r "$runtime" --self-contained true -p:PublishSingleFile=false -o "$output_dir"
+}
+
+# Function to create universal binary using lipo
+create_universal_binary() {
+    local x64_path=$1
+    local arm64_path=$2
+    local output_path=$3
+
+    if [ -f "$x64_path" ] && [ -f "$arm64_path" ]; then
+        # Check if files are Mach-O binaries
+        if file "$x64_path" | grep -q "Mach-O"; then
+            lipo -create "$x64_path" "$arm64_path" -output "$output_path"
+            return 0
+        fi
+    fi
+    return 1
+}
+
+# Step 1: Build the application(s)
 echo "Step 1: Building application..."
-cd "$PROJECT_ROOT/OnlyT.Avalonia"
-dotnet publish -c Release -r "$RUNTIME_ID" --self-contained true -p:PublishSingleFile=false -o "$PUBLISH_DIR"
+
+if [ "$BUILD_TYPE" = "universal" ]; then
+    # Build for both architectures
+    build_for_runtime "osx-x64"
+    build_for_runtime "osx-arm64"
+
+    X64_DIR="$PROJECT_ROOT/publish/osx-x64"
+    ARM64_DIR="$PROJECT_ROOT/publish/osx-arm64"
+    UNIVERSAL_DIR="$PROJECT_ROOT/publish/osx-universal"
+
+    # Create universal directory
+    rm -rf "$UNIVERSAL_DIR"
+    mkdir -p "$UNIVERSAL_DIR"
+
+    echo "Creating universal binaries..."
+
+    # Copy all files from x64 as base
+    cp -R "$X64_DIR/"* "$UNIVERSAL_DIR/"
+
+    # Find and create universal binaries for all Mach-O executables and dylibs
+    find "$X64_DIR" -type f \( -name "*.dylib" -o -perm +111 \) | while read x64_file; do
+        relative_path="${x64_file#$X64_DIR/}"
+        arm64_file="$ARM64_DIR/$relative_path"
+        universal_file="$UNIVERSAL_DIR/$relative_path"
+
+        if [ -f "$arm64_file" ]; then
+            # Check if it's a Mach-O binary
+            if file "$x64_file" | grep -q "Mach-O"; then
+                echo "  Creating universal: $relative_path"
+                mkdir -p "$(dirname "$universal_file")"
+                lipo -create "$x64_file" "$arm64_file" -output "$universal_file" 2>/dev/null || cp "$x64_file" "$universal_file"
+            fi
+        fi
+    done
+
+    PUBLISH_DIR="$UNIVERSAL_DIR"
+else
+    # Build for single architecture
+    build_for_runtime "$BUILD_TYPE"
+    PUBLISH_DIR="$PROJECT_ROOT/publish/$BUILD_TYPE"
+fi
 
 # Step 2: Create app bundle structure
 echo "Step 2: Creating app bundle..."
@@ -133,6 +204,18 @@ elif [ -f "$PROJECT_ROOT/OnlyT.Avalonia/Assets/onlyt.png" ]; then
     sips -z 1024 1024 "$PROJECT_ROOT/OnlyT.Avalonia/Assets/onlyt.png" --out "$BUILD_DIR/icon.iconset/icon_512x512@2x.png"
     iconutil -c icns "$BUILD_DIR/icon.iconset" -o "$APP_BUNDLE/Contents/Resources/onlyt.icns"
     rm -rf "$BUILD_DIR/icon.iconset"
+fi
+
+# Verify universal binary was created (if applicable)
+if [ "$BUILD_TYPE" = "universal" ]; then
+    echo ""
+    echo "Verifying universal binary..."
+    MAIN_EXEC="$APP_BUNDLE/Contents/MacOS/OnlyT"
+    if [ -f "$MAIN_EXEC" ]; then
+        file "$MAIN_EXEC"
+        lipo -info "$MAIN_EXEC" 2>/dev/null || echo "Note: Main executable may not be a fat binary"
+    fi
+    echo ""
 fi
 
 # Step 3: Code signing (optional)
@@ -210,9 +293,20 @@ To open it for the first time:
 "
 fi
 
+# Add architecture info to README
+if [ "$BUILD_TYPE" = "universal" ]; then
+    ARCH_NOTE="This is a universal binary that runs natively on both Intel and Apple Silicon Macs."
+elif [ "$BUILD_TYPE" = "osx-arm64" ]; then
+    ARCH_NOTE="This build is optimized for Apple Silicon (M1/M2/M3) Macs."
+else
+    ARCH_NOTE="This build is for Intel Macs. It will run on Apple Silicon via Rosetta 2."
+fi
+
 cat > "$DMG_TEMP/README.txt" << EOF
 OnlyT - Meeting Timer Application
 Version $APP_VERSION
+
+$ARCH_NOTE
 
 Installation:
 1. Drag OnlyT.app to the Applications folder
@@ -264,6 +358,7 @@ fi
 echo ""
 echo "=== Build Complete ==="
 echo "DMG: $BUILD_DIR/$DMG_NAME"
+echo "Build Type: $BUILD_TYPE"
 echo ""
 
 if [ "$CAN_SIGN" = false ]; then
@@ -272,5 +367,11 @@ if [ "$CAN_SIGN" = false ]; then
     echo "They can bypass this by right-clicking the app and selecting 'Open'."
     echo ""
 fi
+
+echo "Usage examples:"
+echo "  BUILD_TYPE=universal ./build-macos.sh   # Universal binary (default)"
+echo "  BUILD_TYPE=osx-x64 ./build-macos.sh     # Intel only"
+echo "  BUILD_TYPE=osx-arm64 ./build-macos.sh   # Apple Silicon only"
+echo ""
 
 echo "Done!"
