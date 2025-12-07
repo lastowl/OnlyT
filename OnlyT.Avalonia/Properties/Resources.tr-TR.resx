@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Zil etkin</value>
+    <value>Çan aktif</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Yok</value>
+    <value>Hiçbiri</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Tek yönlü</value>
+    <value>Tek Yön</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -138,11 +138,11 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 saat</value>
+    <value>12 saatlik</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-saat (başta sıfır)</value>
+    <value>12 saatlik (önceki sıfır)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,11 +150,11 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-saat (başta sıfır)</value>
+    <value>24 saat (önceki sıfır)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Klasör {0} oluşturulamadı</value>
+    <value>{0} klasörü oluşturulamadı</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -166,7 +166,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Asıl süre</value>
+    <value>Orijinal süre</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -174,7 +174,7 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analog ve dijital</value>
+    <value>Analog ve Dijital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Dijital</value>
@@ -183,16 +183,16 @@
     <value>Zil etkin değil</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Haftaiçi</value>
+    <value>Hafta ortası</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Hizmet - 1. görev</value>
+    <value>Bakanlık - Madde 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Hizmet - 2. görev</value>
+    <value>Bakanlık - Madde 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Hizmet - 3. görev</value>
+    <value>Bakanlık - Madde 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Otomatik</value>
@@ -204,98 +204,98 @@
     <value>Manuel</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Kapanış Konuşması</value>
+    <value>Sonuç Konuşması</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Kapanış Sözleri</value>
+    <value>Sonuç Yorumları</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Cemaat Kutsal Kitap İncelemesi</value>
+    <value>Cemaat İncil Çalışması</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Kutsal Kitap'tan İnciler</value>
+    <value>Manevi Mücevherler</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Yaşam Tarzımız - 1. Kısım</value>
+    <value>Yaşam - Bölüm 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Yaşam Tarzımız - 2. Kısım</value>
+    <value>Yaşam - Bölüm 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Açılış Sözleri</value>
+    <value>Açılış Yorumları</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Bu Ayın Sunuşları</value>
+    <value>Bu Ayın Sunumları</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Umumi Konuşma</value>
+    <value>Kamu Konuşması</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Kutsal Kitap Okuması</value>
+    <value>İncil Okuma</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
     <value>Hizmet Konuşması</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Hazineler Konuşması</value>
+    <value>Hazine Konuşması</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Gözcü Kulesi İncelemesi</value>
+    <value>Gözcü Kulesi Çalışması</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Haftasonu</value>
+    <value>Hafta sonu</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 saat (am/pm)</value>
+    <value>12 saatlik (sabah/akşam)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-saat (başta sıfır + am/pm)</value>
+    <value>12 saatlik (önceki sıfır ve sabah/öğleden sonra)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Yok</value>
+    <value>Hiçbiri</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Kronometre çalışırken ayarlar kullanılamaz!</value>
+    <value>Zamanlayıcı çalışırken ayarlar kullanılamaz!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Ayarlar</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>TANRI'NIN SÖZÜNDEKİ HAZİNELER</value>
+    <value>Hazineler</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>TARLA HİZMETİNDE KENDİNİZİ GELİŞTİRİN</value>
+    <value>Bakanlık</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>HIRİSTİYANLAR OLARAK YAŞAM TARZIMIZ</value>
+    <value>Yaşamak</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Haftasonu</value>
+    <value>Hafta sonu</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Ayarlar sistem yöneticisi tarafından devre dışı bırakılmıştır</value>
+    <value>Ayarlar yönetici tarafından devre dışı bırakıldı!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Hizmet - 4. görev</value>
+    <value>Bakanlık - Madde 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Çevre ziyareti</value>
+    <value>Devre ziyareti</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>GERİ SAYIMI KAPAT</value>
+    <value>KAPANMA GERİ SAYIMI</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Yardım</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[çevre ziyareti]</value>
+    <value>[devre ziyareti]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Yeni bir sürümü var!</value>
+    <value>Yeni sürüm mevcut!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>ANA</value>
@@ -306,19 +306,19 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Haftaiçi uyarlamalı mod</value>
+    <value>Haftanın ortasında uyarlanabilir mod</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Haftasonu uyarlamalı mod</value>
+    <value>Hafta sonu uyarlanabilir modu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>İleri doğru saymaya izin ver</value>
+    <value>Geri sayım geçişine izin ver</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Her zaman üstte</value>
+    <value>Her zaman zirvede</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -338,17 +338,17 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>İBADET İÇİN GERİ SAYIM</value>
+    <value>TOPLANTI GERİ SAYIMI</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Çevre ziyareti aç/kapat</value>
+    <value>Devre ziyareti geçişi</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Dijital saat formatı</value>
+    <value>Dijital saat biçimi</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Etkin</value>
+    <value>Etkinleştirilmiş</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -359,14 +359,14 @@
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>İbadet</value>
+    <value>Toplantı</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>İbadet başlangıç saatleri (her satıra 1 tane)</value>
+    <value>Toplantı başlangıç saatleri (satır başına 1)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>DİĞER</value>
+    <value>ÇEŞİTLİ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
@@ -376,13 +376,13 @@
     <value>Fare işaretçisini göster</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Her başlangıç saatini yeni bir satıra koy.</value>
+    <value>Her başlangıç saatini yeni bir satıra yazın.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>İstediğiniz zaman biçimini kullanın!</value>
+    <value>İstediğiniz zaman formatını kullanın!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>İsteğe bağlı olarak gün adı belirtin, "Per 19:15"</value>
+    <value>İsteğe bağlı olarak bir gün ekleyin, örneğin "Per 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Notlar:</value>
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Öğrenci süresi kalsın</value>
+    <value>Öğrenci zamanını devam ettir</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Konuşma süresi kalsın</value>
+    <value>Konuşma süresini kalıcı hale getir</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>Liman</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,7 +412,7 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Kadranı analog saat üstünde göster</value>
+    <value>Sektörü analog saatte göster</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
@@ -423,41 +423,41 @@
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Kısıtlanmış</value>
+    <value>Kısılmış</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Kronometre ileri doğru saysın</value>
+    <value>Zamanlayıcı saymaya devam ediyor</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>KRONOMETRE PENCERESİ</value>
+    <value>ZAMANLAYICI PENCERESİ</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Kronometre altında saati göster</value>
+    <value>Zamanlayıcı altındaki günün saati</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Ses:</value>
+    <value>Hacim:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Dil</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>OnlyT'yi sadece dili değiştirdikten sonra yeniden başlatın.</value>
+    <value>Lütfen dili değiştirdikten sonra OnlyT'yi yeniden başlatın.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1dk Azalt
-Ctrl - 15sn Azalt
-Shift - 5dk Azalt</value>
+    <value>1 dk Azalt
+Ctrl - 15 sn Azalt
+Shift - 5 dk Azalt</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1dk Artır
-Ctrl - 15sn Artır 
-Shift - 5dk Artır</value>
+    <value>1 dk. arttır
+Ctrl - 15 sn. arttır
+Shift - 5 dk. arttır</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - 5dk Artır</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Geri sayım yapılıyor</value>
+    <value>Geri sayım</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>İleri doğru sayım yapılıyor</value>
+    <value>Sayma</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Etkin</value>
+    <value>Etkinleştirilmiş</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Etkin</value>
+    <value>Etkinleştirilmiş</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Etkin</value>
+    <value>Etkinleştirilmiş</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Saniyeleri göster</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Çerçeve göster</value>
+    <value>Gösteri çerçevesi</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,7 +498,7 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Yakınlaştırma oranı:</value>
+    <value>Yakınlaştırma düzeyi:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -514,11 +514,11 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Sağ Alt</value>
+    <value>Sağ alt</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Ortala</value>
+    <value>Merkez</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,7 +530,7 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Üst</value>
+    <value>Tepe</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,11 +542,11 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Tamam</value>
+    <value>TAMAM</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port açıldı ve rezervasyon yapıldı</value>
+    <value>Liman açıldı ve rezervasyon yapıldı</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,31 +554,31 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Süre raporu oluşturuldu</value>
+    <value>Oluşturulan zamanlama raporu</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Raporlar oluştur</value>
+    <value>Raporlar oluşturun</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Kapanış Kısmı</value>
+    <value>Sonuç Bölümü</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Ara Kısım</value>
+    <value>Geçici Segment</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Giriş Kısmı</value>
+    <value>Giriş Bölümü</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Günlük seviyesi</value>
+    <value>Günlük kaydı seviyesi</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Hata ayıkla</value>
+    <value>Hata ayıklama</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kritik</value>
+    <value>Ölümcül</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -602,35 +602,35 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Kronometre verileri analiz ediliyor</value>
+    <value>Toplantı zamanlayıcı verilerinin analizi</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Rapor OLUŞTURULAMADI!</value>
+    <value>Rapor OLUŞTURULMADI!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>GÖSTER</value>
+    <value>GÖRÜŞ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Otomatik olarak ses</value>
+    <value>Otomatik ses</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Zili çal</value>
+    <value>Zil sesini duymak için tıklayın</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Süre (dk.)</value>
+    <value>Süre (dakika)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Ögeler</value>
+    <value>Elementler</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Kadran</value>
+    <value>Aramak</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
@@ -642,23 +642,23 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Saydam arkaplan</value>
+    <value>Şeffaf arka plan</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Monitörün komut satırı ayarıyla kontrol edildiğine dikkat edin</value>
+    <value>Monitörün bir komut satırı ayarıyla kontrol edildiğini unutmayın</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Kronometre için fon rengi</value>
+    <value>Zamanlayıcı arka plan gradyanı</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Saat için fon rengi</value>
+    <value>Saat arka plan gradyanı</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Kronometre çerçevesi</value>
+    <value>Zamanlayıcı çerçevesi</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,7 +666,7 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Hafta sonu Cuma dahil</value>
+    <value>Hafta sonu Cuma gününü içerir</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
@@ -698,150 +698,231 @@ Shift - 5dk Artır</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Küçültünce azalt</value>
+    <value>Küçültmek yerine küçültün</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>birincil</value>
+    <value>öncelik</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Çıktının bir komut satırı ayarı aracılığıyla NDI olarak ayarlandığını unutmayın.</value>
+    <value>Çıktının komut satırı ayarıyla NDI olarak ayarlandığını unutmayın.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Should you have started the timer?</value>
+    <value>Zamanlayıcıyı başlatmalı mıydın?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up reminders</value>
+    <value>Açılır hatırlatıcılar</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>Toplantı {0} dakika fazla mesai yapıyor</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>Toplantı {0} dakika gecikmeli olarak devam ediyor</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun notifications</value>
+    <value>Aşırı/Az bildirimleri</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>Karanlık mod</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Kapat</value>
+    <value>Kapalı</value>
+    <comment>Button label</comment>
   </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Yapılandır</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Kapat</value>
+  <data name="BTN_SAVE" xml:space="preserve">
+    <value>Kaydetmek</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
     <value>Yenile</value>
+    <comment>Button label</comment>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Yapılandır</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Erişim İste</value>
+    <value>Erişim Talebinde Bulunun</value>
+    <comment>Button label for macOS network access request</comment>
   </data>
-  <data name="BTN_SAVE" xml:space="preserve">
-    <value>Kaydet</value>
-  </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Tam Ekran Modu</value>
-  </data>
-  <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
-  </data>
-  <data name="LBL_STATUS" xml:space="preserve">
-    <value>Durum:</value>
-  </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 saniye</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 dakika</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 dakika</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 saniye</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 dakika</value>
-  </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 dakika</value>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Azletmek</value>
+    <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Toplantı başlamasına kalan süre</value>
+    <value>Toplantı başlıyor</value>
+    <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
     <value>Web saatini görüntülemek için mobil cihazınızla tarayın</value>
+    <comment>Instructions shown near QR code in settings</comment>
   </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>AĞ İZİNLERİ</value>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platform:</value>
+    <comment>Label for platform display in network settings</comment>
   </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Yapılandırılmış</value>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Durum:</value>
+    <comment>Label for status display</comment>
   </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Yapılandırılmamış</value>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Tam Ekran Modu</value>
+    <comment>Checkbox label in main settings</comment>
   </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Ek Süre</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Duraklatıldı</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Hazır</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Çalışıyor</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Durduruldu</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ek Sürede Zil Çal</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Ek Sürede Zamanlayıcıyı Yanıp Söndür</value>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Süreyi artırın (+1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+    <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Süreyi azalt (-1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+    <value>Süreyi azaltın (-1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+    <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
     <value>Zamanlama raporu oluştur (PDF)</value>
+    <comment>Tooltip for report generation button</comment>
   </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Yardım</value>
-  </data>
-  <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Süreyi artır (+1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Geri sayım zamanlayıcısını göster</value>
+    <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
     <value>Yeni sürüm mevcut</value>
+    <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
     <value>Ayarlar</value>
+    <comment>Tooltip for settings button</comment>
   </data>
-  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Geri sayım sayacını göster</value>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Yardım</value>
+    <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Kompakt moda geç</value>
+    <value>Kompakt moda küçült</value>
+    <comment>Tooltip for shrink/minimize button</comment>
   </data>
-  <data name="UNIT_MIN" xml:space="preserve">
-    <value>dk.</value>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 saniye</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 dakika</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 dakika</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 saniye</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 dakika</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 dakika</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>AĞ İZİNLERİ</value>
+    <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Uzatma Süresince Flaş Zamanlayıcısı</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Uzatmalarda Zil Çalar</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Hazır</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Koşma</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Duraklatıldı</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Mesai</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Durduruldu</value>
+    <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
     <value>Erişim kodunu girin...</value>
+    <comment>Watermark/placeholder text for access code input</comment>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>dakika</value>
+    <comment>Abbreviation for minute(s)</comment>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Yapılandırıldı</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Yapılandırılmadı</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
+    <value>Fatal</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="SOUND_BELL" xml:space="preserve">
+    <value>Click to sound bell</value>
+    <comment>Tooltip for bell during overtime</comment>
+  </data>
+  <data name="ACTIVE_BELL" xml:space="preserve">
+    <value>Bell is active</value>
+    <comment>Tooltip when bell is enabled</comment>
+  </data>
+  <data name="INACTIVE_BELL" xml:space="preserve">
+    <value>Bell is inactive</value>
+    <comment>Tooltip when bell is disabled</comment>
+  </data>
+  <data name="COUNTING_UP" xml:space="preserve">
+    <value>Counting up</value>
+    <comment>Timer mode tooltip</comment>
+  </data>
+  <data name="COUNTING_DOWN" xml:space="preserve">
+    <value>Counting down</value>
+    <comment>Timer mode tooltip</comment>
   </data>
 </root>

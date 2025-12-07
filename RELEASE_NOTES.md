@@ -9,7 +9,7 @@ This release marks a major milestone: OnlyT has been ported from WPF to Avalonia
 - **Cross-Platform Support**: OnlyT now runs natively on Windows, macOS, and Linux
 - **macOS Universal Binary**: Single DMG works on both Intel and Apple Silicon Macs
 - **macOS Native Menu**: Proper About and Quit menu integration in the macOS menu bar
-- **Linux AppImage**: Easy-to-use AppImage format with desktop integration
+- **Linux Support**: Portable tar.gz archives for x64 and ARM64
 - **Stream Deck Plugin**: Included with all platform installers
 
 ### Platform Downloads
@@ -18,11 +18,9 @@ This release marks a major milestone: OnlyT has been ported from WPF to Avalonia
 |----------|------|-------|
 | Windows | `OnlyT-Setup-2.4.0.14.exe` | Installer with optional Stream Deck plugin |
 | macOS (Universal) | `OnlyT-2.4.0.14-universal.dmg` | Intel + Apple Silicon |
-| macOS (Intel) | `OnlyT-2.4.0.14-osx-x64.dmg` | Intel Macs only |
-| macOS (Apple Silicon) | `OnlyT-2.4.0.14-osx-arm64.dmg` | M1/M2/M3 Macs only |
-| Linux | `OnlyT-2.4.0.14-x86_64.AppImage` | AppImage format |
-| Linux | `OnlyT-2.4.0.14-linux-x64.tar.gz` | Portable archive |
-| Stream Deck | `com.onlyt.timer-2.4.0.14.streamDeckPlugin` | Standalone plugin |
+| Linux (x64) | `OnlyT-2.4.0.14-linux-x64.tar.gz` | Portable archive |
+| Linux (ARM64) | `OnlyT-2.4.0.14-linux-arm64.tar.gz` | Portable archive for ARM |
+| Stream Deck | `com.onlyt.timer.sdPlugin` | Included in macOS DMG |
 
 ### macOS Notes
 

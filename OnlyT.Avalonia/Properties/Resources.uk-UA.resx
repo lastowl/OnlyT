@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Дзвінок увімкнений</value>
+    <value>Дзвінок активний</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Не вибрано</value>
+    <value>Жоден</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Односторонній</value>
+    <value>Односторонній рух</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,7 +134,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Версія ПЗ {0}</value>
+    <value>Версія програмного забезпечення {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -142,15 +142,15 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-годинний (від нуля)</value>
+    <value>12 годин (початковий нуль)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-годинний</value>
+    <value>24 години на добу</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-годинний (від нуля)</value>
+    <value>24-годинний (початковий нуль)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Змінена тривалість</value>
+    <value>Модифікована тривалість</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -174,131 +174,131 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Аналоговий та Цифровий</value>
+    <value>Аналоговий та цифровий</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Цифровий</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Дзвінок вимкнений</value>
+    <value>Дзвінок неактивний</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>В будні дні</value>
+    <value>Середина тижня</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Вдосконалюймо служіння - пункт 1</value>
+    <value>Міністерство - Пункт 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Вдосконалюймо служіння - пункт 2</value>
+    <value>Міністерство - Пункт 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Вдосконалюймо служіння - пункт 3</value>
+    <value>Міністерство - Пункт 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Автоматичний</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>З файлу</value>
+    <value>На основі файлів</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>Ручний</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Завершальні слова</value>
+    <value>Заключна промова</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Кінцеві слова</value>
+    <value>Заключні коментарі</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Вивчення Біблії у зборі</value>
+    <value>Вивчення Біблії в зборі</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
     <value>Духовні перлини</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Християнське життя – Пункт 1</value>
+    <value>Життя - Частина 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Християнське життя – Пункт 2</value>
+    <value>Життя - Частина 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Вступні слова</value>
+    <value>Вступні коментарі</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Вступи цього місяця</value>
+    <value>Презентації цього місяця</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Публічна промова</value>
+    <value>Публічна розмова</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Читання Біблії</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Службова промова</value>
+    <value>Розмова про обслуговування</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Скарби – Промова</value>
+    <value>Розмови про скарби</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Вивчення Вартової башти</value>
+    <value>Вивчення «Вартової вежі»</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>У вихідні дні</value>
+    <value>Вихідні</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-годинний</value>
+    <value>12-годинний (ранок/вечір)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-годинний (від нуля)</value>
+    <value>12-годинний (початковий нуль та am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Не вибрано</value>
+    <value>Жоден</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Під час работи таймеру налаштування недоступні!</value>
+    <value>Налаштування недоступні, поки працює таймер!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Налаштування</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>СКАРБИ З БОЖОГО СЛОВА</value>
+    <value>Скарби</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ВДОСКОНАЛЮЙМО СВОЄ СЛУЖІННЯ</value>
+    <value>Міністерство</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>ХРИСТИЯНСЬКЕ ЖИТТЯ</value>
+    <value>Життя</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>У вихідні дні</value>
+    <value>Вихідні</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Налаштування вимкнені адміністратором!</value>
+    <value>Налаштування вимкнено адміністратором!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Вдосконалюймо служіння - пункт 4</value>
+    <value>Міністерство - Пункт 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Візит районного</value>
+    <value>візит до округу</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>Закрити зворотній відлік</value>
+    <value>ЗАКРИТИ ЗВІЛЬНИЙ ВІДЛІК</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Довідка</value>
+    <value>Допомога</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[візит районного]</value>
+    <value>[візит до району]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Доступна нова версія!</value>
+    <value>Нова версія доступна!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>Основні</value>
+    <value>ГОЛОВНА</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,43 +306,43 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Адаптивний режим в будні дні</value>
+    <value>Адаптивний режим посеред тижня</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Адаптивний режим у вихідні дні</value>
+    <value>Адаптивний режим вихідного дня</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Перемикач відліку</value>
+    <value>Дозволити перемикання відліку вперед</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Поверх всіх вікон</value>
+    <value>Завжди на висоті</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>Додаток для віддаленого доступу</value>
+    <value>ВІДДАЛЕНІ ПРОГРАМИ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>Автоматичний режим</value>
+    <value>АВТОМАТИЧНИЙ РЕЖИМ</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Дзвінок</value>
+    <value>ДЗВІНОК</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>Веб годинник</value>
+    <value>ВЕБ-ГОДИНИК</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>Зворотній відлік</value>
+    <value>Зворотний відлік до зустрічі</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Перемикач "Візит районного"</value>
+    <value>Перемикач відвідування автодрому</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Формат цифрового годинника</value>
@@ -352,43 +352,43 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Повноекранний режим</value>
+    <value>Режим годинника на весь екран</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP-адреса</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Зібрання</value>
+    <value>Зустріч</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Час початку зібрання (1 в рядку)</value>
+    <value>Час початку зустрічей (1 на рядок)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>Інші</value>
+    <value>РІЗНЕ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
     <value>Монітор</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Показувати курсор</value>
+    <value>Показати вказівник миші</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Помістіть час початку в новому рядку.</value>
+    <value>Кожен час початку пишіть на новому рядку.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Можете використовувати будь-який формат часу!</value>
+    <value>Використовуйте будь-який формат часу, який вам подобається!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>При бажанні можна включити день, наприклад "Чт 19:15"</value>
+    <value>За бажанням, вкажіть день, наприклад, «Чт 19:15»</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Примітки:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>Відкрити порт</value>
+    <value>ВІДКРИТИЙ ПОРТ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Показувати час учнівського завдання</value>
+    <value>Зберегти студентський час</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Показувати час промови</value>
+    <value>Тривалість постійної розмови</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,7 +408,7 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>Віддалений доступ</value>
+    <value>ВІДДАЛЕНИЙ ДОСТУП</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -416,48 +416,48 @@
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Ширина разділювання екрану:</value>
+    <value>Ширина розділеного екрана:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>Перевірити</value>
+    <value>ТЕСТ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Періодично</value>
+    <value>Дросельовано</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Таймер підраховує</value>
+    <value>Таймер відраховує</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>Вікно таймеру</value>
+    <value>ВІКНО ТАЙМЕРА</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Час під таймером</value>
+    <value>Час доби за таймером</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Гучність:</value>
+    <value>Обсяг:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Мова</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Після змінення мови будь ласка перезапустіть OnlyT.</value>
+    <value>Будь ласка, перезапустіть OnlyT після зміни мови.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Decrease 1m
-Ctrl - Decrease 15s
-Shift - Decrease 5m</value>
+    <value>Зменшити на 1 м
+Ctrl - Зменшити на 15 с
+Shift - Зменшити на 5 м</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Increase 1m
-Ctrl - Increase 15s
-Shift - Increase 5m</value>
+    <value>Збільшити на 1 м
+Ctrl - Збільшити на 15 с
+Shift - Збільшити на 5 м</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -486,7 +486,7 @@ Shift - Increase 5m</value>
     <value>Увімкнено</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Показувати секунди</value>
+    <value>Показати секунди</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -498,79 +498,79 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Маштаб:</value>
+    <value>Рівень масштабування:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Разташування</value>
+    <value>Розташування</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Внизу</value>
+    <value>Дно</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Внизу зліва</value>
+    <value>Внизу ліворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Внизу зправа</value>
+    <value>Внизу праворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>По центрі</value>
+    <value>Центр</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Зліва</value>
+    <value>Ліворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Зправа</value>
+    <value>Праворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Вгорі</value>
+    <value>Верх</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Вгорі зліва</value>
+    <value>Угорі ліворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Вгорі зправа</value>
+    <value>Угорі праворуч</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Так</value>
+    <value>Гаразд</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Порт відкрито і зарезервовано</value>
+    <value>Порт відкрито та зроблено бронювання</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Не вдалося відкрити порт (дивись журнал)!</value>
+    <value>Не вдалося відкрити порт (див. журнал)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Формування звіту</value>
+    <value>Згенерований звіт про час</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Формувати звіт</value>
+    <value>Генерувати звіти</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>3 Пісня і молитва</value>
+    <value>Заключний сегмент</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>2 Пісня</value>
+    <value>Проміжний сегмент</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>1 Пісня і молитва</value>
+    <value>Вступний сегмент</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -578,7 +578,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Відлагодження</value>
+    <value>Налагодження</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Фатальна</value>
+    <value>Фатальний</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,35 +594,35 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Детальний</value>
+    <value>Багатослівний</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Увага</value>
+    <value>УВАГА</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Аналіз даних таймера зібрань</value>
+    <value>Аналіз даних таймера зустрічі</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Звіт не сформовано!</value>
+    <value>Звіт НЕ сформовано!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>Перегляд</value>
+    <value>ПЕРЕГЛЯНУТИ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Автоматичний звук</value>
+    <value>Автоматично вмикається звук</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Звук дзвінка</value>
+    <value>Натисніть, щоб пролунав дзвінок</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Тривалість (хвилин)</value>
+    <value>Тривалість (хв)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,15 +630,15 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Циферблатні</value>
+    <value>Циферблат</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Циферблатні та цифрові</value>
+    <value>Циферблат і цифровий</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Цифрові</value>
+    <value>Цифровий</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Зверніть увагу, що управління монітором здійснюється за допомогою командного рядка</value>
+    <value>Зверніть увагу, що монітор керується параметром командного рядка</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -654,11 +654,11 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Фоновий градієнт годинника</value>
+    <value>Градієнт фону годинника</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Рамка годинника</value>
+    <value>Кадр таймера</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Вихідні, включаючи п'ятницю</value>
+    <value>Вихідні включають п'ятницю</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Відобразити у вікні</value>
+    <value>З вікном</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Відобразити у вікні</value>
+    <value>З вікном</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Закрити вікно зворотнього відліку</value>
+    <value>Закрити вікно зворотного відліку</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Не вдається відкрити прозоре вікно зворотнього відліку</value>
+    <value>Не вдається відкрити прозорий зворотний відлік у вікні</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,154 +694,235 @@ Shift - Increase 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>поза мережею...</value>
+    <value>офлайн...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Стискати при згортанні</value>
+    <value>Зменшити при мінімізації</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>основний</value>
+    <value>первинний</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Зверніть увагу, вихідний сигнал спрямований на NDI через налаштування командного рядка.</value>
+    <value>Зверніть увагу, що для виводу встановлюється значення NDI за допомогою параметра командного рядка.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Should you have started the timer?</value>
+    <value>Чи варто було запускати таймер?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up reminders</value>
+    <value>Спливаючі нагадування</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>Зустріч триває на {0} хвилин довше</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>Зустріч триває на {0} хвилин швидше</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun notifications</value>
+    <value>Сповіщення про перевищення/недостатнє витрачання</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>Темний режим</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
     <value>Закрити</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Налаштувати</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Відхилити</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Оновити</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Запитати доступ</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
     <value>Зберегти</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Повноекранний режим</value>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Оновити</value>
+    <comment>Button label</comment>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Налаштувати</value>
+    <comment>Button label</comment>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Запит доступу</value>
+    <comment>Button label for macOS network access request</comment>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Відхилити</value>
+    <comment>Button label for dismissing notifications</comment>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Зустріч починається о</value>
+    <comment>Message shown on countdown window and web clock</comment>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Відскануйте за допомогою мобільного пристрою, щоб переглянути веб-годинник</value>
+    <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
     <value>Платформа:</value>
+    <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
     <value>Статус:</value>
+    <comment>Label for status display</comment>
   </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 секунд</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 хвилина</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 хвилин</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 секунд</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 хвилина</value>
-  </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 хвилин</value>
-  </data>
-  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Зібрання почнеться через</value>
-  </data>
-  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Скануйте мобільним пристроєм, щоб переглянути веб-годинник</value>
-  </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>МЕРЕЖЕВІ ДОЗВОЛИ</value>
-  </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Налаштовано</value>
-  </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Не налаштовано</value>
-  </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Перевищення часу</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Призупинено</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Готовий</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Працює</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Зупинено</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Дзвонити при перевищенні часу</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Блимати таймером при перевищенні часу</value>
-  </data>
-  <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Зменшити час (-1 хв). Клацніть правою кнопкою для додаткових опцій.</value>
-  </data>
-  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Створити звіт про хронометраж (PDF)</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Довідка</value>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Повноекранний режим</value>
+    <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Збільшити час (+1 хв). Клацніть правою кнопкою для додаткових опцій.</value>
+    <value>Збільшити час (+1 хв). Клацніть правою кнопкою миші, щоб переглянути більше опцій.</value>
+    <comment>Tooltip for increase time button</comment>
+  </data>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Зменшити час (-1 хв). Клацніть правою кнопкою миші, щоб переглянути більше опцій.</value>
+    <comment>Tooltip for decrease time button</comment>
+  </data>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Згенерувати звіт про час (PDF)</value>
+    <comment>Tooltip for report generation button</comment>
+  </data>
+  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
+    <value>Показати таймер зворотного відліку</value>
+    <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
     <value>Доступна нова версія</value>
+    <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
     <value>Налаштування</value>
+    <comment>Tooltip for settings button</comment>
   </data>
-  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Показати зворотний відлік</value>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Допомога</value>
+    <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
     <value>Зменшити до компактного режиму</value>
+    <comment>Tooltip for shrink/minimize button</comment>
   </data>
-  <data name="UNIT_MIN" xml:space="preserve">
-    <value>хв</value>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 секунд</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 хвилина</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 хвилин</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 секунд</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 хвилина</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 хвилин</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>МЕРЕЖЕВІ ДОЗВОЛИ</value>
+    <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Таймер спалаху під час овертайму</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Дзвінок у дзвінок, коли овертайм триває понаднормово</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Готовий</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Біг</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Призупинено</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Овертайм</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Зупинено</value>
+    <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
     <value>Введіть код доступу...</value>
+    <comment>Watermark/placeholder text for access code input</comment>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>хв</value>
+    <comment>Abbreviation for minute(s)</comment>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Налаштовано</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Не налаштовано</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
+    <value>Fatal</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="SOUND_BELL" xml:space="preserve">
+    <value>Click to sound bell</value>
+    <comment>Tooltip for bell during overtime</comment>
+  </data>
+  <data name="ACTIVE_BELL" xml:space="preserve">
+    <value>Bell is active</value>
+    <comment>Tooltip when bell is enabled</comment>
+  </data>
+  <data name="INACTIVE_BELL" xml:space="preserve">
+    <value>Bell is inactive</value>
+    <comment>Tooltip when bell is disabled</comment>
+  </data>
+  <data name="COUNTING_UP" xml:space="preserve">
+    <value>Counting up</value>
+    <comment>Timer mode tooltip</comment>
+  </data>
+  <data name="COUNTING_DOWN" xml:space="preserve">
+    <value>Counting down</value>
+    <comment>Timer mode tooltip</comment>
   </data>
 </root>

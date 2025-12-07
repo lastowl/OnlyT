@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,84 +118,84 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Ringklockan är igång</value>
+    <value>Klockan är aktiv</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Inget</value>
+    <value>Ingen</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Minska tiden</value>
+    <value>Envägs</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Öka/minska tiden</value>
+    <value>Tvåvägs</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Programversion {0}</value>
+    <value>Programvaruversion {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-timmar (0:00)</value>
+    <value>12-timmars</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-timmar (00:00)</value>
+    <value>12-timmars (inledande nolla)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-timmar (0:00)</value>
+    <value>24-timmars</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-timmar (00:00)</value>
+    <value>24-timmars (inledande nolla)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Kunde inte skapa mapp {0}</value>
+    <value>Kunde inte skapa mappen {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Anpassningsbar tidtagning</value>
+    <value>Anpassad varaktighet</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Ändrad varaktighet</value>
+    <value>Modifierad varaktighet</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Ursprunglig varaktighet</value>
+    <value>Ursprunglig längd</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogt</value>
+    <value>Analog</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogt och digitalt</value>
+    <value>Analog och digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Ringklockan är avstängd</value>
+    <value>Klockan är inaktiv</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Veckomötet</value>
+    <value>Mitt i veckan</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Övning för tjänsten - punkt 1</value>
+    <value>Ministeriet - Punkt 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Övning för tjänsten - punkt 2</value>
+    <value>Ministeriet - Punkt 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Övning för tjänsten - punkt 3</value>
+    <value>Ministeriet - Punkt 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automatiskt</value>
+    <value>Automatisk</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
     <value>Filbaserad</value>
@@ -204,82 +204,82 @@
     <value>Manuell</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Avslutande tal</value>
+    <value>Avslutande föredrag</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Avslutande ord</value>
+    <value>Avslutande kommentarer</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Församlingens bibelstudium</value>
+    <value>Församlingsbibelstudium</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Andliga guldkorn</value>
+    <value>Andliga pärlor</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Livet som kristen - punkt 1</value>
+    <value>Levnadssätt - Del 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Livet som kristen - punkt 2</value>
+    <value>Levnadssätt - Del 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Inledande ord</value>
+    <value>Inledande kommentarer</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Samtalsförslag</value>
+    <value>Denna månads presentationer</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Biblisk föreläsning</value>
+    <value>Offentligt samtal</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Bibelläsning</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Tjänstetal</value>
+    <value>Servicesamtal</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Höjdpunkter från bibeln - tal</value>
+    <value>Skatter pratar</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Vakttornsstudium</value>
+    <value>Vakttornsstudiet</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Helgmötet</value>
+    <value>Helgen</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-timmar (fm/em)</value>
+    <value>12-timmars (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-timmar (inledande nolla &amp; fm/em)</value>
+    <value>12-timmars (inledande nolla och am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ingen</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>När tidtagning är igång går det inte att ändra inställningar!</value>
+    <value>Inställningarna är inte tillgängliga medan timern är igång!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Inställningar</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>HÖJDPUNKTER FRÅN BIBELN</value>
+    <value>Skatter</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ÖVNING FÖR TJÄNSTEN</value>
+    <value>Departement</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>LIVET SOM KRISTEN</value>
+    <value>Levande</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Helgmötet</value>
+    <value>Helgen</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Administratören har inaktiverat dessa inställningar!</value>
+    <value>Inställningar inaktiverade av administratören!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Övning för tjänsten - punkt 4</value>
+    <value>Ministeriet - Punkt 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
     <value>Kretsbesök</value>
@@ -292,13 +292,13 @@
     <value>Hjälp</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[Kretsbesök]</value>
+    <value>[kretsbesök]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Uppdatering tillgänglig!</value>
+    <value>Ny version tillgänglig!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>HUVUDINSTÄLLNINGAR</value>
+    <value>HUVUD</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,23 +306,23 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Veckomötet anpassningsbar tidtagning</value>
+    <value>Anpassningsläge mitt i veckan</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Helgmötet anpassningsbar tidtagning</value>
+    <value>Anpassningsläge för helgen</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Växla mellan upp/nedräkning</value>
+    <value>Tillåt uppräkningsväxling</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Alltid överst</value>
+    <value>Alltid på topp</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>Fjärrappar</value>
+    <value>FJÄRRKONTROLLERAPPAR</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,29 +330,29 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Ringklocka</value>
+    <value>KLOCKA</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>Webbklocka</value>
+    <value>WEBKLOCKA</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>MÖTETS NEDRÄKNING</value>
+    <value>NEDRÄKNING TILL MÖTET</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Valbar kretsbesök</value>
+    <value>Växla mellan kretsbesök</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Digital klockformat</value>
+    <value>Digitalt klockformat</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Aktiverad</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Helskärmsläge för klockan</value>
+    <value>Helskärmsläge för klocka</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP-adress</value>
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Mötets starttid (1/rad)</value>
+    <value>Mötesstarttider (1 per rad)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>ÖVRIGT</value>
+    <value>DIVERSE</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Skärm</value>
+    <value>Övervaka</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Visa muspekaren</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Placera varje starttid på en ny rad.</value>
+    <value>Sätt varje starttid på en ny rad.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Använd valfri tidsformat!</value>
+    <value>Använd vilket tidsformat du vill!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Ta med veckodagen, exempelvis "Tors 19:15"</value>
+    <value>Inkludera valfritt en dag, t.ex. "tors 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Anteckningar:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ÖPPNA PORT</value>
+    <value>ÖPPEN PORT</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Visa elevens tid</value>
+    <value>Behåll studenttiden</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Visa talets tid</value>
+    <value>Varaktighet för ihållande samtal</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>Hamn</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,30 +412,30 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Visa sektorn på analog klocka</value>
+    <value>Visa sektor på analog klocka</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Bredd vid delad skärm:</value>
+    <value>Bredd på delad skärm:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>TESTA</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Begränsad</value>
+    <value>Strypt</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Tidtagaren räknar upp</value>
+    <value>Timern räknar upp</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIDTAGNINGSFÖNSTER</value>
+    <value>TIMERFÖNSTER</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Klockslag under tidtagning</value>
+    <value>Tid på dagen under timern</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -446,18 +446,18 @@
     <value>Språk</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Vänligen starta om OnlyT efter byte av språk.</value>
+    <value>Starta om OnlyT efter att du har bytt språk.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Minska 1m
-Ctrl - Minska 15s
-Shift - Minska 5m</value>
+    <value>Minska 1 m
+Ctrl - Minska 15 s
+Shift - Minska 5 m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Öka 1m
-Ctrl - Öka 15s
-Shift - Öka 5m</value>
+    <value>Öka 1 m
+Ctrl - Öka 15 s
+Shift - Öka 5 m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Öka 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Räknar ned</value>
+    <value>Nedräkning</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Räknar upp</value>
+    <value>Räknar uppåt</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -502,23 +502,23 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Position</value>
+    <value>Plats</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Längst ned</value>
+    <value>Botten</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Nere till vänster</value>
+    <value>Nederst till vänster</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Nere till höger</value>
+    <value>Nederst till höger</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Mitten</value>
+    <value>Centrum</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,19 +526,19 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Höger</value>
+    <value>Rätt</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Överst</value>
+    <value>Bästa</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Överst till vänster</value>
+    <value>Övre vänster</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Överst till höger</value>
+    <value>Övre högra</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,39 +546,39 @@ Shift - Öka 5m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port öppnad och reserverad</value>
+    <value>Hamnen öppnad och bokning gjord</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Kunde inte öppna port (se loggfil)!</value>
+    <value>Kunde inte öppna porten (se logg)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Tidrapport skapad</value>
+    <value>Genererad tidsrapport</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Skapa tidrapport</value>
+    <value>Generera rapporter</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Avslutande sång och bön</value>
+    <value>Avslutande segment</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Övergång</value>
+    <value>Interimssegment</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Inledande sång och bön</value>
+    <value>Introduktionssegment</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Loggnivå</value>
+    <value>Loggningsnivå</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Felsökning</value>
+    <value>Felsök</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kritiskt</value>
+    <value>Dödlig</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informativ</value>
+    <value>Information</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Detaljerad</value>
+    <value>Mångordig</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,27 +602,27 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analyserar timerdata</value>
+    <value>Analysera mötestimerdata</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Rapport kunde INTE skapas!</value>
+    <value>Rapporten genererades INTE!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>VISA</value>
+    <value>SE</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automatisk ljud</value>
+    <value>Automatiskt ljud</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Ge ljudsignal</value>
+    <value>Klicka för att ringa klockan</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Varaktighet (min)</value>
+    <value>Längd (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Urtavla</value>
+    <value>Ringa</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Urtavla och digitalt</value>
+    <value>Urtavla och digital</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,35 +646,35 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Observera att skärmen kontrolleras via en kommandoradinställning</value>
+    <value>Observera att bildskärmen styrs via en kommandoradsinställning.</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Tidtagningens bakgrundstoning</value>
+    <value>Timerbakgrundsgradient</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Klockans bakgrundstoning</value>
+    <value>Klocka bakgrundsgradient</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Tidtagningsram</value>
+    <value>Timerram</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Utan 3D</value>
+    <value>Platt klocka</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Fredag ingår i helg</value>
+    <value>Helgen inkluderar fredag</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Fönsterläge</value>
+    <value>Fönsterförsett</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Fönsterläge</value>
+    <value>Fönsterförsett</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - Öka 5m</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Kunde inte öppna i genomskinligt fönsterläge</value>
+    <value>Kan inte öppna den transparenta nedräkningen i fönster</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,15 +690,15 @@ Shift - Öka 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Tidtagare</value>
+    <value>Timers</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>inte ansluten...</value>
+    <value>off-line...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Förminska vid minimering</value>
+    <value>Krymp vid minimering</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -710,7 +710,7 @@ Shift - Öka 5m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Skulle du startat tidtagningen?</value>
+    <value>Borde du ha startat timern?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Öka 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Mötet har gått {0} minuter övertid</value>
+    <value>Mötet pågår i {0} minuter övertid</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Mötet har gått {0} minuter övertid</value>
+    <value>Mötet är {0} minuter för sent</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Notifiering av över-/undertid</value>
+    <value>Aviseringar om överskridande/underskridande</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,114 +734,195 @@ Shift - Öka 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Stäng</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurera</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Avfärda</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Uppdatera</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Begär åtkomst</value>
+    <value>Nära</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
     <value>Spara</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Helskärmsläge</value>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Uppdatera</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Plattform:</value>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurera</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Begär åtkomst</value>
+    <comment>Button label for macOS network access request</comment>
   </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 sekunder</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minut</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minuter</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 sekunder</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minut</value>
-  </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minuter</value>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Avfärda</value>
+    <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
     <value>Mötet börjar om</value>
+    <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skanna med mobil enhet för att visa webbklocka</value>
+    <value>Skanna med mobil enhet för att visa webbklockan</value>
+    <comment>Instructions shown near QR code in settings</comment>
   </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NÄTVERKSBEHÖRIGHETER</value>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Plattform:</value>
+    <comment>Label for platform display in network settings</comment>
   </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurerad</value>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+    <comment>Label for status display</comment>
   </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Ej konfigurerad</value>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Helskärmsläge</value>
+    <comment>Checkbox label in main settings</comment>
   </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Övertid</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pausad</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Redo</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Kör</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stoppad</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring klocka vid övertid</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Blinka timer vid övertid</value>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Öka tiden (+1 min). Högerklicka för fler alternativ.</value>
+    <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Minska tid (-1 min). Högerklicka för fler alternativ.</value>
+    <value>Minska tiden (-1 min). Högerklicka för fler alternativ.</value>
+    <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
     <value>Generera tidsrapport (PDF)</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Hjälp</value>
-  </data>
-  <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Öka tid (+1 min). Högerklicka för fler alternativ.</value>
-  </data>
-  <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Ny version tillgänglig</value>
-  </data>
-  <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Inställningar</value>
+    <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
     <value>Visa nedräkningstimer</value>
+    <comment>Tooltip for countdown button</comment>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Ny version tillgänglig</value>
+    <comment>Tooltip for new version indicator</comment>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Inställningar</value>
+    <comment>Tooltip for settings button</comment>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Hjälp</value>
+    <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
     <value>Krymp till kompakt läge</value>
+    <comment>Tooltip for shrink/minimize button</comment>
   </data>
-  <data name="UNIT_MIN" xml:space="preserve">
-    <value>min.</value>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekunder</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minut</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuter</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekunder</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minut</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuter</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>NÄTVERKSBEHÖRIGHETER</value>
+    <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Blixttimer under förlängning</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Ring i klockan vid övertid</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Redo</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Spring</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pausad</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Övertid</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Stoppad</value>
+    <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
     <value>Ange åtkomstkod...</value>
+    <comment>Watermark/placeholder text for access code input</comment>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+    <comment>Abbreviation for minute(s)</comment>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurerad</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Inte konfigurerad</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
+    <value>Fatal</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="SOUND_BELL" xml:space="preserve">
+    <value>Click to sound bell</value>
+    <comment>Tooltip for bell during overtime</comment>
+  </data>
+  <data name="ACTIVE_BELL" xml:space="preserve">
+    <value>Bell is active</value>
+    <comment>Tooltip when bell is enabled</comment>
+  </data>
+  <data name="INACTIVE_BELL" xml:space="preserve">
+    <value>Bell is inactive</value>
+    <comment>Tooltip when bell is disabled</comment>
+  </data>
+  <data name="COUNTING_UP" xml:space="preserve">
+    <value>Counting up</value>
+    <comment>Timer mode tooltip</comment>
+  </data>
+  <data name="COUNTING_DOWN" xml:space="preserve">
+    <value>Counting down</value>
+    <comment>Timer mode tooltip</comment>
   </data>
 </root>

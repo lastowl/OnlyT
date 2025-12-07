@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell Ta Zonando</value>
+    <value>Bell is active</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -138,7 +138,7 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-Hora</value>
+    <value>12-hour</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-Hora</value>
+    <value>24-hour</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
@@ -207,13 +207,13 @@
     <value>Concluding Talk</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Konklushon</value>
+    <value>Concluding Comments</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Estudio di Beibel di Kongregashon</value>
+    <value>Congregation Bible Study</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Hoya Spiritual</value>
+    <value>Spiritual Gems</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Living - Part 1</value>
@@ -222,7 +222,7 @@
     <value>Living - Part 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Introdukshon</value>
+    <value>Opening Comments</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
     <value>This Month's Presentations</value>
@@ -231,7 +231,7 @@
     <value>Public Talk</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Lesamentu di Beibel</value>
+    <value>Bible Reading</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
     <value>Service Talk</value>
@@ -465,11 +465,11 @@ Shift - Increase 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Currently counting down</value>
+    <value>Counting down</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Currently counting up</value>
+    <value>Counting up</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -618,7 +618,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Sound the bell</value>
+    <value>Click to sound bell</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -734,114 +734,195 @@ Shift - Increase 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Sera</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurá</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Disminí</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Aktua</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Pidi Akeso</value>
+    <value>Close</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Warda</value>
+    <value>Save</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Modus Pantaya Kompletu</value>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Button label</comment>
+  </data>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Configure</value>
+    <comment>Button label</comment>
+  </data>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Request Access</value>
+    <comment>Button label for macOS network access request</comment>
+  </data>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Dismiss</value>
+    <comment>Button label for dismissing notifications</comment>
+  </data>
+  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
+    <value>Meeting starts in</value>
+    <comment>Message shown on countdown window and web clock</comment>
+  </data>
+  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
+    <value>Scan with mobile device to view web clock</value>
+    <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Plataforma:</value>
+    <value>Platform:</value>
+    <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
     <value>Status:</value>
+    <comment>Label for status display</comment>
   </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 sekònde</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minüt</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minüt</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 sekònde</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minüt</value>
-  </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minüt</value>
-  </data>
-  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Reunion ta kuminsá den</value>
-  </data>
-  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skanea ku dispozitivo móvil pa mira relò web</value>
-  </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>PERMISO DI RED</value>
-  </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurá</value>
-  </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>No Konfigurá</value>
-  </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Tempu Ekstra</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pauzá</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Kla</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Ta Kore</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Paralisá</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Toka Kanpana Ora Tempu Ekstra</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Kronòmeter Blink Durante Tempu Ekstra</value>
-  </data>
-  <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Disminuí tempu (-1 min). Klik drechi pa mas opshon.</value>
-  </data>
-  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generá informe di tempu (PDF)</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Ayudo</value>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Full Screen Mode</value>
+    <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Oumentá tempu (+1 min). Klik drechi pa mas opshon.</value>
+    <value>Increase time (+1 min). Right-click for more options.</value>
+    <comment>Tooltip for increase time button</comment>
   </data>
-  <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Berzhon nobo disponibel</value>
+  <data name="TIP_DECREASE_TIME" xml:space="preserve">
+    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <comment>Tooltip for decrease time button</comment>
   </data>
-  <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Konfigureshon</value>
+  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
+    <value>Generate timing report (PDF)</value>
+    <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mustra kronòmeter di konta bèk</value>
+    <value>Show countdown timer</value>
+    <comment>Tooltip for countdown button</comment>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>New version available</value>
+    <comment>Tooltip for new version indicator</comment>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Tooltip for settings button</comment>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Help</value>
+    <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Haña mas chikí pa modus kompakto</value>
+    <value>Shrink to compact mode</value>
+    <comment>Tooltip for shrink/minimize button</comment>
+  </data>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 seconds</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minute</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minutes</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 seconds</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minute</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minutes</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>NETWORK PERMISSIONS</value>
+    <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Flash Timer During Overtime</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Ring Bell When Overtime</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Ready</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Running</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Paused</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Overtime</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Stopped</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
+    <value>Enter access code...</value>
+    <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
     <value>min</value>
+    <comment>Abbreviation for minute(s)</comment>
   </data>
-  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Introdusí kódigo di akeso...</value>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Configured</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Not Configured</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
+    <value>Fatal</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="SOUND_BELL" xml:space="preserve">
+    <value>Click to sound bell</value>
+    <comment>Tooltip for bell during overtime</comment>
+  </data>
+  <data name="ACTIVE_BELL" xml:space="preserve">
+    <value>Bell is active</value>
+    <comment>Tooltip when bell is enabled</comment>
+  </data>
+  <data name="INACTIVE_BELL" xml:space="preserve">
+    <value>Bell is inactive</value>
+    <comment>Tooltip when bell is disabled</comment>
+  </data>
+  <data name="COUNTING_UP" xml:space="preserve">
+    <value>Counting up</value>
+    <comment>Timer mode tooltip</comment>
+  </data>
+  <data name="COUNTING_DOWN" xml:space="preserve">
+    <value>Counting down</value>
+    <comment>Timer mode tooltip</comment>
   </data>
 </root>

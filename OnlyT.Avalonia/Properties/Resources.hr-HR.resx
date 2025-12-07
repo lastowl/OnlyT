@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -134,23 +134,23 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Verzija programa {0}</value>
+    <value>Verzija softvera {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-satni</value>
+    <value>12 sati</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-satni (s nulama)</value>
+    <value>12 sati (vodeća nula)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-satni</value>
+    <value>24 sata</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-satni (s nulama)</value>
+    <value>24 sata (vodeća nula)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -162,11 +162,11 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Promijenjeno trajanje</value>
+    <value>Modificirano trajanje</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Izvorno postavljeno trajanje</value>
+    <value>Izvorno trajanje</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -177,125 +177,125 @@
     <value>Analogni i digitalni</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digitalni</value>
+    <value>Digitalno</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Zvono nije aktivno</value>
+    <value>Zvono je neaktivno</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>U tjednu</value>
+    <value>Sredina nedjelje</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Služba - Točka 1</value>
+    <value>Ministarstvo - Stavka 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Služba - Točka 2</value>
+    <value>Ministarstvo - Stavka 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Služba - Točka 3</value>
+    <value>Ministarstvo - Stavka 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Automatski</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Prema datoteci</value>
+    <value>Na temelju datoteka</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Ručno</value>
+    <value>Priručnik</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
     <value>Završni govor</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Završna riječ</value>
+    <value>Zaključni komentari</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Skupštinsko razmatranje Biblije</value>
+    <value>Biblijski studij u skupštini</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Tragajmo za duhovnim blagom</value>
+    <value>Duhovni dragulji</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Živimo - Točka 1</value>
+    <value>Život - 1. dio</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Živimo - Točka 2</value>
+    <value>Život - 2. dio</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Uvodna riječ</value>
+    <value>Uvodni komentari</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Snimljena prezentacija</value>
+    <value>Prezentacije ovog mjeseca</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Javno predavanje</value>
+    <value>Javni razgovor</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Čitanje Biblije</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Govor - služba</value>
+    <value>Razgovor o usluzi</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Govor - Tragajmo...</value>
+    <value>Razgovor o blagu</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Stražarska kula</value>
+    <value>Studija Stražarske kule</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
     <value>Vikend</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-satni (am/pm)</value>
+    <value>12 sati (prijepodne/poslijepodne)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-satni (s nulom i am/pm)</value>
+    <value>12 sati (početna nula i am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ništa</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Postavke nisu dostupne dok je pokrenuta štoperica!</value>
+    <value>Postavke nisu dostupne dok je timer uključen!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Postavke</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>BLAGO IZ BOŽJE RIJEČI</value>
+    <value>Blaga</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>NAUČIMO KVALITETNIJE PROPOVIJEDATI</value>
+    <value>Ministarstvo</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>ŽIVIMO KAO KRŠĆANI</value>
+    <value>Život</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Vikend</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Administrator je onemogućio postavke!</value>
+    <value>Postavke je onemogućio administrator!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Služba - Točka 4</value>
+    <value>Ministarstvo - Stavka 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Posjet pokrajinskog nadglednika</value>
+    <value>Posjet krugu</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ZAUSTAVI ODBROJAVANJE</value>
+    <value>ZATVORI ODBROJAVANJE</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Pomoć</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[posjet pokrajinskog nadglednika]</value>
+    <value>[posjet pokrajini]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Dostupna je nova verzija!</value>
+    <value>Nova verzija dostupna!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>GLAVNI</value>
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Prilagođeni način za tjedan</value>
+    <value>Prilagodljivi način rada usred tjedna</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Prilagođeni način za vikend</value>
+    <value>Vikend adaptivni način rada</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Omogući promjenu načina odbrojavanja</value>
+    <value>Dopusti prebacivanje odbrojavanja prema gore</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,11 +322,11 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>UDALJENA APLIKACIJA</value>
+    <value>UDALJENE APLIKACIJE</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATSKI NAČIN</value>
+    <value>AUTOMATSKI NAČIN RADA</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
@@ -338,21 +338,21 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ODBROJAVANJE DO POČETKA SASTANKA</value>
+    <value>ODBROJAVANJE DO SASTANKA</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Prebaci na posjet pokrajinskog nadglednika</value>
+    <value>Prekidač za posjet krugu</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Oblik digitalnog sata</value>
+    <value>Format digitalnog sata</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Omogućeno</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Način rada sata preko cijelog zaslona</value>
+    <value>Način sata preko cijelog zaslona</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP adresa</value>
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Početak sastanka (1 po liniji)</value>
+    <value>Vremena početka sastanka (1 po retku)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>RAZNO</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Zaslon</value>
+    <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Prikaži pokazivač miša</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Upiši svako vrijeme početka na novu liniju.</value>
+    <value>Svako vrijeme početka stavite u novi redak.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Koristi oblik vremena koji ti se sviđa!</value>
+    <value>Koristite bilo koji format vremena koji želite!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Optionally include a day, e.g. "Thu 19:15"</value>
+    <value>Po želji uključite dan, npr. "čet 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Napomene:</value>
+    <value>Bilješke:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>OTVORI PORT</value>
+    <value>OTVORENI PRISTUP</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,80 +396,80 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Zadrži prikaz vremena učesnika</value>
+    <value>Ustrajno studentsko vrijeme</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Vrijeme zadržavanja vremena govora</value>
+    <value>Trajanje neprekidnog razgovora</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>Luka</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>UDALJENI PRISTUP</value>
+    <value>DALJINSKI PRISTUP</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Prikaži oznaku na analognom satu</value>
+    <value>Prikaži sektor na analognom satu</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Širina razdijeljenog zaslona:</value>
+    <value>Širina podijeljenog zaslona:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>TEST</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Suženo</value>
+    <value>Prigušeno</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Štoperica broji (umjesto odbrojavanja)</value>
+    <value>Tajmer odbrojava</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>PROZOR ŠTOPERICE</value>
+    <value>PROZOR VREMENA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Prikaži vrijeme ispod štoperice</value>
+    <value>Vrijeme dana pod timerom</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Glasnoća:</value>
+    <value>Volumen:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Jezik</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Molim ponovo pokreni OnlyT nakon promjena jezika.</value>
+    <value>Molimo ponovno pokrenite OnlyT nakon promjene jezika.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Decrease 1m
-Ctrl - Decrease 15s
-Shift - Decrease 5m</value>
+    <value>Smanji 1 m
+Ctrl - Smanji 15 s
+Shift - Smanji 5 m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Increase 1m
-Ctrl - Increase 15s
-Shift - Increase 5m</value>
+    <value>Povećaj 1 m
+Ctrl - Povećaj 15 s
+Shift - Povećaj 5 m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Ručno podešavanje</value>
+    <value>Ručni način rada</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Trenutno odbrojava</value>
+    <value>Odbrojavanje</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Trenutno broji</value>
+    <value>Brojanje</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -494,19 +494,19 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Clock frame</value>
+    <value>Okvir sata</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Razina uvećanja:</value>
+    <value>Razina zumiranja:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Položaj</value>
+    <value>Mjesto</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Na dnu</value>
+    <value>Dno</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,7 +518,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Centrirano</value>
+    <value>Centar</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,11 +526,11 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Desno</value>
+    <value>Pravo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Gore</value>
+    <value>Vrh</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,39 +542,39 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>U REDU</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Otvoren je port i napravljena rezervacija</value>
+    <value>Luka otvorena i rezervacija izvršena</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Nije moguće otvoriti port (pogledaj datoteku praćenja)!</value>
+    <value>Nije moguće otvoriti port (vidi zapisnik)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Izradi izvještaj o vremenu</value>
+    <value>Generirano izvješće o vremenu</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Izrada izvještaja</value>
+    <value>Generiranje izvješća</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Završni dio</value>
+    <value>Završni segment</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Prijelazni dio</value>
+    <value>Međusegment</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Uvodni dio</value>
+    <value>Uvodni segment</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Razina praćenja rada</value>
+    <value>Razina zapisivanja</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -582,15 +582,15 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Greška</value>
+    <value>Pogreška</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kritično</value>
+    <value>Kobno</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informacije</value>
+    <value>Informacija</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
@@ -602,131 +602,131 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analiziranje podataka štoperice</value>
+    <value>Analiza podataka mjerača vremena sastanka</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Izvještaj NIJE izrađen!</value>
+    <value>Izvješće NIJE generirano!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>PRIKAZ</value>
+    <value>POGLED</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automatically sound</value>
+    <value>Automatski zvuk</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Sound the bell</value>
+    <value>Kliknite za zvuk zvona</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Duration (mins)</value>
+    <value>Trajanje (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Elements</value>
+    <value>Elementi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Dial</value>
+    <value>Brojčanik</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial and digital</value>
+    <value>Brojčanik i digitalni</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Digitalno</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Transparent background</value>
+    <value>Prozirna pozadina</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Note that the monitor is controlled by a command-line setting</value>
+    <value>Imajte na umu da se monitorom upravlja postavkom naredbenog retka</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Timer background gradient</value>
+    <value>Gradijent pozadine timera</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Clock background gradient</value>
+    <value>Gradijent pozadine sata</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Timer frame</value>
+    <value>Okvir timera</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Flat clock</value>
+    <value>Ravni sat</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Weekend includes Friday</value>
+    <value>Vikend uključuje petak</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>S prozorom</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>S prozorom</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Close Countdown Window</value>
+    <value>Zatvori prozor odbrojavanja</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Cannot open transparent "windowed" countdown</value>
+    <value>Ne mogu otvoriti prozirno odbrojavanje u prozoru</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>Clock</value>
+    <value>Sat</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Timers</value>
+    <value>Tajmeri</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>izvan mreže...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Shrink on minimise</value>
+    <value>Smanji pri minimiziranju</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primary</value>
+    <value>primarni</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Note that output is set to NDI via a command-line setting.</value>
+    <value>Imajte na umu da je izlaz postavljen na NDI putem postavke naredbenog retka.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Should you have started the timer?</value>
+    <value>Trebao si pokrenuti timer?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up reminders</value>
+    <value>Skočni podsjetnici</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>Sastanak traje {0} minuta prekovremeno</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>Sastanak traje {0} minuta kraće od predviđenog vremena</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun notifications</value>
+    <value>Obavijesti o prekoračenju/nedostajanju</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,114 +734,195 @@ Shift - Increase 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Zatvori</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfiguriraj</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Odbaci</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Osvježi</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Zatraži pristup</value>
+    <value>Zatvoriti</value>
+    <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Spremi</value>
+    <value>Uštedjeti</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Način rada preko cijelog zaslona</value>
+  <data name="BTN_REFRESH" xml:space="preserve">
+    <value>Osvježiti</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platforma:</value>
+  <data name="BTN_CONFIGURE" xml:space="preserve">
+    <value>Konfigurirati</value>
+    <comment>Button label</comment>
   </data>
-  <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
+    <value>Zahtjev za pristup</value>
+    <comment>Button label for macOS network access request</comment>
   </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 sekundi</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minuta</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minuta</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 sekundi</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minuta</value>
-  </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minuta</value>
+  <data name="BTN_DISMISS" xml:space="preserve">
+    <value>Odbaciti</value>
+    <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
     <value>Sastanak počinje za</value>
+    <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
     <value>Skenirajte mobilnim uređajem za prikaz web sata</value>
+    <comment>Instructions shown near QR code in settings</comment>
   </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>MREŽNE DOZVOLE</value>
+  <data name="LBL_PLATFORM" xml:space="preserve">
+    <value>Platforma:</value>
+    <comment>Label for platform display in network settings</comment>
   </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurirano</value>
+  <data name="LBL_STATUS" xml:space="preserve">
+    <value>Status:</value>
+    <comment>Label for status display</comment>
   </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Nije konfigurirano</value>
+  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
+    <value>Način rada preko cijelog zaslona</value>
+    <comment>Checkbox label in main settings</comment>
   </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Prekoračenje</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pauzirano</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Spremno</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Aktivno</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Zaustavljeno</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Zvono kod prekoračenja</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Treperenje mjerača tijekom prekoračenja</value>
+  <data name="TIP_INCREASE_TIME" xml:space="preserve">
+    <value>Povećajte vrijeme (+1 min). Kliknite desnom tipkom miša za više opcija.</value>
+    <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Smanji vrijeme (-1 min). Desni klik za više opcija.</value>
+    <value>Smanjite vrijeme (-1 min). Kliknite desnom tipkom miša za više opcija.</value>
+    <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
     <value>Generiraj izvješće o vremenu (PDF)</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Pomoć</value>
-  </data>
-  <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Povećaj vrijeme (+1 min). Desni klik za više opcija.</value>
-  </data>
-  <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Dostupna nova verzija</value>
-  </data>
-  <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Postavke</value>
+    <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
     <value>Prikaži odbrojavanje</value>
+    <comment>Tooltip for countdown button</comment>
+  </data>
+  <data name="TIP_NEW_VERSION" xml:space="preserve">
+    <value>Dostupna nova verzija</value>
+    <comment>Tooltip for new version indicator</comment>
+  </data>
+  <data name="TIP_SETTINGS" xml:space="preserve">
+    <value>Postavke</value>
+    <comment>Tooltip for settings button</comment>
+  </data>
+  <data name="TIP_HELP" xml:space="preserve">
+    <value>Pomoć</value>
+    <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Smanji u kompaktni način rada</value>
+    <value>Smanji u kompaktni način</value>
+    <comment>Tooltip for shrink/minimize button</comment>
   </data>
-  <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
+    <value>+15 sekundi</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
+    <value>+1 minuta</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
+    <value>+5 minuta</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
+    <value>-15 sekundi</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
+    <value>-1 minuta</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
+    <value>-5 minuta</value>
+    <comment>Context menu item for time adjustment</comment>
+  </data>
+  <data name="SECTION_NETWORK" xml:space="preserve">
+    <value>MREŽNE DOZVOLE</value>
+    <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
+  </data>
+  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
+    <value>Flash Timer tijekom produžetka</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
+    <value>Zvoni zvono kada se radi prekovremeno</value>
+    <comment>Checkbox label in timer window settings</comment>
+  </data>
+  <data name="STATUS_READY" xml:space="preserve">
+    <value>Spreman</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_RUNNING" xml:space="preserve">
+    <value>Trčanje</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_PAUSED" xml:space="preserve">
+    <value>Pauzirano</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_OVERTIME" xml:space="preserve">
+    <value>Prekovremeni</value>
+    <comment>Timer status message</comment>
+  </data>
+  <data name="STATUS_STOPPED" xml:space="preserve">
+    <value>Zaustavljeno</value>
+    <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
     <value>Unesite pristupni kod...</value>
+    <comment>Watermark/placeholder text for access code input</comment>
+  </data>
+  <data name="UNIT_MIN" xml:space="preserve">
+    <value>min</value>
+    <comment>Abbreviation for minute(s)</comment>
+  </data>
+  <data name="STATUS_CONFIGURED" xml:space="preserve">
+    <value>Konfigurirano</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
+    <value>Nije konfigurirano</value>
+    <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
+    <value>Information</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
+    <value>Warning</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
+    <value>Error</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
+    <value>Fatal</value>
+    <comment>Log level display name</comment>
+  </data>
+  <data name="SOUND_BELL" xml:space="preserve">
+    <value>Click to sound bell</value>
+    <comment>Tooltip for bell during overtime</comment>
+  </data>
+  <data name="ACTIVE_BELL" xml:space="preserve">
+    <value>Bell is active</value>
+    <comment>Tooltip when bell is enabled</comment>
+  </data>
+  <data name="INACTIVE_BELL" xml:space="preserve">
+    <value>Bell is inactive</value>
+    <comment>Tooltip when bell is disabled</comment>
+  </data>
+  <data name="COUNTING_UP" xml:space="preserve">
+    <value>Counting up</value>
+    <comment>Timer mode tooltip</comment>
+  </data>
+  <data name="COUNTING_DOWN" xml:space="preserve">
+    <value>Counting down</value>
+    <comment>Timer mode tooltip</comment>
   </data>
 </root>
