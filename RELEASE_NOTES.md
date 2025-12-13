@@ -47,4 +47,4 @@ This release marks a major milestone: OnlyT has been ported from WPF to Avalonia
 
 ---
 
-For more information, visit: https://github.com/AntonyCorbett/OnlyT
+For more information, visit: https://github.com/lastowl/OnlyT

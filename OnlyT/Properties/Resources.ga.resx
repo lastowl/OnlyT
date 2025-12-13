@@ -888,48 +888,5 @@ Shift - Méadú 5m</value>
     <value>Gan Cumraithe</value>
     <comment>Firewall/network status indicator</comment>
   </data>
-  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Briathar</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Dífhabhtaithe</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Eolas</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Rabhadh</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Earráid</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Marfach</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="SOUND_BELL" xml:space="preserve">
-    <value>Cliceáil chun an clog a fhuaimniú</value>
-    <comment>Tooltip for bell during overtime</comment>
-  </data>
-  <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Tá Bell gníomhach</value>
-    <comment>Tooltip when bell is enabled</comment>
-  </data>
-  <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Tá Bell neamhghníomhach</value>
-    <comment>Tooltip when bell is disabled</comment>
-  </data>
-  <data name="COUNTING_UP" xml:space="preserve">
-    <value>Ag comhaireamh suas</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
-  <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Ag comhaireamh síos</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
+
 </root>

@@ -9,6 +9,7 @@ A cross-platform meeting timer built with C# and Avalonia UI (with the original 
 * **Configurable countdown duration** - Pre-meeting countdown is no longer fixed at 5 minutes
 * **Countdown on web clock** - Pre-meeting countdown can now be displayed on the web clock
 * **Live language switching** - Language can be changed without restarting the application
+* **Expanded translations** - Support for 140+ languages
 * **Maintained separately** - This fork may diverge from the upstream project
 
 ![Main Window](http://cv8.org.uk/soundbox/OnlyT/Images/MainWindow2.png)
@@ -51,7 +52,7 @@ For more information about the cross-platform version, see [OnlyT.Avalonia/READM
 
 ### Download
 
-Download the latest release from this fork's [Releases page](../../releases/latest).
+Download the latest release from this fork's [Releases page](https://github.com/lastowl/OnlyT/releases/latest).
 
 For the original Windows-only version, see the [original OnlyT releases](https://github.com/AntonyCorbett/OnlyT/releases/latest).
 
@@ -68,7 +69,9 @@ This fork is based on OnlyT, Copyright &copy; 2018, 2024 Antony Corbett and othe
 NAudio (Mark Heath) is used under the Microsoft Public License (Ms-PL). MaterialDesign themes (James Willock, Mulholland Software and Contributors) is used under the MIT license. NUglify, Copyright (c) 2016, Alexandre Mutel. QRCode (Raffael Herrmann) is used under MIT. Serilog is used under the Apache License Version 2.0, January 2004. LiteDB (Mauricio David) is used under the MIT License. PDFSharp is used under the MIT License.
 
 With thanks to:
-* Crowdin.com for localisation tools
+* [Antony Corbett](https://github.com/AntonyCorbett) for creating the original OnlyT project
+* The original OnlyT translators and [Crowdin.com](https://crowdin.com) contributors from the upstream project
 * GitHub for project management tools
 * [JetBrains](https://jb.gg/OpenSourceSupport) for Resharper tools
-* A team of over 20 translators who have helped localise OnlyT
+
+This fork has expanded translations to 140+ languages. Crowdin is not used for this fork; translations are managed directly in the repository.

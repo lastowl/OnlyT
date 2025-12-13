@@ -508,7 +508,7 @@ public class App : Application
                             },
                             new TextBlock
                             {
-                                Text = "https://github.com/AntonyCorbett/OnlyT",
+                                Text = "https://github.com/lastowl/OnlyT",
                                 FontSize = 11,
                                 HorizontalAlignment = global::Avalonia.Layout.HorizontalAlignment.Center,
                                 Foreground = global::Avalonia.Media.Brushes.DodgerBlue

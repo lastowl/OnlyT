@@ -1,5 +1,7 @@
 # OnlyT.Avalonia - Cross-Platform Version
 
+> This is part of the [OnlyT fork](https://github.com/lastowl/OnlyT) which extends the original with cross-platform support and additional features.
+
 This is the cross-platform version of OnlyT Meeting Timer built with Avalonia UI. It supports Windows, macOS, and Linux while the original OnlyT project remains a Windows-only WPF application.
 
 ## Project Structure

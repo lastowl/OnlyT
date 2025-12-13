@@ -888,48 +888,5 @@ Chanjman - Ogmante 5m</value>
     <value>Pa konfiguré</value>
     <comment>Firewall/network status indicator</comment>
   </data>
-  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Enfòmasyon</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Avètisman</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Erè</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klike pou sonnen klòch</value>
-    <comment>Tooltip for bell during overtime</comment>
-  </data>
-  <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell aktif</value>
-    <comment>Tooltip when bell is enabled</comment>
-  </data>
-  <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell inaktif</value>
-    <comment>Tooltip when bell is disabled</comment>
-  </data>
-  <data name="COUNTING_UP" xml:space="preserve">
-    <value>Konte moute</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
-  <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Konte desann</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
+
 </root>

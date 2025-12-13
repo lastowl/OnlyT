@@ -888,48 +888,5 @@ Ctrl - 15S-ті көбейту
     <value>Конфигурацияланбаған</value>
     <comment>Firewall/network status indicator</comment>
   </data>
-  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Ауызша</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Атқару</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Ақпарат</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Ескерту</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Қателік</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Жазмыш</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="SOUND_BELL" xml:space="preserve">
-    <value>Бел қоңырау шалу үшін басыңыз</value>
-    <comment>Tooltip for bell during overtime</comment>
-  </data>
-  <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Белл белсенді</value>
-    <comment>Tooltip when bell is enabled</comment>
-  </data>
-  <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Белл белсенді емес</value>
-    <comment>Tooltip when bell is disabled</comment>
-  </data>
-  <data name="COUNTING_UP" xml:space="preserve">
-    <value>Санау</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
-  <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Санау</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
+
 </root>

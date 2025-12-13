@@ -888,48 +888,5 @@ Yiyi - Mu 5m</value>
     <value>Ko tunto</value>
     <comment>Firewall/network status indicator</comment>
   </data>
-  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Orin Gidi</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Àwárí</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Alaye</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Ìkìlọ̀</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Aṣiṣe</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Ọ̀nà Lẹ́yìn</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="SOUND_BELL" xml:space="preserve">
-    <value>Tẹ láti gbọ́ agogo</value>
-    <comment>Tooltip for bell during overtime</comment>
-  </data>
-  <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Agogo ń ṣiṣẹ́</value>
-    <comment>Tooltip when bell is enabled</comment>
-  </data>
-  <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Agogo kò ṣiṣẹ́</value>
-    <comment>Tooltip when bell is disabled</comment>
-  </data>
-  <data name="COUNTING_UP" xml:space="preserve">
-    <value>Kíka síòkè</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
-  <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Kíka sísàlẹ̀</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
+
 </root>

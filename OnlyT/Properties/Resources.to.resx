@@ -888,48 +888,5 @@ Shift - Fakalahi 5m</value>
     <value>ʻIkai ke Fiemālieʻi</value>
     <comment>Firewall/network status indicator</comment>
   </data>
-  <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Lotolotonu</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Seakimi</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Fakamatala</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Fakatokanga</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Fehalaaki</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Mau Maloʻa</value>
-    <comment>Log level display name</comment>
-  </data>
-  <data name="SOUND_BELL" xml:space="preserve">
-    <value>Lomiʻi ke ongo ʻa e fafangu</value>
-    <comment>Tooltip for bell during overtime</comment>
-  </data>
-  <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ʻOku ngāue ʻa e fafangu</value>
-    <comment>Tooltip when bell is enabled</comment>
-  </data>
-  <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ʻOku taʻengāue ʻa e fafangu</value>
-    <comment>Tooltip when bell is disabled</comment>
-  </data>
-  <data name="COUNTING_UP" xml:space="preserve">
-    <value>Lau hake</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
-  <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Lau hifo</value>
-    <comment>Timer mode tooltip</comment>
-  </data>
+
 </root>
