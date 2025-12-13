@@ -1,6 +1,15 @@
-# OnlyT <img src="https://ci.appveyor.com/api/projects/status/d0wra2jk7o23fagx?svg=true">
+# OnlyT (Cross-Platform Fork)
 
-Windows Meeting Timer using C#, WPF and custom analogue clock control. Designed for use in Kingdom Halls where the meeting format is predefined, but has a "manual" and "file-based" mode that can be used to configure the timers as required (and so can be used in other settings too).
+> **This is a fork of [OnlyT by Antony Corbett](https://github.com/AntonyCorbett/OnlyT)**. The original project is an excellent Windows-only meeting timer. This fork extends it with cross-platform support and removes some of the restrictions present in the original version.
+
+A cross-platform meeting timer built with C# and Avalonia UI (with the original WPF version still included). Features both analogue and digital clock displays. Designed for use in Kingdom Halls where the meeting format is predefined, but includes "manual" and "file-based" modes that can be used to configure timers as required for other settings.
+
+### Key Differences from Original
+* **Cross-platform support** - Runs on Windows, macOS, and Linux
+* **Configurable countdown duration** - Pre-meeting countdown is no longer fixed at 5 minutes
+* **Countdown on web clock** - Pre-meeting countdown can now be displayed on the web clock
+* **Live language switching** - Language can be changed without restarting the application
+* **Maintained separately** - This fork may diverge from the upstream project
 
 ![Main Window](http://cv8.org.uk/soundbox/OnlyT/Images/MainWindow2.png)
 
@@ -42,17 +51,19 @@ For more information about the cross-platform version, see [OnlyT.Avalonia/READM
 
 ### Download
 
-If you just want to install the application, please download the [OnlyTSetup.exe](https://github.com/AntonyCorbett/OnlyT/releases/latest) file (there is also a portable version if you'd prefer to just copy a folder).
+Download the latest release from this fork's [Releases page](../../releases/latest).
+
+For the original Windows-only version, see the [original OnlyT releases](https://github.com/AntonyCorbett/OnlyT/releases/latest).
 
 ### Help
 
-See the [wiki](https://github.com/AntonyCorbett/OnlyT/wiki) for basic instructions and for information on where to get further help.
+See the [original wiki](https://github.com/AntonyCorbett/OnlyT/wiki) for basic instructions and for information on where to get further help.
 
 See the [FAQ](https://github.com/AntonyCorbett/OnlyT/wiki/FAQ) for frequently asked questions.
 
 ### License, etc
 
-OnlyT is Copyright &copy; 2018, 2024 Antony Corbett and other contributors under the [MIT license](LICENSE).
+This fork is based on OnlyT, Copyright &copy; 2018, 2024 Antony Corbett and other contributors under the [MIT license](LICENSE). Fork modifications are also released under the MIT license.
 
 NAudio (Mark Heath) is used under the Microsoft Public License (Ms-PL). MaterialDesign themes (James Willock, Mulholland Software and Contributors) is used under the MIT license. NUglify, Copyright (c) 2016, Alexandre Mutel. QRCode (Raffael Herrmann) is used under MIT. Serilog is used under the Apache License Version 2.0, January 2004. LiteDB (Mauricio David) is used under the MIT License. PDFSharp is used under the MIT License.
 
