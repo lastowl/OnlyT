@@ -267,5 +267,9 @@ __pycache__/
 /Installer/Staging
 dist/
 
+# Build secrets (DO NOT COMMIT)
+.build-secrets
+
 # VS Code settings
 .vscode/
+.DS_Store

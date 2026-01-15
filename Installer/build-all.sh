@@ -6,7 +6,7 @@ set -e
 
 # Configuration
 APP_NAME="OnlyT"
-APP_VERSION="2.4.0.14"
+APP_VERSION="2.4.0.16"
 
 # Paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

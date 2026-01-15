@@ -2,9 +2,9 @@
 ; This script creates a Windows installer that bundles OnlyT and the StreamDeck plugin
 
 #define MyAppName "OnlyT"
-#define MyAppVersion "2.4.0.14"
+#define MyAppVersion "2.4.0.16"
 #define MyAppPublisher "OnlyT"
-#define MyAppURL "https://github.com/AntonyCorbett/OnlyT"
+#define MyAppURL "https://github.com/lastowl/OnlyT"
 #define MyAppExeName "OnlyT.exe"
 
 [Setup]
