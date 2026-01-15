@@ -38,7 +38,7 @@
     </UserControl.Resources>
 
     <Viewbox>
-        <Grid Width="379" Height="311" Margin="8,2,8,2">
+        <Grid Width="379" Height="311" Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="31*" />
                 <RowDefinition Height="130*" />
@@ -138,13 +138,13 @@
                 <!-- Timer Display Border -->
                 <Border Grid.Column="0"
                         Grid.ColumnSpan="{Binding TimeDisplayColumnSpan}"
-                        Padding="10,10,14,10"
+                        Padding="10"
                         Background="Black"
                         CornerRadius="10">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="20" />
-                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="15" />
+                            <ColumnDefinition Width="284*" />
                         </Grid.ColumnDefinitions>
 
                         <!-- Bell Icon -->
@@ -233,10 +233,11 @@
                 <StackPanel Grid.Column="1"
                             Margin="10,5,0,5"
                             VerticalAlignment="Center"
-                            Spacing="4"
                             IsVisible="{Binding NotInShrinkMode}">
                     <Button Height="35"
+                            Margin="0,0,0,2"
                             Padding="0"
+                            VerticalAlignment="Top"
                             Command="{Binding IncrementTimeCommand}"
                             ToolTip.Tip="{loc:Localize TIP_INCREASE_TIME}">
                         <Button.ContextMenu>
@@ -246,10 +247,12 @@
                                 <MenuItem Header="{loc:Localize MENU_PLUS_5_MIN}" Command="{Binding IncrementTime5Command}"/>
                             </ContextMenu>
                         </Button.ContextMenu>
-                        <Path Data="{StaticResource PlusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="20" Height="20"/>
+                        <Path Data="{StaticResource PlusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="24" Height="24"/>
                     </Button>
                     <Button Height="35"
+                            Margin="0,2,0,0"
                             Padding="0"
+                            VerticalAlignment="Bottom"
                             Command="{Binding DecrementTimeCommand}"
                             ToolTip.Tip="{loc:Localize TIP_DECREASE_TIME}">
                         <Button.ContextMenu>
@@ -259,7 +262,7 @@
                                 <MenuItem Header="{loc:Localize MENU_MINUS_5_MIN}" Command="{Binding DecrementTime5Command}"/>
                             </ContextMenu>
                         </Button.ContextMenu>
-                        <Path Data="{StaticResource MinusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="20" Height="20"/>
+                        <Path Data="{StaticResource MinusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="24" Height="24"/>
                     </Button>
                 </StackPanel>
             </Grid>

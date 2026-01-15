@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell è attivo</value>
+    <value>Segnale acustico attivo</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Nessuno</value>
+    <value>Nessuna</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Senso Unico</value>
+    <value>Ritardo</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Bidirezionale</value>
+    <value>Ritardo e anticipo</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -180,19 +180,19 @@
     <value>Digitale</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell è inattivo</value>
+    <value>Segnale acustico inattivo</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>In metà settimana</value>
+    <value>Infrasettimanale</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministero - Punto 1</value>
+    <value>Ministero - Parte 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministero - Punto 2</value>
+    <value>Ministero - Parte 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministero - Punto 3</value>
+    <value>Ministero - Parte 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Automatico</value>
@@ -210,19 +210,19 @@
     <value>Commenti conclusivi</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Studio biblico della congregazione</value>
+    <value>Studio biblico di congregazione</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Gemme spirituali</value>
+    <value>Gemme Spirituali</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Vivere - Parte 1</value>
+    <value>Vita cristiana - Parte 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Vivere - Parte 2</value>
+    <value>Vita cristiana - Parte 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Commenti di apertura</value>
+    <value>Commenti introduttivi</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
     <value>Presentazioni di questo mese</value>
@@ -231,33 +231,33 @@
     <value>Discorso pubblico</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Lettura della Bibbia</value>
+    <value>Lettura biblica</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Servizio di conversazione</value>
+    <value>Discorso di servizio</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>I tesori parlano</value>
+    <value>Tesori della parola di Dio</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Studio della Torre di Guardia</value>
+    <value>Studio Torre di Guardia</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
     <value>Fine settimana</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 ore (mattina/pomeriggio)</value>
+    <value>12-hour (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 ore (zero iniziale e am/pm)</value>
+    <value>12-hour (leading zero &amp; am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Nessuno</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Impostazioni non disponibili mentre il timer è in esecuzione!</value>
+    <value>Impostazioni non disponibili con il timer in funzione!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Impostazioni</value>
@@ -269,7 +269,7 @@
     <value>Ministero</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Vita</value>
+    <value>Vita cristiana</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Fine settimana</value>
@@ -279,20 +279,20 @@
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministero - Punto 4</value>
+    <value>Ministero - Parte 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Visita del circuito</value>
+    <value>Visita sorvegliante</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>CHIUDI IL CONTO ALLA ROVESCIA</value>
+    <value>CHIUDI CONTATEMPO</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Aiuto</value>
+    <value>Guida</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[visita di circuito]</value>
+    <value>[visita sorvegliante]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Nuova versione disponibile!</value>
@@ -310,19 +310,19 @@
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Modalità adattiva del fine settimana</value>
+    <value>Modalità adattiva fine settimana</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Consenti attivazione/disattivazione del conteggio</value>
+    <value>Consenti scelta cronometro</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Sempre al top</value>
+    <value>Sempre in primo piano</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APP REMOTE</value>
+    <value>APPLICAZIONI REMOTE</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>CAMPANA</value>
+    <value>SEGNALE ACUSTICO</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -338,14 +338,14 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>CONTO ALLA ROVESCIA DELL'INCONTRO</value>
+    <value>TIMER INIZIO ADUNANZA</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Attiva/disattiva visita in circuito</value>
+    <value>Selettore visita sorvegliante</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Formato dell'orologio digitale</value>
+    <value>Formato orologio digitale</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Abilitato</value>
@@ -355,15 +355,15 @@
     <value>Modalità orologio a schermo intero</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>indirizzo IP</value>
+    <value>Indirizzo IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Incontro</value>
+    <value>Adunanza</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Orari di inizio delle riunioni (1 per riga)</value>
+    <value>Orari inizio adunanze (1 per riga)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>VARIE</value>
@@ -373,22 +373,22 @@
     <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Mostra il puntatore del mouse</value>
+    <value>Mostra puntatore del mouse</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Inserisci ogni ora di inizio su una nuova riga.</value>
+    <value>Metti ogni orario di inizio su una nuova riga.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Utilizza il formato orario che preferisci!</value>
+    <value>Usa il formato che preferisci!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Facoltativamente, includi un giorno, ad esempio "Gio 19:15"</value>
+    <value>Includi eventualmente un giorno, ad es. "Gio 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Note:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PORTA APERTA</value>
+    <value>APRI PORTA</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Mantenere il tempo degli studenti</value>
+    <value>Mantieni tempo studente</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Durata della conversazione persistente</value>
+    <value>Mantieni durata parte</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -412,22 +412,22 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Mostra il settore sull'orologio analogico</value>
+    <value>Mostra settore sull'orologio analogico</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Larghezza dello schermo diviso:</value>
+    <value>Posizione separatore schermo:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>PROVA</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Strozzato</value>
+    <value>Limitate</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Il timer conta</value>
+    <value>Conta tempo trascorso</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,7 +435,7 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Ora del giorno sotto timer</value>
+    <value>Ora del giorno sotto il timer</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -446,18 +446,18 @@
     <value>Lingua</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Dopo aver cambiato la lingua, riavviare OnlyT.</value>
+    <value>Si prega di riavviare OnlyT dopo aver cambiato la lingua.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Diminuisci di 1 minuto
-Ctrl - Diminuisci di 15 secondi
-Maiusc - Diminuisci di 5 secondi</value>
+    <value>Togli 1m
+Ctrl - Togli 15s
+Maiusc - Togli 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Aumenta di 1 minuto
-Ctrl - Aumenta di 15 secondi
-Maiusc - Aumenta di 5 secondi</value>
+    <value>Aggiungi 1m
+Ctrl - Aggiungi 15s
+Maiusc - Aggiungi 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Conto alla rovescia</value>
+    <value>Tempo rimanente</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Contare</value>
+    <value>Tempo trascorso</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,16 +477,16 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Abilitato</value>
+    <value>Attivate</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Abilitato</value>
+    <value>Attivato</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Abilitato</value>
+    <value>Attivato</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Mostra secondi</value>
+    <value>Mostra i secondi</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -494,7 +494,7 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Cornice dell'orologio</value>
+    <value>Cornice orologio</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -506,7 +506,7 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Metter il fondo a</value>
+    <value>In basso</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -526,11 +526,11 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Giusto</value>
+    <value>Destra</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Superiore</value>
+    <value>In alto</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -546,35 +546,35 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Porto aperto e prenotazione effettuata</value>
+    <value>Porta aperta e prenotazione effettuata</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Impossibile aprire la porta (vedere il registro)!</value>
+    <value>Impossibile aprire la porta! (Vedi registro)</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Report di temporizzazione generato</value>
+    <value>Rapporto dei tempi generato</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Generare report</value>
+    <value>Genera rapporti</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Segmento conclusivo</value>
+    <value>Parte finale</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Segmento intermedio</value>
+    <value>Parte intermedia</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Segmento introduttivo</value>
+    <value>Parte iniziale</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Livello di registrazione</value>
+    <value>Livello registro</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -590,35 +590,35 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informazioni</value>
+    <value>Informazione</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Prolisso</value>
+    <value>Verboso</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Avvertimento</value>
+    <value>Avviso</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analisi dei dati del timer della riunione</value>
+    <value>Analisi dati timer adunanza</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Segnalazione NON generata!</value>
+    <value>Rapporto NON generato!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>VISUALIZZAZIONE</value>
+    <value>GUARDA</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Suono automatico</value>
+    <value>Suona automaticamente</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Clicca per far suonare la campana</value>
+    <value>Fai suonare</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,15 +630,15 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Comporre</value>
+    <value>Quadrante</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Quadrante e digitale</value>
+    <value>Quadrante + numerico</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digitale</value>
+    <value>Numerico</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,19 +646,19 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Si noti che il monitor è controllato da un'impostazione della riga di comando</value>
+    <value>Nota che il monitor è controllato da un'impostazione della riga di comando</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Gradiente di sfondo del timer</value>
+    <value>Sfondo timer sfumato</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Gradiente di sfondo dell'orologio</value>
+    <value>Sfondo orologio sfumato</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Temporizzatore</value>
+    <value>Cornice timer</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -670,19 +670,19 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Finestrato</value>
+    <value>Finestra</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Finestrato</value>
+    <value>Finestra</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Chiudi finestra conto alla rovescia</value>
+    <value>Chiudi finestra contatempo</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Impossibile aprire il conto alla rovescia "in finestra" trasparente</value>
+    <value>Impossibile aprire timer trasparente in finestra</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,23 +690,23 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Timer</value>
+    <value>Cronometri</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>non in linea...</value>
+    <value>offline...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Ridurre al minimo</value>
+    <value>Compatta con "riduci a icona"</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primario</value>
+    <value>principale</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Si noti che l'output viene impostato su NDI tramite un'impostazione della riga di comando.</value>
+    <value>Notare che l'uscita è impostata su NDI tramite un'impostazione da riga di comando.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
@@ -714,19 +714,19 @@ Maiusc - Aumenta di 5 secondi</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Promemoria pop-up</value>
+    <value>Pop-up di promemoria</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>La riunione è in corso da {0} minuti di straordinario</value>
+    <value>L'adunanza è in ritardo di {0} minuti</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>La riunione è in ritardo di {0} minuti</value>
+    <value>L'adunanza è in anticipo di {0} minuti</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Notifiche di superamento/sottocarico</value>
+    <value>Notifiche di ritardo/anticipo</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
