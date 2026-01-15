@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using OnlyT.Core.Abstractions;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 namespace OnlyT.Avalonia.Platform.MacOS;

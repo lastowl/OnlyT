@@ -24,7 +24,7 @@ using OnlyT.Avalonia.WebServer;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Core.Abstractions;
 using OnlyT.EventTracking;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Sentry;
 using Serilog;
 using Serilog.Events;

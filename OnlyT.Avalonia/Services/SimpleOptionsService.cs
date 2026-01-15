@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using Newtonsoft.Json;
 using OnlyT.Avalonia.Services.Options;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 namespace OnlyT.Avalonia.Services;

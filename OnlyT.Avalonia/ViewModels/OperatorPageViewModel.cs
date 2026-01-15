@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
 using Avalonia.Media;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -277,6 +278,46 @@ public partial class OperatorPageViewModel : ObservableObject
 
         // Open timer output window on startup
         ShowTimerOutputWindow();
+
+        // Check for new version after a short delay
+        CheckForNewVersion();
+    }
+
+    private async void CheckForNewVersion()
+    {
+        try
+        {
+            await Task.Delay(2000); // Wait 2 seconds before checking
+
+            var newVersionAvailable = await VersionDetection.IsNewVersionAvailableAsync();
+            if (newVersionAvailable)
+            {
+                Log.Information("New version available");
+                IsNewVersionAvailable = true;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error checking for new version");
+        }
+    }
+
+    [RelayCommand]
+    private void OpenNewVersionPage()
+    {
+        try
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = VersionDetection.LatestReleaseUrl,
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error opening releases page");
+        }
     }
 
     private void OnReminderTriggered(object? sender, ReminderEventArgs e)

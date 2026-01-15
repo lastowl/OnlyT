@@ -1,6 +1,6 @@
 using System;
 
-namespace OnlyT.Utils;
+namespace OnlyT.Avalonia.Utils;
 
 /// <summary>
 /// Date utilities

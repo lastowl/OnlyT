@@ -5,7 +5,7 @@ using System.IO;
 using System.Threading.Tasks;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Report.Pdf;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 /// <summary>

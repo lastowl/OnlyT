@@ -341,7 +341,8 @@
                     </Button>
 
                     <!-- New Version Download Button -->
-                    <Button ToolTip.Tip="{loc:Localize TIP_NEW_VERSION}"
+                    <Button Command="{Binding OpenNewVersionPageCommand}"
+                            ToolTip.Tip="{loc:Localize TIP_NEW_VERSION}"
                             Width="38"
                             Height="38"
                             CornerRadius="19"
