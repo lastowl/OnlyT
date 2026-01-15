@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bjelle er aktiv</value>
+    <value>Overtidssignal er aktivert</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -184,7 +184,7 @@
     <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bjelle er inaktiv</value>
+    <value>Overtidssignal deaktivert</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Midtuke</value>
@@ -408,7 +408,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Havn</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -453,15 +453,15 @@
     <value>Vennligst restart OnlyT etter endring av språk.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Reduser 1m
-Ctrl - Reduser 15s
-Shift - Reduser 5m</value>
+    <value>Decrease 1m
+Ctrl - Decrease 15s
+Shift - Decrease 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Øk 1m
-Ctrl - Øk 15s
-Shift - Øk 5m</value>
+    <value>Increase 1m
+Ctrl - Increase 15s
+Shift - Increase 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -469,11 +469,11 @@ Shift - Øk 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Teller ned</value>
+    <value>Teller nedover</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Teller opp</value>
+    <value>Teller oppover</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -582,7 +582,7 @@ Shift - Øk 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Feilsøk</value>
+    <value>Feilsøking</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -590,7 +590,7 @@ Shift - Øk 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>Kritisk</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -622,7 +622,7 @@ Shift - Øk 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klikk for å lyde bjelle</value>
+    <value>Gi lydvarsel</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -705,144 +705,43 @@ Shift - Øk 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Krymp på minimer</value>
+    <value>Shrink on minimise</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primær</value>
+    <value>primary</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Merk at utdata er satt til NDI via en kommandolinjeinnstilling.</value>
+    <value>Note that output is set to NDI via a command-line setting.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Burde du ha startet timeren?</value>
+    <value>Should you have started the timer?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Popup-påminnelser</value>
+    <value>Pop-up reminders</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Møtet kjører {0} minutter overtid</value>
+    <value>The meeting is running {0} minutes overtime</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Møtet varer i {0} minutter undertid</value>
+    <value>The meeting is running {0} minutes undertime</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Varsler om overløp/underløp</value>
+    <value>Overrun/Underrun notifications</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Mørk modus</value>
+    <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutter</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pause</value>
-  </data>
-  <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Krymp til kompakt modus</value>
-  </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Ikke konfigurert</value>
-  </data>
-  <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Plattform:</value>
-  </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtid</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minutt</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stoppet</value>
-  </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Fullskjermmodus</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Blitstimer under overtid</value>
-  </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETTVERKSTILLATELSER</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Ferdig</value>
-  </data>
-  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Møtet starter kl</value>
-  </data>
-  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Skriv inn tilgangskode...</value>
-  </data>
-  <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Innstillinger</value>
-  </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurert</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurer</value>
-  </data>
-  <data name="BTN_SAVE" xml:space="preserve">
-    <value>Spare</value>
-  </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 sekunder</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 sekunder</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Be om tilgang</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Løper</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutter</value>
-  </data>
-  <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Reduser tid (-1 min). Høyreklikk for flere alternativer.</value>
-  </data>
-  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Vis nedtellingstidtaker</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Forfriske</value>
-  </data>
-  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generer tidsrapport (PDF)</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ringeklokke ved overtid</value>
-  </data>
-  <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Ny versjon tilgjengelig</value>
-  </data>
-  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skann med mobilenhet for å se nettklokke</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Avskjedige</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Hjelp</value>
-  </data>
-  <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Lukke</value>
-  </data>
-  <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Øk tiden (+1 min). Høyreklikk for flere alternativer.</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minutt</value>
+  <data name="ALLOW_MOUSE_WHEEL_TIMER_ADJUST" xml:space="preserve">
+    <value>Allow mouse wheel to adjust timer</value>
+    <comment>See Settings, Miscellaneous</comment>
   </data>
 </root>

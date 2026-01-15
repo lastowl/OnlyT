@@ -11,14 +11,12 @@ using OnlyT.ViewModel.Messages;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Windows.Media.Imaging;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.CountdownTimer;
 using OnlyT.Services.Snackbar;
 using Serilog;
 using Serilog.Events;
-using System.IO;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
@@ -832,6 +830,20 @@ public class SettingsPageViewModel : ObservableObject, IPage
         }
     }
 
+    public bool AllowMouseWheelTimerAdjust
+    {
+        get => _optionsService.Options.AllowMouseWheelTimerAdjust;
+        set
+        {
+            if (_optionsService.Options.AllowMouseWheelTimerAdjust != value)
+            {
+                _optionsService.Options.AllowMouseWheelTimerAdjust = value;
+                OnPropertyChanged();
+                WeakReferenceMessenger.Default.Send(new MouseWheelTimerAdjustChangedMessage());
+            }
+        }
+    }
+
     public bool ClockIsFlat
     {
         get => _optionsService.Options.ClockIsFlat;
@@ -1129,6 +1141,7 @@ public class SettingsPageViewModel : ObservableObject, IPage
             CreateLanguageItem("ro-RO"),
             CreateLanguageItem("ru-RU"),
             CreateLanguageItem("sk-SK"),
+            CreateLanguageItem("sl-SI"),
             CreateLanguageItem("sv-SE"),
             CreateLanguageItem("tl-PH"),
             CreateLanguageItem("tr-TR"),

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bel aktif</value>
+    <value>Bel Aktif</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -184,7 +184,7 @@
     <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bel tidak aktif</value>
+    <value>Bel Aktif</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Tengah Pekan</value>
@@ -208,7 +208,7 @@
     <value>Manual</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Pembicaraan Penutup</value>
+    <value>Concluding Talk</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Bagian Penutup</value>
@@ -238,7 +238,7 @@
     <value>Pembacaan Alkitab</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Pembicaraan Layanan</value>
+    <value>Service Talk</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
     <value>Khotbah Harta Dalam Firman Allah</value>
@@ -469,11 +469,11 @@ Shift - Increase 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Menghitung mundur</value>
+    <value>Sedang Menghitung Mundur</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Menghitung maju</value>
+    <value>Sedang Menghitung Maju</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Kesalahan</value>
+    <value>Error</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
@@ -598,7 +598,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Rinci</value>
+    <value>Secara terperinci</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -622,7 +622,7 @@ Shift - Increase 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klik untuk membunyikan bel</value>
+    <value>Sound the bell</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -740,109 +740,8 @@ Shift - Increase 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
-  <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 menit</value>
-  </data>
-  <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Dijeda</value>
-  </data>
-  <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Kecilkan ke mode kompak</value>
-  </data>
-  <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Tidak Dikonfigurasi</value>
-  </data>
-  <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Lembur</value>
-  </data>
-  <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 menit</value>
-  </data>
-  <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Berhenti</value>
-  </data>
-  <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Modus Layar Penuh</value>
-  </data>
-  <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Pengatur Waktu Flash Saat Perpanjangan Waktu</value>
-  </data>
-  <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>IZIN JARINGAN</value>
-  </data>
-  <data name="STATUS_READY" xml:space="preserve">
-    <value>Siap</value>
-  </data>
-  <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Rapat dimulai pada</value>
-  </data>
-  <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Masukkan kode akses...</value>
-  </data>
-  <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Pengaturan</value>
-  </data>
-  <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Dikonfigurasi</value>
-  </data>
-  <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurasikan</value>
-  </data>
-  <data name="BTN_SAVE" xml:space="preserve">
-    <value>Menyimpan</value>
-  </data>
-  <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 detik</value>
-  </data>
-  <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 detik</value>
-  </data>
-  <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Minta Akses</value>
-  </data>
-  <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Berlari</value>
-  </data>
-  <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 menit</value>
-  </data>
-  <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Kurangi waktu (-1 menit). Klik kanan untuk opsi lainnya.</value>
-  </data>
-  <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Tampilkan penghitung waktu mundur</value>
-  </data>
-  <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Menyegarkan</value>
-  </data>
-  <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Hasilkan laporan waktu (PDF)</value>
-  </data>
-  <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Membunyikan Lonceng Saat Lembur</value>
-  </data>
-  <data name="UNIT_MIN" xml:space="preserve">
-    <value>mnt</value>
-  </data>
-  <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Versi baru tersedia</value>
-  </data>
-  <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Pindai dengan perangkat seluler untuk melihat jam web</value>
-  </data>
-  <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Membubarkan</value>
-  </data>
-  <data name="TIP_HELP" xml:space="preserve">
-    <value>Membantu</value>
-  </data>
-  <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Menutup</value>
-  </data>
-  <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Tambah waktu (+1 menit). Klik kanan untuk opsi lainnya.</value>
-  </data>
-  <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 menit</value>
+  <data name="ALLOW_MOUSE_WHEEL_TIMER_ADJUST" xml:space="preserve">
+    <value>Allow mouse wheel to adjust timer</value>
+    <comment>See Settings, Miscellaneous</comment>
   </data>
 </root>

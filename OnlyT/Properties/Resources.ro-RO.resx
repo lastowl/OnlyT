@@ -729,7 +729,7 @@ Shift - Crește cu 5 min</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Întrunirea se desfășoară cu {0} minute în minus</value>
+    <value/>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
@@ -738,6 +738,10 @@ Shift - Crește cu 5 min</value>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
     <value>Mod întunecat</value>
+    <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="ALLOW_MOUSE_WHEEL_TIMER_ADJUST" xml:space="preserve">
+    <value>Permite rotiței mouse-ului să regleze cronometrul</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
 </root>
