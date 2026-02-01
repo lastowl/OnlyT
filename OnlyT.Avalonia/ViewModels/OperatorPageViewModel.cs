@@ -263,6 +263,7 @@ public partial class OperatorPageViewModel : ObservableObject
 
         // Subscribe to timer events
         _timerService.TimerChangedEvent += OnTimerChanged;
+        _timerService.TimerStartStopFromApiEvent += HandleTimerStartStopFromApi;
 
         // Subscribe to reminder events
         _reminderService.ReminderTriggered += OnReminderTriggered;
@@ -285,6 +286,69 @@ public partial class OperatorPageViewModel : ObservableObject
         {
             IsReminderShowing = e.IsShowing;
             ReminderMessage = e.Message;
+        });
+    }
+
+    /// <summary>
+    /// Handles timer start/stop commands from the remote API
+    /// </summary>
+    private void HandleTimerStartStopFromApi(object? sender, TimerStartStopEventArgs e)
+    {
+        Dispatcher.UIThread.Post(() =>
+        {
+            // Always on UI thread to prevent synchronization issues
+            Log.Debug("Handling timer control from API - TalkId: {TalkId}, Command: {Command}", e.TalkId, e.Command);
+
+            // Check if the talk exists
+            var requestedTalk = Talks.FirstOrDefault(t => t.Id == e.TalkId);
+            if (requestedTalk == null)
+            {
+                Log.Warning("API timer control failed - talk ID {TalkId} does not exist", e.TalkId);
+                e.Success = false;
+                e.CurrentStatus = _timerService.GetStatus();
+                return;
+            }
+
+            var success = TalkId == e.TalkId || IsNotRunning;
+
+            if (success)
+            {
+                // Select the requested talk
+                SelectedTalk = requestedTalk;
+                success = TalkId == e.TalkId;
+
+                if (success)
+                {
+                    switch (e.Command)
+                    {
+                        case Models.StartStopTimerCommands.Start:
+                            success = IsNotRunning;
+                            if (success)
+                            {
+                                Start();
+                                Log.Information("Timer started via API for talk: {TalkName}", requestedTalk.Name);
+                            }
+                            break;
+
+                        case Models.StartStopTimerCommands.Stop:
+                            success = IsRunning;
+                            if (success)
+                            {
+                                Stop();
+                                Log.Information("Timer stopped via API for talk: {TalkName}", requestedTalk.Name);
+                            }
+                            break;
+                    }
+                }
+            }
+
+            e.CurrentStatus = _timerService.GetStatus();
+            if (success)
+            {
+                e.CurrentStatus.IsRunning = e.Command == Models.StartStopTimerCommands.Start;
+            }
+
+            e.Success = success;
         });
     }
 

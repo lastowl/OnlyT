@@ -138,14 +138,14 @@ public partial class CountdownViewModel : ObservableObject
             CountdownDisplay = $"{remaining.Minutes:D2}:{remaining.Seconds:D2}";
         }
 
-        // Color based on time remaining
-        if (remaining.TotalSeconds <= 60)
-        {
-            CountdownColor = new SolidColorBrush(Colors.Orange);
-        }
-        else if (remaining.TotalSeconds <= 30)
+        // Color based on time remaining (check most specific condition first)
+        if (remaining.TotalSeconds <= 30)
         {
             CountdownColor = new SolidColorBrush(Colors.Red);
+        }
+        else if (remaining.TotalSeconds <= 60)
+        {
+            CountdownColor = new SolidColorBrush(Colors.Orange);
         }
         else
         {

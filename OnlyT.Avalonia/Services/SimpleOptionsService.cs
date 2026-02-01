@@ -68,6 +68,32 @@ public class SimpleOptionsService : IOptionsService
     public bool ShrinkOnMinimise => GetOptions().ShrinkOnMinimise;
     public bool OverrunNotifications => GetOptions().OverrunNotifications;
     public string LogEventLevel => GetOptions().LogEventLevel;
+    public bool WeekendIncludesFriday => GetOptions().WeekendIncludesFriday;
+
+    /// <summary>
+    /// Checks if the current day is a weekend day (Saturday, Sunday, or optionally Friday)
+    /// </summary>
+    public bool IsNowWeekend()
+    {
+        var today = DateTime.Now.DayOfWeek;
+        return today == DayOfWeek.Saturday ||
+               today == DayOfWeek.Sunday ||
+               (WeekendIncludesFriday && today == DayOfWeek.Friday);
+    }
+
+    /// <summary>
+    /// Sets the meeting type and saves options
+    /// </summary>
+    public void SetMidWeekOrWeekend(MidWeekOrWeekend value)
+    {
+        var options = GetOptions();
+        if (options.MidWeekOrWeekend != value)
+        {
+            options.MidWeekOrWeekend = value;
+            SaveOptions(options);
+            Log.Information("Meeting type auto-switched to: {MeetingType}", value);
+        }
+    }
 
     private MeetingStartTimes? _meetingStartTimes;
     public MeetingStartTimes MeetingStartTimes
