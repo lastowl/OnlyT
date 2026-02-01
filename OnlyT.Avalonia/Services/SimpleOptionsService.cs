@@ -95,6 +95,17 @@ public class SimpleOptionsService : IOptionsService
         }
     }
 
+    /// <summary>
+    /// Gets the current adaptive mode based on whether it's midweek or weekend
+    /// </summary>
+    public AdaptiveMode GetAdaptiveMode()
+    {
+        var options = GetOptions();
+        return MidWeekOrWeekend == MidWeekOrWeekend.MidWeek
+            ? options.MidWeekAdaptiveMode
+            : options.WeekendAdaptiveMode;
+    }
+
     private MeetingStartTimes? _meetingStartTimes;
     public MeetingStartTimes MeetingStartTimes
     {
