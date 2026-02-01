@@ -216,6 +216,11 @@ public interface IOptionsService
     /// Sets the meeting type (midweek/weekend) and saves options
     /// </summary>
     void SetMidWeekOrWeekend(MidWeekOrWeekend value);
+
+    /// <summary>
+    /// Gets the current adaptive mode based on whether it's midweek or weekend
+    /// </summary>
+    AdaptiveMode GetAdaptiveMode();
 }
 
 /// <summary>

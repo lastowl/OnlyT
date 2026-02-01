@@ -33,6 +33,7 @@ public partial class OperatorPageViewModel : ObservableObject
     private readonly ITalkTimerService _timerService;
     private readonly ITalkScheduleService _scheduleService;
     private readonly IOptionsService _optionsService;
+    private readonly IAdaptiveTimerService _adaptiveTimerService;
     private readonly IBellService _bellService;
     private readonly IMonitorService _monitorService;
     private readonly IReminderService _reminderService;
@@ -236,6 +237,7 @@ public partial class OperatorPageViewModel : ObservableObject
         ITalkTimerService timerService,
         ITalkScheduleService scheduleService,
         IOptionsService optionsService,
+        IAdaptiveTimerService adaptiveTimerService,
         IBellService bellService,
         IMonitorService monitorService,
         IReminderService reminderService,
@@ -250,6 +252,7 @@ public partial class OperatorPageViewModel : ObservableObject
         _timerService = timerService;
         _scheduleService = scheduleService;
         _optionsService = optionsService;
+        _adaptiveTimerService = adaptiveTimerService;
         _bellService = bellService;
         _monitorService = monitorService;
         _reminderService = reminderService;
@@ -557,6 +560,9 @@ public partial class OperatorPageViewModel : ObservableObject
             // Reset bell state for new timer run
             _bellHasPlayed = false;
 
+            // Adjust duration for adaptive timing if enabled
+            AdjustForAdaptiveTime();
+
             // Log bell configuration for debugging
             Log.Information("Starting timer for '{TalkName}' - BellEnabled: {BellEnabled}, BellApplicable: {BellApplicable}, Duration: {Duration}s",
                 SelectedTalk.Name, BellEnabled, SelectedTalk.BellApplicable, (int)SelectedTalk.ActualDuration.TotalSeconds);
@@ -618,8 +624,8 @@ public partial class OperatorPageViewModel : ObservableObject
             _timingDataService.InsertTimerStop();
             _timingDataService.Save();
 
-            // Notify of overrun/underrun if significant
-            _overrunService.NotifyOfBadTiming(variance);
+            // Notify of overrun/underrun if significant (use adaptive calculation in auto mode)
+            NotifyOfBadTimingIfRequired(variance);
 
             // Reset bell state
             _bellHasPlayed = false;
@@ -646,6 +652,54 @@ public partial class OperatorPageViewModel : ObservableObject
     }
 
     private bool CanStop() => IsRunning || IsPaused;
+
+    /// <summary>
+    /// Adjusts the talk duration based on adaptive timing when in automatic mode.
+    /// This helps keep meetings on schedule by proportionally adjusting remaining talks.
+    /// </summary>
+    private void AdjustForAdaptiveTime()
+    {
+        try
+        {
+            if (TalkId > 0 && IsAutoMode)
+            {
+                var newDuration = _adaptiveTimerService.CalculateAdaptedDuration(TalkId);
+                if (newDuration != null && SelectedTalk != null)
+                {
+                    Log.Debug("Adaptive timer: Adjusting duration from {Original} to {Adapted}",
+                        SelectedTalk.ActualDuration, newDuration.Value);
+
+                    SelectedTalk.AdaptedDuration = newDuration.Value;
+                    SetDurationStringAttributes();
+                    TargetSeconds = (int)SelectedTalk.ActualDuration.TotalSeconds;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Could not adjust for adaptive time");
+        }
+    }
+
+    /// <summary>
+    /// Notifies of bad timing (overrun/underrun) using adaptive calculation in auto mode.
+    /// </summary>
+    private void NotifyOfBadTimingIfRequired(TimeSpan variance)
+    {
+        if (IsAutoMode)
+        {
+            // Use adaptive overrun calculation for more accurate meeting-level feedback
+            var overrun = _adaptiveTimerService.CalculateMeetingOverrun(TalkId);
+            if (overrun != null)
+            {
+                _overrunService.NotifyOfBadTiming(overrun.Value);
+                return;
+            }
+        }
+
+        // Fall back to simple variance calculation
+        _overrunService.NotifyOfBadTiming(variance);
+    }
 
     [RelayCommand(CanExecute = nameof(CanPause))]
     private void Pause()
@@ -897,34 +951,78 @@ public partial class OperatorPageViewModel : ObservableObject
 
     private void SetDurationStringAttributes()
     {
+        // Default colors
+        var dimBrush = new SolidColorBrush(Color.Parse("#bba991"));
+        var activeBrush = new SolidColorBrush(Color.Parse("#f3dcbc"));
+
         if (SelectedTalk == null)
         {
             Duration1String = null;
             Duration2String = null;
             Duration3String = null;
+            Duration1Colour = dimBrush;
+            Duration2Colour = dimBrush;
+            Duration3Colour = dimBrush;
             return;
         }
 
-        // Calculate duration tiers based on talk duration
-        var totalMins = (int)SelectedTalk.ActualDuration.TotalMinutes;
+        var adaptiveMode = _optionsService.GetAdaptiveMode();
 
-        if (totalMins <= 5)
+        // Duration1 is always the original duration
+        Duration1String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.OriginalDuration.TotalSeconds);
+        Duration1Tooltip = _localizationService.GetString("DURATION_ORIGINAL") ?? "Original";
+
+        if (SelectedTalk.ModifiedDuration != null)
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
-            Duration2String = null;
-            Duration3String = null;
+            // User has modified the duration
+            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ModifiedDuration.Value.TotalSeconds);
+            Duration2Tooltip = _localizationService.GetString("DURATION_MODIFIED") ?? "Modified";
+
+            // Show adapted duration if available and applicable
+            var showAdaptedDuration = SelectedTalk.AdaptedDuration != null &&
+                                      (adaptiveMode == AdaptiveMode.TwoWay ||
+                                       SelectedTalk.AdaptedDuration.Value < SelectedTalk.ModifiedDuration.Value);
+
+            if (showAdaptedDuration)
+            {
+                Duration3String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.AdaptedDuration!.Value.TotalSeconds);
+                Duration3Tooltip = _localizationService.GetString("DURATION_ADAPTED") ?? "Adapted";
+            }
+            else
+            {
+                Duration3String = null;
+            }
         }
-        else if (totalMins <= 15)
+        else if (SelectedTalk.AdaptedDuration != null)
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString(totalMins / 2 * 60);
-            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
+            // Only adapted duration (no modified)
+            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.AdaptedDuration.Value.TotalSeconds);
+            Duration2Tooltip = _localizationService.GetString("DURATION_ADAPTED") ?? "Adapted";
             Duration3String = null;
         }
         else
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString(totalMins / 3 * 60);
-            Duration2String = TimeFormatter.FormatTimerDisplayString(totalMins * 2 / 3 * 60);
-            Duration3String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
+            // Only original duration
+            Duration2String = null;
+            Duration3String = null;
+        }
+
+        // Set colors - highlight the active (rightmost non-empty) duration
+        Duration1Colour = dimBrush;
+        Duration2Colour = dimBrush;
+        Duration3Colour = dimBrush;
+
+        if (!string.IsNullOrEmpty(Duration3String))
+        {
+            Duration3Colour = activeBrush;
+        }
+        else if (!string.IsNullOrEmpty(Duration2String))
+        {
+            Duration2Colour = activeBrush;
+        }
+        else
+        {
+            Duration1Colour = activeBrush;
         }
 
         OnPropertyChanged(nameof(Duration1ArrowString));
