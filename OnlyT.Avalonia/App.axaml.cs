@@ -201,6 +201,9 @@ public class App : Application
 
         // Apply culture setting
         ApplyCulture(serviceProvider);
+
+        // Auto-switch meeting type based on current day
+        AutoSwitchMeetingType(serviceProvider);
     }
 
     private static void ApplyCulture(IServiceProvider serviceProvider)
@@ -220,6 +223,31 @@ public class App : Application
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to apply culture setting");
+        }
+    }
+
+    private static void AutoSwitchMeetingType(IServiceProvider serviceProvider)
+    {
+        try
+        {
+            var optionsService = serviceProvider.GetRequiredService<IOptionsService>();
+
+            // Auto-switch meeting type based on current day
+            var isWeekend = optionsService.IsNowWeekend();
+            var newMeetingType = isWeekend
+                ? Options.MidWeekOrWeekend.Weekend
+                : Options.MidWeekOrWeekend.MidWeek;
+
+            if (optionsService.MidWeekOrWeekend != newMeetingType)
+            {
+                optionsService.SetMidWeekOrWeekend(newMeetingType);
+                Log.Information("Auto-switched meeting type to {MeetingType} based on current day ({Day})",
+                    newMeetingType, DateTime.Now.DayOfWeek);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to auto-switch meeting type");
         }
     }
 

@@ -8,6 +8,7 @@
         x:Class="OnlyT.Avalonia.Views.CountdownWindow"
         x:DataType="vm:CountdownViewModel"
         Title="{loc:Localize COUNTDOWN_SECTION}"
+        Icon="/Assets/icon.ico"
         Width="500" Height="300"
         WindowStartupLocation="CenterScreen"
         Background="{Binding WindowBackground}"

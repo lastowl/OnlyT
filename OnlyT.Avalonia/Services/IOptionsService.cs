@@ -201,6 +201,21 @@ public interface IOptionsService
     /// Logging level (Verbose, Debug, Information, Warning, Error, Fatal)
     /// </summary>
     string LogEventLevel { get; }
+
+    /// <summary>
+    /// Whether Friday should be considered part of the weekend for auto-switching
+    /// </summary>
+    bool WeekendIncludesFriday { get; }
+
+    /// <summary>
+    /// Checks if the current day is a weekend day (for auto-switching between midweek/weekend schedules)
+    /// </summary>
+    bool IsNowWeekend();
+
+    /// <summary>
+    /// Sets the meeting type (midweek/weekend) and saves options
+    /// </summary>
+    void SetMidWeekOrWeekend(MidWeekOrWeekend value);
 }
 
 /// <summary>
@@ -432,6 +447,11 @@ public class AppOptions
     /// Timer output window position and size
     /// </summary>
     public WindowPlacement? TimerOutputWindowPlacement { get; set; }
+
+    /// <summary>
+    /// Whether Friday should be considered part of the weekend (default: false)
+    /// </summary>
+    public bool WeekendIncludesFriday { get; set; } = false;
 }
 
 /// <summary>
