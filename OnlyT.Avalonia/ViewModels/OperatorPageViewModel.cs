@@ -912,7 +912,8 @@ public partial class OperatorPageViewModel : ObservableObject
     private void CloseCountdown()
     {
         IsCountdownActive = false;
-        // TODO: Send message to close countdown window when implemented
+        _countdownWindow?.Close();
+        _countdownWindow = null;
     }
 
     [RelayCommand]
