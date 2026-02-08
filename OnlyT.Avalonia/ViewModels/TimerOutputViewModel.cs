@@ -113,6 +113,9 @@ public partial class TimerOutputViewModel : ObservableObject
     [ObservableProperty]
     private int _analogueClockWidthPercent = 80;
 
+    [ObservableProperty]
+    private Thickness _frameBorderThickness = new(0);
+
     public TimerOutputViewModel(ITalkTimerService timerService, IOptionsService optionsService, IBellService? bellService = null)
     {
         _timerService = timerService;
@@ -131,6 +134,7 @@ public partial class TimerOutputViewModel : ObservableObject
         BellOnOvertimeEnabled = _optionsService.BellOnOvertime;
         AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
         ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
+        FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
 
         // Set up clock timer to update every second
         _clockTimer = new DispatcherTimer
@@ -177,6 +181,7 @@ public partial class TimerOutputViewModel : ObservableObject
         BellOnOvertimeEnabled = _optionsService.BellOnOvertime;
         AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
         ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
+        FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
     }
 
     /// <summary>
@@ -222,7 +227,7 @@ public partial class TimerOutputViewModel : ObservableObject
                 ShowAnalogueClock = false;
                 ShowDigitalClock = true;
                 break;
-            case FullScreenClockMode.Both:
+            case FullScreenClockMode.AnalogueAndDigital:
                 ShowAnalogueClock = true;
                 ShowDigitalClock = true;
                 break;

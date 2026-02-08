@@ -7,7 +7,7 @@ set -e
 
 # Configuration
 APP_NAME="OnlyT"
-APP_VERSION="2.4.0.16"
+APP_VERSION="2.4.0.17"
 BUNDLE_ID="com.onlyt.timer"
 
 # Signing/Notarization Configuration (optional - leave empty to skip)

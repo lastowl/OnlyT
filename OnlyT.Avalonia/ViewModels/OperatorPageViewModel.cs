@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Threading.Tasks;
 using Avalonia.Media;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -16,6 +17,7 @@ using OnlyT.Avalonia.Services.Overrun;
 using OnlyT.Avalonia.Services.Reminders;
 using OnlyT.Avalonia.Services.TalkSchedule;
 using OnlyT.Avalonia.Services.Timer;
+using OnlyT.Avalonia.Services.CountdownTimer;
 using OnlyT.Avalonia.Services.Report;
 using OnlyT.Avalonia.EventArgsTypes;
 using OnlyT.Avalonia.Utils;
@@ -33,6 +35,7 @@ public partial class OperatorPageViewModel : ObservableObject
     private readonly ITalkTimerService _timerService;
     private readonly ITalkScheduleService _scheduleService;
     private readonly IOptionsService _optionsService;
+    private readonly IAdaptiveTimerService _adaptiveTimerService;
     private readonly IBellService _bellService;
     private readonly IMonitorService _monitorService;
     private readonly IReminderService _reminderService;
@@ -43,8 +46,11 @@ public partial class OperatorPageViewModel : ObservableObject
     private readonly IFirewallService _firewallService;
     private readonly IOverrunService _overrunService;
     private readonly ILogLevelSwitchService _logLevelSwitchService;
+    private readonly CountdownTimerTriggerService _countdownTriggerService;
     private OnlyT.Avalonia.Views.TimerOutputWindow? _timerOutputWindow;
     private OnlyT.Avalonia.Views.CountdownWindow? _countdownWindow;
+    private DispatcherTimer? _heartbeatTimer;
+    private bool _isCountdownDone;
 
     [ObservableProperty]
     private ObservableCollection<TalkScheduleItem> _talks = [];
@@ -236,6 +242,7 @@ public partial class OperatorPageViewModel : ObservableObject
         ITalkTimerService timerService,
         ITalkScheduleService scheduleService,
         IOptionsService optionsService,
+        IAdaptiveTimerService adaptiveTimerService,
         IBellService bellService,
         IMonitorService monitorService,
         IReminderService reminderService,
@@ -245,11 +252,13 @@ public partial class OperatorPageViewModel : ObservableObject
         IQueryWeekendService queryWeekendService,
         IFirewallService firewallService,
         IOverrunService overrunService,
-        ILogLevelSwitchService logLevelSwitchService)
+        ILogLevelSwitchService logLevelSwitchService,
+        CountdownTimerTriggerService countdownTriggerService)
     {
         _timerService = timerService;
         _scheduleService = scheduleService;
         _optionsService = optionsService;
+        _adaptiveTimerService = adaptiveTimerService;
         _bellService = bellService;
         _monitorService = monitorService;
         _reminderService = reminderService;
@@ -260,9 +269,11 @@ public partial class OperatorPageViewModel : ObservableObject
         _firewallService = firewallService;
         _overrunService = overrunService;
         _logLevelSwitchService = logLevelSwitchService;
+        _countdownTriggerService = countdownTriggerService;
 
         // Subscribe to timer events
         _timerService.TimerChangedEvent += OnTimerChanged;
+        _timerService.TimerStartStopFromApiEvent += HandleTimerStartStopFromApi;
 
         // Subscribe to reminder events
         _reminderService.ReminderTriggered += OnReminderTriggered;
@@ -270,13 +281,56 @@ public partial class OperatorPageViewModel : ObservableObject
         LoadTalks();
 
         BellEnabled = _optionsService.IsBellEnabled && _optionsService.AutoBell;
-        CountUp = false; // Default to countdown mode
+        CountUp = _optionsService.GetOptions().CountUp;
 
         // Initialize localized status text
         StatusText = _localizationService.GetString("STATUS_READY") ?? "Ready";
 
         // Open timer output window on startup
         ShowTimerOutputWindow();
+
+        // Start heartbeat timer for countdown auto-trigger
+        InitHeartbeatTimer();
+
+        // Check for new version after a short delay
+        CheckForNewVersion();
+    }
+
+    private async void CheckForNewVersion()
+    {
+        try
+        {
+            await Task.Delay(2000); // Wait 2 seconds before checking
+
+            var newVersionAvailable = await VersionDetection.IsNewVersionAvailableAsync();
+            if (newVersionAvailable)
+            {
+                Log.Information("New version available");
+                IsNewVersionAvailable = true;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error checking for new version");
+        }
+    }
+
+    [RelayCommand]
+    private void OpenNewVersionPage()
+    {
+        try
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = VersionDetection.LatestReleaseUrl,
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error opening releases page");
+        }
     }
 
     private void OnReminderTriggered(object? sender, ReminderEventArgs e)
@@ -285,6 +339,69 @@ public partial class OperatorPageViewModel : ObservableObject
         {
             IsReminderShowing = e.IsShowing;
             ReminderMessage = e.Message;
+        });
+    }
+
+    /// <summary>
+    /// Handles timer start/stop commands from the remote API
+    /// </summary>
+    private void HandleTimerStartStopFromApi(object? sender, TimerStartStopEventArgs e)
+    {
+        Dispatcher.UIThread.Post(() =>
+        {
+            // Always on UI thread to prevent synchronization issues
+            Log.Debug("Handling timer control from API - TalkId: {TalkId}, Command: {Command}", e.TalkId, e.Command);
+
+            // Check if the talk exists
+            var requestedTalk = Talks.FirstOrDefault(t => t.Id == e.TalkId);
+            if (requestedTalk == null)
+            {
+                Log.Warning("API timer control failed - talk ID {TalkId} does not exist", e.TalkId);
+                e.Success = false;
+                e.CurrentStatus = _timerService.GetStatus();
+                return;
+            }
+
+            var success = TalkId == e.TalkId || IsNotRunning;
+
+            if (success)
+            {
+                // Select the requested talk
+                SelectedTalk = requestedTalk;
+                success = TalkId == e.TalkId;
+
+                if (success)
+                {
+                    switch (e.Command)
+                    {
+                        case Models.StartStopTimerCommands.Start:
+                            success = IsNotRunning;
+                            if (success)
+                            {
+                                Start();
+                                Log.Information("Timer started via API for talk: {TalkName}", requestedTalk.Name);
+                            }
+                            break;
+
+                        case Models.StartStopTimerCommands.Stop:
+                            success = IsRunning;
+                            if (success)
+                            {
+                                Stop();
+                                Log.Information("Timer stopped via API for talk: {TalkName}", requestedTalk.Name);
+                            }
+                            break;
+                    }
+                }
+            }
+
+            e.CurrentStatus = _timerService.GetStatus();
+            if (success)
+            {
+                e.CurrentStatus.IsRunning = e.Command == Models.StartStopTimerCommands.Start;
+            }
+
+            e.Success = success;
         });
     }
 
@@ -330,12 +447,20 @@ public partial class OperatorPageViewModel : ObservableObject
             UpdateTimeDisplay(TargetSeconds, 0);
             SetDurationStringAttributes();
 
+            // Sync BellEnabled with per-talk AutoBell
+            BellEnabled = value.AutoBell;
+
+            // Refresh CountUp from per-talk setting
+            CountUp = value.CountUp ?? _optionsService.CountUp;
+
             // Notify bell-related properties
             OnPropertyChanged(nameof(IsBellVisible));
             OnPropertyChanged(nameof(BellColour));
             OnPropertyChanged(nameof(BellTooltip));
             OnPropertyChanged(nameof(ShowUpDownButton));
             OnPropertyChanged(nameof(IsValidTalk));
+            OnPropertyChanged(nameof(CountUpOrDownTooltip));
+            OnPropertyChanged(nameof(CountUpOrDownImageData));
 
             IsOvertime = false;
         }
@@ -384,8 +509,8 @@ public partial class OperatorPageViewModel : ObservableObject
                     ? _localizationService.GetString("STATUS_OVERTIME") ?? "Overtime"
                     : _localizationService.GetString("STATUS_RUNNING") ?? "Running";
 
-                // Change color based on time remaining
-                if (remaining < 0)
+                // Change color based on time remaining (matches WPF GreenYellowRedSelector)
+                if (remaining <= 0)
                 {
                     TimerColor = "Red";
                     TextColorBrush = Brushes.Red;
@@ -396,15 +521,15 @@ public partial class OperatorPageViewModel : ObservableObject
                         OnPropertyChanged(nameof(BellTooltip));
                     }
                 }
-                else if (remaining < e.ClosingSecs)
+                else if (remaining <= e.ClosingSecs)
                 {
-                    TimerColor = "Orange";
-                    TextColorBrush = Brushes.Orange;
+                    TimerColor = "Yellow";
+                    TextColorBrush = Brushes.Yellow;
                 }
                 else
                 {
-                    TimerColor = "LimeGreen";
-                    TextColorBrush = Brushes.LimeGreen;
+                    TimerColor = "Chartreuse";
+                    TextColorBrush = Brushes.Chartreuse;
                 }
             }
             else
@@ -423,8 +548,10 @@ public partial class OperatorPageViewModel : ObservableObject
             }
 
             // Play bell once when remaining hits 0 to -1 second range (catches exact zero-crossing)
-            if (e.IsRunning && !_bellHasPlayed && BellEnabled && remaining <= 0 && remaining > -1 &&
-                (SelectedTalk?.BellApplicable ?? true))
+            if (e.IsRunning && !_bellHasPlayed && remaining <= 0 && remaining > -1 &&
+                _optionsService.IsBellEnabled &&
+                (SelectedTalk?.BellApplicable ?? true) &&
+                (SelectedTalk?.AutoBell ?? false))
             {
                 try
                 {
@@ -493,6 +620,9 @@ public partial class OperatorPageViewModel : ObservableObject
             // Reset bell state for new timer run
             _bellHasPlayed = false;
 
+            // Adjust duration for adaptive timing if enabled
+            AdjustForAdaptiveTime();
+
             // Log bell configuration for debugging
             Log.Information("Starting timer for '{TalkName}' - BellEnabled: {BellEnabled}, BellApplicable: {BellApplicable}, Duration: {Duration}s",
                 SelectedTalk.Name, BellEnabled, SelectedTalk.BellApplicable, (int)SelectedTalk.ActualDuration.TotalSeconds);
@@ -502,18 +632,8 @@ public partial class OperatorPageViewModel : ObservableObject
                 (int)SelectedTalk.ActualDuration.TotalSeconds,
                 SelectedTalk.ClosingSecs);
 
-            _timerService.Start(
-                (int)SelectedTalk.ActualDuration.TotalSeconds,
-                SelectedTalk.Id,
-                CountUp);
-
-            // Track timing for reports
-            _timingDataService.InsertTimerStart(
-                SelectedTalk.Name,
-                false, // isSongSegment
-                SelectedTalk.IsStudentTalk,
-                SelectedTalk.PlannedDuration,
-                SelectedTalk.AdaptedDuration ?? SelectedTalk.PlannedDuration);
+            // Track timing for reports (meeting-level structure + individual talk)
+            StoreTimerStartData();
 
             // Notify reminder service that timer started
             _reminderService.OnTimerStarted(SelectedTalk.Id);
@@ -524,6 +644,22 @@ public partial class OperatorPageViewModel : ObservableObject
             StopCommand.NotifyCanExecuteChanged();
             PauseCommand.NotifyCanExecuteChanged();
             StartCommand.NotifyCanExecuteChanged();
+
+            // Sync timer start to second boundary (like WPF) so clock and countdown are in sync
+            var targetSecs = (int)SelectedTalk.ActualDuration.TotalSeconds;
+            var talkId = SelectedTalk.Id;
+            var countUp = CountUp;
+
+            Task.Run(async () =>
+            {
+                var ms = _dateTimeService.Now().Millisecond;
+                if (ms > 100)
+                {
+                    await Task.Delay(1000 - ms);
+                }
+
+                _timerService.Start(targetSecs, talkId, countUp);
+            });
 
             Log.Information("Started timer for talk: {TalkName}", SelectedTalk.Name);
         }
@@ -550,12 +686,15 @@ public partial class OperatorPageViewModel : ObservableObject
 
             _timerService.Stop();
 
+            // Record completed time on the talk for overtime display
+            _scheduleService.RecordTalkCompleted(stoppedTalkId, ElapsedSeconds);
+
             // Track timing for reports
             _timingDataService.InsertTimerStop();
             _timingDataService.Save();
 
-            // Notify of overrun/underrun if significant
-            _overrunService.NotifyOfBadTiming(variance);
+            // Notify of overrun/underrun if significant (use adaptive calculation in auto mode)
+            NotifyOfBadTimingIfRequired(variance);
 
             // Reset bell state
             _bellHasPlayed = false;
@@ -566,11 +705,23 @@ public partial class OperatorPageViewModel : ObservableObject
             StatusText = _localizationService.GetString("STATUS_STOPPED") ?? "Stopped";
             TimerColor = "White";
 
-            // Update to next talk if in auto mode
-            if (_optionsService.OperatingMode != Services.Options.OperatingMode.Manual && SelectedTalk != null)
+            // Auto-advance to next talk
+            if (SelectedTalk != null)
             {
                 var nextId = _scheduleService.GetNext(SelectedTalk.Id);
-                SelectedTalk = Talks.FirstOrDefault(t => t.Id == nextId);
+                if (nextId > 0)
+                {
+                    SelectedTalk = Talks.FirstOrDefault(t => t.Id == nextId);
+                }
+                else if (nextId == 0)
+                {
+                    // End of schedule - record meeting end and auto-generate report if enabled
+                    StoreEndOfMeetingData();
+                    if (_optionsService.GenerateTimingReports)
+                    {
+                        _ = GenerateReportAsync();
+                    }
+                }
             }
 
             Log.Information("Stopped timer");
@@ -582,6 +733,178 @@ public partial class OperatorPageViewModel : ObservableObject
     }
 
     private bool CanStop() => IsRunning || IsPaused;
+
+    /// <summary>
+    /// Adjusts the talk duration based on adaptive timing when in automatic mode.
+    /// This helps keep meetings on schedule by proportionally adjusting remaining talks.
+    /// </summary>
+    private void AdjustForAdaptiveTime()
+    {
+        try
+        {
+            if (TalkId > 0 && IsAutoMode)
+            {
+                var newDuration = _adaptiveTimerService.CalculateAdaptedDuration(TalkId);
+                if (newDuration != null && SelectedTalk != null)
+                {
+                    Log.Debug("Adaptive timer: Adjusting duration from {Original} to {Adapted}",
+                        SelectedTalk.ActualDuration, newDuration.Value);
+
+                    SelectedTalk.AdaptedDuration = newDuration.Value;
+                    SetDurationStringAttributes();
+                    TargetSeconds = (int)SelectedTalk.ActualDuration.TotalSeconds;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Could not adjust for adaptive time");
+        }
+    }
+
+    /// <summary>
+    /// Notifies of bad timing (overrun/underrun) using adaptive calculation in auto mode.
+    /// </summary>
+    private void NotifyOfBadTimingIfRequired(TimeSpan variance)
+    {
+        if (IsAutoMode)
+        {
+            // Use adaptive overrun calculation for more accurate meeting-level feedback
+            var overrun = _adaptiveTimerService.CalculateMeetingOverrun(TalkId);
+            if (overrun != null)
+            {
+                _overrunService.NotifyOfBadTiming(overrun.Value);
+                return;
+            }
+        }
+
+        // Fall back to simple variance calculation
+        _overrunService.NotifyOfBadTiming(variance);
+    }
+
+    #region Meeting-level timing data (matching WPF report structure)
+
+    /// <summary>
+    /// Records meeting structure data when a timer starts (auto mode only).
+    /// Detects first talk, first talk after interval, and records individual talk start.
+    /// </summary>
+    private void StoreTimerStartData()
+    {
+        if (SelectedTalk == null) return;
+
+        if (IsAutoMode)
+        {
+            if (IsFirstTalk(SelectedTalk.Id))
+            {
+                StoreTimerDataForStartOfMeeting();
+            }
+
+            if (IsFirstTalkAfterInterval(SelectedTalk.Id))
+            {
+                var prevTalk = GetPreviousTalk(SelectedTalk.Id);
+                StoreTimerDataForInterim(prevTalk?.IsStudentTalk ?? false);
+            }
+        }
+
+        _timingDataService.InsertTimerStart(
+            SelectedTalk.Name,
+            false, // isSongSegment
+            SelectedTalk.IsStudentTalk,
+            SelectedTalk.PlannedDuration,
+            SelectedTalk.AdaptedDuration ?? SelectedTalk.PlannedDuration);
+    }
+
+    /// <summary>
+    /// Records meeting start time, planned end, and opening song segment.
+    /// </summary>
+    private void StoreTimerDataForStartOfMeeting()
+    {
+        var startTime = CalculateStartOfMeeting();
+        _timingDataService.InsertMeetingStart(startTime);
+
+        const int totalMtgLengthMins = 105;
+        var plannedEndTime = startTime.AddMinutes(totalMtgLengthMins);
+        _timingDataService.InsertPlannedMeetingEnd(plannedEndTime);
+
+        _timingDataService.InsertSongSegment(
+            startTime,
+            _localizationService.GetString("INTRO_SEGMENT") ?? "Introductory Segment",
+            TimeSpan.FromMinutes(5));
+
+        Log.Debug("Stored meeting start data: start={Start}, plannedEnd={PlannedEnd}", startTime, plannedEndTime);
+    }
+
+    /// <summary>
+    /// Records an interim song segment between meeting parts.
+    /// </summary>
+    private void StoreTimerDataForInterim(bool allowForCounselTime)
+    {
+        var lastItemStop = _timingDataService.LastTimerStop;
+        var interimStart = lastItemStop.AddSeconds(allowForCounselTime ? 75 : 15);
+
+        _timingDataService.InsertSongSegment(
+            interimStart,
+            _localizationService.GetString("INTERIM_SEGMENT") ?? "Interim Segment",
+            new TimeSpan(0, 3, 20));
+
+        Log.Debug("Stored interim segment data");
+    }
+
+    /// <summary>
+    /// Records concluding song and actual meeting end time.
+    /// </summary>
+    private void StoreEndOfMeetingData()
+    {
+        if (!IsAutoMode) return;
+
+        var songStart = _dateTimeService.Now().AddSeconds(5);
+        var actualMeetingEnd = songStart.AddMinutes(5);
+
+        _timingDataService.InsertConcludingSongSegment(
+            songStart,
+            actualMeetingEnd,
+            _localizationService.GetString("CONCLUDING_SEGMENT") ?? "Concluding Segment",
+            TimeSpan.FromMinutes(5));
+
+        _timingDataService.InsertActualMeetingEnd(actualMeetingEnd);
+
+        Log.Debug("Stored end of meeting data: songStart={SongStart}, meetingEnd={MeetingEnd}", songStart, actualMeetingEnd);
+    }
+
+    private DateTime CalculateStartOfMeeting()
+    {
+        return DateUtils.GetNearestQuarterOfAnHour(_dateTimeService.Now());
+    }
+
+    private bool IsFirstTalk(int talkId)
+    {
+        var talks = _scheduleService.GetTalkScheduleItems().ToArray();
+        return talks.Length > 0 && talkId == talks.First().Id;
+    }
+
+    private static bool IsFirstTalkAfterInterval(int talkId)
+    {
+        var talkType = (TalkTypesAutoMode)talkId;
+        return talkType == TalkTypesAutoMode.LivingPart1 ||
+               talkType == TalkTypesAutoMode.Watchtower;
+    }
+
+    private TalkScheduleItem? GetPreviousTalk(int talkId)
+    {
+        var talks = _scheduleService.GetTalkScheduleItems();
+        TalkScheduleItem? prevTalk = null;
+        foreach (var talk in talks)
+        {
+            if (talk.Id == talkId)
+            {
+                break;
+            }
+            prevTalk = talk;
+        }
+        return prevTalk;
+    }
+
+    #endregion
 
     [RelayCommand(CanExecute = nameof(CanPause))]
     private void Pause()
@@ -640,19 +963,6 @@ public partial class OperatorPageViewModel : ObservableObject
         if (SelectedTalk != null)
         {
             SelectedTalk.AutoBell = BellEnabled;
-        }
-
-        // Play bell sound when enabling to give immediate feedback
-        if (BellEnabled)
-        {
-            try
-            {
-                _bellService.Play(_optionsService.BellVolumePercent);
-            }
-            catch (Exception ex)
-            {
-                Log.Warning(ex, "Failed to play bell on toggle");
-            }
         }
     }
 
@@ -720,11 +1030,12 @@ public partial class OperatorPageViewModel : ObservableObject
         if (SelectedTalk == null) return;
 
         var maxTimerSecs = 99 * 60; // 99 minutes max
-        var newSecs = Math.Max(TargetSeconds + seconds, 60); // Minimum 1 minute
+        var newSecs = Math.Max(TargetSeconds + seconds, 0); // Minimum 0 seconds
         if (newSecs <= maxTimerSecs)
         {
             var newDuration = TimeSpan.FromSeconds(newSecs);
             SelectedTalk.ModifiedDuration = newDuration;
+            _scheduleService.SetModifiedDuration(SelectedTalk.Id, newDuration);
             TargetSeconds = newSecs;
             UpdateTimeDisplay(TargetSeconds, 0);
             SetDurationStringAttributes();
@@ -732,6 +1043,17 @@ public partial class OperatorPageViewModel : ObservableObject
     }
 
     private bool CanAdjustTime() => !IsRunning && SelectedTalk?.Editable == true;
+
+    /// <summary>
+    /// Adjust timer duration via mouse wheel (called from code-behind)
+    /// </summary>
+    public void AdjustTimerByWheel(int seconds)
+    {
+        if (CanAdjustTime())
+        {
+            AdjustTimerInternal(seconds);
+        }
+    }
 
     // Shrink mode commands
     [RelayCommand]
@@ -794,7 +1116,9 @@ public partial class OperatorPageViewModel : ObservableObject
     private void CloseCountdown()
     {
         IsCountdownActive = false;
-        // TODO: Send message to close countdown window when implemented
+        _countdownWindow?.Close();
+        _countdownWindow = null;
+        UpdateMainWindowTopmost();
     }
 
     [RelayCommand]
@@ -833,34 +1157,78 @@ public partial class OperatorPageViewModel : ObservableObject
 
     private void SetDurationStringAttributes()
     {
+        // Default colors
+        var dimBrush = new SolidColorBrush(Color.Parse("#bba991"));
+        var activeBrush = new SolidColorBrush(Color.Parse("#f3dcbc"));
+
         if (SelectedTalk == null)
         {
             Duration1String = null;
             Duration2String = null;
             Duration3String = null;
+            Duration1Colour = dimBrush;
+            Duration2Colour = dimBrush;
+            Duration3Colour = dimBrush;
             return;
         }
 
-        // Calculate duration tiers based on talk duration
-        var totalMins = (int)SelectedTalk.ActualDuration.TotalMinutes;
+        var adaptiveMode = _optionsService.GetAdaptiveMode();
 
-        if (totalMins <= 5)
+        // Duration1 is always the original duration
+        Duration1String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.OriginalDuration.TotalSeconds);
+        Duration1Tooltip = _localizationService.GetString("DURATION_ORIGINAL") ?? "Original";
+
+        if (SelectedTalk.ModifiedDuration != null)
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
-            Duration2String = null;
-            Duration3String = null;
+            // User has modified the duration
+            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ModifiedDuration.Value.TotalSeconds);
+            Duration2Tooltip = _localizationService.GetString("DURATION_MODIFIED") ?? "Modified";
+
+            // Show adapted duration if available and applicable
+            var showAdaptedDuration = SelectedTalk.AdaptedDuration != null &&
+                                      (adaptiveMode == AdaptiveMode.TwoWay ||
+                                       SelectedTalk.AdaptedDuration.Value < SelectedTalk.ModifiedDuration.Value);
+
+            if (showAdaptedDuration)
+            {
+                Duration3String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.AdaptedDuration!.Value.TotalSeconds);
+                Duration3Tooltip = _localizationService.GetString("DURATION_ADAPTED") ?? "Adapted";
+            }
+            else
+            {
+                Duration3String = null;
+            }
         }
-        else if (totalMins <= 15)
+        else if (SelectedTalk.AdaptedDuration != null)
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString(totalMins / 2 * 60);
-            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
+            // Only adapted duration (no modified)
+            Duration2String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.AdaptedDuration.Value.TotalSeconds);
+            Duration2Tooltip = _localizationService.GetString("DURATION_ADAPTED") ?? "Adapted";
             Duration3String = null;
         }
         else
         {
-            Duration1String = TimeFormatter.FormatTimerDisplayString(totalMins / 3 * 60);
-            Duration2String = TimeFormatter.FormatTimerDisplayString(totalMins * 2 / 3 * 60);
-            Duration3String = TimeFormatter.FormatTimerDisplayString((int)SelectedTalk.ActualDuration.TotalSeconds);
+            // Only original duration
+            Duration2String = null;
+            Duration3String = null;
+        }
+
+        // Set colors - highlight the active (rightmost non-empty) duration
+        Duration1Colour = dimBrush;
+        Duration2Colour = dimBrush;
+        Duration3Colour = dimBrush;
+
+        if (!string.IsNullOrEmpty(Duration3String))
+        {
+            Duration3Colour = activeBrush;
+        }
+        else if (!string.IsNullOrEmpty(Duration2String))
+        {
+            Duration2Colour = activeBrush;
+        }
+        else
+        {
+            Duration1Colour = activeBrush;
         }
 
         OnPropertyChanged(nameof(Duration1ArrowString));
@@ -875,41 +1243,184 @@ public partial class OperatorPageViewModel : ObservableObject
         {
             DataContext = settingsViewModel
         };
+        settingsWindow.Closed += OnSettingsWindowClosed;
         settingsWindow.Show();
     }
 
+    private void OnSettingsWindowClosed(object? sender, EventArgs e)
+    {
+        if (sender is OnlyT.Avalonia.Views.SettingsWindow window)
+        {
+            window.Closed -= OnSettingsWindowClosed;
+        }
+
+        // Refresh state from options after settings change (like WPF Activated callback)
+        var options = _optionsService.GetOptions();
+        CountUp = options.CountUp;
+
+        OnPropertyChanged(nameof(AllowCountUpDownToggle));
+        OnPropertyChanged(nameof(ShowUpDownButton));
+        OnPropertyChanged(nameof(IsBellVisible));
+        OnPropertyChanged(nameof(ShouldShowCircuitVisitToggle));
+        OnPropertyChanged(nameof(IsCircuitVisit));
+
+        // Refresh talks in case schedule-affecting settings changed
+        RefreshTalks();
+
+        // Update main window topmost in case AlwaysOnTop changed
+        UpdateMainWindowTopmost();
+    }
+
     [RelayCommand]
-    private void ShowCountdown()
+    private void ToggleCountdown()
     {
         if (_countdownWindow != null)
         {
-            _countdownWindow.Activate();
+            _countdownWindow.Close();
+            _countdownWindow = null;
+            UpdateMainWindowTopmost();
             return;
         }
 
+        // Calculate actual seconds until next meeting
+        _countdownTriggerService.UpdateTriggerPeriods();
+        var secondsUntilMeeting = _countdownTriggerService.GetSecondsUntilNextMeeting();
+
+        if (secondsUntilMeeting is > 0)
+        {
+            ShowCountdownWindow(secondsUntilMeeting.Value);
+        }
+        else
+        {
+            // No upcoming meeting configured, use configured duration as fallback
+            ShowCountdownWindow(_optionsService.CountdownDurationMins * 60);
+        }
+    }
+
+    private void ShowCountdownWindow(int secondsRemaining)
+    {
         var countdownViewModel = new CountdownViewModel(_optionsService);
+        countdownViewModel.CountdownTotalSeconds = secondsRemaining;
+
         _countdownWindow = new OnlyT.Avalonia.Views.CountdownWindow
         {
-            DataContext = countdownViewModel
+            DataContext = countdownViewModel,
+            Topmost = true
         };
 
-        countdownViewModel.Start(
+        countdownViewModel.SetCallbacks(
             closeAction: () =>
             {
                 _countdownWindow?.Close();
                 _countdownWindow = null;
+                UpdateMainWindowTopmost();
             },
             timeUpAction: () =>
             {
-                // Optionally auto-close when countdown finishes
                 Dispatcher.UIThread.Post(() =>
                 {
                     _countdownWindow?.Close();
                     _countdownWindow = null;
+                    _isCountdownDone = true;
+                    UpdateMainWindowTopmost();
                 });
             });
 
+        _countdownWindow.TimeUpEvent += (_, _) =>
+        {
+            Dispatcher.UIThread.Post(() =>
+            {
+                if (_countdownWindow != null)
+                {
+                    var vm = _countdownWindow.DataContext as CountdownViewModel;
+                    vm?.OnTimeUp();
+                }
+            });
+        };
+
+        // Position on same monitor as the timer output window
+        PositionCountdownOnTimerMonitor();
+
         _countdownWindow.Show();
+        _countdownWindow.Start(secondsRemaining);
+        UpdateMainWindowTopmost();
+    }
+
+    private void PositionCountdownOnTimerMonitor()
+    {
+        if (_countdownWindow == null) return;
+
+        // If there's a saved placement, let the window restore it
+        var savedPlacement = _optionsService.GetOptions().CountdownWindowPlacement;
+        if (savedPlacement != null)
+            return;
+
+        // Use the same monitor as the timer output window
+        if (_timerOutputWindow != null)
+        {
+            var timerPos = _timerOutputWindow.Position;
+            var monitors = _monitorService.GetMonitors();
+
+            // Find which monitor the timer output is on
+            var timerMonitor = monitors.FirstOrDefault(m =>
+                timerPos.X >= m.Left && timerPos.X < m.Left + m.Width &&
+                timerPos.Y >= m.Top && timerPos.Y < m.Top + m.Height);
+
+            if (timerMonitor != null)
+            {
+                // Center the countdown window on that monitor
+                var x = timerMonitor.Left + (timerMonitor.Width - (int)_countdownWindow.Width) / 2;
+                var y = timerMonitor.Top + (timerMonitor.Height - (int)_countdownWindow.Height) / 2;
+                _countdownWindow.Position = new global::Avalonia.PixelPoint(x, y);
+                return;
+            }
+        }
+
+        // Fallback: use the configured monitor from settings
+        var options = _optionsService.GetOptions();
+        if (!string.IsNullOrEmpty(options.MonitorId))
+        {
+            var allMonitors = _monitorService.GetMonitors();
+            var targetMonitor = allMonitors.FirstOrDefault(m => m.MonitorId == options.MonitorId)
+                                ?? allMonitors.FirstOrDefault(m => m.IsPrimary)
+                                ?? allMonitors.FirstOrDefault();
+
+            if (targetMonitor != null)
+            {
+                var x = targetMonitor.Left + (targetMonitor.Width - (int)_countdownWindow.Width) / 2;
+                var y = targetMonitor.Top + (targetMonitor.Height - (int)_countdownWindow.Height) / 2;
+                _countdownWindow.Position = new global::Avalonia.PixelPoint(x, y);
+            }
+        }
+    }
+
+    private void InitHeartbeatTimer()
+    {
+        _heartbeatTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
+        _heartbeatTimer.Tick += (_, _) => HeartbeatTimerTick();
+        _heartbeatTimer.Start();
+    }
+
+    private void HeartbeatTimerTick()
+    {
+        ManageCountdownOnHeartbeat();
+    }
+
+    private void ManageCountdownOnHeartbeat()
+    {
+        if (_optionsService.CountdownDurationMins <= 0)
+            return;
+
+        if (_countdownWindow != null || _isCountdownDone)
+            return;
+
+        _countdownTriggerService.UpdateTriggerPeriods();
+
+        if (_countdownTriggerService.IsInCountdownPeriod(out var secondsRemaining))
+        {
+            Log.Information("Auto-triggering countdown with {Remaining}s remaining", secondsRemaining);
+            ShowCountdownWindow(secondsRemaining);
+        }
     }
 
     [RelayCommand]
@@ -923,7 +1434,8 @@ public partial class OperatorPageViewModel : ObservableObject
                 _timingDataService,
                 _dateTimeService,
                 _queryWeekendService,
-                weekendIncludesFriday: false);
+                weekendIncludesFriday: _optionsService.GetOptions().WeekendIncludesFriday,
+                commandLineIdentifier: Program.CommandLineArgs.OptionsIdentifier);
 
             if (!string.IsNullOrEmpty(reportPath))
             {
@@ -955,6 +1467,24 @@ public partial class OperatorPageViewModel : ObservableObject
         {
             StatusText = "Report generation failed";
             Log.Error(ex, "Failed to generate timing report");
+        }
+    }
+
+    /// <summary>
+    /// Updates the main window's Topmost state based on options and output window visibility.
+    /// In WPF, the main window is always-on-top when either the option is set or an output window is visible.
+    /// </summary>
+    private void UpdateMainWindowTopmost()
+    {
+        if (global::Avalonia.Application.Current?.ApplicationLifetime is global::Avalonia.Controls.ApplicationLifetimes.IClassicDesktopStyleApplicationLifetime desktop)
+        {
+            if (desktop.MainWindow != null)
+            {
+                var options = _optionsService.GetOptions();
+                desktop.MainWindow.Topmost = options.AlwaysOnTop ||
+                    _timerOutputWindow != null ||
+                    _countdownWindow != null;
+            }
         }
     }
 
@@ -1009,5 +1539,6 @@ public partial class OperatorPageViewModel : ObservableObject
         }
 
         _timerOutputWindow.Show();
+        UpdateMainWindowTopmost();
     }
 }

@@ -5,7 +5,7 @@ using System.IO;
 using System.Threading.Tasks;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Report.Pdf;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 /// <summary>
@@ -20,7 +20,8 @@ internal static class TimingReportGeneration
         ILocalTimingDataStoreService dataService,
         IDateTimeService dateTimeService,
         IQueryWeekendService queryWeekendService,
-        bool weekendIncludesFriday)
+        bool weekendIncludesFriday,
+        string? commandLineIdentifier = null)
     {
         return Task.Run(() =>
         {
@@ -31,7 +32,7 @@ internal static class TimingReportGeneration
                 return null;
             }
 
-            var outputFolder = FileUtils.GetTimingReportsFolder();
+            var outputFolder = FileUtils.GetTimingReportsFolder(commandLineIdentifier);
 
             Log.Information("Timer report output folder = {OutputFolder}", outputFolder);
 

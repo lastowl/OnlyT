@@ -18,5 +18,5 @@ public enum FullScreenClockMode
     /// <summary>
     /// Show both analogue and digital clocks
     /// </summary>
-    Both
+    AnalogueAndDigital
 }

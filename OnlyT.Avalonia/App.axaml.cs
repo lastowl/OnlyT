@@ -14,6 +14,7 @@ using OnlyT.Avalonia.Services.Report;
 using OnlyT.Avalonia.Services.Localization;
 using OnlyT.Avalonia.Services.Options;
 using OnlyT.Avalonia.Services.Reminders;
+using OnlyT.Avalonia.Services.CountdownTimer;
 using OnlyT.Avalonia.Services.Overrun;
 using OnlyT.Avalonia.Services.Snackbar;
 using OnlyT.Avalonia.Services.TalkSchedule;
@@ -24,7 +25,7 @@ using OnlyT.Avalonia.WebServer;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Core.Abstractions;
 using OnlyT.EventTracking;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Sentry;
 using Serilog;
 using Serilog.Events;
@@ -173,12 +174,18 @@ public class App : Application
         serviceCollection.AddSingleton<IReminderService, ReminderService>();
         serviceCollection.AddSingleton<ILocalizationService, LocalizationService>();
         serviceCollection.AddSingleton<IQueryWeekendService, QueryWeekendService>();
-        serviceCollection.AddSingleton<ILocalTimingDataStoreService, LocalTimingDataStoreService>();
+        serviceCollection.AddSingleton<ILocalTimingDataStoreService>(sp =>
+            new LocalTimingDataStoreService(
+                sp.GetRequiredService<IDateTimeService>(),
+                Program.CommandLineArgs.OptionsIdentifier));
         serviceCollection.AddSingleton<INdiService, NdiService>();
 
         // Web API
         serviceCollection.AddSingleton<IHttpServer, HttpServer>();
         serviceCollection.AddSingleton<IFirewallService, FirewallService>();
+
+        // Countdown trigger
+        serviceCollection.AddSingleton<CountdownTimerTriggerService>();
 
         // Notifications
         serviceCollection.AddSingleton<ISnackbarService, SnackbarService>();
@@ -201,6 +208,9 @@ public class App : Application
 
         // Apply culture setting
         ApplyCulture(serviceProvider);
+
+        // Auto-switch meeting type based on current day
+        AutoSwitchMeetingType(serviceProvider);
     }
 
     private static void ApplyCulture(IServiceProvider serviceProvider)
@@ -220,6 +230,31 @@ public class App : Application
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to apply culture setting");
+        }
+    }
+
+    private static void AutoSwitchMeetingType(IServiceProvider serviceProvider)
+    {
+        try
+        {
+            var optionsService = serviceProvider.GetRequiredService<IOptionsService>();
+
+            // Auto-switch meeting type based on current day
+            var isWeekend = optionsService.IsNowWeekend();
+            var newMeetingType = isWeekend
+                ? MidWeekOrWeekend.Weekend
+                : MidWeekOrWeekend.MidWeek;
+
+            if (optionsService.MidWeekOrWeekend != newMeetingType)
+            {
+                optionsService.SetMidWeekOrWeekend(newMeetingType);
+                Log.Information("Auto-switched meeting type to {MeetingType} based on current day ({Day})",
+                    newMeetingType, DateTime.Now.DayOfWeek);
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to auto-switch meeting type");
         }
     }
 

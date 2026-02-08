@@ -18,6 +18,10 @@
         <vm:TimerOutputViewModel/>
     </Design.DataContext>
 
+    <Border CornerRadius="20"
+            Margin="5"
+            BorderBrush="Beige"
+            BorderThickness="{Binding FrameBorderThickness}">
     <Grid RowDefinitions="*,Auto,Auto">
         <!-- Main clock area (Row 0) -->
         <Grid Grid.Row="0">
@@ -95,5 +99,6 @@
                    HorizontalAlignment="Center"
                    Margin="0,0,0,20"/>
     </Grid>
+    </Border>
 
 </Window>

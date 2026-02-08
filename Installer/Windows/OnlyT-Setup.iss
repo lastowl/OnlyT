@@ -2,7 +2,7 @@
 ; This script creates a Windows installer that bundles OnlyT and the StreamDeck plugin
 
 #define MyAppName "OnlyT"
-#define MyAppVersion "2.4.0.16"
+#define MyAppVersion "2.4.0.17"
 #define MyAppPublisher "OnlyT"
 #define MyAppURL "https://github.com/lastowl/OnlyT"
 #define MyAppExeName "OnlyT.exe"
@@ -59,6 +59,7 @@ Name: "japanese"; MessagesFile: "compiler:Languages\Japanese.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
+Name: "classicversion"; Description: "Install OnlyT Classic (WPF version)"; GroupDescription: "Additional components:"; Flags: checkedonce
 Name: "streamdeck"; Description: "Install Stream Deck plugin"; GroupDescription: "Additional components:"; Flags: checkedonce
 
 [Files]
@@ -72,12 +73,27 @@ Source: "..\..\publish\win-x64\*.json"; DestDir: "{app}"; Flags: ignoreversion s
 Source: "..\..\publish\win-x64\runtimes\*"; DestDir: "{app}\runtimes"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
 Source: "..\..\publish\win-x64\wwwroot\*"; DestDir: "{app}\wwwroot"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
 
+; OnlyT Classic (WPF) application files - installed to Classic subdirectory
+; Only included if WPF was built (skipifsourcedoesntexist handles missing files gracefully)
+Source: "..\..\publish\win-x64-wpf\OnlyT.exe"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.dll"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.pdb"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.json"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.mp3"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.ico"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*.txt"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\runtimes\*"; DestDir: "{app}\Classic\runtimes"; Tasks: classicversion; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+
 ; StreamDeck plugin - only install if user selects it AND StreamDeck is installed
 Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"; Tasks: streamdeck; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
+; Avalonia version shortcuts
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+; WPF Classic version shortcuts
+Name: "{autoprograms}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: classicversion
+Name: "{autodesktop}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: desktopicon and classicversion
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
@@ -97,9 +113,9 @@ begin
   begin
     if not IsStreamDeckInstalled() then
     begin
-      // Index 0 = desktopicon, Index 1 = streamdeck
-      WizardForm.TasksList.Checked[1] := False;
-      WizardForm.TasksList.ItemEnabled[1] := False;
+      // Index 0 = desktopicon, Index 1 = classicversion, Index 2 = streamdeck
+      WizardForm.TasksList.Checked[2] := False;
+      WizardForm.TasksList.ItemEnabled[2] := False;
     end;
   end;
 end;

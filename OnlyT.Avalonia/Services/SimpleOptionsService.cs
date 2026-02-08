@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using Newtonsoft.Json;
 using OnlyT.Avalonia.Services.Options;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 namespace OnlyT.Avalonia.Services;
@@ -49,6 +49,7 @@ public class SimpleOptionsService : IOptionsService
     public bool ShowDigitalSeconds => GetOptions().ShowDigitalSeconds;
     public bool ShowDurationSector => GetOptions().ShowDurationSector;
     public int CountdownDurationMins => GetOptions().CountdownDurationMins;
+    public Options.ElementsToShow CountdownElementsToShow => GetOptions().CountdownElementsToShow;
     public bool FlashTimerWhenOvertime => GetOptions().FlashTimerWhenOvertime;
     public bool BellOnOvertime => GetOptions().BellOnOvertime;
     public bool ShowMousePointerInTimerDisplay => GetOptions().ShowMousePointerInTimerDisplay;
@@ -64,10 +65,49 @@ public class SimpleOptionsService : IOptionsService
     public bool IsCountdownWindowTransparent => GetOptions().IsCountdownWindowTransparent;
     public bool PersistStudentTime => GetOptions().PersistStudentTime;
 
+    public bool CountUp => GetOptions().CountUp;
+    public bool GenerateTimingReports => GetOptions().GenerateTimingReports;
     public string Culture => GetOptions().Culture;
     public bool ShrinkOnMinimise => GetOptions().ShrinkOnMinimise;
     public bool OverrunNotifications => GetOptions().OverrunNotifications;
     public string LogEventLevel => GetOptions().LogEventLevel;
+    public bool WeekendIncludesFriday => GetOptions().WeekendIncludesFriday;
+
+    /// <summary>
+    /// Checks if the current day is a weekend day (Saturday, Sunday, or optionally Friday)
+    /// </summary>
+    public bool IsNowWeekend()
+    {
+        var today = DateTime.Now.DayOfWeek;
+        return today == DayOfWeek.Saturday ||
+               today == DayOfWeek.Sunday ||
+               (WeekendIncludesFriday && today == DayOfWeek.Friday);
+    }
+
+    /// <summary>
+    /// Sets the meeting type and saves options
+    /// </summary>
+    public void SetMidWeekOrWeekend(MidWeekOrWeekend value)
+    {
+        var options = GetOptions();
+        if (options.MidWeekOrWeekend != value)
+        {
+            options.MidWeekOrWeekend = value;
+            SaveOptions(options);
+            Log.Information("Meeting type auto-switched to: {MeetingType}", value);
+        }
+    }
+
+    /// <summary>
+    /// Gets the current adaptive mode based on whether it's midweek or weekend
+    /// </summary>
+    public AdaptiveMode GetAdaptiveMode()
+    {
+        var options = GetOptions();
+        return MidWeekOrWeekend == MidWeekOrWeekend.MidWeek
+            ? options.MidWeekAdaptiveMode
+            : options.WeekendAdaptiveMode;
+    }
 
     private MeetingStartTimes? _meetingStartTimes;
     public MeetingStartTimes MeetingStartTimes
@@ -104,6 +144,7 @@ public class SimpleOptionsService : IOptionsService
         }
 
         _cachedOptions ??= new AppOptions();
+        _cachedOptions.Sanitize();
         return _cachedOptions;
     }
 
