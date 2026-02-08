@@ -1,5 +1,6 @@
 namespace OnlyT.Avalonia.Services;
 
+using System;
 using OnlyT.Avalonia.Services.Options;
 
 /// <summary>
@@ -103,6 +104,11 @@ public interface IOptionsService
     int CountdownDurationMins { get; }
 
     /// <summary>
+    /// Which elements to show on the countdown display (dial, digital, or both)
+    /// </summary>
+    Options.ElementsToShow CountdownElementsToShow { get; }
+
+    /// <summary>
     /// Whether to show duration sector on analog clock
     /// </summary>
     bool ShowDurationSector { get; }
@@ -201,6 +207,36 @@ public interface IOptionsService
     /// Logging level (Verbose, Debug, Information, Warning, Error, Fatal)
     /// </summary>
     string LogEventLevel { get; }
+
+    /// <summary>
+    /// Whether Friday should be considered part of the weekend for auto-switching
+    /// </summary>
+    bool WeekendIncludesFriday { get; }
+
+    /// <summary>
+    /// Whether the timer counts up by default (false = count down)
+    /// </summary>
+    bool CountUp { get; }
+
+    /// <summary>
+    /// Whether to generate timing reports at end of meeting
+    /// </summary>
+    bool GenerateTimingReports { get; }
+
+    /// <summary>
+    /// Checks if the current day is a weekend day (for auto-switching between midweek/weekend schedules)
+    /// </summary>
+    bool IsNowWeekend();
+
+    /// <summary>
+    /// Sets the meeting type (midweek/weekend) and saves options
+    /// </summary>
+    void SetMidWeekOrWeekend(MidWeekOrWeekend value);
+
+    /// <summary>
+    /// Gets the current adaptive mode based on whether it's midweek or weekend
+    /// </summary>
+    AdaptiveMode GetAdaptiveMode();
 }
 
 /// <summary>
@@ -256,12 +292,12 @@ public class AppOptions
     /// <summary>
     /// Whether to show the circuit visit toggle control
     /// </summary>
-    public bool ShowCircuitVisitToggle { get; set; } = true;
+    public bool ShowCircuitVisitToggle { get; set; } = false;
 
     /// <summary>
     /// Whether to allow count up/down toggle
     /// </summary>
-    public bool AllowCountUpToggle { get; set; } = true;
+    public bool AllowCountUpToggle { get; set; } = false;
 
     /// <summary>
     /// Whether to use flat clock style
@@ -281,12 +317,12 @@ public class AppOptions
     /// <summary>
     /// Whether the Web API is enabled
     /// </summary>
-    public bool IsApiEnabled { get; set; } = true;
+    public bool IsApiEnabled { get; set; } = false;
 
     /// <summary>
     /// Whether API throttling is enabled (rate limiting)
     /// </summary>
-    public bool IsApiThrottled { get; set; } = false;
+    public bool IsApiThrottled { get; set; } = true;
 
     /// <summary>
     /// API access code for authentication (empty = no authentication required)
@@ -319,6 +355,11 @@ public class AppOptions
     public int CountdownDurationMins { get; set; } = 5;
 
     /// <summary>
+    /// Which elements to show on the countdown display
+    /// </summary>
+    public ElementsToShow CountdownElementsToShow { get; set; } = ElementsToShow.DialAndDigital;
+
+    /// <summary>
     /// Whether to flash the timer display during overtime
     /// </summary>
     public bool FlashTimerWhenOvertime { get; set; } = true;
@@ -336,12 +377,12 @@ public class AppOptions
     /// <summary>
     /// Analogue clock width as percentage of window width (10-100, default: 80)
     /// </summary>
-    public int AnalogueClockWidthPercent { get; set; } = 80;
+    public int AnalogueClockWidthPercent { get; set; } = 50;
 
     /// <summary>
     /// Clock display mode (Analogue, Digital, or Both) - default: Digital
     /// </summary>
-    public FullScreenClockMode FullScreenClockMode { get; set; } = FullScreenClockMode.Digital;
+    public FullScreenClockMode FullScreenClockMode { get; set; } = FullScreenClockMode.AnalogueAndDigital;
 
     /// <summary>
     /// Bell volume percentage (0-100, default: 70)
@@ -376,7 +417,7 @@ public class AppOptions
     /// <summary>
     /// Whether to show a gradient background on the timer display (default: true)
     /// </summary>
-    public bool ShowBackgroundOnTimer { get; set; } = true;
+    public bool ShowBackgroundOnTimer { get; set; } = false;
 
     /// <summary>
     /// Whether the countdown window should be transparent (default: false)
@@ -421,7 +462,7 @@ public class AppOptions
     /// <summary>
     /// Whether to show overrun/underrun notifications when talks end (default: true)
     /// </summary>
-    public bool OverrunNotifications { get; set; } = true;
+    public bool OverrunNotifications { get; set; } = false;
 
     /// <summary>
     /// Logging level (default: Information)
@@ -432,6 +473,47 @@ public class AppOptions
     /// Timer output window position and size
     /// </summary>
     public WindowPlacement? TimerOutputWindowPlacement { get; set; }
+
+    /// <summary>
+    /// Countdown window position and size
+    /// </summary>
+    public WindowPlacement? CountdownWindowPlacement { get; set; }
+
+    /// <summary>
+    /// Whether Friday should be considered part of the weekend (default: false)
+    /// </summary>
+    public bool WeekendIncludesFriday { get; set; } = false;
+
+    /// <summary>
+    /// Whether the timer counts up by default (false = count down)
+    /// </summary>
+    public bool CountUp { get; set; } = false;
+
+    /// <summary>
+    /// Whether to generate timing reports at end of meeting
+    /// </summary>
+    public bool GenerateTimingReports { get; set; } = false;
+
+    /// <summary>
+    /// Sanitizes option values to ensure they are within valid ranges.
+    /// </summary>
+    public void Sanitize()
+    {
+        BellVolumePercent = Math.Clamp(BellVolumePercent, 0, 100);
+        AnalogueClockWidthPercent = Math.Clamp(AnalogueClockWidthPercent, 0, 100);
+        CountdownDurationMins = Math.Clamp(CountdownDurationMins, 1, 60);
+        HttpServerPort = Math.Clamp(HttpServerPort, 1, 65535);
+
+        if (string.IsNullOrEmpty(Culture))
+        {
+            Culture = "en-GB";
+        }
+
+        if (string.IsNullOrEmpty(LogEventLevel))
+        {
+            LogEventLevel = "Information";
+        }
+    }
 }
 
 /// <summary>

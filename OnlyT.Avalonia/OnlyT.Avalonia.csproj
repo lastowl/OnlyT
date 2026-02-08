@@ -10,6 +10,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>OnlyT</AssemblyName>
     <Product>OnlyT</Product>
+    <!-- Windows executable icon -->
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

@@ -11,7 +11,10 @@ public class WindowsSystemIntegration : ISystemIntegration
     private Mutex? _appMutex;
 
     // Windows DWM API for dark mode title bar
-    private const int DWMWA_USE_IMMERSIVE_DARK_MODE = 20;
+    // Windows 10 20H1 (build 19041) and later use attribute 20
+    // Earlier Windows 10 versions use attribute 19
+    private const int DWMWA_USE_IMMERSIVE_DARK_MODE_V2 = 20;
+    private const int DWMWA_USE_IMMERSIVE_DARK_MODE_V1 = 19;
 
     [DllImport("dwmapi.dll")]
     private static extern int DwmSetWindowAttribute(IntPtr hwnd, int attr, ref int attrValue, int attrSize);
@@ -49,7 +52,15 @@ public class WindowsSystemIntegration : ISystemIntegration
             }
 
             var darkModeValue = enable ? 1 : 0;
-            var result = DwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE, ref darkModeValue, sizeof(int));
+
+            // Try the newer attribute value first (Windows 10 20H1+)
+            var result = DwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE_V2, ref darkModeValue, sizeof(int));
+
+            if (result != 0)
+            {
+                // Fall back to older attribute for earlier Windows 10 versions
+                result = DwmSetWindowAttribute(hwnd, DWMWA_USE_IMMERSIVE_DARK_MODE_V1, ref darkModeValue, sizeof(int));
+            }
 
             if (result == 0)
             {
@@ -57,7 +68,7 @@ public class WindowsSystemIntegration : ISystemIntegration
             }
             else
             {
-                Log.Debug("DwmSetWindowAttribute returned {Result}", result);
+                Log.Debug("DwmSetWindowAttribute returned {Result} - dark mode title bar may not be supported", result);
             }
         }
         catch (Exception ex)

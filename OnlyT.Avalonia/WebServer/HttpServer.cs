@@ -263,6 +263,13 @@ public sealed class HttpServer : IHttpServer
 
         AddCorsHeaders(response);
 
+        // Gate API on IsApiEnabled setting
+        if (!_optionsService.IsApiEnabled)
+        {
+            WriteErrorResponse(response, HttpStatusCode.ServiceUnavailable, "API is disabled");
+            return;
+        }
+
         if (request.Url?.Segments.Length == 2)
         {
             // GET /api/ - return API version
@@ -303,9 +310,26 @@ public sealed class HttpServer : IHttpServer
     {
         if (request.HttpMethod.Equals("GET", StringComparison.OrdinalIgnoreCase))
         {
-            // GET /api/v1/timers/ - get all timer info
-            var timerData = GetTimersData();
-            WriteJsonResponse(response, timerData);
+            // Check if requesting a single timer: GET /api/v1/timers/{id}
+            if (request.Url?.Segments.Length > 4 &&
+                int.TryParse(request.Url.Segments[4].TrimEnd('/'), out var singleTalkId))
+            {
+                var talk = _scheduleService.GetTalkScheduleItem(singleTalkId);
+                if (talk == null)
+                {
+                    WriteErrorResponse(response, HttpStatusCode.NotFound, "Timer does not exist");
+                    return;
+                }
+                var timerData = GetTimersData();
+                timerData.TimerInfo.RemoveAll(t => t.TalkId != singleTalkId);
+                WriteJsonResponse(response, timerData);
+            }
+            else
+            {
+                // GET /api/v1/timers/ - get all timer info
+                var timerData = GetTimersData();
+                WriteJsonResponse(response, timerData);
+            }
         }
         else if (request.HttpMethod.Equals("POST", StringComparison.OrdinalIgnoreCase))
         {
@@ -318,7 +342,9 @@ public sealed class HttpServer : IHttpServer
                 {
                     Success = result.Success,
                     TalkId = talkId,
-                    Status = result.Success ? "started" : "failed"
+                    Command = "Start",
+                    Status = result.Success ? "started" : "failed",
+                    CurrentStatus = GetCurrentTimerStatus()
                 });
             }
             else
@@ -337,7 +363,9 @@ public sealed class HttpServer : IHttpServer
                 {
                     Success = result.Success,
                     TalkId = talkId,
-                    Status = result.Success ? "stopped" : "failed"
+                    Command = "Stop",
+                    Status = result.Success ? "stopped" : "failed",
+                    CurrentStatus = GetCurrentTimerStatus()
                 });
             }
             else
@@ -352,6 +380,9 @@ public sealed class HttpServer : IHttpServer
         var now = DateTime.Now;
         var localTime = new LocalTime
         {
+            Year = now.Year,
+            Month = now.Month,
+            Day = now.Day,
             Hour = now.Hour,
             Min = now.Minute,
             Sec = now.Second,
@@ -491,16 +522,21 @@ public sealed class HttpServer : IHttpServer
         var result = new TimersResponseData();
         var serviceStatus = _timerService.GetStatus();
 
-        // Create status object matching WPF original format
+        // Get closing secs from the current talk if available
+        var currentTalk = serviceStatus.TalkId.HasValue
+            ? _scheduleService.GetTalkScheduleItem(serviceStatus.TalkId.Value)
+            : null;
+
         result.Status = new TimerStatus
         {
             TalkId = serviceStatus.TalkId,
             TargetSeconds = serviceStatus.TargetSeconds,
             IsRunning = serviceStatus.IsRunning,
             TimeElapsed = serviceStatus.TimeElapsed,
-            ClosingSecs = 60 // Default closing seconds
+            ClosingSecs = currentTalk?.ClosingSecs ?? 30
         };
 
+        var countUpByDefault = _optionsService.CountUp;
         var talks = _scheduleService.GetTalkScheduleItems();
         foreach (var talk in talks)
         {
@@ -514,10 +550,13 @@ public sealed class HttpServer : IHttpServer
                 ModifiedDurationSecs = talk.ModifiedDuration.HasValue
                     ? (int?)talk.ModifiedDuration.Value.TotalSeconds
                     : null,
+                AdaptedDurationSecs = talk.AdaptedDuration.HasValue
+                    ? (int?)talk.AdaptedDuration.Value.TotalSeconds
+                    : null,
                 ActualDurationSecs = (int)talk.ActualDuration.TotalSeconds,
                 UsesBell = talk.BellApplicable,
                 CompletedTimeSecs = talk.CompletedTimeSecs,
-                CountUp = talk.CountUp ?? false,
+                CountUp = talk.CountUp ?? countUpByDefault,
                 ClosingSecs = talk.ClosingSecs
             };
 
@@ -525,6 +564,23 @@ public sealed class HttpServer : IHttpServer
         }
 
         return result;
+    }
+
+    private TimerStatus GetCurrentTimerStatus()
+    {
+        var serviceStatus = _timerService.GetStatus();
+        var currentTalk = serviceStatus.TalkId.HasValue
+            ? _scheduleService.GetTalkScheduleItem(serviceStatus.TalkId.Value)
+            : null;
+
+        return new TimerStatus
+        {
+            TalkId = serviceStatus.TalkId,
+            TargetSeconds = serviceStatus.TargetSeconds,
+            IsRunning = serviceStatus.IsRunning,
+            TimeElapsed = serviceStatus.TimeElapsed,
+            ClosingSecs = currentTalk?.ClosingSecs ?? 30
+        };
     }
 
     private static void HandleOptionsMethod(HttpListenerRequest request, HttpListenerResponse response)
@@ -768,10 +824,18 @@ public sealed class HttpServer : IHttpServer
             return true;
         }
 
-        // Check query parameter
+        // Check query parameter "code"
         var queryCode = request.QueryString["code"];
         if (!string.IsNullOrEmpty(queryCode) &&
             string.Equals(queryCode, expectedCode, StringComparison.Ordinal))
+        {
+            return true;
+        }
+
+        // WPF compatibility: Check "ApiCode" header or query parameter
+        var apiCode = request.Headers["ApiCode"] ?? request.QueryString["ApiCode"];
+        if (!string.IsNullOrEmpty(apiCode) &&
+            string.Equals(apiCode, expectedCode, StringComparison.Ordinal))
         {
             return true;
         }

@@ -117,10 +117,44 @@ public partial class SettingsViewModel : ObservableObject
     private bool _shrinkOnMinimise;
 
     [ObservableProperty]
+    private bool _isApiEnabled;
+
+    [ObservableProperty]
+    private bool _showCircuitVisitToggle;
+
+    [ObservableProperty]
+    private bool _allowCountUpToggle;
+
+    [ObservableProperty]
+    private bool _countUp;
+
+    [ObservableProperty]
+    private bool _weekendIncludesFriday;
+
+    [ObservableProperty]
+    private bool _overrunNotifications;
+
+    [ObservableProperty]
+    private bool _generateTimingReports;
+
+    [ObservableProperty]
+    private int _httpServerPort = 8096;
+
+    [ObservableProperty]
     private string _meetingStartTimesText = string.Empty;
 
     [ObservableProperty]
     private int _countdownDurationMins = 5;
+
+    [ObservableProperty]
+    private ElementsToShow _countdownElementsToShow = ElementsToShow.DialAndDigital;
+
+    public ElementsToShow[] CountdownElementsToShowOptions { get; } =
+    [
+        ElementsToShow.DialAndDigital,
+        ElementsToShow.Dial,
+        ElementsToShow.Digital
+    ];
 
     [ObservableProperty]
     private LanguageItem? _selectedLanguage;
@@ -155,7 +189,7 @@ public partial class SettingsViewModel : ObservableObject
     public ObservableCollection<MonitorItem> AvailableMonitors { get; } = new();
     public OperatingMode[] OperatingModes { get; } = [OperatingMode.Manual, OperatingMode.Automatic, OperatingMode.ScheduleFile];
     public MidWeekOrWeekend[] MeetingTypes { get; } = [MidWeekOrWeekend.MidWeek, MidWeekOrWeekend.Weekend];
-    public ClockMode[] ClockModes { get; } = [ClockMode.Digital, ClockMode.Analogue, ClockMode.Both];
+    public ClockMode[] ClockModes { get; } = [ClockMode.Digital, ClockMode.Analogue, ClockMode.AnalogueAndDigital];
     public ClockHourFormatItem[] ClockHourFormats =>
     [
         new ClockHourFormatItem(Strings.CLOCK_FORMAT_12, ClockHourFormat.Format12, "3:00"),
@@ -247,8 +281,17 @@ public partial class SettingsViewModel : ObservableObject
         options.IsCountdownWindowTransparent = IsCountdownWindowTransparent;
         options.PersistStudentTime = PersistStudentTime;
         options.ShrinkOnMinimise = ShrinkOnMinimise;
+        options.IsApiEnabled = IsApiEnabled;
+        options.ShowCircuitVisitToggle = ShowCircuitVisitToggle;
+        options.AllowCountUpToggle = AllowCountUpToggle;
+        options.CountUp = CountUp;
+        options.WeekendIncludesFriday = WeekendIncludesFriday;
+        options.OverrunNotifications = OverrunNotifications;
+        options.GenerateTimingReports = GenerateTimingReports;
+        options.HttpServerPort = HttpServerPort;
         options.MeetingStartTimesText = MeetingStartTimesText;
         options.CountdownDurationMins = CountdownDurationMins;
+        options.CountdownElementsToShow = CountdownElementsToShow;
         options.Culture = SelectedLanguage?.CultureCode ?? "en-GB";
         options.MonitorId = SelectedMonitor?.MonitorId;
         options.LogEventLevel = SelectedLogLevel?.Level.ToString() ?? "Information";
@@ -339,8 +382,17 @@ public partial class SettingsViewModel : ObservableObject
         IsCountdownWindowTransparent = options.IsCountdownWindowTransparent;
         PersistStudentTime = options.PersistStudentTime;
         ShrinkOnMinimise = options.ShrinkOnMinimise;
+        IsApiEnabled = options.IsApiEnabled;
+        ShowCircuitVisitToggle = options.ShowCircuitVisitToggle;
+        AllowCountUpToggle = options.AllowCountUpToggle;
+        CountUp = options.CountUp;
+        WeekendIncludesFriday = options.WeekendIncludesFriday;
+        OverrunNotifications = options.OverrunNotifications;
+        GenerateTimingReports = options.GenerateTimingReports;
+        HttpServerPort = options.HttpServerPort;
         MeetingStartTimesText = options.MeetingStartTimesText;
         CountdownDurationMins = options.CountdownDurationMins;
+        CountdownElementsToShow = options.CountdownElementsToShow;
 
         // Load log level
         if (Enum.TryParse<LogEventLevel>(options.LogEventLevel, out var logLevel))
@@ -361,8 +413,12 @@ public partial class SettingsViewModel : ObservableObject
     {
         var today = System.DateTime.Now.DayOfWeek;
 
-        // Auto-detect: Saturday/Sunday = Weekend, Mon-Fri = Midweek
         if (today == System.DayOfWeek.Saturday || today == System.DayOfWeek.Sunday)
+        {
+            return MidWeekOrWeekend.Weekend;
+        }
+
+        if (_optionsService.WeekendIncludesFriday && today == System.DayOfWeek.Friday)
         {
             return MidWeekOrWeekend.Weekend;
         }

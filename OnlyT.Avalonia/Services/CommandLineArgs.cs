@@ -44,6 +44,11 @@ public class CommandLineArgs
     public bool ShowHelp { get; set; }
 
     /// <summary>
+    /// Instance identifier for segregating options and report data
+    /// </summary>
+    public string? OptionsIdentifier { get; set; }
+
+    /// <summary>
     /// Enable NDI output for timer display
     /// </summary>
     public bool IsTimerNdi { get; set; }
@@ -120,6 +125,14 @@ public class CommandLineArgs
                     result.ShowHelp = true;
                     break;
 
+                case "--id":
+                    if (i + 1 < args.Length)
+                    {
+                        result.OptionsIdentifier = args[i + 1];
+                        i++;
+                    }
+                    break;
+
                 case "--ndi":
                 case "--timer-ndi":
                     result.IsTimerNdi = true;
@@ -170,6 +183,7 @@ Options:
   --autostart, -a      Auto-start timer on launch
   --silent, -s         Start minimized
   --nosettings         Don't persist settings changes
+  --id <name>          Instance identifier (separates options and reports)
   --dark               Force dark mode
   --light              Force light mode
   --ndi                Enable NDI output for timer display

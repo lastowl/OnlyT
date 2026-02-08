@@ -2,7 +2,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace OnlyT.Utils;
+namespace OnlyT.Avalonia.Utils;
 
 /// <summary>
 /// Web utilities for downloading content
