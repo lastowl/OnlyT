@@ -75,16 +75,30 @@ internal sealed class TalkScheduleService : ITalkScheduleService
         for (var n = 0; n < talks.Length; ++n)
         {
             var thisTalk = talks[n];
-            if (thisTalk.Id == currentTalkId)
+            if (thisTalk.Id.Equals(currentTalkId))
             {
                 foundCurrent = true;
             }
-            else if (foundCurrent)
+
+            if (n != talks.Length - 1 && foundCurrent && talks[n + 1].ActualDuration != TimeSpan.Zero)
             {
-                return thisTalk.Id;
+                return talks[n + 1].Id;
             }
         }
 
-        return talks.First().Id;
+        return 0;
+    }
+
+    /// <summary>
+    /// Records completed time on the talk when a timer stops.
+    /// Called from OperatorPageViewModel when timer stops.
+    /// </summary>
+    public void RecordTalkCompleted(int talkId, int elapsedSecs)
+    {
+        var talk = GetTalkScheduleItem(talkId);
+        if (talk != null)
+        {
+            talk.CompletedTimeSecs = elapsedSecs;
+        }
     }
 }

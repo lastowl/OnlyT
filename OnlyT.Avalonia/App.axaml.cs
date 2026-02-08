@@ -14,6 +14,7 @@ using OnlyT.Avalonia.Services.Report;
 using OnlyT.Avalonia.Services.Localization;
 using OnlyT.Avalonia.Services.Options;
 using OnlyT.Avalonia.Services.Reminders;
+using OnlyT.Avalonia.Services.CountdownTimer;
 using OnlyT.Avalonia.Services.Overrun;
 using OnlyT.Avalonia.Services.Snackbar;
 using OnlyT.Avalonia.Services.TalkSchedule;
@@ -173,12 +174,18 @@ public class App : Application
         serviceCollection.AddSingleton<IReminderService, ReminderService>();
         serviceCollection.AddSingleton<ILocalizationService, LocalizationService>();
         serviceCollection.AddSingleton<IQueryWeekendService, QueryWeekendService>();
-        serviceCollection.AddSingleton<ILocalTimingDataStoreService, LocalTimingDataStoreService>();
+        serviceCollection.AddSingleton<ILocalTimingDataStoreService>(sp =>
+            new LocalTimingDataStoreService(
+                sp.GetRequiredService<IDateTimeService>(),
+                Program.CommandLineArgs.OptionsIdentifier));
         serviceCollection.AddSingleton<INdiService, NdiService>();
 
         // Web API
         serviceCollection.AddSingleton<IHttpServer, HttpServer>();
         serviceCollection.AddSingleton<IFirewallService, FirewallService>();
+
+        // Countdown trigger
+        serviceCollection.AddSingleton<CountdownTimerTriggerService>();
 
         // Notifications
         serviceCollection.AddSingleton<ISnackbarService, SnackbarService>();
@@ -235,8 +242,8 @@ public class App : Application
             // Auto-switch meeting type based on current day
             var isWeekend = optionsService.IsNowWeekend();
             var newMeetingType = isWeekend
-                ? Options.MidWeekOrWeekend.Weekend
-                : Options.MidWeekOrWeekend.MidWeek;
+                ? MidWeekOrWeekend.Weekend
+                : MidWeekOrWeekend.MidWeek;
 
             if (optionsService.MidWeekOrWeekend != newMeetingType)
             {

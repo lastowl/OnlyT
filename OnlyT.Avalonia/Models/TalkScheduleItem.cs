@@ -70,6 +70,7 @@ public class TalkScheduleItem : ObservableObject
                 _completedSeconds = value;
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(OvertimeString));
+                OnPropertyChanged(nameof(OvertimeBrush));
             }
         }
     }

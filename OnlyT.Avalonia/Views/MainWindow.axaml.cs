@@ -115,8 +115,15 @@ public partial class MainWindow : Window
     private void OnWindowClosing(object? sender, WindowClosingEventArgs e)
     {
         if (_isClosing) return;
-        _isClosing = true;
 
+        // Prevent closing while timer is running
+        if (_operatorViewModel?.IsRunning == true)
+        {
+            e.Cancel = true;
+            return;
+        }
+
+        _isClosing = true;
         SaveWindowPlacement();
     }
 

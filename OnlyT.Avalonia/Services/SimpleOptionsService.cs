@@ -49,6 +49,7 @@ public class SimpleOptionsService : IOptionsService
     public bool ShowDigitalSeconds => GetOptions().ShowDigitalSeconds;
     public bool ShowDurationSector => GetOptions().ShowDurationSector;
     public int CountdownDurationMins => GetOptions().CountdownDurationMins;
+    public Options.ElementsToShow CountdownElementsToShow => GetOptions().CountdownElementsToShow;
     public bool FlashTimerWhenOvertime => GetOptions().FlashTimerWhenOvertime;
     public bool BellOnOvertime => GetOptions().BellOnOvertime;
     public bool ShowMousePointerInTimerDisplay => GetOptions().ShowMousePointerInTimerDisplay;
@@ -64,6 +65,8 @@ public class SimpleOptionsService : IOptionsService
     public bool IsCountdownWindowTransparent => GetOptions().IsCountdownWindowTransparent;
     public bool PersistStudentTime => GetOptions().PersistStudentTime;
 
+    public bool CountUp => GetOptions().CountUp;
+    public bool GenerateTimingReports => GetOptions().GenerateTimingReports;
     public string Culture => GetOptions().Culture;
     public bool ShrinkOnMinimise => GetOptions().ShrinkOnMinimise;
     public bool OverrunNotifications => GetOptions().OverrunNotifications;
@@ -141,6 +144,7 @@ public class SimpleOptionsService : IOptionsService
         }
 
         _cachedOptions ??= new AppOptions();
+        _cachedOptions.Sanitize();
         return _cachedOptions;
     }
 

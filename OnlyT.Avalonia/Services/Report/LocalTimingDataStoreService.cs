@@ -17,6 +17,7 @@ internal sealed class LocalTimingDataStoreService : ILocalTimingDataStoreService
     private const int MeetingMinsOutOfRange = 20;
 
     private readonly IDateTimeService _dateTimeService;
+    private readonly string? _optionsIdentifier;
 
     private LocalData? _localData;
     private string? _currentPartDescription;
@@ -24,9 +25,10 @@ internal sealed class LocalTimingDataStoreService : ILocalTimingDataStoreService
     private MeetingTimes? _mtgTimes;
     private bool _initialised;
 
-    public LocalTimingDataStoreService(IDateTimeService dateTimeService)
+    public LocalTimingDataStoreService(IDateTimeService dateTimeService, string? optionsIdentifier = null)
     {
         _dateTimeService = dateTimeService;
+        _optionsIdentifier = optionsIdentifier;
     }
 
     public MeetingTimes? MeetingTimes => _mtgTimes;
@@ -262,7 +264,7 @@ internal sealed class LocalTimingDataStoreService : ILocalTimingDataStoreService
     {
         try
         {
-            var folder = FileUtils.GetTimingReportsDatabaseFolder();
+            var folder = FileUtils.GetTimingReportsDatabaseFolder(_optionsIdentifier);
             var dbFilePath = Path.Combine(folder, "TimingDataV2.db");
 
             _localData = new LocalData(dbFilePath);
