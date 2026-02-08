@@ -23,7 +23,6 @@ using OnlyT.Avalonia.EventArgsTypes;
 using OnlyT.Avalonia.Utils;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Core.Abstractions;
-using OnlyT.Utils;
 using Serilog;
 
 namespace OnlyT.Avalonia.ViewModels;
@@ -292,6 +291,46 @@ public partial class OperatorPageViewModel : ObservableObject
 
         // Start heartbeat timer for countdown auto-trigger
         InitHeartbeatTimer();
+
+        // Check for new version after a short delay
+        CheckForNewVersion();
+    }
+
+    private async void CheckForNewVersion()
+    {
+        try
+        {
+            await Task.Delay(2000); // Wait 2 seconds before checking
+
+            var newVersionAvailable = await VersionDetection.IsNewVersionAvailableAsync();
+            if (newVersionAvailable)
+            {
+                Log.Information("New version available");
+                IsNewVersionAvailable = true;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error checking for new version");
+        }
+    }
+
+    [RelayCommand]
+    private void OpenNewVersionPage()
+    {
+        try
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = VersionDetection.LatestReleaseUrl,
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Error opening releases page");
+        }
     }
 
     private void OnReminderTriggered(object? sender, ReminderEventArgs e)
