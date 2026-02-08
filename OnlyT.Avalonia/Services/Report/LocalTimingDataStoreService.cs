@@ -5,7 +5,7 @@ using System.IO;
 using OnlyT.Common.Services.DateTime;
 using OnlyT.Report.Database;
 using OnlyT.Report.Models;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 /// <summary>

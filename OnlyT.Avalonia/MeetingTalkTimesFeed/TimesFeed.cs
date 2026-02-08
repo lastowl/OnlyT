@@ -6,7 +6,7 @@ using System.Text;
 using Newtonsoft.Json;
 using OnlyT.Common.Services.DateTime;
 using Serilog;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 
 namespace OnlyT.Avalonia.MeetingTalkTimesFeed;
 

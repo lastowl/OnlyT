@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Xml.Linq;
 using Models;
-using OnlyT.Utils;
+using OnlyT.Avalonia.Utils;
 using Serilog;
 
 /// <summary>

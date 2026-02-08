@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace OnlyT.Utils;
+namespace OnlyT.Avalonia.Utils;
 
 /// <summary>
 /// File utilities for cross-platform file paths
