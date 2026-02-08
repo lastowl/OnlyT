@@ -140,7 +140,8 @@
                         Grid.ColumnSpan="{Binding TimeDisplayColumnSpan}"
                         Padding="10"
                         Background="Black"
-                        CornerRadius="10">
+                        CornerRadius="10"
+                        Name="TimerDisplayBorder">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="15" />
@@ -322,17 +323,8 @@
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
                             Spacing="8">
-                    <!-- Generate Report Button -->
-                    <Button Command="{Binding GenerateReportCommand}"
-                            ToolTip.Tip="{loc:Localize TIP_GENERATE_REPORT}"
-                            Width="38"
-                            Height="38"
-                            CornerRadius="19">
-                        <Path Data="{StaticResource ReportIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
-                    </Button>
-
                     <!-- Countdown Button -->
-                    <Button Command="{Binding ShowCountdownCommand}"
+                    <Button Command="{Binding ToggleCountdownCommand}"
                             ToolTip.Tip="{loc:Localize TIP_SHOW_COUNTDOWN}"
                             Width="38"
                             Height="38"

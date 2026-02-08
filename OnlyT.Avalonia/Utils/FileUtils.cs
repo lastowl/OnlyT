@@ -77,16 +77,16 @@ public static class FileUtils
         return Path.Combine(GetDocumentsFolder(), "talk_schedule.xml");
     }
 
-    public static string GetTimingReportsFolder()
+    public static string GetTimingReportsFolder(string? identifier = null)
     {
-        var folder = Path.Combine(GetDocumentsFolder(), "TimingReports");
+        var folder = Path.Combine(GetDocumentsFolder(), "TimingReports", identifier ?? string.Empty);
         Directory.CreateDirectory(folder);
         return folder;
     }
 
-    public static string GetTimingReportsDatabaseFolder()
+    public static string GetTimingReportsDatabaseFolder(string? identifier = null)
     {
-        var folder = Path.Combine(GetUserAppDataFolder(), "TimingReportsDatabase");
+        var folder = Path.Combine(GetUserAppDataFolder(), "TimingReportsDatabase", identifier ?? string.Empty);
         Directory.CreateDirectory(folder);
         return folder;
     }

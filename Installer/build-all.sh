@@ -127,14 +127,31 @@ build_dotnet() {
     print_success "Built for $runtime"
 }
 
+# Build WPF Classic version for Windows (requires Windows SDK)
+build_windows_wpf() {
+    echo "Building WPF Classic version..."
+    local wpf_publish_dir="$PROJECT_ROOT/publish/win-x64-wpf"
+
+    cd "$PROJECT_ROOT"
+    if dotnet publish OnlyT/OnlyT.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o "$wpf_publish_dir" 2>/dev/null; then
+        print_success "Built WPF Classic version"
+    else
+        print_warning "WPF Classic build failed (requires Windows SDK - skipping)"
+        print_warning "The installer will still work without the Classic version"
+    fi
+}
+
 # Build for Windows
 build_windows() {
     print_header "Building for Windows"
 
     local publish_dir="$PROJECT_ROOT/publish/win-x64"
 
-    # Build .NET application
+    # Build Avalonia (cross-platform) version
     build_dotnet "win-x64" "$publish_dir"
+
+    # Build WPF Classic version (optional - only works on Windows)
+    build_windows_wpf
 
     # Check for Inno Setup
     if command -v iscc &> /dev/null; then

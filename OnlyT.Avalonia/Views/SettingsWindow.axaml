@@ -152,8 +152,14 @@
                         <CheckBox Content="{loc:Localize CIRCUIT_VISIT}"
                                   IsChecked="{Binding IsCircuitVisit}"/>
 
+                        <CheckBox Content="{loc:Localize CO_VISIT_TOGGLE}"
+                                  IsChecked="{Binding ShowCircuitVisitToggle}"/>
+
                         <CheckBox Content="{loc:Localize PERSIST_STUDENT_TIME}"
                                   IsChecked="{Binding PersistStudentTime}"/>
+
+                        <CheckBox Content="{loc:Localize WEEKEND_INCLUDES_FRIDAY}"
+                                  IsChecked="{Binding WeekendIncludesFriday}"/>
                     </StackPanel>
                 </Border>
 
@@ -257,8 +263,16 @@
                     <StackPanel>
                         <TextBlock Classes="GroupHeader" Text="{loc:Localize APPS_SECTION}"/>
 
+                        <CheckBox Content="{loc:Localize ENABLED_API}"
+                                  IsChecked="{Binding IsApiEnabled}"/>
+
                         <CheckBox Content="{loc:Localize THROTTLED}"
                                   IsChecked="{Binding IsApiThrottled}"/>
+
+                        <TextBlock Text="{loc:Localize PORT}" FontSize="12" Margin="0,0,0,4"/>
+                        <NumericUpDown Value="{Binding HttpServerPort}"
+                                       Minimum="1" Maximum="65535"
+                                       Margin="0,0,0,12"/>
 
                         <TextBlock Text="{loc:Localize ACCESS_CODE}" FontSize="12" Margin="0,0,0,4"/>
                         <TextBox Text="{Binding ApiAccessCode}"
@@ -286,6 +300,11 @@
                                 Value="{Binding CountdownDurationMins}"
                                 TickFrequency="5"
                                 Margin="0,0,0,12"/>
+
+                        <TextBlock Text="Display Mode" FontSize="12" Margin="0,8,0,4"/>
+                        <ComboBox ItemsSource="{Binding CountdownElementsToShowOptions}"
+                                  SelectedItem="{Binding CountdownElementsToShow}"
+                                  Margin="0,0,0,12"/>
 
                         <TextBlock Text="{loc:Localize MEETING_STARTS}" FontSize="12" Margin="0,0,0,4"/>
                         <TextBox Text="{Binding MeetingStartTimesText}"
@@ -347,6 +366,18 @@
 
                         <CheckBox Content="{loc:Localize SHRINK_ON_MINIMISE}"
                                   IsChecked="{Binding ShrinkOnMinimise}"/>
+
+                        <CheckBox Content="{loc:Localize TIMER_COUNT_UP}"
+                                  IsChecked="{Binding CountUp}"/>
+
+                        <CheckBox Content="{loc:Localize ALLOW_COUNT_UP_TOGGLE}"
+                                  IsChecked="{Binding AllowCountUpToggle}"/>
+
+                        <CheckBox Content="{loc:Localize OVERRUN_NOTIFICATIONS}"
+                                  IsChecked="{Binding OverrunNotifications}"/>
+
+                        <CheckBox Content="{loc:Localize SHOULD_GENERATE_REPORTS}"
+                                  IsChecked="{Binding GenerateTimingReports}"/>
 
                         <CheckBox Content="{loc:Localize TIMER_REMINDER}"
                                   IsChecked="{Binding TimerReminder}"/>

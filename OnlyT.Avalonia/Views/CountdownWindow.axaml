@@ -1,55 +1,51 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="using:OnlyT.Avalonia.ViewModels"
+        xmlns:controls="using:OnlyT.Avalonia.Controls"
         xmlns:loc="using:OnlyT.Avalonia.Services.Localization"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="300"
+        mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="500"
         x:Class="OnlyT.Avalonia.Views.CountdownWindow"
         x:DataType="vm:CountdownViewModel"
-        Title="{loc:Localize COUNTDOWN_SECTION}"
+        Title="OnlyT Countdown"
         Icon="/Assets/icon.ico"
-        Width="500" Height="300"
+        Width="700" Height="500"
         WindowStartupLocation="CenterScreen"
-        Background="{Binding WindowBackground}"
-        SystemDecorations="None"
-        CanResize="False"
-        TransparencyLevelHint="Transparent">
+        Background="Black"
+        CanResize="True">
 
     <Design.DataContext>
         <vm:CountdownViewModel/>
     </Design.DataContext>
 
     <Grid>
-        <Border Background="{Binding BorderBackground}"
-                CornerRadius="20"
+        <Border CornerRadius="20"
                 Margin="10"
-                Padding="20">
-            <Grid RowDefinitions="Auto,*,Auto">
-                <!-- Title -->
-                <TextBlock Grid.Row="0"
-                           Text="{loc:Localize MSG_MEETING_STARTS_IN}"
-                           FontSize="24"
-                           Foreground="{DynamicResource MaterialBodyLightBrush}"
-                           HorizontalAlignment="Center"
-                           Margin="0,0,0,10"/>
+                Padding="10"
+                BorderBrush="Beige"
+                BorderThickness="3">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="50%,0%" EndPoint="50%,100%">
+                    <GradientStop Offset="0" Color="#FF5D4343"/>
+                    <GradientStop Offset="1" Color="Black"/>
+                </LinearGradientBrush>
+            </Border.Background>
 
-                <!-- Countdown Display -->
-                <Viewbox Grid.Row="1" Margin="20">
-                    <TextBlock Text="{Binding CountdownDisplay}"
-                               FontSize="120"
-                               FontWeight="Bold"
-                               FontFamily="Consolas,Courier New,monospace"
-                               Foreground="{Binding CountdownColor}"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
-                </Viewbox>
+            <Grid RowDefinitions="*,Auto">
+                <!-- Countdown Control -->
+                <controls:CountdownControl x:Name="CountdownCtrl"
+                                           Grid.Row="0"
+                                           Margin="10"
+                                           CountdownTotalSeconds="{Binding CountdownTotalSeconds}"
+                                           ElementsToShow="{Binding ElementsToShow}" />
 
                 <!-- Close Button -->
-                <Button Grid.Row="2"
+                <Button Grid.Row="1"
                         Content="{loc:Localize BTN_CLOSE}"
                         HorizontalAlignment="Center"
                         Padding="20,8"
+                        Margin="0,0,0,5"
                         Command="{Binding CloseCommand}"/>
             </Grid>
         </Border>

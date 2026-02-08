@@ -20,7 +20,8 @@ internal static class TimingReportGeneration
         ILocalTimingDataStoreService dataService,
         IDateTimeService dateTimeService,
         IQueryWeekendService queryWeekendService,
-        bool weekendIncludesFriday)
+        bool weekendIncludesFriday,
+        string? commandLineIdentifier = null)
     {
         return Task.Run(() =>
         {
@@ -31,7 +32,7 @@ internal static class TimingReportGeneration
                 return null;
             }
 
-            var outputFolder = FileUtils.GetTimingReportsFolder();
+            var outputFolder = FileUtils.GetTimingReportsFolder(commandLineIdentifier);
 
             Log.Information("Timer report output folder = {OutputFolder}", outputFolder);
 

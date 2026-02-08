@@ -58,4 +58,11 @@ public interface ITalkScheduleService
     /// for example when the chairman needs to extend or shorten a talk.
     /// </remarks>
     void SetModifiedDuration(int talkId, TimeSpan? modifiedDuration);
+
+    /// <summary>
+    /// Records the completed time for a talk when its timer stops.
+    /// </summary>
+    /// <param name="talkId">The ID of the talk that was completed.</param>
+    /// <param name="elapsedSecs">The elapsed time in seconds when the timer was stopped.</param>
+    void RecordTalkCompleted(int talkId, int elapsedSecs);
 }
