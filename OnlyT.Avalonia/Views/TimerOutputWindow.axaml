@@ -89,12 +89,12 @@
             </Viewbox>
         </Grid>
 
-        <!-- Time of day display. Window background is dark during timer runs,
-             so we hardcode white to match the WPF TimerOutputWindow (the
-             MaterialBodyLightBrush resource resolves near-black on dark). -->
+        <!-- Time of day display. Only shown when the main display is
+             showing the timer; hidden when it's already the wall clock
+             (otherwise we'd render two identical clocks stacked). -->
         <TextBlock Grid.Row="2"
                    Text="{Binding CurrentTimeOfDay}"
-                   IsVisible="{Binding ShowTimeOfDay}"
+                   IsVisible="{Binding IsTimeOfDayVisible}"
                    FontSize="48"
                    FontFamily="Consolas,Courier New,monospace"
                    Foreground="White"
