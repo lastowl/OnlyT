@@ -130,14 +130,65 @@ public partial class OperatorPageViewModel : ObservableObject
     {
         Dispatcher.UIThread.Post(() =>
         {
+            // Classic-mode-derived bindings
             OnPropertyChanged(nameof(ClassicMode));
             OnPropertyChanged(nameof(NotClassicMode));
             OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+
+            // Bell group
             OnPropertyChanged(nameof(IsBellVisible));
             OnPropertyChanged(nameof(BellColour));
             OnPropertyChanged(nameof(BellTooltip));
             BellEnabled = _optionsService.IsBellEnabled && _optionsService.AutoBell;
+
+            // Circuit visit toggle visibility + count-up button visibility
+            OnPropertyChanged(nameof(ShouldShowCircuitVisitToggle));
+            OnPropertyChanged(nameof(AllowCountUpDownToggle));
+            OnPropertyChanged(nameof(ShowUpDownButton));
+
+            // Apply AlwaysOnTop + FullScreenMode to the output window live
+            ApplyWindowStateOptionsLive();
         });
+    }
+
+    /// <summary>
+    /// Re-apply window-level options (AlwaysOnTop, FullScreenMode) to the
+    /// timer output window whenever the user changes them in Settings.
+    /// Previously these were only read when the window was first created,
+    /// so flipping the checkbox required a restart.
+    /// </summary>
+    private void ApplyWindowStateOptionsLive()
+    {
+        if (_timerOutputWindow == null)
+        {
+            return;
+        }
+
+        var options = _optionsService.GetOptions();
+
+        try
+        {
+            _timerOutputWindow.Topmost = options.AlwaysOnTop;
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window topmost");
+        }
+
+        try
+        {
+            var desiredState = options.FullScreenMode
+                ? global::Avalonia.Controls.WindowState.FullScreen
+                : global::Avalonia.Controls.WindowState.Normal;
+            if (_timerOutputWindow.WindowState != desiredState)
+            {
+                _timerOutputWindow.WindowState = desiredState;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window state");
+        }
     }
 
     partial void OnIsReminderShowingChanged(bool value)
