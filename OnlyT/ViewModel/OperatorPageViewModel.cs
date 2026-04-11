@@ -108,6 +108,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
         _countUp = _optionsService.Options.CountUp;
 
         _timerService.TimerStartStopFromApiEvent += HandleTimerStartStopFromApi;
+        _timerService.TimerDurationChangeFromApiEvent += HandleTimerDurationChangeFromApi;
 
         // commands...
         StartCommand = new RelayCommand(StartTimer, () => IsNotRunning && IsValidTalk);
@@ -731,9 +732,11 @@ public class OperatorPageViewModel : ObservableObject, IPage
             IsOvertime = true;
 
             var talk = GetCurrentTalk();
-            if (talk != null && _optionsService.Options.IsBellEnabled && talk.BellApplicable && talk.AutoBell)
+            if (talk != null && talk.BellApplicable && talk.AutoBell)
             {
-                _bellService.Play(_optionsService.Options.BellVolumePercent);
+                _bellService.Play(
+                    _optionsService.Options.IsBellEnabled,
+                    _optionsService.Options.BellVolumePercent);
             }
         }
     }
@@ -766,9 +769,19 @@ public class OperatorPageViewModel : ObservableObject, IPage
     private void AdjustTalkTimeForThisSession()
     {
         var talk = GetCurrentTalk();
-        if (talk?.Editable == true)
+        if (talk == null)
         {
-            var modifiedDuration = TimeSpan.FromSeconds(TargetSeconds);
+            return;
+        }
+
+        AdjustTalkTime(talk, TargetSeconds, IsManualMode);
+    }
+
+    private void AdjustTalkTime(TalkScheduleItem talk, int targetSecs, bool manualMode)
+    {
+        if (talk.Editable == true)
+        {
+            var modifiedDuration = TimeSpan.FromSeconds(targetSecs);
 
             if (Log.IsEnabled(LogEventLevel.Debug))
             {
@@ -778,7 +791,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
                     modifiedDuration);
             }
 
-            if (IsManualMode)
+            if (manualMode)
             {
                 talk.OriginalDuration = modifiedDuration;
             }
@@ -786,8 +799,14 @@ public class OperatorPageViewModel : ObservableObject, IPage
             {
                 talk.ModifiedDuration = modifiedDuration;
             }
-                
-            SetDurationStringAttributes(talk);
+
+            var isCurrentTalk = TalkId == talk.Id;
+
+            if (isCurrentTalk) 
+            {
+                TargetSeconds = targetSecs;
+                SetDurationStringAttributes(talk);
+            }
 
             _scheduleService.SetModifiedDuration(talk.Id, talk.ModifiedDuration);
         }
@@ -1090,7 +1109,9 @@ public class OperatorPageViewModel : ObservableObject, IPage
             if (_isOvertime)
             {
                 // manually sound the bell
-                _bellService.Play(_optionsService.Options.BellVolumePercent);
+                _bellService.Play(
+                    _optionsService.Options.IsBellEnabled,
+                    _optionsService.Options.BellVolumePercent);
             }
             else
             {
@@ -1114,8 +1135,8 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
             CheckTalkExists(e.TalkId);
 
-            var success = TalkId == e.TalkId || IsNotRunning;
-                
+            var success = TalkId == e.TalkId || (IsNotRunning && e.Command == StartStopTimerCommands.Start);
+            
             if (success)
             {
                 TalkId = e.TalkId;
@@ -1154,6 +1175,43 @@ public class OperatorPageViewModel : ObservableObject, IPage
             }
 
             e.Success = success;
+        });
+    }
+
+    private void HandleTimerDurationChangeFromApi(object? sender, EventArgs.TimerDurationChangeEventArgs e)
+    {
+        Application.Current.Dispatcher.Invoke(() =>
+        {
+            if (Log.IsEnabled(LogEventLevel.Debug))
+            {
+                Log.Logger.Debug("Handling timer duration change from API");
+            }
+
+            CheckTalkExists(e.TalkId);
+
+            var talk = _scheduleService.GetTalkScheduleItem(e.TalkId);
+            if (talk?.Editable != true)
+            {
+                throw new WebServerException(WebServerErrorCode.TimerNotEditable);
+            }
+
+            if (IsRunning && TalkId == e.TalkId)
+            {
+                // can't modify the duration of currently running talk
+                e.Success = false;
+                return;
+            }
+            
+            var newSecs = Math.Max(talk.GetPlannedDurationSeconds() + e.DeltaSeconds, 0);
+            if (newSecs > MaxTimerSecs)
+            {
+                newSecs = MaxTimerSecs;
+            }
+
+            AdjustTalkTime(talk, newSecs, IsManualMode);
+
+            e.Success = true;
+            e.NewDurationSecs = newSecs;
         });
     }
 

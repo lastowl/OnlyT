@@ -39,6 +39,9 @@ internal sealed class CommandLineService : ICommandLineService
         p.Setup<bool>("automate")
             .Callback(s => Automate = s).SetDefault(false);
 
+        p.Setup<bool>("ntp")
+            .Callback(s => Ntp = s).SetDefault(false);
+
         p.Setup<string?>("datetime")
             .Callback(s =>
             {
@@ -50,6 +53,15 @@ internal sealed class CommandLineService : ICommandLineService
                         out var result))
                 {
                     DateTimeOnLaunch = result;
+                }
+                else if (DateTime.TryParseExact(
+                             s,
+                             "yyyy-MM-dd:HH:mm:s",
+                             CultureInfo.InvariantCulture,
+                             DateTimeStyles.None,
+                             out var result2))
+                {
+                    DateTimeOnLaunch = result2;
                 }
             });
 
@@ -114,6 +126,8 @@ internal sealed class CommandLineService : ICommandLineService
     public int CountdownMonitorIndex { get; set; }
 
     public bool Automate { get; set; }
+
+    public bool Ntp { get; set; }
 
     public DateTime? DateTimeOnLaunch { get; set; }
 
