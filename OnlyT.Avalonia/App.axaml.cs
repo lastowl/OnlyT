@@ -34,7 +34,7 @@ namespace OnlyT.Avalonia;
 
 public class App : Application
 {
-    private readonly string _appString = "OnlyTMeetingTimer";
+    private readonly string _appString = "OnlyTMeetingTimer.Avalonia";
     private IPlatformServices? _platformServices;
 
     public App()

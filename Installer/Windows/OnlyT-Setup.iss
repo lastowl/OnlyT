@@ -18,9 +18,14 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 
 ; Installation directories
-DefaultDirName={autopf}\{#MyAppName}
+; Distinct from upstream OnlyT ({autopf}\OnlyT) so fork and upstream can coexist.
+DefaultDirName={autopf}\OnlyT-Avalonia
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
+
+; Refuse to install while a fork instance is running. Must match
+; App.axaml.cs _appString so Inno detects our own running app, not upstream's.
+AppMutex=OnlyTMeetingTimer.Avalonia
 
 ; Output settings
 OutputDir=..\..\dist\Windows
@@ -66,7 +71,6 @@ Name: "streamdeck"; Description: "Install Stream Deck plugin"; GroupDescription:
 ; OnlyT Avalonia application files (from OnlyT.Avalonia project publish output)
 ; The AssemblyName is set to "OnlyT" in the csproj, so the executable is OnlyT.exe
 Source: "..\..\publish\win-x64\OnlyT.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\publish\win-x64\OnlyT.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\..\publish\win-x64\OnlyT.pdb"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
 Source: "..\..\publish\win-x64\*.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\..\publish\win-x64\*.json"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
