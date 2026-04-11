@@ -22,7 +22,6 @@ public partial class TimerOutputViewModel : ObservableObject
     private readonly IBellService? _bellService;
     private readonly DispatcherTimer _clockTimer;
     private readonly DispatcherTimer _flashTimer;
-    private bool _isShowingClock = true;
     private int _targetSecs;
     private int _closingSecs;
     private double _startAngle;
@@ -90,7 +89,23 @@ public partial class TimerOutputViewModel : ObservableObject
     private string _currentTimeOfDay = string.Empty;
 
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(IsTimeOfDayVisible))]
     private bool _showTimeOfDay;
+
+    // Tracks whether the main display is currently showing the wall clock
+    // (timer stopped) vs the talk timer (timer running). Observable so the
+    // time-of-day row below the main display can hide itself when the main
+    // display is already showing the clock — otherwise you see two
+    // identical wall-clock readouts stacked on top of each other.
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(IsTimeOfDayVisible))]
+    private bool _isShowingClock = true;
+
+    /// <summary>
+    /// Time-of-day row under the main display is visible only when the
+    /// main display is showing the timer (not the wall clock).
+    /// </summary>
+    public bool IsTimeOfDayVisible => ShowTimeOfDay && !IsShowingClock;
 
     [ObservableProperty]
     private bool _showDigitalSeconds;
@@ -116,6 +131,13 @@ public partial class TimerOutputViewModel : ObservableObject
     [ObservableProperty]
     private Thickness _frameBorderThickness = new(0);
 
+    // Cursor for the timer output window. Hidden by default so the cursor
+    // doesn't distract during a meeting; shown only if the user explicitly
+    // enables ShowMousePointerInTimerDisplay.
+    [ObservableProperty]
+    private global::Avalonia.Input.Cursor _mousePointer =
+        new(global::Avalonia.Input.StandardCursorType.None);
+
     public TimerOutputViewModel(ITalkTimerService timerService, IOptionsService optionsService, IBellService? bellService = null)
     {
         _timerService = timerService;
@@ -123,18 +145,12 @@ public partial class TimerOutputViewModel : ObservableObject
         _bellService = bellService;
         _timerService.TimerChangedEvent += OnTimerChanged;
         _timerService.TimerStartedEvent += OnTimerStarted;
+        _optionsService.OptionsChanged += (_, _) => RefreshSettings();
 
-        // Get settings
-        IsClockFlat = _optionsService.IsFlatClockStyle;
-        ApplyClockMode(_optionsService.FullScreenClockMode);
-        ShowTimeOfDay = _optionsService.ShowTimeOfDayUnderTimer;
-        ShowDigitalSeconds = _optionsService.ShowDigitalSeconds;
-        ShowDurationSector = _optionsService.ShowDurationSector;
-        FlashTimerEnabled = _optionsService.FlashTimerWhenOvertime;
-        BellOnOvertimeEnabled = _optionsService.BellOnOvertime;
-        AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
-        ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
-        FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
+        // Pull initial values from options. RefreshSettings is the single
+        // source of truth for option-derived state; it is also called whenever
+        // IOptionsService.OptionsChanged fires so edits take effect live.
+        RefreshSettings();
 
         // Set up clock timer to update every second
         _clockTimer = new DispatcherTimer
@@ -182,6 +198,9 @@ public partial class TimerOutputViewModel : ObservableObject
         AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
         ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
         FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
+        MousePointer = _optionsService.ShowMousePointerInTimerDisplay
+            ? new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.Arrow)
+            : new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.None);
     }
 
     /// <summary>
@@ -215,6 +234,16 @@ public partial class TimerOutputViewModel : ObservableObject
     /// <summary>
     /// Apply the clock display mode setting
     /// </summary>
+    private static string FormatSignedTime(int seconds)
+    {
+        if (seconds < 0)
+        {
+            var abs = -seconds;
+            return $"-{abs / 60:D2}:{abs % 60:D2}";
+        }
+        return $"{seconds / 60:D2}:{seconds % 60:D2}";
+    }
+
     private void ApplyClockMode(FullScreenClockMode mode)
     {
         switch (mode)
@@ -234,17 +263,27 @@ public partial class TimerOutputViewModel : ObservableObject
         }
     }
 
+    private bool _isCountingUp;
+
     private void OnTimerStarted(object? sender, TimerStartedEventArgs e)
     {
         Dispatcher.UIThread.Post(() =>
         {
             _targetSecs = e.TargetSecs;
             _closingSecs = e.ClosingSecs;
+            _isCountingUp = e.IsCountingUp;
             _startAngle = CalculateAngleFromTime(DateTime.Now);
-            _isShowingClock = false;
+            IsShowingClock = false;
             _hasPlayedOvertimeBell = false;
             _isInOvertime = false;
             StopFlashing();
+
+            // Show the correct starting value immediately so the output
+            // window doesn't flash the target time before the first tick
+            // arrives. Matches WPF TimerOutputWindowViewModel.OnTimerStarted.
+            TimeDisplay = _isCountingUp
+                ? FormatSignedTime(0)
+                : FormatSignedTime(e.TargetSecs);
         });
     }
 
@@ -255,7 +294,7 @@ public partial class TimerOutputViewModel : ObservableObject
             if (!e.IsRunning)
             {
                 // Timer stopped, show clock
-                _isShowingClock = true;
+                IsShowingClock = true;
                 _isInOvertime = false;
                 DurationSector = null;
                 StopFlashing();
@@ -264,28 +303,30 @@ public partial class TimerOutputViewModel : ObservableObject
             }
 
             // Timer is running
-            _isShowingClock = false;
+            IsShowingClock = false;
+            _isCountingUp = e.IsCountingUp;
             var remaining = e.RemainingSecs;
             var elapsed = _targetSecs - remaining;
 
             // Update duration sector for analogue clock
             UpdateDurationSector(elapsed, remaining);
 
+            // Pick which value to display based on count-up vs countdown.
+            // Colour/flash/overtime logic still tracks remaining because
+            // that's what 'overtime' is defined against.
+            var displaySecs = _isCountingUp ? elapsed : remaining;
+            TimeDisplay = FormatSignedTime(displaySecs);
+
             if (remaining < 0)
             {
-                // Overtime - red
-                TimeDisplay = $"-{Math.Abs(remaining) / 60:D2}:{Math.Abs(remaining) % 60:D2}";
                 TextColor = new SolidColorBrush(Colors.Red);
 
-                // Handle overtime notifications
                 if (!_isInOvertime)
                 {
-                    // Just entered overtime
                     _isInOvertime = true;
                     OnEnteredOvertime();
                 }
 
-                // Start flashing if enabled
                 if (FlashTimerEnabled && !_flashTimer.IsEnabled)
                 {
                     StartFlashing();
@@ -293,16 +334,12 @@ public partial class TimerOutputViewModel : ObservableObject
             }
             else if (remaining <= e.ClosingSecs)
             {
-                // Closing seconds - orange/yellow
-                TimeDisplay = $"{remaining / 60:D2}:{remaining % 60:D2}";
                 TextColor = new SolidColorBrush(Colors.Orange);
                 _isInOvertime = false;
                 StopFlashing();
             }
             else
             {
-                // Normal - green
-                TimeDisplay = $"{remaining / 60:D2}:{remaining % 60:D2}";
                 TextColor = new SolidColorBrush(Colors.LimeGreen);
                 _isInOvertime = false;
                 StopFlashing();
@@ -351,7 +388,7 @@ public partial class TimerOutputViewModel : ObservableObject
             CurrentTimeOfDay = FormatTimeOfDay(DateTime.Now, showSeconds: true);
         }
 
-        if (_isShowingClock)
+        if (IsShowingClock)
         {
             UpdateClockDisplay();
         }

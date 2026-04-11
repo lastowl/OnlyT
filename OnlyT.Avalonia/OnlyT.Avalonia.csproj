@@ -10,6 +10,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>OnlyT</AssemblyName>
     <Product>OnlyT</Product>
+    <!-- SolutionInfo.cs (linked below) owns the version/company/product
+         attributes. Disable auto-generation to avoid duplicate-attribute
+         build errors. Matches the WPF OnlyT project. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <!-- Windows executable icon -->
     <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
   </PropertyGroup>
@@ -58,6 +62,13 @@
     <ProjectReference Include="..\OnlyT.Core\OnlyT.Core.csproj" />
     <ProjectReference Include="..\OnlyT.Common\OnlyT.Common.csproj" />
     <ProjectReference Include="..\OnlyT.Report\OnlyT.Report.csproj" />
+  </ItemGroup>
+
+  <!-- Share version/copyright attributes with the WPF project so the
+       Avalonia assembly doesn't default to 1.0.0.0 (which made the
+       new-version check always report an update available). -->
+  <ItemGroup>
+    <Compile Include="..\SolutionInfo.cs" Link="Properties\SolutionInfo.cs" />
   </ItemGroup>
 
   <!-- Embedded resource files for localization -->

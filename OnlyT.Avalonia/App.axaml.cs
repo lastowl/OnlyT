@@ -4,6 +4,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using Avalonia.Styling;
 using CommunityToolkit.Mvvm.DependencyInjection;
 using Material.Styles.Themes;
 using Microsoft.Extensions.DependencyInjection;
@@ -203,8 +204,9 @@ public class App : Application
         var serviceProvider = serviceCollection.BuildServiceProvider();
         Ioc.Default.ConfigureServices(serviceProvider);
 
-        // Start HTTP server if enabled
+        // Start HTTP server if enabled + wire live refresh for port / enabled
         StartHttpServer(serviceProvider);
+        SubscribeHttpServerToOptions(serviceProvider);
 
         // Apply culture setting
         ApplyCulture(serviceProvider);
@@ -258,6 +260,10 @@ public class App : Application
         }
     }
 
+    // Port the HTTP server was last started on. Used to detect when the
+    // user changes HttpServerPort in Settings so we can bounce the server.
+    private static int _httpServerCurrentPort;
+
     private static void StartHttpServer(IServiceProvider serviceProvider)
     {
         try
@@ -273,12 +279,71 @@ public class App : Application
 
                 var httpServer = serviceProvider.GetRequiredService<IHttpServer>();
                 httpServer.Start(port);
+                _httpServerCurrentPort = port;
                 Log.Information("HTTP server started on port {Port}", port);
             }
         }
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to start HTTP server");
+        }
+    }
+
+    /// <summary>
+    /// Bounce the HTTP server when IsApiEnabled or HttpServerPort change in
+    /// Settings so the user doesn't have to restart the app for the API
+    /// toggle or port change to take effect.
+    /// </summary>
+    private static void SubscribeHttpServerToOptions(IServiceProvider serviceProvider)
+    {
+        try
+        {
+            var optionsService = serviceProvider.GetRequiredService<IOptionsService>();
+            var httpServer = serviceProvider.GetRequiredService<IHttpServer>();
+
+            optionsService.OptionsChanged += (_, _) =>
+            {
+                try
+                {
+                    var desiredPort = Program.CommandLineArgs.Port ?? optionsService.HttpServerPort;
+                    var shouldRun = optionsService.IsApiEnabled && desiredPort > 0;
+
+                    if (!shouldRun)
+                    {
+                        if (httpServer.IsRunning)
+                        {
+                            httpServer.Stop();
+                            _httpServerCurrentPort = 0;
+                            Log.Information("HTTP server stopped (API disabled)");
+                        }
+                        return;
+                    }
+
+                    if (httpServer.IsRunning && desiredPort == _httpServerCurrentPort)
+                    {
+                        // Already running on the right port — nothing to do.
+                        return;
+                    }
+
+                    if (httpServer.IsRunning)
+                    {
+                        httpServer.Stop();
+                    }
+
+                    ConfigureFirewall(serviceProvider, desiredPort);
+                    httpServer.Start(desiredPort);
+                    _httpServerCurrentPort = desiredPort;
+                    Log.Information("HTTP server bounced onto port {Port}", desiredPort);
+                }
+                catch (Exception ex)
+                {
+                    Log.Warning(ex, "Failed to reconfigure HTTP server on options change");
+                }
+            };
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to subscribe HTTP server to OptionsChanged");
         }
     }
 
@@ -370,6 +435,8 @@ public class App : Application
         return !_platformServices.SystemIntegration.EnsureSingleInstance(_appString);
     }
 
+    private bool _themeSubscribedToOptions;
+
     private void ApplyTheme()
     {
         try
@@ -381,6 +448,26 @@ public class App : Application
             var cmdArgs = Program.CommandLineArgs;
             var isDarkMode = cmdArgs.ForceDarkMode ?? optionsService.IsDarkMode;
             SetTheme(isDarkMode);
+
+            // Re-apply the theme every time settings are saved so flipping
+            // IsDarkMode in the Settings window takes effect live instead
+            // of only on the next app launch.
+            if (!_themeSubscribedToOptions)
+            {
+                _themeSubscribedToOptions = true;
+                optionsService.OptionsChanged += (_, _) =>
+                {
+                    try
+                    {
+                        var dark = Program.CommandLineArgs.ForceDarkMode ?? optionsService.IsDarkMode;
+                        global::Avalonia.Threading.Dispatcher.UIThread.Post(() => SetTheme(dark));
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Warning(ex, "Failed to re-apply theme after options change");
+                    }
+                };
+            }
         }
         catch (Exception ex)
         {
@@ -395,18 +482,41 @@ public class App : Application
     {
         try
         {
-            // 1. Set Material.Avalonia base theme
-#pragma warning disable CS0618 // PaletteHelper is obsolete but still functional
-            var paletteHelper = new PaletteHelper();
-            var theme = paletteHelper.GetTheme();
-            theme.SetBaseTheme(isDarkMode ? Theme.Dark : Theme.Light);
-            paletteHelper.SetTheme(theme);
-#pragma warning restore CS0618
+            // 1. Drive Avalonia's built-in theme variant so Windows, Panels,
+            //    ContentControls, CheckBoxes, etc. all pick up dark colors.
+            //    Previously only the Material.Avalonia palette and the
+            //    native title bar were swapped, so stock Avalonia controls
+            //    kept their light backgrounds/foregrounds in dark mode.
+            RequestedThemeVariant = isDarkMode ? ThemeVariant.Dark : ThemeVariant.Light;
 
-            // 2. Swap custom color resource dictionary
+            // 2. Flip the Material.Avalonia theme directly on the style
+            //    instance in Application.Styles. PaletteHelper.SetTheme()
+            //    alone was not propagating BaseTheme in Material.Avalonia
+            //    3.13 — the window backgrounds stayed light. Mutating the
+            //    MaterialTheme.BaseTheme property on the live style triggers
+            //    the internal resource swap across the whole app.
+            var materialTheme = FindMaterialTheme();
+            if (materialTheme != null)
+            {
+                materialTheme.BaseTheme = isDarkMode
+                    ? Material.Styles.Themes.Base.BaseThemeMode.Dark
+                    : Material.Styles.Themes.Base.BaseThemeMode.Light;
+            }
+            else
+            {
+                Log.Warning("Could not find MaterialTheme in Application.Styles; falling back to PaletteHelper");
+#pragma warning disable CS0618 // PaletteHelper is obsolete but still functional
+                var paletteHelper = new PaletteHelper();
+                var theme = paletteHelper.GetTheme();
+                theme.SetBaseTheme(isDarkMode ? Theme.Dark : Theme.Light);
+                paletteHelper.SetTheme(theme);
+#pragma warning restore CS0618
+            }
+
+            // 3. Swap custom color resource dictionary
             SwapCustomColorDictionary(isDarkMode);
 
-            // 3. Apply native title bar theming to all windows
+            // 4. Apply native title bar theming to all windows
             ApplyNativeTitleBarTheme(isDarkMode);
 
             Log.Information("Applied {Theme} theme", isDarkMode ? "dark" : "light");
@@ -415,6 +525,18 @@ public class App : Application
         {
             Log.Warning(ex, "Failed to set theme");
         }
+    }
+
+    private Material.Styles.Themes.MaterialTheme? FindMaterialTheme()
+    {
+        foreach (var style in Styles)
+        {
+            if (style is Material.Styles.Themes.MaterialTheme materialTheme)
+            {
+                return materialTheme;
+            }
+        }
+        return null;
     }
 
     private void SwapCustomColorDictionary(bool isDarkMode)

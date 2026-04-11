@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using OnlyT.Avalonia.Services.Options;
 using OnlyT.Avalonia.Utils;
 using Serilog;
@@ -12,13 +13,33 @@ namespace OnlyT.Avalonia.Services;
 /// </summary>
 public class SimpleOptionsService : IOptionsService
 {
+    // Deliberately permissive: MissingMemberHandling.Ignore tolerates any
+    // extra keys we find in the file (e.g. fields from a newer build or
+    // fields we inherited from the upstream WPF file during the first-run
+    // seed). Error handler swallows per-property failures so one bad entry
+    // never blocks the rest of the options from loading.
+    private static readonly JsonSerializerSettings LenientReadSettings = new()
+    {
+        MissingMemberHandling = MissingMemberHandling.Ignore,
+        NullValueHandling = NullValueHandling.Ignore,
+        Error = (_, args) =>
+        {
+            Log.Warning(args.ErrorContext.Error, "Ignoring bad options entry at {Path}", args.ErrorContext.Path);
+            args.ErrorContext.Handled = true;
+        }
+    };
+
     private readonly string _optionsFilePath;
+    private readonly string _wpfOptionsFilePath;
     private AppOptions? _cachedOptions;
 
     public SimpleOptionsService()
     {
         _optionsFilePath = FileUtils.GetOptionsFilePath();
+        _wpfOptionsFilePath = FileUtils.GetWpfOptionsFilePath();
     }
+
+    public event EventHandler? OptionsChanged;
 
     public bool IsBellEnabled => GetOptions().IsBellEnabled;
     public bool AutoBell => GetOptions().AutoBell;
@@ -39,8 +60,6 @@ public class SimpleOptionsService : IOptionsService
     public bool ShowCircuitVisitToggle => GetOptions().ShowCircuitVisitToggle;
     public bool AllowCountUpToggle => GetOptions().AllowCountUpToggle;
     public bool IsFlatClockStyle => GetOptions().IsFlatClockStyle;
-    public bool ShowAnalogueClockOnOutput => GetOptions().ShowAnalogueClockOnOutput;
-    public bool UseAnalogClock => GetOptions().UseAnalogClock;
     public bool IsApiEnabled => GetOptions().IsApiEnabled;
     public bool IsApiThrottled => GetOptions().IsApiThrottled;
     public string ApiAccessCode => GetOptions().ApiAccessCode;
@@ -130,12 +149,32 @@ public class SimpleOptionsService : IOptionsService
             return _cachedOptions;
         }
 
+        // First run: no Avalonia options file yet. Seed it from the upstream
+        // WPF options.json if that exists so users upgrading from the WPF
+        // version keep their settings. After this, the fork writes only to
+        // its own file and never touches the WPF one again.
+        if (!File.Exists(_optionsFilePath) && File.Exists(_wpfOptionsFilePath))
+        {
+            try
+            {
+                File.Copy(_wpfOptionsFilePath, _optionsFilePath);
+                Log.Information(
+                    "Seeded Avalonia options from WPF file: {Source} -> {Dest}",
+                    _wpfOptionsFilePath,
+                    _optionsFilePath);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "Failed to seed Avalonia options from WPF file");
+            }
+        }
+
         try
         {
             if (File.Exists(_optionsFilePath))
             {
                 var json = File.ReadAllText(_optionsFilePath);
-                _cachedOptions = JsonConvert.DeserializeObject<AppOptions>(json);
+                _cachedOptions = JsonConvert.DeserializeObject<AppOptions>(json, LenientReadSettings);
             }
         }
         catch (Exception ex)
@@ -172,6 +211,15 @@ public class SimpleOptionsService : IOptionsService
             File.Move(tempPath, _optionsFilePath, overwrite: true);
 
             Log.Debug("Options saved successfully");
+
+            try
+            {
+                OptionsChanged?.Invoke(this, EventArgs.Empty);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "OptionsChanged subscriber threw");
+            }
         }
         catch (UnauthorizedAccessException ex)
         {

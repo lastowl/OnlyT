@@ -9,4 +9,5 @@ public class TimerStartedEventArgs : EventArgs
 {
     public int TargetSecs { get; set; }
     public int ClosingSecs { get; set; }
+    public bool IsCountingUp { get; set; }
 }

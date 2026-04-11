@@ -12,6 +12,7 @@
         Icon="/Assets/icon.ico"
         Width="800" Height="600"
         WindowState="Normal"
+        Cursor="{Binding MousePointer}"
         Background="{Binding BackgroundColor}">
 
     <Design.DataContext>
@@ -89,13 +90,15 @@
             </Viewbox>
         </Grid>
 
-        <!-- Time of day display -->
+        <!-- Time of day display. Only shown when the main display is
+             showing the timer; hidden when it's already the wall clock
+             (otherwise we'd render two identical clocks stacked). -->
         <TextBlock Grid.Row="2"
                    Text="{Binding CurrentTimeOfDay}"
-                   IsVisible="{Binding ShowTimeOfDay}"
+                   IsVisible="{Binding IsTimeOfDayVisible}"
                    FontSize="48"
                    FontFamily="Consolas,Courier New,monospace"
-                   Foreground="{DynamicResource MaterialBodyLightBrush}"
+                   Foreground="White"
                    HorizontalAlignment="Center"
                    Margin="0,0,0,20"/>
     </Grid>
