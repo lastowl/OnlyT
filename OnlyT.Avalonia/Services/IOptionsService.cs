@@ -400,6 +400,13 @@ public class AppOptions
     public bool IsDarkMode { get; set; } = false;
 
     /// <summary>
+    /// Avalonia-only: render the operator page with a layout that matches
+    /// the original WPF OnlyT. WPF ignores this field when reading its own
+    /// options.json, so there is no compatibility risk. Default: false.
+    /// </summary>
+    public bool ClassicMode { get; set; } = false;
+
+    /// <summary>
     /// Adaptive timer mode for midweek meetings (default: None)
     /// </summary>
     public AdaptiveMode MidWeekAdaptiveMode { get; set; } = AdaptiveMode.None;

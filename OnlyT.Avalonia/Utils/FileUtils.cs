@@ -62,7 +62,21 @@ public static class FileUtils
         return folder;
     }
 
+    /// <summary>
+    /// Path to the Avalonia fork's options file. Separate from the upstream
+    /// WPF file (see <see cref="GetWpfOptionsFilePath"/>) so the two versions
+    /// can evolve independently and fork-only fields never confuse WPF.
+    /// </summary>
     public static string GetOptionsFilePath()
+    {
+        return Path.Combine(GetUserAppDataFolder(), "options.avalonia.json");
+    }
+
+    /// <summary>
+    /// Path to the upstream WPF OnlyT options file. Used only to seed the
+    /// fork's file on first launch — never written to.
+    /// </summary>
+    public static string GetWpfOptionsFilePath()
     {
         return Path.Combine(GetUserAppDataFolder(), "options.json");
     }
