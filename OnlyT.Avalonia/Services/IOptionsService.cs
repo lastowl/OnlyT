@@ -19,6 +19,12 @@ public interface IOptionsService
     void SaveOptions(AppOptions options);
 
     /// <summary>
+    /// Raised after options are successfully written. View models listen to
+    /// this so settings changes take effect live instead of after a restart.
+    /// </summary>
+    event EventHandler? OptionsChanged;
+
+    /// <summary>
     /// Whether bell is enabled
     /// </summary>
     bool IsBellEnabled { get; }
@@ -57,16 +63,6 @@ public interface IOptionsService
     /// Whether to use flat clock style
     /// </summary>
     bool IsFlatClockStyle { get; }
-
-    /// <summary>
-    /// Whether to show analogue clock on output window
-    /// </summary>
-    bool ShowAnalogueClockOnOutput { get; }
-
-    /// <summary>
-    /// Whether to use analogue clock (true) or digital clock (false) on timer display
-    /// </summary>
-    bool UseAnalogClock { get; }
 
     /// <summary>
     /// Whether the Web API is enabled
@@ -303,16 +299,6 @@ public class AppOptions
     /// Whether to use flat clock style
     /// </summary>
     public bool IsFlatClockStyle { get; set; }
-
-    /// <summary>
-    /// Whether to show analogue clock on output window
-    /// </summary>
-    public bool ShowAnalogueClockOnOutput { get; set; } = true;
-
-    /// <summary>
-    /// Whether to use analogue clock (true) or digital clock (false) on timer display
-    /// </summary>
-    public bool UseAnalogClock { get; set; } = false;
 
     /// <summary>
     /// Whether the Web API is enabled

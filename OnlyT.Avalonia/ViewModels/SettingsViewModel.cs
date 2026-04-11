@@ -14,7 +14,6 @@ using OnlyT.Avalonia.Utils;
 using OnlyT.Core.Abstractions;
 using Serilog.Events;
 
-// Alias for FullScreenClockMode to avoid conflict with UseAnalogClock
 using ClockMode = OnlyT.Avalonia.Services.Options.FullScreenClockMode;
 
 namespace OnlyT.Avalonia.ViewModels;
@@ -24,6 +23,13 @@ namespace OnlyT.Avalonia.ViewModels;
 /// </summary>
 public partial class SettingsViewModel : ObservableObject
 {
+    /// <summary>
+    /// Raised after a successful Save so the host window can close itself.
+    /// Keeps the view model view-agnostic while still letting the window
+    /// dismiss on save without the user having to click the close button.
+    /// </summary>
+    public event System.EventHandler? RequestClose;
+
     private readonly IOptionsService _optionsService;
     private readonly IMonitorService _monitorService;
     private readonly ILocalizationService? _localizationService;
@@ -55,9 +61,6 @@ public partial class SettingsViewModel : ObservableObject
 
     [ObservableProperty]
     private MidWeekOrWeekend _midWeekOrWeekend;
-
-    [ObservableProperty]
-    private bool _useAnalogClock;
 
     [ObservableProperty]
     private bool _showTimeOfDayUnderTimer;
@@ -263,7 +266,6 @@ public partial class SettingsViewModel : ObservableObject
         options.IsCircuitVisit = IsCircuitVisit;
         options.OperatingMode = OperatingMode;
         options.MidWeekOrWeekend = MidWeekOrWeekend;
-        options.UseAnalogClock = UseAnalogClock;
         options.ShowTimeOfDayUnderTimer = ShowTimeOfDayUnderTimer;
         options.ShowDigitalSeconds = ShowDigitalSeconds;
         options.ShowDurationSector = ShowDurationSector;
@@ -302,9 +304,6 @@ public partial class SettingsViewModel : ObservableObject
 
         _optionsService.SaveOptions(options);
 
-        // Tell the operator page to re-read ClassicMode-derived bindings
-        _operatorPageViewModel?.NotifyClassicModeChanged();
-
         // Apply log level change immediately
         if (SelectedLogLevel != null)
         {
@@ -319,6 +318,10 @@ public partial class SettingsViewModel : ObservableObject
 
         // Refresh talks in OperatorPageViewModel if available
         _operatorPageViewModel?.RefreshTalks();
+
+        // Dismiss the window on successful save so the user doesn't have to
+        // click Close separately. Without this, long save paths felt 'stuck'.
+        RequestClose?.Invoke(this, System.EventArgs.Empty);
     }
 
     [RelayCommand]
@@ -367,7 +370,6 @@ public partial class SettingsViewModel : ObservableObject
         AutoBell = options.AutoBell;
         IsCircuitVisit = options.IsCircuitVisit;
         OperatingMode = options.OperatingMode;
-        UseAnalogClock = options.UseAnalogClock;
         ShowTimeOfDayUnderTimer = options.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = options.ShowDigitalSeconds;
         ShowDurationSector = options.ShowDurationSector;

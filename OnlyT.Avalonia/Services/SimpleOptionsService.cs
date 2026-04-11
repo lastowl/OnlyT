@@ -39,6 +39,8 @@ public class SimpleOptionsService : IOptionsService
         _wpfOptionsFilePath = FileUtils.GetWpfOptionsFilePath();
     }
 
+    public event EventHandler? OptionsChanged;
+
     public bool IsBellEnabled => GetOptions().IsBellEnabled;
     public bool AutoBell => GetOptions().AutoBell;
     public OperatingMode OperatingMode => GetOptions().OperatingMode;
@@ -58,8 +60,6 @@ public class SimpleOptionsService : IOptionsService
     public bool ShowCircuitVisitToggle => GetOptions().ShowCircuitVisitToggle;
     public bool AllowCountUpToggle => GetOptions().AllowCountUpToggle;
     public bool IsFlatClockStyle => GetOptions().IsFlatClockStyle;
-    public bool ShowAnalogueClockOnOutput => GetOptions().ShowAnalogueClockOnOutput;
-    public bool UseAnalogClock => GetOptions().UseAnalogClock;
     public bool IsApiEnabled => GetOptions().IsApiEnabled;
     public bool IsApiThrottled => GetOptions().IsApiThrottled;
     public string ApiAccessCode => GetOptions().ApiAccessCode;
@@ -211,6 +211,15 @@ public class SimpleOptionsService : IOptionsService
             File.Move(tempPath, _optionsFilePath, overwrite: true);
 
             Log.Debug("Options saved successfully");
+
+            try
+            {
+                OptionsChanged?.Invoke(this, EventArgs.Empty);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "OptionsChanged subscriber threw");
+            }
         }
         catch (UnauthorizedAccessException ex)
         {
