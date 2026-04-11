@@ -10,7 +10,8 @@
         Icon="/Assets/icon.ico"
         Width="420" Height="350"
         MinWidth="420" MinHeight="350"
-        CanResize="True">
+        CanResize="True"
+        Topmost="True">
     <Grid>
         <views:OperatorPage x:Name="OperatorPageView"/>
         <controls:SnackbarControl VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10"/>

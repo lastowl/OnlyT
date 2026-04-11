@@ -370,7 +370,10 @@
                         <Path Data="{StaticResource TimerIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
 
-                    <!-- New Version Download Button -->
+                    <!-- New Version Download Button. The Path is wrapped in
+                         a Viewbox+Canvas(24x24) so the icon stays centered
+                         in the button — Path.Stretch=Uniform would fit to
+                         the glyph's own asymmetric bounds, pulling it left. -->
                     <Button Command="{Binding OpenNewVersionPageCommand}"
                             ToolTip.Tip="{loc:Localize TIP_NEW_VERSION}"
                             Width="38"
@@ -379,7 +382,11 @@
                             IsVisible="{Binding IsNewVersionAvailable}"
                             Classes="newVersion"
                             Classes.classic="{Binding ClassicMode}">
-                        <Path Data="{StaticResource DownloadIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                        <Viewbox Width="18" Height="18">
+                            <Canvas Width="24" Height="24">
+                                <Path Data="{StaticResource DownloadIcon}" Fill="{DynamicResource MaterialBodyBrush}"/>
+                            </Canvas>
+                        </Viewbox>
                     </Button>
 
                     <!-- Help Button -->
