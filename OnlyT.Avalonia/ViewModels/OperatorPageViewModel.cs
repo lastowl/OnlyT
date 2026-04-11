@@ -92,6 +92,8 @@ public partial class OperatorPageViewModel : ObservableObject
     private bool _bellEnabled;
 
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(CountUpOrDownTooltip))]
+    [NotifyPropertyChangedFor(nameof(CountUpOrDownImageData))]
     private bool _countUp;
 
     [ObservableProperty]
@@ -112,6 +114,129 @@ public partial class OperatorPageViewModel : ObservableObject
     public int StartStopButtonRowSpan => InShrinkMode ? 2 : 1;
     public int StartStopButtonHeight => InShrinkMode ? 110 : 54;
     public int TimeDisplayColumnSpan => InShrinkMode ? 2 : 1;
+
+    // Classic UI mode: when on, the operator page visually matches the
+    // original WPF OnlyT. Stored in AppOptions and read live each time.
+    public bool ClassicMode => _optionsService.GetOptions().ClassicMode;
+    public bool NotClassicMode => !ClassicMode;
+    public bool IsReminderShowingAndNotClassic => IsReminderShowing && NotClassicMode;
+
+    /// <summary>
+    /// Called when IOptionsService.OptionsChanged fires (typically after the
+    /// user saves the Settings window). Refreshes anything the operator page
+    /// derives from options so the UI updates live without a restart.
+    /// </summary>
+    private void OnOptionsChangedExternally()
+    {
+        Dispatcher.UIThread.Post(() =>
+        {
+            // Classic-mode-derived bindings
+            OnPropertyChanged(nameof(ClassicMode));
+            OnPropertyChanged(nameof(NotClassicMode));
+            OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+
+            // Bell group
+            OnPropertyChanged(nameof(IsBellVisible));
+            OnPropertyChanged(nameof(BellColour));
+            OnPropertyChanged(nameof(BellTooltip));
+            BellEnabled = _optionsService.IsBellEnabled && _optionsService.AutoBell;
+
+            // Circuit visit toggle visibility + count-up button visibility
+            OnPropertyChanged(nameof(ShouldShowCircuitVisitToggle));
+            OnPropertyChanged(nameof(AllowCountUpDownToggle));
+            OnPropertyChanged(nameof(ShowUpDownButton));
+
+            // Apply AlwaysOnTop + FullScreenMode to the output window live
+            ApplyWindowStateOptionsLive();
+        });
+    }
+
+    /// <summary>
+    /// Re-apply window-level options (AlwaysOnTop, FullScreenMode, MonitorId)
+    /// to the timer output window whenever the user changes them in Settings.
+    /// Previously these were only read when the window was first created,
+    /// so flipping any of them in Settings required a restart.
+    /// </summary>
+    private void ApplyWindowStateOptionsLive()
+    {
+        if (_timerOutputWindow == null)
+        {
+            return;
+        }
+
+        var options = _optionsService.GetOptions();
+
+        try
+        {
+            _timerOutputWindow.Topmost = options.AlwaysOnTop;
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window topmost");
+        }
+
+        // Move the window to the selected monitor if it changed.
+        try
+        {
+            var monitors = _monitorService.GetMonitors();
+            OnlyT.Core.Abstractions.MonitorInfo? targetMonitor = null;
+            if (!string.IsNullOrEmpty(options.MonitorId))
+            {
+                targetMonitor = monitors.FirstOrDefault(m => m.MonitorId == options.MonitorId);
+            }
+            targetMonitor ??= monitors.FirstOrDefault(m => m.IsPrimary) ?? monitors.FirstOrDefault();
+
+            if (targetMonitor != null)
+            {
+                var currentPosition = _timerOutputWindow.Position;
+                var alreadyOnMonitor =
+                    currentPosition.X >= targetMonitor.Left &&
+                    currentPosition.X < targetMonitor.Left + targetMonitor.Width &&
+                    currentPosition.Y >= targetMonitor.Top &&
+                    currentPosition.Y < targetMonitor.Top + targetMonitor.Height;
+
+                if (!alreadyOnMonitor)
+                {
+                    // Drop out of full screen before repositioning — some
+                    // window managers refuse a move on a fullscreen window.
+                    if (_timerOutputWindow.WindowState == global::Avalonia.Controls.WindowState.FullScreen)
+                    {
+                        _timerOutputWindow.WindowState = global::Avalonia.Controls.WindowState.Normal;
+                    }
+                    _timerOutputWindow.Position = new global::Avalonia.PixelPoint(targetMonitor.Left, targetMonitor.Top);
+                    if (options.FullScreenMode)
+                    {
+                        _timerOutputWindow.Width = targetMonitor.Width;
+                        _timerOutputWindow.Height = targetMonitor.Height;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window monitor");
+        }
+
+        try
+        {
+            var desiredState = options.FullScreenMode
+                ? global::Avalonia.Controls.WindowState.FullScreen
+                : global::Avalonia.Controls.WindowState.Normal;
+            if (_timerOutputWindow.WindowState != desiredState)
+            {
+                _timerOutputWindow.WindowState = desiredState;
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window state");
+        }
+    }
+
+    partial void OnIsReminderShowingChanged(bool value)
+    {
+        OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+    }
 
     // Bell icon properties
     [ObservableProperty]
@@ -258,6 +383,7 @@ public partial class OperatorPageViewModel : ObservableObject
         _timerService = timerService;
         _scheduleService = scheduleService;
         _optionsService = optionsService;
+        _optionsService.OptionsChanged += (_, _) => OnOptionsChangedExternally();
         _adaptiveTimerService = adaptiveTimerService;
         _bellService = bellService;
         _monitorService = monitorService;
@@ -1235,15 +1361,42 @@ public partial class OperatorPageViewModel : ObservableObject
         OnPropertyChanged(nameof(Duration2ArrowString));
     }
 
+    private OnlyT.Avalonia.Views.SettingsWindow? _currentSettingsWindow;
+
     [RelayCommand]
     private void ShowSettings()
     {
+        // If a settings window is already open, bring it to the front
+        // instead of stacking another one on top. Clicking the settings
+        // button multiple times previously created duplicate windows.
+        if (_currentSettingsWindow != null)
+        {
+            try
+            {
+                _currentSettingsWindow.Activate();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "Failed to activate existing settings window");
+            }
+            return;
+        }
+
         var settingsViewModel = new SettingsViewModel(_optionsService, _monitorService, _localizationService, this, _bellService, _firewallService, _logLevelSwitchService);
         var settingsWindow = new OnlyT.Avalonia.Views.SettingsWindow
         {
             DataContext = settingsViewModel
         };
+        settingsViewModel.RequestClose += (_, _) =>
+        {
+            Dispatcher.UIThread.Post(() =>
+            {
+                try { settingsWindow.Close(); }
+                catch (Exception ex) { Log.Warning(ex, "Failed to close settings on save"); }
+            });
+        };
         settingsWindow.Closed += OnSettingsWindowClosed;
+        _currentSettingsWindow = settingsWindow;
         settingsWindow.Show();
     }
 
@@ -1252,6 +1405,10 @@ public partial class OperatorPageViewModel : ObservableObject
         if (sender is OnlyT.Avalonia.Views.SettingsWindow window)
         {
             window.Closed -= OnSettingsWindowClosed;
+            if (ReferenceEquals(window, _currentSettingsWindow))
+            {
+                _currentSettingsWindow = null;
+            }
         }
 
         // Refresh state from options after settings change (like WPF Activated callback)

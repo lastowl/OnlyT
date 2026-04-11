@@ -63,6 +63,7 @@
                         ElapsedSecs = _currentSecondsElapsed,
                         IsRunning = IsRunning,
                         ClosingSecs = _closingSecs,
+                        IsCountingUp = _isCountingUp,
                     });
                 }
             }
@@ -133,7 +134,8 @@
             TimerStartedEvent?.Invoke(this, new TimerStartedEventArgs
             {
                 TargetSecs = targetSecs,
-                ClosingSecs = _closingSecs
+                ClosingSecs = _closingSecs,
+                IsCountingUp = _isCountingUp,
             });
         }
 

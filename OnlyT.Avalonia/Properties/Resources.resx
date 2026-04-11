@@ -733,6 +733,14 @@ Shift - Increase 5m</value>
     <value>Dark mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Classic UI (match original OnlyT layout)</value>
+    <comment>Checkbox in Settings, Miscellaneous</comment>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Use a layout that matches the original Windows-only OnlyT. Avalonia-only features are hidden.</value>
+    <comment>Tooltip for Classic UI checkbox</comment>
+  </data>
   <data name="BTN_CLOSE" xml:space="preserve">
     <value>Close</value>
     <comment>Button label</comment>

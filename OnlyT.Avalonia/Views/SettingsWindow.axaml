@@ -12,6 +12,7 @@
         Icon="/Assets/icon.ico"
         Width="750" Height="850"
         CanResize="True"
+        Topmost="True"
         MinHeight="600"
         MinWidth="400">
 
@@ -360,6 +361,9 @@
 
                         <CheckBox Content="{loc:Localize DARK_MODE}"
                                   IsChecked="{Binding IsDarkMode}"/>
+
+                        <CheckBox Content="{loc:Localize CLASSIC_UI_MODE}"
+                                  IsChecked="{Binding ClassicMode}"/>
 
                         <CheckBox Content="{loc:Localize ALWAYS_ON_TOP}"
                                   IsChecked="{Binding AlwaysOnTop}"/>
