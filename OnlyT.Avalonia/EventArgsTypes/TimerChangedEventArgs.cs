@@ -14,5 +14,13 @@ public class TimerChangedEventArgs : System.EventArgs
 
     public int ClosingSecs { get; init; }
 
+    /// <summary>
+    /// Whether the current run is counting up rather than down. The output
+    /// window needs this to decide whether to display elapsed or remaining
+    /// seconds — without it the output window always shows the countdown
+    /// even when the operator page is in count-up mode.
+    /// </summary>
+    public bool IsCountingUp { get; init; }
+
     public int RemainingSecs => TargetSecs - ElapsedSecs;
 }
