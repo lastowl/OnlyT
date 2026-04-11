@@ -89,13 +89,15 @@
             </Viewbox>
         </Grid>
 
-        <!-- Time of day display -->
+        <!-- Time of day display. Window background is dark during timer runs,
+             so we hardcode white to match the WPF TimerOutputWindow (the
+             MaterialBodyLightBrush resource resolves near-black on dark). -->
         <TextBlock Grid.Row="2"
                    Text="{Binding CurrentTimeOfDay}"
                    IsVisible="{Binding ShowTimeOfDay}"
                    FontSize="48"
                    FontFamily="Consolas,Courier New,monospace"
-                   Foreground="{DynamicResource MaterialBodyLightBrush}"
+                   Foreground="White"
                    HorizontalAlignment="Center"
                    Margin="0,0,0,20"/>
     </Grid>
