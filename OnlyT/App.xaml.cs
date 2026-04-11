@@ -1,8 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using OnlyT.EventTracking;
 using OnlyT.AutoUpdates;
 using OnlyT.Common.Services.DateTime;
+using OnlyT.EventTracking;
 using OnlyT.Services.Bell;
 using OnlyT.Services.CommandLine;
 using OnlyT.Services.CountdownTimer;
@@ -16,6 +16,7 @@ using OnlyT.Services.Report;
 using OnlyT.Services.Snackbar;
 using OnlyT.Services.TalkSchedule;
 using OnlyT.Services.Timer;
+using OnlyT.Services.TimeValidationService;
 using OnlyT.Utils;
 using OnlyT.ViewModel;
 using OnlyT.WebServer;
@@ -23,7 +24,6 @@ using Sentry;
 using Serilog;
 using Serilog.Events;
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Windows;
@@ -34,12 +34,13 @@ namespace OnlyT
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    // ReSharper disable once RedundantExtendsListEntry
     public partial class App : Application
     {
         private readonly string _appString = "OnlyTMeetingTimer";
         private Mutex? _appMutex;
         private static readonly Lazy<CommandLineService> CommandLineServiceInstance = new();
-
+        
         public App()
         {
             InitSentry(); // Sentry docs require it to be in the ctor rather than in OnStartup
@@ -58,7 +59,7 @@ namespace OnlyT
         protected override void OnStartup(StartupEventArgs e)
         {
             ConfigureServices();
-
+            
             if (AnotherInstanceRunning())
             {
                 Shutdown();
@@ -128,7 +129,12 @@ namespace OnlyT
         private IDateTimeService DateTimeServiceFactory(IServiceProvider arg)
 #pragma warning restore U2U1011 // Return types should be specific
         {
-            return new DateTimeService(CommandLineServiceInstance.Value.DateTimeOnLaunch);
+            DateTime dateTimeToUse =
+                CommandLineServiceInstance.Value.DateTimeOnLaunch ??
+                (CommandLineServiceInstance.Value.Ntp ? TimeValidationService.GetValidatedTime() : null) ??
+                DateTime.Now;
+            
+            return new DateTimeService(dateTimeToUse);
         }
 
         private static void ConfigureLogger()

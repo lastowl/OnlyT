@@ -55,6 +55,7 @@ internal static class TimingReportGeneration
                         data,
                         historicalTimes,
                         queryWeekendService,
+                        dateTimeService,
                         weekendIncludesFriday,
                         yearFolder);
 

@@ -2,6 +2,7 @@
 {
     // ReSharper disable ParameterOnlyUsedForPreconditionCheck.Global
     using System;
+    using System.IO;
     using System.Linq;
     using System.Net;
     using System.Text;
@@ -27,7 +28,7 @@
                 response.ContentEncoding = Encoding.UTF8;
 
                 // allow cross-domain access (so that clients can use JS in a browser)
-                response.Headers.Add("Access-Control-Allow-Origin: *");
+                response.Headers.Add("Access-Control-Allow-Origin", "*");
 
                 var jsonStr = JsonConvert.SerializeObject(info);
                 var buffer = Encoding.UTF8.GetBytes(jsonStr);
@@ -86,6 +87,31 @@
             if (!IsMethodPost(request))
             {
                 throw new WebServerException(WebServerErrorCode.BadHttpVerb);
+            }
+        }
+
+        protected static T ReadRequestBody<T>(HttpListenerRequest request)
+        {
+            try
+            {
+                using var reader = new StreamReader(request.InputStream, request.ContentEncoding ?? Encoding.UTF8);
+                var json = reader.ReadToEnd();
+
+                if (string.IsNullOrWhiteSpace(json))
+                {
+                    throw new WebServerException(WebServerErrorCode.BadRequestBody);
+                }
+
+                var result = JsonConvert.DeserializeObject<T>(json);
+                return result ?? throw new WebServerException(WebServerErrorCode.BadRequestBody);
+            }
+            catch (IOException)
+            {
+                throw new WebServerException(WebServerErrorCode.BadRequestBody);
+            }
+            catch (JsonException)
+            {
+                throw new WebServerException(WebServerErrorCode.BadRequestBody);
             }
         }
         
