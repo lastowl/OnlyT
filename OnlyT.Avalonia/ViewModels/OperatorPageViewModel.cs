@@ -92,6 +92,8 @@ public partial class OperatorPageViewModel : ObservableObject
     private bool _bellEnabled;
 
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(CountUpOrDownTooltip))]
+    [NotifyPropertyChangedFor(nameof(CountUpOrDownImageData))]
     private bool _countUp;
 
     [ObservableProperty]
@@ -120,14 +122,22 @@ public partial class OperatorPageViewModel : ObservableObject
     public bool IsReminderShowingAndNotClassic => IsReminderShowing && NotClassicMode;
 
     /// <summary>
-    /// Called by SettingsViewModel after options are saved so the operator
-    /// page can react to a ClassicMode flip without restarting.
+    /// Called when IOptionsService.OptionsChanged fires (typically after the
+    /// user saves the Settings window). Refreshes anything the operator page
+    /// derives from options so the UI updates live without a restart.
     /// </summary>
-    public void NotifyClassicModeChanged()
+    private void OnOptionsChangedExternally()
     {
-        OnPropertyChanged(nameof(ClassicMode));
-        OnPropertyChanged(nameof(NotClassicMode));
-        OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+        Dispatcher.UIThread.Post(() =>
+        {
+            OnPropertyChanged(nameof(ClassicMode));
+            OnPropertyChanged(nameof(NotClassicMode));
+            OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+            OnPropertyChanged(nameof(IsBellVisible));
+            OnPropertyChanged(nameof(BellColour));
+            OnPropertyChanged(nameof(BellTooltip));
+            BellEnabled = _optionsService.IsBellEnabled && _optionsService.AutoBell;
+        });
     }
 
     partial void OnIsReminderShowingChanged(bool value)
@@ -280,6 +290,7 @@ public partial class OperatorPageViewModel : ObservableObject
         _timerService = timerService;
         _scheduleService = scheduleService;
         _optionsService = optionsService;
+        _optionsService.OptionsChanged += (_, _) => OnOptionsChangedExternally();
         _adaptiveTimerService = adaptiveTimerService;
         _bellService = bellService;
         _monitorService = monitorService;
@@ -1257,15 +1268,42 @@ public partial class OperatorPageViewModel : ObservableObject
         OnPropertyChanged(nameof(Duration2ArrowString));
     }
 
+    private OnlyT.Avalonia.Views.SettingsWindow? _currentSettingsWindow;
+
     [RelayCommand]
     private void ShowSettings()
     {
+        // If a settings window is already open, bring it to the front
+        // instead of stacking another one on top. Clicking the settings
+        // button multiple times previously created duplicate windows.
+        if (_currentSettingsWindow != null)
+        {
+            try
+            {
+                _currentSettingsWindow.Activate();
+            }
+            catch (Exception ex)
+            {
+                Log.Warning(ex, "Failed to activate existing settings window");
+            }
+            return;
+        }
+
         var settingsViewModel = new SettingsViewModel(_optionsService, _monitorService, _localizationService, this, _bellService, _firewallService, _logLevelSwitchService);
         var settingsWindow = new OnlyT.Avalonia.Views.SettingsWindow
         {
             DataContext = settingsViewModel
         };
+        settingsViewModel.RequestClose += (_, _) =>
+        {
+            Dispatcher.UIThread.Post(() =>
+            {
+                try { settingsWindow.Close(); }
+                catch (Exception ex) { Log.Warning(ex, "Failed to close settings on save"); }
+            });
+        };
         settingsWindow.Closed += OnSettingsWindowClosed;
+        _currentSettingsWindow = settingsWindow;
         settingsWindow.Show();
     }
 
@@ -1274,6 +1312,10 @@ public partial class OperatorPageViewModel : ObservableObject
         if (sender is OnlyT.Avalonia.Views.SettingsWindow window)
         {
             window.Closed -= OnSettingsWindowClosed;
+            if (ReferenceEquals(window, _currentSettingsWindow))
+            {
+                _currentSettingsWindow = null;
+            }
         }
 
         // Refresh state from options after settings change (like WPF Activated callback)
