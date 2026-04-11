@@ -204,8 +204,9 @@ public class App : Application
         var serviceProvider = serviceCollection.BuildServiceProvider();
         Ioc.Default.ConfigureServices(serviceProvider);
 
-        // Start HTTP server if enabled
+        // Start HTTP server if enabled + wire live refresh for port / enabled
         StartHttpServer(serviceProvider);
+        SubscribeHttpServerToOptions(serviceProvider);
 
         // Apply culture setting
         ApplyCulture(serviceProvider);
@@ -259,6 +260,10 @@ public class App : Application
         }
     }
 
+    // Port the HTTP server was last started on. Used to detect when the
+    // user changes HttpServerPort in Settings so we can bounce the server.
+    private static int _httpServerCurrentPort;
+
     private static void StartHttpServer(IServiceProvider serviceProvider)
     {
         try
@@ -274,12 +279,71 @@ public class App : Application
 
                 var httpServer = serviceProvider.GetRequiredService<IHttpServer>();
                 httpServer.Start(port);
+                _httpServerCurrentPort = port;
                 Log.Information("HTTP server started on port {Port}", port);
             }
         }
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to start HTTP server");
+        }
+    }
+
+    /// <summary>
+    /// Bounce the HTTP server when IsApiEnabled or HttpServerPort change in
+    /// Settings so the user doesn't have to restart the app for the API
+    /// toggle or port change to take effect.
+    /// </summary>
+    private static void SubscribeHttpServerToOptions(IServiceProvider serviceProvider)
+    {
+        try
+        {
+            var optionsService = serviceProvider.GetRequiredService<IOptionsService>();
+            var httpServer = serviceProvider.GetRequiredService<IHttpServer>();
+
+            optionsService.OptionsChanged += (_, _) =>
+            {
+                try
+                {
+                    var desiredPort = Program.CommandLineArgs.Port ?? optionsService.HttpServerPort;
+                    var shouldRun = optionsService.IsApiEnabled && desiredPort > 0;
+
+                    if (!shouldRun)
+                    {
+                        if (httpServer.IsRunning)
+                        {
+                            httpServer.Stop();
+                            _httpServerCurrentPort = 0;
+                            Log.Information("HTTP server stopped (API disabled)");
+                        }
+                        return;
+                    }
+
+                    if (httpServer.IsRunning && desiredPort == _httpServerCurrentPort)
+                    {
+                        // Already running on the right port — nothing to do.
+                        return;
+                    }
+
+                    if (httpServer.IsRunning)
+                    {
+                        httpServer.Stop();
+                    }
+
+                    ConfigureFirewall(serviceProvider, desiredPort);
+                    httpServer.Start(desiredPort);
+                    _httpServerCurrentPort = desiredPort;
+                    Log.Information("HTTP server bounced onto port {Port}", desiredPort);
+                }
+                catch (Exception ex)
+                {
+                    Log.Warning(ex, "Failed to reconfigure HTTP server on options change");
+                }
+            };
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to subscribe HTTP server to OptionsChanged");
         }
     }
 

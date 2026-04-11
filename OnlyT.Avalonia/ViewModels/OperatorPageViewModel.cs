@@ -152,10 +152,10 @@ public partial class OperatorPageViewModel : ObservableObject
     }
 
     /// <summary>
-    /// Re-apply window-level options (AlwaysOnTop, FullScreenMode) to the
-    /// timer output window whenever the user changes them in Settings.
+    /// Re-apply window-level options (AlwaysOnTop, FullScreenMode, MonitorId)
+    /// to the timer output window whenever the user changes them in Settings.
     /// Previously these were only read when the window was first created,
-    /// so flipping the checkbox required a restart.
+    /// so flipping any of them in Settings required a restart.
     /// </summary>
     private void ApplyWindowStateOptionsLive()
     {
@@ -173,6 +173,48 @@ public partial class OperatorPageViewModel : ObservableObject
         catch (Exception ex)
         {
             Log.Warning(ex, "Failed to update timer output window topmost");
+        }
+
+        // Move the window to the selected monitor if it changed.
+        try
+        {
+            var monitors = _monitorService.GetMonitors();
+            OnlyT.Core.Abstractions.MonitorInfo? targetMonitor = null;
+            if (!string.IsNullOrEmpty(options.MonitorId))
+            {
+                targetMonitor = monitors.FirstOrDefault(m => m.MonitorId == options.MonitorId);
+            }
+            targetMonitor ??= monitors.FirstOrDefault(m => m.IsPrimary) ?? monitors.FirstOrDefault();
+
+            if (targetMonitor != null)
+            {
+                var currentPosition = _timerOutputWindow.Position;
+                var alreadyOnMonitor =
+                    currentPosition.X >= targetMonitor.Left &&
+                    currentPosition.X < targetMonitor.Left + targetMonitor.Width &&
+                    currentPosition.Y >= targetMonitor.Top &&
+                    currentPosition.Y < targetMonitor.Top + targetMonitor.Height;
+
+                if (!alreadyOnMonitor)
+                {
+                    // Drop out of full screen before repositioning — some
+                    // window managers refuse a move on a fullscreen window.
+                    if (_timerOutputWindow.WindowState == global::Avalonia.Controls.WindowState.FullScreen)
+                    {
+                        _timerOutputWindow.WindowState = global::Avalonia.Controls.WindowState.Normal;
+                    }
+                    _timerOutputWindow.Position = new global::Avalonia.PixelPoint(targetMonitor.Left, targetMonitor.Top);
+                    if (options.FullScreenMode)
+                    {
+                        _timerOutputWindow.Width = targetMonitor.Width;
+                        _timerOutputWindow.Height = targetMonitor.Height;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to update timer output window monitor");
         }
 
         try

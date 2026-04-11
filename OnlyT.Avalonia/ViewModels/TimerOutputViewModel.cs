@@ -246,7 +246,6 @@ public partial class TimerOutputViewModel : ObservableObject
 
     private void ApplyClockMode(FullScreenClockMode mode)
     {
-        Log.Debug("TimerOutputViewModel.ApplyClockMode({Mode})", mode);
         switch (mode)
         {
             case FullScreenClockMode.Analogue:
