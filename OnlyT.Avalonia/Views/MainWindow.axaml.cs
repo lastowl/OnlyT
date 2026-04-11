@@ -49,8 +49,37 @@ public partial class MainWindow : Window
         // Track size changes for shrink mode
         this.GetObservable(BoundsProperty).Subscribe(OnBoundsChanged);
 
+        // Intercept minimize to honour the ShrinkOnMinimise option: instead
+        // of actually minimising, snap the window to the compact shrunk
+        // layout (which stays visible on screen). Matches WPF OnlyT.
+        this.GetObservable(WindowStateProperty).Subscribe(OnWindowStateChanged);
+
         // Allow dragging when no title bar (shrunk mode)
         PointerPressed += OnPointerPressed;
+    }
+
+    private void OnWindowStateChanged(WindowState state)
+    {
+        if (state != WindowState.Minimized)
+        {
+            return;
+        }
+
+        if (_optionsService?.ShrinkOnMinimise != true)
+        {
+            return;
+        }
+
+        // Undo the minimize and shrink instead. Defer so we're not fighting
+        // the window manager mid-transition.
+        global::Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+        {
+            WindowState = WindowState.Normal;
+            if (!_isShrunk)
+            {
+                ShrinkToCompact();
+            }
+        });
     }
 
     private void OnPointerPressed(object? sender, PointerPressedEventArgs e)
