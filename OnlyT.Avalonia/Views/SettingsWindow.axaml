@@ -361,6 +361,10 @@
                         <CheckBox Content="{loc:Localize DARK_MODE}"
                                   IsChecked="{Binding IsDarkMode}"/>
 
+                        <CheckBox Content="{loc:Localize CLASSIC_UI_MODE}"
+                                  IsChecked="{Binding ClassicMode}"
+                                  ToolTip.Tip="{loc:Localize CLASSIC_UI_MODE_TOOLTIP}"/>
+
                         <CheckBox Content="{loc:Localize ALWAYS_ON_TOP}"
                                   IsChecked="{Binding AlwaysOnTop}"/>
 

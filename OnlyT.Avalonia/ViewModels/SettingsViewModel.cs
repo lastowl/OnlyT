@@ -33,6 +33,9 @@ public partial class SettingsViewModel : ObservableObject
     private readonly ILogLevelSwitchService? _logLevelSwitchService;
 
     [ObservableProperty]
+    private bool _classicMode;
+
+    [ObservableProperty]
     private bool _fullScreenMode;
 
     [ObservableProperty]
@@ -295,8 +298,12 @@ public partial class SettingsViewModel : ObservableObject
         options.Culture = SelectedLanguage?.CultureCode ?? "en-GB";
         options.MonitorId = SelectedMonitor?.MonitorId;
         options.LogEventLevel = SelectedLogLevel?.Level.ToString() ?? "Information";
+        options.ClassicMode = ClassicMode;
 
         _optionsService.SaveOptions(options);
+
+        // Tell the operator page to re-read ClassicMode-derived bindings
+        _operatorPageViewModel?.NotifyClassicModeChanged();
 
         // Apply log level change immediately
         if (SelectedLogLevel != null)
@@ -407,6 +414,8 @@ public partial class SettingsViewModel : ObservableObject
 
         // Auto-detect meeting type based on day of week
         MidWeekOrWeekend = AutoDetectMeetingType(options.MidWeekOrWeekend);
+
+        ClassicMode = options.ClassicMode;
     }
 
     private MidWeekOrWeekend AutoDetectMeetingType(MidWeekOrWeekend savedValue)

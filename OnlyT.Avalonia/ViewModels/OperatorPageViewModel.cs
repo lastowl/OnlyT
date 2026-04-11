@@ -113,6 +113,28 @@ public partial class OperatorPageViewModel : ObservableObject
     public int StartStopButtonHeight => InShrinkMode ? 110 : 54;
     public int TimeDisplayColumnSpan => InShrinkMode ? 2 : 1;
 
+    // Classic UI mode: when on, the operator page visually matches the
+    // original WPF OnlyT. Stored in AppOptions and read live each time.
+    public bool ClassicMode => _optionsService.GetOptions().ClassicMode;
+    public bool NotClassicMode => !ClassicMode;
+    public bool IsReminderShowingAndNotClassic => IsReminderShowing && NotClassicMode;
+
+    /// <summary>
+    /// Called by SettingsViewModel after options are saved so the operator
+    /// page can react to a ClassicMode flip without restarting.
+    /// </summary>
+    public void NotifyClassicModeChanged()
+    {
+        OnPropertyChanged(nameof(ClassicMode));
+        OnPropertyChanged(nameof(NotClassicMode));
+        OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+    }
+
+    partial void OnIsReminderShowingChanged(bool value)
+    {
+        OnPropertyChanged(nameof(IsReminderShowingAndNotClassic));
+    }
+
     // Bell icon properties
     [ObservableProperty]
     private bool _isOvertime;
