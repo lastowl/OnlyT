@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Media;
 using Avalonia.Threading;
 using CommunityToolkit.Mvvm.DependencyInjection;
 using OnlyT.Avalonia.Controls;
@@ -20,6 +22,16 @@ public partial class CountdownWindow : Window
         InitializeComponent();
 
         _optionsService = Ioc.Default.GetService<IOptionsService>();
+
+        if (_optionsService?.GetOptions().IsCountdownWindowTransparent == true)
+        {
+            // Match the WPF AllowsTransparency behaviour: make the window
+            // chrome and root background see-through so only the inner
+            // bordered countdown panel is visible on screen.
+            TransparencyLevelHint = new List<WindowTransparencyLevel> { WindowTransparencyLevel.Transparent };
+            Background = Brushes.Transparent;
+            SystemDecorations = SystemDecorations.None;
+        }
 
         Opened += OnWindowOpened;
         Closing += OnWindowClosing;

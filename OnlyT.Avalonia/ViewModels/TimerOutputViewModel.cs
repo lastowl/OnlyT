@@ -131,6 +131,13 @@ public partial class TimerOutputViewModel : ObservableObject
     [ObservableProperty]
     private Thickness _frameBorderThickness = new(0);
 
+    // Cursor for the timer output window. Hidden by default so the cursor
+    // doesn't distract during a meeting; shown only if the user explicitly
+    // enables ShowMousePointerInTimerDisplay.
+    [ObservableProperty]
+    private global::Avalonia.Input.Cursor _mousePointer =
+        new(global::Avalonia.Input.StandardCursorType.None);
+
     public TimerOutputViewModel(ITalkTimerService timerService, IOptionsService optionsService, IBellService? bellService = null)
     {
         _timerService = timerService;
@@ -140,17 +147,10 @@ public partial class TimerOutputViewModel : ObservableObject
         _timerService.TimerStartedEvent += OnTimerStarted;
         _optionsService.OptionsChanged += (_, _) => RefreshSettings();
 
-        // Get settings
-        IsClockFlat = _optionsService.IsFlatClockStyle;
-        ApplyClockMode(_optionsService.FullScreenClockMode);
-        ShowTimeOfDay = _optionsService.ShowTimeOfDayUnderTimer;
-        ShowDigitalSeconds = _optionsService.ShowDigitalSeconds;
-        ShowDurationSector = _optionsService.ShowDurationSector;
-        FlashTimerEnabled = _optionsService.FlashTimerWhenOvertime;
-        BellOnOvertimeEnabled = _optionsService.BellOnOvertime;
-        AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
-        ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
-        FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
+        // Pull initial values from options. RefreshSettings is the single
+        // source of truth for option-derived state; it is also called whenever
+        // IOptionsService.OptionsChanged fires so edits take effect live.
+        RefreshSettings();
 
         // Set up clock timer to update every second
         _clockTimer = new DispatcherTimer
@@ -198,6 +198,9 @@ public partial class TimerOutputViewModel : ObservableObject
         AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
         ApplyBackgroundSetting(_optionsService.ShowBackgroundOnTimer);
         FrameBorderThickness = new Thickness(_optionsService.ShowBackgroundOnTimer ? 3 : 0);
+        MousePointer = _optionsService.ShowMousePointerInTimerDisplay
+            ? new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.Arrow)
+            : new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.None);
     }
 
     /// <summary>

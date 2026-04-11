@@ -12,6 +12,7 @@
         Icon="/Assets/icon.ico"
         Width="800" Height="600"
         WindowState="Normal"
+        Cursor="{Binding MousePointer}"
         Background="{Binding BackgroundColor}">
 
     <Design.DataContext>
