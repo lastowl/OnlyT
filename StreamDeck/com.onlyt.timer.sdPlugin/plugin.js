@@ -201,7 +201,7 @@ async function ringBell(baseUrl, context) {
 
     const data = await response.json();
 
-    if (data.Success) {
+    if (data.success) {
         showOk(context);
     } else {
         showAlert(context);
