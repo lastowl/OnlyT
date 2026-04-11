@@ -37,6 +37,32 @@
         <PathGeometry x:Key="ReportIcon">M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20M10,19L12,15H9V10H15V15L13,19H10Z</PathGeometry>
     </UserControl.Resources>
 
+    <UserControl.Styles>
+        <!-- Classic-mode: rectangular footer buttons matching the original WPF layout -->
+        <Style Selector="Button.classic">
+            <Setter Property="CornerRadius" Value="4"/>
+            <Setter Property="Width" Value="46"/>
+            <Setter Property="Height" Value="36"/>
+        </Style>
+
+        <!-- Blink animation for the "new version available" download button -->
+        <Style Selector="Button.newVersion">
+            <Style.Animations>
+                <Animation Duration="0:0:1.2" IterationCount="INFINITE">
+                    <KeyFrame Cue="0%">
+                        <Setter Property="Opacity" Value="1.0"/>
+                    </KeyFrame>
+                    <KeyFrame Cue="50%">
+                        <Setter Property="Opacity" Value="0.35"/>
+                    </KeyFrame>
+                    <KeyFrame Cue="100%">
+                        <Setter Property="Opacity" Value="1.0"/>
+                    </KeyFrame>
+                </Animation>
+            </Style.Animations>
+        </Style>
+    </UserControl.Styles>
+
     <Viewbox>
         <Grid Width="379" Height="311" Margin="10">
             <Grid.RowDefinitions>
@@ -235,11 +261,11 @@
                             Margin="10,5,0,5"
                             VerticalAlignment="Center"
                             IsVisible="{Binding NotInShrinkMode}">
-                    <Button Height="35"
+                    <Button Name="IncrementTimeButton"
+                            Height="35"
                             Margin="0,0,0,2"
                             Padding="0"
                             VerticalAlignment="Top"
-                            Command="{Binding IncrementTimeCommand}"
                             ToolTip.Tip="{loc:Localize TIP_INCREASE_TIME}">
                         <Button.ContextMenu>
                             <ContextMenu>
@@ -250,11 +276,11 @@
                         </Button.ContextMenu>
                         <Path Data="{StaticResource PlusIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="24" Height="24"/>
                     </Button>
-                    <Button Height="35"
+                    <Button Name="DecrementTimeButton"
+                            Height="35"
                             Margin="0,2,0,0"
                             Padding="0"
                             VerticalAlignment="Bottom"
-                            Command="{Binding DecrementTimeCommand}"
                             ToolTip.Tip="{loc:Localize TIP_DECREASE_TIME}">
                         <Button.ContextMenu>
                             <ContextMenu>
@@ -323,12 +349,24 @@
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
                             Spacing="8">
+                    <!-- Close Countdown Button (only while a countdown is active) -->
+                    <Button Command="{Binding CloseCountdownCommand}"
+                            ToolTip.Tip="{loc:Localize CLOSE_COUNTDOWN}"
+                            Width="38"
+                            Height="38"
+                            CornerRadius="19"
+                            IsVisible="{Binding IsCountdownActive}"
+                            Classes.classic="{Binding ClassicMode}">
+                        <Path Data="{StaticResource CloseIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
+                    </Button>
+
                     <!-- Countdown Button -->
                     <Button Command="{Binding ToggleCountdownCommand}"
                             ToolTip.Tip="{loc:Localize TIP_SHOW_COUNTDOWN}"
                             Width="38"
                             Height="38"
-                            CornerRadius="19">
+                            CornerRadius="19"
+                            Classes.classic="{Binding ClassicMode}">
                         <Path Data="{StaticResource TimerIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
 
@@ -338,7 +376,9 @@
                             Width="38"
                             Height="38"
                             CornerRadius="19"
-                            IsVisible="{Binding IsNewVersionAvailable}">
+                            IsVisible="{Binding IsNewVersionAvailable}"
+                            Classes="newVersion"
+                            Classes.classic="{Binding ClassicMode}">
                         <Path Data="{StaticResource DownloadIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
 
@@ -347,7 +387,8 @@
                             ToolTip.Tip="{loc:Localize TIP_HELP}"
                             Width="38"
                             Height="38"
-                            CornerRadius="19">
+                            CornerRadius="19"
+                            Classes.classic="{Binding ClassicMode}">
                         <Path Data="{StaticResource HelpIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
 
@@ -356,22 +397,24 @@
                             ToolTip.Tip="{loc:Localize TIP_SETTINGS}"
                             Width="38"
                             Height="38"
-                            CornerRadius="19">
+                            CornerRadius="19"
+                            Classes.classic="{Binding ClassicMode}">
                         <Path Data="{StaticResource CogIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
 
-                    <!-- Shrink Button -->
+                    <!-- Shrink Button: Avalonia-only feature, hidden in classic mode -->
                     <Button Command="{Binding ShrinkToCompactCommand}"
                             ToolTip.Tip="{loc:Localize TIP_SHRINK}"
                             Width="38"
                             Height="38"
-                            CornerRadius="19">
+                            CornerRadius="19"
+                            IsVisible="{Binding NotClassicMode}">
                         <Path Data="{StaticResource ShrinkIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>
                 </StackPanel>
             </Grid>
 
-            <!-- Reminder Notification Overlay -->
+            <!-- Reminder Notification Overlay (Avalonia-only, hidden in classic mode) -->
             <Border Grid.Row="0"
                     Grid.RowSpan="4"
                     Background="#E0FF9800"
@@ -379,7 +422,7 @@
                     Padding="15"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    IsVisible="{Binding IsReminderShowing}">
+                    IsVisible="{Binding IsReminderShowingAndNotClassic}">
                 <StackPanel Spacing="10">
                     <TextBlock Text="{Binding ReminderMessage}"
                                FontSize="16"
