@@ -32,6 +32,8 @@
 
         void SetupTalk(int talkId, int targetSeconds, int closingSecs);
 
+        void AdjustTarget(int newTargetSecs);
+
         TimerStartStopEventArgs StartTalkTimerFromApi(int talkId);
 
         TimerStartStopEventArgs StopTalkTimerFromApi(int talkId);
