@@ -406,7 +406,6 @@
                             </ComboBox.ItemTemplate>
                         </ComboBox>
 
-                        <TextBlock Classes="Notes" Text="{loc:Localize RESTART_LANGUAGE}"/>
                     </StackPanel>
                 </Border>
 
