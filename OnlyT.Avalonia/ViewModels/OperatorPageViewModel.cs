@@ -148,6 +148,7 @@ public partial class OperatorPageViewModel : ObservableObject
             OnPropertyChanged(nameof(ShouldShowCircuitVisitToggle));
             OnPropertyChanged(nameof(AllowCountUpDownToggle));
             OnPropertyChanged(nameof(ShowUpDownButton));
+            OnPropertyChanged(nameof(ShowExportScheduleButton));
 
             // If OperatingMode or MidWeekOrWeekend changed, the entire talk
             // schedule needs rebuilding (different mode = different talk list).
@@ -163,6 +164,13 @@ public partial class OperatorPageViewModel : ObservableObject
                 _lastMeetingType = currentMeeting;
                 RefreshTalks();
             }
+
+            // Directly refresh the timer output VM so display-mode, clock
+            // format, and all visual settings update on the output window.
+            // This bypasses the OptionsChanged event subscription (which
+            // was unreliable) and ensures the refresh runs on the UI thread.
+            var timerOutputViewModel = CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default.GetService<TimerOutputViewModel>();
+            timerOutputViewModel?.RefreshSettings();
 
             // Apply AlwaysOnTop + FullScreenMode + MonitorId to the output window
             ApplyWindowStateOptionsLive();
@@ -323,6 +331,8 @@ public partial class OperatorPageViewModel : ObservableObject
     public bool IsManualMode => _optionsService.OperatingMode == OperatingMode.Manual;
     public bool IsNotManualMode => !IsManualMode;
     public bool IsAutoMode => _optionsService.OperatingMode == OperatingMode.Automatic;
+    public bool IsFileBasedMode => _optionsService.OperatingMode == OperatingMode.ScheduleFile;
+    public bool ShowExportScheduleButton => _optionsService.GetOptions().ShowExportScheduleButton;
 
     // Circuit visit
     public bool IsCircuitVisit
@@ -579,6 +589,13 @@ public partial class OperatorPageViewModel : ObservableObject
         OnPropertyChanged(nameof(IsManualMode));
         OnPropertyChanged(nameof(IsNotManualMode));
         OnPropertyChanged(nameof(IsAutoMode));
+        OnPropertyChanged(nameof(IsFileBasedMode));
+
+        // Refresh the schedule-file picker (may have new templates)
+        if (IsFileBasedMode)
+        {
+            RefreshScheduleFiles();
+        }
 
         // Refresh timer output settings (e.g., analog/digital clock switch)
         var timerOutputViewModel = CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default.GetService<TimerOutputViewModel>();
@@ -1221,6 +1238,89 @@ public partial class OperatorPageViewModel : ObservableObject
     }
 
     private bool CanSkipTalk() => !IsRunning && !IsPaused && SelectedTalk != null;
+
+    // --- File-based schedule picker + export ---
+
+    [ObservableProperty]
+    private ObservableCollection<string> _scheduleFiles = [];
+
+    [ObservableProperty]
+    private string? _selectedScheduleFile;
+
+    partial void OnSelectedScheduleFileChanged(string? value)
+    {
+        if (value == null) return;
+        var options = _optionsService.GetOptions();
+        options.SelectedScheduleFile = value;
+        _optionsService.SaveOptions(options);
+        RefreshTalks();
+    }
+
+    public void RefreshScheduleFiles()
+    {
+        var files = Utils.ScheduleExporter.GetAvailableTemplates();
+
+        // First-use seeding: if there are no templates yet and we have
+        // talks loaded (from a previous Auto/Manual session), export
+        // the current schedule as a starting template so the user has
+        // something to work with immediately.
+        if (files.Length == 0 && Talks.Count > 0)
+        {
+            var seedPath = System.IO.Path.Combine(
+                Utils.FileUtils.GetScheduleTemplatesFolder(), "default.xml");
+            Utils.ScheduleExporter.Export(Talks, seedPath);
+            files = Utils.ScheduleExporter.GetAvailableTemplates();
+        }
+
+        ScheduleFiles.Clear();
+        foreach (var f in files)
+        {
+            ScheduleFiles.Add(System.IO.Path.GetFileName(f));
+        }
+
+        var current = _optionsService.GetOptions().SelectedScheduleFile;
+        if (!string.IsNullOrEmpty(current) && ScheduleFiles.Contains(current))
+        {
+            SelectedScheduleFile = current;
+        }
+        else if (ScheduleFiles.Count > 0)
+        {
+            SelectedScheduleFile = ScheduleFiles[0];
+        }
+
+        OnPropertyChanged(nameof(IsFileBasedMode));
+    }
+
+    [RelayCommand]
+    private void ExportScheduleAsTemplate()
+    {
+        var folder = Utils.FileUtils.GetScheduleTemplatesFolder();
+        var talks = Talks;
+
+        if (talks.Count == 0)
+        {
+            StatusText = "No talks to export";
+            return;
+        }
+
+        // Generate a unique filename based on the current mode/meeting type
+        var prefix = _optionsService.OperatingMode switch
+        {
+            OperatingMode.Automatic => _optionsService.MidWeekOrWeekend == MidWeekOrWeekend.MidWeek ? "midweek" : "weekend",
+            OperatingMode.Manual => "manual",
+            OperatingMode.ScheduleFile => "custom",
+            _ => "schedule"
+        };
+
+        var timestamp = System.DateTime.Now.ToString("yyyyMMdd-HHmmss");
+        var filename = $"{prefix}-{timestamp}.xml";
+        var path = System.IO.Path.Combine(folder, filename);
+
+        Utils.ScheduleExporter.Export(talks, path);
+        StatusText = $"Saved: {filename}";
+
+        RefreshScheduleFiles();
+    }
 
     // Quick-set: user types minutes in manual mode and presses Enter.
     [ObservableProperty]
