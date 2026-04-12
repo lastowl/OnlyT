@@ -833,6 +833,10 @@ Shift - Increase 5m</value>
     <value>Save current schedule as a reusable template</value>
     <comment>Tooltip for the save-template button in file-based mode</comment>
   </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Schedule file</value>
+    <comment>Label for the schedule template file selector in settings</comment>
+  </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
     <value>+15 seconds</value>
     <comment>Context menu item for time adjustment</comment>

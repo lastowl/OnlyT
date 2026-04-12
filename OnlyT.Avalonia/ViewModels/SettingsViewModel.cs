@@ -218,6 +218,13 @@ public partial class SettingsViewModel : ObservableObject
     ];
 
     public bool IsAutomaticMode => OperatingMode == OperatingMode.Automatic;
+    public bool IsFileBasedMode => OperatingMode == OperatingMode.ScheduleFile;
+
+    [ObservableProperty]
+    private ObservableCollection<string> _availableScheduleFiles = [];
+
+    [ObservableProperty]
+    private string? _selectedScheduleFile;
 
     public string FirewallStatusDisplay => IsFirewallConfigured
         ? _localizationService?.GetString("STATUS_CONFIGURED") ?? "Configured"
@@ -230,6 +237,30 @@ public partial class SettingsViewModel : ObservableObject
     partial void OnOperatingModeChanged(OperatingMode value)
     {
         OnPropertyChanged(nameof(IsAutomaticMode));
+        OnPropertyChanged(nameof(IsFileBasedMode));
+        if (IsFileBasedMode)
+        {
+            LoadScheduleFiles();
+        }
+    }
+
+    private void LoadScheduleFiles()
+    {
+        var files = OnlyT.Avalonia.Utils.ScheduleExporter.GetAvailableTemplates();
+        AvailableScheduleFiles.Clear();
+        foreach (var f in files)
+        {
+            AvailableScheduleFiles.Add(System.IO.Path.GetFileName(f));
+        }
+        var current = _optionsService.GetOptions().SelectedScheduleFile;
+        if (!string.IsNullOrEmpty(current) && AvailableScheduleFiles.Contains(current))
+        {
+            SelectedScheduleFile = current;
+        }
+        else if (AvailableScheduleFiles.Count > 0)
+        {
+            SelectedScheduleFile = AvailableScheduleFiles[0];
+        }
     }
 
     partial void OnIsFirewallConfiguredChanged(bool value)
@@ -265,6 +296,7 @@ public partial class SettingsViewModel : ObservableObject
         options.AutoBell = AutoBell;
         options.IsCircuitVisit = IsCircuitVisit;
         options.OperatingMode = OperatingMode;
+        options.SelectedScheduleFile = SelectedScheduleFile ?? string.Empty;
         options.MidWeekOrWeekend = MidWeekOrWeekend;
         options.ShowTimeOfDayUnderTimer = ShowTimeOfDayUnderTimer;
         options.ShowDigitalSeconds = ShowDigitalSeconds;
@@ -370,6 +402,10 @@ public partial class SettingsViewModel : ObservableObject
         AutoBell = options.AutoBell;
         IsCircuitVisit = options.IsCircuitVisit;
         OperatingMode = options.OperatingMode;
+        if (OperatingMode == OperatingMode.ScheduleFile)
+        {
+            LoadScheduleFiles();
+        }
         ShowTimeOfDayUnderTimer = options.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = options.ShowDigitalSeconds;
         ShowDurationSector = options.ShowDurationSector;
