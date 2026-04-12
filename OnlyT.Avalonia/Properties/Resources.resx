@@ -817,6 +817,14 @@ Shift - Increase 5m</value>
     <value>Shrink to compact mode</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Skip to next talk</value>
+    <comment>Tooltip for skip button on operator page</comment>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+    <comment>Watermark/placeholder for the quick-set minutes input in manual mode</comment>
+  </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
     <value>+15 seconds</value>
     <comment>Context menu item for time adjustment</comment>

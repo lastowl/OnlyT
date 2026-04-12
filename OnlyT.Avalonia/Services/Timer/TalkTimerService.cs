@@ -92,6 +92,11 @@
             _closingSecs = closingSecs;
         }
 
+        public void AdjustTarget(int newTargetSecs)
+        {
+            _targetSecs = newTargetSecs;
+        }
+
         public TimerStartStopEventArgs StartTalkTimerFromApi(int talkId)
         {
             var result = new TimerStartStopEventArgs

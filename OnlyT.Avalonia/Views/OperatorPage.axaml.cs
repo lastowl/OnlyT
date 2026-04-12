@@ -35,6 +35,21 @@ public partial class OperatorPage : UserControl
             decrementBtn.AddHandler(InputElement.PointerPressedEvent, OnStepButtonPressed, RoutingStrategies.Tunnel);
             decrementBtn.Click += (_, e) => OnTimerStepClick(e, positive: false);
         }
+
+        var quickSet = this.FindControl<global::Avalonia.Controls.NumericUpDown>("QuickSetInput");
+        if (quickSet != null)
+        {
+            quickSet.KeyDown += OnQuickSetKeyDown;
+        }
+    }
+
+    private void OnQuickSetKeyDown(object? sender, KeyEventArgs e)
+    {
+        if (e.Key == Key.Enter && DataContext is OperatorPageViewModel vm)
+        {
+            vm.QuickSetAndStart();
+            e.Handled = true;
+        }
     }
 
     private void OnTimerWheelChanged(object? sender, PointerWheelEventArgs e)

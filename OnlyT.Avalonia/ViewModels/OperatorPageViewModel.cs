@@ -713,28 +713,31 @@ public partial class OperatorPageViewModel : ObservableObject
         });
     }
 
+    [ObservableProperty]
+    private bool _showStopButton;
+
     private void UpdateButtonStates()
     {
         if (IsRunning && !IsPaused)
         {
-            // Timer is running - show Pause button
             ShowStartButton = false;
             ShowPauseButton = true;
             ShowResumeButton = false;
+            ShowStopButton = true;
         }
         else if (IsPaused)
         {
-            // Timer is paused - show Resume button
             ShowStartButton = false;
             ShowPauseButton = false;
             ShowResumeButton = true;
+            ShowStopButton = true;
         }
         else
         {
-            // Timer is stopped - show Start button
             ShowStartButton = true;
             ShowPauseButton = false;
             ShowResumeButton = false;
+            ShowStopButton = false;
         }
     }
 
@@ -1183,22 +1186,73 @@ public partial class OperatorPageViewModel : ObservableObject
             SelectedTalk.ModifiedDuration = newDuration;
             _scheduleService.SetModifiedDuration(SelectedTalk.Id, newDuration);
             TargetSeconds = newSecs;
-            UpdateTimeDisplay(TargetSeconds, 0);
+
+            if (IsRunning || IsPaused)
+            {
+                // Timer is active — tell the service about the new target
+                // so remaining-time calculations are correct from the next
+                // tick. Don't reset elapsed; just update the display with
+                // the current elapsed value.
+                _timerService.AdjustTarget(newSecs);
+                UpdateTimeDisplay(TargetSeconds, ElapsedSeconds);
+            }
+            else
+            {
+                UpdateTimeDisplay(TargetSeconds, 0);
+            }
+
             SetDurationStringAttributes();
         }
     }
 
-    private bool CanAdjustTime() => !IsRunning && SelectedTalk?.Editable == true;
+    private bool CanAdjustTime() => SelectedTalk?.Editable == true;
+
+    [RelayCommand(CanExecute = nameof(CanSkipTalk))]
+    private void SkipTalk()
+    {
+        if (SelectedTalk == null) return;
+
+        var nextId = _scheduleService.GetNext(SelectedTalk.Id);
+        if (nextId > 0)
+        {
+            SelectedTalk = Talks.FirstOrDefault(t => t.Id == nextId);
+            Log.Information("Skipped to next talk: {TalkName}", SelectedTalk?.Name);
+        }
+    }
+
+    private bool CanSkipTalk() => !IsRunning && !IsPaused && SelectedTalk != null;
+
+    // Quick-set: user types minutes in manual mode and presses Enter.
+    [ObservableProperty]
+    private decimal _quickSetMinutes = 5;
+
+    /// <summary>
+    /// Called from the code-behind when Enter is pressed on the quick-set
+    /// input. Sets the timer to the specified minutes and starts it.
+    /// </summary>
+    public void QuickSetAndStart()
+    {
+        if (SelectedTalk == null || IsRunning || IsPaused) return;
+
+        var secs = (int)(QuickSetMinutes * 60);
+        if (secs <= 0 || secs > 99 * 60) return;
+
+        var duration = TimeSpan.FromSeconds(secs);
+        SelectedTalk.ModifiedDuration = duration;
+        _scheduleService.SetModifiedDuration(SelectedTalk.Id, duration);
+        TargetSeconds = secs;
+        UpdateTimeDisplay(TargetSeconds, 0);
+        SetDurationStringAttributes();
+
+        StartCommand.Execute(null);
+    }
 
     /// <summary>
     /// Adjust timer duration via mouse wheel (called from code-behind)
     /// </summary>
     public void AdjustTimerByWheel(int seconds)
     {
-        if (CanAdjustTime())
-        {
-            AdjustTimerInternal(seconds);
-        }
+        AdjustTimerInternal(seconds);
     }
 
     // Shrink mode commands
