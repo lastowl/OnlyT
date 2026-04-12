@@ -46,11 +46,11 @@ This approach allows the Windows WPF version to remain untouched while enabling 
 
 ### Prerequisites
 
-- .NET 8.0 SDK or later
+- .NET 10.0 SDK or later
 - Platform-specific requirements:
   - **Windows**: No additional requirements
   - **macOS**: Xcode command line tools
-  - **Linux**: GTK3 development libraries
+  - **Linux**: No additional requirements (Avalonia 11 uses X11/Wayland directly)
 
 ### Build Commands
 
@@ -72,7 +72,7 @@ dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r linux-x64 --se
 
 ### Windows
 
-- Uses the same data storage locations as the WPF version
+- Settings stored in `options.avalonia.json` (separate from WPF's `options.json`; first-run seeds from WPF if present)
 - Supports Windows 10 and later
 - DPI awareness enabled
 
@@ -80,21 +80,25 @@ dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r linux-x64 --se
 
 - Data stored in `~/Library/Application Support/OnlyT/`
 - Lock files in temporary directory
-- Supports macOS 10.15 (Catalina) and later
+- Supports macOS 10.14 (Mojave) and later
 
 ### Linux
 
 - Configuration stored in `~/.config/OnlyT/` (or `$XDG_CONFIG_HOME/OnlyT/`)
 - Lock files in `$XDG_RUNTIME_DIR` or `/tmp`
 - Tested on Ubuntu, Fedora, and other common distributions
-- Requires GTK3
+- Avalonia 11 uses X11/Wayland directly (no GTK3 dependency)
 
 ## Differences from WPF Version
 
-1. **UI Framework**: Uses Avalonia UI instead of WPF
+1. **UI Framework**: Uses Avalonia UI with Material Design theming instead of WPF
 2. **Platform APIs**: Abstracted through `IPlatformServices`
-3. **Theming**: Uses Avalonia's Fluent theme system
+3. **Theming**: Material.Avalonia with runtime dark/light switching
 4. **Monitor Detection**: Uses Avalonia's cross-platform screen API
+5. **Settings**: All settings apply live without restart; stored in separate `options.avalonia.json`
+6. **Classic UI mode**: Optional toggle to match the original WPF operator page layout
+7. **Stream Deck plugin**: Bundled plugin for Elgato Stream Deck hardware control
+8. **Side-by-side install**: Can coexist with the original WPF OnlyT on the same machine
 
 ## Development
 
