@@ -825,6 +825,14 @@ Shift - Increase 5m</value>
     <value>Min</value>
     <comment>Watermark/placeholder for the quick-set minutes input in manual mode</comment>
   </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Save</value>
+    <comment>Button to export current schedule as a reusable template file</comment>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Save current schedule as a reusable template</value>
+    <comment>Tooltip for the save-template button in file-based mode</comment>
+  </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
     <value>+15 seconds</value>
     <comment>Context menu item for time adjustment</comment>
