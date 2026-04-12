@@ -41,31 +41,25 @@ public partial class TimerOutputViewModel : ObservableObject
     private bool _showBackgroundGradient;
 
     [ObservableProperty]
-    [NotifyPropertyChangedFor(nameof(ShowBothClocks))]
-    [NotifyPropertyChangedFor(nameof(ShowDigitalClockOnly))]
-    [NotifyPropertyChangedFor(nameof(ShowAnalogueClockOnly))]
     private bool _showDigitalClock = true;
 
     [ObservableProperty]
-    [NotifyPropertyChangedFor(nameof(ShowBothClocks))]
-    [NotifyPropertyChangedFor(nameof(ShowDigitalClockOnly))]
-    [NotifyPropertyChangedFor(nameof(ShowAnalogueClockOnly))]
     private bool _showAnalogueClock;
 
-    /// <summary>
-    /// True when both analogue and digital clocks should be shown (stacked layout)
-    /// </summary>
-    public bool ShowBothClocks => ShowAnalogueClock && ShowDigitalClock;
+    [ObservableProperty]
+    private bool _showBothClocks;
 
-    /// <summary>
-    /// True when only the digital clock should be shown (full size)
-    /// </summary>
-    public bool ShowDigitalClockOnly => ShowDigitalClock && !ShowAnalogueClock;
+    [ObservableProperty]
+    private bool _showBothClocksHorizontal;
 
-    /// <summary>
-    /// True when only the analogue clock should be shown (full size)
-    /// </summary>
-    public bool ShowAnalogueClockOnly => ShowAnalogueClock && !ShowDigitalClock;
+    [ObservableProperty]
+    private bool _showBothClocksVertical;
+
+    [ObservableProperty]
+    private bool _showDigitalClockOnly = true;
+
+    [ObservableProperty]
+    private bool _showAnalogueClockOnly;
 
     [ObservableProperty]
     private bool _isClockRunning = true;
@@ -187,13 +181,15 @@ public partial class TimerOutputViewModel : ObservableObject
     /// <summary>
     /// Refresh display settings from options service
     /// </summary>
+    public void RefreshClockMode(FullScreenClockMode mode)
+    {
+        Dispatcher.UIThread.Post(() => ApplyClockMode(mode));
+    }
+
     public void RefreshSettings()
     {
         IsClockFlat = _optionsService.IsFlatClockStyle;
         ApplyClockMode(_optionsService.FullScreenClockMode);
-        OnPropertyChanged(nameof(ShowBothClocks));
-        OnPropertyChanged(nameof(ShowDigitalClockOnly));
-        OnPropertyChanged(nameof(ShowAnalogueClockOnly));
         ShowTimeOfDay = _optionsService.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = _optionsService.ShowDigitalSeconds;
         ShowDurationSector = _optionsService.ShowDurationSector;
@@ -261,19 +257,36 @@ public partial class TimerOutputViewModel : ObservableObject
 
     private void ApplyClockMode(FullScreenClockMode mode)
     {
+        var horizontal = _optionsService.GetOptions().HorizontalClockLayout;
+
         switch (mode)
         {
             case FullScreenClockMode.Analogue:
                 ShowAnalogueClock = true;
                 ShowDigitalClock = false;
+                ShowBothClocks = false;
+                ShowBothClocksHorizontal = false;
+                ShowBothClocksVertical = false;
+                ShowDigitalClockOnly = false;
+                ShowAnalogueClockOnly = true;
                 break;
             case FullScreenClockMode.Digital:
                 ShowAnalogueClock = false;
                 ShowDigitalClock = true;
+                ShowBothClocks = false;
+                ShowBothClocksHorizontal = false;
+                ShowBothClocksVertical = false;
+                ShowDigitalClockOnly = true;
+                ShowAnalogueClockOnly = false;
                 break;
             case FullScreenClockMode.AnalogueAndDigital:
                 ShowAnalogueClock = true;
                 ShowDigitalClock = true;
+                ShowBothClocks = true;
+                ShowBothClocksHorizontal = horizontal;
+                ShowBothClocksVertical = !horizontal;
+                ShowDigitalClockOnly = false;
+                ShowAnalogueClockOnly = false;
                 break;
         }
     }

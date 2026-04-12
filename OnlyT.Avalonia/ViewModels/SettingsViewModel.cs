@@ -144,6 +144,9 @@ public partial class SettingsViewModel : ObservableObject
     private bool _generateTimingReports;
 
     [ObservableProperty]
+    private bool _showExportScheduleButton;
+
+    [ObservableProperty]
     private int _httpServerPort = 8096;
 
     [ObservableProperty]
@@ -233,6 +236,24 @@ public partial class SettingsViewModel : ObservableObject
     public IBrush FirewallStatusColor => IsFirewallConfigured
         ? new SolidColorBrush(Color.Parse("#4CAF50"))  // Green
         : new SolidColorBrush(Color.Parse("#FF9800")); // Orange
+
+    public bool IsAnalogueSliderEnabled => FullScreenClockMode != ClockMode.Digital && HorizontalClockLayout;
+
+    [ObservableProperty]
+    private bool _horizontalClockLayout;
+
+    partial void OnFullScreenClockModeChanged(ClockMode value)
+    {
+        OnPropertyChanged(nameof(IsAnalogueSliderEnabled));
+        var timerOutputVm = CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default
+            .GetService<TimerOutputViewModel>();
+        timerOutputVm?.RefreshClockMode(value);
+    }
+
+    partial void OnHorizontalClockLayoutChanged(bool value)
+    {
+        OnPropertyChanged(nameof(IsAnalogueSliderEnabled));
+    }
 
     partial void OnOperatingModeChanged(OperatingMode value)
     {
@@ -325,6 +346,8 @@ public partial class SettingsViewModel : ObservableObject
         options.WeekendIncludesFriday = WeekendIncludesFriday;
         options.OverrunNotifications = OverrunNotifications;
         options.GenerateTimingReports = GenerateTimingReports;
+        options.ShowExportScheduleButton = ShowExportScheduleButton;
+        options.HorizontalClockLayout = HorizontalClockLayout;
         options.HttpServerPort = HttpServerPort;
         options.MeetingStartTimesText = MeetingStartTimesText;
         options.CountdownDurationMins = CountdownDurationMins;
@@ -434,6 +457,8 @@ public partial class SettingsViewModel : ObservableObject
         WeekendIncludesFriday = options.WeekendIncludesFriday;
         OverrunNotifications = options.OverrunNotifications;
         GenerateTimingReports = options.GenerateTimingReports;
+        ShowExportScheduleButton = options.ShowExportScheduleButton;
+        HorizontalClockLayout = options.HorizontalClockLayout;
         HttpServerPort = options.HttpServerPort;
         MeetingStartTimesText = options.MeetingStartTimesText;
         CountdownDurationMins = options.CountdownDurationMins;

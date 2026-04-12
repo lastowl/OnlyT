@@ -399,6 +399,10 @@ public class AppOptions
     /// </summary>
     public string SelectedScheduleFile { get; set; } = string.Empty;
 
+    public bool ShowExportScheduleButton { get; set; } = false;
+
+    public bool HorizontalClockLayout { get; set; } = false;
+
     /// <summary>
     /// Adaptive timer mode for midweek meetings (default: None)
     /// </summary>

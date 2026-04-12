@@ -205,6 +205,10 @@
                     <StackPanel>
                         <TextBlock Classes="GroupHeader" Text="{loc:Localize TIMER_WIN_SECTION}"/>
 
+                        <CheckBox Content="{loc:Localize HORIZONTAL_CLOCK_LAYOUT}"
+                                  IsChecked="{Binding HorizontalClockLayout}"
+                                  Margin="0,0,0,8"/>
+
                         <TextBlock Text="{loc:Localize FULL_SCREEN_CLOCK}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding ClockModes}"
                                   SelectedItem="{Binding FullScreenClockMode}">
@@ -215,7 +219,8 @@
                             </ComboBox.ItemTemplate>
                         </ComboBox>
 
-                        <TextBlock FontSize="12" Margin="0,8,0,4">
+                        <TextBlock FontSize="12" Margin="0,8,0,4"
+                                   IsEnabled="{Binding IsAnalogueSliderEnabled}">
                             <Run Text="{loc:Localize SPLIT_WIDTH}"/>
                             <Run Text=" "/>
                             <Run Text="{Binding AnalogueClockWidthPercent}"/>
@@ -224,7 +229,9 @@
                         <Slider Minimum="30" Maximum="100"
                                 Value="{Binding AnalogueClockWidthPercent}"
                                 TickFrequency="10"
-                                Margin="0,0,0,12"/>
+                                Margin="0,0,0,12"
+                                IsEnabled="{Binding IsAnalogueSliderEnabled}"
+                                ToolTip.Tip="{loc:Localize SPLIT_WIDTH_TIP}"/>
 
                         <CheckBox Content="{loc:Localize TIMER_BACKGROUND_COLOUR}"
                                   IsChecked="{Binding ShowBackgroundOnTimer}"/>
@@ -389,6 +396,9 @@
 
                         <CheckBox Content="{loc:Localize SHOULD_GENERATE_REPORTS}"
                                   IsChecked="{Binding GenerateTimingReports}"/>
+
+                        <CheckBox Content="{loc:Localize SHOW_EXPORT_SCHEDULE}"
+                                  IsChecked="{Binding ShowExportScheduleButton}"/>
 
                         <CheckBox Content="{loc:Localize TIMER_REMINDER}"
                                   IsChecked="{Binding TimerReminder}"/>

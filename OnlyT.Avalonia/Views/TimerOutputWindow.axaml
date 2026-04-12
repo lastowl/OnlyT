@@ -23,15 +23,99 @@
             Margin="5"
             BorderBrush="Beige"
             BorderThickness="{Binding FrameBorderThickness}">
-    <Grid RowDefinitions="*,Auto,Auto">
-        <!-- Main clock area (Row 0) -->
-        <Grid Grid.Row="0">
-            <!-- When both clocks visible: vertical stack layout -->
-            <Grid RowDefinitions="3*,2*"
-                  IsVisible="{Binding ShowBothClocks}">
-                <!-- Analogue clock on top (60% of space) -->
-                <Viewbox Grid.Row="0"
-                         Margin="10"
+
+        <Grid RowDefinitions="*,Auto">
+
+            <!-- Row 0: Main display area — side-by-side columns matching
+                 the WPF TimerOutputWindow layout. The slider in Settings
+                 controls the column split via AnalogueClockWidthPercent. -->
+            <Grid Grid.Row="0">
+
+                <!-- BOTH (horizontal): side-by-side analogue (left) + digital (right).
+                     Matches WPF layout. Slider controls the column split. -->
+                <Grid IsVisible="{Binding ShowBothClocksHorizontal}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToGridLengthConverter.Instance}}"/>
+                        <ColumnDefinition Width="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToGridLengthConverter.ComplementInstance}}"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Viewbox Grid.Column="0"
+                             Margin="10"
+                             Opacity="{Binding FlashOpacity}"
+                             Stretch="Uniform"
+                             StretchDirection="Both">
+                        <clock:ClockControl IsFlat="{Binding IsClockFlat}"
+                                            IsRunning="{Binding IsClockRunning}"
+                                            DurationSector="{Binding DurationSector}"
+                                            DigitalTimeFormat24Hours="{Binding DigitalTimeFormat24Hours}"
+                                            DigitalTimeFormatShowLeadingZero="{Binding DigitalTimeFormatShowLeadingZero}"
+                                            DigitalTimeFormatAMPM="{Binding DigitalTimeFormatAMPM}"
+                                            Width="500" Height="500"/>
+                    </Viewbox>
+
+                    <Viewbox Grid.Column="1"
+                             Margin="10"
+                             Opacity="{Binding FlashOpacity}"
+                             Stretch="Uniform"
+                             StretchDirection="DownOnly">
+                        <TextBlock Text="{Binding TimeDisplay}"
+                                   FontSize="200"
+                                   FontWeight="Bold"
+                                   FontFamily="Consolas,Courier New,monospace"
+                                   Foreground="{Binding TextColor}"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Viewbox>
+                </Grid>
+
+                <!-- BOTH (vertical): analogue on top, digital below.
+                     Avalonia default. Better for portrait displays. -->
+                <Grid RowDefinitions="3*,2*"
+                      IsVisible="{Binding ShowBothClocksVertical}">
+                    <Viewbox Grid.Row="0"
+                             Margin="10"
+                             Opacity="{Binding FlashOpacity}"
+                             Stretch="Uniform"
+                             StretchDirection="Both">
+                        <clock:ClockControl IsFlat="{Binding IsClockFlat}"
+                                            IsRunning="{Binding IsClockRunning}"
+                                            DurationSector="{Binding DurationSector}"
+                                            DigitalTimeFormat24Hours="{Binding DigitalTimeFormat24Hours}"
+                                            DigitalTimeFormatShowLeadingZero="{Binding DigitalTimeFormatShowLeadingZero}"
+                                            DigitalTimeFormatAMPM="{Binding DigitalTimeFormatAMPM}"
+                                            Width="500" Height="500"/>
+                    </Viewbox>
+
+                    <Viewbox Grid.Row="1"
+                             Margin="10,0,10,10"
+                             Opacity="{Binding FlashOpacity}"
+                             Stretch="Uniform"
+                             StretchDirection="DownOnly">
+                        <TextBlock Text="{Binding TimeDisplay}"
+                                   FontSize="200"
+                                   FontWeight="Bold"
+                                   FontFamily="Consolas,Courier New,monospace"
+                                   Foreground="{Binding TextColor}"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Viewbox>
+                </Grid>
+
+                <!-- DIGITAL ONLY: full size -->
+                <Viewbox IsVisible="{Binding ShowDigitalClockOnly}"
+                         Opacity="{Binding FlashOpacity}">
+                    <TextBlock Text="{Binding TimeDisplay}"
+                               FontSize="200"
+                               FontWeight="Bold"
+                               FontFamily="Consolas,Courier New,monospace"
+                               Foreground="{Binding TextColor}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Viewbox>
+
+                <!-- ANALOGUE ONLY: full size -->
+                <Viewbox IsVisible="{Binding ShowAnalogueClockOnly}"
+                         Margin="20"
                          Opacity="{Binding FlashOpacity}"
                          Stretch="Uniform"
                          StretchDirection="Both">
@@ -44,64 +128,20 @@
                                         Width="500" Height="500"/>
                 </Viewbox>
 
-                <!-- Digital clock below (40% of space) -->
-                <Viewbox Grid.Row="1"
-                         Margin="10,0,10,10"
-                         Opacity="{Binding FlashOpacity}"
-                         Stretch="Uniform"
-                         StretchDirection="DownOnly">
-                    <TextBlock Text="{Binding TimeDisplay}"
-                               FontSize="200"
-                               FontWeight="Bold"
-                               FontFamily="Consolas,Courier New,monospace"
-                               Foreground="{Binding TextColor}"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
-                </Viewbox>
             </Grid>
 
-            <!-- Digital clock only (full size) -->
-            <Viewbox IsVisible="{Binding ShowDigitalClockOnly}"
-                     Opacity="{Binding FlashOpacity}">
-                <TextBlock Text="{Binding TimeDisplay}"
-                           FontSize="200"
-                           FontWeight="Bold"
-                           FontFamily="Consolas,Courier New,monospace"
-                           Foreground="{Binding TextColor}"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Center"/>
-            </Viewbox>
+            <!-- Row 1: Time of day. Only shown when the main display is
+                 showing the timer; hidden when it's already the wall clock. -->
+            <TextBlock Grid.Row="1"
+                       Text="{Binding CurrentTimeOfDay}"
+                       IsVisible="{Binding IsTimeOfDayVisible}"
+                       FontSize="48"
+                       FontFamily="Consolas,Courier New,monospace"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
 
-            <!-- Analogue clock only (full size with percentage control) -->
-            <Viewbox IsVisible="{Binding ShowAnalogueClockOnly}"
-                     Margin="20"
-                     Opacity="{Binding FlashOpacity}"
-                     MaxWidth="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToSizeConverter.Instance}}"
-                     MaxHeight="{Binding AnalogueClockWidthPercent, Converter={x:Static local:PercentToSizeConverter.Instance}}"
-                     Stretch="Uniform"
-                     StretchDirection="Both">
-                <clock:ClockControl IsFlat="{Binding IsClockFlat}"
-                                    IsRunning="{Binding IsClockRunning}"
-                                    DurationSector="{Binding DurationSector}"
-                                    DigitalTimeFormat24Hours="{Binding DigitalTimeFormat24Hours}"
-                                    DigitalTimeFormatShowLeadingZero="{Binding DigitalTimeFormatShowLeadingZero}"
-                                    DigitalTimeFormatAMPM="{Binding DigitalTimeFormatAMPM}"
-                                    Width="500" Height="500"/>
-            </Viewbox>
         </Grid>
-
-        <!-- Time of day display. Only shown when the main display is
-             showing the timer; hidden when it's already the wall clock
-             (otherwise we'd render two identical clocks stacked). -->
-        <TextBlock Grid.Row="2"
-                   Text="{Binding CurrentTimeOfDay}"
-                   IsVisible="{Binding IsTimeOfDayVisible}"
-                   FontSize="48"
-                   FontFamily="Consolas,Courier New,monospace"
-                   Foreground="White"
-                   HorizontalAlignment="Center"
-                   Margin="0,0,0,20"/>
-    </Grid>
     </Border>
 
 </Window>

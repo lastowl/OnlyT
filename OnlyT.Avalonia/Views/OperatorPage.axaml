@@ -415,12 +415,13 @@
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
                             Spacing="8">
-                    <!-- Export current schedule as template -->
+                    <!-- Export current schedule as template (hidden by default, toggle in Settings) -->
                     <Button Command="{Binding ExportScheduleAsTemplateCommand}"
                             ToolTip.Tip="{loc:Localize TIP_EXPORT_SCHEDULE}"
                             Width="38"
                             Height="38"
                             CornerRadius="19"
+                            IsVisible="{Binding ShowExportScheduleButton}"
                             Classes.classic="{Binding ClassicMode}">
                         <Path Data="{StaticResource ReportIcon}" Fill="{DynamicResource MaterialBodyBrush}" Stretch="Uniform" Width="18" Height="18"/>
                     </Button>

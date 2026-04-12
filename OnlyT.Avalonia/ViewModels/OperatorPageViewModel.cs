@@ -148,6 +148,7 @@ public partial class OperatorPageViewModel : ObservableObject
             OnPropertyChanged(nameof(ShouldShowCircuitVisitToggle));
             OnPropertyChanged(nameof(AllowCountUpDownToggle));
             OnPropertyChanged(nameof(ShowUpDownButton));
+            OnPropertyChanged(nameof(ShowExportScheduleButton));
 
             // If OperatingMode or MidWeekOrWeekend changed, the entire talk
             // schedule needs rebuilding (different mode = different talk list).
@@ -163,6 +164,13 @@ public partial class OperatorPageViewModel : ObservableObject
                 _lastMeetingType = currentMeeting;
                 RefreshTalks();
             }
+
+            // Directly refresh the timer output VM so display-mode, clock
+            // format, and all visual settings update on the output window.
+            // This bypasses the OptionsChanged event subscription (which
+            // was unreliable) and ensures the refresh runs on the UI thread.
+            var timerOutputViewModel = CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default.GetService<TimerOutputViewModel>();
+            timerOutputViewModel?.RefreshSettings();
 
             // Apply AlwaysOnTop + FullScreenMode + MonitorId to the output window
             ApplyWindowStateOptionsLive();
@@ -324,6 +332,7 @@ public partial class OperatorPageViewModel : ObservableObject
     public bool IsNotManualMode => !IsManualMode;
     public bool IsAutoMode => _optionsService.OperatingMode == OperatingMode.Automatic;
     public bool IsFileBasedMode => _optionsService.OperatingMode == OperatingMode.ScheduleFile;
+    public bool ShowExportScheduleButton => _optionsService.GetOptions().ShowExportScheduleButton;
 
     // Circuit visit
     public bool IsCircuitVisit
