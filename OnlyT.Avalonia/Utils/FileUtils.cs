@@ -91,6 +91,13 @@ public static class FileUtils
         return Path.Combine(GetDocumentsFolder(), "talk_schedule.xml");
     }
 
+    public static string GetScheduleTemplatesFolder()
+    {
+        var folder = Path.Combine(GetDocumentsFolder(), "Schedules");
+        Directory.CreateDirectory(folder);
+        return folder;
+    }
+
     public static string GetTimingReportsFolder(string? identifier = null)
     {
         var folder = Path.Combine(GetDocumentsFolder(), "TimingReports", identifier ?? string.Empty);

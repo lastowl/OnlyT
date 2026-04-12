@@ -825,6 +825,30 @@ Shift - Increase 5m</value>
     <value>Min</value>
     <comment>Watermark/placeholder for the quick-set minutes input in manual mode</comment>
   </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Save</value>
+    <comment>Button to export current schedule as a reusable template file</comment>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Save current schedule as a reusable template</value>
+    <comment>Tooltip for the save-template button in file-based mode</comment>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Schedule file</value>
+    <comment>Label for the schedule template file selector in settings</comment>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Show export schedule button</value>
+    <comment>Checkbox in Settings > Misc to show/hide the schedule export icon on operator page</comment>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controls the analogue clock size. Only applies in horizontal layout with an analogue clock.</value>
+    <comment>Tooltip for the analogue clock width slider</comment>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Side-by-side clock layout (clock left, timer right)</value>
+    <comment>Checkbox in Timer Window section to switch between horizontal and vertical clock layouts</comment>
+  </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
     <value>+15 seconds</value>
     <comment>Context menu item for time adjustment</comment>

@@ -212,13 +212,23 @@ public class SimpleOptionsService : IOptionsService
 
             Log.Debug("Options saved successfully");
 
-            try
+            // Invoke each subscriber individually so one failing handler
+            // doesn't prevent subsequent handlers from running. Previously
+            // a single Invoke + catch swallowed the first exception and
+            // silently skipped all remaining subscribers.
+            if (OptionsChanged != null)
             {
-                OptionsChanged?.Invoke(this, EventArgs.Empty);
-            }
-            catch (Exception ex)
-            {
-                Log.Warning(ex, "OptionsChanged subscriber threw");
+                foreach (var handler in OptionsChanged.GetInvocationList())
+                {
+                    try
+                    {
+                        ((EventHandler)handler)(this, EventArgs.Empty);
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Warning(ex, "OptionsChanged subscriber threw");
+                    }
+                }
             }
         }
         catch (UnauthorizedAccessException ex)

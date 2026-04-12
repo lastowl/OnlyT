@@ -144,6 +144,9 @@ public partial class SettingsViewModel : ObservableObject
     private bool _generateTimingReports;
 
     [ObservableProperty]
+    private bool _showExportScheduleButton;
+
+    [ObservableProperty]
     private int _httpServerPort = 8096;
 
     [ObservableProperty]
@@ -196,7 +199,7 @@ public partial class SettingsViewModel : ObservableObject
     public OperatingMode[] OperatingModes { get; } = [OperatingMode.Manual, OperatingMode.Automatic, OperatingMode.ScheduleFile];
     public MidWeekOrWeekend[] MeetingTypes { get; } = [MidWeekOrWeekend.MidWeek, MidWeekOrWeekend.Weekend];
     public ClockMode[] ClockModes { get; } = [ClockMode.Digital, ClockMode.Analogue, ClockMode.AnalogueAndDigital];
-    public ClockHourFormatItem[] ClockHourFormats =>
+    public ClockHourFormatItem[] ClockHourFormats { get; } =
     [
         new ClockHourFormatItem(Strings.CLOCK_FORMAT_12, ClockHourFormat.Format12, "3:00"),
         new ClockHourFormatItem(Strings.CLOCK_FORMAT_12Z, ClockHourFormat.Format12LeadingZero, "03:00"),
@@ -218,6 +221,13 @@ public partial class SettingsViewModel : ObservableObject
     ];
 
     public bool IsAutomaticMode => OperatingMode == OperatingMode.Automatic;
+    public bool IsFileBasedMode => OperatingMode == OperatingMode.ScheduleFile;
+
+    [ObservableProperty]
+    private ObservableCollection<string> _availableScheduleFiles = [];
+
+    [ObservableProperty]
+    private string? _selectedScheduleFile;
 
     public string FirewallStatusDisplay => IsFirewallConfigured
         ? _localizationService?.GetString("STATUS_CONFIGURED") ?? "Configured"
@@ -227,9 +237,51 @@ public partial class SettingsViewModel : ObservableObject
         ? new SolidColorBrush(Color.Parse("#4CAF50"))  // Green
         : new SolidColorBrush(Color.Parse("#FF9800")); // Orange
 
+    public bool IsAnalogueSliderEnabled => FullScreenClockMode != ClockMode.Digital && HorizontalClockLayout;
+
+    [ObservableProperty]
+    private bool _horizontalClockLayout;
+
+    partial void OnFullScreenClockModeChanged(ClockMode value)
+    {
+        OnPropertyChanged(nameof(IsAnalogueSliderEnabled));
+        var timerOutputVm = CommunityToolkit.Mvvm.DependencyInjection.Ioc.Default
+            .GetService<TimerOutputViewModel>();
+        timerOutputVm?.RefreshClockMode(value);
+    }
+
+    partial void OnHorizontalClockLayoutChanged(bool value)
+    {
+        OnPropertyChanged(nameof(IsAnalogueSliderEnabled));
+    }
+
     partial void OnOperatingModeChanged(OperatingMode value)
     {
         OnPropertyChanged(nameof(IsAutomaticMode));
+        OnPropertyChanged(nameof(IsFileBasedMode));
+        if (IsFileBasedMode)
+        {
+            LoadScheduleFiles();
+        }
+    }
+
+    private void LoadScheduleFiles()
+    {
+        var files = OnlyT.Avalonia.Utils.ScheduleExporter.GetAvailableTemplates();
+        AvailableScheduleFiles.Clear();
+        foreach (var f in files)
+        {
+            AvailableScheduleFiles.Add(System.IO.Path.GetFileName(f));
+        }
+        var current = _optionsService.GetOptions().SelectedScheduleFile;
+        if (!string.IsNullOrEmpty(current) && AvailableScheduleFiles.Contains(current))
+        {
+            SelectedScheduleFile = current;
+        }
+        else if (AvailableScheduleFiles.Count > 0)
+        {
+            SelectedScheduleFile = AvailableScheduleFiles[0];
+        }
     }
 
     partial void OnIsFirewallConfiguredChanged(bool value)
@@ -265,6 +317,7 @@ public partial class SettingsViewModel : ObservableObject
         options.AutoBell = AutoBell;
         options.IsCircuitVisit = IsCircuitVisit;
         options.OperatingMode = OperatingMode;
+        options.SelectedScheduleFile = SelectedScheduleFile ?? string.Empty;
         options.MidWeekOrWeekend = MidWeekOrWeekend;
         options.ShowTimeOfDayUnderTimer = ShowTimeOfDayUnderTimer;
         options.ShowDigitalSeconds = ShowDigitalSeconds;
@@ -293,6 +346,8 @@ public partial class SettingsViewModel : ObservableObject
         options.WeekendIncludesFriday = WeekendIncludesFriday;
         options.OverrunNotifications = OverrunNotifications;
         options.GenerateTimingReports = GenerateTimingReports;
+        options.ShowExportScheduleButton = ShowExportScheduleButton;
+        options.HorizontalClockLayout = HorizontalClockLayout;
         options.HttpServerPort = HttpServerPort;
         options.MeetingStartTimesText = MeetingStartTimesText;
         options.CountdownDurationMins = CountdownDurationMins;
@@ -370,6 +425,10 @@ public partial class SettingsViewModel : ObservableObject
         AutoBell = options.AutoBell;
         IsCircuitVisit = options.IsCircuitVisit;
         OperatingMode = options.OperatingMode;
+        if (OperatingMode == OperatingMode.ScheduleFile)
+        {
+            LoadScheduleFiles();
+        }
         ShowTimeOfDayUnderTimer = options.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = options.ShowDigitalSeconds;
         ShowDurationSector = options.ShowDurationSector;
@@ -398,6 +457,8 @@ public partial class SettingsViewModel : ObservableObject
         WeekendIncludesFriday = options.WeekendIncludesFriday;
         OverrunNotifications = options.OverrunNotifications;
         GenerateTimingReports = options.GenerateTimingReports;
+        ShowExportScheduleButton = options.ShowExportScheduleButton;
+        HorizontalClockLayout = options.HorizontalClockLayout;
         HttpServerPort = options.HttpServerPort;
         MeetingStartTimesText = options.MeetingStartTimesText;
         CountdownDurationMins = options.CountdownDurationMins;

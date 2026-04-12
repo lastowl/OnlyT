@@ -16,13 +16,13 @@ internal static class TalkScheduleFileBased
 {
     private static readonly int StartId = 5000;
 
-    public static List<TalkScheduleItem> Read(bool autoBell)
+    public static List<TalkScheduleItem> Read(bool autoBell, string? selectedFile = null)
     {
         var result = new List<TalkScheduleItem>();
+        var path = ResolvePath(selectedFile);
 
-        if (Exists())
+        if (File.Exists(path))
         {
-            var path = GetFullPath();
             try
             {
                 var x = XDocument.Load(path);
@@ -62,20 +62,30 @@ internal static class TalkScheduleFileBased
         }
         else
         {
-            Log.Information("Talk schedule file not found: {Path}", GetFullPath());
+            Log.Information("Talk schedule file not found: {Path}", path);
         }
 
         return result;
     }
 
-    private static string GetFullPath()
+    /// <summary>
+    /// Resolves the schedule file path. If a selected template filename is
+    /// provided, it is looked up in the Schedules folder. Otherwise falls
+    /// back to the legacy talk_schedule.xml for backward compatibility.
+    /// </summary>
+    private static string ResolvePath(string? selectedFile)
     {
+        if (!string.IsNullOrEmpty(selectedFile))
+        {
+            var templatePath = System.IO.Path.Combine(
+                FileUtils.GetScheduleTemplatesFolder(), selectedFile);
+            if (File.Exists(templatePath))
+            {
+                return templatePath;
+            }
+            Log.Warning("Selected schedule template not found: {File}, falling back to default", selectedFile);
+        }
         return FileUtils.GetTalkSchedulePath();
-    }
-
-    private static bool Exists()
-    {
-        return File.Exists(GetFullPath());
     }
 
     private static bool? AttributeToNullableBool(XAttribute? attribute, bool? defaultValue)
