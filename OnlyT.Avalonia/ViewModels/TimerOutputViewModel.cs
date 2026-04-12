@@ -145,7 +145,8 @@ public partial class TimerOutputViewModel : ObservableObject
         _bellService = bellService;
         _timerService.TimerChangedEvent += OnTimerChanged;
         _timerService.TimerStartedEvent += OnTimerStarted;
-        _optionsService.OptionsChanged += (_, _) => RefreshSettings();
+        _optionsService.OptionsChanged += (_, _) =>
+            Dispatcher.UIThread.Post(RefreshSettings);
 
         // Pull initial values from options. RefreshSettings is the single
         // source of truth for option-derived state; it is also called whenever
@@ -201,6 +202,17 @@ public partial class TimerOutputViewModel : ObservableObject
         MousePointer = _optionsService.ShowMousePointerInTimerDisplay
             ? new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.Arrow)
             : new global::Avalonia.Input.Cursor(global::Avalonia.Input.StandardCursorType.None);
+
+        ApplyClockHourFormat(_optionsService.ClockHourFormat);
+    }
+
+    private void ApplyClockHourFormat(ClockHourFormat format)
+    {
+        DigitalTimeFormat24Hours = format is ClockHourFormat.Format24 or ClockHourFormat.Format24LeadingZero;
+        DigitalTimeFormatShowLeadingZero = format is ClockHourFormat.Format12LeadingZero
+            or ClockHourFormat.Format24LeadingZero
+            or ClockHourFormat.Format12LeadingZeroAMPM;
+        DigitalTimeFormatAMPM = format is ClockHourFormat.Format12AMPM or ClockHourFormat.Format12LeadingZeroAMPM;
     }
 
     /// <summary>

@@ -100,6 +100,13 @@
                             </ComboBox.ItemTemplate>
                         </ComboBox>
 
+                        <!-- Schedule file picker (visible in File-Based mode) -->
+                        <TextBlock Text="{loc:Localize SCHEDULE_FILE}" FontSize="12" Margin="0,8,0,4"
+                                   IsVisible="{Binding IsFileBasedMode}"/>
+                        <ComboBox ItemsSource="{Binding AvailableScheduleFiles}"
+                                  SelectedItem="{Binding SelectedScheduleFile}"
+                                  IsVisible="{Binding IsFileBasedMode}"/>
+
                         <TextBlock Text="{loc:Localize DIGITAL_CLOCK_FORMAT}" FontSize="12" Margin="0,0,0,4"/>
                         <ComboBox ItemsSource="{Binding ClockHourFormats}"
                                   SelectedItem="{Binding SelectedClockHourFormat}">
