@@ -15,6 +15,10 @@
         <PathGeometry x:Key="PlayIcon">M8,5.14V19.14L19,12.14L8,5.14Z</PathGeometry>
         <!-- Stop icon (square) -->
         <PathGeometry x:Key="StopIcon">M6,6H18V18H6V6Z</PathGeometry>
+        <!-- Pause icon (two vertical bars) -->
+        <PathGeometry x:Key="PauseIcon">M6,19H10V5H6M14,5V19H18V5</PathGeometry>
+        <!-- Skip/Next icon (right-pointing triangle + bar) -->
+        <PathGeometry x:Key="SkipNextIcon">M16,18H18V6H16M6,18L14.5,12L6,6V18Z</PathGeometry>
         <!-- Plus icon -->
         <PathGeometry x:Key="PlusIcon">M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z</PathGeometry>
         <!-- Minus icon (with bounds matching plus icon for proper centering) -->
@@ -113,7 +117,7 @@
             <Grid Grid.Row="0" IsVisible="{Binding NotInShrinkMode}">
                 <!-- ComboBox for non-manual mode -->
                 <ComboBox FontSize="14"
-                          IsEnabled="{Binding IsNotRunning}"
+                          IsEnabled="{Binding ShowStartButton}"
                           ItemsSource="{Binding Talks}"
                           SelectedItem="{Binding SelectedTalk}"
                           MaxDropDownHeight="600"
@@ -146,12 +150,28 @@
                     </ComboBox.ItemTemplate>
                 </ComboBox>
 
-                <!-- Manual Mode Label -->
-                <TextBlock Margin="0,-7,0,7"
-                           VerticalAlignment="Center"
-                           FontSize="14"
-                           Text="{loc:Localize MANUAL_MODE}"
-                           IsVisible="{Binding IsManualMode}" />
+                <!-- Manual Mode: quick-set input. Type minutes and press Enter
+                     to set the duration and start the timer immediately. -->
+                <Grid IsVisible="{Binding IsManualMode}"
+                      ColumnDefinitions="Auto,*"
+                      VerticalAlignment="Center"
+                      Margin="0,-7,0,7">
+                    <TextBlock Grid.Column="0"
+                               VerticalAlignment="Center"
+                               FontSize="14"
+                               Text="{loc:Localize MANUAL_MODE}"
+                               Margin="0,0,8,0"/>
+                    <NumericUpDown Grid.Column="1"
+                                   Value="{Binding QuickSetMinutes}"
+                                   Minimum="1"
+                                   Maximum="99"
+                                   FormatString="0"
+                                   Watermark="{loc:Localize QUICK_SET_WATERMARK}"
+                                   FontSize="14"
+                                   Height="28"
+                                   IsEnabled="{Binding ShowStartButton}"
+                                   Name="QuickSetInput"/>
+                </Grid>
             </Grid>
 
             <!-- Row 1: Timer Display Area -->
@@ -242,7 +262,7 @@
                                 HorizontalAlignment="Right"
                                 VerticalAlignment="Bottom"
                                 Command="{Binding ToggleCountUpCommand}"
-                                IsEnabled="{Binding IsNotRunning}"
+                                IsEnabled="{Binding ShowStartButton}"
                                 Background="Transparent"
                                 BorderThickness="0"
                                 ToolTip.Tip="{Binding CountUpOrDownTooltip}"
@@ -294,25 +314,60 @@
                 </StackPanel>
             </Grid>
 
-            <!-- Row 2: Start Button (visible when not running) -->
-            <Button Grid.Row="2"
-                    Grid.RowSpan="{Binding StartStopButtonRowSpan}"
-                    Height="{Binding StartStopButtonHeight}"
-                    Command="{Binding StartCommand}"
-                    Background="#424242"
-                    IsVisible="{Binding IsNotRunning}">
-                <Path Data="{StaticResource PlayIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
-            </Button>
+            <!-- Row 2: Start + Skip (visible when fully stopped) -->
+            <Grid Grid.Row="2"
+                  Grid.RowSpan="{Binding StartStopButtonRowSpan}"
+                  ColumnDefinitions="*,Auto"
+                  IsVisible="{Binding ShowStartButton}">
+                <Button Grid.Column="0"
+                        Height="{Binding StartStopButtonHeight}"
+                        Command="{Binding StartCommand}"
+                        Background="#424242">
+                    <Path Data="{StaticResource PlayIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+                </Button>
+                <Button Grid.Column="1"
+                        Width="50"
+                        Height="{Binding StartStopButtonHeight}"
+                        Margin="2,0,0,0"
+                        Command="{Binding SkipTalkCommand}"
+                        ToolTip.Tip="{loc:Localize TIP_SKIP_TALK}"
+                        Background="#616161">
+                    <Path Data="{StaticResource SkipNextIcon}" Fill="White" Stretch="Uniform" Width="24" Height="24"/>
+                </Button>
+            </Grid>
 
-            <!-- Row 2: Stop Button (visible when running) -->
-            <Button Grid.Row="2"
-                    Grid.RowSpan="{Binding StartStopButtonRowSpan}"
-                    Height="{Binding StartStopButtonHeight}"
-                    Command="{Binding StopCommand}"
-                    Background="#7B1FA2"
-                    IsVisible="{Binding IsRunning}">
-                <Path Data="{StaticResource StopIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
-            </Button>
+            <!-- Row 2: Pause/Resume + Stop (visible when running or paused) -->
+            <Grid Grid.Row="2"
+                  Grid.RowSpan="{Binding StartStopButtonRowSpan}"
+                  ColumnDefinitions="*,*"
+                  IsVisible="{Binding ShowStopButton}">
+                <!-- Pause button (visible while running) -->
+                <Button Grid.Column="0"
+                        Height="{Binding StartStopButtonHeight}"
+                        Margin="0,0,2,0"
+                        Command="{Binding PauseCommand}"
+                        Background="#FF8F00"
+                        IsVisible="{Binding ShowPauseButton}">
+                    <Path Data="{StaticResource PauseIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+                </Button>
+                <!-- Resume button (visible while paused) -->
+                <Button Grid.Column="0"
+                        Height="{Binding StartStopButtonHeight}"
+                        Margin="0,0,2,0"
+                        Command="{Binding ResumeCommand}"
+                        Background="#2E7D32"
+                        IsVisible="{Binding ShowResumeButton}">
+                    <Path Data="{StaticResource PlayIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+                </Button>
+                <!-- Stop button -->
+                <Button Grid.Column="1"
+                        Height="{Binding StartStopButtonHeight}"
+                        Margin="2,0,0,0"
+                        Command="{Binding StopCommand}"
+                        Background="#7B1FA2">
+                    <Path Data="{StaticResource StopIcon}" Fill="White" Stretch="Uniform" Width="36" Height="36"/>
+                </Button>
+            </Grid>
 
             <!-- Row 3: Bottom Controls -->
             <Grid Grid.Row="3"
@@ -325,7 +380,7 @@
 
                 <!-- Circuit Visit Toggle (left side) -->
                 <Grid Grid.Column="0"
-                      IsEnabled="{Binding IsNotRunning}"
+                      IsEnabled="{Binding ShowStartButton}"
                       IsVisible="{Binding ShouldShowCircuitVisitToggle}"
                       MaxWidth="180">
                     <Grid.ColumnDefinitions>
