@@ -393,6 +393,13 @@ public class AppOptions
     public bool ClassicMode { get; set; } = false;
 
     /// <summary>
+    /// Filename (not full path) of the selected schedule template within
+    /// the Schedules folder. When empty, the legacy talk_schedule.xml is
+    /// used for backward compatibility.
+    /// </summary>
+    public string SelectedScheduleFile { get; set; } = string.Empty;
+
+    /// <summary>
     /// Adaptive timer mode for midweek meetings (default: None)
     /// </summary>
     public AdaptiveMode MidWeekAdaptiveMode { get; set; } = AdaptiveMode.None;

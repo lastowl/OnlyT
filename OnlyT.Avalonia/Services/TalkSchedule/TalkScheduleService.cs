@@ -25,8 +25,9 @@ internal sealed class TalkScheduleService : ITalkScheduleService
 
     public void Reset()
     {
+        var selectedFile = _optionsService.GetOptions().SelectedScheduleFile;
         _fileBasedSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() =>
-            TalkScheduleFileBased.Read(_optionsService.AutoBell));
+            TalkScheduleFileBased.Read(_optionsService.AutoBell, selectedFile));
         _autoSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() =>
             TalkScheduleAuto.Read(_optionsService));
         _manualSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() =>
