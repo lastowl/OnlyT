@@ -126,6 +126,9 @@ public partial class OperatorPageViewModel : ObservableObject
     /// user saves the Settings window). Refreshes anything the operator page
     /// derives from options so the UI updates live without a restart.
     /// </summary>
+    private OperatingMode _lastOperatingMode;
+    private MidWeekOrWeekend _lastMeetingType;
+
     private void OnOptionsChangedExternally()
     {
         Dispatcher.UIThread.Post(() =>
@@ -146,7 +149,22 @@ public partial class OperatorPageViewModel : ObservableObject
             OnPropertyChanged(nameof(AllowCountUpDownToggle));
             OnPropertyChanged(nameof(ShowUpDownButton));
 
-            // Apply AlwaysOnTop + FullScreenMode to the output window live
+            // If OperatingMode or MidWeekOrWeekend changed, the entire talk
+            // schedule needs rebuilding (different mode = different talk list).
+            // RefreshTalks resets the schedule service, reloads talks, and
+            // fires property-changed for IsManualMode / IsAutoMode etc.
+            // Adaptive modes don't need this — they're read on-demand by
+            // AdaptiveTimerService.CalculateAdaptedDuration each tick.
+            var currentMode = _optionsService.OperatingMode;
+            var currentMeeting = _optionsService.MidWeekOrWeekend;
+            if (currentMode != _lastOperatingMode || currentMeeting != _lastMeetingType)
+            {
+                _lastOperatingMode = currentMode;
+                _lastMeetingType = currentMeeting;
+                RefreshTalks();
+            }
+
+            // Apply AlwaysOnTop + FullScreenMode + MonitorId to the output window
             ApplyWindowStateOptionsLive();
         });
     }
@@ -408,6 +426,8 @@ public partial class OperatorPageViewModel : ObservableObject
 
         BellEnabled = _optionsService.IsBellEnabled && _optionsService.AutoBell;
         CountUp = _optionsService.GetOptions().CountUp;
+        _lastOperatingMode = _optionsService.OperatingMode;
+        _lastMeetingType = _optionsService.MidWeekOrWeekend;
 
         // Initialize localized status text
         StatusText = _localizationService.GetString("STATUS_READY") ?? "Ready";
