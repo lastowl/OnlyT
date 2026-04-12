@@ -1,16 +1,22 @@
 # OnlyT (Cross-Platform Fork)
 
-> **This is a fork of [OnlyT by Antony Corbett](https://github.com/AntonyCorbett/OnlyT)**. The original project is an excellent Windows-only meeting timer. This fork extends it with cross-platform support and removes some of the restrictions present in the original version.
+> **This is a fork of [OnlyT by Antony Corbett](https://github.com/AntonyCorbett/OnlyT)**. The original project is an excellent Windows-only meeting timer. This fork extends it with cross-platform support, live settings, and removes some of the restrictions present in the original version.
 
 A cross-platform meeting timer built with C# and Avalonia UI (with the original WPF version still included). Features both analogue and digital clock displays. Designed for use in Kingdom Halls where the meeting format is predefined, but includes "manual" and "file-based" modes that can be used to configure timers as required for other settings.
 
 ### Key Differences from Original
 * **Cross-platform support** - Runs on Windows, macOS, and Linux
+* **All settings apply live** - Every setting takes effect immediately without restarting the application
+* **Live language switching** - Language can be changed without restarting; 140+ languages supported
+* **Full dark mode** - Entire application UI themes dark, not just title bars
+* **Classic UI mode** - Optional toggle to match the original WPF operator page layout
 * **Configurable countdown duration** - Pre-meeting countdown is no longer fixed at 5 minutes
-* **Countdown on web clock** - Pre-meeting countdown can now be displayed on the web clock
-* **Live language switching** - Language can be changed without restarting the application
-* **Expanded translations** - Support for 140+ languages
+* **Countdown on web clock** - Pre-meeting countdown can be displayed on the web clock
+* **Stream Deck plugin** - Control timers and bell from an Elgato Stream Deck
+* **Side-by-side install** - Can be installed alongside the original WPF OnlyT without conflict (separate install directory, config file, and mutex)
 * **Maintained separately** - This fork may diverge from the upstream project
+
+> **Note:** The screenshots below show the original WPF version. The Avalonia version uses Material Design theming and has a slightly different visual style.
 
 ![Main Window](http://cv8.org.uk/soundbox/OnlyT/Images/MainWindow2.png)
 
@@ -25,30 +31,36 @@ A cross-platform meeting timer built with C# and Avalonia UI (with the original 
 * Internet connection (for "Automatic" Operating Mode only)
 
 **Cross-Platform (Avalonia Version):**
-* Windows 10 or later / macOS 10.15 or later / Linux with GTK3
+* Windows 10 or later / macOS 10.14 or later / Linux with X11 or Wayland
+* .NET 10.0 runtime (included in self-contained builds)
 * 2GB RAM
 * 30MB Hard disk space
 * Internet connection (for "Automatic" Operating Mode only)
 
 ### Cross-Platform Support
 
-OnlyT now includes a cross-platform version built with Avalonia UI that runs on **Windows, macOS, and Linux**!
+OnlyT includes a cross-platform version built with Avalonia UI that runs on **Windows, macOS, and Linux**.
 
-The original Windows WPF version (`OnlyT` project) remains unchanged and fully supported. The cross-platform version (`OnlyT.Avalonia` project) provides the same functionality across all platforms while sharing most of the business logic.
+The original Windows WPF version (`OnlyT` project) remains included. The cross-platform version (`OnlyT.Avalonia` project) provides the same core functionality across all platforms while adding features not present in the WPF version (live settings, dark mode, classic UI toggle, Stream Deck plugin).
 
 **Building the Cross-Platform Version:**
 
 ```bash
-# On Linux/macOS
-./build-cross-platform.sh
+# Full release build (all platforms)
+./Installer/build-all.sh
 
-# On Windows
-build-cross-platform.cmd
+# macOS only (signed + notarized universal binary)
+./Installer/macOS/build-macos.sh
+
+# Or build directly with dotnet
+dotnet build OnlyT.Avalonia/OnlyT.Avalonia.csproj
 ```
 
-This will build versions for Windows, macOS (both Intel and Apple Silicon), and Linux.
+See [CLAUDE.md](CLAUDE.md) for detailed build and release instructions.
 
-For more information about the cross-platform version, see [OnlyT.Avalonia/README.md](OnlyT.Avalonia/README.md).
+### Configuration
+
+The Avalonia version stores its settings in `options.avalonia.json` (separate from the WPF `options.json`). On first launch, if an existing WPF options file is found, settings are automatically migrated. Unknown fields from either version are safely ignored.
 
 ### Download
 
