@@ -196,7 +196,7 @@ public partial class SettingsViewModel : ObservableObject
     public OperatingMode[] OperatingModes { get; } = [OperatingMode.Manual, OperatingMode.Automatic, OperatingMode.ScheduleFile];
     public MidWeekOrWeekend[] MeetingTypes { get; } = [MidWeekOrWeekend.MidWeek, MidWeekOrWeekend.Weekend];
     public ClockMode[] ClockModes { get; } = [ClockMode.Digital, ClockMode.Analogue, ClockMode.AnalogueAndDigital];
-    public ClockHourFormatItem[] ClockHourFormats =>
+    public ClockHourFormatItem[] ClockHourFormats { get; } =
     [
         new ClockHourFormatItem(Strings.CLOCK_FORMAT_12, ClockHourFormat.Format12, "3:00"),
         new ClockHourFormatItem(Strings.CLOCK_FORMAT_12Z, ClockHourFormat.Format12LeadingZero, "03:00"),

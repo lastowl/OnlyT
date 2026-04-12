@@ -191,6 +191,9 @@ public partial class TimerOutputViewModel : ObservableObject
     {
         IsClockFlat = _optionsService.IsFlatClockStyle;
         ApplyClockMode(_optionsService.FullScreenClockMode);
+        OnPropertyChanged(nameof(ShowBothClocks));
+        OnPropertyChanged(nameof(ShowDigitalClockOnly));
+        OnPropertyChanged(nameof(ShowAnalogueClockOnly));
         ShowTimeOfDay = _optionsService.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = _optionsService.ShowDigitalSeconds;
         ShowDurationSector = _optionsService.ShowDurationSector;
