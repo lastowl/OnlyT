@@ -180,6 +180,18 @@ public interface IOptionsService
     bool PersistStudentTime { get; }
 
     /// <summary>
+    /// Whether to show an animated countdown bar while the final timer value
+    /// is persisting on the output display after a talk stops.
+    /// </summary>
+    bool ShowPersistCountdown { get; }
+
+    /// <summary>
+    /// How long, in seconds, the final timer value persists on the output
+    /// display after a talk stops.
+    /// </summary>
+    int PersistDurationSecs { get; }
+
+    /// <summary>
     /// Configured meeting start times
     /// </summary>
     MeetingStartTimes MeetingStartTimes { get; }
@@ -434,6 +446,18 @@ public class AppOptions
     public bool PersistStudentTime { get; set; } = true;
 
     /// <summary>
+    /// Whether to show an animated countdown bar while the final timer value
+    /// is persisting on the output display after a talk stops (default: true).
+    /// </summary>
+    public bool ShowPersistCountdown { get; set; } = true;
+
+    /// <summary>
+    /// How long, in seconds, the final timer value persists on the output
+    /// display after a talk stops (default: 90).
+    /// </summary>
+    public int PersistDurationSecs { get; set; } = 90;
+
+    /// <summary>
     /// Configured meeting start times (as text, one per line)
     /// </summary>
     public string MeetingStartTimesText { get; set; } = string.Empty;
@@ -507,6 +531,7 @@ public class AppOptions
         AnalogueClockWidthPercent = Math.Clamp(AnalogueClockWidthPercent, 0, 100);
         CountdownDurationMins = Math.Clamp(CountdownDurationMins, 1, 60);
         HttpServerPort = Math.Clamp(HttpServerPort, 1, 65535);
+        PersistDurationSecs = Math.Clamp(PersistDurationSecs, 5, 600);
 
         if (string.IsNullOrEmpty(Culture))
         {

@@ -815,6 +815,9 @@ public partial class OperatorPageViewModel : ObservableObject
             var targetSecs = (int)SelectedTalk.ActualDuration.TotalSeconds;
             var talkId = SelectedTalk.Id;
             var countUp = CountUp;
+            // Student talks keep their final value on the output display after
+            // stop, but only when the user has the persist option enabled.
+            var persistFinalValue = SelectedTalk.PersistFinalTimerValue && _optionsService.PersistStudentTime;
 
             Task.Run(async () =>
             {
@@ -824,7 +827,7 @@ public partial class OperatorPageViewModel : ObservableObject
                     await Task.Delay(1000 - ms);
                 }
 
-                _timerService.Start(targetSecs, talkId, countUp);
+                _timerService.Start(targetSecs, talkId, countUp, persistFinalValue);
             });
 
             Log.Information("Started timer for talk: {TalkName}", SelectedTalk.Name);
@@ -1579,6 +1582,10 @@ public partial class OperatorPageViewModel : ObservableObject
         if (sender is OnlyT.Avalonia.Views.SettingsWindow window)
         {
             window.Closed -= OnSettingsWindowClosed;
+            if (window.DataContext is SettingsViewModel vm)
+            {
+                vm.Dispose();
+            }
             if (ReferenceEquals(window, _currentSettingsWindow))
             {
                 _currentSettingsWindow = null;

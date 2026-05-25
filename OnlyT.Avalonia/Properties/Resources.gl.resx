@@ -158,15 +158,15 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Duración adaptada</value>
+    <value>Tempo adaptado</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Duración modificada</value>
+    <value>Tempo modificado</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Duración orixinal</value>
+    <value>Tempo orixinal</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -213,7 +213,7 @@
     <value>Estudo bíblico da congregación</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Xoias espirituais</value>
+    <value>(TB) Xoias espirituais</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>Vivir - Parte 1</value>
@@ -231,7 +231,7 @@
     <value>Charla pública</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Lectura da Biblia</value>
+    <value>(TB) Lectura da Biblia</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
     <value>Charla de servizo</value>
@@ -254,7 +254,7 @@
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Ningún</value>
+    <value>Ningunha</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
     <value>A configuración non está dispoñible mentres o temporizador está en funcionamento!</value>
@@ -302,7 +302,7 @@
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Código de acceso</value>
+    <value>Contrasinal</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
@@ -355,7 +355,7 @@
     <value>Modo de reloxo de pantalla completa</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>Enderezo IP</value>
+    <value>IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
@@ -490,7 +490,7 @@ Maiús - Aumentar 5 m</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Mostrar marco</value>
+    <value>Mostrar o marco</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -550,7 +550,7 @@ Maiús - Aumentar 5 m</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Non se puido abrir o porto (ver rexistro)!</value>
+    <value>Non se puido abrir o porto (ver rexistro)</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
@@ -582,7 +582,7 @@ Maiús - Aumentar 5 m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Erro</value>
+    <value>Error</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">

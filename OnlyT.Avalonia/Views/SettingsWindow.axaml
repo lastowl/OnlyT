@@ -166,6 +166,24 @@
                         <CheckBox Content="{loc:Localize PERSIST_STUDENT_TIME}"
                                   IsChecked="{Binding PersistStudentTime}"/>
 
+                        <CheckBox Content="{loc:Localize PERSIST_COUNTDOWN_BAR}"
+                                  IsChecked="{Binding ShowPersistCountdown}"
+                                  IsEnabled="{Binding PersistStudentTime}"
+                                  Margin="20,0,0,0"/>
+
+                        <StackPanel Orientation="Horizontal"
+                                    IsEnabled="{Binding PersistStudentTime}"
+                                    Margin="20,4,0,0">
+                            <TextBlock Text="{loc:Localize PERSIST_DURATION}"
+                                       VerticalAlignment="Center"
+                                       FontSize="12"
+                                       Margin="0,0,8,0"/>
+                            <NumericUpDown Value="{Binding PersistDurationSecs}"
+                                           Minimum="5" Maximum="600"
+                                           Increment="5"
+                                           Width="140"/>
+                        </StackPanel>
+
                         <CheckBox Content="{loc:Localize WEEKEND_INCLUDES_FRIDAY}"
                                   IsChecked="{Binding WeekendIncludesFriday}"/>
                     </StackPanel>

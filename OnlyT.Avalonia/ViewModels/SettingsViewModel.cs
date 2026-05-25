@@ -21,8 +21,10 @@ namespace OnlyT.Avalonia.ViewModels;
 /// <summary>
 /// Settings window view model
 /// </summary>
-public partial class SettingsViewModel : ObservableObject
+public partial class SettingsViewModel : ObservableObject, System.IDisposable
 {
+    private System.IO.FileSystemWatcher? _scheduleFolderWatcher;
+
     /// <summary>
     /// Raised after a successful Save so the host window can close itself.
     /// Keeps the view model view-agnostic while still letting the window
@@ -118,6 +120,12 @@ public partial class SettingsViewModel : ObservableObject
 
     [ObservableProperty]
     private bool _persistStudentTime;
+
+    [ObservableProperty]
+    private bool _showPersistCountdown;
+
+    [ObservableProperty]
+    private int _persistDurationSecs = 90;
 
     [ObservableProperty]
     private bool _shrinkOnMinimise;
@@ -262,19 +270,32 @@ public partial class SettingsViewModel : ObservableObject
         if (IsFileBasedMode)
         {
             LoadScheduleFiles();
+            StartScheduleFolderWatcher();
+        }
+        else
+        {
+            StopScheduleFolderWatcher();
         }
     }
 
     private void LoadScheduleFiles()
     {
+        // Preserve the current in-UI selection across a refresh, falling back to
+        // the saved option and then the first available file.
+        var previous = SelectedScheduleFile;
         var files = OnlyT.Avalonia.Utils.ScheduleExporter.GetAvailableTemplates();
         AvailableScheduleFiles.Clear();
         foreach (var f in files)
         {
             AvailableScheduleFiles.Add(System.IO.Path.GetFileName(f));
         }
+
         var current = _optionsService.GetOptions().SelectedScheduleFile;
-        if (!string.IsNullOrEmpty(current) && AvailableScheduleFiles.Contains(current))
+        if (!string.IsNullOrEmpty(previous) && AvailableScheduleFiles.Contains(previous))
+        {
+            SelectedScheduleFile = previous;
+        }
+        else if (!string.IsNullOrEmpty(current) && AvailableScheduleFiles.Contains(current))
         {
             SelectedScheduleFile = current;
         }
@@ -282,6 +303,74 @@ public partial class SettingsViewModel : ObservableObject
         {
             SelectedScheduleFile = AvailableScheduleFiles[0];
         }
+    }
+
+    private void StartScheduleFolderWatcher()
+    {
+        if (_scheduleFolderWatcher != null)
+        {
+            return;
+        }
+
+        var folder = FileUtils.GetScheduleTemplatesFolder();
+        if (!System.IO.Directory.Exists(folder))
+        {
+            return;
+        }
+
+        try
+        {
+            var watcher = new System.IO.FileSystemWatcher(folder, "*.xml")
+            {
+                NotifyFilter = System.IO.NotifyFilters.FileName | System.IO.NotifyFilters.LastWrite,
+                IncludeSubdirectories = false,
+                EnableRaisingEvents = true,
+            };
+            watcher.Created += OnScheduleFolderChanged;
+            watcher.Deleted += OnScheduleFolderChanged;
+            watcher.Renamed += OnScheduleFolderChanged;
+            watcher.Changed += OnScheduleFolderChanged;
+            _scheduleFolderWatcher = watcher;
+        }
+        catch (System.Exception ex)
+        {
+            Serilog.Log.Warning(ex, "Failed to start schedule folder watcher for {Folder}", folder);
+        }
+    }
+
+    private void StopScheduleFolderWatcher()
+    {
+        if (_scheduleFolderWatcher == null)
+        {
+            return;
+        }
+
+        _scheduleFolderWatcher.EnableRaisingEvents = false;
+        _scheduleFolderWatcher.Created -= OnScheduleFolderChanged;
+        _scheduleFolderWatcher.Deleted -= OnScheduleFolderChanged;
+        _scheduleFolderWatcher.Renamed -= OnScheduleFolderChanged;
+        _scheduleFolderWatcher.Changed -= OnScheduleFolderChanged;
+        _scheduleFolderWatcher.Dispose();
+        _scheduleFolderWatcher = null;
+    }
+
+    private void OnScheduleFolderChanged(object sender, System.IO.FileSystemEventArgs e)
+    {
+        // Watcher events fire on a background thread; marshal to the UI thread
+        // before touching the observable collection bound to the ComboBox.
+        global::Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+        {
+            if (IsFileBasedMode)
+            {
+                LoadScheduleFiles();
+            }
+        });
+    }
+
+    public void Dispose()
+    {
+        StopScheduleFolderWatcher();
+        global::System.GC.SuppressFinalize(this);
     }
 
     partial void OnIsFirewallConfiguredChanged(bool value)
@@ -305,6 +394,11 @@ public partial class SettingsViewModel : ObservableObject
         LoadLanguages();
         GenerateQRCode();
         LoadFirewallStatus();
+
+        if (IsFileBasedMode)
+        {
+            StartScheduleFolderWatcher();
+        }
     }
 
     [RelayCommand]
@@ -338,6 +432,8 @@ public partial class SettingsViewModel : ObservableObject
         options.ShowBackgroundOnTimer = ShowBackgroundOnTimer;
         options.IsCountdownWindowTransparent = IsCountdownWindowTransparent;
         options.PersistStudentTime = PersistStudentTime;
+        options.ShowPersistCountdown = ShowPersistCountdown;
+        options.PersistDurationSecs = PersistDurationSecs;
         options.ShrinkOnMinimise = ShrinkOnMinimise;
         options.IsApiEnabled = IsApiEnabled;
         options.ShowCircuitVisitToggle = ShowCircuitVisitToggle;
@@ -449,6 +545,8 @@ public partial class SettingsViewModel : ObservableObject
         ShowBackgroundOnTimer = options.ShowBackgroundOnTimer;
         IsCountdownWindowTransparent = options.IsCountdownWindowTransparent;
         PersistStudentTime = options.PersistStudentTime;
+        ShowPersistCountdown = options.ShowPersistCountdown;
+        PersistDurationSecs = options.PersistDurationSecs;
         ShrinkOnMinimise = options.ShrinkOnMinimise;
         IsApiEnabled = options.IsApiEnabled;
         ShowCircuitVisitToggle = options.ShowCircuitVisitToggle;

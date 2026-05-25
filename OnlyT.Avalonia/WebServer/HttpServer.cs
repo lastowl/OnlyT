@@ -473,10 +473,17 @@ public sealed class HttpServer : IHttpServer
     private void HandleDataRequest(HttpListenerRequest request, HttpListenerResponse response)
     {
         AddCorsHeaders(response);
+        WriteJsonResponse(response, BuildClockData(DateTime.Now));
+    }
 
-        // Return timer data for web clock display
+    /// <summary>
+    /// Builds the web-clock data payload (timer state + meeting-start countdown)
+    /// for the given moment. Extracted from the request handler so the countdown
+    /// window logic can be unit tested with mocked services.
+    /// </summary>
+    internal ClockData BuildClockData(DateTime now)
+    {
         var status = _timerService.GetStatus();
-        var now = DateTime.Now;
 
         // Calculate countdown to meeting start if timer is not running
         int? countdownSecs = null;
@@ -500,7 +507,7 @@ public sealed class HttpServer : IHttpServer
             }
         }
 
-        var data = new
+        return new ClockData
         {
             time = now.ToString("HH:mm:ss"),
             isRunning = status.IsRunning,
@@ -513,11 +520,24 @@ public sealed class HttpServer : IHttpServer
             countdownSecs = countdownSecs,
             countdownDurationMins = countdownDurationMins
         };
-
-        WriteJsonResponse(response, data);
     }
 
-    private TimersResponseData GetTimersData()
+    /// <summary>
+    /// Payload returned by the /data/ endpoint for the web clock.
+    /// </summary>
+    internal sealed class ClockData
+    {
+        public string time { get; set; } = string.Empty;
+        public bool isRunning { get; set; }
+        public int remainingSecs { get; set; }
+        public int targetSecs { get; set; }
+        public int? talkId { get; set; }
+        public bool showCountdown { get; set; }
+        public int? countdownSecs { get; set; }
+        public int countdownDurationMins { get; set; }
+    }
+
+    internal TimersResponseData GetTimersData()
     {
         var result = new TimersResponseData();
         var serviceStatus = _timerService.GetStatus();
@@ -566,7 +586,7 @@ public sealed class HttpServer : IHttpServer
         return result;
     }
 
-    private TimerStatus GetCurrentTimerStatus()
+    internal TimerStatus GetCurrentTimerStatus()
     {
         var serviceStatus = _timerService.GetStatus();
         var currentTalk = serviceStatus.TalkId.HasValue
@@ -664,10 +684,15 @@ public sealed class HttpServer : IHttpServer
     <div id=""countdown"" class=""countdown-active"">--:--</div>
     <div id=""timer"" class=""idle"">00:00</div>
     <script>
+        var showClockSeconds = __SHOW_CLOCK_SECONDS__;
         function updateClock() {
             var now = new Date();
-            document.getElementById('clock').textContent =
-                now.toTimeString().split(' ')[0];
+            var t = now.toTimeString().split(' ')[0];
+            if (!showClockSeconds) {
+                // Trim the ':SS' portion, leaving HH:MM
+                t = t.substring(0, 5);
+            }
+            document.getElementById('clock').textContent = t;
         }
         function formatTime(totalSecs) {
             var hours = Math.floor(totalSecs / 3600);
@@ -731,6 +756,11 @@ public sealed class HttpServer : IHttpServer
     </script>
 </body>
 </html>";
+
+        // Respect the same 'show seconds' option used by the desktop clock.
+        html = html.Replace(
+            "__SHOW_CLOCK_SECONDS__",
+            _optionsService.ShowDigitalSeconds ? "true" : "false");
 
         WriteHtmlResponse(response, html);
     }

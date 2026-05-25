@@ -22,11 +22,14 @@ public partial class TimerOutputViewModel : ObservableObject
     private readonly IBellService? _bellService;
     private readonly DispatcherTimer _clockTimer;
     private readonly DispatcherTimer _flashTimer;
+    private readonly DispatcherTimer _persistTimer;
     private int _targetSecs;
     private int _closingSecs;
     private double _startAngle;
     private bool _hasPlayedOvertimeBell;
     private bool _isInOvertime;
+    private DateTime _persistStartUtc;
+    private int _persistDurationSecs;
 
     [ObservableProperty]
     private string _timeDisplay = "00:00";
@@ -101,6 +104,15 @@ public partial class TimerOutputViewModel : ObservableObject
     /// </summary>
     public bool IsTimeOfDayVisible => ShowTimeOfDay && !IsShowingClock;
 
+    // Whether the animated "persist countdown" bar is currently shown — i.e.
+    // a student talk has stopped and its final value is being held on screen.
+    [ObservableProperty]
+    private bool _showPersistBar;
+
+    // Fraction (1.0 -> 0.0) of the persist period remaining; drives the bar.
+    [ObservableProperty]
+    private double _persistBarFraction = 1.0;
+
     [ObservableProperty]
     private bool _showDigitalSeconds;
 
@@ -161,6 +173,14 @@ public partial class TimerOutputViewModel : ObservableObject
             Interval = TimeSpan.FromMilliseconds(500)
         };
         _flashTimer.Tick += OnFlashTick;
+
+        // Set up persist timer: drives the post-stop countdown bar and reverts
+        // the display to the wall clock once the persist period elapses.
+        _persistTimer = new DispatcherTimer
+        {
+            Interval = TimeSpan.FromMilliseconds(50)
+        };
+        _persistTimer.Tick += OnPersistTick;
 
         // Show clock initially
         UpdateClockDisplay();
@@ -304,6 +324,7 @@ public partial class TimerOutputViewModel : ObservableObject
             IsShowingClock = false;
             _hasPlayedOvertimeBell = false;
             _isInOvertime = false;
+            StopPersist();
             StopFlashing();
 
             // Show the correct starting value immediately so the output
@@ -321,7 +342,16 @@ public partial class TimerOutputViewModel : ObservableObject
         {
             if (!e.IsRunning)
             {
+                // A student talk that stopped keeps its final value on screen
+                // for a configurable period before reverting to the clock.
+                if (e.PersistFinalTimerValue && _optionsService.PersistStudentTime)
+                {
+                    StartPersist();
+                    return;
+                }
+
                 // Timer stopped, show clock
+                StopPersist();
                 IsShowingClock = true;
                 _isInOvertime = false;
                 DurationSector = null;
@@ -331,6 +361,7 @@ public partial class TimerOutputViewModel : ObservableObject
             }
 
             // Timer is running
+            StopPersist();
             IsShowingClock = false;
             _isCountingUp = e.IsCountingUp;
             var remaining = e.RemainingSecs;
@@ -483,5 +514,66 @@ public partial class TimerOutputViewModel : ObservableObject
         _flashTimer.Stop();
         IsFlashing = false;
         FlashOpacity = 1.0;
+    }
+
+    /// <summary>
+    /// Begins persisting the final timer value on the output display. The
+    /// current <see cref="TimeDisplay"/> (the value at stop) is intentionally
+    /// left untouched; we simply stop the wall clock from overwriting it and,
+    /// if enabled, show an animated bar counting down the persist period.
+    /// </summary>
+    private void StartPersist()
+    {
+        _isInOvertime = false;
+        StopFlashing();
+        DurationSector = null;
+
+        // Keep the final value visible: IsShowingClock = false stops OnClockTick
+        // from replacing TimeDisplay with the wall clock.
+        IsShowingClock = false;
+
+        _persistDurationSecs = Math.Max(1, _optionsService.PersistDurationSecs);
+        _persistStartUtc = DateTime.UtcNow;
+
+        if (_optionsService.ShowPersistCountdown)
+        {
+            PersistBarFraction = 1.0;
+            ShowPersistBar = true;
+        }
+        else
+        {
+            ShowPersistBar = false;
+        }
+
+        _persistTimer.Start();
+    }
+
+    private void OnPersistTick(object? sender, EventArgs e)
+    {
+        var elapsed = (DateTime.UtcNow - _persistStartUtc).TotalSeconds;
+        var fraction = 1.0 - (elapsed / _persistDurationSecs);
+        if (fraction <= 0)
+        {
+            EndPersist();
+            return;
+        }
+
+        PersistBarFraction = fraction;
+    }
+
+    private void EndPersist()
+    {
+        StopPersist();
+        IsShowingClock = true;
+        _isInOvertime = false;
+        DurationSector = null;
+        UpdateClockDisplay();
+    }
+
+    private void StopPersist()
+    {
+        _persistTimer.Stop();
+        ShowPersistBar = false;
+        PersistBarFraction = 1.0;
     }
 }

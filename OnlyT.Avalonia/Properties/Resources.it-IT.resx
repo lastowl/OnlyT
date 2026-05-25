@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Segnale acustico attivo</value>
+    <value>Campanella attiva</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -180,7 +180,7 @@
     <value>Digitale</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Segnale acustico inattivo</value>
+    <value>Campanella inattiva</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Infrasettimanale</value>
@@ -330,7 +330,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>SEGNALE ACUSTICO</value>
+    <value>CAMPANELLA</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -400,7 +400,7 @@
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Mantieni durata parte</value>
+    <value>Mantieni durata discorso</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -480,7 +480,7 @@ Maiusc - Aggiungi 5m</value>
     <value>Attivate</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Attivato</value>
+    <value>Attivata</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
     <value>Attivato</value>
@@ -618,7 +618,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Fai suonare</value>
+    <value>Suona la campanella</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
