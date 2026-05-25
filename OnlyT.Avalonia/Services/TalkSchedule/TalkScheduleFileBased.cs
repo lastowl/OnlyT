@@ -18,8 +18,18 @@ internal static class TalkScheduleFileBased
 
     public static List<TalkScheduleItem> Read(bool autoBell, string? selectedFile = null)
     {
-        var result = new List<TalkScheduleItem>();
         var path = ResolvePath(selectedFile);
+        return ParseFile(path, autoBell);
+    }
+
+    /// <summary>
+    /// Parses a schedule XML file at the given absolute path. Returns an empty
+    /// list when the file is missing or malformed. Extracted from <see cref="Read"/>
+    /// so the parsing can be unit tested without touching the user's folders.
+    /// </summary>
+    internal static List<TalkScheduleItem> ParseFile(string path, bool autoBell)
+    {
+        var result = new List<TalkScheduleItem>();
 
         if (File.Exists(path))
         {

@@ -83,6 +83,8 @@ public class SimpleOptionsService : IOptionsService
     public bool ShowBackgroundOnTimer => GetOptions().ShowBackgroundOnTimer;
     public bool IsCountdownWindowTransparent => GetOptions().IsCountdownWindowTransparent;
     public bool PersistStudentTime => GetOptions().PersistStudentTime;
+    public bool ShowPersistCountdown => GetOptions().ShowPersistCountdown;
+    public int PersistDurationSecs => GetOptions().PersistDurationSecs;
 
     public bool CountUp => GetOptions().CountUp;
     public bool GenerateTimingReports => GetOptions().GenerateTimingReports;

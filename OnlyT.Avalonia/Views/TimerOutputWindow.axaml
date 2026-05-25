@@ -24,7 +24,7 @@
             BorderBrush="Beige"
             BorderThickness="{Binding FrameBorderThickness}">
 
-        <Grid RowDefinitions="*,Auto">
+        <Grid RowDefinitions="*,Auto,Auto">
 
             <!-- Row 0: Main display area — side-by-side columns matching
                  the WPF TimerOutputWindow layout. The slider in Settings
@@ -140,6 +140,19 @@
                        Foreground="White"
                        HorizontalAlignment="Center"
                        Margin="0,0,0,20"/>
+
+            <!-- Row 2: Persist countdown bar. Shown after a student talk stops
+                 while its final value is held on screen; shrinks to empty over
+                 the persist period, then the display reverts to the clock. -->
+            <ProgressBar Grid.Row="2"
+                         IsVisible="{Binding ShowPersistBar}"
+                         Minimum="0" Maximum="1"
+                         Value="{Binding PersistBarFraction}"
+                         Height="18"
+                         CornerRadius="9"
+                         Margin="40,0,40,28"
+                         Foreground="Beige"
+                         Background="#33FFFFFF"/>
 
         </Grid>
     </Border>

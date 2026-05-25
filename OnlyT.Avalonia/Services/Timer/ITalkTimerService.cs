@@ -18,7 +18,7 @@
 
         bool IsPaused { get; }
 
-        void Start(int targetSecs, int talkId, bool isCountingUp);
+        void Start(int targetSecs, int talkId, bool isCountingUp, bool persistFinalTimerValue = false);
 
         void Stop();
 

@@ -105,6 +105,13 @@ public partial class MainViewModel : ObservableObject
         {
             DataContext = Ioc.Default.GetService<SettingsViewModel>()
         };
+        settingsWindow.Closed += (s, _) =>
+        {
+            if (s is SettingsWindow w && w.DataContext is SettingsViewModel vm)
+            {
+                vm.Dispose();
+            }
+        };
         settingsWindow.Show();
     }
 

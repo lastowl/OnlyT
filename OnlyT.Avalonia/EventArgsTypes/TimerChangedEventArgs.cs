@@ -22,5 +22,12 @@ public class TimerChangedEventArgs : System.EventArgs
     /// </summary>
     public bool IsCountingUp { get; init; }
 
+    /// <summary>
+    /// Whether the talk being timed should keep its final value on the
+    /// output display for a while after the timer stops (student talks).
+    /// Carried on the stop event so the output window can decide to persist.
+    /// </summary>
+    public bool PersistFinalTimerValue { get; init; }
+
     public int RemainingSecs => TargetSecs - ElapsedSecs;
 }

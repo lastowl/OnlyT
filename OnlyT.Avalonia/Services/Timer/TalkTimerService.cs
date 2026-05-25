@@ -23,6 +23,7 @@
         private int _currentSecondsElapsed;
         private bool _isCountingUp;
         private bool _isPaused;
+        private bool _persistFinalTimerValue;
 
         public TalkTimerService()
         {
@@ -64,6 +65,7 @@
                         IsRunning = IsRunning,
                         ClosingSecs = _closingSecs,
                         IsCountingUp = _isCountingUp,
+                        PersistFinalTimerValue = _persistFinalTimerValue,
                     });
                 }
             }
@@ -127,11 +129,12 @@
         /// <param name="targetSecs">The target duration of the talk.</param>
         /// <param name="talkId">The Id of the talk that is being timed.</param>
         /// <param name="isCountingUp">Indicates if the timer is counting up rather than down.</param>
-        public void Start(int targetSecs, int talkId, bool isCountingUp)
+        public void Start(int targetSecs, int talkId, bool isCountingUp, bool persistFinalTimerValue = false)
         {
             _targetSecs = targetSecs;
             _talkId = talkId;
             _isCountingUp = isCountingUp;
+            _persistFinalTimerValue = persistFinalTimerValue;
             _stopWatch.Start();
             UpdateTimerValue();
             _timer.Start();
