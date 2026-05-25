@@ -78,6 +78,10 @@ public class OperatorPageViewModel : ObservableObject, IPage
     private DateTime? _meetingStartTimeFromCountdown;
     private bool _isOvertime;
     private bool _isShrunk;
+    private bool _isEditingTimerDuration;
+    private bool _isPaused;
+    private int _pausedElapsedSecs;
+    private string _editableTimerDuration = string.Empty;
 
     public OperatorPageViewModel(
         ITalkTimerService timerService,
@@ -111,9 +115,10 @@ public class OperatorPageViewModel : ObservableObject, IPage
         _timerService.TimerDurationChangeFromApiEvent += HandleTimerDurationChangeFromApi;
 
         // commands...
-        StartCommand = new RelayCommand(StartTimer, () => IsNotRunning && IsValidTalk);
-        StopCommand = new AsyncRelayCommand(StopTimerAsync, () => IsRunning);
-        SettingsCommand = new RelayCommand(NavigateSettings, () => IsNotRunning && !_commandLineService.NoSettings);
+        StartCommand = new RelayCommand(StartTimer, () => (IsNotRunning || _isPaused) && IsValidTalk && !IsEditingTimerDuration);
+        StopCommand = new RelayCommand(StopTimer, () => IsRunning);
+        PauseCommand = new RelayCommand(PauseTimer, () => IsRunning);
+        SettingsCommand = new RelayCommand(NavigateSettings, () => (IsNotRunning || _isPaused) && !_commandLineService.NoSettings);
         CloseAppCommand = new RelayCommand(CloseApp, () => IsNotRunning);
         ExpandFromShrinkCommand = new RelayCommand(ExpandFromShrink);
         HelpCommand = new RelayCommand(LaunchHelp);
@@ -124,6 +129,9 @@ public class OperatorPageViewModel : ObservableObject, IPage
         DecrementTimerCommand = new RelayCommand(DecrementTimer, CanDecreaseTimerValue);
         DecrementTimer15Command = new RelayCommand(DecrementTimer15Secs, CanDecreaseTimerValue);
         DecrementTimer5Command = new RelayCommand(DecrementTimer5Mins, CanDecreaseTimerValue);
+        StartManualDurationEditCommand = new RelayCommand(StartManualDurationEdit, CanEditTimerValue);
+        AcceptManualDurationEditCommand = new RelayCommand(AcceptManualDurationEdit, () => IsEditingTimerDuration);
+        CancelManualDurationEditCommand = new RelayCommand(CancelManualDurationEdit, () => IsEditingTimerDuration);
         BellToggleCommand = new RelayCommand(BellToggle);
         CountUpToggleCommand = new RelayCommand(CountUpToggle);
         CloseCountdownCommand = new RelayCommand(CloseCountdownWindow);
@@ -135,11 +143,15 @@ public class OperatorPageViewModel : ObservableObject, IPage
         WeakReferenceMessenger.Default.Register<AutoMeetingChangedMessage>(this, OnAutoMeetingChanged);
         WeakReferenceMessenger.Default.Register<CountdownWindowStatusChangedMessage>(this, OnCountdownWindowStatusChanged);
         WeakReferenceMessenger.Default.Register<ShowCircuitVisitToggleChangedMessage>(this, OnShowCircuitVisitToggleChanged);
+        WeakReferenceMessenger.Default.Register<ShowPauseButtonChangedMessage>(this, OnShowPauseButtonChanged);
         WeakReferenceMessenger.Default.Register<AutoBellSettingChangedMessage>(this, OnAutoBellSettingChanged);
         WeakReferenceMessenger.Default.Register<RefreshScheduleMessage>(this, OnRefreshSchedule);
         WeakReferenceMessenger.Default.Register<MainWindowSizeChangedMessage>(this, OnWindowSizeChanged);
         WeakReferenceMessenger.Default.Register<MouseWheelTimerAdjustChangedMessage>(this, OnMouseWheelTimerAdjustChanged);
-
+        WeakReferenceMessenger.Default.Register<EndOfMeetingMessage>(this, OnEndOfMeeting);
+        WeakReferenceMessenger.Default.Register<ScheduleFileChangedMessage>(this, OnScheduleFileChanged);
+        WeakReferenceMessenger.Default.Register<ScheduleFileNotFoundMessage>(this, OnScheduleFileNotFound);
+        
         GetVersionData();
 
         if (commandLineService.Automate)
@@ -169,7 +181,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
         get
         {
             var talk = GetCurrentTalk();
-            return talk != null && talk.BellApplicable && _optionsService.Options.IsBellEnabled;
+            return talk != null && talk.BellApplicable && _optionsService.Options.IsBellEnabled && !InShrinkMode;
         }
     }
 
@@ -204,11 +216,21 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     public int StartStopButtonHeight => InShrinkMode ? 110 : 54;
 
+    public Thickness StartStopButtonMargin => ShouldShowPauseButton
+        ? new Thickness(0, 0, 51, 0)
+        : new Thickness(0);
+
     public int TimeDisplayColumnSpan => InShrinkMode ? 2 : 1;
+
+    public bool ShowPauseButton => _optionsService.Options.ShowPauseButton;
+
+    public bool ShouldShowPauseButton => ShowPauseButton && NotInShrinkMode;
 
     public RelayCommand StartCommand { get; }
 
-    public AsyncRelayCommand StopCommand { get; }
+    public RelayCommand StopCommand { get; }
+
+    public RelayCommand PauseCommand { get; }
 
     public RelayCommand SettingsCommand { get; }
 
@@ -232,11 +254,50 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     public RelayCommand DecrementTimer5Command { get; }
 
+    public RelayCommand StartManualDurationEditCommand { get; }
+
+    public RelayCommand AcceptManualDurationEditCommand { get; }
+
+    public RelayCommand CancelManualDurationEditCommand { get; }
+
     public RelayCommand BellToggleCommand { get; }
 
     public RelayCommand CountUpToggleCommand { get; }
 
     public RelayCommand CloseCountdownCommand { get; }
+
+    public bool IsEditingTimerDuration
+    {
+        get => _isEditingTimerDuration;
+        private set
+        {
+            if (_isEditingTimerDuration != value)
+            {
+                _isEditingTimerDuration = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(IsNotEditingTimerDuration));
+                RaiseCanExecuteIncrementDecrementChanged();
+                AcceptManualDurationEditCommand.NotifyCanExecuteChanged();
+                CancelManualDurationEditCommand.NotifyCanExecuteChanged();
+                StartCommand.NotifyCanExecuteChanged();
+            }
+        }
+    }
+
+    public bool IsNotEditingTimerDuration => !IsEditingTimerDuration;
+
+    public string EditableTimerDuration
+    {
+        get => _editableTimerDuration;
+        set
+        {
+            if (_editableTimerDuration != value)
+            {
+                _editableTimerDuration = value;
+                OnPropertyChanged();
+            }
+        }
+    }
 
     public bool RunFlashAnimation
     {
@@ -340,7 +401,12 @@ public class OperatorPageViewModel : ObservableObject, IPage
         {
             if (_talkId != value)
             {
+                CancelManualDurationEdit();
                 _talkId = value;
+                _isPaused = false;
+                _pausedElapsedSecs = 0;
+                _secondsElapsed = 0;
+                _timerService.IsPaused = false;
 
                 var talk = GetCurrentTalk();
                 RefreshCountUpFlag(talk);
@@ -431,7 +497,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     public bool IsNotManualMode => _optionsService.Options.OperatingMode != OperatingMode.Manual;
         
-    public bool IsRunning => _timerService.IsRunning || _isStarting;
+    public bool IsRunning => (_timerService.IsRunning || _isStarting) && !_isPaused;
 
     public bool IsNotRunning => !IsRunning;
 
@@ -474,9 +540,23 @@ public class OperatorPageViewModel : ObservableObject, IPage
         OnPropertyChanged(nameof(AllowCountUpDownToggle));
         OnPropertyChanged(nameof(IsBellVisible));
         OnPropertyChanged(nameof(IsCircuitVisit));
+        OnPropertyChanged(nameof(ShowPauseButton));
+        OnPropertyChanged(nameof(ShouldShowPauseButton));
+        OnPropertyChanged(nameof(StartStopButtonMargin));
     }
 
     private void StartTimer()
+    {
+        if (_isPaused)
+        {
+            ResumeTimer();
+            return;
+        }
+
+        StartNewTimer();
+    }
+
+    private void StartNewTimer()
     {
         if (Log.IsEnabled(LogEventLevel.Debug))
         {
@@ -487,6 +567,8 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
         _isStarting = true;
         _secondsElapsed = 0;
+        OnPropertyChanged(nameof(CurrentTimerValueString));
+        _timerService.IsPaused = false;
 
         RunFlashAnimation = false;
         RunFlashAnimation = true;
@@ -517,6 +599,53 @@ public class OperatorPageViewModel : ObservableObject, IPage
             {
                 _timerService.Start(_targetSeconds, talkId, _countUp);
             }
+
+            Application.Current.Dispatcher.Invoke(RaiseCanExecuteChanged);
+        });
+    }
+
+    private void ResumeTimer()
+    {
+        if (Log.IsEnabled(LogEventLevel.Debug))
+        {
+            Log.Logger.Debug("Resuming timer");
+        }
+
+        EventTracker.AddBreadcrumb(EventName.StartingTimer, "timer:resuming");
+
+        _isPaused = false;
+        _isStarting = true;
+        _timerService.IsPaused = false;
+
+        RunFlashAnimation = false;
+        RunFlashAnimation = true;
+
+        OnPropertyChanged(nameof(IsRunning));
+        OnPropertyChanged(nameof(IsNotRunning));
+        OnPropertyChanged(nameof(SettingsHint));
+
+        RaiseCanExecuteChanged();
+
+        var talkId = TalkId;
+        var resumedTargetSecs = _targetSeconds;
+
+        WeakReferenceMessenger.Default.Send(new TimerStartMessage(resumedTargetSecs, _countUp, talkId));
+
+        Task.Run(() =>
+        {
+            var ms = _dateTimeService.Now().Millisecond;
+            if (ms > 100)
+            {
+                // sync to the second
+                Task.Delay(1000 - ms).Wait();
+            }
+
+            if (_isStarting)
+            {
+                _timerService.Start(resumedTargetSecs, talkId, _countUp);
+            }
+
+            Application.Current.Dispatcher.Invoke(RaiseCanExecuteChanged);
         });
     }
 
@@ -696,6 +825,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
     {
         StartCommand.NotifyCanExecuteChanged();
         StopCommand.NotifyCanExecuteChanged();
+        PauseCommand.NotifyCanExecuteChanged();
         SettingsCommand.NotifyCanExecuteChanged();
 
         RaiseCanExecuteIncrementDecrementChanged();
@@ -721,11 +851,14 @@ public class OperatorPageViewModel : ObservableObject, IPage
         
     private void TimerChangedHandler(object? sender, EventArgs.TimerChangedEventArgs e)
     {
+        _isPaused = false;
+        _timerService.IsPaused = false;
+
         TextColor = GreenYellowRedSelector.GetBrushForTimeRemaining(e.RemainingSecs, e.ClosingSecs);
-        _secondsElapsed = e.ElapsedSecs;
+        _secondsElapsed = _pausedElapsedSecs + e.ElapsedSecs;
         SetSecondsRemaining(e.RemainingSecs);
 
-        WeakReferenceMessenger.Default.Send(new TimerChangedMessage(e.RemainingSecs, e.ElapsedSecs, e.IsRunning, e.ClosingSecs, _countUp));
+        WeakReferenceMessenger.Default.Send(new TimerChangedMessage(e.RemainingSecs, _pausedElapsedSecs + e.ElapsedSecs, e.IsRunning, e.ClosingSecs, _countUp));
 
         if (e.RemainingSecs == 0)
         {
@@ -779,7 +912,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     private void AdjustTalkTime(TalkScheduleItem talk, int targetSecs, bool manualMode)
     {
-        if (talk.Editable == true)
+        if (talk.Editable)
         {
             var modifiedDuration = TimeSpan.FromSeconds(targetSecs);
 
@@ -844,7 +977,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     private bool CanIncreaseTimerValue()
     {
-        if (IsRunning || TargetSeconds >= MaxTimerSecs)
+        if (IsRunning || IsEditingTimerDuration || TargetSeconds >= MaxTimerSecs)
         {
             return false;
         }
@@ -854,7 +987,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
 
     private bool CanDecreaseTimerValue()
     {
-        if (IsRunning || TargetSeconds <= 0)
+        if (IsRunning || IsEditingTimerDuration || TargetSeconds <= 0)
         {
             return false;
         }
@@ -865,6 +998,93 @@ public class OperatorPageViewModel : ObservableObject, IPage
     private bool CurrentTalkTimerIsEditable()
     {
         return GetCurrentTalk()?.Editable == true;
+    }
+
+    private bool CanEditTimerValue()
+    {
+        return IsNotRunning && !IsEditingTimerDuration && CurrentTalkTimerIsEditable();
+    }
+
+    private static bool TryParseTimerDuration(string? value, out int totalSecs)
+    {
+        totalSecs = 0;
+
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            return false;
+        }
+
+        var parts = value.Trim().Split([':', ' '], StringSplitOptions.RemoveEmptyEntries);
+        if (parts.Length is < 1 or > 2)
+        {
+            return false;
+        }
+
+        if (!int.TryParse(parts[0], out var mins) || mins < 0 || mins > MaxTimerMins)
+        {
+            return false;
+        }
+
+        var secs = 0;
+        if (parts.Length == 2 && (!int.TryParse(parts[1], out secs) || secs < 0 || secs > 59))
+        {
+            return false;
+        }
+
+        totalSecs = (mins * 60) + secs;
+        return totalSecs <= MaxTimerSecs;
+    }
+
+    private void StartManualDurationEdit()
+    {
+        EditableTimerDuration = TimeFormatter.FormatTimerDisplayString(TargetSeconds);
+        IsEditingTimerDuration = true;
+    }
+
+    private void AcceptManualDurationEdit()
+    {
+        if (!TryParseTimerDuration(EditableTimerDuration, out var newSecs))
+        {
+            _snackbarService.Enqueue(Properties.Resources.ENTER_VALID_DURATION);
+            return;
+        }
+
+        TargetSeconds = newSecs;
+        AdjustTalkTimeForThisSession();
+        IsEditingTimerDuration = false;
+    }
+
+    private void CancelManualDurationEdit()
+    {
+        EditableTimerDuration = TimeFormatter.FormatTimerDisplayString(TargetSeconds);
+        IsEditingTimerDuration = false;
+    }
+
+    private void OnScheduleFileChanged(object recipient, ScheduleFileChangedMessage message)
+    {
+        try
+        {
+            if (Log.IsEnabled(LogEventLevel.Debug))
+            {
+                Log.Logger.Debug("Meeting schedule file changing");
+            }
+
+            RefreshSchedule();
+        }
+        catch (Exception ex)
+        {
+            const string errMsg = "Could not handle change of meeting schedule file";
+            EventTracker.Error(ex, errMsg);
+
+            Log.Logger.Error(ex, errMsg);
+        }
+    }
+
+    private void OnScheduleFileNotFound(object recipient, ScheduleFileNotFoundMessage message)
+    {
+        _optionsService.Options.OperatingMode = OperatingMode.Manual;
+        WeakReferenceMessenger.Default.Send(new OperatingModeChangedMessage());
+        _snackbarService.Enqueue(Properties.Resources.SCHEDULE_FILE_NOT_FOUND);
     }
 
     private void OnAutoMeetingChanged(object recipient, AutoMeetingChangedMessage message)
@@ -980,7 +1200,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
         WeakReferenceMessenger.Default.Send(new NavigateMessage(PageName, SettingsPageViewModel.PageName, null));
     }
 
-    private async Task StopTimerAsync()
+    private void StopTimer()
     {
         if (Log.IsEnabled(LogEventLevel.Debug))
         {
@@ -998,13 +1218,17 @@ public class OperatorPageViewModel : ObservableObject, IPage
             return;
         }
 
+        var totalElapsed = _pausedElapsedSecs + _timerService.CurrentSecondsElapsed;
         var msg = new TimerStopMessage(
-            TalkId, 
-            _timerService.CurrentSecondsElapsed, 
+            TalkId,
+            totalElapsed,
             _optionsService.Options.PersistStudentTime && talk.PersistFinalTimerValue);
-            
+
+        _pausedElapsedSecs = 0;  // clear before Stop() so its synchronous TimerChangedHandler sees 0
         _timerService.Stop();
         _isStarting = false;
+        _isPaused = false;
+        _timerService.IsPaused = false;
 
         StoreTimerStopData();
 
@@ -1022,12 +1246,66 @@ public class OperatorPageViewModel : ObservableObject, IPage
         if (TalkId == 0)
         {
             // end of the meeting.
-            StoreEndOfMeetingData();
-            await GenerateTimingReportAsync().ConfigureAwait(false);
+            WeakReferenceMessenger.Default.Send(new EndOfMeetingMessage());
         }
         else
         {
             NotifyOfBadTimingIfRequired();
+        }
+    }
+
+    private void PauseTimer()
+    {
+        if (Log.IsEnabled(LogEventLevel.Debug))
+        {
+            Log.Logger.Debug("Pausing timer");
+        }
+
+        EventTracker.AddBreadcrumb(EventName.StoppingTimer, "timer:pausing");
+
+        var elapsedSecs = _timerService.CurrentSecondsElapsed;
+        var remainingSecs = Math.Max(_targetSeconds - elapsedSecs, 0);
+
+        // Accumulate before Stop() so TimerChangedHandler sees the correct value when
+        // Stop() fires the event synchronously (freezing the display at the right point).
+        _pausedElapsedSecs += elapsedSecs;
+
+        _timerService.Stop();
+
+        _isStarting = false;
+        _isPaused = true;
+        _timerService.IsPaused = true;
+        TargetSeconds = remainingSecs;
+
+        IsOvertime = false;
+        TextColor = WhiteBrush;
+
+        OnPropertyChanged(nameof(IsRunning));
+        OnPropertyChanged(nameof(IsNotRunning));
+        OnPropertyChanged(nameof(SettingsHint));
+
+        WeakReferenceMessenger.Default.Send(new TimerStopMessage(TalkId, _pausedElapsedSecs, false, true));
+        RaiseCanExecuteChanged();
+    }
+
+    private void OnShowPauseButtonChanged(object recipient, ShowPauseButtonChangedMessage message)
+    {
+        OnPropertyChanged(nameof(ShowPauseButton));
+        OnPropertyChanged(nameof(ShouldShowPauseButton));
+        OnPropertyChanged(nameof(StartStopButtonMargin));
+    }
+
+    private void OnEndOfMeeting(object recipient, EndOfMeetingMessage message)
+    {
+        StoreEndOfMeetingData();
+
+        try
+        {
+            _ = GenerateTimingReportAsync().ConfigureAwait(false);
+        }
+        catch (Exception ex)
+        {
+            Log.Logger.Error(ex, "Error handling EndOfMeetingMessage");
         }
     }
 
@@ -1159,8 +1437,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
                             success = IsRunning;
                             if (success)
                             {
-                                // fire and forget
-                                _ = StopTimerAsync();
+                                StopTimer();
                             }
 
                             break;
@@ -1230,6 +1507,7 @@ public class OperatorPageViewModel : ObservableObject, IPage
         DecrementTimerCommand.NotifyCanExecuteChanged();
         DecrementTimer5Command.NotifyCanExecuteChanged();
         DecrementTimer15Command.NotifyCanExecuteChanged();
+        StartManualDurationEditCommand.NotifyCanExecuteChanged();
     }
 
     private async Task GenerateTimingReportAsync()
@@ -1321,8 +1599,12 @@ public class OperatorPageViewModel : ObservableObject, IPage
         OnPropertyChanged(nameof(NotInShrinkMode));
         OnPropertyChanged(nameof(StartStopButtonRowSpan));
         OnPropertyChanged(nameof(StartStopButtonHeight));
+        OnPropertyChanged(nameof(StartStopButtonMargin));
         OnPropertyChanged(nameof(TimeDisplayColumnSpan));
         OnPropertyChanged(nameof(ShowUpDownButton));
+        OnPropertyChanged(nameof(IsBellVisible));
+        OnPropertyChanged(nameof(ShowPauseButton));
+        OnPropertyChanged(nameof(ShouldShowPauseButton));
     }
 
     private void OnRefreshSchedule(object recipient, RefreshScheduleMessage message)

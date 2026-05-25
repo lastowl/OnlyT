@@ -1,13 +1,16 @@
 ﻿using CommunityToolkit.Mvvm.Messaging;
 using OnlyT.Services.CommandLine;
+using Serilog;
 
 namespace OnlyT.Services.TalkSchedule
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using Models;
     using OnlyT.Common.Services.DateTime;
+    using OnlyT.Utils;
     using Options;
     using ViewModel.Messages;
 
@@ -50,7 +53,7 @@ namespace OnlyT.Services.TalkSchedule
         {
             var feedUri = _commandLineService.FeedUri;
 
-            _fileBasedSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() => TalkScheduleFileBased.Read(_optionsService.Options.AutoBell));
+            _fileBasedSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() => TalkScheduleFileBased.Read(_optionsService.Options.AutoBell, GetScheduleFilePath()));
             _autoSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() => TalkScheduleAuto.Read(_optionsService, _dateTimeService, feedUri, _isJanuary2020OrLater));
             _manualSchedule = new Lazy<IEnumerable<TalkScheduleItem>>(() => TalkScheduleManual.Read(_optionsService));
         }
@@ -71,6 +74,17 @@ namespace OnlyT.Services.TalkSchedule
 
         public IEnumerable<TalkScheduleItem> GetTalkScheduleItems()
         {
+            if (_optionsService.Options.OperatingMode == OperatingMode.ScheduleFile)
+            {
+                var filePath = GetScheduleFilePath();
+                if (string.IsNullOrEmpty(filePath) || !File.Exists(filePath))
+                {
+                    Log.Logger.Warning("Schedule file not found: {FilePath}. Reverting to manual mode.", filePath);
+                    WeakReferenceMessenger.Default.Send(new ScheduleFileNotFoundMessage());
+                    return _manualSchedule.Value;
+                }
+            }
+
             return _optionsService.Options.OperatingMode switch
             {
                 OperatingMode.ScheduleFile => _fileBasedSchedule.Value,
@@ -110,6 +124,50 @@ namespace OnlyT.Services.TalkSchedule
             }
 
             return 0;
+        }
+
+        private string? GetScheduleFilePath()
+        {
+            var fileName = _optionsService.Options.ScheduleFile;
+            if (!string.IsNullOrEmpty(fileName))
+            {
+                var result = Path.Combine(FileUtils.GetSchedulesFolderPath(), fileName);
+                if (File.Exists(result))
+                {
+                    return result;
+                }
+            }
+
+            var legacyPath = FileUtils.GetTalkSchedulePath();
+            if (File.Exists(legacyPath))
+            {
+                var legacyFileName = Path.GetFileName(legacyPath);
+                UpdateActiveScheduleFile(legacyFileName);
+                return legacyPath;
+            }
+
+            var schedulesFolder = FileUtils.GetSchedulesFolderPath();
+            var fallbackFile = Directory.GetFiles(schedulesFolder, "*.xml")
+                .Select(Path.GetFileName)
+                .OrderBy(n => n)
+                .FirstOrDefault();
+
+            if (!string.IsNullOrEmpty(fallbackFile))
+            {
+                UpdateActiveScheduleFile(fallbackFile);
+                return Path.Combine(schedulesFolder, fallbackFile);
+            }
+
+            return null;
+        }
+
+        private void UpdateActiveScheduleFile(string fileName)
+        {
+            if (!string.Equals(_optionsService.Options.ScheduleFile, fileName, StringComparison.OrdinalIgnoreCase))
+            {
+                _optionsService.Options.ScheduleFile = fileName;
+                WeakReferenceMessenger.Default.Send(new ScheduleFileChangedMessage());
+            }
         }
 
         private void OnTimerStopped(object recipient, TimerStopMessage message)

@@ -16,7 +16,15 @@ public class TimerInfoEventArgs : System.EventArgs
 
     public bool Use24HrFormat { get; set; }
 
+    public bool ShowTimeOfDaySeconds { get; set; }
+
     public bool IsCountingUp { get; set; }
 
     public int ClosingSecs { get; set; }
+
+    public bool ShowPersistBar { get; set; }
+
+    public int PersistRemainingMs { get; set; }
+
+    public int PersistTotalMs { get; set; }
 }

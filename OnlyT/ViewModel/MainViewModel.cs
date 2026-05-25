@@ -25,6 +25,7 @@ using Serilog.Events;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Interop;
@@ -55,6 +56,13 @@ public class MainViewModel : ObservableObject
     private DispatcherTimer _heartbeatTimer = null!;
     private FrameworkElement? _currentPage;
     private DateTime _lastRefreshedSchedule = DateTime.MinValue;
+
+    // Persist-student-time state for the web clock
+    private DateTime _persistUntil = DateTime.MinValue;
+    private int _persistElapsedSecs;
+    private int _persistTargetSecs;
+    private int _persistClosingSecs;
+    private bool _persistCountUp;
 
     public MainViewModel(
         IReminderService reminderService,
@@ -98,6 +106,12 @@ public class MainViewModel : ObservableObject
         WeakReferenceMessenger.Default.Register<AlwaysOnTopChangedMessage>(this, OnAlwaysOnTopChanged);
         WeakReferenceMessenger.Default.Register<HttpServerChangedMessage>(this, OnHttpServerChanged);
         WeakReferenceMessenger.Default.Register<StopCountDownMessage>(this, OnStopCountdown);
+        WeakReferenceMessenger.Default.Register<EndOfMeetingMessage>(this, OnEndOfMeeting);
+        WeakReferenceMessenger.Default.Register<TimerStartMessage>(this, OnTimerStarted);
+        WeakReferenceMessenger.Default.Register<TimerChangedMessage>(this, OnTimerChanged);
+        WeakReferenceMessenger.Default.Register<TimerStopMessage>(this, OnTimerStopped);
+        WeakReferenceMessenger.Default.Register<OperatingModeChangedMessage>(this, OnOperatingModeChanged);
+        WeakReferenceMessenger.Default.Register<ScheduleFileChangedMessage>(this, OnScheduleFileChanged);
 
         InitHttpServer();
 
@@ -115,7 +129,30 @@ public class MainViewModel : ObservableObject
         InitHeartbeatTimer();
     }
 
+    private void OnScheduleFileChanged(object recipient, ScheduleFileChangedMessage message)
+    {
+        OnPropertyChanged(nameof(WindowTitle));
+    }
+
+    private void OnOperatingModeChanged(object recipient, OperatingModeChangedMessage message)
+    {
+        OnPropertyChanged(nameof(WindowTitle));
+    }
+
     public ISnackbarMessageQueue TheSnackbarMessageQueue => _snackbarService.TheSnackbarMessageQueue;
+
+    public string WindowTitle
+    {
+        get
+        {
+            if (_optionsService.Options.OperatingMode == OperatingMode.ScheduleFile)
+            {
+                return "OnlyT - " + Path.GetFileNameWithoutExtension(_optionsService.Options.ScheduleFile);
+            }
+
+            return "OnlyT";
+        }
+    }
 
     public FrameworkElement? CurrentPage
     {
@@ -135,7 +172,7 @@ public class MainViewModel : ObservableObject
         _timerOutputDisplayService.IsWindowVisible() ||
         _countdownDisplayService.IsWindowVisible();
 
-    public string? CurrentPageName { get; set; }
+    public string? CurrentPageName { get; private set; }
 
     private bool CountDownActive => _countdownDisplayService.IsCountingDown;
 
@@ -205,28 +242,62 @@ public class MainViewModel : ObservableObject
         var info = _timerService.GetClockRequestInfo();
 
         timerData.Use24HrFormat = _optionsService.Use24HrClockFormat();
+        timerData.ShowTimeOfDaySeconds = _optionsService.Options.WebClockShowTimeOfDaySeconds;
 
-        if (!info.IsRunning)
-        {
-            timerData.Mode = ClockServerMode.TimeOfDay;
-        }
-        else
+        if (info.IsRunning)
         {
             timerData.Mode = ClockServerMode.Timer;
-
             timerData.TargetSecs = info.TargetSeconds;
             timerData.Mins = (int)info.ElapsedTime.TotalMinutes;
             timerData.Secs = info.ElapsedTime.Seconds;
             timerData.Millisecs = info.ElapsedTime.Milliseconds;
             timerData.ClosingSecs = info.ClosingSecs;
-
             timerData.IsCountingUp = info.IsCountingUp;
+        }
+        else if (_dateTimeService.Now() < _persistUntil)
+        {
+            timerData.Mode = ClockServerMode.Persist;
+            timerData.Mins = _persistElapsedSecs / 60;
+            timerData.Secs = _persistElapsedSecs % 60;
+            timerData.TargetSecs = _persistTargetSecs;
+            timerData.ClosingSecs = _persistClosingSecs;
+            timerData.IsCountingUp = _persistCountUp;
+            timerData.ShowPersistBar = _optionsService.Options.ShowPersistCountdown;
+            timerData.PersistRemainingMs = (int)(_persistUntil - _dateTimeService.Now()).TotalMilliseconds;
+            timerData.PersistTotalMs = _optionsService.Options.PersistDurationSecs * 1000;
+        }
+        else
+        {
+            timerData.Mode = ClockServerMode.TimeOfDay;
+        }
+    }
+
+    private void OnTimerStarted(object recipient, TimerStartMessage msg)
+    {
+        _persistTargetSecs = msg.TargetSeconds;
+        _persistCountUp = msg.CountUp;
+    }
+
+    private void OnTimerChanged(object recipient, TimerChangedMessage msg)
+    {
+        _persistClosingSecs = msg.ClosingSecs;
+    }
+
+    private void OnTimerStopped(object recipient, TimerStopMessage msg)
+    {
+        _persistUntil = DateTime.MinValue;
+
+        if (msg.PersistFinalTimerValue && !msg.IsPaused)
+        {
+            _persistElapsedSecs = msg.ElapsedSecs;
+            _persistUntil = _dateTimeService.Now().AddSeconds(_optionsService.Options.PersistDurationSecs);
         }
     }
 
     /// <summary>
     /// Responds to change in the application's "Always on top" option.
     /// </summary>
+    /// <param name="recipient">The recipient of the message (this).</param>
     /// <param name="message">AlwaysOnTopChangedMessage message.</param>
     private void OnAlwaysOnTopChanged(object recipient, AlwaysOnTopChangedMessage message)
     {
@@ -236,6 +307,7 @@ public class MainViewModel : ObservableObject
     /// <summary>
     /// Responds to a change in timer monitor.
     /// </summary>
+    /// <param name="recipient">The recipient of the message (this).</param>
     /// <param name="message">TimerMonitorChangedMessage message.</param>
     private void OnTimerMonitorChanged(object recipient, TimerMonitorChangedMessage message)
     {
@@ -269,7 +341,7 @@ public class MainViewModel : ObservableObject
                     break;
 
                 default:
-                    throw new NotImplementedException();
+                    throw new NotSupportedException();
             }
 
             if (CountDownActive)
@@ -292,6 +364,7 @@ public class MainViewModel : ObservableObject
     /// <summary>
     /// Responds to a change in countdown monitor.
     /// </summary>
+    /// <param name="recipient">The recipient of the message (this).</param>
     /// <param name="message">CountdownMonitorChangedMessage message.</param>
     private void OnCountdownMonitorChanged(object recipient, CountdownMonitorChangedMessage message)
     {
@@ -325,7 +398,7 @@ public class MainViewModel : ObservableObject
                     break;
 
                 default:
-                    throw new NotImplementedException();
+                    throw new NotSupportedException();
             }
 
             OnPropertyChanged(nameof(AlwaysOnTop));
@@ -407,10 +480,16 @@ public class MainViewModel : ObservableObject
     {
         _countdownDisplayService.Stop(true);
     }
-        
+
+    private void OnEndOfMeeting(object recipient, EndOfMeetingMessage message)
+    {
+        _countdownDisplayService.ResetCountdownDone();
+    }
+
     /// <summary>
     /// Responds to the NavigateMessage and swaps out one page for another.
     /// </summary>
+    /// <param name="recipient"></param>
     /// <param name="message">NavigateMessage message.</param>
     private void OnNavigate(object recipient, NavigateMessage message)
     {

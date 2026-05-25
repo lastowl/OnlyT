@@ -20,7 +20,7 @@
         private int? _talkId;
         private TimeSpan _currentTimeElapsed = TimeSpan.Zero;
         private int _currentSecondsElapsed;
-        private bool _isCountingUp;
+        private volatile bool _isCountingUp;
 
         public TalkTimerService()
         {
@@ -38,6 +38,8 @@
         /// Gets a value indicating whether the timer is running
         /// </summary>
         public bool IsRunning => _stopWatch.IsRunning;
+
+        public bool IsPaused { get; set; }
 
         /// <summary>
         /// Gets or sets the current number of seconds elapsed
@@ -143,6 +145,7 @@
                 TalkId = _talkId,
                 TargetSeconds = _targetSecs,
                 IsRunning = IsRunning,
+                IsPaused = IsPaused,
                 TimeElapsed = CurrentTimeElapsed,
                 ClosingSecs = _closingSecs
             };
