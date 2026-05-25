@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Campanello attivo</value>
+    <value>Campanella attiva</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -139,7 +139,13 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="ClockHtmlTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClockHtmlTemplate.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+    <value>..\Resources\ClockHtmlTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="SharedClockJs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SharedClockJsTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="SharedSnackbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SharedSnackbarTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
     <value>12 ore</value>
@@ -184,7 +190,7 @@
     <value>Digitale</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Campanello inattivo</value>
+    <value>Campanella inattiva</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Infrasettimanale</value>
@@ -334,7 +340,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>SEGNALE ACUSTICO</value>
+    <value>CAMPANELLA</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -374,7 +380,7 @@
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitoraggio</value>
+    <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Mostra puntatore del mouse</value>
@@ -403,8 +409,12 @@
     <value>Mantieni tempo studente</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Mostra barra tempo residuo vista timer</value>
+    <comment>Show a progress bar during the persist period that indicates how long remains</comment>
+  </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Mantieni durata parte</value>
+    <value>Mantieni durata discorso</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -469,11 +479,11 @@ Maiusc - Aggiungi 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Conto alla rovescia</value>
+    <value>Tempo rimanente</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Conteggio in salita</value>
+    <value>Tempo trascorso</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -484,10 +494,14 @@ Maiusc - Aggiungi 5m</value>
     <value>Attivate</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Attivato</value>
+    <value>Attivata</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
     <value>Attivato</value>
+  </data>
+  <data name="WEB_CLOCK_SHOW_TOD_SECONDS" xml:space="preserve">
+    <value>Mostra i secondi nell'ora del giorno</value>
+    <comment>See Settings, Clock section. Determines if seconds are shown in the web clock when displaying time of day.</comment>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Mostra i secondi</value>
@@ -561,6 +575,18 @@ Maiusc - Aggiungi 5m</value>
     <value>Rapporto dei tempi generato</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Schedule file</value>
+  </data>
+  <data name="SCHEDULE_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Schedule file not found - switching to manual mode</value>
+  </data>
+  <data name="SWITCH_SCHEDULE_CONFIRM" xml:space="preserve">
+    <value>Abandon current meeting and switch schedule file?</value>
+  </data>
+  <data name="SWITCH" xml:space="preserve">
+    <value>SWITCH</value>
+  </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
     <value>Genera rapporti</value>
     <comment>See Settings =&gt; Misc</comment>
@@ -598,7 +624,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Dettagliato</value>
+    <value>Verboso</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -622,7 +648,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Fare clic per suonare il campanello</value>
+    <value>Suona la campanella</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -743,5 +769,53 @@ Maiusc - Aggiungi 5m</value>
   <data name="ALLOW_MOUSE_WHEEL_TIMER_ADJUST" xml:space="preserve">
     <value>Consenti alla rotella del mouse di regolare il timer</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="START_TIMER" xml:space="preserve">
+    <value>Avvia timer</value>
+    <comment>Accessible name for the Start button on the operator page</comment>
+  </data>
+  <data name="STOP_TIMER" xml:space="preserve">
+    <value>Ferma timer</value>
+    <comment>Accessible name for the Stop button on the operator page</comment>
+  </data>
+  <data name="EXPAND_WINDOW" xml:space="preserve">
+    <value>Espandi finestra</value>
+    <comment>Accessible name for the expand button shown in shrink mode</comment>
+  </data>
+  <data name="CLOSE_APP" xml:space="preserve">
+    <value>Chiudi applicazione</value>
+    <comment>Accessible name for the close application button shown in shrink mode</comment>
+  </data>
+  <data name="TIMER_DISPLAY" xml:space="preserve">
+    <value>Display timer</value>
+    <comment>Accessible name for the timer display area on the operator page</comment>
+  </data>
+  <data name="BELL_TOGGLE" xml:space="preserve">
+    <value>Attiva/disattiva campanella</value>
+    <comment>Accessible name for the bell toggle button when no specific tooltip is available</comment>
+  </data>
+  <data name="TALK_SELECTOR" xml:space="preserve">
+    <value>Seleziona discorso</value>
+    <comment>Accessible name for the talk selector combo box on the operator page</comment>
+  </data>
+  <data name="BACK_TO_OPERATOR" xml:space="preserve">
+    <value>Torna alla pagina operatore</value>
+    <comment>Accessible name for the back navigation button on the settings page</comment>
+  </data>
+  <data name="ENTER_VALID_DURATION" xml:space="preserve">
+    <value>Per favore inserisci una durata valida.</value>
+    <comment>Error msg displayed when manually entering a bad duration</comment>
+  </data>
+  <data name="ACCEPT_DURATION" xml:space="preserve">
+    <value>Accetta durata</value>
+  </data>
+  <data name="EDIT_DURATION" xml:space="preserve">
+    <value>Modifica durata</value>
+  </data>
+  <data name="PAUSE_TIMER" xml:space="preserve">
+    <value>Metti in pausa timer</value>
+  </data>
+  <data name="SHOW_PAUSE" xml:space="preserve">
+    <value>Mostra pulsante pausa</value>
   </data>
 </root>

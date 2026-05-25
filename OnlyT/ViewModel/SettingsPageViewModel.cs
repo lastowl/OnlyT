@@ -1,26 +1,31 @@
 ﻿// ReSharper disable CatchAllClause
-using System.Diagnostics;
-using OnlyT.AutoUpdates;
-using OnlyT.Models;
-using OnlyT.Services.Bell;
-using OnlyT.Services.CountdownTimer;
-using OnlyT.Services.Monitors;
-using OnlyT.Services.Options;
-using OnlyT.Utils;
-using OnlyT.ViewModel.Messages;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Windows.Media.Imaging;
-using OnlyT.Common.Services.DateTime;
-using OnlyT.CountdownTimer;
-using OnlyT.Services.Snackbar;
-using Serilog;
-using Serilog.Events;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
+using OnlyT.AutoUpdates;
+using OnlyT.Common.Services.DateTime;
+using OnlyT.CountdownTimer;
+using OnlyT.Models;
+using OnlyT.Services.Bell;
 using OnlyT.Services.CommandLine;
+using OnlyT.Services.CountdownTimer;
+using OnlyT.Services.Monitors;
+using OnlyT.Services.Options;
+using OnlyT.Services.Snackbar;
+using OnlyT.Utils;
+using OnlyT.ViewModel.Messages;
+using Serilog;
+using Serilog.Events;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Windows;
+using System.Windows.Media.Imaging;
+using System.Windows.Threading;
 
 namespace OnlyT.ViewModel;
 
@@ -46,7 +51,9 @@ public class SettingsPageViewModel : ObservableObject, IPage
     private readonly WebClockPortItem[] _ports;
     private readonly PersistDurationItem[] _persistDurationItems;
     private readonly LoggingLevel[] _loggingLevels;
-        
+    private readonly ObservableCollection<ScheduleFileItem> _scheduleFiles;
+    private FileSystemWatcher? _scheduleFileWatcher;
+    
     public SettingsPageViewModel(
         IMonitorsService monitorsService,
         IBellService bellService,
@@ -59,6 +66,7 @@ public class SettingsPageViewModel : ObservableObject, IPage
         // subscriptions...
         WeakReferenceMessenger.Default.Register<ShutDownMessage>(this, OnShutDown);
         WeakReferenceMessenger.Default.Register<BellStatusChangedMessage>(this, OnBellChanged);
+        WeakReferenceMessenger.Default.Register<ScheduleFileNotFoundMessage>(this, OnScheduleFileNotFound);
 
         _optionsService = optionsService;
         _snackbarService = snackbarService;
@@ -81,12 +89,22 @@ public class SettingsPageViewModel : ObservableObject, IPage
         _ports = GetPorts().ToArray();
         _persistDurationItems = Options.GetPersistDurationItems();
         _loggingLevels = GetLoggingLevels();
-
+        _scheduleFiles = new ObservableCollection<ScheduleFileItem>(GetScheduleFiles());
+        
         // commands...
         NavigateOperatorCommand = new RelayCommand(NavigateOperatorPage);
         TestBellCommand = new RelayCommand(TestBell, IsNotPlayingBell);
         OpenPortCommand = new RelayCommand(ReserveAndOpenPort);
         WebClockUrlLinkCommand = new RelayCommand(OpenWebClockLink);
+    }
+
+    private void OnScheduleFileNotFound(object recipient, ScheduleFileNotFoundMessage message)
+    {
+        Application.Current.Dispatcher.BeginInvoke(() =>
+        {
+            OnPropertyChanged(nameof(OperatingMode));
+            OnPropertyChanged(nameof(IsScheduleFileModeSelected));
+        });
     }
 
     public static string PageName => "SettingsPage";
@@ -112,6 +130,7 @@ public class SettingsPageViewModel : ObservableObject, IPage
         }
     }
 
+    // ReSharper disable once InconsistentNaming
     public bool IsTimerMonitorOnNDI => _commandLineService.IsTimerNdi;
 
     public bool IsTimerMonitorViaCommandLine => _optionsService.IsTimerMonitorSetByCommandLine;
@@ -266,7 +285,24 @@ public class SettingsPageViewModel : ObservableObject, IPage
             {
                 _optionsService.Options.OperatingMode = value;
                 OnPropertyChanged();
+                OnPropertyChanged(nameof(IsScheduleFileModeSelected));
                 WeakReferenceMessenger.Default.Send(new OperatingModeChangedMessage());
+            }
+        }
+    }
+
+    public bool IsScheduleFileModeSelected => _optionsService.Options.OperatingMode == OperatingMode.ScheduleFile;
+
+    public string? ScheduleFile
+    {
+        get => _optionsService.Options.ScheduleFile;
+        set
+        {
+            if (_optionsService.Options.ScheduleFile != value)
+            {
+                _optionsService.Options.ScheduleFile = value;
+                OnPropertyChanged();
+                WeakReferenceMessenger.Default.Send(new ScheduleFileChangedMessage());
             }
         }
     }
@@ -372,6 +408,19 @@ public class SettingsPageViewModel : ObservableObject, IPage
             if (_optionsService.Options.PersistStudentTime != value)
             {
                 _optionsService.Options.PersistStudentTime = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
+    public bool ShowPersistCountdown
+    {
+        get => _optionsService.Options.ShowPersistCountdown;
+        set
+        {
+            if (_optionsService.Options.ShowPersistCountdown != value)
+            {
+                _optionsService.Options.ShowPersistCountdown = value;
                 OnPropertyChanged();
             }
         }
@@ -557,7 +606,23 @@ public class SettingsPageViewModel : ObservableObject, IPage
         }
     }
 
+    public bool ShowPauseButton
+    {
+        get => _optionsService.Options.ShowPauseButton;
+        set
+        {
+            if (_optionsService.Options.ShowPauseButton != value)
+            {
+                _optionsService.Options.ShowPauseButton = value;
+                OnPropertyChanged();
+                WeakReferenceMessenger.Default.Send(new ShowPauseButtonChangedMessage());
+            }
+        }
+    }
+
     public IEnumerable<LoggingLevel> LoggingLevels => _loggingLevels;
+
+    public IEnumerable<ScheduleFileItem> ScheduleFiles => _scheduleFiles;
 
     public LogEventLevel LogEventLevel
     {
@@ -789,6 +854,19 @@ public class SettingsPageViewModel : ObservableObject, IPage
         }
     }
 
+    public bool WebClockShowTimeOfDaySeconds
+    {
+        get => _optionsService.Options.WebClockShowTimeOfDaySeconds;
+        set
+        {
+            if (_optionsService.Options.WebClockShowTimeOfDaySeconds != value)
+            {
+                _optionsService.Options.WebClockShowTimeOfDaySeconds = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+
     public bool IsApiEnabled
     {
         get => _optionsService.Options.IsApiEnabled;
@@ -928,6 +1006,87 @@ public class SettingsPageViewModel : ObservableObject, IPage
     {
         // may be changed on operator page...
         OnPropertyChanged(nameof(IsCircuitVisit));
+
+        StartScheduleFileWatcher();
+    }
+
+    public void Deactivated()
+    {
+        StopScheduleFileWatcher();
+    }
+
+    private void StartScheduleFileWatcher()
+    {
+        if (_scheduleFileWatcher != null)
+        {
+            return;
+        }
+
+        var folder = FileUtils.GetSchedulesFolderPath();
+        _scheduleFileWatcher = new FileSystemWatcher(folder, "*.xml")
+        {
+            NotifyFilter = NotifyFilters.FileName,
+            EnableRaisingEvents = true
+        };
+
+        _scheduleFileWatcher.Created += OnScheduleFolderChanged;
+        _scheduleFileWatcher.Deleted += OnScheduleFolderChanged;
+        _scheduleFileWatcher.Renamed += OnScheduleFolderChanged;
+    }
+
+    private void StopScheduleFileWatcher()
+    {
+        if (_scheduleFileWatcher == null)
+        {
+            return;
+        }
+
+        _scheduleFileWatcher.EnableRaisingEvents = false;
+        _scheduleFileWatcher.Created -= OnScheduleFolderChanged;
+        _scheduleFileWatcher.Deleted -= OnScheduleFolderChanged;
+        _scheduleFileWatcher.Renamed -= OnScheduleFolderChanged;
+        _scheduleFileWatcher.Dispose();
+        _scheduleFileWatcher = null;
+    }
+
+    private void OnScheduleFolderChanged(object sender, FileSystemEventArgs e)
+    {
+        Application.Current?.Dispatcher.BeginInvoke(
+            DispatcherPriority.Background,
+            new Action(RefreshScheduleFiles));
+    }
+
+    private void RefreshScheduleFiles()
+    {
+        var selectedScheduleFile = _optionsService.Options.ScheduleFile;
+        var files = GetScheduleFiles();
+        var selectionStillExists = !string.IsNullOrEmpty(selectedScheduleFile) && files.Any(f => f.FileName == selectedScheduleFile);
+        var contentsChanged = _scheduleFiles.Count != files.Length || !_scheduleFiles.SequenceEqual(files);
+
+        if (contentsChanged)
+        {
+            _scheduleFiles.Clear();
+
+            foreach (var file in files)
+            {
+                _scheduleFiles.Add(file);
+            }
+
+            OnPropertyChanged(nameof(ScheduleFiles));
+        }
+
+        if (selectionStillExists)
+        {
+            _optionsService.Options.ScheduleFile = selectedScheduleFile;
+            OnPropertyChanged(nameof(ScheduleFile));
+            WeakReferenceMessenger.Default.Send(new ScheduleFileChangedMessage());
+        }
+        else if (!string.IsNullOrEmpty(selectedScheduleFile))
+        {
+            _optionsService.Options.ScheduleFile = null;
+            OnPropertyChanged(nameof(ScheduleFile));
+            WeakReferenceMessenger.Default.Send(new ScheduleFileChangedMessage());
+        }
     }
 
     private void OnShutDown(object recipient, ShutDownMessage obj)
@@ -1040,6 +1199,23 @@ public class SettingsPageViewModel : ObservableObject, IPage
         return result.ToArray();
     }
 
+    private static ScheduleFileItem[] GetScheduleFiles()
+    {
+        try
+        {
+            var folder = FileUtils.GetSchedulesFolderPath();
+            return Directory.GetFiles(folder, "*.xml")
+                .Select(f => new ScheduleFileItem(Path.GetFileName(f)))
+                .OrderBy(f => f.DisplayName)
+                .ToArray();
+        }
+        catch (Exception ex)
+        {
+            Log.Logger.Error(ex, "Could not read schedule files from TalkSchedules folder");
+            return [];
+        }
+    }
+
     private void OnBellChanged(object recipient, BellStatusChangedMessage message)
     {
         TestBellCommand.NotifyCanExecuteChanged();
@@ -1115,6 +1291,7 @@ public class SettingsPageViewModel : ObservableObject, IPage
             // other supported languages
             CreateLanguageItem("ca-ES"),
             CreateLanguageItem("cs-CZ"),
+            CreateLanguageItem("da-DK"),
             CreateLanguageItem("de-DE"),
             CreateLanguageItem("el-GR"),
             CreateLanguageItem("en-US"),

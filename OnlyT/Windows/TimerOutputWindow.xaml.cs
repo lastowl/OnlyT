@@ -2,6 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
 using CommunityToolkit.Mvvm.Messaging;
@@ -41,7 +42,7 @@ namespace OnlyT.Windows
             if (commandLineService.IsTimerNdi)
             {
                 NdiSender.IsSendPaused = false;
-                NdiSender.NdiName = "OnlyT"; // required to trigger initilisation of NDI
+                NdiSender.NdiName = "OnlyT"; // required to trigger initialisation of NDI
             }
 #pragma warning restore CA1416
 
@@ -92,9 +93,54 @@ namespace OnlyT.Windows
             if (_persistingTalkDuration)
             {
                 _persistingTalkDuration = false;
+                StopPersistBar();
                 AdjustDisplayOnTimerStop();
                 _persistTimer.Stop();
             }
+        }
+
+        private void StartPersistBar()
+        {
+            if (!_optionsService.Options.ShowPersistCountdown)
+            {
+                return;
+            }
+
+            PersistFillCol.BeginAnimation(ColumnDefinition.WidthProperty, null);
+            PersistEmptyCol.BeginAnimation(ColumnDefinition.WidthProperty, null);
+            PersistFillCol.Width = new GridLength(1, GridUnitType.Star);
+            PersistEmptyCol.Width = new GridLength(0, GridUnitType.Star);
+            PersistBarHost.Visibility = Visibility.Visible;
+
+            // Apply rounded rectangle clip to mask the inner border within the outer border's shape
+            var persistGrid = (Grid)PersistBarHost.Child;
+            var clipGeometry = new RectangleGeometry(
+                new Rect(0, 0, PersistBarHost.ActualWidth, PersistBarHost.ActualHeight),
+                18, 18); // CornerRadius matches the Border's CornerRadius
+            persistGrid.Clip = clipGeometry;
+
+            var duration = new Duration(TimeSpan.FromSeconds(_optionsService.Options.PersistDurationSecs));
+
+            PersistFillCol.BeginAnimation(ColumnDefinition.WidthProperty, new GridLengthAnimation
+            {
+                From = new GridLength(1, GridUnitType.Star),
+                To = new GridLength(0, GridUnitType.Star),
+                Duration = duration
+            });
+
+            PersistEmptyCol.BeginAnimation(ColumnDefinition.WidthProperty, new GridLengthAnimation
+            {
+                From = new GridLength(0, GridUnitType.Star),
+                To = new GridLength(1, GridUnitType.Star),
+                Duration = duration
+            });
+        }
+
+        private void StopPersistBar()
+        {
+            PersistFillCol.BeginAnimation(ColumnDefinition.WidthProperty, null);
+            PersistEmptyCol.BeginAnimation(ColumnDefinition.WidthProperty, null);
+            PersistBarHost.Visibility = Visibility.Hidden;
         }
 
         private void OnNavigate(object recipient, NavigateMessage message)
@@ -103,15 +149,21 @@ namespace OnlyT.Windows
             {
                 // when the settings page is displayed we ensure that the 
                 // display is split so that we can easily adjust the split 
-                // position...
-                var model = (TimerOutputWindowViewModel)DataContext;
-                model.TimeString = TimeFormatter.FormatTimerDisplayString(0);
-                DisplaySplitScreen();
+                // position... unless we're currently persisting
+                if (!_persistingTalkDuration)
+                {
+                    var model = (TimerOutputWindowViewModel)DataContext;
+                    model.TimeString = TimeFormatter.FormatTimerDisplayString(0);
+                    DisplaySplitScreen();
+                }
             }
             else if (message.OriginalPageName.Equals(SettingsPageViewModel.PageName))
             {
-                // restore to full screen time of day...
-                DisplayFullScreenTimeOfDay();
+                // restore to full screen time of day... unless we're currently persisting
+                if (!_persistingTalkDuration)
+                {
+                    DisplayFullScreenTimeOfDay();
+                }
             }
         }
 
@@ -122,9 +174,11 @@ namespace OnlyT.Windows
                 _persistingTalkDuration = true;
                 _persistTimer.Interval = TimeSpan.FromSeconds(_optionsService.Options.PersistDurationSecs);
                 _persistTimer.Start();
+                StartPersistBar();
             }
             else
             {
+                StopPersistBar();
                 AdjustDisplayOnTimerStop();
             }
         }
@@ -240,16 +294,22 @@ namespace OnlyT.Windows
         private void OnTimerStarted(object recipient, TimerStartMessage msg)
         {
             var model = (TimerOutputWindowViewModel)DataContext;
-            if (!model.SplitAndFullScreenModeIdentical() && !_persistingTalkDuration)
+            model.TextColor = GreenYellowRedSelector.GetGreenBrush();
+
+            if (_persistingTalkDuration)
             {
-                model.TextColor = GreenYellowRedSelector.GetGreenBrush();
-                
+                _persistingTalkDuration = false;
+                _persistTimer.Stop();
+                StopPersistBar();
+                // Ensure TimerPanel is visible after persist ends
+                TimerPanel.Opacity = 1.0;
+            }
+            else if (!model.SplitAndFullScreenModeIdentical())
+            {
                 // only animate if the user has configured different display
                 // layout for timer mode and full-screen mode
                 DisplaySplitScreen();
             }
-
-            _persistingTalkDuration = false;
         }
 
         private void DisplaySplitScreen()
@@ -377,7 +437,7 @@ namespace OnlyT.Windows
             }
         }
 
-        private void Window_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             var isWindowed = ((TimerOutputWindowViewModel)DataContext).WindowedOperation;
 

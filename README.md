@@ -26,8 +26,8 @@ A cross-platform meeting timer built with C# and Avalonia UI (with the original 
 
 **Windows (WPF Version):**
 * Windows 10
-* 2GB RAM
-* 20MB Hard disk space
+* 4GB RAM
+* 120MB Hard disk space
 * Internet connection (for "Automatic" Operating Mode only)
 
 **Cross-Platform (Avalonia Version):**
@@ -76,7 +76,7 @@ See the [FAQ](https://github.com/AntonyCorbett/OnlyT/wiki/FAQ) for frequently as
 
 ### License, etc
 
-This fork is based on OnlyT, Copyright &copy; 2018, 2024 Antony Corbett and other contributors under the [MIT license](LICENSE). Fork modifications are also released under the MIT license.
+This fork is based on OnlyT, Copyright &copy; 2018, 2026 Antony Corbett and other contributors under the [MIT license](LICENSE). Fork modifications are also released under the MIT license.
 
 NAudio (Mark Heath) is used under the Microsoft Public License (Ms-PL). MaterialDesign themes (James Willock, Mulholland Software and Contributors) is used under the MIT license. NUglify, Copyright (c) 2016, Alexandre Mutel. QRCode (Raffael Herrmann) is used under MIT. Serilog is used under the Apache License Version 2.0, January 2004. LiteDB (Mauricio David) is used under the MIT License. PDFSharp is used under the MIT License.
 

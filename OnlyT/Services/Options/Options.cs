@@ -86,6 +86,8 @@
 
         public OperatingMode OperatingMode { get; set; }
 
+        public string? ScheduleFile { get; set; }
+
         public ScreenLocation CountdownScreenLocation { get; set; }
 
         public MidWeekOrWeekend MidWeekOrWeekend { get; set; }
@@ -95,6 +97,8 @@
         public bool ShowCircuitVisitToggle { get; set; }
 
         public bool PersistStudentTime { get; set; }
+
+        public bool ShowPersistCountdown { get; set; }
 
         public bool AlwaysOnTop { get; set; }
 
@@ -140,9 +144,13 @@
 
         public bool IsWebClockEnabled { get; set; }
 
+        public bool WebClockShowTimeOfDaySeconds { get; set; }
+
         public bool DarkModeToggle { get; set; }
         
         public bool AllowCountUpToggle { get; set; }
+
+        public bool ShowPauseButton { get; set; }
 
         public MeetingStartTimes.MeetingStartTimes MeetingStartTimes { get; set; }
 

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\" -Force | Select-Object Name, @{Name=\"IsDir\";Expression={$_.PSIsContainer}} | Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\\\\WebServer\\\\Models\" -File)",
+      "Bash(Select-Object Name)",
+      "Bash(cd /d D:\\\\ProjectsPersonal\\\\OnlyT)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet test *)",
+      "Bash(dotnet script *)",
+      "Bash(dotnet fsi *)",
+      "Bash(cat)",
+      "Bash(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\" -Directory)",
+      "PowerShell(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\\\\OnlyT.WebClient\" -Recurse -File | Where-Object {$_.Extension -in @\\('.html', '.css', '.js', '.ts', '.tsx'\\)} | Select-Object FullName)",
+      "Bash(Get-ChildItem -Path \"D:\\\\ProjectsPersonal\\\\OnlyT\" -Recurse -Directory)",
+      "Bash(Select-Object -First 20)",
+      "Bash(Format-Table FullName)"
+    ]
+  }
+}

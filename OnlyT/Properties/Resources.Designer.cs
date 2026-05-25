@@ -19,7 +19,7 @@ namespace OnlyT.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -57,6 +57,15 @@ namespace OnlyT.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Accept duration.
+        /// </summary>
+        public static string ACCEPT_DURATION {
+            get {
+                return ResourceManager.GetString("ACCEPT_DURATION", resourceCulture);
             }
         }
         
@@ -196,11 +205,29 @@ namespace OnlyT.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Back to operator page.
+        /// </summary>
+        public static string BACK_TO_OPERATOR {
+            get {
+                return ResourceManager.GetString("BACK_TO_OPERATOR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BELL.
         /// </summary>
         public static string BELL_SECTION {
             get {
                 return ResourceManager.GetString("BELL_SECTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Toggle bell.
+        /// </summary>
+        public static string BELL_TOGGLE {
+            get {
+                return ResourceManager.GetString("BELL_TOGGLE", resourceCulture);
             }
         }
         
@@ -296,32 +323,46 @@ namespace OnlyT.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
-        ///&lt;html style=&quot;display:block; height:100%; margin:0; padding:0&quot;&gt;
+        ///&lt;html&gt;
         ///	&lt;head&gt;
-        ///		&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;/&gt;		
+        ///		&lt;meta charset=&quot;UTF-8&quot;&gt;
+        ///		&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
         ///		&lt;title&gt;OnlyT Clock&lt;/title&gt;
-        ///		&lt;style type=&quot;text/css&quot;&gt;			
-        ///			html 
-        ///			{
+        ///		{SHARED_JS}
+        ///		&lt;style&gt;
+        ///			html {
         ///				font-family: sans-serif;
         ///				background: #000000;
+        ///				margin: 0;
+        ///				height: 100%;
+        ///				overflow: hidden;
         ///			}
-        ///			.clockstyle 
-        ///			{
-        ///				font-family: sans-serif;
-        ///				font-weight: bold;
-        ///				color: #FFFFFF;
+        ///
+        ///			body {
+        ///				display: flex;
+        ///				flex-direction: column;
+        ///				height: 100%;
+        ///				height: 100dvh;
+        ///				overflow: hidden;
+        ///				margin: 0;
         ///			}
-        ///			.clockstyle_yellow
-        ///			{
-        ///				font-family: sans-serif;
-        ///				font-weight: bold;
-        ///				color: #FFFF66;
-        ///		 [rest of string was truncated]&quot;;.
+        ///
+        ///			#main {
+        ///				flex: 1;
+        ///				min-height:  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string ClockHtmlTemplate {
             get {
                 return ResourceManager.GetString("ClockHtmlTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close application.
+        /// </summary>
+        public static string CLOSE_APP {
+            get {
+                return ResourceManager.GetString("CLOSE_APP", resourceCulture);
             }
         }
         
@@ -533,6 +574,15 @@ namespace OnlyT.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edit duration.
+        /// </summary>
+        public static string EDIT_DURATION {
+            get {
+                return ResourceManager.GetString("EDIT_DURATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enabled.
         /// </summary>
         public static string ENABLED {
@@ -565,6 +615,24 @@ namespace OnlyT.Properties {
         public static string ENABLED_WEB_CLOCK {
             get {
                 return ResourceManager.GetString("ENABLED_WEB_CLOCK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter a valid duration..
+        /// </summary>
+        public static string ENTER_VALID_DURATION {
+            get {
+                return ResourceManager.GetString("ENTER_VALID_DURATION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Expand window.
+        /// </summary>
+        public static string EXPAND_WINDOW {
+            get {
+                return ResourceManager.GetString("EXPAND_WINDOW", resourceCulture);
             }
         }
         
@@ -1019,6 +1087,24 @@ namespace OnlyT.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pause timer.
+        /// </summary>
+        public static string PAUSE_TIMER {
+            get {
+                return ResourceManager.GetString("PAUSE_TIMER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show persist countdown bar.
+        /// </summary>
+        public static string PERSIST_COUNTDOWN_BAR {
+            get {
+                return ResourceManager.GetString("PERSIST_COUNTDOWN_BAR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Persist student time.
         /// </summary>
         public static string PERSIST_STUDENT_TIME {
@@ -1087,6 +1173,24 @@ namespace OnlyT.Properties {
         public static string RESTART_LANGUAGE {
             get {
                 return ResourceManager.GetString("RESTART_LANGUAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Schedule file.
+        /// </summary>
+        public static string SCHEDULE_FILE {
+            get {
+                return ResourceManager.GetString("SCHEDULE_FILE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Schedule file not found - switching to manual mode.
+        /// </summary>
+        public static string SCHEDULE_FILE_NOT_FOUND {
+            get {
+                return ResourceManager.GetString("SCHEDULE_FILE_NOT_FOUND", resourceCulture);
             }
         }
         
@@ -1226,6 +1330,65 @@ namespace OnlyT.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;script&gt;
+        ///&quot;use strict&quot;;
+        ///
+        ///function formatMajorMinor(major, minor) {
+        ///    return String(major).padStart(2, &apos;0&apos;) + &apos;:&apos; + String(minor).padStart(2, &apos;0&apos;);
+        ///}
+        ///
+        ///function getTimeDisplayStringCountingUp(elapsedSecs) {
+        ///    let integralSecs = Math.abs(Math.floor(elapsedSecs % 60));
+        ///    let integralMins = Math.abs(Math.floor(elapsedSecs / 60));
+        ///
+        ///    if (integralSecs === 60) {
+        ///        integralSecs = 0;
+        ///        ++integralMins;
+        ///    }
+        ///
+        ///    return formatMajorMinor(integralMins, integralSecs);
+        ///}
+        ///
+        ///function get [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SharedClockJs {
+            get {
+                return ResourceManager.GetString("SharedClockJs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;style&gt;
+        ///#snackbar {
+        ///    display: flex;
+        ///    align-items: center;
+        ///    gap: 8px;
+        ///    min-width: 200px;
+        ///    max-width: 80%;
+        ///    background-color: rgba(40, 40, 40, 0.96);
+        ///    color: #fff;
+        ///    border-radius: 8px;
+        ///    padding: 10px 14px;
+        ///    position: fixed;
+        ///    bottom: 50px;
+        ///    left: 50%;
+        ///    transform: translateX(-50%);
+        ///    z-index: 1000;
+        ///    font-size: 0.75em;
+        ///    border: 1px solid rgba(255, 255, 255, 0.12);
+        ///    opacity: 0;
+        ///    pointer-events: none;
+        ///    transition: opacity 0.3s ease;
+        ///}
+        ///#s [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SharedSnackbar {
+            get {
+                return ResourceManager.GetString("SharedSnackbar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate reports.
         /// </summary>
         public static string SHOULD_GENERATE_REPORTS {
@@ -1249,6 +1412,15 @@ namespace OnlyT.Properties {
         public static string SHOW_COUNTDOWN_FRAME {
             get {
                 return ResourceManager.GetString("SHOW_COUNTDOWN_FRAME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show pause button.
+        /// </summary>
+        public static string SHOW_PAUSE {
+            get {
+                return ResourceManager.GetString("SHOW_PAUSE", resourceCulture);
             }
         }
         
@@ -1294,6 +1466,42 @@ namespace OnlyT.Properties {
         public static string SPLIT_WIDTH {
             get {
                 return ResourceManager.GetString("SPLIT_WIDTH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start timer.
+        /// </summary>
+        public static string START_TIMER {
+            get {
+                return ResourceManager.GetString("START_TIMER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stop timer.
+        /// </summary>
+        public static string STOP_TIMER {
+            get {
+                return ResourceManager.GetString("STOP_TIMER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SWITCH.
+        /// </summary>
+        public static string SWITCH {
+            get {
+                return ResourceManager.GetString("SWITCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abandon current meeting and switch schedule file?.
+        /// </summary>
+        public static string SWITCH_SCHEDULE_CONFIRM {
+            get {
+                return ResourceManager.GetString("SWITCH_SCHEDULE_CONFIRM", resourceCulture);
             }
         }
         
@@ -1384,6 +1592,15 @@ namespace OnlyT.Properties {
         public static string TALK_READING {
             get {
                 return ResourceManager.GetString("TALK_READING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select talk.
+        /// </summary>
+        public static string TALK_SELECTOR {
+            get {
+                return ResourceManager.GetString("TALK_SELECTOR", resourceCulture);
             }
         }
         
@@ -1482,6 +1699,15 @@ namespace OnlyT.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Timer display.
+        /// </summary>
+        public static string TIMER_DISPLAY {
+            get {
+                return ResourceManager.GetString("TIMER_DISPLAY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Note that output is set to NDI via a command-line setting..
         /// </summary>
         public static string TIMER_ON_NDI {
@@ -1521,22 +1747,24 @@ namespace OnlyT.Properties {
         ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
         ///&lt;html&gt;
         ///&lt;head&gt;
-        ///    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+        ///    &lt;meta charset=&quot;UTF-8&quot;&gt;
         ///    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
         ///    &lt;title&gt;OnlyT Timers&lt;/title&gt;
-        ///    &lt;style type=&quot;text/css&quot;&gt;
+        ///    {SHARED_JS}
+        ///    &lt;style&gt;
         ///        html {
-        ///            font-family: sans-serif;
+        ///            font-family: &apos;Segoe UI&apos;, system-ui, sans-serif;
         ///            background: #000000;
-        ///            display: block;
-        ///            height: 100%;
         ///            margin: 0;
         ///            padding: 0;
+        ///            height: 100%;
         ///        }
         ///
         ///        body {
-        ///            display: table;
-        ///            width [rest of string was truncated]&quot;;.
+        ///            display: flex;
+        ///            flex-direction: column;
+        ///            min-height: 100%;
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         public static string TimersHtmlTemplate {
             get {
@@ -1568,6 +1796,15 @@ namespace OnlyT.Properties {
         public static string VOLUME {
             get {
                 return ResourceManager.GetString("VOLUME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show seconds in time of day.
+        /// </summary>
+        public static string WEB_CLOCK_SHOW_TOD_SECONDS {
+            get {
+                return ResourceManager.GetString("WEB_CLOCK_SHOW_TOD_SECONDS", resourceCulture);
             }
         }
         

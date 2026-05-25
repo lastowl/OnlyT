@@ -139,7 +139,13 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
   <data name="ClockHtmlTemplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ClockHtmlTemplate.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+    <value>..\Resources\ClockHtmlTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="SharedClockJs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SharedClockJsTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="SharedSnackbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SharedSnackbarTemplate.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
     <value>12-timmar (0:00)</value>
@@ -403,6 +409,10 @@
     <value>Visa elevens tid</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Visa nedräkningsfält för återstående visningstid</value>
+    <comment>Show a progress bar during the persist period that indicates how long remains</comment>
+  </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
     <value>Visa talets tid</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
@@ -489,6 +499,10 @@ Shift - Öka 5m</value>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
     <value>Aktiverad</value>
   </data>
+  <data name="WEB_CLOCK_SHOW_TOD_SECONDS" xml:space="preserve">
+    <value>Visa sekunder i tiden på dygnet</value>
+    <comment>See Settings, Clock section. Determines if seconds are shown in the web clock when displaying time of day.</comment>
+  </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Visa sekunder</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
@@ -560,6 +574,18 @@ Shift - Öka 5m</value>
   <data name="GENERATING_REPORT" xml:space="preserve">
     <value>Tidrapport skapad</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Schemaläggningsfil</value>
+  </data>
+  <data name="SCHEDULE_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Schemaläggningsfil hittades inte – växlar till manuellt läge</value>
+  </data>
+  <data name="SWITCH_SCHEDULE_CONFIRM" xml:space="preserve">
+    <value>Avsluta pågående möte och byta schemaläggningsfil?</value>
+  </data>
+  <data name="SWITCH" xml:space="preserve">
+    <value>BYTA</value>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
     <value>Skapa tidrapport</value>
@@ -743,5 +769,53 @@ Shift - Öka 5m</value>
   <data name="ALLOW_MOUSE_WHEEL_TIMER_ADJUST" xml:space="preserve">
     <value>Tillåt att mushjulet justerar timern</value>
     <comment>See Settings, Miscellaneous</comment>
+  </data>
+  <data name="START_TIMER" xml:space="preserve">
+    <value>Starta timer</value>
+    <comment>Accessible name for the Start button on the operator page</comment>
+  </data>
+  <data name="STOP_TIMER" xml:space="preserve">
+    <value>Stoppa timer</value>
+    <comment>Accessible name for the Stop button on the operator page</comment>
+  </data>
+  <data name="EXPAND_WINDOW" xml:space="preserve">
+    <value>Expandera fönster</value>
+    <comment>Accessible name for the expand button shown in shrink mode</comment>
+  </data>
+  <data name="CLOSE_APP" xml:space="preserve">
+    <value>Stäng programmet</value>
+    <comment>Accessible name for the close application button shown in shrink mode</comment>
+  </data>
+  <data name="TIMER_DISPLAY" xml:space="preserve">
+    <value>Timerdisplay</value>
+    <comment>Accessible name for the timer display area on the operator page</comment>
+  </data>
+  <data name="BELL_TOGGLE" xml:space="preserve">
+    <value>Växla klocksignal</value>
+    <comment>Accessible name for the bell toggle button when no specific tooltip is available</comment>
+  </data>
+  <data name="TALK_SELECTOR" xml:space="preserve">
+    <value>Välj tal</value>
+    <comment>Accessible name for the talk selector combo box on the operator page</comment>
+  </data>
+  <data name="BACK_TO_OPERATOR" xml:space="preserve">
+    <value>Tillbaka</value>
+    <comment>Accessible name for the back navigation button on the settings page</comment>
+  </data>
+  <data name="ENTER_VALID_DURATION" xml:space="preserve">
+    <value>Ogiltig varaktighet.</value>
+    <comment>Error msg displayed when manually entering a bad duration</comment>
+  </data>
+  <data name="ACCEPT_DURATION" xml:space="preserve">
+    <value>Bekräfta</value>
+  </data>
+  <data name="EDIT_DURATION" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="PAUSE_TIMER" xml:space="preserve">
+    <value>Pausa timer</value>
+  </data>
+  <data name="SHOW_PAUSE" xml:space="preserve">
+    <value>Visa paus-knapp</value>
   </data>
 </root>
