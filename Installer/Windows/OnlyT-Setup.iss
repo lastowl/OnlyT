@@ -2,7 +2,7 @@
 ; This script creates a Windows installer that bundles OnlyT and the StreamDeck plugin
 
 #define MyAppName "OnlyT"
-#define MyAppVersion "2.4.0.18"
+#define MyAppVersion "2.5.0.8"
 #define MyAppPublisher "OnlyT"
 #define MyAppURL "https://github.com/lastowl/OnlyT"
 #define MyAppExeName "OnlyT.exe"
@@ -91,9 +91,12 @@ Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\
 ; Avalonia version shortcuts
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
-; WPF Classic version shortcuts
-Name: "{autoprograms}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: classicversion
-Name: "{autodesktop}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: desktopicon and classicversion
+; WPF Classic version shortcuts — only created when the Classic exe was
+; actually installed. The Classic (WPF) build requires Windows and is absent
+; from the cross-platform release pipeline, so without this guard the shortcut
+; would dangle and show a blank/broken icon.
+Name: "{autoprograms}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: classicversion; Check: ClassicExeExists
+Name: "{autodesktop}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: desktopicon and classicversion; Check: ClassicExeExists
 
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
@@ -103,6 +106,13 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChang
 function IsStreamDeckInstalled(): Boolean;
 begin
   Result := DirExists(ExpandConstant('{localappdata}\Elgato\StreamDeck'));
+end;
+
+// True only if the WPF "Classic" executable was actually installed. Used to
+// suppress dangling Classic shortcuts when the Classic build isn't shipped.
+function ClassicExeExists(): Boolean;
+begin
+  Result := FileExists(ExpandConstant('{app}\Classic\{#MyAppExeName}'));
 end;
 
 // Called when wizard page changes - use this to modify task list when tasks page is shown
