@@ -143,6 +143,19 @@ cd publish && zip -r ../dist/Windows/OnlyT-${VERSION}-win-x64-portable.zip win-x
 
 **Output**: `dist/Windows/OnlyT-{version}-win-x64-portable.zip`
 
+### Windows ARM64 Portable
+
+```bash
+dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj \
+  -c Release -r win-arm64 --self-contained true \
+  -p:PublishSingleFile=false -o publish/win-arm64
+
+mkdir -p dist/Windows
+cd publish && zip -r ../dist/Windows/OnlyT-${VERSION}-win-arm64-portable.zip win-arm64 && cd ..
+```
+
+**Output**: `dist/Windows/OnlyT-{version}-win-arm64-portable.zip`
+
 ### Windows Installer (via CrossOver)
 
 Requires Inno Setup installed in CrossOver bottle "Test".
@@ -192,10 +205,14 @@ cd publish && tar -czvf ../dist/Linux/OnlyT-${VERSION}-linux-x64.tar.gz linux-x6
 dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r linux-arm64 --self-contained true -p:PublishSingleFile=false -o publish/linux-arm64
 cd publish && tar -czvf ../dist/Linux/OnlyT-${VERSION}-linux-arm64.tar.gz linux-arm64 && cd ..
 
-# 4. Windows portable
+# 4. Windows portable (x64)
 dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o publish/win-x64
 mkdir -p dist/Windows
 cd publish && zip -r ../dist/Windows/OnlyT-${VERSION}-win-x64-portable.zip win-x64 && cd ..
+
+# 4b. Windows portable (ARM64)
+dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r win-arm64 --self-contained true -p:PublishSingleFile=false -o publish/win-arm64
+cd publish && zip -r ../dist/Windows/OnlyT-${VERSION}-win-arm64-portable.zip win-arm64 && cd ..
 
 # 5. Windows installer (via CrossOver)
 /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin/wine --bottle Test \
@@ -207,6 +224,7 @@ cd StreamDeck && zip -r ../dist/com.onlyt.timer-${VERSION}.streamDeckPlugin com.
 
 # 7. Verify all artifacts
 ls -lh dist/macOS/*.dmg dist/Linux/*.tar.gz dist/Windows/*.exe dist/Windows/*.zip dist/*.streamDeckPlugin
+# (Windows ZIPs: both win-x64-portable.zip and win-arm64-portable.zip)
 ```
 
 ---
@@ -231,7 +249,8 @@ gh release create v${VERSION} \
 | Platform | File | Notes |
 |----------|------|-------|
 | Windows | OnlyT-Setup-${VERSION}.exe | Installer with optional Stream Deck plugin |
-| Windows | OnlyT-${VERSION}-win-x64-portable.zip | Portable archive |
+| Windows | OnlyT-${VERSION}-win-x64-portable.zip | Portable archive (x64) |
+| Windows (ARM64) | OnlyT-${VERSION}-win-arm64-portable.zip | Portable archive for ARM (Surface, Snapdragon, etc.) |
 | macOS (Universal) | OnlyT-${VERSION}-universal.dmg | Intel + Apple Silicon, signed & notarized |
 | Linux (x64) | OnlyT-${VERSION}-linux-x64.tar.gz | Portable archive |
 | Linux (ARM64) | OnlyT-${VERSION}-linux-arm64.tar.gz | Portable archive for ARM |
@@ -251,6 +270,7 @@ EOF
   dist/Linux/OnlyT-${VERSION}-linux-x64.tar.gz \
   dist/Linux/OnlyT-${VERSION}-linux-arm64.tar.gz \
   dist/Windows/OnlyT-${VERSION}-win-x64-portable.zip \
+  dist/Windows/OnlyT-${VERSION}-win-arm64-portable.zip \
   dist/com.onlyt.timer-${VERSION}.streamDeckPlugin
 ```
 
