@@ -7,7 +7,7 @@ set -e
 
 # Configuration
 APP_NAME="OnlyT"
-APP_VERSION="2.5.0.8"
+APP_VERSION="2.5.0.9"
 BUNDLE_ID="com.onlyt.timer"
 
 # Signing/Notarization Configuration (optional - leave empty to skip)
@@ -16,6 +16,7 @@ DEVELOPER_ID_APP="${DEVELOPER_ID_APP:-}"  # "Developer ID Application: Your Name
 APPLE_ID="${APPLE_ID:-}"                   # your-apple-id@example.com
 TEAM_ID="${TEAM_ID:-}"                     # YOUR_TEAM_ID
 APP_SPECIFIC_PASSWORD="${APP_SPECIFIC_PASSWORD:-}"  # xxxx-xxxx-xxxx-xxxx from appleid.apple.com
+NOTARY_PROFILE="${NOTARY_PROFILE:-}"       # notarytool keychain profile (alternative to APPLE_ID/password)
 
 # Paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -40,7 +41,9 @@ CAN_NOTARIZE=false
 
 if [ -n "$DEVELOPER_ID_APP" ]; then
     CAN_SIGN=true
-    if [ -n "$APPLE_ID" ] && [ -n "$TEAM_ID" ] && [ -n "$APP_SPECIFIC_PASSWORD" ]; then
+    if [ -n "$NOTARY_PROFILE" ]; then
+        CAN_NOTARIZE=true
+    elif [ -n "$APPLE_ID" ] && [ -n "$TEAM_ID" ] && [ -n "$APP_SPECIFIC_PASSWORD" ]; then
         CAN_NOTARIZE=true
     fi
 fi
@@ -336,11 +339,17 @@ if [ "$CAN_NOTARIZE" = true ]; then
     echo "Step 6: Submitting for notarization..."
     echo "This may take several minutes..."
 
-    xcrun notarytool submit "$BUILD_DIR/$DMG_NAME" \
-        --apple-id "$APPLE_ID" \
-        --team-id "$TEAM_ID" \
-        --password "$APP_SPECIFIC_PASSWORD" \
-        --wait
+    if [ -n "$NOTARY_PROFILE" ]; then
+        xcrun notarytool submit "$BUILD_DIR/$DMG_NAME" \
+            --keychain-profile "$NOTARY_PROFILE" \
+            --wait
+    else
+        xcrun notarytool submit "$BUILD_DIR/$DMG_NAME" \
+            --apple-id "$APPLE_ID" \
+            --team-id "$TEAM_ID" \
+            --password "$APP_SPECIFIC_PASSWORD" \
+            --wait
+    fi
 
     # Step 7: Staple the ticket
     echo "Step 7: Stapling notarization ticket..."
