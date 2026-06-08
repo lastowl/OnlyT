@@ -172,6 +172,14 @@ build_windows() {
         fi
         print_success "Windows portable ZIP created"
     fi
+
+    # Windows ARM64 (Avalonia only) - portable ZIP
+    local arm_publish_dir="$PROJECT_ROOT/publish/win-arm64"
+    build_dotnet "win-arm64" "$arm_publish_dir"
+    mkdir -p "$DIST_DIR/Windows"
+    cd "$arm_publish_dir"
+    zip -r "$DIST_DIR/Windows/$APP_NAME-$APP_VERSION-win-arm64-portable.zip" .
+    print_success "Windows ARM64 portable ZIP created"
 }
 
 # Build for macOS
