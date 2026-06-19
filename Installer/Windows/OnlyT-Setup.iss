@@ -2,7 +2,11 @@
 ; This script creates a Windows installer that bundles OnlyT and the StreamDeck plugin
 
 #define MyAppName "OnlyT"
-#define MyAppVersion "2.5.0.10"
+; Version is normally passed by the build script (/DMyAppVersion=...) derived from SolutionInfo.cs;
+; this default is only used when compiling the .iss directly.
+#ifndef MyAppVersion
+  #define MyAppVersion "2.5.0.10"
+#endif
 #define MyAppPublisher "OnlyT"
 #define MyAppURL "https://github.com/lastowl/OnlyT"
 #define MyAppExeName "OnlyT.exe"
