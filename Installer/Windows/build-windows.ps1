@@ -59,4 +59,12 @@ if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed" }
 # 6. sign the installer
 $inst = Get-ChildItem "dist\Windows\OnlyT-Setup-*.exe" | Sort-Object LastWriteTime | Select-Object -Last 1
 Sign-File $inst.FullName
-Write-Host "=== DONE: $($inst.Name) (signed=$canSign) ===" -ForegroundColor Green
+
+# 7. portable zips (Avalonia x64 + arm64) with signed app exes
+dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r win-arm64 --self-contained true -p:PublishSingleFile=false -o publish/win-arm64
+Get-ChildItem "publish\win-arm64\*.exe" -EA SilentlyContinue | ForEach-Object { Write-Host "signing $($_.Name)"; Sign-File $_.FullName }
+Compress-Archive -Path "publish\win-x64\*"   -DestinationPath "dist\Windows\OnlyT-$ver-win-x64-portable.zip"   -Force
+Compress-Archive -Path "publish\win-arm64\*" -DestinationPath "dist\Windows\OnlyT-$ver-win-arm64-portable.zip" -Force
+
+Write-Host "=== DONE: installer + portable zips for $ver (signed=$canSign) ===" -ForegroundColor Green
+Get-ChildItem "dist\Windows" | Select-Object Name,Length | Format-Table -AutoSize | Out-String | Write-Host

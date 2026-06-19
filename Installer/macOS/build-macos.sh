@@ -7,7 +7,8 @@ set -e
 
 # Configuration
 APP_NAME="OnlyT"
-APP_VERSION="2.5.0.9"
+# Single source of truth: derive the version from SolutionInfo.cs (avoids per-platform drift).
+APP_VERSION="$(sed -n 's/.*AssemblyVersion("\([0-9.]*\)").*/\1/p' "$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)/SolutionInfo.cs" | head -1)"
 BUNDLE_ID="com.onlyt.timer"
 
 # Signing/Notarization Configuration (optional - leave empty to skip)
