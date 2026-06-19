@@ -34,8 +34,9 @@ $SCP /tmp/onlyt-src.tgz "$VM_USER@$VM_HOST:C:/Users/build/onlyt-src.tgz"
 echo "=== extract + build (+sign) on VM ==="
 $SSH "$VM_USER@$VM_HOST" "powershell -NoProfile -ExecutionPolicy Bypass -Command \"if(Test-Path '$DEST'){Remove-Item -Recurse -Force '$DEST'}; New-Item -ItemType Directory -Force '$DEST' | Out-Null; tar -xzf C:/Users/build/onlyt-src.tgz -C '$DEST'; Set-Location '$DEST'; & '$DEST/Installer/Windows/build-windows.ps1'\""
 
-echo "=== copying installer back ==="
+echo "=== copying installer + portable zips back ==="
 mkdir -p "$REPO/dist/Windows"
 $SCP "$VM_USER@$VM_HOST:$DEST/dist/Windows/OnlyT-Setup-*.exe" "$REPO/dist/Windows/" || echo "(no installer found to copy)"
-ls -lh "$REPO/dist/Windows/"*.exe 2>/dev/null || true
+$SCP "$VM_USER@$VM_HOST:$DEST/dist/Windows/OnlyT-*-portable.zip" "$REPO/dist/Windows/" || echo "(no portable zips found to copy)"
+ls -lh "$REPO/dist/Windows/"* 2>/dev/null || true
 echo "=== DONE ==="
