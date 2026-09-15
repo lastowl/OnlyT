@@ -11,13 +11,14 @@ using Serilog;
 namespace JwTranslationExtractor.Services;
 
 /// <summary>
-/// Service for extracting official meeting part names from the jw.org meeting workbook
+/// Service for extracting official meeting names from jw.org
 /// </summary>
 /// <remarks>
 /// The English workbook EPUB (from the pub-media API) identifies a weekly schedule document.
 /// jw.org's finder serves that same document in any language, and the schedule's headings appear
-/// in the same order in every language, so each part name is located by the position of its
-/// English heading rather than by guessing localized page addresses or matching translated text.
+/// in the same order in every language, so each name is located by the position of its English
+/// heading rather than by guessing localized page addresses or matching translated text.
+/// The Watchtower Study name comes from the title of a Watchtower study article in each language.
 /// </remarks>
 public class WorkbookScraperService
 {
@@ -25,21 +26,31 @@ public class WorkbookScraperService
     private readonly ResiliencePipeline<HttpResponseMessage> _retryPipeline;
     private readonly Dictionary<string, LanguageTranslations> _cache = new(StringComparer.OrdinalIgnoreCase);
     private ReferenceSchedule? _reference;
+    private string? _watchtowerDocId;
+    private bool _watchtowerDocIdLoaded;
     private const int DelayBetweenRequestsMs = 1000;
 
     private const string PubMediaUrl =
         "https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?pub=mwb&langwritten={0}&issue={1}&fileformat=EPUB&output=json&alllangs=0";
     private const string FinderUrl = "https://www.jw.org/finder?wtlocale={0}&docid={1}&srcid=share";
+    private const string WatchtowerIssueUrl = "https://www.jw.org/finder?wtlocale={0}&pub=w&issue={1}&srcid=share";
 
-    // English part names as they appear in the workbook schedule, and the resource key each one fills
-    private static readonly (string Key, string English)[] MeetingParts =
+    // English headings as they appear in the workbook schedule, and the resource key each one fills
+    private static readonly (string Key, string English)[] ScheduleHeadings =
     {
         ("TALK_OPENING_COMMENTS", "Opening Comments"),
         ("TALK_DIGGING", "Spiritual Gems"),
         ("TALK_READING", "Bible Reading"),
         ("TALK_CONG_STUDY", "Congregation Bible Study"),
         ("TALK_CONCLUDING_COMMENTS", "Concluding Comments"),
+        ("SECTION_TREASURES_FULL", "Treasures From God's Word"),
+        ("SECTION_MINISTRY_FULL", "Apply Yourself to the Field Ministry"),
+        ("SECTION_LIVING_FULL", "Living as Christians"),
     };
+
+    // Watchtower study article titles end with this name, e.g. "... Your Conscience | Watchtower Study"
+    private const string WatchtowerStudyKey = "TALK_WT";
+    private const string WatchtowerStudyEnglish = "Watchtower Study";
 
     /// <summary>
     /// Workbook issue to read (yyyyMM). When not set, the current issue is used,
@@ -84,7 +95,7 @@ public class WorkbookScraperService
     }
 
     /// <summary>
-    /// Extracts meeting part names for a specific language from the meeting workbook
+    /// Extracts meeting names for a specific language
     /// </summary>
     public async Task<LanguageTranslations> ExtractTranslationsAsync(JwLanguage language)
     {
@@ -143,6 +154,26 @@ public class WorkbookScraperService
 
             // Add delay to be respectful to the server
             await Task.Delay(DelayBetweenRequestsMs);
+
+            try
+            {
+                var watchtowerStudy = await ExtractWatchtowerStudyAsync(language.LangCode);
+                if (!string.IsNullOrEmpty(watchtowerStudy) &&
+                    (isEnglish || !SameText(watchtowerStudy, WatchtowerStudyEnglish)))
+                {
+                    translations.Translations.Add(new ExtractedTranslation
+                    {
+                        Key = WatchtowerStudyKey,
+                        Value = watchtowerStudy,
+                        LanguageCode = language.LangCode,
+                        SourceUrl = string.Format(FinderUrl, language.LangCode, _watchtowerDocId)
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("  Watchtower study article not available for {Lang}: {Message}", language.LangCode, ex.Message);
+            }
         }
         catch (Exception ex)
         {
@@ -159,6 +190,8 @@ public class WorkbookScraperService
         {
             return _reference;
         }
+
+        var talkCount = ScheduleHeadings.Count(p => p.Key.StartsWith("TALK_"));
 
         foreach (var issue in GetCandidateIssues())
         {
@@ -179,7 +212,7 @@ public class WorkbookScraperService
                 for (var segment = 0; segment < segments.Count; segment++)
                 {
                     var name = CleanPartName(segments[segment]);
-                    var match = MeetingParts.FirstOrDefault(p => p.English.Equals(name, StringComparison.OrdinalIgnoreCase));
+                    var match = ScheduleHeadings.FirstOrDefault(p => SameText(p.English, name));
                     if (match.Key != null && !englishNames.ContainsKey(match.Key))
                     {
                         parts.Add(new ReferencePart(match.Key, index, headings[index].Name, segment, segments.Count));
@@ -188,7 +221,7 @@ public class WorkbookScraperService
                 }
             }
 
-            if (parts.Count == MeetingParts.Length)
+            if (parts.Count(p => p.Key.StartsWith("TALK_")) == talkCount)
             {
                 Log.Information("Using workbook issue {Issue}, schedule document {DocId}", issue, docId);
                 _reference = new ReferenceSchedule(docId, headings.Count, parts, englishNames);
@@ -196,7 +229,7 @@ public class WorkbookScraperService
             }
 
             Log.Warning("Schedule document {DocId} matched only {Count} of {Total} parts",
-                docId, parts.Count, MeetingParts.Length);
+                docId, parts.Count, ScheduleHeadings.Length);
         }
 
         throw new InvalidOperationException("Could not find an English meeting schedule to use as a reference");
@@ -239,19 +272,153 @@ public class WorkbookScraperService
     {
         var bytes = await _httpClient.GetByteArrayAsync(epubUrl);
         using var epub = new ZipArchive(new MemoryStream(bytes), ZipArchiveMode.Read);
+        var talkNames = ScheduleHeadings.Where(p => p.Key.StartsWith("TALK_")).Select(p => p.English).ToList();
 
         // Each weekly schedule is a separate document named by its document id
         foreach (var entry in epub.Entries.Where(e => Regex.IsMatch(e.Name, @"^\d+\.xhtml$")).OrderBy(e => e.Name))
         {
             using var reader = new StreamReader(entry.Open());
             var content = await reader.ReadToEndAsync();
-            if (MeetingParts.All(p => content.Contains(p.English)))
+            if (talkNames.All(content.Contains))
             {
                 return Path.GetFileNameWithoutExtension(entry.Name);
             }
         }
 
         return null;
+    }
+
+    private async Task<string?> ExtractWatchtowerStudyAsync(string langCode)
+    {
+        var docId = await GetWatchtowerArticleDocIdAsync();
+        if (docId == null)
+        {
+            return null;
+        }
+
+        var html = await FetchWithRetryAsync(string.Format(FinderUrl, langCode, docId));
+        await Task.Delay(DelayBetweenRequestsMs);
+
+        // jw.org shows its home page when the article isn't available in a language
+        var siteName = html.Contains($"data-docid=\"{docId}\"") ? GetTitleSiteName(html) : null;
+        if (siteName == null)
+        {
+            return null;
+        }
+
+        // Some languages title the pages with just "Study Edition" or similar, so only accept a name
+        // that mentions the magazine as named in the article's breadcrumb, e.g.
+        // "Der Wachtturm – Studienausgabe | September 2026"
+        var doc = new HtmlDocument();
+        doc.LoadHtml(html);
+        var issueCrumb = doc.DocumentNode.Descendants()
+            .Where(n => n.GetClasses().Contains("breadcrumbItem"))
+            .Select(n => HtmlEntity.DeEntitize(n.InnerText).Trim())
+            .LastOrDefault(text => text.Contains('|'));
+        var magazineName = issueCrumb == null ? string.Empty : Regex.Split(issueCrumb, "[—–(（|]")[0];
+        if (!NamesMagazine(siteName, magazineName))
+        {
+            Log.Warning("  Watchtower Study for {Lang} doesn't name the magazine ({Name}); skipping", langCode, siteName);
+            return null;
+        }
+
+        return siteName;
+    }
+
+    // Finds a Watchtower study article in the current issue (or an earlier one) whose English
+    // title ends with "Watchtower Study"
+    private async Task<string?> GetWatchtowerArticleDocIdAsync()
+    {
+        if (_watchtowerDocIdLoaded)
+        {
+            return _watchtowerDocId;
+        }
+
+        _watchtowerDocIdLoaded = true;
+
+        for (var i = 0; i < 6; i++)
+        {
+            var issue = DateTime.UtcNow.AddMonths(-i).ToString("yyyyMM", CultureInfo.InvariantCulture);
+            try
+            {
+                var issuePage = await FetchWithRetryAsync(string.Format(WatchtowerIssueUrl, "E", issue));
+                var match = Regex.Match(issuePage, "data-page-id=\"mid(\\d+)\"");
+                if (!match.Success)
+                {
+                    continue;
+                }
+
+                var docId = match.Groups[1].Value;
+                var siteName = GetTitleSiteName(await FetchWithRetryAsync(string.Format(FinderUrl, "E", docId)));
+                if (siteName != null && SameText(siteName, WatchtowerStudyEnglish))
+                {
+                    Log.Information("Using Watchtower study article {DocId} from issue {Issue}", docId, issue);
+                    _watchtowerDocId = docId;
+                    return docId;
+                }
+            }
+            catch (HttpRequestException)
+            {
+                // Issue not published
+            }
+        }
+
+        Log.Warning("Could not find a Watchtower study article");
+        return null;
+    }
+
+    private static string GetTitle(string html)
+    {
+        var doc = new HtmlDocument();
+        doc.LoadHtml(html);
+        return HtmlEntity.DeEntitize(doc.DocumentNode.SelectSingleNode("//title")?.InnerText ?? string.Empty).Trim();
+    }
+
+    // The part of a page title after the last "|", e.g. "Watchtower Study"
+    private static string? GetTitleSiteName(string html)
+    {
+        var title = GetTitle(html);
+        var separator = title.LastIndexOf('|');
+        return separator >= 0 ? CleanPartName(title[(separator + 1)..]) : null;
+    }
+
+    // Whether a name mentions the magazine, ignoring accents ("Ile Iso" vs "Ilé Ìṣọ́"). Inflected forms
+    // ("«Сторожевой башни»" vs "Сторожевая башня") are matched by word stem; scripts written without
+    // spaces are matched by containment.
+    private static bool NamesMagazine(string name, string magazineName)
+    {
+        static string Letters(string s) =>
+            new string(s.Normalize(System.Text.NormalizationForm.FormD)
+                .Where(c => char.IsLetterOrDigit(c) || char.IsWhiteSpace(c))
+                .ToArray()).ToLowerInvariant().Trim();
+
+        var nameText = Letters(name);
+        var magazineText = Letters(magazineName);
+        if (magazineText.Length == 0)
+        {
+            return false;
+        }
+
+        if (nameText.Replace(" ", "").Contains(magazineText.Replace(" ", "")))
+        {
+            return true;
+        }
+
+        var nameWords = nameText.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        return magazineText.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+            .Where(word => word.Length >= 4)
+            .Any(word => nameWords.Any(nameWord => CommonPrefixLength(nameWord, word) >= 4));
+    }
+
+    private static int CommonPrefixLength(string a, string b)
+    {
+        var length = 0;
+        while (length < a.Length && length < b.Length && a[length] == b[length])
+        {
+            length++;
+        }
+
+        return length;
     }
 
     // The schedule's own headings carry paragraph ids ("p3", "p11", ...). The ids can shift between
@@ -286,10 +453,15 @@ public class WorkbookScraperService
     {
         text = Regex.Replace(text, "[­​‎‏‪-‮⁦-⁩]", ""); // soft hyphens, zero-width spaces, bidi marks
         text = Regex.Replace(text, @"\s+", " ").Trim();
+        text = Regex.Replace(text, @"(?<=[　-ヿ㐀-鿿＀-￯])\s+(?=[　-ヿ㐀-鿿＀-￯])", ""); // "《守望台》 研究班"
         text = Regex.Replace(text, @"^\d+\s*[.)．\-–။]\s*", ""); // "2. Spiritual Gems", "٢- جواهر روحية", "၂။ ..."
         text = Regex.Replace(text, @"^[(（][^()（）]*[)）]\s*|\s*[(（][^()（）]*[)）][.。]?$", ""); // "(1 min.)", "（3分）", "(1 min)."
         return text.Trim();
     }
+
+    // Compares headings regardless of case and apostrophe style ("GOD’S" vs "God's")
+    private static bool SameText(string a, string b) =>
+        string.Equals(a.Replace('’', '\''), b.Replace('’', '\''), StringComparison.OrdinalIgnoreCase);
 
     private async Task<HtmlDocument> LoadHtmlAsync(string url)
     {

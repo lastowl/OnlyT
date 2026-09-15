@@ -22,6 +22,11 @@ public class ResxInPlaceUpdater
     }
 
     /// <summary>
+    /// The values currently in a resx file
+    /// </summary>
+    public Dictionary<string, string> ReadCurrentValues(string resxPath) => ReadValues(ReadFile(resxPath).Text);
+
+    /// <summary>
     /// Sets the given values in a resx file. Keys missing from the base resx are ignored;
     /// keys missing from the file are added.
     /// </summary>

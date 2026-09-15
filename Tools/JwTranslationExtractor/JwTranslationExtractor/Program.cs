@@ -162,7 +162,9 @@ class Program
     }
 
     /// <summary>
-    /// Refreshes jw.org meeting part names in existing resx files, leaving everything else untouched
+    /// Updates existing resx files in place, leaving everything else untouched. For each string the
+    /// official jw.org wording wins, then the upstream translation (with --upstream), and otherwise
+    /// the file keeps its existing translation.
     /// </summary>
     static async Task<int> UpdateInPlaceAsync(CommandLineOptions options, WorkbookScraperService scraperService)
     {
@@ -178,6 +180,10 @@ class Program
             .ToDictionary(g => g.Key, g => g.Last().Element("value")?.Value ?? string.Empty)
             ?? new Dictionary<string, string>();
 
+        var upstream = string.IsNullOrEmpty(options.UpstreamResxPath)
+            ? null
+            : new UpstreamTranslations(options.UpstreamResxPath);
+
         var prefix = Path.GetFileNameWithoutExtension(options.BaseResxPath) + ".";
         var files = Directory.GetFiles(options.OutputDirectory, prefix + "*.resx")
             .Select(filePath => (FilePath: filePath, Culture: Path.GetFileNameWithoutExtension(filePath)[prefix.Length..]))
@@ -187,37 +193,74 @@ class Program
             .OrderBy(f => f.Culture, StringComparer.OrdinalIgnoreCase)
             .ToList();
 
-        Log.Information("Updating meeting part names in {Count} files{DryRun}", files.Count, options.DryRun ? " (dry run)" : "");
+        Log.Information("Updating {Count} files{DryRun}", files.Count, options.DryRun ? " (dry run)" : "");
 
         var catalog = await JwLanguageCatalog.LoadAsync();
         var updater = new ResxInPlaceUpdater();
+        var noWebsite = new List<string>();
         var skipped = new List<string>();
         var changedFiles = 0;
         var changedValues = 0;
 
         foreach (var (filePath, culture) in files)
         {
-            var language = catalog.Resolve(culture, updater.DetectTranslationScript(filePath, baseValues));
+            var fileScript = updater.DetectTranslationScript(filePath, baseValues);
+
+            // 1. Official wording from jw.org
+            var website = new Dictionary<string, string>();
+            var language = catalog.Resolve(culture, fileScript);
             if (language == null)
             {
-                skipped.Add($"{culture} (no jw.org language with web content)");
-                continue;
+                noWebsite.Add($"{culture} (no jw.org language with web content)");
             }
-
-            Log.Information("{Culture}: {Name} ({Code}, {Locale})", culture, language.Name, language.LangCode, language.Locale);
-            var extracted = await scraperService.ExtractTranslationsAsync(language);
-            if (extracted.Translations.Count == 0)
+            else
             {
-                skipped.Add($"{culture} (no workbook text)");
+                Log.Information("{Culture}: {Name} ({Code}, {Locale})", culture, language.Name, language.LangCode, language.Locale);
+                website = (await scraperService.ExtractTranslationsAsync(language)).Translations
+                    .ToDictionary(t => t.Key, t => t.Value);
+
+                if (website.Count == 0)
+                {
+                    noWebsite.Add($"{culture} (no workbook text)");
+                }
+            }
+
+            // 2. Upstream translations, except where the file already has official jw.org wording
+            var values = new Dictionary<string, string>();
+            if (upstream != null)
+            {
+                var official = website.Values.Select(NormalizeForComparison).ToHashSet();
+                var current = updater.ReadCurrentValues(filePath);
+                var upstreamValues = upstream.GetTranslations(culture, baseValues)
+                    .Where(kvp => !(current.TryGetValue(kvp.Key, out var existing) &&
+                                    official.Contains(NormalizeForComparison(existing))))
+                    .Where(kvp => fileScript is null or "Latin" || !ContainsEnglishWords(kvp.Value, baseValues[kvp.Key]))
+                    .ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+
+                var upstreamScript = ScriptDetector.Dominant(string.Concat(upstreamValues.Values));
+                if (fileScript != null && upstreamScript != null && upstreamScript != fileScript)
+                {
+                    Log.Warning("Not using upstream for {Culture}: upstream is {UpstreamScript} script but the file is {FileScript}",
+                        culture, upstreamScript, fileScript);
+                }
+                else
+                {
+                    values = upstreamValues;
+                }
+            }
+
+            // 3. jw.org wording overrides both
+            foreach (var (key, value) in website)
+            {
+                values[key] = value;
+            }
+
+            if (values.Count == 0)
+            {
                 continue;
             }
 
-            var changes = updater.Update(
-                filePath,
-                extracted.Translations.ToDictionary(t => t.Key, t => t.Value),
-                baseValues,
-                options.DryRun);
-
+            var changes = updater.Update(filePath, values, baseValues, options.DryRun);
             if (changes < 0)
             {
                 skipped.Add($"{culture} (script mismatch)");
@@ -232,6 +275,11 @@ class Program
         Log.Information("{Action} {Values} values in {Files} files",
             options.DryRun ? "Would update" : "Updated", changedValues, changedFiles);
 
+        if (noWebsite.Count > 0)
+        {
+            Log.Information("No jw.org wording for {Count}: {Languages}", noWebsite.Count, string.Join(", ", noWebsite));
+        }
+
         if (skipped.Count > 0)
         {
             Log.Information("Skipped {Count}: {Skipped}", skipped.Count, string.Join(", ", skipped));
@@ -240,14 +288,30 @@ class Program
         return 0;
     }
 
+    // Compares wording regardless of case and apostrophe style
+    static string NormalizeForComparison(string text) => text.Replace('’', '\'').Trim().ToUpperInvariant();
+
+    // Whether text in a non-Latin language still contains words from the English original, e.g.
+    // "12-часовой (leading zero)". Key names and acronyms (Ctrl, NDI) are expected to stay in English.
+    static bool ContainsEnglishWords(string text, string english)
+    {
+        var keepInEnglish = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "Ctrl", "Shift", "Alt" };
+        var englishWords = System.Text.RegularExpressions.Regex.Matches(english, "[A-Za-z]{3,}")
+            .Select(m => m.Value)
+            .Where(w => !keepInEnglish.Contains(w) && w != w.ToUpperInvariant())
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        return System.Text.RegularExpressions.Regex.Matches(text, "[A-Za-z]{3,}").Any(m => englishWords.Contains(m.Value));
+    }
+
     static void ShowHelp()
     {
         Console.WriteLine(@"
 OnlyT Translation Extractor
 ============================
 
-Extracts meeting part names from the jw.org meeting workbook and generates
-.resx resource files for OnlyT multi-language support.
+Extracts meeting names from jw.org (the meeting workbook and Watchtower study articles),
+and generates or updates .resx resource files for OnlyT multi-language support.
 
 Translation Priority (highest to lowest):
   1. jw.org translations - Official translations, always overwrites
@@ -270,9 +334,12 @@ Options:
   --tracking <path>       Directory for translation tracking data (default: .translation-tracking)
   --languages <codes>     Comma-separated language codes (e.g., en,es,fr)
   --max <number>          Maximum number of languages to process (default: 10)
-  --in-place              Update jw.org meeting part names in the existing Resources.<culture>.resx
+  --in-place              Update jw.org meeting names in the existing Resources.<culture>.resx
                           files in --output, leaving all other strings and formatting untouched
                           (--languages then takes culture names, e.g. de-DE,pt-PT)
+  --upstream <path>       With --in-place, also take translations from another base resx and its
+                          culture files (e.g. the WPF OnlyT/Properties/Resources.resx). Priority:
+                          jw.org wording, then upstream, then the file's existing translation
   --issue <yyyymm>        Workbook issue to read (default: the current issue)
   --dry-run               With --in-place, report changes without writing files
 
@@ -280,8 +347,11 @@ Examples:
   # List all available languages
   JwTranslationExtractor --list
 
-  # Refresh official meeting part names in every existing language file
+  # Refresh official meeting names in every existing language file
   JwTranslationExtractor --in-place --base-resx ./Resources.resx --output ./Properties
+
+  # Official wording first, then upstream translations, for every language file
+  JwTranslationExtractor --in-place --upstream ../OnlyT/Properties/Resources.resx --base-resx ./Resources.resx --output ./Properties
 
   # Preview the changes for German and Polish only
   JwTranslationExtractor --in-place --dry-run --languages de-DE,pl-PL --base-resx ./Resources.resx --output ./Properties
@@ -359,6 +429,11 @@ Examples:
                         options.Issue = args[++i];
                     break;
 
+                case "--upstream":
+                    if (i + 1 < args.Length)
+                        options.UpstreamResxPath = args[++i];
+                    break;
+
                 case "--base-resx":
                     if (i + 1 < args.Length)
                         options.BaseResxPath = args[++i];
@@ -408,6 +483,7 @@ class CommandLineOptions
     public bool InPlace { get; set; }
     public bool DryRun { get; set; }
     public string? Issue { get; set; }
+    public string? UpstreamResxPath { get; set; }
     public string? BaseResxPath { get; set; }
     public string? OutputDirectory { get; set; }
     public string? TrackingDirectory { get; set; }
