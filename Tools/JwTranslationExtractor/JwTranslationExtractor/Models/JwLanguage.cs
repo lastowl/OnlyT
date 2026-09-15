@@ -18,6 +18,16 @@ public class JwLanguage
     public string? CultureCode { get; set; }
 
     /// <summary>
+    /// jw.org locale (e.g., "de", "pt-pt", "cmn-hans")
+    /// </summary>
+    public string? Locale { get; set; }
+
+    /// <summary>
+    /// jw.org script name (e.g., "ROMAN", "CYRILLIC")
+    /// </summary>
+    public string? Script { get; set; }
+
+    /// <summary>
     /// Whether this language is supported for translation extraction
     /// </summary>
     public bool IsSupported => !IsSignLanguage && HasWebContent;

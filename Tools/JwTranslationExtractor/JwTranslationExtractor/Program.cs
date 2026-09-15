@@ -1,3 +1,4 @@
+using System.Xml.Linq;
 using JwTranslationExtractor.Models;
 using JwTranslationExtractor.Services;
 using Serilog;
@@ -30,7 +31,12 @@ class Program
 
             // Initialize services
             var languageService = new LanguageDiscoveryService();
-            var scraperService = new WorkbookScraperService();
+            var scraperService = new WorkbookScraperService { Issue = options.Issue };
+
+            if (options.InPlace)
+            {
+                return await UpdateInPlaceAsync(options, scraperService);
+            }
 
             // Initialize tracking and translation services
             var trackingDirectory = options.TrackingDirectory ??
@@ -155,13 +161,92 @@ class Program
         }
     }
 
+    /// <summary>
+    /// Refreshes jw.org meeting part names in existing resx files, leaving everything else untouched
+    /// </summary>
+    static async Task<int> UpdateInPlaceAsync(CommandLineOptions options, WorkbookScraperService scraperService)
+    {
+        if (string.IsNullOrEmpty(options.BaseResxPath) || string.IsNullOrEmpty(options.OutputDirectory))
+        {
+            Log.Error("--in-place requires --base-resx and --output");
+            return 1;
+        }
+
+        var baseValues = XDocument.Load(options.BaseResxPath).Root?.Elements("data")
+            .Where(d => d.Attribute("name") != null)
+            .GroupBy(d => d.Attribute("name")!.Value)
+            .ToDictionary(g => g.Key, g => g.Last().Element("value")?.Value ?? string.Empty)
+            ?? new Dictionary<string, string>();
+
+        var prefix = Path.GetFileNameWithoutExtension(options.BaseResxPath) + ".";
+        var files = Directory.GetFiles(options.OutputDirectory, prefix + "*.resx")
+            .Select(filePath => (FilePath: filePath, Culture: Path.GetFileNameWithoutExtension(filePath)[prefix.Length..]))
+            .Where(f => f.Culture.Length > 0 &&
+                        (options.TargetLanguages.Count == 0 ||
+                         options.TargetLanguages.Contains(f.Culture, StringComparer.OrdinalIgnoreCase)))
+            .OrderBy(f => f.Culture, StringComparer.OrdinalIgnoreCase)
+            .ToList();
+
+        Log.Information("Updating meeting part names in {Count} files{DryRun}", files.Count, options.DryRun ? " (dry run)" : "");
+
+        var catalog = await JwLanguageCatalog.LoadAsync();
+        var updater = new ResxInPlaceUpdater();
+        var skipped = new List<string>();
+        var changedFiles = 0;
+        var changedValues = 0;
+
+        foreach (var (filePath, culture) in files)
+        {
+            var language = catalog.Resolve(culture, updater.DetectTranslationScript(filePath, baseValues));
+            if (language == null)
+            {
+                skipped.Add($"{culture} (no jw.org language with web content)");
+                continue;
+            }
+
+            Log.Information("{Culture}: {Name} ({Code}, {Locale})", culture, language.Name, language.LangCode, language.Locale);
+            var extracted = await scraperService.ExtractTranslationsAsync(language);
+            if (extracted.Translations.Count == 0)
+            {
+                skipped.Add($"{culture} (no workbook text)");
+                continue;
+            }
+
+            var changes = updater.Update(
+                filePath,
+                extracted.Translations.ToDictionary(t => t.Key, t => t.Value),
+                baseValues,
+                options.DryRun);
+
+            if (changes < 0)
+            {
+                skipped.Add($"{culture} (script mismatch)");
+            }
+            else if (changes > 0)
+            {
+                changedFiles++;
+                changedValues += changes;
+            }
+        }
+
+        Log.Information("{Action} {Values} values in {Files} files",
+            options.DryRun ? "Would update" : "Updated", changedValues, changedFiles);
+
+        if (skipped.Count > 0)
+        {
+            Log.Information("Skipped {Count}: {Skipped}", skipped.Count, string.Join(", ", skipped));
+        }
+
+        return 0;
+    }
+
     static void ShowHelp()
     {
         Console.WriteLine(@"
 OnlyT Translation Extractor
 ============================
 
-Extracts translations from jw.org meeting workbook pages and generates
+Extracts meeting part names from the jw.org meeting workbook and generates
 .resx resource files for OnlyT multi-language support.
 
 Translation Priority (highest to lowest):
@@ -185,10 +270,21 @@ Options:
   --tracking <path>       Directory for translation tracking data (default: .translation-tracking)
   --languages <codes>     Comma-separated language codes (e.g., en,es,fr)
   --max <number>          Maximum number of languages to process (default: 10)
+  --in-place              Update jw.org meeting part names in the existing Resources.<culture>.resx
+                          files in --output, leaving all other strings and formatting untouched
+                          (--languages then takes culture names, e.g. de-DE,pt-PT)
+  --issue <yyyymm>        Workbook issue to read (default: the current issue)
+  --dry-run               With --in-place, report changes without writing files
 
 Examples:
   # List all available languages
   JwTranslationExtractor --list
+
+  # Refresh official meeting part names in every existing language file
+  JwTranslationExtractor --in-place --base-resx ./Resources.resx --output ./Properties
+
+  # Preview the changes for German and Polish only
+  JwTranslationExtractor --in-place --dry-run --languages de-DE,pl-PL --base-resx ./Resources.resx --output ./Properties
 
   # Extract jw.org translations for Spanish and French
   JwTranslationExtractor --languages es,fr --base-resx ./Resources.resx --output ./Properties
@@ -250,6 +346,19 @@ Examples:
                     options.UseThirdPartyTranslation = true;
                     break;
 
+                case "--in-place":
+                    options.InPlace = true;
+                    break;
+
+                case "--dry-run":
+                    options.DryRun = true;
+                    break;
+
+                case "--issue":
+                    if (i + 1 < args.Length)
+                        options.Issue = args[++i];
+                    break;
+
                 case "--base-resx":
                     if (i + 1 < args.Length)
                         options.BaseResxPath = args[++i];
@@ -296,6 +405,9 @@ class CommandLineOptions
     public bool UseOfflineMode { get; set; }
     public bool SkipExtraction { get; set; }
     public bool UseThirdPartyTranslation { get; set; }
+    public bool InPlace { get; set; }
+    public bool DryRun { get; set; }
+    public string? Issue { get; set; }
     public string? BaseResxPath { get; set; }
     public string? OutputDirectory { get; set; }
     public string? TrackingDirectory { get; set; }

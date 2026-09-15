@@ -1,5 +1,9 @@
+using System.Globalization;
+using System.IO.Compression;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using JwTranslationExtractor.Models;
+using Newtonsoft.Json.Linq;
 using Polly;
 using Polly.Retry;
 using Serilog;
@@ -7,23 +11,41 @@ using Serilog;
 namespace JwTranslationExtractor.Services;
 
 /// <summary>
-/// Service for scraping translations from jw.org meeting workbook pages
+/// Service for extracting official meeting part names from the jw.org meeting workbook
 /// </summary>
+/// <remarks>
+/// The English workbook EPUB (from the pub-media API) identifies a weekly schedule document.
+/// jw.org's finder serves that same document in any language, and the schedule's headings appear
+/// in the same order in every language, so each part name is located by the position of its
+/// English heading rather than by guessing localized page addresses or matching translated text.
+/// </remarks>
 public class WorkbookScraperService
 {
     private readonly HttpClient _httpClient;
     private readonly ResiliencePipeline<HttpResponseMessage> _retryPipeline;
+    private readonly Dictionary<string, LanguageTranslations> _cache = new(StringComparer.OrdinalIgnoreCase);
+    private ReferenceSchedule? _reference;
     private const int DelayBetweenRequestsMs = 1000;
 
-    // Known workbook URL patterns for different languages
-    private static readonly Dictionary<string, string> WorkbookBaseUrls = new()
+    private const string PubMediaUrl =
+        "https://b.jw-cdn.org/apis/pub-media/GETPUBMEDIALINKS?pub=mwb&langwritten={0}&issue={1}&fileformat=EPUB&output=json&alllangs=0";
+    private const string FinderUrl = "https://www.jw.org/finder?wtlocale={0}&docid={1}&srcid=share";
+
+    // English part names as they appear in the workbook schedule, and the resource key each one fills
+    private static readonly (string Key, string English)[] MeetingParts =
     {
-        { "en", "https://www.jw.org/en/library/jw-meeting-workbook/" },
-        { "es", "https://www.jw.org/es/biblioteca/guia-actividades/" },
-        { "pt", "https://www.jw.org/pt/biblioteca/apostila-reuniao/" },
-        { "fr", "https://www.jw.org/fr/biblioth%C3%A8que/cahier-vie-ministere/" },
-        { "de", "https://www.jw.org/de/bibliothek/arbeitshefte/" },
+        ("TALK_OPENING_COMMENTS", "Opening Comments"),
+        ("TALK_DIGGING", "Spiritual Gems"),
+        ("TALK_READING", "Bible Reading"),
+        ("TALK_CONG_STUDY", "Congregation Bible Study"),
+        ("TALK_CONCLUDING_COMMENTS", "Concluding Comments"),
     };
+
+    /// <summary>
+    /// Workbook issue to read (yyyyMM). When not set, the current issue is used,
+    /// falling back to earlier issues.
+    /// </summary>
+    public string? Issue { get; set; }
 
     public WorkbookScraperService()
     {
@@ -62,10 +84,15 @@ public class WorkbookScraperService
     }
 
     /// <summary>
-    /// Extracts translations for a specific language from the meeting workbook
+    /// Extracts meeting part names for a specific language from the meeting workbook
     /// </summary>
     public async Task<LanguageTranslations> ExtractTranslationsAsync(JwLanguage language)
     {
+        if (_cache.TryGetValue(language.LangCode, out var cached))
+        {
+            return cached;
+        }
+
         var translations = new LanguageTranslations
         {
             LanguageCode = language.LangCode,
@@ -75,29 +102,44 @@ public class WorkbookScraperService
 
         try
         {
-            // Find a workbook page for this language
-            var workbookUrl = await FindWorkbookUrlAsync(language);
+            var reference = await GetReferenceScheduleAsync();
+            var url = string.Format(FinderUrl, language.LangCode, reference.DocId);
+            var headings = GetScheduleHeadings(await LoadHtmlAsync(url));
 
-            if (string.IsNullOrEmpty(workbookUrl))
+            if (headings.Count != reference.HeadingCount)
             {
-                Log.Warning("Could not find workbook URL for language {Lang}", language.LangCode);
-                return translations;
+                Log.Warning("  Schedule layout differs for {Lang} ({Count} headings, expected {Expected}); skipping",
+                    language.LangCode, headings.Count, reference.HeadingCount);
+            }
+            else
+            {
+                foreach (var part in reference.Parts)
+                {
+                    var name = ExtractPartName(headings, part);
+                    if (string.IsNullOrEmpty(name))
+                    {
+                        Log.Warning("  {Key} not found for {Lang}", part.Key, language.LangCode);
+                        continue;
+                    }
+
+                    translations.Translations.Add(new ExtractedTranslation
+                    {
+                        Key = part.Key,
+                        Value = name,
+                        LanguageCode = language.LangCode,
+                        SourceUrl = url
+                    });
+                }
             }
 
-            Log.Information("Extracting translations from {Url}", workbookUrl);
-
-            // Fetch the page
-            var html = await FetchWithRetryAsync(workbookUrl);
-
-            // Parse translations
-            var doc = new HtmlDocument();
-            doc.LoadHtml(html);
-
-            // Extract section headers
-            ExtractSectionHeaders(doc, translations, workbookUrl);
-
-            // Extract talk names
-            ExtractTalkNames(doc, translations, workbookUrl);
+            // jw.org serves the English page when a document isn't available in a language
+            var isEnglish = language.LangCode.Equals("E", StringComparison.OrdinalIgnoreCase);
+            if (!isEnglish && translations.Translations.Count > 0 &&
+                translations.Translations.All(t => t.Value == reference.EnglishNames[t.Key]))
+            {
+                Log.Warning("  Schedule is not translated into {Lang}; ignoring", language.LangCode);
+                translations.Translations.Clear();
+            }
 
             // Add delay to be respectful to the server
             await Task.Delay(DelayBetweenRequestsMs);
@@ -107,90 +149,160 @@ public class WorkbookScraperService
             Log.Error(ex, "Failed to extract translations for language {Lang}", language.LangCode);
         }
 
+        _cache[language.LangCode] = translations;
         return translations;
     }
 
-    private async Task<string?> FindWorkbookUrlAsync(JwLanguage language)
+    private async Task<ReferenceSchedule> GetReferenceScheduleAsync()
     {
-        // First check if we have a known base URL
-        if (WorkbookBaseUrls.TryGetValue(language.LangCode.ToLowerInvariant(), out var baseUrl))
+        if (_reference != null)
         {
-            // Try to find a recent workbook issue
-            var currentDate = DateTime.Now;
-            var monthYearPatterns = GenerateMonthYearPatterns(currentDate);
-
-            foreach (var pattern in monthYearPatterns)
-            {
-                var testUrl = $"{baseUrl}{pattern}/";
-                try
-                {
-                    var response = await _httpClient.GetAsync(testUrl, HttpCompletionOption.ResponseHeadersRead);
-                    if (response.IsSuccessStatusCode)
-                    {
-                        return testUrl;
-                    }
-                }
-                catch
-                {
-                    // Continue to next pattern
-                }
-            }
+            return _reference;
         }
 
-        // Try the generic approach - construct URL based on language code
-        var genericBaseUrl = $"https://www.jw.org/{language.LangCode}/library/jw-meeting-workbook/";
+        foreach (var issue in GetCandidateIssues())
+        {
+            var epubUrl = await GetEpubUrlAsync("E", issue);
+            var docId = epubUrl == null ? null : await FindScheduleDocIdAsync(epubUrl);
+            if (docId == null)
+            {
+                continue;
+            }
+
+            var headings = GetScheduleHeadings(await LoadHtmlAsync(string.Format(FinderUrl, "E", docId)));
+            var parts = new List<ReferencePart>();
+            var englishNames = new Dictionary<string, string>();
+
+            for (var index = 0; index < headings.Count; index++)
+            {
+                var segments = SplitSegments(headings[index].InnerText);
+                for (var segment = 0; segment < segments.Count; segment++)
+                {
+                    var name = CleanPartName(segments[segment]);
+                    var match = MeetingParts.FirstOrDefault(p => p.English.Equals(name, StringComparison.OrdinalIgnoreCase));
+                    if (match.Key != null && !englishNames.ContainsKey(match.Key))
+                    {
+                        parts.Add(new ReferencePart(match.Key, index, headings[index].Name, segment, segments.Count));
+                        englishNames[match.Key] = name;
+                    }
+                }
+            }
+
+            if (parts.Count == MeetingParts.Length)
+            {
+                Log.Information("Using workbook issue {Issue}, schedule document {DocId}", issue, docId);
+                _reference = new ReferenceSchedule(docId, headings.Count, parts, englishNames);
+                return _reference;
+            }
+
+            Log.Warning("Schedule document {DocId} matched only {Count} of {Total} parts",
+                docId, parts.Count, MeetingParts.Length);
+        }
+
+        throw new InvalidOperationException("Could not find an English meeting schedule to use as a reference");
+    }
+
+    private IEnumerable<string> GetCandidateIssues()
+    {
+        if (!string.IsNullOrEmpty(Issue))
+        {
+            yield return Issue;
+            yield break;
+        }
+
+        // Workbooks are bimonthly, with issues dated January, March, May, ...
+        var today = DateTime.UtcNow;
+        var current = new DateTime(today.Year, today.Month - (today.Month - 1) % 2, 1);
+        for (var i = 0; i < 4; i++)
+        {
+            yield return current.AddMonths(-2 * i).ToString("yyyyMM", CultureInfo.InvariantCulture);
+        }
+    }
+
+    private async Task<string?> GetEpubUrlAsync(string langCode, string issue)
+    {
         try
         {
-            var response = await _httpClient.GetAsync(genericBaseUrl, HttpCompletionOption.ResponseHeadersRead);
-            if (response.IsSuccessStatusCode)
-            {
-                // Parse the page to find actual workbook links
-                var html = await response.Content.ReadAsStringAsync();
-                var doc = new HtmlDocument();
-                doc.LoadHtml(html);
-
-                // Look for links to specific workbook issues
-                var workbookLinks = doc.DocumentNode.SelectNodes("//a[contains(@href, 'mwb')]");
-                if (workbookLinks?.Count > 0)
-                {
-                    var href = workbookLinks[0].GetAttributeValue("href", "");
-                    if (!string.IsNullOrEmpty(href))
-                    {
-                        return href.StartsWith("http") ? href : $"https://www.jw.org{href}";
-                    }
-                }
-            }
+            var json = JObject.Parse(await FetchWithRetryAsync(string.Format(PubMediaUrl, langCode, issue)));
+            return json["files"] is JObject files
+                ? files[langCode]?["EPUB"]?.First?["file"]?["url"]?.Value<string>()
+                : null;
         }
-        catch
+        catch (HttpRequestException)
         {
-            // Continue
+            // Issue not published yet
+            return null;
+        }
+    }
+
+    private async Task<string?> FindScheduleDocIdAsync(string epubUrl)
+    {
+        var bytes = await _httpClient.GetByteArrayAsync(epubUrl);
+        using var epub = new ZipArchive(new MemoryStream(bytes), ZipArchiveMode.Read);
+
+        // Each weekly schedule is a separate document named by its document id
+        foreach (var entry in epub.Entries.Where(e => Regex.IsMatch(e.Name, @"^\d+\.xhtml$")).OrderBy(e => e.Name))
+        {
+            using var reader = new StreamReader(entry.Open());
+            var content = await reader.ReadToEndAsync();
+            if (MeetingParts.All(p => content.Contains(p.English)))
+            {
+                return Path.GetFileNameWithoutExtension(entry.Name);
+            }
         }
 
         return null;
     }
 
-    private static List<string> GenerateMonthYearPatterns(DateTime date)
+    // The schedule's own headings carry paragraph ids ("p3", "p11", ...). The ids can shift between
+    // languages, but the headings appear in the same order, so they are matched by position.
+    private static List<HtmlNode> GetScheduleHeadings(HtmlDocument doc) =>
+        doc.DocumentNode.Descendants()
+            .Where(n => n.Name is "h2" or "h3" && Regex.IsMatch(n.Id, @"^p\d+$"))
+            .ToList();
+
+    private static string? ExtractPartName(List<HtmlNode> headings, ReferencePart part)
     {
-        var patterns = new List<string>();
-
-        // Generate patterns for current and recent months
-        for (int i = 0; i < 6; i++)
+        var heading = headings[part.HeadingIndex];
+        if (heading.Name != part.TagName)
         {
-            var targetDate = date.AddMonths(-i);
-            var month = targetDate.ToString("MMMM").ToLowerInvariant();
-            var year = targetDate.Year;
-
-            // Pattern: january-february-2026-mwb, march-april-2026-mwb, etc.
-            var startMonth = ((targetDate.Month - 1) / 2) * 2 + 1;
-            var endMonth = startMonth + 1;
-
-            var startMonthName = new DateTime(year, startMonth, 1).ToString("MMMM").ToLowerInvariant();
-            var endMonthName = new DateTime(year, endMonth, 1).ToString("MMMM").ToLowerInvariant();
-
-            patterns.Add($"{startMonthName}-{endMonthName}-{year}-mwb");
+            return null;
         }
 
-        return patterns;
+        // Only trust the heading if it is split the same way as the English one
+        var segments = SplitSegments(heading.InnerText);
+        return segments.Count == part.SegmentCount ? CleanPartName(segments[part.Segment]) : null;
+    }
+
+    // Headings such as "Song 1 and Prayer | Opening Comments (1 min.)" hold several items
+    private static List<string> SplitSegments(string text) =>
+        HtmlEntity.DeEntitize(text)
+            .Split('|', '｜')
+            .Select(s => s.Trim())
+            .Where(s => s.Length > 0)
+            .ToList();
+
+    private static string CleanPartName(string text)
+    {
+        text = Regex.Replace(text, "[­​‎‏‪-‮⁦-⁩]", ""); // soft hyphens, zero-width spaces, bidi marks
+        text = Regex.Replace(text, @"\s+", " ").Trim();
+        text = Regex.Replace(text, @"^\d+\s*[.)．\-–။]\s*", ""); // "2. Spiritual Gems", "٢- جواهر روحية", "၂။ ..."
+        text = Regex.Replace(text, @"^[(（][^()（）]*[)）]\s*|\s*[(（][^()（）]*[)）][.。]?$", ""); // "(1 min.)", "（3分）", "(1 min)."
+        return text.Trim();
+    }
+
+    private async Task<HtmlDocument> LoadHtmlAsync(string url)
+    {
+        var doc = new HtmlDocument();
+        doc.LoadHtml(await FetchWithRetryAsync(url));
+
+        // Drop ruby annotations (furigana, pinyin) so only the base text remains
+        foreach (var annotation in doc.DocumentNode.Descendants().Where(n => n.Name is "rt" or "rp").ToList())
+        {
+            annotation.Remove();
+        }
+
+        return doc;
     }
 
     private async Task<string> FetchWithRetryAsync(string url)
@@ -202,169 +314,7 @@ public class WorkbookScraperService
         return await response.Content.ReadAsStringAsync();
     }
 
-    private void ExtractSectionHeaders(HtmlDocument doc, LanguageTranslations translations, string sourceUrl)
-    {
-        // Look for section headers
-        // Common patterns: h2/h3 with specific classes, or divs with section markers
+    private sealed record ReferencePart(string Key, int HeadingIndex, string TagName, int Segment, int SegmentCount);
 
-        // Treasures from God's Word section
-        var treasuresHeader = doc.DocumentNode.SelectSingleNode(
-            "//h2[contains(@class, 'treasure')] | //div[contains(@class, 'treasures')]//h2 | " +
-            "//h2[@id='section1'] | //h2[contains(text(), 'TREASURES') or contains(text(), 'Treasure')]");
-
-        if (treasuresHeader != null)
-        {
-            var text = CleanText(treasuresHeader.InnerText);
-            if (!string.IsNullOrEmpty(text))
-            {
-                translations.Translations.Add(new ExtractedTranslation
-                {
-                    Key = "SECTION_TREASURES",
-                    Value = AbbreviateSectionName(text),
-                    LanguageCode = translations.LanguageCode,
-                    SourceUrl = sourceUrl,
-                    IsAbbreviated = true
-                });
-            }
-        }
-
-        // Apply Yourself to the Field Ministry section
-        var ministryHeader = doc.DocumentNode.SelectSingleNode(
-            "//h2[contains(@class, 'ministry')] | //div[contains(@class, 'ministry')]//h2 | " +
-            "//h2[@id='section2'] | //h2[contains(text(), 'MINISTRY') or contains(text(), 'Ministry')]");
-
-        if (ministryHeader != null)
-        {
-            var text = CleanText(ministryHeader.InnerText);
-            if (!string.IsNullOrEmpty(text))
-            {
-                translations.Translations.Add(new ExtractedTranslation
-                {
-                    Key = "SECTION_MINISTRY",
-                    Value = AbbreviateSectionName(text),
-                    LanguageCode = translations.LanguageCode,
-                    SourceUrl = sourceUrl,
-                    IsAbbreviated = true
-                });
-            }
-        }
-
-        // Living as Christians section
-        var livingHeader = doc.DocumentNode.SelectSingleNode(
-            "//h2[contains(@class, 'living')] | //div[contains(@class, 'christian')]//h2 | " +
-            "//h2[@id='section3'] | //h2[contains(text(), 'LIVING') or contains(text(), 'Living')]");
-
-        if (livingHeader != null)
-        {
-            var text = CleanText(livingHeader.InnerText);
-            if (!string.IsNullOrEmpty(text))
-            {
-                translations.Translations.Add(new ExtractedTranslation
-                {
-                    Key = "SECTION_LIVING",
-                    Value = AbbreviateSectionName(text),
-                    LanguageCode = translations.LanguageCode,
-                    SourceUrl = sourceUrl,
-                    IsAbbreviated = true
-                });
-            }
-        }
-    }
-
-    private void ExtractTalkNames(HtmlDocument doc, LanguageTranslations translations, string sourceUrl)
-    {
-        // Look for talk/part listings
-        // These are typically in list items or specific div structures
-
-        var talkNodes = doc.DocumentNode.SelectNodes(
-            "//li[contains(@class, 'so')] | //li[contains(@class, 'dx')] | " +
-            "//div[@class='pGroup']//li | //article//li");
-
-        if (talkNodes != null)
-        {
-            foreach (var node in talkNodes)
-            {
-                var text = CleanText(node.InnerText);
-
-                // Try to identify specific talk types based on common patterns
-                if (ContainsPattern(text, "opening", "comments", "introduction"))
-                {
-                    AddTranslationIfNotExists(translations, "TALK_OPENING_COMMENTS", text, sourceUrl);
-                }
-                else if (ContainsPattern(text, "spiritual", "gems", "digging"))
-                {
-                    AddTranslationIfNotExists(translations, "TALK_DIGGING", text, sourceUrl);
-                }
-                else if (ContainsPattern(text, "bible", "reading"))
-                {
-                    AddTranslationIfNotExists(translations, "TALK_READING", text, sourceUrl);
-                }
-                else if (ContainsPattern(text, "congregation", "study"))
-                {
-                    AddTranslationIfNotExists(translations, "TALK_CONG_STUDY", text, sourceUrl);
-                }
-                else if (ContainsPattern(text, "concluding", "conclusion", "closing"))
-                {
-                    AddTranslationIfNotExists(translations, "TALK_CONCLUDING_COMMENTS", text, sourceUrl);
-                }
-            }
-        }
-    }
-
-    private static bool ContainsPattern(string text, params string[] patterns)
-    {
-        var lowerText = text.ToLowerInvariant();
-        return patterns.Any(p => lowerText.Contains(p));
-    }
-
-    private static void AddTranslationIfNotExists(LanguageTranslations translations, string key, string value, string sourceUrl)
-    {
-        if (!translations.Translations.Any(t => t.Key == key))
-        {
-            translations.Translations.Add(new ExtractedTranslation
-            {
-                Key = key,
-                Value = ExtractTalkName(value),
-                LanguageCode = translations.LanguageCode,
-                SourceUrl = sourceUrl
-            });
-        }
-    }
-
-    private static string ExtractTalkName(string fullText)
-    {
-        // Remove time indicators like "(5 min.)" or duration info
-        var cleaned = System.Text.RegularExpressions.Regex.Replace(fullText, @"\(\d+\s*min\.?\)", "");
-        cleaned = System.Text.RegularExpressions.Regex.Replace(cleaned, @"\d+:\d+", "");
-        return cleaned.Trim();
-    }
-
-    private static string CleanText(string text)
-    {
-        // Remove HTML entities and extra whitespace
-        text = System.Net.WebUtility.HtmlDecode(text);
-        text = System.Text.RegularExpressions.Regex.Replace(text, @"\s+", " ");
-        return text.Trim();
-    }
-
-    private static string AbbreviateSectionName(string fullName)
-    {
-        // Extract the main section name, typically in capitals
-        // e.g., "TREASURES FROM GOD'S WORD" -> "Treasures"
-        //       "APPLY YOURSELF TO THE FIELD MINISTRY" -> "Ministry"
-        //       "LIVING AS CHRISTIANS" -> "Living"
-
-        var upper = fullName.ToUpperInvariant();
-
-        if (upper.Contains("TREASURE"))
-            return "Treasures";
-        if (upper.Contains("MINISTRY"))
-            return "Ministry";
-        if (upper.Contains("LIVING") || upper.Contains("CHRISTIAN"))
-            return "Living";
-
-        // Return first word if we can't identify
-        var words = fullName.Split(' ');
-        return words.Length > 0 ? words[0] : fullName;
-    }
+    private sealed record ReferenceSchedule(string DocId, int HeadingCount, List<ReferencePart> Parts, Dictionary<string, string> EnglishNames);
 }
