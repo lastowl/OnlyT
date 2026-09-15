@@ -118,51 +118,51 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Zvans ir aktīvs</value>
+    <value>Zvans ir ieslēgts</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Neviens</value>
+    <value>Izslēgts</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Vienvirziena</value>
+    <value>Tikai saīsināt</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Divvirzienu</value>
+    <value>Saīsināt un pagarināt</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Programmatūras versija {0}</value>
+    <value>Programmas versija {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 stundu</value>
+    <value>12-stundu</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 stundas (vadošā nulle)</value>
+    <value>12-stundu (ar nullēm priekšā)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 stundu</value>
+    <value>24-stundu</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 stundas (vadošā nulle)</value>
+    <value>24-stundu (ar nullēm priekšā)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Nevarēja izveidot mapi {0}</value>
+    <value>Nevarēja veidot mapi {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Pielāgots ilgums</value>
+    <value>Adaptēts ilgums</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Modificēts ilgums</value>
+    <value>Modificētais ilgums</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -170,41 +170,41 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogais</value>
+    <value>Analogs</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogais un digitālais</value>
+    <value>Analogs un ciparu</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digitāls</value>
+    <value>Ciparu</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Zvans ir neaktīvs</value>
+    <value>Zvans ir izslēgts</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Nedēļas vidū</value>
+    <value>Darbdienu</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministrija — 1. punkts</value>
+    <value>Sludināšana - 1. daļa</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministrija — 2. punkts</value>
+    <value>Sludināšana - 2. daļa</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministrija — 3. punkts</value>
+    <value>Sludināšana - 3. daļa</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automātiska</value>
+    <value>Automātisks</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Uz failiem balstīts</value>
+    <value>No faila</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manuāli</value>
+    <value>Manuāls</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Noslēguma runa</value>
+    <value>Nobeiguma runa</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Nobeiguma vārdi</value>
@@ -216,48 +216,48 @@
     <value>Meklēsim garīgus dārgakmeņus</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Dzīvošana - 1. daļa</value>
+    <value>Kristīgā dzīve - 1. daļa</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Dzīvošana - 2. daļa</value>
+    <value>Kristīgā dzīve - 2. daļa</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Ievadvārdi</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Šī mēneša prezentācijas</value>
+    <value>Kā iesākt sarunas šajā mēnesī</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Publiska saruna</value>
+    <value>Publiskā runa</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Bībeles lasījums</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Pakalpojumu saruna</value>
+    <value>Kalpošanas runa</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Dārgumu saruna</value>
+    <value>Dārgumi - runa</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Sargtorņa studija</value>
+    <value>”Sargtorņa” apspriešana</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Nedēļas nogale</value>
+    <value>Nedēļas nogales</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 stundu (priekšpusdienā/pēcpusdienā)</value>
+    <value>12-stundu (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 stundu formāts (sākuma nulle un am/pm)</value>
+    <value>12-stundu (ar nullēm priekšā un am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Neviens</value>
+    <value>Nav izvēlēts</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Iestatījumi nav pieejami, kamēr darbojas taimeris!</value>
+    <value>Iestatījumi nav pieejami, kamēr notiek laika uzskaite!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Iestatījumi</value>
@@ -266,39 +266,39 @@
     <value>Dārgumi</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministrija</value>
+    <value>Sludināšana</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Dzīvošana</value>
+    <value>Kristīga dzīve</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Nedēļas nogale</value>
+    <value>Nedēļas nogales</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Administrators ir atspējojis iestatījumus!</value>
+    <value>Administrators ir bloķējis iestatījumus!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministrija — 4. punkts</value>
+    <value>Sludināšana - 4. daļa</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Apļa apmeklējums</value>
+    <value>RP apmeklējums</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>AIZVĒRT ATPAKAĻSKAITU</value>
+    <value>IZSLĒGT LAIKA ATSKAITI</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Palīdzība</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[apgabala apmeklējums]</value>
+    <value>[RP apmeklējums]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Pieejama jauna versija!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>GALVENĀ</value>
+    <value>PAMATIESTATĪJUMI</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,53 +306,53 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Adaptīvais režīms nedēļas vidū</value>
+    <value>Darbdienu adaptīvs režīms</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Adaptīvais režīms nedēļas nogalē</value>
+    <value>Nedēļas nogales adaptīvs režīms</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Atļaut skaitīšanas pārslēgšanu</value>
+    <value>Atļaut skaitīšanas virziena maiņu</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Vienmēr augšpusē</value>
+    <value>Vienmēr priekšā</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>ATTĀLĀS LIETOTNES</value>
+    <value>TĀLVADĪBAS LIETOTNES</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMĀTISKAIS REŽĪMS</value>
+    <value>AUTOMĀTISKS REŽĪMS</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Zvans</value>
+    <value>ZVANS</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>TĪMEKĻA PULKSTENIS</value>
+    <value>WEB PULKSTENIS</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>SANĀKSMES ATSKAITĪŠANA</value>
+    <value>SAPULCES LAIKA ATSKAITE</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Apļa apmeklējuma pārslēgšana</value>
+    <value>RP apmeklējuma slēdzis</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Digitālā pulksteņa formāts</value>
+    <value>Ciparu pulkstenis</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Iespējots</value>
+    <value>Ieslēgts</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Pilnekrāna pulksteņa režīms</value>
+    <value>Pilnā ekrāna pulkstenis</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP adrese</value>
@@ -363,7 +363,7 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Sapulces sākuma laiki (1 katrā rindā)</value>
+    <value>Sapulču sākuma laiki (1 katrā rindā)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>DAŽĀDI</value>
@@ -373,22 +373,22 @@
     <value>Monitors</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Rādīt peles rādītāju</value>
+    <value>Parādīt peles rādītāju</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Katru sākuma laiku ierakstiet jaunā rindā.</value>
+    <value>Ieraksti katru laiku savā rindā</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Izmantojiet jebkuru sev tīkamu laika formātu!</value>
+    <value>Izmanto jebkuru laika formātu!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Pēc izvēles iekļaujiet dienu, piemēram, "Ceturtdiena, plkst. 19:15"</value>
+    <value>Pēc izvēles pievieno dienu, piemēram: "Cet 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Piezīmes:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ATVĒRTĀ OSTA</value>
+    <value>ATVĒRT PORTU</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Saglabājiet studenta laiku</value>
+    <value>Noturēt uzdevuma laiku</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Sarunas ilguma saglabāšana</value>
+    <value>Uzdevuma laika noturēšana</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,26 +408,26 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ATTĀLĀ PIEEJA</value>
+    <value>TĀLVADĪBA</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Rādīt sektoru analogajā pulkstenī</value>
+    <value>Parādīt sektoru uz analogā pulksteņa</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Dalītā ekrāna platums:</value>
+    <value>Ekrāna sadalījuma platums:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TESTS</value>
+    <value>PĀRBAUDĪT</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Ierobežots</value>
+    <value>Ierobežota plūsma</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Taimeris skaita atpakaļ</value>
+    <value>Taimeris skaita augšup</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,41 +435,41 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Dienas laiks taimerī</value>
+    <value>Pulkstenis zem taimera</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Apjoms:</value>
+    <value>Skaļums:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Valoda</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Pēc valodas maiņas, lūdzu, restartējiet OnlyT.</value>
+    <value>Lūdzu restartē OnlyT pēc valodas izmaiņas.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Samazināt par 1 min
-Ctrl — samazināt par 15 s
-Shift — samazināt par 5 min</value>
+    <value>Samazināt 1 min
+Ctrl - Samazināt 15 s
+Shift - Samazināt 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Palielināt par 1 min
-Ctrl — palielināt par 15 s
-Shift — palielināt par 5 min</value>
+    <value>Palielināt 1 min
+Ctrl - Palielināt 15 s
+Shift - Palielināt 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manuālais režīms</value>
+    <value>Manuāls režīms</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Atpakaļskaitīšana</value>
+    <value>Pašlaik skaita lejup</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Skaitīšana uz priekšu</value>
+    <value>Pašlaik skaita augšup</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Iespējots</value>
+    <value>Ieslēgtas</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Iespējots</value>
+    <value>Ieslēgts</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Iespējots</value>
+    <value>Ieslēgts</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Rādīt sekundes</value>
+    <value>Parādīt sekundes</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Rādīt rāmi</value>
+    <value>Parādīt rāmi</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,11 +498,11 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Tālummaiņas līmenis:</value>
+    <value>Tuvinājuma līmenis:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Atrašanās vieta</value>
+    <value>Novietojums</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
@@ -514,15 +514,15 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Apakšā labajā pusē</value>
+    <value>Apakšā pa labi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Centrs</value>
+    <value>Pa vidu</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Kreisā</value>
+    <value>Pa kreisi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
@@ -534,47 +534,47 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Augšējā kreisajā pusē</value>
+    <value>Augšā pa kreisi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Augšējā labajā pusē</value>
+    <value>Augšā pa labi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Labi</value>
+    <value>LABI</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Osta atvērta un rezervācija veikta</value>
+    <value>Ports atvērts un rezervācija veikta</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Nevarēja atvērt portu (skatīt žurnālu)!</value>
+    <value>Neizdevās atvērt portu (skat. žurnālu)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Ģenerēts laika pārskats</value>
+    <value>Laika pārskats veidots</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Ģenerēt atskaites</value>
+    <value>Izveidot pārskatus</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Noslēguma segments</value>
+    <value>Nobeiguma daļa</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Pagaidu segments</value>
+    <value>Vidus daļa</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Ievada segments</value>
+    <value>Sākuma daļa</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Mežizstrādes līmenis</value>
+    <value>Reģistrēšanas līmenis</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -582,47 +582,47 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Kļūda</value>
+    <value>Kļūdas</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatāls</value>
+    <value>Fatālas kļūdas</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informācija</value>
+    <value>Informatīvi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Izvērīgs</value>
+    <value>Izvērsti</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Brīdinājums</value>
+    <value>Brīdinājumi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Sanāksmes taimera datu analīze</value>
+    <value>Analizē sapulču taimeru datus</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Ziņojums NAV ģenerēts!</value>
+    <value>Pārskats NAV veidots!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>SKATĪT</value>
+    <value>PARĀDĪT</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automātiska skaņa</value>
+    <value>Zvanīt automātiski</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Noklikšķiniet, lai atskaņotu zvanu</value>
+    <value>Atskaņot zvanu</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Ilgums (minūtēs)</value>
+    <value>Ilgums (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,15 +630,15 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Zvanīt</value>
+    <value>Pulkstenis</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Ciparnīcas un digitālais</value>
+    <value>Pulkstenis un cipari</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digitāls</value>
+    <value>Cipari</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Ņemiet vērā, ka monitoru kontrolē komandrindas iestatījums.</value>
+    <value>Piezīme: monitors tiek kontrolēts ar komandrindas parametriem</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -662,27 +662,27 @@ Shift — palielināt par 5 min</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Plakanais pulkstenis</value>
+    <value>Plakans pulkstenis</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Nedēļas nogalē ietilpst piektdiena</value>
+    <value>Nedēļas nogale ieskaitot piektdienu</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Logu</value>
+    <value>Parādīt logā</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Logu</value>
+    <value>Parādīt logā</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Aizvērt atpakaļskaitīšanas logu</value>
+    <value>Aizvērt laika atskaites logu</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Nevar atvērt caurspīdīgu atpakaļskaitīšanu ar logu</value>
+    <value>Nav iespējams izmantot caurspīdīgo fonu ja laika atskaite tiek parādīta logā</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift — palielināt par 5 min</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Samazināt, minimizējot</value>
+    <value>Samazināt logu minimizējot</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">

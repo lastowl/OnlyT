@@ -118,93 +118,93 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Zvonek je aktivní</value>
+    <value>Zvukové upozornění zapnuto</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Žádný</value>
+    <value>Vypnuto</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Jednosměrný</value>
+    <value>Jedním směrem</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Obousměrný</value>
+    <value>Oběma směry</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Verze softwaru {0}</value>
+    <value>Verze programu {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 hodin</value>
+    <value>12-hodinový</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 hodin (počáteční nula)</value>
+    <value>12-hodinový (s nulou na začátku)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 hodin denně</value>
+    <value>24-hodinový</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 hodin (počáteční nula)</value>
+    <value>24-hodinový (s nulou na začátku)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Nepodařilo se vytvořit složku {0}</value>
+    <value>Nepodařilo se vytvořit adresář {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Upravená doba trvání</value>
+    <value>Přizpůsobená délka</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Modifikovaná durace</value>
+    <value>Upravená délka</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Původní doba trvání</value>
+    <value>Původní délka</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analog</value>
+    <value>Analogové</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogové a digitální</value>
+    <value>Analogové i digitální</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Digitální</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Zvonek je neaktivní</value>
+    <value>Zvukové upozornění vypnuto</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Uprostřed týdne</value>
+    <value>Shromáždění v týdnu</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministerstvo - Bod 1</value>
+    <value>Úkol č. 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministerstvo - Bod 2</value>
+    <value>Úkol č. 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministerstvo - Bod 3</value>
+    <value>Úkol č. 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automatický</value>
+    <value>Automaticky</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Souborově založené</value>
+    <value>Ze souboru</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manuál</value>
+    <value>Ručně</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Závěrečná řeč</value>
+    <value>Závěrečná slova</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Závěrečná slova</value>
@@ -216,60 +216,60 @@
     <value>Hledání duchovních drahokamů</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Život - 1. část</value>
+    <value>Život křesťana - část 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Život - 2. část</value>
+    <value>Život křesťana - část 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Úvodní slova</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Prezentace tohoto měsíce</value>
+    <value>Vzorové předvedení</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Veřejná diskuse</value>
+    <value>Přednáška pro veřejnost</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Čtení Bible</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Servisní rozhovor</value>
+    <value>Služební proslov</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Poklady mluví</value>
+    <value>Poklady - Proslov</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Studium Strážné věže</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Víkend</value>
+    <value>Shromáždění o víkendu</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12hodinový (dopoledne/odpoledne)</value>
+    <value>12-hodinový (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12hodinový formát (počáteční nula a formát dopoledne/odpoledne)</value>
+    <value>12-hodinový (am/pm, s nulou na začátku)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Žádný</value>
+    <value>Nenastaveno</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Nastavení není k dispozici, když je spuštěný časovač!</value>
+    <value>Nastavení není dostupné při spuštěném časovači!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Nastavení</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Poklady</value>
+    <value>Poklady z Božího Slova</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministerstvo</value>
+    <value>Předvedení</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Živobytí</value>
+    <value>Život křesťana</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Víkend</value>
@@ -279,50 +279,50 @@
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministerstvo - Bod 4</value>
+    <value>Úkol č. 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Návštěva okruhu</value>
+    <value>Návštěva krajského dozorce</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ZAVŘÍT ODPOČÍTÁVÁNÍ</value>
+    <value>ZRUŠIT ODPOČÍTÁVÁNÍ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Pomoc</value>
+    <value>Nápověda</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[krajská návštěva]</value>
+    <value>[návštěva krajského dozorce]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Nová verze k dispozici!</value>
+    <value>Je dostupná nová verze!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>HLAVNÍ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Přístupový kód</value>
+    <value>Heslo</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Adaptivní režim uprostřed týdne</value>
+    <value>Adaptivní režim na shromáždění v týdnu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Víkendový adaptivní režim</value>
+    <value>Adaptivní režim na shromáždění o víkendu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Povolit přepínání odpočítávání vzestupně</value>
+    <value>Povolit změnu směru časovače</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Vždy na vrcholu</value>
+    <value>Vždy navrchu</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>VZDÁLENÉ APLIKACE</value>
+    <value>VZDÁLENÉ OVLÁDÁNÍ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>ZVONEK</value>
+    <value>ZVUK ČASOMÍRY</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -338,11 +338,11 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>Odpočítávání schůzky</value>
+    <value>ODPOČÍTÁVÁNÍ PŘED SHROMÁŽDĚNÍM</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Přepínač návštěvy okruhu</value>
+    <value>Návštěva krajského dozorce - přepínač</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Formát digitálních hodin</value>
@@ -352,43 +352,43 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Režim hodin na celou obrazovku</value>
+    <value>Zobrazení hodin na druhém monitoru</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP adresa</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Zasedání</value>
+    <value>Shromáždění</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Časy zahájení schůzek (1 na řádek)</value>
+    <value>Začátky shromáždění (1 na řádek)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>SMÍŠENÝ</value>
+    <value>RŮZNÉ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
     <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Zobrazit ukazatel myši</value>
+    <value>Zobrazit kurzor</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Každý čas začátku napište na nový řádek.</value>
+    <value>Napiš každý čas na samostatný řádek.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Použijte libovolný formát času!</value>
+    <value>Použij libovolný formát času!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Volitelně uveďte den, např. „Čt 19:15“</value>
+    <value>Je možné zadat i den takto: "st 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Poznámky:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>OTEVŘENÝ PORT</value>
+    <value>OTEVŘÍT PORT</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Vytrvejte ve studentském čase</value>
+    <value>Studentům neměnit čas</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Doba trvání hovoru</value>
+    <value>Délka zobrazení časovače po skončení</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -412,34 +412,34 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Zobrazit sektor na analogových hodinách</value>
+    <value>Zobrazit délku na analogových hodinách</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Šířka rozdělené obrazovky:</value>
+    <value>Poměr rozdělení obrazovky:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>TEST</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Omezeno</value>
+    <value>Ovládání omezeno</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Časovač odpočítává</value>
+    <value>Časovač přičítá</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>OKNO ČASOVAČE</value>
+    <value>OKNO ČASOMÍRY</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Denní čas pod časovačem</value>
+    <value>Hodiny pod časomírou</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Objem:</value>
+    <value>Hlasitost:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Zvětšit o 5 m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Odpočítávání</value>
+    <value>Odpočítávám</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Počítání</value>
+    <value>Připočítávám</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -480,13 +480,13 @@ Shift - Zvětšit o 5 m</value>
     <value>Povoleno</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Povoleno</value>
+    <value>Zapnuto</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Povoleno</value>
+    <value>Zapnuto</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Zobrazit sekundy</value>
+    <value>Zobrazovat sekundy</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -494,7 +494,7 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Rám hodin</value>
+    <value>Rámeček hodin</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -506,19 +506,19 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Dno</value>
+    <value>Dole</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Vlevo dole</value>
+    <value>Dole vlevo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Vpravo dole</value>
+    <value>Dole vpravo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Centrum</value>
+    <value>Uprostřed</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,7 +526,7 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Právo</value>
+    <value>Vpravo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -546,47 +546,47 @@ Shift - Zvětšit o 5 m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Přístav otevřen a rezervace provedena</value>
+    <value>Port je otevřen a rezervován</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Nepodařilo se otevřít port (viz log)!</value>
+    <value>Port se nepodařilo otevřít! (Více v logu)</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Vygenerovaná zpráva o načasování</value>
+    <value>Výpis časových reportů</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Generování reportů</value>
+    <value>Generovat časové reporty</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Závěrečný segment</value>
+    <value>Závěrečná píseň a modlitba</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Prozatímní segment</value>
+    <value>Prostřední píseň</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Úvodní segment</value>
+    <value>Úvodní slova</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Úroveň protokolování</value>
+    <value>Úroveň logování</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Ladit</value>
+    <value>Ladění</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Chyba</value>
+    <value>Chyby</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatální</value>
+    <value>Kritické chyby</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,51 +594,51 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Podrobný</value>
+    <value>Podrobnosti</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Varování</value>
+    <value>Upozornění</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analýza dat časovače schůzek</value>
+    <value>Analýza údajů z časomíry</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Zpráva NEBYLA vygenerována!</value>
+    <value>Zpráva NEBYLA vygenerovaná!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>POHLED</value>
+    <value>ZOBRAZIT</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automaticky zvuk</value>
+    <value>Zvuk automaticky</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Kliknutím zazvoníte zvonek</value>
+    <value>Přehrát zvuk</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Trvání (minuty)</value>
+    <value>Délka (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Prvky</value>
+    <value>Způsob zobrazení</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Vytočit</value>
+    <value>Koláč</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Číselník a digitální</value>
+    <value>Koláč a odpočet</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digitální</value>
+    <value>Odpočet</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,19 +646,19 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Všimněte si, že monitor je ovládán nastavením příkazového řádku</value>
+    <value>Monitor je řízený přes příkazovou řádku</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Přechod pozadí časovače</value>
+    <value>Barevný přechod pozadí časovače</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Přechod pozadí hodin</value>
+    <value>Barevný přechod pozadí hodin</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Časový rámec</value>
+    <value>Rámeček časovače</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -670,11 +670,11 @@ Shift - Zvětšit o 5 m</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Okénkový</value>
+    <value>Zobrazení v okně</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Okénkový</value>
+    <value>Zobrazení v okně</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - Zvětšit o 5 m</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Nelze otevřít průhledné odpočítávání v okně</value>
+    <value>Nelze otevřít průhledné odpočítávání "okna"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift - Zvětšit o 5 m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Zmenšit při minimalizaci</value>
+    <value>Při minimalizaci zmenšit</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,7 +706,7 @@ Shift - Zvětšit o 5 m</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Všimněte si, že výstup je nastaven na NDI pomocí parametru příkazového řádku.</value>
+    <value>Výstup je přes příkazový řádek nastaven na NDI.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">

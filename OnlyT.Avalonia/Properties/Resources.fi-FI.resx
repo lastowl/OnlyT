@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Kello on aktiivinen</value>
+    <value>Äänimerkki käytössä</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Yksisuuntainen</value>
+    <value>Yhdensuuntainen</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -138,23 +138,23 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 tunnin</value>
+    <value>12-tuntinen</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 tuntia (etunolla)</value>
+    <value>12-tuntinen (etunolla)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 tunnin</value>
+    <value>24-tuntinen</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 tuntia (etunolla)</value>
+    <value>24-tuntinen (etunolla)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Kansiota {0} ei voitu luoda</value>
+    <value>Kansiota ei voitu luoda: {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Muokattu duraatio</value>
+    <value>Muokattu kesto</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -180,19 +180,19 @@
     <value>Digitaalinen</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Kello ei ole aktiivinen</value>
+    <value>Äänimerkki pois</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Keskiviikko</value>
+    <value>Viikkokokous</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministeriö - Kohta 1</value>
+    <value>Valmennusta kenttäpalvelukseen - osa 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministeriö - Kohta 2</value>
+    <value>Valmennusta kenttäpalvelukseen - osa 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministeriö - Kohta 3</value>
+    <value>Valmennusta kenttäpalvelukseen - osa 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Automaattinen</value>
@@ -216,28 +216,28 @@
     <value>Hengellisiä helmiä</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Elämä - Osa 1</value>
+    <value>Elämä kristittynä - osa 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Elämä - Osa 2</value>
+    <value>Elämä kristittynä - osa 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Alkusanat</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Tämän kuun esitykset</value>
+    <value>Tämän kuukauden esitykset</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Julkinen keskustelu</value>
+    <value>Yleisöesitelmä</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Raamatun lukeminen</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Palvelukeskustelu</value>
+    <value>Palveluspuhe</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Aarteiden keskustelu</value>
+    <value>Jumalan sanan aarteita -puhe</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Vartiotornin tutkistelu</value>
@@ -246,79 +246,79 @@
     <value>Viikonloppu</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 tuntia (aamu/iltapäivä)</value>
+    <value>12-tuntinen (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-tuntinen (etunolla ja am/ip)</value>
+    <value>12-tuntinen (etunolla &amp; am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ei mitään</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Asetukset eivät ole käytettävissä ajastimen ollessa käynnissä!</value>
+    <value>Asetukset eivät ole käytettävissä, kun ajastin käy!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Asetukset</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Aarteita</value>
+    <value>Jumalan sanan aarteita</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministeriö</value>
+    <value>Valmennusta kenttäpalvelukseen</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Asuminen</value>
+    <value>Elämä kristittynä</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Viikonloppu</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Asetukset on poistettu käytöstä järjestelmänvalvojan toimesta!</value>
+    <value>Järjestelmänvalvoja on lukinnut asetukset!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministeriö - Kohta 4</value>
+    <value>Valmennusta kenttäpalvelukseen - osa 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Kiertuevierailu</value>
+    <value>Kierrosviikko</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>SULJE LÄHTÖLASKENTA</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Auttaa</value>
+    <value>Ohje</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[piirivierailu]</value>
+    <value>[kierrosviikko]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Uusi versio saatavilla!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>PÄÄ</value>
+    <value>PÄÄSIVU</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Pääsykoodi</value>
+    <value>Salasana</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Keskiviikon mukautuva tila</value>
+    <value>Viikkokok. mukautuva tila</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Viikonlopun mukautuva tila</value>
+    <value>Viikonl. mukautuva tila</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Salli laskuri päälle/pois</value>
+    <value>Salli laskentasuunnan vaihto</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Aina huipulla</value>
+    <value>Aina päällimmäisenä</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -330,29 +330,29 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>KELLO</value>
+    <value>ÄÄNIMERKKI</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>VERKKOKELLO</value>
+    <value>WEB-KELLO</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>KOKOUSLASKENTA</value>
+    <value>KOKOUKSEN LÄHTÖLASKENTA</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Piirin vierailun vaihto</value>
+    <value>Kierrosviikko -valintakytkin</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Digitaalinen kellomuoto</value>
+    <value>Digitaalikellon muoto</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Käytössä</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Koko näytön kellotila</value>
+    <value>Koko näytön kellon muoto</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP-osoite</value>
@@ -363,7 +363,7 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Kokouksen alkamisajat (1 riviä kohden)</value>
+    <value>Kokouksien alkamisajat (1/rivi)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>SEKALAISET</value>
@@ -373,22 +373,22 @@
     <value>Näyttö</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Näytä hiiren osoitin</value>
+    <value>Näytä hiiriosoitin</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Kirjoita jokainen aloitusaika uudelle riville.</value>
+    <value>Laita jokainen alkamisaika omalle rivilleen.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Käytä mitä tahansa haluamaasi aikamuotoa!</value>
+    <value>Käytä haluamaasi aikaformaattia!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Voit halutessasi lisätä päivän, esim. "to 19:15"</value>
+    <value>Halutessasi voit sisällyttää päivän, esimerkiksi ”to 19:15”</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Huomautuksia:</value>
+    <value>Huomioi:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>AVOIN PORTTI</value>
+    <value>AVAA PORTTI</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Pidä opiskelija-aikaa yllä</value>
+    <value>Pidä oppilaan aika</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Jatka puheen kestoa</value>
+    <value>Pidä puheen kesto</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -412,26 +412,26 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Näytä sektori analogisella kellolla</value>
+    <value>Näytä sektori analogikellossa</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Jaetun näytön leveys:</value>
+    <value>Jaetun ruudun leveys:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TESTATA</value>
+    <value>TESTI</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Kaasutettu</value>
+    <value>Rajoitettu</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Ajastin laskee ylöspäin</value>
+    <value>Ajastimen laskentasuunta ylös</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>AJASTINIKKUNA</value>
+    <value>AJASTIN-IKKUNA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
@@ -439,25 +439,25 @@
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Tilavuus:</value>
+    <value>Äänenvoimakkuus:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Kieli</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Käynnistä OnlyT uudelleen kielen vaihtamisen jälkeen.</value>
+    <value>Uudelleenkäynnistä OnlyT kielen vaihtamisen jälkeen.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Vähennä 1 min
-Ctrl - Vähennä 15 s
-Shift - Vähennä 5 min</value>
+    <value>Vähennä 1m
+Ctrl - Vähennä 15s
+Vaihto - Vähennä 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Lisää 1 min
-Ctrl - Lisää 15 s
-Shift - Lisää 5 min</value>
+    <value>Lisää 1M
+Ctrl - Lisää 15S
+Vaihto - Lisää 5M</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Lisää 5 min</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Lasketaan alas</value>
+    <value>Laskentasuunta alas</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Laskeminen ylöspäin</value>
+    <value>Laskentasuunta ylös</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -490,7 +490,7 @@ Shift - Lisää 5 min</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Näytä kehys</value>
+    <value>Näytä kehykset</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,7 +498,7 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Zoomaustaso:</value>
+    <value>Suurennustaso:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -506,31 +506,31 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Pohja</value>
+    <value>Alhaalla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Vasen alakulma</value>
+    <value>Alhaalla vasemmalla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Oikeassa alakulmassa</value>
+    <value>Alhaalla oikealla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Keskusta</value>
+    <value>Keskellä</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Vasen</value>
+    <value>Vasemmalla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Oikea</value>
+    <value>Oikealla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Yläosa</value>
+    <value>Ylhäällä</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -538,7 +538,7 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Oikeassa yläkulmassa</value>
+    <value>Ylhäällä oikealla</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,39 +546,39 @@ Shift - Lisää 5 min</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Satama avattu ja varaus tehty</value>
+    <value>Portti avattu ja varaus tehty</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Porttia ei voitu avata (katso loki)!</value>
+    <value>Porttia ei voitu avata (ks. loki)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Luotu ajoitusraportti</value>
+    <value>Ajoitusraportti luotu</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Luo raportteja</value>
+    <value>Luo ajoitusraporttjea</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Päätösosio</value>
+    <value>Loppulaulu ja -rukous</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Välivaihe</value>
+    <value>Välilaulu</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Johdanto-osa</value>
+    <value>Alkulaulu ja -rukous</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Kirjaustaso</value>
+    <value>Lokin taso</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Virheenkorjaus</value>
+    <value>Vianetsintä</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kuolemaan johtava</value>
+    <value>Kriittinen</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Tiedot</value>
+    <value>Informatiivinen</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Monisanainen</value>
+    <value>Laajennettu</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,39 +602,39 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Kokousajastindatan analysointi</value>
+    <value>Analysoidaan kokousten ajastintietoja</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Raporttia EI luotu!</value>
+    <value>Raporttia EI voitu luoda!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>NÄKYMÄ</value>
+    <value>NÄYTÄ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Ääni automaattisesti</value>
+    <value>Automaattinen äänimerkki</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klikkaa soittaaksesi kelloa</value>
+    <value>Soita kelloa</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Kesto (min)</value>
+    <value>Kesto (minuutteina)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Elementit</value>
+    <value>Tyyli</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Soita</value>
+    <value>Kiekko</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Valinta- ja digitaalinen</value>
+    <value>Kiekko ja digitaalinen</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,15 +646,15 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Huomaa, että näyttöä ohjataan komentoriviasetuksella</value>
+    <value>Huomaa, että monitorilla on komentoriviohjaus</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Ajastimen taustagradienti</value>
+    <value>Ajastimen taustan liukuväri</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Kellon taustagradienti</value>
+    <value>Kellon taustan liukuväri</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -666,23 +666,23 @@ Shift - Lisää 5 min</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Viikonloppu sisältää perjantain</value>
+    <value>Perjantai sisältyy viikonloppuun</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Ikkunallinen</value>
+    <value>Ikkunoitu</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Ikkunallinen</value>
+    <value>Ikkunoitu</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Sulje lähtölaskentaikkuna</value>
+    <value>Sulje Lähtölaskenta -ikkuna</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Läpinäkyvää "ikkunoitua" lähtölaskentaa ei voi avata</value>
+    <value>Läpinäkyvää ikkunoitua lähtölaskentaa ei voida avata</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,11 +694,11 @@ Shift - Lisää 5 min</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline-tilassa...</value>
+    <value>ei verkossa...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Kutista minimoinnin yhteydessä</value>
+    <value>Kutista pienennettäessä</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,27 +706,27 @@ Shift - Lisää 5 min</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Huomaa, että lähtöasetukseksi asetetaan NDI komentoriviasetuksella.</value>
+    <value>Huomaa, että ulostulo on asetettu NDI:ksi komentoriviasetuksen kautta.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Olisitko pitänyt käynnistää ajastin?</value>
+    <value>Olisiko sinun pitänyt aloittaa ajastin?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ponnahdusikkunamuistutukset</value>
+    <value>Ponnahdusilmoitukset</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Kokous jatkuu {0} minuuttia ylityöaikaa</value>
+    <value>Kokous on mennyt {0} minuuttia yli ajan</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Kokous on {0} minuuttia alle aikataulun</value>
+    <value>Kokous on mennyt {0} minuuttia ali ajan</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Ylitys-/alitusilmoitukset</value>
+    <value>Yli ja aliajan ilmoitukset</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">

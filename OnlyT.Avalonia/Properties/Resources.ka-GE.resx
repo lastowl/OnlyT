@@ -138,7 +138,7 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-საათიანი</value>
+    <value>12 საათი</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
@@ -146,7 +146,7 @@
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-საათიანი</value>
+    <value>24 საათი</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
@@ -195,13 +195,13 @@
     <value>მსახურება - პუნქტი 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>ავტომატური</value>
+    <value>ავტომატურად</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
     <value>ფაილზე დაფუძნებული</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>სახელმძღვანელო</value>
+    <value>ხელით</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
     <value>დასკვნითი საუბარი</value>
@@ -282,7 +282,7 @@
     <value>მსახურება - პუნქტი 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>წრის მონახულება</value>
+    <value>სარაიონო მონახულება</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>დახურვის უკუთვლა</value>
@@ -306,11 +306,11 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>კვირის შუა პერიოდის ადაპტური რეჟიმი</value>
+    <value>შუაკვირის ადაპტირებული გეგმა</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>შაბათ-კვირის ადაპტური რეჟიმი</value>
+    <value>შაბათკვირის ადაპტირებული გეგმა</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
@@ -461,11 +461,11 @@ Shift - 5 მ-ით გაზრდა</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>მექანიკური რეჟიმი</value>
+    <value>ხელით მართვა</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>უკუთვლა</value>
+    <value>უკუთვლის რეჟიმი</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
@@ -473,17 +473,17 @@ Shift - 5 მ-ით გაზრდა</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} წამი</value>
+    <value>"{0}"წამები</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>ჩართულია</value>
+    <value>ნებადართული</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>ჩართულია</value>
+    <value>ნებადართული</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>ჩართულია</value>
+    <value>ნებადართული</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>წამების ჩვენება</value>
