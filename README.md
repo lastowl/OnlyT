@@ -56,8 +56,6 @@ The original Windows WPF version (`OnlyT` project) remains included. The cross-p
 dotnet build OnlyT.Avalonia/OnlyT.Avalonia.csproj
 ```
 
-See [CLAUDE.md](CLAUDE.md) for detailed build and release instructions.
-
 ### Configuration
 
 The Avalonia version stores its settings in `options.avalonia.json` (separate from the WPF `options.json`). On first launch, if an existing WPF options file is found, settings are automatically migrated. Unknown fields from either version are safely ignored.
