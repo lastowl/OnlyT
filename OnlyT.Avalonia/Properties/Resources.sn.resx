@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Modified duration</value>
+    <value>Yakagadziridzwa Nguva</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -177,7 +177,7 @@
     <value>Analogue uye Digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Dhijitari</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
     <value>Bell harisi kushanda</value>
@@ -195,13 +195,13 @@
     <value>Hushumiri - Chikamu 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automatic</value>
+    <value>Otomatiki</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
     <value>File-based</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manual</value>
+    <value>Bhuku</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
     <value>Hurukuro Yokugumisa</value>
@@ -243,7 +243,7 @@
     <value>Chidzidzo cheNharireyomurindi</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Weekend</value>
+    <value>Svondo</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
     <value>12-awa (am/pm)</value>
@@ -260,7 +260,7 @@
     <value>Zvigadziriso hazviwanikwe apo timer iri kushanda!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>Zvigadziriso</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
     <value>Pfuma</value>
@@ -272,7 +272,7 @@
     <value>Kurarama</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Weekend</value>
+    <value>Svondo</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
     <value>Zvirongwa zvadzimwa nemutungamiriri!</value>
@@ -285,11 +285,11 @@
     <value>Kushanya kwedunhu</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>CLOSE COUNTDOWN</value>
+    <value>Kuvhara Kuverenga</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>Rubatsiro</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
     <value>[kushanya kwedunhu]</value>
@@ -298,7 +298,7 @@
     <value>Shanduro itsva iripo!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>MAIN</value>
+    <value>Main</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -310,7 +310,7 @@
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Weekend adaptive mode</value>
+    <value>Svondo inochinja maitiro</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
@@ -322,15 +322,15 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>REMOTE APPS</value>
+    <value>Remote Apps</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATIC MODE</value>
+    <value>Otomatiki modhi</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>Bhero</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Circuit visit toggle</value>
+    <value>Dunhu Shanya Toggle</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Digital wachi chimiro</value>
@@ -370,7 +370,7 @@
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Tarisa</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Ratidza chinongedzo chembeva</value>
@@ -385,14 +385,14 @@
     <value>Optionally sanganisira zuva, e.g. "Thu 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Notes:</value>
+    <value>Zvinyorwa:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
     <value>Vhura PORT</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>Maitiro</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
@@ -408,7 +408,7 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>REMOTE ACCESS</value>
+    <value>Kure kure</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -419,11 +419,11 @@
     <value>Split-screen wide:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>Bvunzo</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Throttled</value>
+    <value>Anokatyamadza</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
@@ -461,7 +461,7 @@ Shift - Wedzera 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manual mode</value>
+    <value>Manual Mode</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
@@ -530,7 +530,7 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Top</value>
+    <value>Pamusoro</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,7 +542,7 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>Zvakanaka</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -566,7 +566,7 @@ Shift - Wedzera 5m</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Interim Segment</value>
+    <value>Chikamu chechikamu</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
@@ -578,11 +578,11 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>Ongorora</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Error</value>
+    <value>Chikanganiso</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
@@ -590,11 +590,11 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Information</value>
+    <value>Ruzivo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>Zvakawanda</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -610,7 +610,7 @@ Shift - Wedzera 5m</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>VIEW</value>
+    <value>Tarisa</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
@@ -626,7 +626,7 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Elements</value>
+    <value>Zvinhu</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
@@ -638,11 +638,11 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Dhijitari</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Transparent background</value>
+    <value>Pachena kumashure</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
@@ -658,7 +658,7 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Timer frame</value>
+    <value>Timer Frame</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -670,11 +670,11 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>Windows</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Windowed</value>
+    <value>Windows</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -686,11 +686,11 @@ Shift - Wedzera 5m</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>Clock</value>
+    <value>Wachi</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Timers</value>
+    <value>Nguva</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
@@ -702,7 +702,7 @@ Shift - Wedzera 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primary</value>
+    <value>Primary</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">

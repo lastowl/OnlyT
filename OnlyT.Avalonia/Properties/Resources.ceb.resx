@@ -177,7 +177,7 @@
     <value>Analogue ug Digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Digaon</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
     <value>Ang Bell dili aktibo</value>
@@ -285,7 +285,7 @@
     <value>Pagbisita sa sirkito</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>CLOSE COUNTDOWN</value>
+    <value>Suod nga pag-ihap</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
@@ -298,19 +298,19 @@
     <value>Bag-ong bersyon anaa!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>MAIN</value>
+    <value>Labing mahinungdanon</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Access code</value>
+    <value>ACCESS CODE</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Midweek adaptive mode</value>
+    <value>Mode sa Midweek</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Weekend adaptive mode</value>
+    <value>Ang mode sa pagpahiangay sa katapusan sa semana</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
@@ -322,23 +322,23 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>REMOTE APPS</value>
+    <value>Mga Remote Apps</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATIC MODE</value>
+    <value>Awtomatikong mode</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>Kampana</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB CLOCK</value>
+    <value>Trabaho</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>MEETING COUNTDOWN</value>
+    <value>Pag-ihap sa Tigum</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
@@ -370,7 +370,7 @@
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Bantayan</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Ipakita ang pointer sa mouse</value>
@@ -388,11 +388,11 @@
     <value>Mubo nga sulat:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>OPEN PORT</value>
+    <value>Abli nga pantalan</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>Metodo</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
@@ -408,7 +408,7 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>REMOTE ACCESS</value>
+    <value>Pag-access sa Remote</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -431,7 +431,7 @@
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER WINDOW</value>
+    <value>Bintana sa timer</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
@@ -461,7 +461,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manual mode</value>
+    <value>MANUD MODE</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
@@ -594,7 +594,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>Detalyado</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -630,7 +630,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Dial</value>
+    <value>Dayal</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
@@ -638,7 +638,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital</value>
+    <value>Digaon</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -694,7 +694,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>Offline ...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
@@ -730,7 +730,7 @@ Pagbalhin - Pagtaas sa 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>Itom nga mode</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">

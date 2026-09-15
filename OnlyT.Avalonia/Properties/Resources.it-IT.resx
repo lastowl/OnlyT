@@ -881,5 +881,11 @@ Maiusc - Aggiungi 5m</value>
     <value>Non configurato</value>
     <comment>Firewall/network status indicator</comment>
   </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Mostra barra tempo residuo vista timer</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>File di programmazione</value>
+  </data>
 
 </root>

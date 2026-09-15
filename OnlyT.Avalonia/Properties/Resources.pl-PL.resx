@@ -881,5 +881,11 @@ Shift - dodaj 5 minut</value>
     <value>Nie skonfigurowano</value>
     <comment>Firewall/network status indicator</comment>
   </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Wyświetlaj pasek czasu oceny punktu</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Plik harmonogramu</value>
+  </data>
 
 </root>
