@@ -8,8 +8,7 @@
         x:Class="OnlyT.Avalonia.Views.MainWindow"
         Title="OnlyT - Meeting Timer"
         Icon="/Assets/icon.ico"
-        Width="420" Height="350"
-        MinWidth="420" MinHeight="350"
+        Width="379" Height="311"
         CanResize="True"
         Topmost="True">
     <Grid>

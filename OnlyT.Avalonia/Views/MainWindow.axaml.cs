@@ -11,8 +11,10 @@ namespace OnlyT.Avalonia.Views;
 
 public partial class MainWindow : Window
 {
-    private const double MainWindowDefaultWidth = 395;
-    private const double MainWindowDefaultHeight = 350;
+    // Avalonia sizes are the client area; WPF's 395x350 window minus its chrome gives 379x311,
+    // the operator page's design size, so the page isn't scaled up with empty bands
+    private const double MainWindowDefaultWidth = 379;
+    private const double MainWindowDefaultHeight = 311;
 
     private const double MainWindowMinNormalWidth = 250;
     private const double MainWindowMinNormalHeight = 200;

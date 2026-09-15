@@ -1,12 +1,39 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:materialStyles="using:Material.Styles.Themes"
+             xmlns:assists="clr-namespace:Material.Styles.Assists;assembly=Material.Styles"
              x:Class="OnlyT.Avalonia.App"
              Name="OnlyT"
              RequestedThemeVariant="Default">
     <Application.Styles>
         <materialStyles:MaterialTheme BaseTheme="Light" PrimaryColor="BlueGrey" SecondaryColor="Amber" />
         <StyleInclude Source="avares://OnlyT/Controls/AnalogueClock/ClockControlStyles.axaml"/>
+
+        <!-- Density to match the WPF version (MaterialDesignInXAML). Material.Avalonia's templates
+             hard-code tall inputs (ComboBox 48, TextBox 56 with room for a floating label,
+             NumericUpDown 48) and a 14pt font, so these override the template parts directly. -->
+        <Style Selector="TopLevel">
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+        <Style Selector="ComboBox /template/ Panel#PART_RootPanel">
+            <Setter Property="Height" Value="30"/>
+        </Style>
+        <Style Selector="TextBox /template/ Panel#PART_TextFieldPanel">
+            <Setter Property="MinHeight" Value="30"/>
+        </Style>
+        <!-- No TextBox in the app uses a floating label, so its reserved space can go -->
+        <Style Selector="TextBox /template/ Panel#PART_TextContainer">
+            <Setter Property="Margin" Value="0,4,4,4"/>
+        </Style>
+        <Style Selector="NumericUpDown /template/ Border#PART_RootBorder">
+            <Setter Property="MinHeight" Value="30"/>
+        </Style>
+        <Style Selector="CheckBox">
+            <Setter Property="assists:SelectionControlAssist.Size" Value="18"/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Padding" Value="16,4"/>
+        </Style>
     </Application.Styles>
     <Application.Resources>
         <ResourceDictionary>
