@@ -20,20 +20,25 @@ if (-not $m) { throw "Could not read AssemblyVersion from SolutionInfo.cs" }
 $ver = $m.Matches[0].Groups[1].Value
 Write-Host "=== OnlyT Windows build $ver ===" -ForegroundColor Cyan
 
-# 2. publish
+# 2. publish ($ErrorActionPreference doesn't cover native exes, so check exit codes explicitly)
 dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o publish/win-x64
+if ($LASTEXITCODE -ne 0) { throw "publish failed (Avalonia win-x64)" }
 dotnet publish OnlyT/OnlyT.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o publish/win-x64-wpf
+if ($LASTEXITCODE -ne 0) { throw "publish failed (WPF win-x64)" }
 
 # 3. signing setup (optional)
 $signCfg = if ($env:SIGN_CONFIG) { $env:SIGN_CONFIG } else { 'C:\Users\build\vcam-signing.ps1' }
 $dlib    = if ($env:SIGN_DLIB)   { $env:SIGN_DLIB }   else { 'C:\Users\build\VirtualCamApp\src\native\win\tools\TrustedSigning\bin\x64\Azure.CodeSigning.Dlib.dll' }
+$signtool = (Get-ChildItem 'C:\Program Files (x86)\Windows Kits\10\bin' -Recurse -Filter signtool.exe -EA SilentlyContinue |
+             Where-Object { $_.FullName -match '\\x64\\' } | Select-Object -First 1).FullName
 $canSign = $false
 if ((Test-Path $signCfg) -and (Test-Path $dlib)) {
     . $signCfg
-    if ($env:VCAM_SIGN_PROFILE -and $env:AZURE_CLIENT_ID) { $canSign = $true }
+    if ($env:VCAM_SIGN_PROFILE -and $env:AZURE_CLIENT_ID) {
+        if (-not $signtool) { throw "Signing config present but signtool.exe not found under Windows Kits" }
+        $canSign = $true
+    }
 }
-$signtool = (Get-ChildItem 'C:\Program Files (x86)\Windows Kits\10\bin' -Recurse -Filter signtool.exe -EA SilentlyContinue |
-             Where-Object { $_.FullName -match '\\x64\\' } | Select-Object -First 1).FullName
 $md = Join-Path $env:TEMP 'onlyt-sign-md.json'
 if ($canSign) {
     @{ Endpoint=$env:VCAM_SIGN_ENDPOINT; CodeSigningAccountName=$env:VCAM_SIGN_ACCOUNT; CertificateProfileName=$env:VCAM_SIGN_PROFILE } |
@@ -60,11 +65,14 @@ if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed" }
 $inst = Get-ChildItem "dist\Windows\OnlyT-Setup-*.exe" | Sort-Object LastWriteTime | Select-Object -Last 1
 Sign-File $inst.FullName
 
-# 7. portable zips (Avalonia x64 + arm64) with signed app exes
+# 7. portable zips (Avalonia x64 + arm64) with signed app exes. Zip the directory
+# itself (not its contents) so the archive extracts into a win-x64/win-arm64 folder,
+# matching previous releases, instead of dumping ~300 files at the extract point.
 dotnet publish OnlyT.Avalonia/OnlyT.Avalonia.csproj -c Release -r win-arm64 --self-contained true -p:PublishSingleFile=false -o publish/win-arm64
+if ($LASTEXITCODE -ne 0) { throw "publish failed (Avalonia win-arm64)" }
 Get-ChildItem "publish\win-arm64\*.exe" -EA SilentlyContinue | ForEach-Object { Write-Host "signing $($_.Name)"; Sign-File $_.FullName }
-Compress-Archive -Path "publish\win-x64\*"   -DestinationPath "dist\Windows\OnlyT-$ver-win-x64-portable.zip"   -Force
-Compress-Archive -Path "publish\win-arm64\*" -DestinationPath "dist\Windows\OnlyT-$ver-win-arm64-portable.zip" -Force
+Compress-Archive -Path "publish\win-x64"   -DestinationPath "dist\Windows\OnlyT-$ver-win-x64-portable.zip"   -Force
+Compress-Archive -Path "publish\win-arm64" -DestinationPath "dist\Windows\OnlyT-$ver-win-arm64-portable.zip" -Force
 
 Write-Host "=== DONE: installer + portable zips for $ver (signed=$canSign) ===" -ForegroundColor Green
 Get-ChildItem "dist\Windows" | Select-Object Name,Length | Format-Table -AutoSize | Out-String | Write-Host

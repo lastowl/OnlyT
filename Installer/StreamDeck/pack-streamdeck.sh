@@ -8,6 +8,10 @@ set -e
 PLUGIN_ID="com.onlyt.timer"
 # Single source of truth: derive the version from SolutionInfo.cs (avoids per-platform drift).
 PLUGIN_VERSION="$(sed -n 's/.*AssemblyVersion("\([0-9.]*\)").*/\1/p' "$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)/SolutionInfo.cs" | head -1)"
+if [ -z "$PLUGIN_VERSION" ]; then
+    echo "Error: could not read AssemblyVersion from SolutionInfo.cs"
+    exit 1
+fi
 
 # Paths
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

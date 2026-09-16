@@ -32,7 +32,9 @@ echo "=== copying to $VM_USER@$VM_HOST ==="
 $SCP /tmp/onlyt-src.tgz "$VM_USER@$VM_HOST:C:/Users/build/onlyt-src.tgz"
 
 echo "=== extract + build (+sign) on VM ==="
-$SSH "$VM_USER@$VM_HOST" "powershell -NoProfile -ExecutionPolicy Bypass -Command \"if(Test-Path '$DEST'){Remove-Item -Recurse -Force '$DEST'}; New-Item -ItemType Directory -Force '$DEST' | Out-Null; tar -xzf C:/Users/build/onlyt-src.tgz -C '$DEST'; Set-Location '$DEST'; & '$DEST/Installer/Windows/build-windows.ps1'\""
+# $ErrorActionPreference + the tar exit-code check make the remote step fail fast instead of
+# building whatever partial tree a failed extract left behind.
+$SSH "$VM_USER@$VM_HOST" "powershell -NoProfile -ExecutionPolicy Bypass -Command \"\$ErrorActionPreference='Stop'; if(Test-Path '$DEST'){Remove-Item -Recurse -Force '$DEST'}; New-Item -ItemType Directory -Force '$DEST' | Out-Null; tar -xzf C:/Users/build/onlyt-src.tgz -C '$DEST'; if(\$LASTEXITCODE -ne 0){throw 'tar extract failed'}; Set-Location '$DEST'; & '$DEST/Installer/Windows/build-windows.ps1'\""
 
 echo "=== copying installer + portable zips back ==="
 mkdir -p "$REPO/dist/Windows"

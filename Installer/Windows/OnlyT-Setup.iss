@@ -89,7 +89,7 @@ Source: "..\..\publish\win-x64-wpf\*.txt"; DestDir: "{app}\Classic"; Tasks: clas
 Source: "..\..\publish\win-x64-wpf\runtimes\*"; DestDir: "{app}\Classic\runtimes"; Tasks: classicversion; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
 
 ; StreamDeck plugin - only install if user selects it AND StreamDeck is installed
-Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"; Tasks: streamdeck; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"; Tasks: streamdeck; Check: IsStreamDeckInstalled; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 ; Avalonia version shortcuts
@@ -121,15 +121,24 @@ end;
 
 // Called when wizard page changes - use this to modify task list when tasks page is shown
 procedure CurPageChanged(CurPageID: Integer);
+var
+  I: Integer;
 begin
-  // When we reach the tasks page, disable StreamDeck task if not installed
+  // When we reach the tasks page, disable StreamDeck task if not installed.
+  // Find the task by caption: the tasks list also contains group-description
+  // rows, so positional indexes don't map 1:1 to [Tasks] entries.
   if CurPageID = wpSelectTasks then
   begin
     if not IsStreamDeckInstalled() then
     begin
-      // Index 0 = desktopicon, Index 1 = classicversion, Index 2 = streamdeck
-      WizardForm.TasksList.Checked[2] := False;
-      WizardForm.TasksList.ItemEnabled[2] := False;
+      for I := 0 to WizardForm.TasksList.Items.Count - 1 do
+      begin
+        if WizardForm.TasksList.ItemCaption[I] = 'Install Stream Deck plugin' then
+        begin
+          WizardForm.TasksList.Checked[I] := False;
+          WizardForm.TasksList.ItemEnabled[I] := False;
+        end;
+      end;
     end;
   end;
 end;

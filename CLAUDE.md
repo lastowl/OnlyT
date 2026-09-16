@@ -37,39 +37,21 @@ VERSION="2.4.0.17"
 
 ## Version Update
 
-Before building a release, update the version in these files:
+`SolutionInfo.cs` is the single source of truth for the version. All build scripts
+(`Installer/build-all.sh`, `Installer/macOS/build-macos.sh`, `Installer/StreamDeck/pack-streamdeck.sh`,
+`Installer/Windows/build-windows.ps1`) derive the version from it automatically, and
+`build-windows.ps1` passes it to Inno Setup via `/DMyAppVersion` (the `#define` in
+`OnlyT-Setup.iss` is only a fallback for compiling the .iss directly).
 
-### SolutionInfo.cs (main version)
+To bump the version, update one file:
+
 ```bash
-# File: SolutionInfo.cs
-[assembly: AssemblyVersion("2.4.0.16")]
-```
-
-### Build Scripts
-```bash
-# File: Installer/build-all.sh
-APP_VERSION="2.4.0.16"
-
-# File: Installer/macOS/build-macos.sh
-APP_VERSION="2.4.0.16"
-```
-
-### Windows Installer
-```bash
-# File: Installer/Windows/OnlyT-Setup.iss
-#define MyAppVersion "2.4.0.16"
-#define MyAppURL "https://github.com/lastowl/OnlyT"
-```
-
-### Quick sed commands to update all at once:
-```bash
-VERSION="2.4.0.17"
-
+VERSION="2.5.0.11"
 sed -i '' "s/AssemblyVersion(\".*\")/AssemblyVersion(\"${VERSION}\")/" SolutionInfo.cs
-sed -i '' "s/APP_VERSION=\".*\"/APP_VERSION=\"${VERSION}\"/" Installer/build-all.sh
-sed -i '' "s/APP_VERSION=\".*\"/APP_VERSION=\"${VERSION}\"/" Installer/macOS/build-macos.sh
-sed -i '' "s/#define MyAppVersion \".*\"/#define MyAppVersion \"${VERSION}\"/" Installer/Windows/OnlyT-Setup.iss
 ```
+
+Do NOT sed APP_VERSION in the shell scripts — it is now a derived value, and rewriting
+it would clobber the derivation line.
 
 ---
 
