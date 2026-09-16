@@ -118,93 +118,93 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ဘဲလ်သည် အသက်ဝင်နေသည်။</value>
+    <value>ခေါင်းလောင်း ဖွင့်ထားသည်</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>တစ်ခုမှ</value>
+    <value>မရှိ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>တစ်လမ်းမောင်း</value>
+    <value>တစ်လမ်းသွား</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>နှစ်လမ်း</value>
+    <value>နှစ်လမ်းသွား</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>ဆော့ဖ်ဝဲဗားရှင်း {0}</value>
+    <value>ဆော့ဖ်ဝဲ ဗားရှင်း {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>၁၂-နာရီ</value>
+    <value>၁၂ နာရီစနစ်</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 နာရီ (သုညဦးဆောင်)</value>
+    <value>၁၂ နာရီစနစ် (ရှေ့တွင် သုည)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>၂၄ နာရီ</value>
+    <value>၂၄ နာရီစနစ်</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 နာရီ (သုည ဦးဆောင်)</value>
+    <value>၂၄ နာရီစနစ် (ရှေ့တွင် သုည)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>ဖိုင်တွဲ {0} ကို မဖန်တီးနိုင်ခဲ့ပါ။</value>
+    <value>ဖိုင်တွဲ {0} ကို ဖန်တီး၍ မရပါ</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>လိုက်လျောညီထွေရှိသောကြာချိန်</value>
+    <value>ညှိထားသော ကြာချိန်</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>ပြုပြင်ထားသော ကြာချိန်</value>
+    <value>ပြင်ထားသော ကြာချိန်</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>မူရင်းကြာချိန်</value>
+    <value>မူလ ကြာချိန်</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>လက်တံ</value>
+    <value>လက်တံနာရီ</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue နှင့် Digital</value>
+    <value>လက်တံနာရီနှင့် ဒစ်ဂျစ်တယ်</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>ဒစ်ဂျစ်တယ်</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ဘဲလ်သည် မလှုပ်ရှားပါ။</value>
+    <value>ခေါင်းလောင်း ပိတ်ထားသည်</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>အလယ်ပတ်</value>
+    <value>ရက်သတ္တပတ်အလယ်</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>ဓမ္မ-ပစ္စည်း ၁</value>
+    <value>အမှုဆောင်လုပ်ငန်း - အပိုင်း ၁</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>ဓမ္မ-ပစ္စည်း ၂</value>
+    <value>အမှုဆောင်လုပ်ငန်း - အပိုင်း ၂</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>ဓမ္မ- ၃</value>
+    <value>အမှုဆောင်လုပ်ငန်း - အပိုင်း ၃</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>အလိုအလျောက်</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>ဖိုင်အခြေခံ</value>
+    <value>ဖိုင်အခြေပြု</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>လူကိုယ်တိုင်</value>
+    <value>ကိုယ်တိုင်</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>နိဂုံးချုပ်စကားပြော</value>
+    <value>နိဂုံးချုပ် ဟောပြောချက်</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>နိဂုံးချုပ်မှတ်ချက်</value>
@@ -216,121 +216,121 @@
     <value>ဘုရားရေးရာ ရတနာ</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>အသက်ရှင်ခြင်း - အပိုင်း ၁</value>
+    <value>ခရစ်ယာန်အသက်တာ - အပိုင်း ၁</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>အသက်ရှင်ခြင်း - အပိုင်း ၂</value>
+    <value>ခရစ်ယာန်အသက်တာ - အပိုင်း ၂</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>နိဒါန်း</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>ဒီလရဲ့ တင်ပြချက်များ</value>
+    <value>ယခုလအတွက် တင်ပြပုံများ</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>လူထုဟောပြောပွဲ</value>
+    <value>လူထုဟောပြောချက်</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>ကျမ်းစာဖတ်ရှုခြင်း</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>ဝန်ဆောင်မှု ဟောပြောပွဲ</value>
+    <value>အမှုဆောင်လုပ်ငန်း ဟောပြောချက်</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Treasures ဟောပြောချက်</value>
+    <value>အဖိုးတန်ဘဏ္ဍာများ ဟောပြောချက်</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>လေ့လာရန် ကင်းမျှော်စင်</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>စနေ၊</value>
+    <value>ရက်သတ္တပတ်ကုန်</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 နာရီ (မနက် / ညနေ)</value>
+    <value>၁၂ နာရီစနစ် (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 နာရီ (သုည &amp; နံနက် / ညနေ)</value>
+    <value>၁၂ နာရီစနစ် (ရှေ့တွင် သုည နှင့် am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>တစ်ခုမှ</value>
+    <value>မရှိ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>အချိန်တိုင်းကိရိယာ လုပ်ဆောင်နေချိန်တွင် ဆက်တင်များ မရနိုင်ပါ။</value>
+    <value>တိုင်မာ လည်ပတ်နေစဉ် ဆက်တင်များကို သုံး၍ မရပါ!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>ဆက်တင်များ</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>ဘဏ္ဍာ</value>
+    <value>အဖိုးတန်ဘဏ္ဍာများ</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ဓမ္မ</value>
+    <value>အမှုဆောင်လုပ်ငန်း</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>နေထိုင်ခြင်း။</value>
+    <value>ခရစ်ယာန်အသက်တာ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>စနေ၊</value>
+    <value>ရက်သတ္တပတ်ကုန်</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>ဆက်တင်များကို စီမံခန့်ခွဲသူက ပိတ်ထားသည်။</value>
+    <value>စီမံခန့်ခွဲသူက ဆက်တင်များကို ပိတ်ထားသည်!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ဓမ္မ-ပစ္စည်း ၄</value>
+    <value>အမှုဆောင်လုပ်ငန်း - အပိုင်း ၄</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>တိုက်နယ်တခုတော့ရှိတယ်။</value>
+    <value>တိုက်နယ်ကြီးကြပ်မှူး လာရောက်ခြင်း</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>COUNTDOWN ကိုပိတ်ပါ။</value>
+    <value>နောက်ပြန်ရေတွက်ခြင်း ပိတ်ရန်</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>ကူညီကြပါ</value>
+    <value>အကူအညီ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ပတ်လမ်းလည်ပတ်မှု]</value>
+    <value>[တိုက်နယ်ကြီးကြပ်မှူး လာရောက်ခြင်း]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>ဗားရှင်းအသစ် ရပါပြီ။</value>
+    <value>ဗားရှင်းအသစ် ရနိုင်ပါပြီ!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>အဓိက</value>
+    <value>ပင်မ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>အသုံးပြုခွင့်ကုဒ်</value>
+    <value>ဝင်ရောက်ခွင့်ကုဒ်</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>ရက်သတ္တပတ်အတွင်း သပ္ပါယမုဒ်</value>
+    <value>ရက်သတ္တပတ်အလယ် အလိုက်သင့်ညှိမုဒ်</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>စနေ၊</value>
+    <value>ရက်သတ္တပတ်ကုန် အလိုက်သင့်ညှိမုဒ်</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>ရေတွက်ခြင်းခလုတ်ကို ခွင့်ပြုပါ။</value>
+    <value>အပေါ်သို့ ရေတွက်ခြင်းသို့ ပြောင်းခွင့်ပြုရန်</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>အမြဲတမ်းထိပ်မှာ</value>
+    <value>အမြဲ အပေါ်ဆုံးတွင် ထားရန်</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>အဝေးထိန်းအက်ပ်များ</value>
+    <value>အဝေးထိန်း အက်ပ်များ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>အလိုအလျောက်မုဒ်</value>
+    <value>အလိုအလျောက် မုဒ်</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>ဘဲလ်</value>
+    <value>ခေါင်းလောင်း</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -338,17 +338,17 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>အစည်းအဝေး Countdown</value>
+    <value>အစည်းအဝေး နောက်ပြန်ရေတွက်ခြင်း</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>ပတ်လမ်းလည်ပတ်မှုခလုတ်</value>
+    <value>တိုက်နယ်ကြီးကြပ်မှူး လာရောက်ခြင်း ဖွင့်/ပိတ်</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>ဒစ်ဂျစ်တယ်နာရီပုံစံ</value>
+    <value>ဒစ်ဂျစ်တယ်နာရီ ပုံစံ</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>ဖွင့်ထားသည်။</value>
+    <value>ဖွင့်ထားသည်</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>အစည်းအဝေး စတင်ချိန် (တစ်ကြောင်းလျှင် ၁ ကြိမ်)</value>
+    <value>အစည်းအဝေး စတင်ချိန်များ (တစ်ကြောင်းလျှင် တစ်ခု)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>အမျိုးမျိုးသော</value>
+    <value>အထွေထွေ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>စောင့်ကြည့်</value>
+    <value>မော်နီတာ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>မောက်စ်ညွှန်ပြပါ။</value>
+    <value>မောက်စ်ညွှန်တံ ပြရန်</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>စတင်ချိန်တိုင်းကို လိုင်းအသစ်တစ်ခုတွင် ထားပေးပါ။</value>
+    <value>စတင်ချိန်တစ်ခုစီကို စာကြောင်းအသစ်တွင် ရေးပါ။</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>သင်နှစ်သက်သည့် အချိန်ဖော်မတ်ကို အသုံးပြုပါ။</value>
+    <value>နှစ်သက်ရာ အချိန်ပုံစံကို သုံးနိုင်ပါသည်!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>စိတ်ကြိုက်ရွေးချယ်နိုင်သောနေ့၊ e.g. "သု ၁၉:၁၅"</value>
+    <value>နေ့ကိုလည်း ထည့်ရေးနိုင်ပါသည်၊ ဥပမာ "ကြာသပတေး 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>မှတ်စုများ-</value>
+    <value>မှတ်ချက်များ:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ပို့တ်ကိုဖွင့်ပါ။</value>
+    <value>ပို့တ် ဖွင့်ရန်</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,80 +396,80 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>ကျောင်းသူအချိန်တွေကို ဆက်လုပ်ပါ။</value>
+    <value>ကျောင်းသား၏ အချိန်ကို ဆက်ပြထားရန်</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>ဆက်ပြောရန် ကြာချိန်</value>
+    <value>ဟောပြောချက် အချိန်ကို ဆက်ပြထားမည့် ကြာချိန်</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ဆိပ်ကမ်း</value>
+    <value>ပို့တ်</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>အဝေးမှဝင်ရောက်ခွင့်</value>
+    <value>အဝေးမှ ဝင်ရောက်ခြင်း</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>analogue နာရီတွင် ကဏ္ဍကို ပြပါ။</value>
+    <value>လက်တံနာရီပေါ်တွင် အချိန်အပိုင်းကို ပြရန်</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>ခွဲခြမ်းမျက်နှာပြင်အကျယ်-</value>
+    <value>ခွဲထားသော မျက်နှာပြင် အကျယ်:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>စမ်းသပ်ပါ။</value>
+    <value>စမ်းသပ်ရန်</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>ဖိချထားသည်။</value>
+    <value>ကန့်သတ်ထားသည်</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>အချိန်တိုင်းသည် ရေတွက်သည်။</value>
+    <value>တိုင်မာ အပေါ်သို့ ရေတွက်သည်</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>အချိန်တိုင်းပြတင်းပေါက်</value>
+    <value>တိုင်မာ ဝင်းဒိုး</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>timer အောက်တွင် နေ့၏အချိန်</value>
+    <value>တိုင်မာအောက်တွင် လက်ရှိအချိန်</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>အတွဲ-</value>
+    <value>အသံအတိုးအကျယ်:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ဘာသာစကား</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>ဘာသာစကားပြောင်းလဲပြီးနောက် OnlyT ကို ပြန်လည်စတင်ပါ။</value>
+    <value>ဘာသာစကား ပြောင်းပြီးနောက် OnlyT ကို ပြန်ဖွင့်ပါ။</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 မီတာ လျှော့ပါ။
-Ctrl - 15s လျှော့ပါ။
-Shift - 5m လျှော့ပါ။</value>
+    <value>၁ မိနစ် လျှော့ရန်
+Ctrl - ၁၅ စက္ကန့် လျှော့ရန်
+Shift - ၅ မိနစ် လျှော့ရန်</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 မီတာတိုးပါ။
-Ctrl - 15s တိုးပါ။
-Shift - 5m တိုးပါ။</value>
+    <value>၁ မိနစ် တိုးရန်
+Ctrl - ၁၅ စက္ကန့် တိုးရန်
+Shift - ၅ မိနစ် တိုးရန်</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>လူကိုယ်တိုင်မုဒ်</value>
+    <value>ကိုယ်တိုင်ထိန်း မုဒ်</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>ရေတွက်ခြင်း။</value>
+    <value>နောက်ပြန် ရေတွက်နေသည်</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>ရေတွက်ခြင်း။</value>
+    <value>အပေါ်သို့ ရေတွက်နေသည်</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>ဖွင့်ထားသည်။</value>
+    <value>ဖွင့်ထားသည်</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>ဖွင့်ထားသည်။</value>
+    <value>ဖွင့်ထားသည်</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>ဖွင့်ထားသည်။</value>
+    <value>ဖွင့်ထားသည်</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>စက္ကန့်တွေကို ပြပါ။</value>
+    <value>စက္ကန့်ကို ပြရန်</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>ဘောင်ပြပါ။</value>
+    <value>ဘောင် ပြရန်</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,11 +498,11 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>ဇူးမ်အဆင့်-</value>
+    <value>ချဲ့ချုံ့ အဆင့်:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>တည်နေရာ</value>
+    <value>နေရာ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
@@ -510,35 +510,35 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>ဘယ်ဘက်အောက်ခြေ</value>
+    <value>ဘယ်ဘက်အောက်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>အောက်ခြေညာဘက်</value>
+    <value>ညာဘက်အောက်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>စင်တာ</value>
+    <value>အလယ်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>ဝဲ</value>
+    <value>ဘယ်ဘက်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>မှန်တယ်။</value>
+    <value>ညာဘက်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>ထိပ်တန်း</value>
+    <value>အပေါ်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ဘယ်ဘက်ထိပ်</value>
+    <value>ဘယ်ဘက်အပေါ်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ညာဘက်</value>
+    <value>ညာဘက်အပေါ်</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,39 +546,39 @@ Shift - 5m တိုးပါ။</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ဆိပ်ကမ်းဖွင့်ပြီး ကြိုတင်စာရင်းပေးထားသည်။</value>
+    <value>ပို့တ်ကို ဖွင့်ပြီး ကြိုတင်သတ်မှတ်ပြီးပါပြီ</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ဆိပ်ကမ်းကို ဖွင့်၍မရပါ (မှတ်တမ်းကိုကြည့်ပါ)။</value>
+    <value>ပို့တ်ကို ဖွင့်၍ မရပါ (မှတ်တမ်းကို ကြည့်ပါ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>အချိန်ကိုက် အစီရင်ခံစာကို ထုတ်ပြန်ခဲ့သည်။</value>
+    <value>အချိန်မှတ်တမ်း အစီရင်ခံစာ ထုတ်ပြီးပါပြီ</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>အစီရင်ခံစာများဖန်တီးပါ။</value>
+    <value>အစီရင်ခံစာများ ထုတ်ရန်</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>နိဂုံးချုပ် အပိုင်း</value>
+    <value>နိဂုံးအပိုင်း</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ကြားဖြတ်အပိုင်း</value>
+    <value>ကြားအပိုင်း</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>မိတ်ဆက် အပိုင်း</value>
+    <value>အဖွင့်အပိုင်း</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>သစ်ခုတ်ခြင်းအဆင့်</value>
+    <value>မှတ်တမ်းတင်မှု အဆင့်</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>အမှားရှာပါ။</value>
+    <value>အမှားရှာ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ထွားသည်။</value>
+    <value>ပြင်းထန်သော အမှား</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>သတင်းအချက်အလက်</value>
+    <value>အချက်အလက်</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>စကားရှည်သည်။</value>
+    <value>အသေးစိတ်</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,23 +602,23 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>အစည်းအဝေးအချိန်တိုင်းဒေတာကို ပိုင်းခြားစိတ်ဖြာခြင်း။</value>
+    <value>အစည်းအဝေး တိုင်မာဒေတာကို စိစစ်နေသည်</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>အစီရင်ခံစာ မထုတ်ပေးပါ။</value>
+    <value>အစီရင်ခံစာ မထုတ်နိုင်ခဲ့ပါ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>အမြင်</value>
+    <value>ကြည့်ရန်</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>အလိုအလျောက်အသံ</value>
+    <value>အလိုအလျောက် မြည်စေရန်</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>ခေါင်းလောင်းတီးရန် နှိပ်ပါ။</value>
+    <value>ခေါင်းလောင်း တီးရန်</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -626,15 +626,15 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>ဒြပ်စင်</value>
+    <value>ပါဝင်သည့်အရာများ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ဒိုင်ခွက်</value>
+    <value>နာရီမျက်နှာပြင်</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial နှင့် Digital</value>
+    <value>နာရီမျက်နှာပြင်နှင့် ဒစ်ဂျစ်တယ်</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,47 +642,47 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>ပွင့်လင်းသောနောက်ခံ</value>
+    <value>ဖောက်ထွင်းမြင်ရသော နောက်ခံ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>မော်နီတာအား command-line ဆက်တင်ဖြင့် ထိန်းချုပ်ထားကြောင်း သတိပြုပါ။</value>
+    <value>မော်နီတာကို ကွန်မန်းလိုင်း ဆက်တင်ဖြင့် ထိန်းချုပ်ထားကြောင်း သတိပြုပါ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>တိုင်မာ နောက်ခံ အရောင်အသွေး</value>
+    <value>တိုင်မာ နောက်ခံ အရောင်ပြေ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>နာရီနောက်ခံအရောင်အဆင်း</value>
+    <value>နာရီ နောက်ခံ အရောင်ပြေ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>အချိန်တိုင်းဘောင်</value>
+    <value>တိုင်မာဘောင်</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>နာရီပြား</value>
+    <value>အပြားပုံ နာရီ</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>တနင်္ဂနွေပိတ်ရက် သောကြာပါဝင်သည်။</value>
+    <value>ရက်သတ္တပတ်ကုန်တွင် သောကြာနေ့ ပါဝင်သည်</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>ပြတင်းပေါက်</value>
+    <value>ဝင်းဒိုးပုံစံ</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>ပြတင်းပေါက်</value>
+    <value>ဝင်းဒိုးပုံစံ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Countdown Window ကိုပိတ်ပါ။</value>
+    <value>နောက်ပြန်ရေတွက်ခြင်း ဝင်းဒိုးကို ပိတ်ရန်</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ပွင့်လင်းမြင်သာသော "ပြတင်းပေါက်ရှိ" နှစ်သစ်ကို ဖွင့်၍မရပါ။</value>
+    <value>ဖောက်ထွင်းမြင်ရသော "ဝင်းဒိုးပုံစံ" နောက်ပြန်ရေတွက်ခြင်းကို ဖွင့်၍ မရပါ</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,35 +698,35 @@ Shift - 5m တိုးပါ။</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>လျှော့ကျုံ့ပါ။</value>
+    <value>အငယ်ချလျှင် ကျုံ့ရန်</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>မူလတန်း</value>
+    <value>ပင်မ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>အထွက်အား command-line ဆက်တင်မှတစ်ဆင့် NDI သို့ သတ်မှတ်ထားကြောင်း သတိပြုပါ။</value>
+    <value>ထုတ်ပြမှုကို ကွန်မန်းလိုင်း ဆက်တင်ဖြင့် NDI သို့ သတ်မှတ်ထားကြောင်း သတိပြုပါ။</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>အချိန်တိုင်းစက်ကို စတင်သင့်ပါသလား။</value>
+    <value>တိုင်မာကို စတင်ထားသင့်ပြီ မဟုတ်လား?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>ပေါ်လာသော သတိပေးချက်များ</value>
+    <value>ပေါ်လာသည့် သတိပေးချက်များ</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>အစည်းအဝေးသည် အချိန်ပို {0} မိနစ် လုပ်ဆောင်နေပါသည်။</value>
+    <value>အစည်းအဝေးသည် သတ်မှတ်ချိန်ထက် {0} မိနစ် ကျော်နေသည်</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>အစည်းအဝေးသည် အချိန်ထက် {0} မိနစ်ကြာ လုပ်ဆောင်နေပါသည်။</value>
+    <value>အစည်းအဝေးသည် သတ်မှတ်ချိန်ထက် {0} မိနစ် စောနေသည်</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>အကြောင်းကြားချက်များကို ဖျက်/ဖျက်ပါ။</value>
+    <value>အချိန်ကျော်/အချိန်စော အသိပေးချက်များ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,23 +734,23 @@ Shift - 5m တိုးပါ။</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>ပိတ်လိုက်</value>
+    <value>ပိတ်ရန်</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>သိမ်းဆည်းပါ။</value>
+    <value>သိမ်းရန်</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>ပြန်လည်စတင်ပါ။</value>
+    <value>ပြန်လည်ဆန်းသစ်ရန်</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>စီစဉ်ပေးသည်။</value>
+    <value>ပြင်ဆင်သတ်မှတ်ရန်</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>ဝင်ရောက်ခွင့် တောင်းဆိုပါ။</value>
+    <value>ဝင်ရောက်ခွင့် တောင်းရန်</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,19 +758,19 @@ Shift - 5m တိုးပါ။</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>အစည်းအဝေးစတင်သည်။</value>
+    <value>အစည်းအဝေး စတင်ရန် ကျန်ချိန်</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>ဝဘ်နာရီကိုကြည့်ရှုရန် မိုဘိုင်းကိရိယာဖြင့် စကင်န်ဖတ်ပါ။</value>
+    <value>ဝဘ်နာရီကို ကြည့်ရန် မိုဘိုင်းဖုန်းဖြင့် စကင်ဖတ်ပါ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>ပလပ်ဖောင်း-</value>
+    <value>ပလက်ဖောင်း:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>အခြေအနေ-</value>
+    <value>အခြေအနေ:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,23 +778,23 @@ Shift - 5m တိုးပါ။</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>အချိန်တိုးပါ (+1 မိနစ်)။ နောက်ထပ်ရွေးချယ်စရာများအတွက် ညာကလစ်နှိပ်ပါ။</value>
+    <value>အချိန်တိုးရန် (+၁ မိနစ်)။ နောက်ထပ် ရွေးစရာများအတွက် ညာကလစ်နှိပ်ပါ။</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>အချိန်လျှော့ပါ (-1 မိနစ်)။ နောက်ထပ်ရွေးချယ်စရာများအတွက် ညာကလစ်နှိပ်ပါ။</value>
+    <value>အချိန်လျှော့ရန် (-၁ မိနစ်)။ နောက်ထပ် ရွေးစရာများအတွက် ညာကလစ်နှိပ်ပါ။</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>အချိန်ကိုက် အစီရင်ခံစာ (PDF) ထုတ်လုပ်ရန်</value>
+    <value>အချိန်မှတ်တမ်း အစီရင်ခံစာ ထုတ်ရန် (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>နှစ်သစ်တိုင်တိုင်ပြပါ။</value>
+    <value>နောက်ပြန်ရေတွက်သည့် တိုင်မာ ပြရန်</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>ဗားရှင်းအသစ် ရပါပြီ။</value>
+    <value>ဗားရှင်းအသစ် ရနိုင်ပါပြီ</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - 5m တိုးပါ။</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>ကူညီကြပါ</value>
+    <value>အကူအညီ</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>သေးငယ်သောမုဒ်သို့ ကျုံ့ပါ။</value>
+    <value>ကျစ်လျစ်သော မုဒ်သို့ ကျုံ့ရန်</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,51 +834,51 @@ Shift - 5m တိုးပါ။</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>ကွန်ရက်ခွင့်ပြုချက်များ</value>
+    <value>ကွန်ရက် ခွင့်ပြုချက်များ</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>အချိန်ပိုကာလအတွင်း Flash Timer</value>
+    <value>အချိန်ကျော်လျှင် တိုင်မာ မှိတ်တုတ်မှိတ်တုတ် ဖြစ်စေရန်</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>အချိန်ပိုဆင်းသည့်အခါ ဘဲလ်မြည်သည်။</value>
+    <value>အချိန်ကျော်လျှင် ခေါင်းလောင်း တီးရန်</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>အဆင်သင့်</value>
+    <value>အသင့်</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>ပြေးသည်။</value>
+    <value>လည်ပတ်နေသည်</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>ရပ်ထားသည်။</value>
+    <value>ခဏရပ်ထားသည်</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>အချိန်ပို</value>
+    <value>အချိန်ကျော်</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>ရပ်သွားတယ်။</value>
+    <value>ရပ်ထားသည်</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>ဝင်ခွင့်ကုဒ်ကို ထည့်ပါ...</value>
+    <value>ဝင်ရောက်ခွင့်ကုဒ် ထည့်ပါ...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>မိ</value>
+    <value>မိနစ်</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>ပြင်ဆင်ထားသည်။</value>
+    <value>သတ်မှတ်ပြီး</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Configured မရှိပါ။</value>
+    <value>မသတ်မှတ်ရသေး</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5m တိုးပါ။</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ခရစ်ယာန်အသက်တာလမ်းစဉ်</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>အစည်းအဝေးအပိုင်း အမည်အပြည့်အစုံ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>ဆက်ပြထားစဉ် ကျန်ချိန်ပြဘား ပြရန်</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ဆက်ပြထားမည့် ကြာချိန် (စက္ကန့်)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ဂန္ထဝင် မျက်နှာပြင် (မူလ OnlyT အပြင်အဆင်အတိုင်း)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Windows အတွက်သာ ရှိခဲ့သော မူလ OnlyT နှင့် တူသည့် အပြင်အဆင်ကို သုံးပါ။ Avalonia တွင်သာ ရှိသော လုပ်ဆောင်ချက်များကို ဝှက်ထားပါမည်။</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>နောက်အစီအစဉ်သို့ ကျော်ရန်</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>မိနစ်</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>သိမ်းရန်</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>လက်ရှိ အချိန်ဇယားကို ပြန်သုံးနိုင်သော ပုံစံအဖြစ် သိမ်းရန်</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>အချိန်ဇယား ဖိုင်</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>အချိန်ဇယား ထုတ်ယူရန်ခလုတ် ပြရန်</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>လက်တံနာရီ၏ အရွယ်အစားကို ထိန်းချုပ်သည်။ လက်တံနာရီပါသော အလျားလိုက် အပြင်အဆင်တွင်သာ သက်ရောက်သည်။</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>နာရီနှင့် တိုင်မာ ဘေးချင်းယှဉ် အပြင်အဆင် (နာရီ ဘယ်ဘက်၊ တိုင်မာ ညာဘက်)</value>
   </data>
 
 </root>

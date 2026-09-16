@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ቤል ንቁ ነው።</value>
+    <value>ደወሉ በርቷል</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>ምንም</value>
+    <value>የለም</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>አንድ-መንገድ</value>
+    <value>ባለ አንድ አቅጣጫ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>ባለ ሁለት መንገድ</value>
+    <value>ባለ ሁለት አቅጣጫ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -138,35 +138,35 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-ሰዓት</value>
+    <value>ባለ 12 ሰዓት</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-ሰዓት (መሪ ዜሮ)</value>
+    <value>ባለ 12 ሰዓት (ከፊት ዜሮ ያለው)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-ሰዓት</value>
+    <value>ባለ 24 ሰዓት</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-ሰዓት (መሪ ዜሮ)</value>
+    <value>ባለ 24 ሰዓት (ከፊት ዜሮ ያለው)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>አቃፊ {0} መፍጠር አልተቻለም</value>
+    <value>{0} የተባለውን አቃፊ መፍጠር አልተቻለም</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>የተስተካከለ ቆይታ</value>
+    <value>በራስ-ሰር የተስተካከለ ጊዜ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>የተሻሻለ ቆይታ</value>
+    <value>የተቀየረ ጊዜ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>ኦሪጅናል ቆይታ</value>
+    <value>የመጀመሪያው ጊዜ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -180,31 +180,31 @@
     <value>ዲጂታል</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ቤል እንቅስቃሴ-አልባ ነው።</value>
+    <value>ደወሉ ጠፍቷል</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>በሳምንቱ አጋማሽ</value>
+    <value>የሳምንቱ መሃል</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>ሚኒስቴር - ንጥል 1</value>
+    <value>አገልግሎት - ክፍል 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>ሚኒስቴር - ንጥል 2</value>
+    <value>አገልግሎት - ክፍል 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>ሚኒስቴር - ንጥል 3</value>
+    <value>አገልግሎት - ክፍል 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>አውቶማቲክ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>በፋይል ላይ የተመሰረተ</value>
+    <value>በፋይል ላይ የተመሠረተ</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>መመሪያ</value>
+    <value>በእጅ</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>የማጠቃለያ ንግግር</value>
+    <value>የመደምደሚያ ንግግር</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>የመደምደሚያ ሐሳብ</value>
@@ -216,19 +216,19 @@
     <value>መንፈሳዊ ዕንቁዎች</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>መኖር - ክፍል 1</value>
+    <value>ክርስቲያናዊ ሕይወት - ክፍል 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>መኖር - ክፍል 2</value>
+    <value>ክርስቲያናዊ ሕይወት - ክፍል 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>የመግቢያ ሐሳብ</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>የዚህ ወር የዝግጅት አቀራረቦች</value>
+    <value>የዚህ ወር አቀራረቦች</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>የህዝብ ንግግር</value>
+    <value>የሕዝብ ንግግር</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>የመጽሐፍ ቅዱስ ንባብ</value>
@@ -237,65 +237,65 @@
     <value>የአገልግሎት ንግግር</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>ውድ ሀብት ንግግር</value>
+    <value>የውድ ሀብት ንግግር</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>የመጠበቂያ ግንብ ጥናት</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>ቅዳሜና እሁድ</value>
+    <value>የሳምንቱ መጨረሻ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-ሰዓት (ጠዋት/ከሰአት)</value>
+    <value>ባለ 12 ሰዓት (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-ሰዓት (መሪ ዜሮ እና ጥዋት/ከሰዓት)</value>
+    <value>ባለ 12 ሰዓት (ከፊት ዜሮ እና am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>ምንም</value>
+    <value>የለም</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>ሰዓት ቆጣሪ እያሄደ እያለ ቅንብሮች አይገኙም!</value>
+    <value>ሰዓት ቆጣሪው እየሠራ እያለ ቅንብሮችን መክፈት አይቻልም!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>ቅንብሮች</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>ውድ ሀብቶች</value>
+    <value>ውድ ሀብት</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ሚኒስቴር</value>
+    <value>አገልግሎት</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>መኖር</value>
+    <value>ክርስቲያናዊ ሕይወት</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>ቅዳሜና እሁድ</value>
+    <value>የሳምንቱ መጨረሻ</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>ቅንብሮች በአስተዳዳሪ ተሰናክለዋል!</value>
+    <value>ቅንብሮች በአስተዳዳሪው ተሰናክለዋል!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ሚኒስቴር - ንጥል 4</value>
+    <value>አገልግሎት - ክፍል 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>የወረዳ ጉብኝት</value>
+    <value>የወረዳ የበላይ ተመልካች ጉብኝት</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>COUNTdown ዝጋ</value>
+    <value>ቆጠራውን ዝጋ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>እገዛ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[የወረዳ ጉብኝት]</value>
+    <value>[የወረዳ የበላይ ተመልካች ጉብኝት]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>አዲስ ስሪት አለ!</value>
+    <value>አዲስ ስሪት ይገኛል!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>ዋና</value>
@@ -306,19 +306,19 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>የመካከለኛው ሳምንት አስማሚ ሁነታ</value>
+    <value>ራስ-አስተካካይ ሁነታ (የሳምንቱ መሃል)</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>ቅዳሜና እሁድ የሚለምደዉ ሁነታ</value>
+    <value>ራስ-አስተካካይ ሁነታ (የሳምንቱ መጨረሻ)</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>ቆጠራ መቀያየርን ፍቀድ</value>
+    <value>ወደ ላይ መቁጠር ለመቀየር ፍቀድ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>ሁልጊዜም ከላይ</value>
+    <value>ሁልጊዜ ከላይ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -338,11 +338,11 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ስብሰባ COUNTdown</value>
+    <value>የስብሰባ መጀመሪያ ቆጠራ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>የወረዳ ጉብኝት መቀያየር</value>
+    <value>የወረዳ የበላይ ተመልካች ጉብኝት ማብሪያ/ማጥፊያ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>የዲጂታል ሰዓት ቅርጸት</value>
@@ -352,10 +352,10 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>የሙሉ ማያ ሰዓት ሁነታ</value>
+    <value>የሙሉ ማያ ገጽ ሰዓት ሁነታ</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>የአይፒ አድራሻ</value>
+    <value>IP አድራሻ</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>የስብሰባ የመጀመሪያ ጊዜዎች (በአንድ መስመር 1)</value>
+    <value>ስብሰባ የሚጀምርባቸው ሰዓቶች (በአንድ መስመር 1)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>ልዩ ልዩ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>ተቆጣጠር</value>
+    <value>ማሳያ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>የመዳፊት ጠቋሚን አሳይ</value>
+    <value>የማውዝ ጠቋሚን አሳይ</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>እያንዳንዱን የመጀመሪያ ጊዜ በአዲስ መስመር ላይ ያድርጉት።</value>
+    <value>እያንዳንዱን የመጀመሪያ ሰዓት በአዲስ መስመር ላይ ያስገቡ።</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>የፈለጉትን የጊዜ ቅርጸት ይጠቀሙ!</value>
+    <value>የፈለጉትን የሰዓት አጻጻፍ መጠቀም ይችላሉ!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>እንደ አማራጭ አንድ ቀን ያካትቱ, ለምሳሌ. " ታህ 19:15 "</value>
+    <value>ከፈለጉ ቀንም ማካተት ይችላሉ፤ ለምሳሌ "ሐሙስ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>ማስታወሻዎች፡-</value>
+    <value>ማስታወሻ፦</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ክፍት ወደብ</value>
+    <value>ፖርት ክፈት</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>የተማሪ ጊዜን ቀጥል</value>
+    <value>የተማሪውን ጊዜ ለተጨማሪ ጊዜ አሳይ</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>የንግግር ቆይታዎን ይቀጥሉ</value>
+    <value>ንግግሩ ካበቃ በኋላ ጊዜው የሚታይበት ቆይታ</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ወደብ</value>
+    <value>ፖርት</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,22 +412,22 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>በአናሎግ ሰዓት ላይ ዘርፍ አሳይ</value>
+    <value>በአናሎግ ሰዓቱ ላይ ዘርፉን አሳይ</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>የተከፈለ ማያ ስፋት፡</value>
+    <value>የተከፈለ ማያ ገጽ ስፋት፦</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>ሙከራ</value>
+    <value>ሞክር</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>ስሮትልል።</value>
+    <value>ተገድቧል</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>ሰዓት ቆጣሪ ይቆጥራል።</value>
+    <value>ሰዓት ቆጣሪው ወደ ላይ ይቆጥራል</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,29 +435,29 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>የቀን ሰዓት በሰዓት ቆጣሪ ስር</value>
+    <value>ከሰዓት ቆጣሪው በታች የቀኑ ሰዓት</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>መጠን፡-</value>
+    <value>የድምፅ መጠን፦</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ቋንቋ</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>እባክዎ ቋንቋውን ከቀየሩ በኋላ OnlyTን እንደገና ያስጀምሩ።</value>
+    <value>ቋንቋውን ከቀየሩ በኋላ እባክዎ OnlyTን እንደገና ያስጀምሩ።</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 ሜትር ቀንስ
-Ctrl - 15 ሴ ቀንስ
-Shift - 5 ሜትር ቀንስ</value>
+    <value>1 ደቂቃ ቀንስ
+Ctrl - 15 ሰከንድ ቀንስ
+Shift - 5 ደቂቃ ቀንስ</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 ሜትር ጨምር
-Ctrl - 15 ሰ ጨምር
-Shift - 5 ሜትር ጨምር</value>
+    <value>1 ደቂቃ ጨምር
+Ctrl - 15 ሰከንድ ጨምር
+Shift - 5 ደቂቃ ጨምር</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,15 +465,15 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>ወደታች በመቁጠር ላይ</value>
+    <value>አሁን ወደ ታች እየቆጠረ ነው</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>በመቁጠር ላይ</value>
+    <value>አሁን ወደ ላይ እየቆጠረ ነው</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} ሰከንዶች</value>
+    <value>{0} ሰከንድ</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
@@ -486,35 +486,35 @@ Shift - 5 ሜትር ጨምር</value>
     <value>ነቅቷል</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>ሰከንዶች አሳይ</value>
+    <value>ሰከንዶችን አሳይ</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>ፍሬም አሳይ</value>
+    <value>ክፈፍ አሳይ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>የሰዓት ፍሬም</value>
+    <value>የሰዓት ክፈፍ</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>የማጉላት ደረጃ፡</value>
+    <value>የማጉያ ደረጃ፦</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>አካባቢ</value>
+    <value>ቦታ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>ከታች</value>
+    <value>ታች</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>ከታች ግራ</value>
+    <value>ታች ግራ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>ከታች በቀኝ</value>
+    <value>ታች ቀኝ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
@@ -530,15 +530,15 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>ከፍተኛ</value>
+    <value>ላይ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ከላይ በግራ በኩል</value>
+    <value>ላይ ግራ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ከላይ በቀኝ በኩል</value>
+    <value>ላይ ቀኝ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,27 +546,27 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ወደብ ተከፍቶ ቦታ ተይዟል።</value>
+    <value>ፖርቱ ተከፍቶ ቦታ ተይዟል</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ወደቡን መክፈት አልተቻለም (ምዝግብ ማስታወሻውን ይመልከቱ)!</value>
+    <value>ፖርቱን መክፈት አልተቻለም (የምዝግብ ማስታወሻውን ይመልከቱ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>የመነጨ የጊዜ ሪፖርት</value>
+    <value>የጊዜ ሪፖርት ተዘጋጅቷል</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>ሪፖርቶችን ይፍጠሩ</value>
+    <value>ሪፖርቶችን አዘጋጅ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>የማጠቃለያ ክፍል</value>
+    <value>የመደምደሚያ ክፍል</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ጊዜያዊ ክፍል</value>
+    <value>የመሃል ክፍል</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
@@ -574,11 +574,11 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>የመግቢያ ደረጃ</value>
+    <value>የምዝግብ ደረጃ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>ማረም</value>
+    <value>ማረሚያ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ገዳይ</value>
+    <value>ከባድ ስህተት</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>አነጋገር</value>
+    <value>ዝርዝር</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,39 +602,39 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>የስብሰባ ጊዜ ቆጣሪ ውሂብን በመተንተን ላይ</value>
+    <value>የስብሰባ ሰዓት ቆጣሪ መረጃ እየተተነተነ ነው</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>ሪፖርት አልተፈጠረም!</value>
+    <value>ሪፖርት አልተዘጋጀም!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>እይታ</value>
+    <value>ተመልከት</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>በራስ-ሰር ድምጽ</value>
+    <value>በራስ-ሰር ደውል</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>ደወል ለማሰማት ጠቅ ያድርጉ</value>
+    <value>ደወሉን ደውል</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>የቆይታ ጊዜ (ደቂቃዎች)</value>
+    <value>ቆይታ (ደቂቃ)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>ንጥረ ነገሮች</value>
+    <value>የሚታዩ ክፍሎች</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ደውል</value>
+    <value>የሰዓት ፊት</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>መደወያ እና ዲጂታል</value>
+    <value>የሰዓት ፊት እና ዲጂታል</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>ተቆጣጣሪው የሚቆጣጠረው በትእዛዝ መስመር ቅንብር መሆኑን ልብ ይበሉ</value>
+    <value>ማሳያው በትእዛዝ መስመር ቅንብር እንደሚቆጣጠር ልብ ይበሉ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -658,7 +658,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>የሰዓት ቆጣሪ ፍሬም</value>
+    <value>የሰዓት ቆጣሪ ክፈፍ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>ቅዳሜና እሁድ ዓርብን ያጠቃልላል</value>
+    <value>የሳምንቱ መጨረሻ ዓርብንም ያካትታል</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>በመስኮት የተከፈተ</value>
+    <value>በመስኮት</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>በመስኮት የተከፈተ</value>
+    <value>በመስኮት</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>የመቁጠርያ መስኮት ዝጋ</value>
+    <value>የቆጠራ መስኮቱን ዝጋ</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ግልጽ የ"መስኮት" ቆጠራን መክፈት አልተቻለም</value>
+    <value>ግልጽ ዳራ ያለው ቆጠራ "በመስኮት" ሊከፈት አይችልም</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,19 +698,19 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>በትንሹ ይቀንሱ</value>
+    <value>ሲያሳንሱ ወደ አነስተኛ መስኮት ቀይር</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>የመጀመሪያ ደረጃ</value>
+    <value>ዋና</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>ውፅዓት ወደ NDI የተቀናበረው በትእዛዝ መስመር ቅንብር መሆኑን ልብ ይበሉ።</value>
+    <value>ውፅዓቱ በትእዛዝ መስመር ቅንብር ወደ NDI እንደተዋቀረ ልብ ይበሉ።</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>ሰዓት ቆጣሪውን መጀመር ነበረብህ?</value>
+    <value>ሰዓት ቆጣሪውን ማስጀመር አልነበረብዎትም?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>ስብሰባው {0} ደቂቃ የትርፍ ሰዓት እያሄደ ነው።</value>
+    <value>ስብሰባው ከተመደበለት ጊዜ በ{0} ደቂቃ አልፏል</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>ስብሰባው ከ{0}ደቂቃዎች በታች ነው የሚካሄደው።</value>
+    <value>ስብሰባው ከተመደበለት ጊዜ በ{0} ደቂቃ ቀድሟል</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>ማሳወቂያዎችን ከልክ በላይ መጨናነቅ/አሂድ</value>
+    <value>ጊዜ ስለማለፉ/ስለመቅደሙ ማሳወቂያዎች</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,7 +734,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>ገጠመ</value>
+    <value>ዝጋ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
@@ -750,7 +750,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>መዳረሻ ይጠይቁ</value>
+    <value>ፈቃድ ጠይቅ</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,27 +758,27 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>ስብሰባው የሚጀምረው እ.ኤ.አ</value>
+    <value>ስብሰባው ለመጀመር የቀረው ጊዜ</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>የድር ሰዓት ለማየት በሞባይል መሳሪያ ይቃኙ</value>
+    <value>የድር ሰዓቱን ለማየት በሞባይል መሣሪያ ይቃኙ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>መድረክ፡</value>
+    <value>ፕላትፎርም፦</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>ሁኔታ፡</value>
+    <value>ሁኔታ፦</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>የሙሉ ማያ ገጽ ሁኔታ</value>
+    <value>የሙሉ ማያ ገጽ ሁነታ</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>ጊዜ መጨመር (+1 ደቂቃ)። ለተጨማሪ አማራጮች በቀኝ ጠቅ ያድርጉ።</value>
+    <value>ጊዜ ጨምር (+1 ደቂቃ)። ለተጨማሪ አማራጮች በቀኝ ጠቅ ያድርጉ።</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
@@ -786,15 +786,15 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>የጊዜ ሪፖርት ማመንጨት (PDF)</value>
+    <value>የጊዜ ሪፖርት አዘጋጅ (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>የሰዓት ቆጣሪን አሳይ</value>
+    <value>የቆጠራ ሰዓቱን አሳይ</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>አዲስ ስሪት ይገኛል።</value>
+    <value>አዲስ ስሪት ይገኛል</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>ወደ የታመቀ ሁነታ አሳንስ</value>
+    <value>ወደ አነስተኛ ሁነታ አሳንስ</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -818,7 +818,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 ደቂቃዎች</value>
+    <value>+5 ደቂቃ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
@@ -826,11 +826,11 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>- 1 ደቂቃ</value>
+    <value>-1 ደቂቃ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>- 5 ደቂቃዎች</value>
+    <value>-5 ደቂቃ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>በትርፍ ሰዓት ፍላሽ ቆጣሪ</value>
+    <value>ጊዜው ሲያልፍ ሰዓት ቆጣሪው ብልጭ ድርግም ይበል</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>በትርፍ ሰዓት ደወል ይደውሉ</value>
+    <value>ጊዜው ሲያልፍ ደወል ይደውል</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>መሮጥ</value>
+    <value>እየሠራ ነው</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>ባለበት ቆሟል</value>
+    <value>ለጊዜው ቆሟል</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>የትርፍ ሰዓት</value>
+    <value>ጊዜው አልፏል</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>የመዳረሻ ኮድ አስገባ...</value>
+    <value>የመዳረሻ ኮድ ያስገቡ...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Shift - 5 ሜትር ጨምር</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>የተዋቀረ</value>
+    <value>ተዋቅሯል</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>አልተዋቀረም።</value>
+    <value>አልተዋቀረም</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5 ሜትር ጨምር</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ክርስቲያናዊ ሕይወት</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>የስብሰባ ክፍሎች ሙሉ ርዕሶች</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>ጊዜው የሚታይበትን የቀረው ጊዜ አሞሌ አሳይ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ጊዜው የሚታይበት ቆይታ (ሰከንድ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>የቀድሞው ገጽታ (እንደ መጀመሪያው OnlyT አቀማመጥ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>ለWindows ብቻ ከተሠራው የመጀመሪያው OnlyT ጋር የሚመሳሰል አቀማመጥ ይጠቀማል። በAvalonia ብቻ ያሉ ባህሪያት ይደበቃሉ።</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>ወደሚቀጥለው ክፍል እለፍ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>ደቂቃ</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>አስቀምጥ</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>የአሁኑን ፕሮግራም በድጋሚ ለመጠቀም እንደ አብነት አስቀምጥ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>የፕሮግራም ፋይል</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ፕሮግራም የማስቀመጫ አዝራሩን አሳይ</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>የአናሎግ ሰዓቱን መጠን ይቆጣጠራል። የሚሠራው አናሎግ ሰዓት ባለው አግድም አቀማመጥ ብቻ ነው።</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>ጎን ለጎን አቀማመጥ (ሰዓት በግራ፣ ሰዓት ቆጣሪ በቀኝ)</value>
   </data>
 
 </root>

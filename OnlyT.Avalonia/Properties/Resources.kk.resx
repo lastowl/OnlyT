@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Қоңырау белсенді</value>
+    <value>Қоңырау қосулы</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Бір жол</value>
+    <value>Бір жақты</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,23 +134,23 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Бағдарламалық құрал нұсқасы {0}</value>
+    <value>Бағдарлама нұсқасы {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 сағат</value>
+    <value>12 сағаттық</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 сағаттық (нөлдік көрсеткіш)</value>
+    <value>12 сағаттық (алдында нөлмен)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 сағат</value>
+    <value>24 сағаттық</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 сағаттық (нөлдік көрсеткіш)</value>
+    <value>24 сағаттық (алдында нөлмен)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -158,53 +158,53 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Бейімделген ұзақтығы</value>
+    <value>Бейімделген ұзақтық</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Өзгертілген ұзақтығы</value>
+    <value>Өзгертілген ұзақтық</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Бастапқы ұзақтығы</value>
+    <value>Бастапқы ұзақтық</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Аналог</value>
+    <value>Аналогтық</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
     <value>Аналогтық және цифрлық</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Сандық</value>
+    <value>Цифрлық</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell белсенді емес</value>
+    <value>Қоңырау өшірулі</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Апта ортасы</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Министрлік - 1-тармақ</value>
+    <value>Қызмет - 1-бөлім</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Министрлік - 2 тармақ</value>
+    <value>Қызмет - 2-бөлім</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Министрлік – 3-тармақ</value>
+    <value>Қызмет - 3-бөлім</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Автоматты</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Файлға негізделген</value>
+    <value>Файл бойынша</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Нұсқаулық</value>
+    <value>Қолмен</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Қорытынды әңгіме</value>
+    <value>Қорытынды баяндама</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Қорытынды сөз</value>
@@ -216,86 +216,86 @@
     <value>Рухани асыл тастар</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Өмір сүру - 1 бөлім</value>
+    <value>Мәсіхшілік өмір - 1-бөлім</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Өмір сүру - 2 бөлім</value>
+    <value>Мәсіхшілік өмір - 2-бөлім</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Алғы сөз</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Осы айдағы презентациялар</value>
+    <value>Осы айдағы үлгі әңгімелер</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Қоғамдық әңгіме</value>
+    <value>Көпшілікке арналған баяндама</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Киелі кітапты оқу</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Қызметтік әңгіме</value>
+    <value>Қызмет туралы баяндама</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Қазыналық әңгіме</value>
+    <value>«Қазына» баяндамасы</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Зерттеуге арналған Күзет мұнарасы</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Демалыс күні</value>
+    <value>Демалыс күндері</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 сағат (сағат/таңғы)</value>
+    <value>12 сағаттық (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-сағаттық (нөлдік және кешкі сағат 00-ге дейін)</value>
+    <value>12 сағаттық (алдында нөлмен және am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Жоқ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Таймер жұмыс істеп тұрған кезде параметрлер қол жетімді емес!</value>
+    <value>Таймер жұмыс істеп тұрғанда параметрлер қолжетімсіз!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Параметрлер</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Қазыналар</value>
+    <value>Қазына</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>министрлігі</value>
+    <value>Қызмет</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Өмір сүру</value>
+    <value>Мәсіхшілік өмір</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Демалыс күні</value>
+    <value>Демалыс күндері</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Параметрлерді әкімші өшірді!</value>
+    <value>Параметрлерді әкімші өшірген!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Министрлік – 4-тармақ</value>
+    <value>Қызмет - 4-бөлім</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Айналаға бару</value>
+    <value>Аудандық бақылаушының сапары</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>КЕРІ САНДЫ ЖАБУ</value>
+    <value>КЕРІ САНАҚТЫ ЖАБУ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Көмек</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[айналымға бару]</value>
+    <value>[аудандық бақылаушының сапары]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Жаңа нұсқасы қолжетімді!</value>
+    <value>Жаңа нұсқа қолжетімді!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>НЕГІЗГІ</value>
@@ -306,23 +306,23 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Апта ортасында бейімделу режимі</value>
+    <value>Апта ортасындағы бейімделу режимі</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Демалыс күндері бейімделу режимі</value>
+    <value>Демалыс күнгі бейімделу режимі</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Санау қосқышына рұқсат беріңіз</value>
+    <value>Тура санауға ауыстыруға рұқсат беру</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Әрқашан биікте</value>
+    <value>Әрқашан үстінде</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>ҚАШЫҚТЫҚ ҚОЛДАНБАЛАР</value>
+    <value>ҚАШЫҚТАН БАСҚАРУ ҚОЛДАНБАЛАРЫ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,25 +330,25 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Қоңырау</value>
+    <value>ҚОҢЫРАУ</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB САҒАТ</value>
+    <value>ВЕБ-САҒАТ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>КЕЗДЕСУГЕ КЕРІ САНАҚ</value>
+    <value>ЖИНАЛЫСҚА ДЕЙІНГІ КЕРІ САНАҚ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Контурға бару қосқышы</value>
+    <value>Аудандық бақылаушының сапарын қосу/өшіру</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Сандық сағат пішімі</value>
+    <value>Цифрлық сағат пішімі</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Қосылған</value>
+    <value>Қосулы</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -359,14 +359,14 @@
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Кездесу</value>
+    <value>Жиналыс</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Кездесудің басталу уақыты (әр жолға 1)</value>
+    <value>Жиналыстың басталу уақыттары (әр жолға біреуден)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>ТҮРЛІ</value>
+    <value>ӘРТҮРЛІ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
@@ -376,19 +376,19 @@
     <value>Тінтуір көрсеткішін көрсету</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Әрбір басталу уақытын жаңа жолға қойыңыз.</value>
+    <value>Әр басталу уақытын жаңа жолға жазыңыз.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Өзіңізге ұнайтын кез келген уақыт пішімін пайдаланыңыз!</value>
+    <value>Кез келген уақыт пішімін қолдана беріңіз!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Таңдау бойынша күнді қосыңыз, мысалы. «Бсен 19:15»</value>
+    <value>Қаласаңыз, күнді де көрсетіңіз, мысалы: «бс 19:15»</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Ескертулер:</value>
+    <value>Ескертпелер:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>АШЫҚ ПОРТ</value>
+    <value>ПОРТТЫ АШУ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Студенттік уақытты сақтау</value>
+    <value>Оқушы уақытын экранда ұстап тұру</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Тұрақты сөйлесу ұзақтығы</value>
+    <value>Баяндама уақытын экранда ұстап тұру</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,7 +408,7 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ҚАШЫҚТАН ҚОЛДАНУ</value>
+    <value>ҚАШЫҚТАН ҚОЛ ЖЕТКІЗУ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -419,15 +419,15 @@
     <value>Бөлінген экран ені:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>ТЕСТ</value>
+    <value>СЫНАУ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Тығыздалған</value>
+    <value>Шектелген</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Таймер санайды</value>
+    <value>Таймер тура санайды</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,41 +435,41 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Таймер астында тәулік уақыты</value>
+    <value>Таймер астында ағымдағы уақыт</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Көлемі:</value>
+    <value>Дыбыс деңгейі:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Тіл</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Тілді өзгерткеннен кейін OnlyT қайта іске қосыңыз.</value>
+    <value>Тілді өзгерткеннен кейін OnlyT бағдарламасын қайта іске қосыңыз.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 м азайтыңыз
-Ctrl - 15 секундты азайту
-Ауысым - 5 м азайту</value>
+    <value>1 мин азайту
+Ctrl - 15 сек азайту
+Shift - 5 мин азайту</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 м ұлғайту
-Ctrl - 15 секунд арттыру
-Ауысым - 5 м ұлғайту</value>
+    <value>1 мин қосу
+Ctrl - 15 сек қосу
+Shift - 5 мин қосу</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Қол режимі</value>
+    <value>Қолмен басқару режимі</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Санау</value>
+    <value>Қазір кері санауда</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Санау</value>
+    <value>Қазір тура санауда</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,13 +477,13 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Қосылған</value>
+    <value>Қосулы</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Қосылған</value>
+    <value>Қосулы</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Қосылған</value>
+    <value>Қосулы</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Секундтарды көрсету</value>
@@ -498,15 +498,15 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Масштабтау деңгейі:</value>
+    <value>Масштаб:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Орналасқан жері</value>
+    <value>Орны</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Төменгі</value>
+    <value>Төменде</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,27 +518,27 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Орталық</value>
+    <value>Ортада</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Солға</value>
+    <value>Сол жақта</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Дұрыс</value>
+    <value>Оң жақта</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Жоғарғы</value>
+    <value>Жоғарыда</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Жоғарғы сол</value>
+    <value>Жоғарғы сол жақта</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Жоғарғы оң</value>
+    <value>Жоғарғы оң жақта</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,7 +546,7 @@ Ctrl - 15 секунд арттыру
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Порт ашылды және брондау жасалды</value>
+    <value>Порт ашылып, резервтелді</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,19 +554,19 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Құрылған уақыт есебі</value>
+    <value>Уақыт есебі жасалды</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Есептер шығару</value>
+    <value>Есептер жасау</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Қорытынды сегмент</value>
+    <value>Қорытынды бөлім</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Аралық сегмент</value>
+    <value>Аралық бөлім</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
@@ -574,11 +574,11 @@ Ctrl - 15 секунд арттыру
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Тіркеу деңгейі</value>
+    <value>Журнал деңгейі</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Түзету</value>
+    <value>Жөндеу</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Өлім</value>
+    <value>Күрделі қате</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -602,11 +602,11 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Жиналыс таймері деректерін талдау</value>
+    <value>Жиналыс таймерінің деректері талдануда</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Есеп жасалмады!</value>
+    <value>Есеп ЖАСАЛМАДЫ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,15 +614,15 @@ Ctrl - 15 секунд арттыру
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Автоматты дыбыс</value>
+    <value>Автоматты түрде соғу</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Қоңырау соғу үшін басыңыз</value>
+    <value>Қоңырау соғу</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Ұзақтығы (минут)</value>
+    <value>Ұзақтығы (мин)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,15 +630,15 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Теру</value>
+    <value>Циферблат</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Теру және цифрлық</value>
+    <value>Циферблат және цифрлық</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Сандық</value>
+    <value>Цифрлық</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,19 +646,19 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Монитор пәрмен жолы параметрімен басқарылатынын ескеріңіз</value>
+    <value>Ескерту: монитор пәрмен жолы параметрі арқылы басқарылады</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Таймер фон градиенті</value>
+    <value>Таймер фонының градиенті</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Сағаттың фон градиенті</value>
+    <value>Сағат фонының градиенті</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Таймер кадры</value>
+    <value>Таймер жақтауы</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,15 +666,15 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Демалыс күніне жұма кіреді</value>
+    <value>Демалыс күндеріне жұма да кіреді</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Терезелі</value>
+    <value>Терезеде</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Терезелі</value>
+    <value>Терезеде</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Ctrl - 15 секунд арттыру
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Мөлдір «терезелі» кері санақты ашу мүмкін емес</value>
+    <value>Мөлдір кері санақты «терезеде» ашу мүмкін емес</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,23 +694,23 @@ Ctrl - 15 секунд арттыру
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>желіден тыс...</value>
+    <value>байланыс жоқ...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Кішірейту және кішірейту</value>
+    <value>Жию кезінде ықшамдау</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>бастапқы</value>
+    <value>негізгі</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Шығару пәрмен жолы параметрі арқылы NDI мәніне орнатылғанын ескеріңіз.</value>
+    <value>Ескерту: шығыс пәрмен жолы параметрі арқылы NDI-ға орнатылған.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Таймерді бастау керек пе еді?</value>
+    <value>Таймерді іске қосу керек емес пе еді?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Ctrl - 15 секунд арттыру
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Жиналыс {0} минут қосымша уақыт өтуде</value>
+    <value>Жиналыс кестеден {0} минутқа кешігіп жатыр</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Кездесу {0} минутқа аз уақыт өтіп жатыр</value>
+    <value>Жиналыс кестеден {0} минутқа озып жатыр</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Орындалу/Төмен орындалу туралы хабарландырулар</value>
+    <value>Кестеден кешігу/озу туралы хабарландырулар</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -746,23 +746,23 @@ Ctrl - 15 секунд арттыру
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Конфигурациялау</value>
+    <value>Баптау</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Кіру рұқсатын сұрау</value>
+    <value>Рұқсат сұрау</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Бас тарту</value>
+    <value>Жасыру</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Кездесу басталады</value>
+    <value>Жиналыстың басталуына</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Веб сағатты көру үшін мобильді құрылғымен сканерлеңіз</value>
+    <value>Веб-сағатты көру үшін мобильді құрылғымен сканерлеңіз</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,11 +778,11 @@ Ctrl - 15 секунд арттыру
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Уақытты ұлғайту (+1 мин). Қосымша опциялар үшін тінтуірдің оң жақ түймешігін басыңыз.</value>
+    <value>Уақытты қосу (+1 мин). Қосымша опциялар үшін тінтуірдің оң жақ батырмасын басыңыз.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Уақытты қысқарту (-1 мин). Қосымша опциялар үшін тінтуірдің оң жақ түймешігін басыңыз.</value>
+    <value>Уақытты азайту (-1 мин). Қосымша опциялар үшін тінтуірдің оң жақ батырмасын басыңыз.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -794,7 +794,7 @@ Ctrl - 15 секунд арттыру
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Жаңа нұсқасы қолжетімді</value>
+    <value>Жаңа нұсқа қолжетімді</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Ctrl - 15 секунд арттыру
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Шағын режимге дейін кішірейту</value>
+    <value>Ықшам режимге кішірейту</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Ctrl - 15 секунд арттыру
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Қосымша жұмыс уақытында жарқыл таймері</value>
+    <value>Уақыт асқанда таймерді жыпылықтату</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Қосымша уақытта қоңырау соғу</value>
+    <value>Уақыт асқанда қоңырау соғу</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Ctrl - 15 секунд арттыру
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Жүгіру</value>
+    <value>Жүріп жатыр</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,11 +858,11 @@ Ctrl - 15 секунд арттыру
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Біршама уақыттан кейін</value>
+    <value>Уақыт асты</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Тоқтады</value>
+    <value>Тоқтатылды</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -874,11 +874,11 @@ Ctrl - 15 секунд арттыру
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Конфигурацияланған</value>
+    <value>Бапталған</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Конфигурацияланбаған</value>
+    <value>Бапталмаған</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Ctrl - 15 секунд арттыру
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>МӘСІХШІЛІК ӨМІРІМІЗ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Жиналыс бөлімдерінің толық атаулары</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Ұстап тұру кезінде кері санақ жолағын көрсету</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Экранда ұстап тұру ұзақтығы (сек)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Классикалық интерфейс (бастапқы OnlyT көрінісі)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Тек Windows-қа арналған бастапқы OnlyT-ге ұқсас орналасуды қолдану. Тек Avalonia нұсқасындағы мүмкіндіктер жасырылады.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Келесі бөлімге өту</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Мин</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Сақтау</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Ағымдағы кестені қайта қолдануға болатын үлгі ретінде сақтау</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Кесте файлы</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Кестені экспорттау батырмасын көрсету</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Аналогтық сағаттың өлшемін реттейді. Тек аналогтық сағаты бар көлденең орналасуда қолданылады.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Сағат пен таймер қатар (сағат сол жақта, таймер оң жақта)</value>
   </data>
 
 </root>

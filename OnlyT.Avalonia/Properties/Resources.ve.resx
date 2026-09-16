@@ -122,7 +122,7 @@
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Ahuna na tshithihi</value>
+    <value>A hu na</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
@@ -138,27 +138,27 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>awara dza 12</value>
+    <value>Awara dza 12</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>Awara dza awara dza 12 (u isa zero)</value>
+    <value>Awara dza 12 (na zero phanḓa)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>awara dza 24</value>
+    <value>Awara dza 24</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>Awara dza 24 (ya u ranga phanḓa)</value>
+    <value>Awara dza 24 (na zero phanḓa)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>A i nga koni u sika foldara {0}</value>
+    <value>A ro ngo kona u sika foldara {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Tshifhinga tsho ṱanganelanaho</value>
+    <value>Tshifhinga tsho lugiswaho</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
@@ -170,11 +170,11 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogue</value>
+    <value>Analogo</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue na Didzhithala</value>
+    <value>Analogo na didzhithala</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Didzhithala</value>
@@ -186,25 +186,25 @@
     <value>Vhukati ha vhege</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Muhasho - Tshithu 1</value>
+    <value>Vhuḓinḓa - Tshipiḓa tsha 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Muhasho - Tshithu 2</value>
+    <value>Vhuḓinḓa - Tshipiḓa tsha 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Muhasho - Tshithu 3</value>
+    <value>Vhuḓinḓa - Tshipiḓa tsha 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Muḓisedzo</value>
+    <value>Nga u ḓiitela</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Faela dzo thewaho kha</value>
+    <value>Zwo thewa kha faela</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manuwala</value>
+    <value>Nga zwanḓa</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>U phetha Nyambo</value>
+    <value>Nyambo ya u phetha</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Maipfi A U Phetha</value>
@@ -216,28 +216,28 @@
     <value>U Fukula Madzanga A Re Bivhilini</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>U Tshila - Tshipiḓa tsha 1</value>
+    <value>Vhutshilo - Tshipiḓa tsha 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>U Tshila - Tshipiḓa tsha 2</value>
+    <value>Vhutshilo - Tshipiḓa tsha 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Mvulatswinga</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Maduvha a nwedzi uyu</value>
+    <value>Nḓila dza u ṋekedza dza ṅwedzi uno</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Nyambo ya Tshitshavha</value>
+    <value>Nyambo ya khagala</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Muvhalo Wa Bivhili</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Nyambo ya Tshumelo</value>
+    <value>Nyambo ya tshumelo</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Thoho Dza U Amba</value>
+    <value>Nyambo ya Lupfumo</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Tshiingamo Tshi Gudwaho</value>
@@ -250,14 +250,14 @@
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-awara (ine ya khou ranga phanḓa zero &amp; am/pm)</value>
+    <value>Awara dza 12 (na zero phanḓa &amp; am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Ahuna na tshithihi</value>
+    <value>A hu na</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Settings a dzi wanali musi tshifhinga tshi tshi khou shuma!</value>
+    <value>Madzudzanyo a a wanali musi thaimara i tshi khou shuma!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Madzudzanyo</value>
@@ -269,36 +269,36 @@
     <value>Vhuḓinḓa</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Tshila</value>
+    <value>Vhutshilo</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Mafhelo a vhege</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Zwiimiswa zwo holefhalaho nga mulanguli!</value>
+    <value>Madzudzanyo o thivhiwa nga mulanguli!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Muhasho - Tshithu 4</value>
+    <value>Vhuḓinḓa - Tshipiḓa tsha 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Madalo a tshigero.</value>
+    <value>U dalelwa nga mulavhelesi wa ḽiisela</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>KUVHA NGAURI MIṰA</value>
+    <value>VALANI U VHALELA MURAHU</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Thuso</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[u dalela ha u tshimbila]</value>
+    <value>[u dalelwa nga mulavhelesi wa ḽiisela]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Vhesheni ntswa i hone!</value>
+    <value>Hu na vhesheni ntswa!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>MUTHEO</value>
+    <value>ZWIHULWANE</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,56 +306,56 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Moudu wa u ṱanganedza vhukati</value>
+    <value>Nḓila ya u ḓilugisa ya vhukati ha vhege</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Moudu wa u ṱanganedza wa mafhelo a vhege</value>
+    <value>Nḓila ya u ḓilugisa ya mafhelo a vhege</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Tendelani u vhala-nṱhani</value>
+    <value>Tendelani u shandukela kha u vhalela phanḓa</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Tshifhinga tshoṱhe nga nṱha</value>
+    <value>Fasiṱere ḽi dzule nṱha tshifhinga tshoṱhe</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>MUVHUSO WA U ṰANGANEDZA .</value>
+    <value>MBEKANYAMUSHUMO DZA KULE</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>MODE wa AUTOMATSI</value>
+    <value>NḒILA YA U ḒIITELA</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>BELO</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB CLOCK</value>
+    <value>WATSHI YA WEBU</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>U ṰANGANEDZA U ṰANGANEDZA .</value>
+    <value>U VHALELA MURAHU HA MUṰANGANO</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Madalo a u dalela zwiṱiriki</value>
+    <value>Vulani kana valani u dalelwa nga mulavhelesi wa ḽiisela</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Fomathi ya tshifhinga tsha didzhithala</value>
+    <value>Fomathi ya watshi ya didzhithala</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>I koniswa</value>
+    <value>Zwo vulwa</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Moudu wa tshifhinga tsho fhelelaho wa tshikirini</value>
+    <value>Nḓila ya watshi ya tshikirini tshoṱhe</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>IP ḓiresi</value>
+    <value>Ḓiresi ya IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
@@ -363,79 +363,79 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Zwifhinga zwa u thoma zwa muṱangano (1 nga mutevhe)</value>
+    <value>Zwifhinga zwa u thoma muṱangano (1 nga mutevhe)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>TSHAKHATSHAKHA</value>
+    <value>ZWIṄWE</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
     <value>Monitha</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Sumbedzani ṱhalutshedzo ya mbevha</value>
+    <value>Sumbedzani tshisumbi tsha mbevha</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Vheani tshifhinga tshiṅwe na tshiṅwe tsha u thoma kha mutevhe muswa.</value>
+    <value>Ṅwalani tshifhinga tshiṅwe na tshiṅwe tsha u thoma kha mutevhe muswa.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Shumisani fomathi ya tshifhinga tshiṅwe na tshiṅwe tshine na tshi takalela!</value>
+    <value>Shumisani fomathi ya tshifhinga ine na i takalela!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Nga nḓila ya u ḓikhethela katela ḓuvha, e.g. "Thu 19:15".</value>
+    <value>Ni nga dovha na ṅwala ḓuvha, sa tsumbo "Ṋa 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Nḓivhadzo:</value>
+    <value>Zwa u ṱhogomela:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PORT ḼA VHUḒI</value>
+    <value>VULANI PHOTHO</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>Nḓila</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Tshifhinga tsha matshudeni tsha tshoṱhe</value>
+    <value>Tshifhinga tsha mugudi tshi dzule tshikirinini lwa tshifhinganyana</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Tshifhinga tsha nyambedzano ya phanḓa</value>
+    <value>Tshifhinga tsha nyambo tshi dzula tshikirinini</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Vhuimazwikepe</value>
+    <value>Photho</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>MIṰA</value>
+    <value>U SWIKELELA U BVA KULE</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Show sekhithara kha tshifhinga tsha analogue</value>
+    <value>Sumbedzani tshipiḓa kha watshi ya analogo</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Vhuphara ha tshikirini tsho fhandekanaho:</value>
+    <value>Vhuphara ha tshikirini tsho fhandekanywaho:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>NDIGO</value>
+    <value>LINGEDZANI</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Rotholwa</value>
+    <value>Zwo fhungudzwa</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Tshifhinga tshi a vhalela</value>
+    <value>Thaimara i vhalela phanḓa</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER HU .</value>
+    <value>FASIṰERE ḼA THAIMARA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Tshifhinga tsha ḓuvha nga fhasi ha tshifhinga</value>
+    <value>Tshifhinga tsha zwino nga fhasi ha thaimara</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -446,47 +446,47 @@
     <value>Luambo</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Kha vha dovhe vha thome fhedzi nga murahu ha u shandula luambo.</value>
+    <value>Ri humbela ni dovhe ni thome OnlyT nga murahu ha u shandula luambo.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>U fhungudzea ha 1m
-Ctrl - U fhungudza 15s
-Shift - U fhungudzea ha 5m</value>
+    <value>Fhungudzani 1 mun.
+Ctrl - Fhungudzani mithethe ya 15
+Shift - Fhungudzani 5 mimun.</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>U engedza 1m
-Ctrl - U engedza 15s
-Shift - U engedza 5m</value>
+    <value>Engedzani 1 mun.
+Ctrl - Engedzani mithethe ya 15
+Shift - Engedzani 5 mimun.</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Moudu wa manyuala</value>
+    <value>Nḓila ya nga zwanḓa</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>Zwino i khou vhalela murahu</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>Zwino i khou vhalela phanḓa</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} mithethe</value>
+    <value>Mithethe ya {0}</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>I koniswa</value>
+    <value>Zwo vulwa</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>I koniswa</value>
+    <value>Zwo vulwa</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>I koniswa</value>
+    <value>Zwo vulwa</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Sumbedza mithethe</value>
+    <value>Sumbedzani mithethe</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -494,27 +494,27 @@ Shift - U engedza 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Fureme ya tshifhinga</value>
+    <value>Fureme ya watshi</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Tshiimo tsha Zoom:</value>
+    <value>Tshiimo tsha u hulisa:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Vhupo</value>
+    <value>Fhethu</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Fhasifhasi</value>
+    <value>Fhasi</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Nga fhasi ha tsha monde</value>
+    <value>Fhasi nga monde</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Nga fhasi ha pfanelo</value>
+    <value>Fhasi nga tsha u ḽa</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
@@ -522,11 +522,11 @@ Shift - U engedza 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Ṱuwa</value>
+    <value>Monde</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Pfanelo</value>
+    <value>Tsha u ḽa</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -534,59 +534,59 @@ Shift - U engedza 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Top ya nṱha</value>
+    <value>Nṱha nga monde</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Nṱha ha tsha u ḽa</value>
+    <value>Nṱha nga tsha u ḽa</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>EE</value>
+    <value>Zwo luga</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Vhuimazwikepe ho vula na u reserve zwo itwaho .</value>
+    <value>Photho yo vulwa nahone yo vhetshelwa thungo</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>A i nga koni u vula vhuimazwikepe (vhonani ḽogo)!</value>
+    <value>A ro ngo kona u vula photho (sedzani ḽogo)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Muvhigo wa tshifhinga wo bveledzwaho</value>
+    <value>Muvhigo wa tshifhinga wo bveledzwa</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>U bveledza mivhigo</value>
+    <value>Bveledzani mivhigo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>U phetha Tshipiḓa</value>
+    <value>Tshipiḓa tsha u phetha</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Tshipiḓa tsha tshifhinganyana</value>
+    <value>Tshipiḓa tsha vhukati</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Tshipiḓa tsha Marangaphanḓa</value>
+    <value>Tshipiḓa tsha marangaphanḓa</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Tshiimo tsha u dzhena</value>
+    <value>Tshiimo tsha u ṅwala ḽogo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>U sengulusa</value>
+    <value>U lugisa vhukhakhi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Tshipfiwa</value>
+    <value>Vhukhakhi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Tshipfiwa tshikhukhwane</value>
+    <value>Vhukhakhi vhuhulu</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,47 +594,47 @@ Shift - U engedza 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Vhukuma</value>
+    <value>Nga vhuḓalo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Themendelo</value>
+    <value>Khaidzo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>U sengulusa data ya tshifhinga tsha muṱangano</value>
+    <value>Ri khou sengulusa data ya tshifhinga tsha muṱangano</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Muvhigo A SI mveledziso!</value>
+    <value>Muvhigo A WO NGO bveledzwa!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>KUVHONELE</value>
+    <value>SEDZANI</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Mubvumo</value>
+    <value>Lidzani nga u ḓiitela</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>Lidzani belo</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Tshifhinga (minithi)</value>
+    <value>Tshifhinga (mimun.)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Zwithu</value>
+    <value>Zwipiḓa</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Diele</value>
+    <value>Tshifhaṱuwo tsha watshi</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial na digiṱali</value>
+    <value>Tshifhaṱuwo tsha watshi na didzhithala</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,47 +642,47 @@ Shift - U engedza 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Vhubvo vhu re khagala</value>
+    <value>Murahu u sa vhonali</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Ṱhogomelani uri monitha i langiwa nga nzudzanyo ya mutevhe wa ndaela .</value>
+    <value>Ṱhogomelani uri monitha i langiwa nga nzudzanyo ya mutevhe wa ndaela</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Gireidi ya murahu ya tshifhinga</value>
+    <value>Mivhala ya murahu ya thaimara</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Mupo wa murahu wa tshifhinga</value>
+    <value>Mivhala ya murahu ya watshi</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Fureme ya tshifhinga</value>
+    <value>Fureme ya thaimara</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Tshifhinga tsha flat</value>
+    <value>Watshi i sa vhonali sa 3D</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Mafhelo a vhege a katela nga Lavhutanu</value>
+    <value>Mafhelo a vhege a katela Ḽavhuṱanu</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Nga Windowiwa</value>
+    <value>Kha fasiṱere</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Nga Windowiwa</value>
+    <value>Kha fasiṱere</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Fasiṱere ḽa u Vhala ha tsini</value>
+    <value>Valani fasiṱere ḽa u vhalela murahu</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>A i koni u vula u vhalelwa ha "windowed" hu re khagala</value>
+    <value>A zwi konadzei u vula u vhalela murahu hu sa vhonali "kha fasiṱere"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,195 +690,195 @@ Shift - U engedza 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Vhane vha ḓo shuma dzi Time</value>
+    <value>Dzithaimara</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>kha inthanethe...</value>
+    <value>a hu na vhukwamani...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Shrink kha u fhungudza</value>
+    <value>Ṱukufhadzani musi fasiṱere ḽo fhungudzwa</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>mutheo</value>
+    <value>khulwane</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Ni ṱhogomele uri zwibveledzwa zwo vhewa kha NDI nga kha nzudzanyo ya mutevhe wa ndaela.</value>
+    <value>Ṱhogomelani uri zwibviswa zwo vhewa kha NDI nga nzudzanyo ya mutevhe wa ndaela.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Naa no vha no fanela u thoma tshifhinga?</value>
+    <value>Naa no fanela u vha no thoma thaimara?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Khumbudzo dza pop-up</value>
+    <value>Zwikhumbudzo zwi ḓaho khagala</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Muṱangano u khou shuma {0} mimunithi ya u engedza</value>
+    <value>Muṱangano wo fhira tshifhinga nga mimunithi ya {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Muṱangano u khou shuma {0} minete dza fhasi ha</value>
+    <value>Muṱangano u phanḓa ha tshifhinga nga mimunithi ya {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Nḓivhadzo dza u fhira/Unden</value>
+    <value>Nḓivhadzo dza u fhira kana u vha phanḓa ha tshifhinga</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Mode wa swiswi</value>
+    <value>Nḓila ya swiswi</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>Valani</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>Vhulungani</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Vusuludzani</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Dzudzanyani</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>Humbelani u swikelela</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Bvisani</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>Muṱangano u ḓo thoma nga murahu ha</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>Sikenani nga lutingo lwa thendeleki u itela u vhona watshi ya webu</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>Pulatifomo:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>Tshiimo:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>Nḓila ya tshikirini tshoṱhe</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>Engedzani tshifhinga (+1 mun.). Kiḽikani nga tsha u ḽa u itela zwiṅwe zwa u khetha.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>Fhungudzani tshifhinga (-1 mun.). Kiḽikani nga tsha u ḽa u itela zwiṅwe zwa u khetha.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>Bveledzani muvhigo wa tshifhinga (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>Sumbedzani u vhalela murahu</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>Hu na vhesheni ntswa</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>Madzudzanyo</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>Thuso</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>Ṱukufhadzani fasiṱere</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 mithethe</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+1 munithi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+5 mimunithi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-15 mithethe</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>-1 munithi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-5 mimunithi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>THENDELO DZA NETIWEKE</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>Thaimara i penye musi tshifhinga tsho fhira</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>Lidzani belo musi tshifhinga tsho fhira</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>Yo lugela</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>I khou shuma</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>Yo imiswa lwa tshifhinganyana</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>Tshifhinga tsho fhira</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>Yo imiswa</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>Dzhenisani khoudu ya u swikelela...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>mun.</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>Zwo dzudzanywa</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>A zwi ngo dzudzanywa</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - U engedza 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VHUTSHILO HA MUKRISTE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Madzina o fhelelaho a zwipiḓa zwa muṱangano</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Sumbedzani bara ya tshifhinga tsho salaho</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Tshifhinga tsha u dzula tshikirinini (mithethe)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Mavhonele a kale (a fana na a OnlyT ya u thoma)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Shumisani mavhonele a fanaho na a OnlyT ya u thoma ye ya vha i tshi shuma kha Windows fhedzi. Zwithu zwi re kha Avalonia fhedzi zwi ḓo dzumbwa.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Iyani kha tshipiḓa tshi tevhelaho</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Mimun.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Vhulungani</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Vhulungani mbekanyo ya zwino uri i dovhe i shumiswe</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Faela ya mbekanyo</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Sumbedzani bathoni ya u vhulunga mbekanyo</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>I langa vhuhulu ha watshi ya analogo. I shuma fhedzi musi watshi ya analogo i thungo ha thaimara.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Watshi na thaimara zwi thungo na thungo (watshi nga monde, thaimara nga tsha u ḽa)</value>
   </data>
 
 </root>

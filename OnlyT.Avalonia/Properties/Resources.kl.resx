@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell aktiveqarpoq</value>
+    <value>Sianissut atuuppoq</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,85 +126,85 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Ataaseq</value>
+    <value>Ataatsimik sammivilik</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Marloqiusamik</value>
+    <value>Marlunnik sammivilik</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Software-version {0}</value>
+    <value>Programmip versionia {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-timer</value>
+    <value>12-tiimit</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-tiimit (nul-ip siulittaasoq)</value>
+    <value>12-tiimit (nuulli siulliullugu)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-timer</value>
+    <value>24-tiimit</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-tiimit (nul-ip siulittaasoq)</value>
+    <value>24-tiimit (nuulli siulliullugu)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Mappe-mik pilersitsisinnaanngilaq {0}.</value>
+    <value>Mappi {0} pilersinneqarsinnaanngilaq</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Naleqqussarneqarsimasoq</value>
+    <value>Sivisussuseq naleqqussarneqartoq</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Modificereqarsimasoq sivisussuseq</value>
+    <value>Sivisussuseq allanngortinneqartoq</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Aallaqqaammut sivisussuseq</value>
+    <value>Sivisussuseq aallaqqaataasoq</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analog</value>
+    <value>Tikkuutilik</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analog aamma Digital</value>
+    <value>Tikkuutilik kisitsisilillu</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digitalimik</value>
+    <value>Kisitsisilik</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell inaktiv-iuvoq</value>
+    <value>Sianissut atuunngilaq</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Midweek</value>
+    <value>Sapaatip akunnerata qeqqani</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Naalakkersuisoq - Konto 1</value>
+    <value>Oqaluussineq - Immikkoortoq 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Naalakkersuisoq - Konto 2</value>
+    <value>Oqaluussineq - Immikkoortoq 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Naalakkersuisoq - Konto 3</value>
+    <value>Oqaluussineq - Immikkoortoq 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Automatisk</value>
+    <value>Nammineerluni</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>File-based</value>
+    <value>Allagaq tunngavigalugu</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Najoqqutassaq</value>
+    <value>Assammik</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Oqallinneq naggaserlugu</value>
+    <value>Oqalugiaq naggasiut</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Naggasiineq</value>
@@ -216,28 +216,28 @@
     <value>Anersaakkut erlinnartut</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Inuuneq - Immikkoortoq 1</value>
+    <value>Kristumiutut inuuneq - Immikkoortoq 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Inuuneq - Immikkoortoq 2</value>
+    <value>Kristumiutut inuuneq - Immikkoortoq 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Aallarniineq</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Qaammat una saqqummiussineq</value>
+    <value>Qaammammi matumani saqqummiussinerit</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Oqalugiaat</value>
+    <value>Tamanut oqalugiaq</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Biibilimit atuffassineq</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Atorfinitsitsinermi Oqaluttuaq</value>
+    <value>Oqaluussineq pillugu oqalugiaq</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Pisinnaatitaaffik Oqaluttuaq</value>
+    <value>Erlinnartuutit pillugit oqalugiaq</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Appuinermik misissuineq</value>
@@ -246,230 +246,230 @@
     <value>Sapaatip akunnerata naanera</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-timer (amma/pm)</value>
+    <value>12-tiimit (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-tiimit (nul &amp; am/pm)</value>
+    <value>12-tiimit (nuulli siulliullugu &amp; am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Soqanngilaq</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Timer-ip ingerlanneqarnerani pissarsiarineqarsinnaanngilaq!</value>
+    <value>Piffissaliut ingerlatillugu aaqqissuussinerit atorneqarsinnaanngillat!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Inissiissutit</value>
+    <value>Aaqqissuussinerit</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Pigisat</value>
+    <value>Erlinnartuutit</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministereqarfik</value>
+    <value>Oqaluussineq</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Inuuneq</value>
+    <value>Kristumiutut inuuneq</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Sapaatip akunnerata naanera</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Instillinger-it administratorimit atorunnaarsinneqartut!</value>
+    <value>Aaqqissuussinerit aqutsisumit atorunnaarsinneqarput!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Naalakkersuisoq - Konto 4</value>
+    <value>Oqaluussineq - Immikkoortoq 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Circuit tikeraarneq</value>
+    <value>Kredsimi nakkutilliisup tikeraarnera</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>KLOSE COUNTDOWN</value>
+    <value>UTIMUT KISITSINEQ MATUGUK</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Ikiu</value>
+    <value>Ikiorneq</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[cirkuit tikeraarneq]</value>
+    <value>[kredsimi nakkutilliisup tikeraarnera]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Nutaamik versioni atorneqarsinnaavoq!</value>
+    <value>Versioni nutaaq pissarsiarineqarsinnaavoq!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>PINGAARNEQ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Kode</value>
+    <value>Isissutissaq</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Midweek adaptive mode</value>
+    <value>Naleqqussaaneq sapaatip akunnerata qeqqani</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Weekend adaptive mode</value>
+    <value>Naleqqussaaneq sapaatip akunnerata naanerani</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Naatsorsueqqissaartarfiup toggle-a</value>
+    <value>Siumut kisitsinermut allanngortitsisinnaaneq</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Qulaaniittumik</value>
+    <value>Tamatigut qullerpaaq</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APPS-imik ATUUTTUT</value>
+    <value>UNGASISSUMIT AQUTSIUTIT</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATISK MODE</value>
+    <value>NAMMINEERLUNI PERIAASEQ</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>SIANISSUT</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB CLOCK</value>
+    <value>NITTARTAKKAMI NALUNAAQUTAQ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>SULIFFISSARSIORNEQ</value>
+    <value>ATAATSIMIINNERMUT UTIMUT KISITSINEQ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Circuit-imi pulaarneq toggle</value>
+    <value>Kredsimi nakkutilliisup tikeraarneranut allanngortitsissut</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Digitalimik nalunaaqutsiinermik format</value>
+    <value>Nalunaaqutap kisitsisillip ilusaa</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Atorneqarsinnaavoq</value>
+    <value>Atuutsinneqarpoq</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Full-screen klokke mode</value>
+    <value>Nalunaaqutaq skærmi tamakkerlugu</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP-adressi</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Naapinneq</value>
+    <value>Ataatsimiinneq</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Aallartitsinissamut piffissat (1 linjemut) naapittarlugit.</value>
+    <value>Ataatsimiinnerup aallartiffissai (titarnermi ataatsimi ataaseq)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>ASSIGIINNGITSUT</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitori</value>
+    <value>Skærmi</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Takutitsigit mouse pointer</value>
+    <value>Musip tikkuutaa takutiguk</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Aallartitsineq ataaseq nutaamik linjemut ikkuguk.</value>
+    <value>Aallartiffissat tamarmik titarnermi nutaami allakkit.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Piffissaq format atorlugu nuannarisat atoruk!</value>
+    <value>Piffissap ilusaa kissaatigisat atorsinnaavat!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Periarfissaq ulloq ataaseq ilanngullugu, s.i. "Thu 19:15".</value>
+    <value>Ulloq ilanngussinnaavat, s.i. "sis 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Oqaaseqaatit:</value>
+    <value>Maluginiagassat:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PISSARSIARTORNEQ</value>
+    <value>PORTI AMMARUK</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>Periaaseq</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Persistentimi ilinniartut piffissaq</value>
+    <value>Ilinniartup piffissaa sivisunerusumik takutiguk</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Persisterimik oqalunnerup sivisussusaa</value>
+    <value>Oqalugiap piffissaata takutinneqaannarnera</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Talittarfik</value>
+    <value>Porti</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ATUARUK ATUARNEQ</value>
+    <value>UNGASISSUMIT ISERSINNAANEQ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Analog-klokke-mi sektor-imik takutitsigit</value>
+    <value>Nalunaaqutami tikkuutilimmi immikkoortoq takutiguk</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Split-screen-ip siammasissusaa:</value>
+    <value>Skærmip avinngarneqarnerata silissusaa:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>MISILIUT</value>
+    <value>MISILIGUK</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Throttled</value>
+    <value>Killilersimasoq</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Timer-i gunter up</value>
+    <value>Piffissaliut siumut kisitsisarpoq</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>PISSARSIARTORNEQ</value>
+    <value>PIFFISSALIUTIP IGALAAVA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Piffissaq under timer</value>
+    <value>Massakkut piffissaq piffissaliutip ataani</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Nipitussuseq:</value>
+    <value>Nipip annertussusaa:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Oqaatsit</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Oqaatsit allanngortinneqarnerisa kingorna OnlyT-mik aallartitsigit.</value>
+    <value>Oqaatsit allanngortikkukkit OnlyT aallarteqqiguk.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1m
-Ctrl - 15s-inik qaffatsitsineq
-Shift - 5m-imik qaffatsitsineq</value>
+    <value>Naalisaruk 1 min
+Ctrl - Naalisaruk 15 sek
+Shift - Naalisaruk 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Annertusiartorneq 1m
-Ctrl - 15s
-Shift - 5m</value>
+    <value>Sivitsoruk 1 min
+Ctrl - Sivitsoruk 15 sek
+Shift - Sivitsoruk 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manuelt mode</value>
+    <value>Assammik periaaseq</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>Massakkut utimut kisitsivoq</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>Massakkut siumut kisitsivoq</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,124 +477,124 @@ Shift - 5m</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Atorneqarsinnaavoq</value>
+    <value>Atuutsinneqarpoq</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Atorneqarsinnaavoq</value>
+    <value>Atuutsinneqarpoq</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Atorneqarsinnaavoq</value>
+    <value>Atuutsinneqarpoq</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Sekundit takutikkit</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Frame-mik takutitsineq</value>
+    <value>Killiliussaq takutiguk</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Clock-ramme</value>
+    <value>Nalunaaqutap killiliussaa</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Zoom niveau:</value>
+    <value>Angissuseq:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Sumiiffia</value>
+    <value>Inissisimaffik</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Naqqa</value>
+    <value>Allerleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Allatut oqaatigalugu</value>
+    <value>Allerleq saamerleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Allatut oqaatigalugu</value>
+    <value>Allerleq talerperleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Qeqqa</value>
+    <value>Qiterleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Ingerlavoq</value>
+    <value>Saamerleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Ilumoorpoq</value>
+    <value>Talerperleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Qulaa</value>
+    <value>Qulleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Top left</value>
+    <value>Qulleq saamerleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Qulaani talerperlikkut</value>
+    <value>Qulleq talerperleq</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>Ajunngilaq</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port ammarpoq aammalu inniminniisoqarluni</value>
+    <value>Porti ammarneqarpoq inniminniisoqarlunilu</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Portimik ammaassisinnaanngilaq (takuuk log)!</value>
+    <value>Porti ammarneqarsinnaanngilaq (logi takuuk)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Piffissaq pillugu nalunaarusiaq pilersinneqarsimasoq</value>
+    <value>Piffissalersuinermut nalunaarusiaq pilersinneqarpoq</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Nalunaarutinik piaartumik</value>
+    <value>Nalunaarusiat pilersikkit</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Segmentimik naggaserlugu</value>
+    <value>Immikkoortoq naggasiut</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Piffissap ilaani Segment</value>
+    <value>Immikkoortoq akunnermiittoq</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Aallaqqaasiut Segment</value>
+    <value>Immikkoortoq aallarniut</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Logging niveau</value>
+    <value>Nalunaarsuinerup annertussusaa</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>Kukkunernik ujarlerneq</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Ajutoorneq</value>
+    <value>Kukkuneq</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Kamanaatsoq</value>
+    <value>Kukkuneq annertooq</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Paasissutissaq</value>
+    <value>Paasissutissat</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Verbose</value>
+    <value>Sukumiisumik</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,87 +602,87 @@ Shift - 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Ataatsimiinnermi timer-imik paasissutissanik misissuineq</value>
+    <value>Ataatsimiinnermi piffissalersuinermi paasissutissat misissorneqarput</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Nalunaarusiaq ALLAAT pilersinneqarpoq!</value>
+    <value>Nalunaarusiaq PILERSINNEQANNGILAQ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>TAKUSSUTISSAQ</value>
+    <value>TAKUUK</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Automatiskimik tusarnarpoq</value>
+    <value>Nammineerluni sianerpoq</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>Sianissut sianertiguk</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Sivisussuseq (mins)</value>
+    <value>Sivisussuseq (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Elementit</value>
+    <value>Takutitassat</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Dial</value>
+    <value>Tikkuutilik</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial aamma digitali</value>
+    <value>Tikkuutilik kisitsisilillu</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digitalimik</value>
+    <value>Kisitsisilik</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Erseqqissumik tunuliaqutaq</value>
+    <value>Tunuliaqut takusaanngitsoq</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Maluginiaruk skærmi command-line-imik inissititernermik aqunneqartoq</value>
+    <value>Maluginiaruk skærmi naalakkiutinik titarnermi aaqqissuussinikkut aqunneqartoq</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Timer-imik tunuliaqutalik gradient</value>
+    <value>Piffissaliutip tunuliaqutaata qalipaatai</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Klock-imik tunuliaqutalik gradient</value>
+    <value>Nalunaaqutap tunuliaqutaata qalipaatai</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Timer-ramme</value>
+    <value>Piffissaliutip killiliussaa</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Flat clock</value>
+    <value>Nalunaaqutaq manissoq</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Weekend ilaatigut tallimanngornermi</value>
+    <value>Sapaatip akunnerata naanerani tallimanngorneq ilaavoq</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Igalaaq</value>
+    <value>Igalaamiittoq</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Igalaaq</value>
+    <value>Igalaamiittoq</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Qanittukkut Countdown-imik illup iluani</value>
+    <value>Utimut kisitsinerup igalaava matuguk</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Naatsorsueqqissaarneq "viffert" ammasinnaanngilaq</value>
+    <value>Utimut kisitsineq takusaanngitsoq "igalaamiittoq" ammarneqarsinnaanngilaq</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,15 +690,15 @@ Shift - 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Timersortartut</value>
+    <value>Piffissaliutit</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>attaveqanngilaq...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Minnerpaamik</value>
+    <value>Minnerpaamut inissikkaangat mikillisiguk</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,167 +706,167 @@ Shift - 5m</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Maluginiaruk output NDI-mut inissinneqarsimasoq, taanna command-line-imik inissititerneq aqqutigalugu.</value>
+    <value>Maluginiaruk saqqummersitsineq NDI-mut naalakkiutinik titarnermi aaqqissuussinikkut inissinneqarsimasoq.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Timer-imik aallartitsisimasariaqarpit?</value>
+    <value>Piffissaliut aallartissimasariaqarpiuk?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up eqqaamasat</value>
+    <value>Eqqaasitsissutit saqqummertartut</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Ataatsimiinneq {0} minutsinik qaangiivoq</value>
+    <value>Ataatsimiinneq {0} minutsinik piffissaliussamit sivisunerulerpoq</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Ataatsimiinneq {0} minutsinik aalajangersimasumik ingerlavoq</value>
+    <value>Ataatsimiinneq {0} minutsinik piffissaliussamit naatsunerulerpoq</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun-imik nalunaarutit</value>
+    <value>Sivisunerusoq/naatsunerusoq pillugu nalunaarutit</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>Taartumik isikkoq</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>Matuguk</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>Toqqoruk</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Nutarteruk</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Aaqqissoruk</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>Akuersissummik qinnuteqarit</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Peeruk</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>Ataatsimiinnerup aallartinnissaanut</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>Nittartakkami nalunaaqutaq takuniarukku mobilinnguamik skanniuk</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>Platformi:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>Qanoq issusaa:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>Skærmi tamakkerlugu</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>Piffissaq sivitsoruk (+1 min). Periarfissat allat takuniarukkit talerpimmik tooruk.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>Piffissaq naalisaruk (-1 min). Periarfissat allat takuniarukkit talerpimmik tooruk.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>Piffissalersuinermut nalunaarusiaq pilersiguk (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>Utimut kisitsineq takutiguk</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>Versioni nutaaq pissarsiarineqarsinnaavoq</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>Aaqqissuussinerit</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>Ikiorneq</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>Mikillisiguk</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 sekundit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+1 minutsi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+5 minutsit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-15 sekundit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>-1 minutsi</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-5 minutsit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>ATTAVEQAATIMUT AKUERSISSUTIT</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>Piffissaq qaangerneqarpat piffissaliut qillaqattaarli</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>Piffissaq qaangerneqarpat sianissut sianerli</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>Piareerpoq</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>Ingerlavoq</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>Unikkallarpoq</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>Piffissaq qaangerneqarpoq</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>Unippoq</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>Isissutissaq allaguk...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Shift - 5m</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>Aaqqissuunneqarpoq</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>Aaqqissuunneqanngilaq</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>KRISTUMIUTUT INUUNEQ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Ataatsimiinnermi immikkoortut atii tamakkiisut</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Takutinneqaannarnerata sinnerata titarnera takutiguk</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Takutinneqaannarnerata sivisussusaa (sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Isikkoq pisoqaq (OnlyT-p aallaqqaataani isikkuatut)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>OnlyT-p aallaqqaataani Windows-imi kisimi atorneqarsinnaasup isikkua atoruk. Avalonia-mi kisimi atortussat takutinneqassanngillat.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Immikkoortumut tullianut ingerlaqqigit</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Toqqoruk</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Pilersaarut massakkut atuuttoq ilusissatut atoqqinneqarsinnaasutut toqqoruk</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Pilersaarutip allagaa</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Pilersaarummik anisitsinermut tooruffik takutiguk</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Nalunaaqutap tikkuutillip angissusaa aqunneqarpoq. Nalunaaqutaq tikkuutilik sanimut inissitsinermi kisimi atuuppoq.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Nalunaaqutaq piffissaliullu sanileriillutik (nalunaaqutaq saamerleq, piffissaliut talerperleq)</value>
   </data>
 
 </root>

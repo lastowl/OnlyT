@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Mae'r gloch yn weithredol</value>
+    <value>Mae’r gloch yn weithredol</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,11 +126,11 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Unffordd</value>
+    <value>Un ffordd</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Dwyffordd</value>
+    <value>Dwy ffordd</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 awr (sero blaenllaw)</value>
+    <value>12 awr (sero ar y dechrau)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,19 +150,19 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 awr (sero blaenllaw)</value>
+    <value>24 awr (sero ar y dechrau)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Methwyd creu ffolder {0}</value>
+    <value>Methu creu’r ffolder {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Hyd wedi'i addasu</value>
+    <value>Hyd wedi’i addasu</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Hyd wedi'i addasu</value>
+    <value>Hyd wedi’i newid</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -174,13 +174,13 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analog a Digidol</value>
+    <value>Analog a digidol</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Digidol</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Mae'r gloch yn anactif</value>
+    <value>Mae’r gloch yn anweithredol</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Canol wythnos</value>
@@ -198,13 +198,13 @@
     <value>Awtomatig</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Yn seiliedig ar ffeiliau</value>
+    <value>O ffeil</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Llawlyfr</value>
+    <value>Â llaw</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Sgwrs Gloi</value>
+    <value>Anerchiad i Gloi</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Sylwadau i Gloi</value>
@@ -216,28 +216,28 @@
     <value>Cloddio am Drysor Ysbrydol</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Byw - Rhan 1</value>
+    <value>Bywyd Cristnogol - Rhan 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Byw - Rhan 2</value>
+    <value>Bywyd Cristnogol - Rhan 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Sylwadau Agoriadol</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Cyflwyniadau'r Mis Hwn</value>
+    <value>Cyflwyniadau’r Mis Hwn</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Sgwrs Gyhoeddus</value>
+    <value>Anerchiad Cyhoeddus</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Darlleniad o’r Beibl</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Sgwrs Gwasanaeth</value>
+    <value>Anerchiad Gwasanaeth</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Sgwrs Trysorau</value>
+    <value>Anerchiad Trysorau</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Astudiaeth o’r Tŵr Gwylio</value>
@@ -246,18 +246,18 @@
     <value>Penwythnos</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 awr (yb/yp)</value>
+    <value>12 awr (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 awr (sero blaenllaw ac am/pm)</value>
+    <value>12 awr (sero ar y dechrau ac am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Dim</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Nid yw'r gosodiadau ar gael tra bod yr amserydd yn rhedeg!</value>
+    <value>Nid yw’r gosodiadau ar gael tra bo’r amserydd yn rhedeg!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Gosodiadau</value>
@@ -269,36 +269,36 @@
     <value>Gweinidogaeth</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Byw</value>
+    <value>Bywyd Cristnogol</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Penwythnos</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Gosodiadau wedi'u hanalluogi gan y gweinyddwr!</value>
+    <value>Mae’r gosodiadau wedi’u hanalluogi gan y gweinyddwr!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
     <value>Gweinidogaeth - Eitem 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Ymweliad â'r gylchdaith</value>
+    <value>Ymweliad yr arolygwr cylchdaith</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>CYFRIF I LAWR CAU</value>
+    <value>CAU’R CYFRIF I LAWR</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Cymorth</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ymweliad cylchdaith]</value>
+    <value>[ymweliad yr arolygwr cylchdaith]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Fersiwn newydd ar gael!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>PRIF</value>
+    <value>PRIF OSODIADAU</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -314,7 +314,7 @@
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Caniatáu newid cyfrif i fyny</value>
+    <value>Caniatáu newid i gyfrif i fyny</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -338,17 +338,17 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>CYFRIF I LAWR Y CYFARFOD</value>
+    <value>CYFRIF I LAWR I’R CYFARFOD</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Togl ymweliad cylchdaith</value>
+    <value>Togl ymweliad yr arolygwr cylchdaith</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Fformat cloc digidol</value>
+    <value>Fformat y cloc digidol</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Wedi'i alluogi</value>
+    <value>Wedi’i alluogi</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Amseroedd cychwyn cyfarfodydd (1 fesul llinell)</value>
+    <value>Amseroedd dechrau’r cyfarfodydd (1 i bob llinell)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>AMRYWIOL</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitro</value>
+    <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Dangos pwyntydd y llygoden</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Rhowch bob amser cychwyn ar linell newydd.</value>
+    <value>Rhowch bob amser dechrau ar linell newydd.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Defnyddiwch unrhyw fformat amser rydych chi'n ei hoffi!</value>
+    <value>Defnyddiwch unrhyw fformat amser!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Gallwch gynnwys diwrnod yn ddewisol, e.e. "Iau 19:15"</value>
+    <value>Gallwch gynnwys diwrnod os hoffech chi, e.e. "Iau 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Nodiadau:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PORTH AGOR</value>
+    <value>AGOR Y PORTH</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Parhau ag amser myfyrwyr</value>
+    <value>Cadw amser y myfyriwr ar y sgrin</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Parhau i barhau i siarad</value>
+    <value>Hyd dangos amser y rhan</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Porthladd</value>
+    <value>Porth</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,26 +412,26 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Dangos sector ar gloc analog</value>
+    <value>Dangos sector ar y cloc analog</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Lled sgrin hollt:</value>
+    <value>Lled y sgrin hollt:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>PRAWF</value>
+    <value>PROFI</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Wedi'i gyfyngu</value>
+    <value>Wedi’i gyfyngu</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Mae'r amserydd yn cyfrif i fyny</value>
+    <value>Amserydd yn cyfrif i fyny</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>FFENEST AMSERYDD</value>
+    <value>FFENESTR YR AMSERYDD</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
@@ -439,14 +439,14 @@
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Cyfrol:</value>
+    <value>Lefel sain:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Iaith</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Ailgychwynwch OnlyT ar ôl newid yr iaith.</value>
+    <value>Ailgychwynnwch OnlyT ar ôl newid yr iaith.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
     <value>Lleihau 1m
@@ -465,11 +465,11 @@ Shift - Cynyddu 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Cyfrif i lawr</value>
+    <value>Yn cyfrif i lawr ar hyn o bryd</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Cyfrif i fyny</value>
+    <value>Yn cyfrif i fyny ar hyn o bryd</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,13 +477,13 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Wedi'i alluogi</value>
+    <value>Wedi’i alluogi</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Wedi'i alluogi</value>
+    <value>Wedi’i alluogi</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Wedi'i alluogi</value>
+    <value>Wedi’i alluogi</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Dangos eiliadau</value>
@@ -494,7 +494,7 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Ffrâm cloc</value>
+    <value>Ffrâm y cloc</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -510,15 +510,15 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Chwith isaf</value>
+    <value>Gwaelod chwith</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Dde isaf</value>
+    <value>Gwaelod de</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Canolfan</value>
+    <value>Canol</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,7 +526,7 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Dde</value>
+    <value>De</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -534,11 +534,11 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Chwith uchaf</value>
+    <value>Brig chwith</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Uchaf ar y dde</value>
+    <value>Brig de</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,31 +546,31 @@ Shift - Cynyddu 5m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Porthladd wedi'i agor a archeb wedi'i gwneud</value>
+    <value>Porth wedi’i agor a’i gadw</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Methwyd agor y porthladd (gweler y log)!</value>
+    <value>Methu agor y porth (gweler y log)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Adroddiad amseru wedi'i gynhyrchu</value>
+    <value>Adroddiad amseru wedi’i greu</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Cynhyrchu adroddiadau</value>
+    <value>Creu adroddiadau</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Segment Cloi</value>
+    <value>Rhan i Gloi</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Segment Dros Dro</value>
+    <value>Rhan Ganol</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Segment Cyflwyniadol</value>
+    <value>Rhan Agoriadol</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Llawer o Amlwg</value>
+    <value>Manwl</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,23 +602,23 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Dadansoddi data amserydd cyfarfodydd</value>
+    <value>Wrthi’n dadansoddi data amseru’r cyfarfod</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Adroddiad NI chafodd ei gynhyrchu!</value>
+    <value>Adroddiad HEB ei greu!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>GOLWG</value>
+    <value>GWELD</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Swnio'n awtomatig</value>
+    <value>Canu’n awtomatig</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Cliciwch i ganu'r gloch</value>
+    <value>Canu’r gloch</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Deialu</value>
+    <value>Deial</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Deialu a digidol</value>
+    <value>Deial a digidol</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Nodwch fod y monitor yn cael ei reoli gan osodiad llinell orchymyn</value>
+    <value>Sylwch fod y monitor yn cael ei reoli gan osodiad llinell orchymyn</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -654,35 +654,35 @@ Shift - Cynyddu 5m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Graddiant cefndir cloc</value>
+    <value>Graddiant cefndir y cloc</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Ffrâm amserydd</value>
+    <value>Ffrâm yr amserydd</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Cloc fflat</value>
+    <value>Cloc gwastad</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Mae'r penwythnos yn cynnwys dydd Gwener</value>
+    <value>Mae’r penwythnos yn cynnwys dydd Gwener</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Ffenestredig</value>
+    <value>Mewn ffenestr</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Ffenestredig</value>
+    <value>Mewn ffenestr</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Cau'r Ffenestr Cyfrif i Lawr</value>
+    <value>Cau’r ffenestr cyfrif i lawr</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Methu agor cyfrif i lawr "mewn ffenestr" tryloyw</value>
+    <value>Methu agor cyfrif i lawr tryloyw "mewn ffenestr"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,35 +698,35 @@ Shift - Cynyddu 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Lleihau wrth leihau</value>
+    <value>Crebachu wrth leihau’r ffenestr</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>cynradd</value>
+    <value>prif</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Sylwch fod allbwn wedi'i osodi i NDI trwy osodiad llinell orchymyn.</value>
+    <value>Sylwch fod yr allbwn wedi’i osod i NDI drwy osodiad llinell orchymyn.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>A ddylech chi fod wedi cychwyn yr amserydd?</value>
+    <value>A ddylech chi fod wedi dechrau’r amserydd?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Atgofion naidlen</value>
+    <value>Nodiadau atgoffa naid</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Mae'r cyfarfod yn rhedeg am {0} munud o oramser</value>
+    <value>Mae’r cyfarfod {0} munud dros amser</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Mae'r cyfarfod yn rhedeg {0} munud yn rhy hwyr</value>
+    <value>Mae’r cyfarfod {0} munud o flaen amser</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Hysbysiadau gor-redeg/tan-redeg</value>
+    <value>Hysbysiadau dros amser/o flaen amser</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -758,11 +758,11 @@ Shift - Cynyddu 5m</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Mae'r cyfarfod yn dechrau yn</value>
+    <value>Mae’r cyfarfod yn dechrau ymhen</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Sganiwch gyda dyfais symudol i weld cloc y we</value>
+    <value>Sganiwch gyda dyfais symudol i weld y cloc gwe</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -774,19 +774,19 @@ Shift - Cynyddu 5m</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Modd Sgrin Llawn</value>
+    <value>Modd Sgrin Lawn</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Cynyddwch yr amser (+1 munud). Cliciwch ar y dde am fwy o opsiynau.</value>
+    <value>Cynyddu’r amser (+1 mun). De-gliciwch am ragor o opsiynau.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Lleihau'r amser (-1 munud). Cliciwch ar y dde am fwy o opsiynau.</value>
+    <value>Lleihau’r amser (-1 mun). De-gliciwch am ragor o opsiynau.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Cynhyrchu adroddiad amseru (PDF)</value>
+    <value>Creu adroddiad amseru (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Cynyddu 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Lleihau i'r modd cryno</value>
+    <value>Crebachu i’r modd cryno</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Cynyddu 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Amserydd Flash yn ystod Goramser</value>
+    <value>Fflachio’r amserydd pan fydd dros amser</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Canwch y Gloch Pan fyddwch chi'n Chwarae Goramser</value>
+    <value>Canu’r gloch pan fydd dros amser</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - Cynyddu 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Rhedeg</value>
+    <value>Yn rhedeg</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Wedi'i oedi</value>
+    <value>Wedi oedi</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Goramser</value>
+    <value>Dros amser</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,15 +870,15 @@ Shift - Cynyddu 5m</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>munud</value>
+    <value>mun</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Wedi'i ffurfweddu</value>
+    <value>Wedi’i ffurfweddu</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Heb ei Ffurfweddu</value>
+    <value>Heb ei ffurfweddu</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Cynyddu 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>EIN BYWYD CRISTNOGOL</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Enwau llawn rhannau’r cyfarfod</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Dangos bar yr amser dangos sy’n weddill</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Hyd dangos (eiliadau)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Rhyngwyneb clasurol (yr un cynllun â’r OnlyT gwreiddiol)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Defnyddio cynllun sy’n cyfateb i’r OnlyT gwreiddiol a oedd ar gyfer Windows yn unig. Mae’r nodweddion sydd yn Avalonia yn unig yn cael eu cuddio.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Neidio i’r rhan nesaf</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Mun</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Cadw</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Cadw’r amserlen bresennol fel templed i’w ailddefnyddio</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Ffeil amserlen</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Dangos y botwm allforio amserlen</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Yn rheoli maint y cloc analog. Dim ond mewn cynllun llorweddol gyda chloc analog y mae’n berthnasol.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Cloc ac amserydd ochr yn ochr (cloc ar y chwith, amserydd ar y dde)</value>
   </data>
 
 </root>

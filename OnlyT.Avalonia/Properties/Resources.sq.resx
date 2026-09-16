@@ -126,15 +126,15 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Njëdrejtimësh</value>
+    <value>Në një drejtim</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Dykahësh</value>
+    <value>Në dy drejtime</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Versioni i softuerit {0}</value>
+    <value>Versioni i programit {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-orëshe (zero fillestare)</value>
+    <value>12-orëshe (me zero në fillim)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,11 +150,11 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-orëshe (zero fillestare)</value>
+    <value>24-orëshe (me zero në fillim)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Nuk mund të krijohej dosja {0}</value>
+    <value>Dosja {0} nuk u krijua dot</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -162,19 +162,19 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Kohëzgjatja e modifikuar</value>
+    <value>Kohëzgjatja e ndryshuar</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Kohëzgjatja origjinale</value>
+    <value>Kohëzgjatja fillestare</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analog</value>
+    <value>Analoge</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analog dhe Dixhital</value>
+    <value>Analoge dhe dixhitale</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Dixhitale</value>
@@ -186,25 +186,25 @@
     <value>Mesjavë</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministria - Pika 1</value>
+    <value>Shërbimi - Pika 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministria - Pika 2</value>
+    <value>Shërbimi - Pika 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministria - Pika 3</value>
+    <value>Shërbimi - Pika 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Automatik</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Bazuar në skedarë</value>
+    <value>Nga skedari</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>Manual</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Bisedë Përfundimtare</value>
+    <value>Fjalimi përmbyllës</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Komente mbyllëse</value>
@@ -216,28 +216,28 @@
     <value>Xhevahire nga Bibla</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Jeta - Pjesa 1</value>
+    <value>Jeta e krishterë - Pjesa 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Jeta - Pjesa 2</value>
+    <value>Jeta e krishterë - Pjesa 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Komente hyrëse</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Prezantimet e këtij muaji</value>
+    <value>Prezantimet për këtë muaj</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Bisedë Publike</value>
+    <value>Fjalimi publik</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Leximi i Biblës</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Bisedë Shërbimi</value>
+    <value>Fjalim për shërbimin</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Biseda për Thesaret</value>
+    <value>Fjalim - Thesare</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Studimi i Kullës së Rojës</value>
@@ -246,18 +246,18 @@
     <value>Fundjavë</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-orëshe (paradite/mbasdite)</value>
+    <value>12-orëshe (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-orëshe (zero dhe paradite/mbrëmje)</value>
+    <value>12-orëshe (me zero në fillim dhe am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Asnjë</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Cilësimet nuk janë të disponueshme ndërsa kohëmatësi është në punë!</value>
+    <value>Cilësimet nuk janë të disponueshme ndërsa kohëmatësi punon!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Cilësimet</value>
@@ -266,10 +266,10 @@
     <value>Thesare</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministri</value>
+    <value>Shërbimi</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Të jetosh</value>
+    <value>Jeta e krishterë</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Fundjavë</value>
@@ -279,70 +279,70 @@
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministria - Pika 4</value>
+    <value>Shërbimi - Pika 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Vizitë në qark</value>
+    <value>Vizita e mbikëqyrësit qarkor</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>MBYLL NUMËRIMI MBRAPSHT</value>
+    <value>MBYLL NUMËRIMIN MBRAPSHT</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Ndihmë</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[vizitë në qark]</value>
+    <value>[vizita e mbikëqyrësit qarkor]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Versioni i ri i disponueshëm!</value>
+    <value>Ka dalë një version i ri!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>KRYESORE</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Kodi i aksesit</value>
+    <value>Kodi i hyrjes</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Modaliteti adaptues i mesjavës</value>
+    <value>Modaliteti përshtatës për mbledhjen e mesjavës</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Modaliteti adaptues i fundjavës</value>
+    <value>Modaliteti përshtatës për mbledhjen e fundjavës</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Lejo aktivizimin e numërimit rritës</value>
+    <value>Lejo kalimin te numërimi përpara</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Gjithmonë në krye</value>
+    <value>Gjithmonë sipër</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APLIKACIONE NË DISTANCË</value>
+    <value>APLIKACIONET NË DISTANCË</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>MODALIA AUTOMATIKE</value>
+    <value>MODALITETI AUTOMATIK</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>ZILA</value>
+    <value>ZILJA</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>ORA E WEB-IT</value>
+    <value>ORA NË WEB</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>NUMËRIMI MBRAPSHT I TAKIMIT</value>
+    <value>NUMËRIMI MBRAPSHT PARA MBLEDHJES</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Çelësi i vizitave në qark</value>
+    <value>Aktivizo/çaktivizo vizitën e mbikëqyrësit qarkor</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Formati i orës dixhitale</value>
@@ -352,43 +352,43 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Modaliteti i orës me ekran të plotë</value>
+    <value>Ora në ekran të plotë</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>Adresa IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Takim</value>
+    <value>Mbledhja</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Orari i fillimit të takimit (1 për rresht)</value>
+    <value>Oraret e fillimit të mbledhjes (një për rresht)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>TË NDRYSHME</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Monitori</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Shfaq treguesin e mausit</value>
+    <value>Shfaq treguesin e miut</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Vendosni çdo kohë fillimi në një rresht të ri.</value>
+    <value>Shkruaj çdo orë fillimi në një rresht të ri.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Përdorni çdo format kohor që dëshironi!</value>
+    <value>Përdor çfarëdo formati ore që të pëlqen!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Përfshini opsionalisht një ditë, p.sh. "E enjte 19:15"</value>
+    <value>Mund të shtosh edhe ditën, p.sh. «enj 19:15»</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Shënime:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>HAP PORTA</value>
+    <value>HAP PORTËN</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,19 +396,19 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Vazhdoni kohën e studentit</value>
+    <value>Mbaje më gjatë në ekran kohën e studentit</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Vazhdoni kohëzgjatjen e bisedës</value>
+    <value>Mbaje më gjatë në ekran kohëzgjatjen e fjalimit</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Port</value>
+    <value>Porta</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>QASJE NË LARGËSI</value>
+    <value>QASJA NË DISTANCË</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -419,45 +419,45 @@
     <value>Gjerësia e ekranit të ndarë:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>PROVË</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>I frenuar</value>
+    <value>I kufizuar</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Kohëmatësi numëron lart</value>
+    <value>Kohëmatësi numëron përpara</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>Dritarja e Kohëmatësit</value>
+    <value>DRITARJA E KOHËMATËSIT</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Ora e ditës nën kohëmatës</value>
+    <value>Ora e ditës poshtë kohëmatësit</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Vëllimi:</value>
+    <value>Volumi:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Gjuha</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Ju lutemi rinisni OnlyT pasi të keni ndryshuar gjuhën.</value>
+    <value>Rinise OnlyT pasi të ndryshosh gjuhën.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Zvogëlo 1m
-Ctrl - Zvogëlo 15s
-Shift - Zvogëlo 5m</value>
+    <value>Pakëso 1 min
+Ctrl - Pakëso 15 sek
+Shift - Pakëso 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Rrit 1m
-Ctrl - Rrit 15s
-Shift - Rrit 5m</value>
+    <value>Shto 1 min
+Ctrl - Shto 15 sek
+Shift - Shto 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Rrit 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Duke numëruar mbrapsht</value>
+    <value>Po numëron mbrapsht</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Duke numëruar lart</value>
+    <value>Po numëron përpara</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -506,7 +506,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Fundi</value>
+    <value>Poshtë</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,7 +518,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Qendër</value>
+    <value>Në qendër</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,7 +530,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Krye</value>
+    <value>Lart</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -538,7 +538,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Sipër djathtas</value>
+    <value>Lart djathtas</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,31 +546,31 @@ Shift - Rrit 5m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Porti u hap dhe rezervimi u bë</value>
+    <value>Porta u hap dhe rezervimi u bë</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Nuk mundi ta hapte portën (shih regjistrin)!</value>
+    <value>Porta nuk u hap dot (shih regjistrin)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Raporti i kohës së gjeneruar</value>
+    <value>Raporti i kohëve u krijua</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Gjeneroni raporte</value>
+    <value>Krijo raporte</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Segmenti Përfundimtar</value>
+    <value>Pjesa përmbyllëse</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Segmenti i Përkohshëm</value>
+    <value>Pjesa e ndërmjetme</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Segmenti Hyrës</value>
+    <value>Pjesa hyrëse</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -578,7 +578,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Korrigjimi</value>
+    <value>Korrigjim</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatale</value>
+    <value>Gabim fatal</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -602,27 +602,27 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Duke analizuar të dhënat e kohëmatësit të takimit</value>
+    <value>Po analizohen të dhënat e kohëve të mbledhjes</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Raporti NUK është gjeneruar!</value>
+    <value>Raporti NUK u krijua!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>PAMJE</value>
+    <value>SHIKO</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Zëri automatik</value>
+    <value>Bjeri automatikisht</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klikoni për të aktivizuar zilen</value>
+    <value>Bjeri ziles</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Kohëzgjatja (minuta)</value>
+    <value>Kohëzgjatja (min.)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Telefono</value>
+    <value>Fushë ore</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial dhe dixhital</value>
+    <value>Fushë ore dhe dixhitale</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Vini re se monitori kontrollohet nga një cilësim i linjës së komandës</value>
+    <value>Vër re se monitori kontrollohet nga një cilësim i linjës së komandave</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -670,11 +670,11 @@ Shift - Rrit 5m</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Me dritare</value>
+    <value>Në dritare</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Me dritare</value>
+    <value>Në dritare</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - Rrit 5m</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Nuk mund të hapet numërimi mbrapsht transparent "i dritarezuar"</value>
+    <value>Numërimi mbrapsht transparent nuk hapet dot «në dritare»</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,15 +698,15 @@ Shift - Rrit 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Tkurr në minimizim</value>
+    <value>Tkurre kur minimizohet</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primar</value>
+    <value>kryesor</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Vini re se rezultati është vendosur në NDI nëpërmjet një cilësimi të linjës së komandës.</value>
+    <value>Vër re se dalja është caktuar në NDI nga një cilësim i linjës së komandave.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
@@ -714,19 +714,19 @@ Shift - Rrit 5m</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Kujtesa pop-up</value>
+    <value>Kujtesa kërcyese</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Takimi do të zgjasë {0} minuta shtesë</value>
+    <value>Mbledhja po zgjat {0} minuta më shumë se koha</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Takimi po zhvillohet {0} minuta më vonë se orari</value>
+    <value>Mbledhja po zgjat {0} minuta më pak se koha</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Njoftime mbingarkese/nënngarkese</value>
+    <value>Njoftime për tejkalim/mbarim të hershëm</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -750,19 +750,19 @@ Shift - Rrit 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Kërko Qasje</value>
+    <value>Kërko qasje</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Hiq</value>
+    <value>Hiqe</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Takimi fillon në</value>
+    <value>Mbledhja fillon për</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skano me pajisje celulare për të parë orën në internet</value>
+    <value>Skanoje me celular për të parë orën në web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -770,31 +770,31 @@ Shift - Rrit 5m</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Statusi:</value>
+    <value>Gjendja:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Modaliteti i Ekranit të Plotë</value>
+    <value>Modaliteti në ekran të plotë</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Rrit kohën (+1 min). Klikoni me të djathtën për më shumë opsione.</value>
+    <value>Shto kohë (+1 min). Kliko me të djathtën për më shumë opsione.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Zvogëlo kohën (-1 minutë). Klikoni me të djathtën për më shumë opsione.</value>
+    <value>Pakëso kohën (-1 min). Kliko me të djathtën për më shumë opsione.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Gjeneroni raportin e kohës (PDF)</value>
+    <value>Krijo raportin e kohëve (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Shfaq kohëmatësin e numërimit mbrapsht</value>
+    <value>Shfaq numërimin mbrapsht</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Version i ri i disponueshëm</value>
+    <value>Ka dalë një version i ri</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Rrit 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Tkurr në modalitetin kompakt</value>
+    <value>Tkurre në modalitetin kompakt</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Rrit 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Kohëmatësi i shpejtë gjatë kohës shtesë</value>
+    <value>Kohëmatësi pulson kur kalohet koha</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Bie Zileja Kur Kohëzgjatja</value>
+    <value>Bjeri ziles kur kalohet koha</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,23 +850,23 @@ Shift - Rrit 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Vrapim</value>
+    <value>Në punë</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>U ndalua</value>
+    <value>Në pauzë</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Kohë shtesë</value>
+    <value>Koha u kalua</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>U ndal</value>
+    <value>Ndalur</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Fut kodin e hyrjes...</value>
+    <value>Shkruaj kodin e hyrjes...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -878,7 +878,7 @@ Shift - Rrit 5m</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Nuk është konfiguruar</value>
+    <value>Pa konfiguruar</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Rrit 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>TË JETOJMË SI TË KRISHTERË</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Emrat e plotë të pjesëve të mbledhjes</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Shfaq shiritin e kohës së mbetur në ekran</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Koha e mbajtjes në ekran (sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Ndërfaqja klasike (si pamja origjinale e OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Përdor një pamje si ajo e OnlyT origjinal vetëm për Windows. Veçoritë që ekzistojnë vetëm në Avalonia fshihen.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Kalo te pika tjetër</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Ruaj</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Ruaje programin aktual si shabllon për ta ripërdorur</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Skedari i programit</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Shfaq butonin për eksportimin e programit</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Përcakton madhësinë e orës analoge. Vlen vetëm në pamjen horizontale me orë analoge.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Ora dhe kohëmatësi krah për krah (ora majtas, kohëmatësi djathtas)</value>
   </data>
 
 </root>

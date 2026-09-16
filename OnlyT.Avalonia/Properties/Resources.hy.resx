@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Զանգը ակտիվ է</value>
+    <value>Զանգն ակտիվ է</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -134,7 +134,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Ծրագրային տարբերակ {0}</value>
+    <value>Ծրագրի տարբերակ {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-ժամյա (սկզբնական զրո)</value>
+    <value>12-ժամյա (սկզբում զրոյով)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,11 +150,11 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-ժամյա (սկզբնական զրո)</value>
+    <value>24-ժամյա (սկզբում զրոյով)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Հնարավոր չէ ստեղծել {0} պանակը</value>
+    <value>Չհաջողվեց ստեղծել {0} պանակը</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -166,7 +166,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Սկզբնական տևողությունը</value>
+    <value>Սկզբնական տևողություն</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -180,10 +180,10 @@
     <value>Թվային</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Զանգը ակտիվ չէ</value>
+    <value>Զանգն ակտիվ չէ</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Շաբաթվա կես</value>
+    <value>Միջշաբաթյա</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
     <value>Ծառայություն - Կետ 1</value>
@@ -198,10 +198,10 @@
     <value>Ավտոմատ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Ֆայլային</value>
+    <value>Ֆայլի հիման վրա</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Ձեռնարկ</value>
+    <value>Ձեռքով</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
     <value>Եզրափակիչ ելույթ</value>
@@ -216,10 +216,10 @@
     <value>Հոգևոր գանձեր</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Ապրել - Մաս 1</value>
+    <value>Քրիստոնեական կյանք - Մաս 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Ապրել - Մաս 2</value>
+    <value>Քրիստոնեական կյանք - Մաս 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Բացման խոսք</value>
@@ -234,10 +234,10 @@
     <value>Աստվածաշնչի ընթերցանություն</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Ծառայողական զրույց</value>
+    <value>Ծառայողական ելույթ</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Գանձերի մասին խոսակցություն</value>
+    <value>«Գանձեր» ելույթ</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>«Դիտարանի» ուսումնասիրություն</value>
@@ -246,18 +246,18 @@
     <value>Շաբաթավերջ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-ժամյա (առավոտ/երեկո)</value>
+    <value>12-ժամյա (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-ժամյա (առաջնային զրո և առավոտյան/երեկոյան)</value>
+    <value>12-ժամյա (սկզբում զրոյով և am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ոչ մեկը</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Կարգավորումները հասանելի չեն, երբ ժամանակաչափը աշխատում է։</value>
+    <value>Կարգավորումները հասանելի չեն, երբ ժամաչափն աշխատում է։</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Կարգավորումներ</value>
@@ -269,7 +269,7 @@
     <value>Ծառայություն</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Կենդանի</value>
+    <value>Քրիստոնեական կյանք</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Շաբաթավերջ</value>
@@ -282,20 +282,20 @@
     <value>Ծառայություն - Կետ 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Շրջագայության այցելություն</value>
+    <value>Շրջանային վերակացուի այց</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>Հետհաշվարկը փակել</value>
+    <value>ՓԱԿԵԼ ՀԵՏՀԱՇՎԱՐԿԸ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Օգնություն</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[շրջանային այցելություն]</value>
+    <value>[շրջանային վերակացուի այց]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Նոր տարբերակը հասանելի է!</value>
+    <value>Հասանելի է նոր տարբերակ։</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>ԳԼԽԱՎՈՐ</value>
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Շաբաթվա կեսի հարմարվողական ռեժիմ</value>
+    <value>Միջշաբաթյա հանդիպման հարմարվողական ռեժիմ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Շաբաթավերջի հարմարվողական ռեժիմ</value>
+    <value>Շաբաթավերջի հանդիպման հարմարվողական ռեժիմ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Թույլատրել հաշվարկի անջատիչը</value>
+    <value>Թույլատրել անցումը աճող հաշվարկի</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,15 +322,15 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>Հեռակա հավելվածներ</value>
+    <value>ՀԵՌԱԿԱ ՀԱՎԵԼՎԱԾՆԵՐ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>Ավտոմատ ռեժիմ</value>
+    <value>ԱՎՏՈՄԱՏ ՌԵԺԻՄ</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Զանգ</value>
+    <value>ԶԱՆԳ</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -338,17 +338,17 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ՀԱՆԴԻՊՄԱՆ ՀԵՏԱՀԱՇՎԱՐԿ</value>
+    <value>ՀԱՆԴԻՊՄԱՆ ՀԵՏՀԱՇՎԱՐԿ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Շրջանային այցելությունների անջատիչ</value>
+    <value>Շրջանային վերակացուի այցի փոխարկիչ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Թվային ժամացույցի ձևաչափ</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Միացված է</value>
+    <value>Միացված</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -363,10 +363,10 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Հանդիպման մեկնարկի ժամերը (յուրաքանչյուր տողում 1)</value>
+    <value>Հանդիպման սկսվելու ժամերը (մեկ տողում՝ մեկը)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>ԶԱՆԳ</value>
+    <value>ԶԱՆԱԶԱՆ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
@@ -376,19 +376,19 @@
     <value>Ցուցադրել մկնիկի ցուցիչը</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Յուրաքանչյուր մեկնարկի ժամանակը գրեք նոր տողի վրա։</value>
+    <value>Սկսվելու յուրաքանչյուր ժամը գրեք նոր տողում։</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Օգտագործեք ցանկացած ժամանակի ձևաչափ, որը Ձեզ դուր է գալիս։</value>
+    <value>Կարող եք օգտագործել ժամի ցանկացած ձևաչափ։</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Ցանկության դեպքում ներառեք օրը, օրինակ՝ «Հինգշաբթի 19:15»</value>
+    <value>Կարող եք նշել նաև օրը, օրինակ՝ «հնգ 19:15»</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Նշումներ՝</value>
+    <value>Նշումներ:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>Բաց նավահանգիստ</value>
+    <value>ԲԱՑԵԼ ՊՈՐՏԸ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,19 +396,19 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Պահպանեք ուսանողական ժամանակը</value>
+    <value>Պահել ուսանողի ժամանակը էկրանին</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Խոսակցության տևողության շարունակական պահպանում</value>
+    <value>Ելույթի ժամանակի պահման տևողություն</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Նավահանգիստ</value>
+    <value>Պորտ</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>Հեռակա մուտք</value>
+    <value>ՀԵՌԱԿԱ ՄՈՒՏՔ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -416,18 +416,18 @@
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Բաժանված էկրանի լայնությունը՝</value>
+    <value>Բաժանված էկրանի լայնություն:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>ՓՈՐՁԱՐԿՈՒՄ</value>
+    <value>ՓՈՐՁԱՐԿԵԼ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Խանգարված</value>
+    <value>Սահմանափակված</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Ժամաչափը հաշվում է</value>
+    <value>Ժամաչափը հաշվում է աճող կարգով</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,29 +435,29 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Օրվա ժամը ժամանակաչափի տակ</value>
+    <value>Ընթացիկ ժամը ժամաչափի տակ</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Ծավալը՝</value>
+    <value>Ձայնի ուժգնություն:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Լեզու</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Լեզուն փոխելուց հետո խնդրում ենք վերագործարկել OnlyT-ն։</value>
+    <value>Լեզուն փոխելուց հետո վերագործարկեք OnlyT-ն։</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Նվազեցնել 1 մ
+    <value>Նվազեցնել 1 ր
 Ctrl - Նվազեցնել 15 վրկ
-Shift - Նվազեցնել 5 մ</value>
+Shift - Նվազեցնել 5 ր</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Մեծացնել 1 մ
-Ctrl - Մեծացնել 15 վայրկյան
-Shift - Մեծացնել 5 մ</value>
+    <value>Ավելացնել 1 ր
+Ctrl - Ավելացնել 15 վրկ
+Shift - Ավելացնել 5 ր</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Հետհաշվարկ</value>
+    <value>Հաշվում է նվազող կարգով</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Հաշվում է վերև</value>
+    <value>Հաշվում է աճող կարգով</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,13 +477,13 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Միացված է</value>
+    <value>Միացված</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Միացված է</value>
+    <value>Միացված</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Միացված է</value>
+    <value>Միացված</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Ցուցադրել վայրկյանները</value>
@@ -498,47 +498,47 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Մեծացման մակարդակ՝</value>
+    <value>Մասշտաբ:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Գտնվելու վայրը</value>
+    <value>Դիրք</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Ստորին</value>
+    <value>Ներքևում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Ներքևի ձախ կողմում</value>
+    <value>Ներքևի ձախ անկյունում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Ներքևի աջ կողմում</value>
+    <value>Ներքևի աջ անկյունում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Կենտրոն</value>
+    <value>Կենտրոնում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Ձախ</value>
+    <value>Ձախ կողմում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Աջ</value>
+    <value>Աջ կողմում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Վերև</value>
+    <value>Վերևում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Վերևի ձախ կողմում</value>
+    <value>Վերևի ձախ անկյունում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Վերևի աջ անկյուն</value>
+    <value>Վերևի աջ անկյունում</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,19 +546,19 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Նավահանգիստը բաց է, ամրագրումը կատարվել է</value>
+    <value>Պորտը բացվեց, և ամրագրումը կատարվեց</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Հնարավոր չէ բացել միացքը (տե՛ս գրանցամատյանը):</value>
+    <value>Չհաջողվեց բացել պորտը (տե՛ս մատյանը)։</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Ստեղծված ժամանակային հաշվետվություն</value>
+    <value>Ժամանակի հաշվետվությունը ստեղծվեց</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Ստեղծեք հաշվետվություններ</value>
+    <value>Ստեղծել հաշվետվություններ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Մահացու</value>
+    <value>Ճակատագրական</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Տեղեկատվություն</value>
+    <value>Տեղեկություն</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Բազմակողմանի</value>
+    <value>Մանրամասն</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,11 +602,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Հանդիպման ժամանակաչափի տվյալների վերլուծություն</value>
+    <value>Վերլուծվում են հանդիպման ժամաչափի տվյալները</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Հաշվետվությունը չի ստեղծվել։</value>
+    <value>Հաշվետվությունը ՉԻ ստեղծվել։</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Ավտոմատ կերպով ձայնային ազդանշան</value>
+    <value>Հնչեցնել ավտոմատ</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Սեղմեք՝ զանգը հնչեցնելու համար</value>
+    <value>Հնչեցնել զանգը</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Զանգահարել</value>
+    <value>Թվատախտակ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Զանգահարեք և թվային</value>
+    <value>Թվատախտակ և թվային</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,7 +646,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Նկատի ունեցեք, որ մոնիտորը կառավարվում է հրամանի տողի միջոցով</value>
+    <value>Նկատի ունեցեք, որ մոնիտորը որոշվում է հրամանի տողի կարգավորմամբ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -666,23 +666,23 @@ Shift - Մեծացնել 5 մ</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Շաբաթավերջը ներառում է ուրբաթ</value>
+    <value>Շաբաթավերջը ներառում է ուրբաթը</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Պատուհանային</value>
+    <value>Պատուհանում</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Պատուհանային</value>
+    <value>Պատուհանում</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Հետհաշվարկի պատուհանը փակել</value>
+    <value>Փակել հետհաշվարկի պատուհանը</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Հնարավոր չէ բացել թափանցիկ «պատուհանային» հետհաշվարկը</value>
+    <value>Հնարավոր չէ բացել թափանցիկ հետհաշվարկը «պատուհանում» ռեժիմով</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Նվազեցնել նվազագույնի վրա</value>
+    <value>Փոքրացնել ծալելիս</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,31 +706,31 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Նկատի ունեցեք, որ ելքը կարգավորված է NDI-ի վրա հրամանի տողի կարգավորման միջոցով։</value>
+    <value>Նկատի ունեցեք, որ հրամանի տողի կարգավորմամբ ելքն ուղղված է NDI-ին։</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Պե՞տք էր ժամաչափը միացնեիք։</value>
+    <value>Գուցե պետք է միացնեի՞ք ժամաչափը</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ելնող պատուհանների հիշեցումներ</value>
+    <value>Թռուցիկ հիշեցումներ</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Հանդիպումը տևում է {0} րոպե լրացուցիչ ժամանակ</value>
+    <value>Հանդիպումը {0} րոպեով ուշանում է</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Հանդիպումը տևում է {0} րոպե՝ ժամանակից պակաս</value>
+    <value>Հանդիպումը {0} րոպեով առաջ է ընթանում</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Գերբեռնվածության/թերբեռնվածության մասին ծանուցումներ</value>
+    <value>Ժամանակի գերազանցման/պակասի ծանուցումներ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Մութ ռեժիմ</value>
+    <value>Մուգ ռեժիմ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -750,7 +750,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Մուտքի հարցում</value>
+    <value>Հայցել մուտք</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,7 +758,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Հանդիպումը սկսվում է</value>
+    <value>Մինչև հանդիպման սկիզբը</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
@@ -766,11 +766,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Հարթակ՝</value>
+    <value>Հարթակ:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Կարգավիճակը՝</value>
+    <value>Կարգավիճակ:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Աճեցնել ժամանակը (+1 րոպե): Ավելի շատ տարբերակների համար սեղմեք աջ կոճակը:</value>
+    <value>Ավելացնել ժամանակը (+1 րոպե)։ Այլ տարբերակների համար սեղմեք աջ կոճակով։</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Նվազեցնել ժամանակը (-1 րոպե): Սեղմեք աջ կոճակով՝ ավելի շատ տարբերակներ տեսնելու համար:</value>
+    <value>Նվազեցնել ժամանակը (-1 րոպե)։ Այլ տարբերակների համար սեղմեք աջ կոճակով։</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Ստեղծեք ժամանակի հաշվետվություն (PDF)</value>
+    <value>Ստեղծել ժամանակի հաշվետվություն (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Ցուցադրել հետհաշվարկի ժամանակաչափը</value>
+    <value>Ցուցադրել հետհաշվարկի ժամաչափը</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Սեղմել կոմպակտ ռեժիմի</value>
+    <value>Փոքրացնել՝ անցնելով կոմպակտ ռեժիմի</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Ֆլեշ ժամանակաչափ լրացուցիչ ժամանակի ընթացքում</value>
+    <value>Թարթել ժամաչափը, երբ ժամանակը գերազանցվում է</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Զանգահարեք զանգը լրացուցիչ ժամանակի ժամանակ</value>
+    <value>Հնչեցնել զանգը, երբ ժամանակը գերազանցվում է</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,19 +850,19 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Վազք</value>
+    <value>Աշխատում է</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Դադարեցված է</value>
+    <value>Դադարեցված</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Լրացուցիչ ժամանակ</value>
+    <value>Ժամանակը գերազանցված է</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Կանգ առավ</value>
+    <value>Կանգնեցված</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -870,7 +870,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>րոպե</value>
+    <value>ր</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -878,7 +878,7 @@ Shift - Մեծացնել 5 մ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Կազմաձևված չէ</value>
+    <value>Կարգավորված չէ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Մեծացնել 5 մ</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ԱՊՐԵՆՔ ՈՐՊԵՍ ՔՐԻՍՏՈՆՅԱ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Հանդիպման բաժինների լրիվ անվանումները</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Ցուցադրել պահման ժամանակի գոտին</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Պահման տևողություն (վրկ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Դասական ինտերֆեյս (ինչպես OnlyT-ի սկզբնական դասավորությունը)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Օգտագործել OnlyT-ի սկզբնական տարբերակի (միայն Windows-ի համար) դասավորությունը։ Avalonia-ի հատուկ գործառույթները թաքցվում են։</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Անցնել հաջորդ ելույթին</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Րոպե</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Պահպանել</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Պահպանել ընթացիկ ժամանակացույցը որպես ձևանմուշ՝ կրկին օգտագործելու համար</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Ժամանակացույցի ֆայլ</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Ցուցադրել ժամանակացույցի արտահանման կոճակը</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Կարգավորում է անալոգային ժամացույցի չափը։ Գործում է միայն հորիզոնական դասավորության դեպքում, երբ ժամացույցն անալոգային է։</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Կողք կողքի դասավորություն (ժամացույցը ձախում, ժամաչափը աջում)</value>
   </data>
 
 </root>

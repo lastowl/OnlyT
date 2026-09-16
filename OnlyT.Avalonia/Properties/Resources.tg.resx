@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Занги фаъол аст</value>
+    <value>Занг фаъол аст</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Роҳи Якҷониба</value>
+    <value>Яктарафа</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,27 +134,27 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Версияи нармафзор {0}</value>
+    <value>Версияи барнома {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 соат</value>
+    <value>12-соата</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-соат (сифр пешбаранда)</value>
+    <value>12-соата (бо сифр дар аввал)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 соат</value>
+    <value>24-соата</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 соат (сифр пешбаранда)</value>
+    <value>24-соата (бо сифр дар аввал)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Папкаи {0} эҷод карда нашуд</value>
+    <value>Папкаи {0} сохта нашуд</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Давомнокии тағирёфта</value>
+    <value>Давомнокии тағйирёфта</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -180,31 +180,31 @@
     <value>Рақамӣ</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Белл ғайрифаъол аст</value>
+    <value>Занг ғайрифаъол аст</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Миёнаи ҳафта</value>
+    <value>Байниҳафта</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Вазорат - банди 1</value>
+    <value>Хизмат - қисми 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Вазорат - банди 2</value>
+    <value>Хизмат - қисми 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Вазорат - банди 3</value>
+    <value>Хизмат - қисми 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Автоматӣ</value>
+    <value>Худкор</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Дар асоси файл</value>
+    <value>Аз рӯйи файл</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>Дастӣ</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Сухбати чамъбастй</value>
+    <value>Нутқи хотимавӣ</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Суханони хотимавӣ</value>
@@ -216,89 +216,89 @@
     <value>Ҷустуҷӯйи ганҷҳои Калом</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Зиндагӣ - Қисми 1</value>
+    <value>Ҳаёти масеҳӣ - қисми 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Зиндагӣ - Қисми 2</value>
+    <value>Ҳаёти масеҳӣ - қисми 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Пешгуфтор</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Муаррифии ин моҳ</value>
+    <value>Намунаҳои суҳбат барои ин моҳ</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Сухбати оммавй</value>
+    <value>Нутқи оммавӣ</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Хониши Китоби Муқаддас</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Суҳбати хидматӣ</value>
+    <value>Нутқ дар бораи хизмат</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Баҳси хазинаҳо</value>
+    <value>Нутқи «Ганҷҳо»</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Омӯзиши «Бурҷи дидбонӣ».</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Рӯзи истироҳат</value>
+    <value>Охири ҳафта</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-соат (соати саҳар)</value>
+    <value>12-соата (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-соат (пеш аз сифр ва саҳар / шаб)</value>
+    <value>12-соата (бо сифр дар аввал ва am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ҳеҷ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Ҳангоми кор кардани таймер танзимот дастрас нест!</value>
+    <value>Ҳангоми кори таймер танзимот дастрас нест!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Танзимотҳо</value>
+    <value>Танзимот</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
     <value>Ганҷҳо</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>вазорат</value>
+    <value>Хизмат</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Зиндагӣ</value>
+    <value>Ҳаёти масеҳӣ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Рӯзи истироҳат</value>
+    <value>Охири ҳафта</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Танзимотҳо аз ҷониби администратор хомӯш карда шудаанд!</value>
+    <value>Танзимотро маъмур хомӯш кардааст!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Вазорат - банди 4</value>
+    <value>Хизмат - қисми 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Боздид аз давра</value>
+    <value>Ташрифи нозири ноҳиявӣ</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ПУШТАИ САҲУР</value>
+    <value>ПӮШИДАНИ ҲИСОБИ БАРЪАКС</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Кӯмак</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[боздид аз ноҳиявӣ]</value>
+    <value>[ташрифи нозири ноҳиявӣ]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Версияи нав дастрас!</value>
+    <value>Версияи нав дастрас аст!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>АСОСЙ</value>
+    <value>АСОСӢ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Ҳолати мутобиқшавӣ дар миёнаи ҳафта</value>
+    <value>Реҷаи мутобиқшавии вохӯрии байниҳафта</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Реҷаи мутобиқшавӣ дар рӯзҳои истироҳат</value>
+    <value>Реҷаи мутобиқшавии вохӯрии охири ҳафта</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Ба ивазкунии ҳисобкунӣ иҷозат диҳед</value>
+    <value>Иҷозати гузариш ба ҳисоби рост</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,11 +322,11 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>БАРНОМАҲОИ ДУРД</value>
+    <value>БАРНОМАҲОИ ДУРДАСТ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>РЕЖИМИ АВТОМАТ</value>
+    <value>РЕҶАИ ХУДКОР</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
@@ -334,15 +334,15 @@
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>ВЕБ СОАТ</value>
+    <value>СОАТИ ВЕБ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>САҲАҲОИ ВОХУРӢ</value>
+    <value>ҲИСОБИ БАРЪАКС ТО ВОХӮРӢ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Гузариш ба гардиш</value>
+    <value>Фаъолсозии ташрифи нозири ноҳиявӣ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Формати соати рақамӣ</value>
@@ -352,7 +352,7 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Ҳолати соати пурраи экран</value>
+    <value>Реҷаи соат дар тамоми экран</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>Суроғаи IP</value>
@@ -363,7 +363,7 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Вақти оғози вохӯрӣ (1 дар як сатр)</value>
+    <value>Вақти оғози вохӯрӣ (1 дар ҳар сатр)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>ГУНОГУН</value>
@@ -373,34 +373,34 @@
     <value>Монитор</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Нишондиҳандаи мушро нишон диҳед</value>
+    <value>Нишон додани нишондиҳандаи муш</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Ҳар як вақти оғозро дар хати нав гузоред.</value>
+    <value>Ҳар вақти оғозро дар сатри нав нависед.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Ҳар формати вақтро, ки ба шумо маъқул аст, истифода баред!</value>
+    <value>Ҳар формати вақтро, ки хоҳед, истифода баред!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Ихтиёрӣ як рӯзро дохил кунед, масалан. "Пеш 19:15"</value>
+    <value>Метавонед рӯзро низ нависед, мас. "Пшб 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Эзоҳҳо:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>БАНДАРИ КУШОДА</value>
+    <value>КУШОДАНИ ПОРТ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Режим</value>
+    <value>Реҷа</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Давомнокии вақти донишҷӯӣ</value>
+    <value>Вақти хонандаро каме дертар нишон додан</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Давомнокии гуфтугӯ</value>
+    <value>Давомнокии нигоҳдории вақти нутқ</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,68 +408,68 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ДАСТРАСИИ ДУРУСТ</value>
+    <value>ДАСТРАСИИ ДУРДАСТ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Намоиши сектор дар соати аналогӣ</value>
+    <value>Нишон додани сектор дар соати аналогӣ</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
     <value>Паҳнои экрани тақсимшуда:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>САНЧИШ</value>
+    <value>САНҶИШ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Фишурдашуда</value>
+    <value>Маҳдудшуда</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Вақтсанҷ ҳисоб мекунад</value>
+    <value>Таймер ҳисоби рост мекунад</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>РАВЗАНИ ТАЙМЕР</value>
+    <value>РАВЗАНАИ ТАЙМЕР</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Вақти рӯз дар зери таймер</value>
+    <value>Вақти ҷорӣ дар зери таймер</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Ҳаҷм:</value>
+    <value>Баландии садо:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Забон</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Лутфан, пас аз тағир додани забон, OnlyT-ро бозоғоз намоед.</value>
+    <value>Лутфан, пас аз иваз кардани забон OnlyT-ро аз нав оғоз кунед.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 м кам кунед
-Ctrl - 15 сония кам кунед
-Гузариш - 5м кам кунед</value>
+    <value>1 дақ. кам кардан
+Ctrl - 15 сон. кам кардан
+Shift - 5 дақ. кам кардан</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 м зиёд кунед
-Ctrl - 15 сония зиёд кунед
-Шифт - 5м зиёд кунед</value>
+    <value>1 дақ. зиёд кардан
+Ctrl - 15 сон. зиёд кардан
+Shift - 5 дақ. зиёд кардан</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Режими дастӣ</value>
+    <value>Реҷаи дастӣ</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Ҳисоб кардан</value>
+    <value>Ҳоло ҳисоби баръакс меравад</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Ҳисоб кардан</value>
+    <value>Ҳоло ҳисоби рост меравад</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -486,19 +486,19 @@ Ctrl - 15 сония зиёд кунед
     <value>Фаъол</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Сонияҳоро нишон диҳед</value>
+    <value>Нишон додани сонияҳо</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Намоиши чаҳорчӯба</value>
+    <value>Нишон додани чорчӯба</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Чаҳорчӯбаи соат</value>
+    <value>Чорчӯбаи соат</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Сатҳи масштаб:</value>
+    <value>Дараҷаи калонкунӣ:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -510,11 +510,11 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Дар поёни чап</value>
+    <value>Поён, чап</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Дар поёни рост</value>
+    <value>Поён, рост</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
@@ -526,67 +526,67 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Дуруст</value>
+    <value>Рост</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>боло</value>
+    <value>Боло</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Болои чап</value>
+    <value>Боло, чап</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Аз болои рост</value>
+    <value>Боло, рост</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>ДУРУСТ</value>
+    <value>Хуб</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Порт кушода ва фармоиш дода шуд</value>
+    <value>Порт кушода ва банд карда шуд</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Портро кушода натавонист (ба гузориш нигаред)!</value>
+    <value>Порт кушода нашуд (журналро бинед)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Ҳисобот дар бораи вақт</value>
+    <value>Ҳисоботи вақт тайёр шуд</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Ҳисоботҳо эҷод кунед</value>
+    <value>Тайёр кардани ҳисоботҳо</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Бахши хотимавӣ</value>
+    <value>Қисми хотимавӣ</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Сегменти муваққатӣ</value>
+    <value>Қисми мобайнӣ</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Бахши муқаддимавӣ</value>
+    <value>Қисми ибтидоӣ</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Сатҳи сабти ном</value>
+    <value>Сатҳи сабти журнал</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>ислоҳ</value>
+    <value>Ислоҳи хатоҳо</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Хатогӣ</value>
+    <value>Хато</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Фалокатовар</value>
+    <value>Хатои ҷиддӣ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -606,19 +606,19 @@ Ctrl - 15 сония зиёд кунед
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Ҳисобот тавлид нашудааст!</value>
+    <value>Ҳисобот тайёр НАШУД!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>НАМОИШ</value>
+    <value>ДИДАН</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Ба таври худкор садо медиҳад</value>
+    <value>Худкор занг задан</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Барои садо додани занг клик кунед</value>
+    <value>Занг задан</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,11 +630,11 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Рақам кунед</value>
+    <value>Сиферблат</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Рақам ва рақамӣ</value>
+    <value>Сиферблат ва рақамӣ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,7 +646,7 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Дар хотир доред, ки монитор тавассути танзимоти сатри фармон идора карда мешавад</value>
+    <value>Диққат: монитор тавассути танзими сатри фармон идора мешавад</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -654,11 +654,11 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Градиенти пасзаминаи соат</value>
+    <value>Градиенти заминаи соат</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Чаҳорчӯбаи таймер</value>
+    <value>Чорчӯбаи таймер</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Ctrl - 15 сония зиёд кунед
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Рӯзҳои истироҳат ҷумъаро дар бар мегирад</value>
+    <value>Охири ҳафта ҷумъаро низ дар бар мегирад</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Тирезадор</value>
+    <value>Дар равзана</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Тирезадор</value>
+    <value>Дар равзана</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Равзанаи ҳисобро пӯшед</value>
+    <value>Пӯшидани равзанаи ҳисоби баръакс</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Бозгашти шаффофи "тирезашуда"-и ҳисобро кушода наметавонад</value>
+    <value>Ҳисоби баръакси шаффофро "дар равзана" кушодан ғайриимкон аст</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,51 +694,51 @@ Ctrl - 15 сония зиёд кунед
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>офлайн...</value>
+    <value>пайваст нест...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Кам кардан ба ҳадди ақалл</value>
+    <value>Ҳангоми печондан хурд кардан</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>ибтидой</value>
+    <value>асосӣ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Дар хотир доред, ки баромад ба NDI тавассути танзимоти сатри фармон муқаррар карда мешавад.</value>
+    <value>Диққат: баромад тавассути танзими сатри фармон ба NDI муқаррар шудааст.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Оё шумо бояд таймерро оғоз мекардед?</value>
+    <value>Шояд шумо бояд таймерро оғоз мекардед?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ёдраскуниҳои поп-ап</value>
+    <value>Ёдраскуниҳои пайдошаванда</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Вохӯрӣ {0} дақиқаи изофӣ идома дорад</value>
+    <value>Вохӯрӣ аз вақти муқарраршуда {0} дақиқа зиёд давом дорад</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Вохӯрӣ {0} дақиқа камтар давом мекунад</value>
+    <value>Вохӯрӣ аз вақти муқарраршуда {0} дақиқа кам давом дорад</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Огоҳиҳои аз ҳад зиёд / камшуда</value>
+    <value>Огоҳиҳо дар бораи зиёд/кам шудани вақт</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Ҳолати торик</value>
+    <value>Реҷаи торик</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Пӯшед</value>
+    <value>Пӯшидан</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Захира кунед</value>
+    <value>Захира кардан</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -746,7 +746,7 @@ Ctrl - 15 сония зиёд кунед
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Танзим кунед</value>
+    <value>Танзим кардан</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -754,11 +754,11 @@ Ctrl - 15 сония зиёд кунед
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Хориҷ кардан</value>
+    <value>Рад кардан</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Вохӯрӣ дар ш</value>
+    <value>То оғози вохӯрӣ</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
@@ -770,35 +770,35 @@ Ctrl - 15 сония зиёд кунед
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Статус:</value>
+    <value>Ҳолат:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Ҳолати пурраи экран</value>
+    <value>Реҷаи тамоми экран</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Баланд бардоштани вақт (+1 дақиқа). Барои имконоти бештар, тугмаи ростро клик кунед.</value>
+    <value>Зиёд кардани вақт (+1 дақ.). Барои имконоти бештар тугмаи рости мушро пахш кунед.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Коҳиш додани вақт (-1 дақиқа). Барои имконоти бештар, тугмаи ростро клик кунед.</value>
+    <value>Кам кардани вақт (-1 дақ.). Барои имконоти бештар тугмаи рости мушро пахш кунед.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Эҷоди гузориши вақт (PDF)</value>
+    <value>Тайёр кардани ҳисоботи вақт (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Вақтсанҷи ақибшуморро нишон диҳед</value>
+    <value>Нишон додани таймери ҳисоби баръакс</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Версияи нав дастрас</value>
+    <value>Версияи нав дастрас аст</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Танзимотҳо</value>
+    <value>Танзимот</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
@@ -806,7 +806,7 @@ Ctrl - 15 сония зиёд кунед
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Ба ҳолати паймон кӯч кунед</value>
+    <value>Хурд кардан ба реҷаи ихчам</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,15 +834,15 @@ Ctrl - 15 сония зиёд кунед
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>Иҷозатҳои шабакавӣ</value>
+    <value>ИҶОЗАТҲОИ ШАБАКА</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Вақтсанҷи флешдор дар вақти изофа</value>
+    <value>Милт-милт кардани таймер ҳангоми гузаштани вақт</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Занги занг ҳангоми изофакорӣ</value>
+    <value>Занг задан ҳангоми гузаштани вақт</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,19 +850,19 @@ Ctrl - 15 сония зиёд кунед
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Давидан</value>
+    <value>Кор мекунад</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Таваққуф карда шуд</value>
+    <value>Таваққуф</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Бо гузашти вақт</value>
+    <value>Вақт гузашт</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Истед</value>
+    <value>Қатъ шуд</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -874,11 +874,11 @@ Ctrl - 15 сония зиёд кунед
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Конфигуратсияшуда</value>
+    <value>Танзим шудааст</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Конфигуратсия нашудааст</value>
+    <value>Танзим нашудааст</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Ctrl - 15 сония зиёд кунед
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>БА МАСЕҲ ПАЙРАВӢ КУНЕД</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Номҳои пурраи қисмҳои вохӯрӣ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Нишон додани навори ҳисоби баръакс ҳангоми нигоҳдорӣ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Давомнокии нигоҳдорӣ (сония)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Интерфейси классикӣ (мисли тарҳи аслии OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Тарҳе истифода мешавад, ки ба OnlyT-и аслӣ (танҳо барои Windows) мувофиқ аст. Имкониятҳое, ки танҳо дар Avalonia ҳастанд, пинҳон мешаванд.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Гузаштан ба нутқи навбатӣ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Дақ</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Захира кардан</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Ҷадвали ҷориро ҳамчун қолаби такроран истифодашаванда захира кардан</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Файли ҷадвал</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Нишон додани тугмаи содироти ҷадвал</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Андозаи соати аналогиро танзим мекунад. Танҳо дар тарҳи уфуқӣ бо соати аналогӣ амал мекунад.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Соату таймер паҳлуи ҳам (соат дар чап, таймер дар рост)</value>
   </data>
 
 </root>

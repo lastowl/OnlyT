@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell aktif</value>
+    <value>Loceng aktif</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>tiada</value>
+    <value>Tiada</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 jam (sifar pendahuluan)</value>
+    <value>12 jam (sifar di hadapan)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,7 +150,7 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 jam (sifar pendahuluan)</value>
+    <value>24 jam (sifar di hadapan)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Tempoh yang diubah suai</value>
+    <value>Tempoh yang diubah</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -174,31 +174,31 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analog dan Digital</value>
+    <value>Analog dan digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell tidak aktif</value>
+    <value>Loceng tidak aktif</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Pertengahan minggu</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Kementerian - Perkara 1</value>
+    <value>Penginjilan - Bahagian 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Kementerian - Perkara 2</value>
+    <value>Penginjilan - Bahagian 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Kementerian - Perkara 3</value>
+    <value>Penginjilan - Bahagian 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Automatik</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>berasaskan fail</value>
+    <value>Berasaskan fail</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>Manual</value>
@@ -216,16 +216,16 @@
     <value>Permata Rohani</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Hidup - Bahagian 1</value>
+    <value>Kehidupan Kristian - Bahagian 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Hidup - Bahagian 2</value>
+    <value>Kehidupan Kristian - Bahagian 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Kata-Kata Pembuka</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Pembentangan Bulan Ini</value>
+    <value>Persembahan untuk Bulan Ini</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
     <value>Ceramah Umum</value>
@@ -234,7 +234,7 @@
     <value>Pembacaan Bible</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Ceramah Perkhidmatan</value>
+    <value>Ceramah Penyelia Litar</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
     <value>Ceramah Harta Karun</value>
@@ -246,53 +246,53 @@
     <value>Hujung minggu</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 jam (pagi/petang)</value>
+    <value>12 jam (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 jam (mendahului sifar &amp; pagi/petang)</value>
+    <value>12 jam (sifar di hadapan &amp; am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>tiada</value>
+    <value>Tiada</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
     <value>Tetapan tidak tersedia semasa pemasa sedang berjalan!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>tetapan</value>
+    <value>Tetapan</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>harta karun</value>
+    <value>Harta Karun</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Kementerian</value>
+    <value>Penginjilan</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>hidup</value>
+    <value>Kehidupan Kristian</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Hujung minggu</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Tetapan dilumpuhkan oleh pentadbir!</value>
+    <value>Tetapan dinyahdayakan oleh pentadbir!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Kementerian - Perkara 4</value>
+    <value>Penginjilan - Bahagian 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Lawatan litar</value>
+    <value>Kunjungan penyelia litar</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>TUTUP COUNTDOWN</value>
+    <value>TUTUP KIRA DETIK</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Tolong</value>
+    <value>Bantuan</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[lawatan litar]</value>
+    <value>[kunjungan penyelia litar]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Versi baharu tersedia!</value>
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Mod penyesuaian pertengahan minggu</value>
+    <value>Mod adaptif pertengahan minggu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Mod penyesuaian hujung minggu</value>
+    <value>Mod adaptif hujung minggu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Benarkan togol kiraan semula</value>
+    <value>Benarkan togol kira naik</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -338,11 +338,11 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>COUNTDOWN MESYUARAT</value>
+    <value>KIRA DETIK PERJUMPAAN</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Togol lawatan litar</value>
+    <value>Togol kunjungan penyelia litar</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Format jam digital</value>
@@ -355,40 +355,40 @@
     <value>Mod jam skrin penuh</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>alamat IP</value>
+    <value>Alamat IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Mesyuarat</value>
+    <value>Perjumpaan</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Masa mula mesyuarat (1 setiap baris)</value>
+    <value>Masa mula perjumpaan (1 setiap baris)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>PELBAGAI</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Pantau</value>
+    <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Tunjukkan penunjuk tetikus</value>
+    <value>Tunjukkan penuding tetikus</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
     <value>Letakkan setiap masa mula pada baris baharu.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Gunakan sebarang format masa yang anda suka!</value>
+    <value>Gunakan apa-apa format masa yang anda suka!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Secara pilihan, sertakan satu hari, mis. "Khu 19:15"</value>
+    <value>Boleh juga sertakan hari, cth. "Kha 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Nota:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PELABUHAN TERBUKA</value>
+    <value>BUKA PORT</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Kekalkan masa pelajar</value>
+    <value>Kekalkan paparan masa pelajar</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Tempoh bercakap berterusan</value>
+    <value>Tempoh paparan masa ceramah dikekalkan</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Pelabuhan</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -416,26 +416,26 @@
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Lebar skrin pisah:</value>
+    <value>Lebar skrin terbahagi:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>UJIAN</value>
+    <value>UJI</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Tercegat</value>
+    <value>Dihadkan</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Pemasa mengira sehingga</value>
+    <value>Pemasa mengira naik</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TETIngkap PEMASA</value>
+    <value>TETINGKAP PEMASA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Masa hari di bawah pemasa</value>
+    <value>Waktu semasa di bawah pemasa</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -451,13 +451,13 @@
   <data name="TIME_DECREASE" xml:space="preserve">
     <value>Kurangkan 1m
 Ctrl - Kurangkan 15s
-Anjakan - Kurangkan 5m</value>
+Shift - Kurangkan 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Meningkatkan 1m
-Ctrl - Tingkatkan 15s
-Shift - Meningkatkan 5m</value>
+    <value>Tambah 1m
+Ctrl - Tambah 15s
+Shift - Tambah 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Meningkatkan 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Mengira mundur</value>
+    <value>Sedang mengira turun</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Membilang</value>
+    <value>Sedang mengira naik</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -486,7 +486,7 @@ Shift - Meningkatkan 5m</value>
     <value>Didayakan</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Tunjukkan detik</value>
+    <value>Tunjukkan saat</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -518,15 +518,15 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Pusat</value>
+    <value>Tengah</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>kiri</value>
+    <value>Kiri</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Betul</value>
+    <value>Kanan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -542,11 +542,11 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Ok</value>
+    <value>OK</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Pelabuhan dibuka dan tempahan dibuat</value>
+    <value>Port dibuka dan tempahan dibuat</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,11 +554,11 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Laporan masa yang dihasilkan</value>
+    <value>Laporan masa telah dijana</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Hasilkan laporan</value>
+    <value>Jana laporan</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
@@ -566,15 +566,15 @@ Shift - Meningkatkan 5m</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Segmen Interim</value>
+    <value>Segmen Pertengahan</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Segmen Pengenalan</value>
+    <value>Segmen Pembukaan</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Tahap pembalakan</value>
+    <value>Tahap pengelogan</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -582,11 +582,11 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>ralat</value>
+    <value>Ralat</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>maut</value>
+    <value>Kritikal</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Berkata-kata</value>
+    <value>Terperinci</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,11 +602,11 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Menganalisis data pemasa mesyuarat</value>
+    <value>Menganalisis data pemasa perjumpaan</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Laporan TIDAK dihasilkan!</value>
+    <value>Laporan TIDAK dijana!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Shift - Meningkatkan 5m</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Bunyi secara automatik</value>
+    <value>Bunyikan secara automatik</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Klik untuk membunyikan loceng</value>
+    <value>Bunyikan loceng</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -626,11 +626,11 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>elemen</value>
+    <value>Elemen</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>dail</value>
+    <value>Dail</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
@@ -638,7 +638,7 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>digital</value>
+    <value>Digital</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -670,23 +670,23 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>bertingkap</value>
+    <value>Dalam tetingkap</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>bertingkap</value>
+    <value>Dalam tetingkap</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Tutup Tetingkap Undur</value>
+    <value>Tutup tetingkap kira detik</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Tidak boleh membuka kira detik "bertingkap" telus</value>
+    <value>Tidak dapat membuka kira detik lutsinar "dalam tetingkap"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>jam</value>
+    <value>Jam</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift - Meningkatkan 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Kecilkan pada minimize</value>
+    <value>Kecilkan apabila diminimumkan</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -710,23 +710,23 @@ Shift - Meningkatkan 5m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Sekiranya anda telah memulakan pemasa?</value>
+    <value>Adakah anda sepatutnya sudah memulakan pemasa?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Peringatan pop timbul</value>
+    <value>Peringatan timbul</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Mesyuarat berjalan lebih masa {0} minit</value>
+    <value>Perjumpaan melebihi masa sebanyak {0} minit</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Mesyuarat berjalan {0} minit di bawah masa</value>
+    <value>Perjumpaan berjalan {0} minit lebih awal daripada masa</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Pemberitahuan lebihan/kurang dijalankan</value>
+    <value>Pemberitahuan lebih masa/kurang masa</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,15 +734,15 @@ Shift - Meningkatkan 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>tutup</value>
+    <value>Tutup</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Jimat</value>
+    <value>Simpan</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Segarkan semula</value>
+    <value>Muat semula</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -754,11 +754,11 @@ Shift - Meningkatkan 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Tolak</value>
+    <value>Ketepikan</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Mesyuarat bermula dalam</value>
+    <value>Perjumpaan bermula dalam</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Meningkatkan 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Tambah masa (+1 min). Klik kanan untuk lebih banyak pilihan.</value>
+    <value>Tambah masa (+1 min). Klik kanan untuk pilihan lain.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Kurangkan masa (-1 min). Klik kanan untuk lebih banyak pilihan.</value>
+    <value>Kurangkan masa (-1 min). Klik kanan untuk pilihan lain.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Hasilkan laporan masa (PDF)</value>
+    <value>Jana laporan masa (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Tunjukkan pemasa undur</value>
+    <value>Tunjukkan pemasa kira detik</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -798,15 +798,15 @@ Shift - Meningkatkan 5m</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>tetapan</value>
+    <value>Tetapan</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Tolong</value>
+    <value>Bantuan</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Kecilkan kepada mod padat</value>
+    <value>Kecilkan ke mod padat</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Meningkatkan 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Pemasa Denyar Semasa Kerja Lebih Masa</value>
+    <value>Kelipkan pemasa semasa lebih masa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Bunyikan Loceng Apabila Lebih Masa</value>
+    <value>Bunyikan loceng apabila lebih masa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>sedia</value>
+    <value>Sedia</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Berlari</value>
+    <value>Berjalan</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -862,7 +862,7 @@ Shift - Meningkatkan 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Berhenti</value>
+    <value>Dihentikan</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Meningkatkan 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>KEHIDUPAN KRISTIAN KITA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nama penuh bahagian perjumpaan</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Tunjukkan bar baki masa paparan</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Tempoh paparan dikekalkan (saat)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Antara muka klasik (sama seperti susun atur asal OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Gunakan susun atur yang sama seperti OnlyT asal untuk Windows sahaja. Ciri khas Avalonia disembunyikan.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Langkau ke bahagian seterusnya</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Simpan jadual semasa sebagai templat yang boleh diguna semula</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fail jadual</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Tunjukkan butang eksport jadual</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Mengawal saiz jam analog. Hanya berkesan dalam susun atur mendatar yang mempunyai jam analog.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Susun atur jam bersebelahan (jam di kiri, pemasa di kanan)</value>
   </data>
 
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>బెల్ యాక్టివ్‌గా ఉంది</value>
+    <value>గంట ఆన్‌లో ఉంది</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,11 +126,11 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>వన్-వే</value>
+    <value>ఒకవైపు</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>రెండు-మార్గాలు</value>
+    <value>రెండువైపులా</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -138,31 +138,31 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-గంటలు</value>
+    <value>12 గంటలు</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-గంటలు (ఆరంభంలో సున్నా)</value>
+    <value>12 గంటలు (ముందు సున్నాతో)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-గంటలు</value>
+    <value>24 గంటలు</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-గంటలు (ఆరంభంలో సున్నా)</value>
+    <value>24 గంటలు (ముందు సున్నాతో)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>{0} ఫోల్డర్‌ను సృష్టించలేకపోయింది</value>
+    <value>{0} ఫోల్డర్‌ను సృష్టించలేకపోయాం</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>అనుకూల వ్యవధి</value>
+    <value>సర్దుబాటు చేసిన వ్యవధి</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>సవరించిన వ్యవధి</value>
+    <value>మార్చిన వ్యవధి</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -174,25 +174,25 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>అనలాగ్ మరియు డిజిటల్</value>
+    <value>అనలాగ్, డిజిటల్</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>డిజిటల్</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>బెల్ యాక్టివ్‌గా లేదు</value>
+    <value>గంట ఆఫ్‌లో ఉంది</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>వారం మధ్యలో</value>
+    <value>వారం మధ్య</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>మంత్రిత్వ శాఖ - అంశం 1</value>
+    <value>పరిచర్య - భాగం 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>మంత్రిత్వ శాఖ - అంశం 2</value>
+    <value>పరిచర్య - భాగం 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>మంత్రిత్వ శాఖ - అంశం 3</value>
+    <value>పరిచర్య - భాగం 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>ఆటోమేటిక్</value>
@@ -216,28 +216,28 @@
     <value>దేవుని వాక్యంలో రత్నాలు</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>లివింగ్ - భాగం 1</value>
+    <value>క్రైస్తవ జీవితం - భాగం 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>లివింగ్ - పార్ట్ 2</value>
+    <value>క్రైస్తవ జీవితం - భాగం 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>ఆరంభ మాటలు</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>ఈ నెల ప్రదర్శనలు</value>
+    <value>ఈ నెల అందింపులు</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>పబ్లిక్ టాక్</value>
+    <value>బహిరంగ ప్రసంగం</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>చదవాల్సిన బైబిలు భాగం</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>సేవా చర్చ</value>
+    <value>సేవా ప్రసంగం</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>ట్రెజర్స్ టాక్</value>
+    <value>సంపద - ప్రసంగం</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>కావలికోట అధ్యయనం</value>
@@ -246,43 +246,43 @@
     <value>వారాంతం</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-గంటలు (ఉదయం/సాయంత్రం)</value>
+    <value>12 గంటలు (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-గంటలు (సున్నాతో మొదలై ఉదయం/సాయంత్రం)</value>
+    <value>12 గంటలు (ముందు సున్నా, am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>ఏదీ లేదు</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>టైమర్ నడుస్తున్నప్పుడు సెట్టింగ్‌లు అందుబాటులో లేవు!</value>
+    <value>టైమర్ నడుస్తున్నప్పుడు సెట్టింగ్‌లు అందుబాటులో ఉండవు!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>సెట్టింగులు</value>
+    <value>సెట్టింగ్‌లు</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>సంపదలు</value>
+    <value>సంపద</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>మంత్రిత్వ శాఖ</value>
+    <value>పరిచర్య</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>జీవించడం</value>
+    <value>క్రైస్తవ జీవితం</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>వారాంతం</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>నిర్వాహకుడు సెట్టింగ్‌లను నిలిపివేసారు!</value>
+    <value>నిర్వాహకుడు సెట్టింగ్‌లను నిలిపివేశారు!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>మంత్రిత్వ శాఖ - అంశం 4</value>
+    <value>పరిచర్య - భాగం 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>సర్క్యూట్ సందర్శన</value>
+    <value>ప్రాంతీయ పర్యవేక్షకుని సందర్శనం</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>కౌంట్‌డౌన్ మూసివేయి</value>
@@ -292,13 +292,13 @@
     <value>సహాయం</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[సర్క్యూట్ సందర్శన]</value>
+    <value>[ప్రాంతీయ పర్యవేక్షకుని సందర్శనం]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>కొత్త వెర్షన్ అందుబాటులో ఉంది!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>ప్రధాన</value>
+    <value>ప్రధానం</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>వారం మధ్యలో అనుకూల మోడ్</value>
+    <value>వారం మధ్య మీటింగ్ సర్దుబాటు మోడ్</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>వారాంతపు అనుకూల మోడ్</value>
+    <value>వారాంతపు మీటింగ్ సర్దుబాటు మోడ్</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>కౌంట్-అప్ టోగుల్‌ను అనుమతించు</value>
+    <value>కౌంట్-అప్‌కు మారడాన్ని అనుమతించు</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -330,11 +330,11 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>బెల్</value>
+    <value>గంట</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>వెబ్ క్లాక్</value>
+    <value>వెబ్ గడియారం</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
@@ -342,7 +342,7 @@
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>సర్క్యూట్ సందర్శన టోగుల్</value>
+    <value>ప్రాంతీయ పర్యవేక్షకుని సందర్శనం ఆన్/ఆఫ్</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>డిజిటల్ గడియారం ఫార్మాట్</value>
@@ -352,43 +352,43 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>పూర్తి స్క్రీన్ క్లాక్ మోడ్</value>
+    <value>పూర్తి స్క్రీన్ గడియారం మోడ్</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP చిరునామా</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>సమావేశం</value>
+    <value>మీటింగ్</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>మీటింగ్ ప్రారంభ సమయాలు (ప్రతి లైన్‌కు 1)</value>
+    <value>మీటింగ్ ప్రారంభ సమయాలు (ఒక్కో లైన్‌లో 1)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>వివిధ</value>
+    <value>ఇతరాలు</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
     <value>మానిటర్</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>మౌస్ పాయింటర్ చూపించు</value>
+    <value>మౌస్ పాయింటర్‌ను చూపించు</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ప్రతి ప్రారంభ సమయాన్ని కొత్త లైన్‌లో ఉంచండి.</value>
+    <value>ప్రతీ ప్రారంభ సమయాన్ని కొత్త లైన్‌లో రాయండి.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>మీకు నచ్చిన ఏ సమయ ఆకృతినైనా ఉపయోగించండి!</value>
+    <value>మీకు నచ్చిన ఏ సమయ ఫార్మాట్‌నైనా ఉపయోగించవచ్చు!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ఐచ్ఛికంగా ఒక రోజును చేర్చండి, ఉదా. "గురు 19:15"</value>
+    <value>కావాలంటే రోజును కూడా చేర్చవచ్చు, ఉదా. "గురు 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>గమనికలు:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>పోర్ట్ తెరవండి</value>
+    <value>పోర్ట్ తెరువు</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>విద్యార్థి సమయాన్ని కొనసాగించండి</value>
+    <value>విద్యార్థి సమయాన్ని కొంతసేపు చూపించు</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>నిరంతర చర్చ వ్యవధి</value>
+    <value>ప్రసంగం తర్వాత సమయం కనిపించే వ్యవధి</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -416,18 +416,18 @@
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>స్ప్లిట్-స్క్రీన్ వెడల్పు:</value>
+    <value>విభజిత స్క్రీన్ వెడల్పు:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>పరీక్ష</value>
+    <value>పరీక్షించు</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>థ్రోటిల్ చేయబడింది</value>
+    <value>వేగం పరిమితం చేయబడింది</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>టైమర్ లెక్కిస్తుంది</value>
+    <value>టైమర్ పెరుగుతూ లెక్కిస్తుంది</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,7 +435,7 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>టైమర్ కింద రోజు సమయం</value>
+    <value>టైమర్ కింద ప్రస్తుత సమయం</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -446,18 +446,18 @@
     <value>భాష</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>భాషను మార్చిన తర్వాత దయచేసి OnlyT ని పునఃప్రారంభించండి.</value>
+    <value>భాషను మార్చిన తర్వాత దయచేసి OnlyTని మళ్లీ ప్రారంభించండి.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1ని తగ్గించండి
-Ctrl - 15సె తగ్గించండి
-Shift - 5ని తగ్గించండి</value>
+    <value>1 నిమి. తగ్గించు
+Ctrl - 15 సె. తగ్గించు
+Shift - 5 నిమి. తగ్గించు</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1ని పెంచండి
-Ctrl - 15సె పెంచండి
-Shift - 5ని పెంచండి</value>
+    <value>1 నిమి. పెంచు
+Ctrl - 15 సె. పెంచు
+Shift - 5 నిమి. పెంచు</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - 5ని పెంచండి</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>కౌంట్ డౌన్ అవుతోంది</value>
+    <value>ప్రస్తుతం తగ్గుతూ లెక్కిస్తోంది</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>లెక్కింపు జరుగుతోంది</value>
+    <value>ప్రస్తుతం పెరుగుతూ లెక్కిస్తోంది</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -486,7 +486,7 @@ Shift - 5ని పెంచండి</value>
     <value>ప్రారంభించబడింది</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>సెకన్లు చూపించు</value>
+    <value>సెకన్లను చూపించు</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
@@ -494,7 +494,7 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>గడియార ఫ్రేమ్</value>
+    <value>గడియారం ఫ్రేమ్</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -506,19 +506,19 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>దిగువన</value>
+    <value>కింద</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>దిగువ ఎడమవైపు</value>
+    <value>కింద ఎడమ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>దిగువ కుడివైపు</value>
+    <value>కింద కుడి</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>కేంద్రం</value>
+    <value>మధ్యలో</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,15 +530,15 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>టాప్</value>
+    <value>పైన</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ఎగువ ఎడమ</value>
+    <value>పైన ఎడమ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ఎగువ కుడి</value>
+    <value>పైన కుడి</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,31 +546,31 @@ Shift - 5ని పెంచండి</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>పోర్ట్ తెరవబడింది మరియు రిజర్వేషన్ చేయబడింది</value>
+    <value>పోర్ట్ తెరవబడింది, రిజర్వ్ చేయబడింది</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>పోర్ట్ తెరవలేకపోయాను (లాగ్ చూడండి)!</value>
+    <value>పోర్ట్‌ను తెరవలేకపోయాం (లాగ్ చూడండి)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>రూపొందించిన సమయ నివేదిక</value>
+    <value>సమయ నివేదిక తయారైంది</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>నివేదికలను రూపొందించండి</value>
+    <value>నివేదికలు తయారుచేయి</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>ముగింపు విభాగం</value>
+    <value>ముగింపు భాగం</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>తాత్కాలిక విభాగం</value>
+    <value>మధ్య భాగం</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>పరిచయ విభాగం</value>
+    <value>ఆరంభ భాగం</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ప్రాణాంతకం</value>
+    <value>తీవ్రమైన లోపం</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>వెర్బోస్</value>
+    <value>పూర్తి వివరాలు</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -606,35 +606,35 @@ Shift - 5ని పెంచండి</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>నివేదిక రూపొందించబడలేదు!</value>
+    <value>నివేదిక తయారు కాలేదు!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>చూడండి</value>
+    <value>చూడు</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>స్వయంచాలకంగా ధ్వనిస్తుంది</value>
+    <value>ఆటోమేటిక్‌గా మోగించు</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>గంట మోగించడానికి క్లిక్ చేయండి.</value>
+    <value>గంట మోగించు</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>వ్యవధి (నిమిషాలు)</value>
+    <value>వ్యవధి (నిమి.)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>మూలకాలు</value>
+    <value>అంశాలు</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>డయల్ చేయండి</value>
+    <value>డయల్</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>డయల్ మరియు డిజిటల్</value>
+    <value>డయల్, డిజిటల్</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,15 +646,15 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>మానిటర్ కమాండ్-లైన్ సెట్టింగ్ ద్వారా నియంత్రించబడుతుందని గమనించండి.</value>
+    <value>ఈ మానిటర్ కమాండ్-లైన్ సెట్టింగ్ ద్వారా నియంత్రించబడుతోందని గమనించండి</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>టైమర్ నేపథ్య ప్రవణత</value>
+    <value>టైమర్ నేపథ్య గ్రేడియంట్</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>గడియారం నేపథ్య ప్రవణత</value>
+    <value>గడియారం నేపథ్య గ్రేడియంట్</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -662,7 +662,7 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>ఫ్లాట్ క్లాక్</value>
+    <value>చదునైన గడియారం</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
@@ -670,11 +670,11 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>కిటికీలు</value>
+    <value>విండోలో</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>కిటికీలు</value>
+    <value>విండోలో</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - 5ని పెంచండి</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>పారదర్శక "విండోడ్" కౌంట్‌డౌన్‌ను తెరవలేరు</value>
+    <value>పారదర్శక కౌంట్‌డౌన్‌ను "విండోలో" తెరవలేం</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,11 +698,11 @@ Shift - 5ని పెంచండి</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>కనిష్టీకరించడం మీద కుదించడం</value>
+    <value>కనిష్టీకరించినప్పుడు కుదించు</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>ప్రాథమిక</value>
+    <value>ప్రధాన</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
@@ -710,7 +710,7 @@ Shift - 5ని పెంచండి</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>మీరు టైమర్ స్టార్ట్ చేసి ఉండాలా?</value>
+    <value>మీరు టైమర్‌ను ప్రారంభించాల్సిందా?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>మీటింగ్ {0} నిమిషాలు ఓవర్ టైం నడుస్తోంది.</value>
+    <value>మీటింగ్ {0} నిమిషాలు ఎక్కువ సమయం జరుగుతోంది</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>మీటింగ్ {0} నిమిషాల అండర్ టైంలో నడుస్తోంది.</value>
+    <value>మీటింగ్ {0} నిమిషాలు తక్కువ సమయంలో జరుగుతోంది</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>ఓవర్‌రన్/అండర్‌రన్ నోటిఫికేషన్‌లు</value>
+    <value>సమయం మించడం/తగ్గడం గురించి నోటిఫికేషన్‌లు</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,11 +734,11 @@ Shift - 5ని పెంచండి</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>ముగింపు / ముగింపు</value>
+    <value>మూసివేయి</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>సేవ్ చేయండి</value>
+    <value>సేవ్ చేయి</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -746,11 +746,11 @@ Shift - 5ని పెంచండి</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>కాన్ఫిగర్ చేయండి</value>
+    <value>కాన్ఫిగర్ చేయి</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>యాక్సెస్‌ను అభ్యర్థించండి</value>
+    <value>యాక్సెస్ కోరు</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,15 +758,15 @@ Shift - 5ని పెంచండి</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>మీటింగ్ ప్రారంభమయ్యే సమయం</value>
+    <value>మీటింగ్ ప్రారంభానికి ఇంకా</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>వెబ్ గడియారాన్ని వీక్షించడానికి మొబైల్ పరికరంతో స్కాన్ చేయండి</value>
+    <value>వెబ్ గడియారాన్ని చూడడానికి మొబైల్ పరికరంతో స్కాన్ చేయండి</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>వేదిక:</value>
+    <value>ప్లాట్‌ఫామ్:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - 5ని పెంచండి</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>సమయాన్ని పెంచండి (+1 నిమి). మరిన్ని ఎంపికల కోసం కుడి-క్లిక్ చేయండి.</value>
+    <value>సమయం పెంచు (+1 నిమి.). మరిన్ని ఎంపికల కోసం కుడి-క్లిక్ చేయండి.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>సమయాన్ని తగ్గించండి (-1 నిమి). మరిన్ని ఎంపికల కోసం కుడి-క్లిక్ చేయండి.</value>
+    <value>సమయం తగ్గించు (-1 నిమి.). మరిన్ని ఎంపికల కోసం కుడి-క్లిక్ చేయండి.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>సమయ నివేదికను రూపొందించండి (PDF)</value>
+    <value>సమయ నివేదిక తయారుచేయి (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>కౌంట్‌డౌన్ టైమర్‌ను చూపించు</value>
+    <value>కౌంట్‌డౌన్ టైమర్ చూపించు</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -798,7 +798,7 @@ Shift - 5ని పెంచండి</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>సెట్టింగులు</value>
+    <value>సెట్టింగ్‌లు</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - 5ని పెంచండి</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>కాంపాక్ట్ మోడ్‌కు కుదించండి</value>
+    <value>చిన్న మోడ్‌కు కుదించు</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,15 +838,15 @@ Shift - 5ని పెంచండి</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>ఓవర్ టైం సమయంలో ఫ్లాష్ టైమర్</value>
+    <value>సమయం మించినప్పుడు టైమర్ మెరిసేలా చేయి</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>ఓవర్ టైం ఉన్నప్పుడు బెల్ మోగించండి</value>
+    <value>సమయం మించినప్పుడు గంట మోగించు</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>సిద్ధంగా ఉంది</value>
+    <value>సిద్ధం</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
@@ -854,11 +854,11 @@ Shift - 5ని పెంచండి</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>పాజ్ చేయబడింది</value>
+    <value>తాత్కాలికంగా ఆపబడింది</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>ఓవర్ టైం</value>
+    <value>సమయం మించింది</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,19 +866,19 @@ Shift - 5ని పెంచండి</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>యాక్సెస్ కోడ్‌ను నమోదు చేయండి...</value>
+    <value>యాక్సెస్ కోడ్ నమోదు చేయండి...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>నిమి</value>
+    <value>నిమి.</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>కాన్ఫిగర్ చేయబడింది</value>
+    <value>కాన్ఫిగర్ అయింది</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>కాన్ఫిగర్ చేయబడలేదు</value>
+    <value>కాన్ఫిగర్ కాలేదు</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5ని పెంచండి</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>మన క్రైస్తవ జీవితం</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>మీటింగ్ భాగాల పూర్తి పేర్లు</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>సమయం కనిపించే వ్యవధిలో కౌంట్‌డౌన్ బార్ చూపించు</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>సమయం కనిపించే వ్యవధి (సెకన్లు)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>క్లాసిక్ ఇంటర్‌ఫేస్ (అసలు OnlyT లేఅవుట్‌లా)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Windows కోసం మాత్రమే ఉన్న అసలు OnlyT లాంటి లేఅవుట్‌ను ఉపయోగించు. Avalonia వెర్షన్‌లో మాత్రమే ఉన్న ఫీచర్‌లు దాచబడతాయి.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>తర్వాతి ప్రసంగానికి వెళ్లు</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>నిమి.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>సేవ్ చేయి</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ప్రస్తుత షెడ్యూల్‌ను మళ్లీ ఉపయోగించగల టెంప్లేట్‌గా సేవ్ చేయి</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>షెడ్యూల్ ఫైల్</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>షెడ్యూల్ ఎగుమతి బటన్‌ను చూపించు</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>అనలాగ్ గడియారం పరిమాణాన్ని నియంత్రిస్తుంది. అనలాగ్ గడియారం ఉన్న అడ్డం లేఅవుట్‌లో మాత్రమే వర్తిస్తుంది.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>పక్కపక్కన గడియారం లేఅవుట్ (ఎడమవైపు గడియారం, కుడివైపు టైమర్)</value>
   </data>
 
 </root>

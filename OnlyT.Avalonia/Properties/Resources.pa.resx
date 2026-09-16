@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ਘੰਟੀ ਸਰਗਰਮ ਹੈ</value>
+    <value>ਘੰਟੀ ਚਾਲੂ ਹੈ</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>ਇੱਕ ਹੀ ਰਸਤਾ</value>
+    <value>ਇਕ-ਪਾਸੜ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,7 +134,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>ਸਾਫਟਵੇਅਰ ਵਰਜਨ {0}</value>
+    <value>ਸਾਫ਼ਟਵੇਅਰ ਵਰਜ਼ਨ {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -142,31 +142,31 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-ਘੰਟੇ (ਮੋਹਰੀ ਜ਼ੀਰੋ)</value>
+    <value>12-ਘੰਟੇ (ਅੱਗੇ ਜ਼ੀਰੋ)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 ਘੰਟੇ</value>
+    <value>24-ਘੰਟੇ</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-ਘੰਟੇ (ਮੋਹਰੀ ਜ਼ੀਰੋ)</value>
+    <value>24-ਘੰਟੇ (ਅੱਗੇ ਜ਼ੀਰੋ)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>ਫੋਲਡਰ {0} ਨਹੀਂ ਬਣਾਇਆ ਜਾ ਸਕਿਆ।</value>
+    <value>ਫੋਲਡਰ {0} ਨਹੀਂ ਬਣਾਇਆ ਜਾ ਸਕਿਆ</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>ਅਨੁਕੂਲਿਤ ਮਿਆਦ</value>
+    <value>ਆਪਣੇ ਆਪ ਬਦਲਿਆ ਸਮਾਂ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>ਸੋਧੀ ਗਈ ਮਿਆਦ</value>
+    <value>ਬਦਲਿਆ ਸਮਾਂ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>ਮੂਲ ਮਿਆਦ</value>
+    <value>ਅਸਲ ਸਮਾਂ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -180,25 +180,25 @@
     <value>ਡਿਜੀਟਲ</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ਘੰਟੀ ਨਿਸ਼ਕਿਰਿਆ ਹੈ</value>
+    <value>ਘੰਟੀ ਬੰਦ ਹੈ</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>ਹਫ਼ਤੇ ਦੇ ਵਿਚਕਾਰ</value>
+    <value>ਹਫ਼ਤੇ ਦੌਰਾਨ</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>ਮੰਤਰਾਲਾ - ਆਈਟਮ 1</value>
+    <value>ਪ੍ਰਚਾਰ - ਭਾਗ 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>ਮੰਤਰਾਲਾ - ਆਈਟਮ 2</value>
+    <value>ਪ੍ਰਚਾਰ - ਭਾਗ 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>ਮੰਤਰਾਲਾ - ਆਈਟਮ 3</value>
+    <value>ਪ੍ਰਚਾਰ - ਭਾਗ 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>ਆਟੋਮੈਟਿਕ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>ਫਾਈਲ-ਅਧਾਰਿਤ</value>
+    <value>ਫ਼ਾਈਲ ਅਨੁਸਾਰ</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>ਮੈਨੁਅਲ</value>
@@ -216,10 +216,10 @@
     <value>ਹੀਰੇ-ਮੋਤੀ</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>ਜੀਣਾ - ਭਾਗ 1</value>
+    <value>ਮਸੀਹੀ ਜ਼ਿੰਦਗੀ - ਭਾਗ 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>ਜੀਵਣ - ਭਾਗ 2</value>
+    <value>ਮਸੀਹੀ ਜ਼ਿੰਦਗੀ - ਭਾਗ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>ਸਭਾ ਦੀ ਝਲਕ</value>
@@ -228,97 +228,97 @@
     <value>ਇਸ ਮਹੀਨੇ ਦੀਆਂ ਪੇਸ਼ਕਾਰੀਆਂ</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>ਜਨਤਕ ਗੱਲਬਾਤ</value>
+    <value>ਪਬਲਿਕ ਭਾਸ਼ਣ</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>ਬਾਈਬਲ ਪੜ੍ਹਾਈ</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>ਸੇਵਾ ਗੱਲਬਾਤ</value>
+    <value>ਸੇਵਾ ਭਾਸ਼ਣ</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>ਖਜ਼ਾਨਿਆਂ ਦੀ ਗੱਲ</value>
+    <value>ਖ਼ਜ਼ਾਨਾ ਭਾਸ਼ਣ</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>ਪਹਿਰਾਬੁਰਜ ਅਧਿਐਨ</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>ਵੀਕਐਂਡ</value>
+    <value>ਹਫ਼ਤੇ ਦੇ ਅਖ਼ੀਰ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-ਘੰਟੇ (ਸਵੇਰੇ/ਸ਼ਾਮ)</value>
+    <value>12-ਘੰਟੇ (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-ਘੰਟੇ (ਪਹਿਲਾਂ ਜ਼ੀਰੋ ਅਤੇ ਸਵੇਰੇ/ਸ਼ਾਮ)</value>
+    <value>12-ਘੰਟੇ (ਅੱਗੇ ਜ਼ੀਰੋ ਅਤੇ am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>ਕੋਈ ਨਹੀਂ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>ਟਾਈਮਰ ਚੱਲਣ ਦੌਰਾਨ ਸੈਟਿੰਗਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ!</value>
+    <value>ਟਾਈਮਰ ਚੱਲਦੇ ਸਮੇਂ ਸੈਟਿੰਗਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>ਸੈਟਿੰਗਾਂ</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>ਖਜ਼ਾਨੇ</value>
+    <value>ਖ਼ਜ਼ਾਨਾ</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ਮੰਤਰਾਲਾ</value>
+    <value>ਪ੍ਰਚਾਰ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>ਜੀਵਤ</value>
+    <value>ਮਸੀਹੀ ਜ਼ਿੰਦਗੀ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>ਵੀਕਐਂਡ</value>
+    <value>ਹਫ਼ਤੇ ਦੇ ਅਖ਼ੀਰ</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>ਪ੍ਰਬੰਧਕ ਦੁਆਰਾ ਸੈਟਿੰਗਾਂ ਅਯੋਗ!</value>
+    <value>ਪ੍ਰਬੰਧਕ ਨੇ ਸੈਟਿੰਗਾਂ ਬੰਦ ਕੀਤੀਆਂ ਹਨ!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ਮੰਤਰਾਲਾ - ਆਈਟਮ 4</value>
+    <value>ਪ੍ਰਚਾਰ - ਭਾਗ 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>ਸਰਕਟ ਦੌਰਾ</value>
+    <value>ਸਰਕਟ ਓਵਰਸੀਅਰ ਦਾ ਦੌਰਾ</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>ਉਲਟੀ ਗਿਣਤੀ ਬੰਦ ਕਰੋ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>ਮਦਦ ਕਰੋ</value>
+    <value>ਮਦਦ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ਸਰਕਟ ਦੌਰਾ]</value>
+    <value>[ਸਰਕਟ ਓਵਰਸੀਅਰ ਦਾ ਦੌਰਾ]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ!</value>
+    <value>ਨਵਾਂ ਵਰਜ਼ਨ ਉਪਲਬਧ ਹੈ!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>ਮੁੱਖ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>ਪਹੁੰਚ ਕੋਡ</value>
+    <value>ਐਕਸੈੱਸ ਕੋਡ</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>ਹਫ਼ਤੇ ਦੇ ਵਿਚਕਾਰ ਅਨੁਕੂਲ ਮੋਡ</value>
+    <value>ਹਫ਼ਤੇ ਦੌਰਾਨ ਸਭਾ ਲਈ ਅਨੁਕੂਲ ਮੋਡ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>ਵੀਕਐਂਡ ਅਡੈਪਟਿਵ ਮੋਡ</value>
+    <value>ਹਫ਼ਤੇ ਦੇ ਅਖ਼ੀਰ ਸਭਾ ਲਈ ਅਨੁਕੂਲ ਮੋਡ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>ਗਿਣਤੀ-ਅੱਪ ਟੌਗਲ ਦੀ ਆਗਿਆ ਦਿਓ</value>
+    <value>ਸਿੱਧੀ ਗਿਣਤੀ 'ਤੇ ਬਦਲਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>ਹਮੇਸ਼ਾ ਸਿਖਰ 'ਤੇ</value>
+    <value>ਹਮੇਸ਼ਾ ਸਭ ਤੋਂ ਉੱਪਰ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -338,54 +338,54 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ ਦੀ ਉਲਟੀ ਗਿਣਤੀ</value>
+    <value>ਸਭਾ ਦੀ ਉਲਟੀ ਗਿਣਤੀ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>ਸਰਕਟ ਵਿਜ਼ਿਟ ਟੌਗਲ</value>
+    <value>ਸਰਕਟ ਓਵਰਸੀਅਰ ਦਾ ਦੌਰਾ ਚਾਲੂ/ਬੰਦ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>ਡਿਜੀਟਲ ਘੜੀ ਫਾਰਮੈਟ</value>
+    <value>ਡਿਜੀਟਲ ਘੜੀ ਦਾ ਫਾਰਮੈਟ</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>ਯੋਗ ਬਣਾਇਆ ਗਿਆ</value>
+    <value>ਚਾਲੂ</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>ਪੂਰੀ-ਸਕ੍ਰੀਨ ਘੜੀ ਮੋਡ</value>
+    <value>ਪੂਰੀ ਸਕ੍ਰੀਨ ਘੜੀ ਮੋਡ</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP ਪਤਾ</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ</value>
+    <value>ਸਭਾ</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ ਸ਼ੁਰੂ ਹੋਣ ਦਾ ਸਮਾਂ (ਪ੍ਰਤੀ ਲਾਈਨ 1)</value>
+    <value>ਸਭਾ ਸ਼ੁਰੂ ਹੋਣ ਦੇ ਸਮੇਂ (ਹਰ ਲਾਈਨ 'ਤੇ 1)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>ਫੁਟਕਲ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>ਨਿਗਰਾਨੀ ਕਰੋ</value>
+    <value>ਮਾਨੀਟਰ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>ਮਾਊਸ ਪੁਆਇੰਟਰ ਦਿਖਾਓ</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ਹਰੇਕ ਸ਼ੁਰੂਆਤੀ ਸਮਾਂ ਇੱਕ ਨਵੀਂ ਲਾਈਨ 'ਤੇ ਪਾਓ।</value>
+    <value>ਹਰ ਸ਼ੁਰੂਆਤੀ ਸਮਾਂ ਨਵੀਂ ਲਾਈਨ 'ਤੇ ਲਿਖੋ।</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
     <value>ਆਪਣੀ ਪਸੰਦ ਦਾ ਕੋਈ ਵੀ ਸਮਾਂ ਫਾਰਮੈਟ ਵਰਤੋ!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ਵਿਕਲਪਿਕ ਤੌਰ 'ਤੇ ਇੱਕ ਦਿਨ ਸ਼ਾਮਲ ਕਰੋ, ਉਦਾਹਰਨ ਲਈ "ਵੀਰਵਾਰ 19:15"</value>
+    <value>ਚਾਹੋ ਤਾਂ ਦਿਨ ਵੀ ਲਿਖੋ, ਜਿਵੇਂ "ਵੀਰ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>ਨੋਟਸ:</value>
+    <value>ਨੋਟ:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
     <value>ਪੋਰਟ ਖੋਲ੍ਹੋ</value>
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>ਵਿਦਿਆਰਥੀ ਸਮਾਂ ਬਿਤਾਓ</value>
+    <value>ਵਿਦਿਆਰਥੀ ਦਾ ਸਮਾਂ ਥੋੜ੍ਹੀ ਦੇਰ ਹੋਰ ਦਿਖਾਓ</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>ਗੱਲਬਾਤ ਦੀ ਮਿਆਦ ਜਾਰੀ ਰੱਖੋ</value>
+    <value>ਭਾਸ਼ਣ ਦਾ ਸਮਾਂ ਦਿਖਾਉਂਦੇ ਰਹੋ</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,7 +408,7 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ਰਿਮੋਟ ਪਹੁੰਚ</value>
+    <value>ਰਿਮੋਟ ਐਕਸੈੱਸ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -423,11 +423,11 @@
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>ਥ੍ਰੋਟਲਡ</value>
+    <value>ਸੀਮਿਤ</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>ਟਾਈਮਰ ਗਿਣਿਆ ਜਾਂਦਾ ਹੈ</value>
+    <value>ਟਾਈਮਰ ਸਿੱਧੀ ਗਿਣਤੀ ਕਰੇ</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,29 +435,29 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>ਟਾਈਮਰ ਦੇ ਅਧੀਨ ਦਿਨ ਦਾ ਸਮਾਂ</value>
+    <value>ਟਾਈਮਰ ਹੇਠਾਂ ਦਿਨ ਦਾ ਸਮਾਂ</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>ਖੰਡ:</value>
+    <value>ਆਵਾਜ਼:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ਭਾਸ਼ਾ</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>ਕਿਰਪਾ ਕਰਕੇ ਭਾਸ਼ਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ OnlyT ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।</value>
+    <value>ਭਾਸ਼ਾ ਬਦਲਣ ਤੋਂ ਬਾਅਦ ਕਿਰਪਾ ਕਰਕੇ OnlyT ਨੂੰ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰੋ।</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 ਮੀਟਰ ਘਟਾਓ
+    <value>1 ਮਿੰਟ ਘਟਾਓ
 Ctrl - 15 ਸਕਿੰਟ ਘਟਾਓ
-ਸ਼ਿਫਟ - 5 ਮੀਟਰ ਘਟਾਓ</value>
+Shift - 5 ਮਿੰਟ ਘਟਾਓ</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 ਮੀਟਰ ਵਧਾਓ
+    <value>1 ਮਿੰਟ ਵਧਾਓ
 Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
-ਸ਼ਿਫਟ - 5 ਮੀਟਰ ਵਧਾਓ</value>
+Shift - 5 ਮਿੰਟ ਵਧਾਓ</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>ਉਲਟੀ ਗਿਣਤੀ</value>
+    <value>ਹੁਣ ਉਲਟੀ ਗਿਣਤੀ ਹੋ ਰਹੀ ਹੈ</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>ਗਿਣਤੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ</value>
+    <value>ਹੁਣ ਸਿੱਧੀ ਗਿਣਤੀ ਹੋ ਰਹੀ ਹੈ</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,24 +477,24 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>ਯੋਗ ਬਣਾਇਆ ਗਿਆ</value>
+    <value>ਚਾਲੂ</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>ਯੋਗ ਬਣਾਇਆ ਗਿਆ</value>
+    <value>ਚਾਲੂ</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>ਯੋਗ ਬਣਾਇਆ ਗਿਆ</value>
+    <value>ਚਾਲੂ</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>ਸਕਿੰਟ ਦਿਖਾਓ</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>ਫਰੇਮ ਦਿਖਾਓ</value>
+    <value>ਫ੍ਰੇਮ ਦਿਖਾਓ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>ਘੜੀ ਫ੍ਰੇਮ</value>
+    <value>ਘੜੀ ਦਾ ਫ੍ਰੇਮ</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -518,7 +518,7 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>ਕੇਂਦਰ</value>
+    <value>ਵਿਚਕਾਰ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,11 +526,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>ਸੱਜਾ</value>
+    <value>ਸੱਜੇ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>ਸਿਖਰ</value>
+    <value>ਉੱਪਰ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -546,15 +546,15 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ਬੰਦਰਗਾਹ ਖੁੱਲ੍ਹ ਗਈ ਅਤੇ ਰਿਜ਼ਰਵੇਸ਼ਨ ਕੀਤੀ ਗਈ</value>
+    <value>ਪੋਰਟ ਖੋਲ੍ਹੀ ਗਈ ਅਤੇ ਰਾਖਵੀਂ ਕੀਤੀ ਗਈ</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ਪੋਰਟ ਨਹੀਂ ਖੋਲ੍ਹ ਸਕਿਆ (ਲੌਗ ਵੇਖੋ)!</value>
+    <value>ਪੋਰਟ ਨਹੀਂ ਖੋਲ੍ਹੀ ਜਾ ਸਕੀ (ਲੌਗ ਦੇਖੋ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>ਤਿਆਰ ਕੀਤੀ ਸਮਾਂ ਰਿਪੋਰਟ</value>
+    <value>ਸਮੇਂ ਦੀ ਰਿਪੋਰਟ ਤਿਆਰ ਹੋ ਗਈ</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -562,15 +562,15 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>ਸਮਾਪਤੀ ਖੰਡ</value>
+    <value>ਸਮਾਪਤੀ ਹਿੱਸਾ</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ਅੰਤਰਿਮ ਖੰਡ</value>
+    <value>ਵਿਚਕਾਰਲਾ ਹਿੱਸਾ</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>ਸ਼ੁਰੂਆਤੀ ਖੰਡ</value>
+    <value>ਸ਼ੁਰੂਆਤੀ ਹਿੱਸਾ</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -582,11 +582,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>ਗਲਤੀ</value>
+    <value>ਗ਼ਲਤੀ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ਘਾਤਕ</value>
+    <value>ਗੰਭੀਰ ਗ਼ਲਤੀ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>ਵਰਬੋਸ</value>
+    <value>ਪੂਰਾ ਵੇਰਵਾ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,7 +602,7 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ ਟਾਈਮਰ ਡੇਟਾ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨਾ</value>
+    <value>ਸਭਾ ਦੇ ਟਾਈਮਰ ਡੇਟਾ ਦੀ ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਧੁਨੀ</value>
+    <value>ਆਪਣੇ ਆਪ ਵਜਾਓ</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>ਘੰਟੀ ਵਜਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ</value>
+    <value>ਘੰਟੀ ਵਜਾਓ</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -626,11 +626,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>ਤੱਤ</value>
+    <value>ਹਿੱਸੇ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ਡਾਇਲ ਕਰੋ</value>
+    <value>ਡਾਇਲ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
@@ -642,19 +642,19 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>ਪਾਰਦਰਸ਼ੀ ਪਿਛੋਕੜ</value>
+    <value>ਪਾਰਦਰਸ਼ੀ ਬੈਕਗ੍ਰਾਊਂਡ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>ਧਿਆਨ ਦਿਓ ਕਿ ਮਾਨੀਟਰ ਇੱਕ ਕਮਾਂਡ-ਲਾਈਨ ਸੈਟਿੰਗ ਦੁਆਰਾ ਨਿਯੰਤਰਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।</value>
+    <value>ਧਿਆਨ ਦਿਓ ਕਿ ਮਾਨੀਟਰ ਕਮਾਂਡ-ਲਾਈਨ ਸੈਟਿੰਗ ਰਾਹੀਂ ਕੰਟਰੋਲ ਹੁੰਦਾ ਹੈ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ਟਾਈਮਰ ਬੈਕਗ੍ਰਾਊਂਡ ਗਰੇਡੀਐਂਟ</value>
+    <value>ਟਾਈਮਰ ਬੈਕਗ੍ਰਾਊਂਡ ਗ੍ਰੇਡੀਐਂਟ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ਘੜੀ ਦੀ ਪਿੱਠਭੂਮੀ ਗਰੇਡੀਐਂਟ</value>
+    <value>ਘੜੀ ਬੈਕਗ੍ਰਾਊਂਡ ਗ੍ਰੇਡੀਐਂਟ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -662,27 +662,27 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>ਫਲੈਟ ਘੜੀ</value>
+    <value>ਸਪਾਟ ਘੜੀ</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>ਵੀਕਐਂਡ ਵਿੱਚ ਸ਼ੁੱਕਰਵਾਰ ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ</value>
+    <value>ਹਫ਼ਤੇ ਦੇ ਅਖ਼ੀਰ ਵਿਚ ਸ਼ੁੱਕਰਵਾਰ ਸ਼ਾਮਲ ਹੈ</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>ਖਿੜਕੀਆਂ ਵਾਲਾ</value>
+    <value>ਵਿੰਡੋ ਵਿਚ</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>ਖਿੜਕੀਆਂ ਵਾਲਾ</value>
+    <value>ਵਿੰਡੋ ਵਿਚ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>ਕਾਊਂਟਡਾਊਨ ਵਿੰਡੋ ਬੰਦ ਕਰੋ</value>
+    <value>ਉਲਟੀ ਗਿਣਤੀ ਵਾਲੀ ਵਿੰਡੋ ਬੰਦ ਕਰੋ</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ਪਾਰਦਰਸ਼ੀ "ਵਿੰਡੋ ਵਾਲਾ" ਕਾਊਂਟਡਾਊਨ ਨਹੀਂ ਖੋਲ੍ਹਿਆ ਜਾ ਸਕਦਾ</value>
+    <value>ਪਾਰਦਰਸ਼ੀ ਉਲਟੀ ਗਿਣਤੀ "ਵਿੰਡੋ ਵਿਚ" ਨਹੀਂ ਖੋਲ੍ਹੀ ਜਾ ਸਕਦੀ</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,23 +694,23 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>ਔਫਲਾਈਨ...</value>
+    <value>ਆਫ਼ਲਾਈਨ...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>ਮਿਨੀਮਾਈਜ਼ ਕਰਨ 'ਤੇ ਸੁੰਗੜੋ</value>
+    <value>ਮਿਨੀਮਾਈਜ਼ ਕਰਨ 'ਤੇ ਛੋਟਾ ਕਰੋ</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>ਪ੍ਰਾਇਮਰੀ</value>
+    <value>ਮੁੱਖ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>ਧਿਆਨ ਦਿਓ ਕਿ ਆਉਟਪੁੱਟ ਇੱਕ ਕਮਾਂਡ-ਲਾਈਨ ਸੈਟਿੰਗ ਰਾਹੀਂ NDI ਤੇ ਸੈੱਟ ਕੀਤੀ ਗਈ ਹੈ।</value>
+    <value>ਧਿਆਨ ਦਿਓ ਕਿ ਕਮਾਂਡ-ਲਾਈਨ ਸੈਟਿੰਗ ਰਾਹੀਂ ਆਉਟਪੁੱਟ NDI 'ਤੇ ਸੈੱਟ ਹੈ।</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>ਕੀ ਤੁਹਾਨੂੰ ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰ ਦੇਣਾ ਚਾਹੀਦਾ ਸੀ?</value>
+    <value>ਕੀ ਤੁਹਾਨੂੰ ਟਾਈਮਰ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੀਦਾ ਸੀ?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ {0} ਮਿੰਟ ਓਵਰਟਾਈਮ ਚੱਲ ਰਹੀ ਹੈ।</value>
+    <value>ਸਭਾ {0} ਮਿੰਟ ਜ਼ਿਆਦਾ ਚੱਲ ਰਹੀ ਹੈ</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ ਸਮੇਂ ਤੋਂ {0} ਮਿੰਟ ਘੱਟ ਚੱਲ ਰਹੀ ਹੈ।</value>
+    <value>ਸਭਾ {0} ਮਿੰਟ ਘੱਟ ਚੱਲ ਰਹੀ ਹੈ</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>ਓਵਰਰਨ/ਅੰਡਰਰਨ ਸੂਚਨਾਵਾਂ</value>
+    <value>ਸਮੇਂ ਤੋਂ ਵੱਧ/ਘੱਟ ਦੀਆਂ ਸੂਚਨਾਵਾਂ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -746,27 +746,27 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>ਸੰਰਚਨਾ ਕਰੋ</value>
+    <value>ਸੈੱਟ ਕਰੋ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>ਪਹੁੰਚ ਦੀ ਬੇਨਤੀ ਕਰੋ</value>
+    <value>ਇਜਾਜ਼ਤ ਮੰਗੋ</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>ਖਾਰਜ ਕਰੋ</value>
+    <value>ਹਟਾਓ</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>ਮੀਟਿੰਗ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ</value>
+    <value>ਸਭਾ ਸ਼ੁਰੂ ਹੋਣ ਵਿਚ ਬਾਕੀ</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>ਵੈੱਬ ਘੜੀ ਦੇਖਣ ਲਈ ਮੋਬਾਈਲ ਡਿਵਾਈਸ ਨਾਲ ਸਕੈਨ ਕਰੋ</value>
+    <value>ਵੈੱਬ ਘੜੀ ਦੇਖਣ ਲਈ ਮੋਬਾਈਲ ਨਾਲ ਸਕੈਨ ਕਰੋ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>ਪਲੇਟਫਾਰਮ:</value>
+    <value>ਪਲੈਟਫਾਰਮ:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
@@ -774,7 +774,7 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>ਪੂਰੀ ਸਕਰੀਨ ਮੋਡ</value>
+    <value>ਪੂਰੀ ਸਕ੍ਰੀਨ ਮੋਡ</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
@@ -786,15 +786,15 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>ਟਾਈਮਿੰਗ ਰਿਪੋਰਟ (PDF) ਤਿਆਰ ਕਰੋ</value>
+    <value>ਸਮੇਂ ਦੀ ਰਿਪੋਰਟ ਤਿਆਰ ਕਰੋ (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>ਕਾਊਂਟਡਾਊਨ ਟਾਈਮਰ ਦਿਖਾਓ</value>
+    <value>ਉਲਟੀ ਗਿਣਤੀ ਵਾਲਾ ਟਾਈਮਰ ਦਿਖਾਓ</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>ਨਵਾਂ ਵਰਜਨ ਉਪਲਬਧ ਹੈ</value>
+    <value>ਨਵਾਂ ਵਰਜ਼ਨ ਉਪਲਬਧ ਹੈ</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>ਮਦਦ ਕਰੋ</value>
+    <value>ਮਦਦ</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>ਸੰਖੇਪ ਮੋਡ ਵਿੱਚ ਸੁੰਗੜੋ</value>
+    <value>ਛੋਟੇ ਮੋਡ ਵਿਚ ਬਦਲੋ</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,15 +834,15 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>ਨੈੱਟਵਰਕ ਅਨੁਮਤੀਆਂ</value>
+    <value>ਨੈੱਟਵਰਕ ਇਜਾਜ਼ਤਾਂ</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>ਓਵਰਟਾਈਮ ਦੌਰਾਨ ਫਲੈਸ਼ ਟਾਈਮਰ</value>
+    <value>ਸਮਾਂ ਵੱਧ ਜਾਣ 'ਤੇ ਟਾਈਮਰ ਫਲੈਸ਼ ਕਰੋ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>ਓਵਰਟਾਈਮ ਹੋਣ 'ਤੇ ਘੰਟੀ ਵਜਾਓ</value>
+    <value>ਸਮਾਂ ਵੱਧ ਜਾਣ 'ਤੇ ਘੰਟੀ ਵਜਾਓ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,23 +850,23 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>ਦੌੜਨਾ</value>
+    <value>ਚੱਲ ਰਿਹਾ ਹੈ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>ਰੁਕਿਆ ਹੋਇਆ</value>
+    <value>ਰੋਕਿਆ ਹੋਇਆ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Afikun asiko</value>
+    <value>ਸਮਾਂ ਵੱਧ ਗਿਆ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>ਰੁਕ ਗਿਆ</value>
+    <value>ਬੰਦ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>ਪਹੁੰਚ ਕੋਡ ਦਰਜ ਕਰੋ...</value>
+    <value>ਐਕਸੈੱਸ ਕੋਡ ਦਰਜ ਕਰੋ...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>ਸੰਰਚਿਤ</value>
+    <value>ਸੈੱਟ ਹੈ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>ਸੰਰਚਿਤ ਨਹੀਂ</value>
+    <value>ਸੈੱਟ ਨਹੀਂ ਹੈ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Ctrl - 15 ਸਕਿੰਟ ਵਧਾਓ
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ਸਾਡੀ ਮਸੀਹੀ ਜ਼ਿੰਦਗੀ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>ਸਭਾ ਦੇ ਭਾਗਾਂ ਦੇ ਪੂਰੇ ਨਾਂ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>ਬਾਕੀ ਸਮੇਂ ਦੀ ਪੱਟੀ ਦਿਖਾਓ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ਸਮਾਂ ਦਿਖਾਉਂਦੇ ਰਹਿਣ ਦੀ ਮਿਆਦ (ਸਕਿੰਟ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ਪੁਰਾਣਾ ਡਿਜ਼ਾਈਨ (ਮੂਲ OnlyT ਵਰਗਾ ਲੇਆਉਟ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>ਸਿਰਫ਼ Windows ਵਾਲੇ ਮੂਲ OnlyT ਵਰਗਾ ਲੇਆਉਟ ਵਰਤੋ। ਸਿਰਫ਼ Avalonia ਵਾਲੀਆਂ ਸਹੂਲਤਾਂ ਲੁਕਾ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ।</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>ਅਗਲੇ ਭਾਸ਼ਣ 'ਤੇ ਜਾਓ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>ਮਿੰਟ</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>ਸੇਵ ਕਰੋ</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ਮੌਜੂਦਾ ਸਮਾਂ-ਸੂਚੀ ਨੂੰ ਦੁਬਾਰਾ ਵਰਤਣ ਲਈ ਟੈਮਪਲੇਟ ਵਜੋਂ ਸੇਵ ਕਰੋ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>ਸਮਾਂ-ਸੂਚੀ ਫ਼ਾਈਲ</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ਸਮਾਂ-ਸੂਚੀ ਸੇਵ ਕਰਨ ਵਾਲਾ ਬਟਨ ਦਿਖਾਓ</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>ਐਨਾਲਾਗ ਘੜੀ ਦਾ ਆਕਾਰ ਕੰਟਰੋਲ ਕਰਦਾ ਹੈ। ਸਿਰਫ਼ ਐਨਾਲਾਗ ਘੜੀ ਵਾਲੇ ਲੇਟਵੇਂ ਲੇਆਉਟ ਵਿਚ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>ਨਾਲ-ਨਾਲ ਘੜੀ ਲੇਆਉਟ (ਖੱਬੇ ਘੜੀ, ਸੱਜੇ ਟਾਈਮਰ)</value>
   </data>
 
 </root>

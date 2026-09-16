@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell na-arụ ọrụ</value>
+    <value>Mgbịrịgba na-arụ ọrụ</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -138,19 +138,19 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-awa</value>
+    <value>Awa 12</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>Oge awa 12 (efu efu)</value>
+    <value>Awa 12 (efu n'ihu)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-awa</value>
+    <value>Awa 24</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>Oge awa 24 (efu efu)</value>
+    <value>Awa 24 (efu n'ihu)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -158,15 +158,15 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Ogologo oge anabatara</value>
+    <value>Oge a hazigharịrị</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Ogologo oge gbanwere</value>
+    <value>Oge a gbanwere</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Ogologo oge izizi</value>
+    <value>Oge e nyere na mbụ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -174,37 +174,37 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue na dijitalụ</value>
+    <value>Analọg na dijitalụ</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Dijitalụ</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell anaghị arụ ọrụ</value>
+    <value>Mgbịrịgba anaghị arụ ọrụ</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>N'etiti izu</value>
+    <value>N'etiti Izu</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ozi - Nkebi 1</value>
+    <value>Izi Ozi Ọma - Nke 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ozi - Nkebi 2</value>
+    <value>Izi Ozi Ọma - Nke 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ozi – Nkebi nke 3</value>
+    <value>Izi Ozi Ọma - Nke 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Akpaaka</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Dabere na faịlụ</value>
+    <value>Site na faịlụ</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Akwụkwọ ntuziaka</value>
+    <value>Iji aka</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Okwu mmechi</value>
+    <value>Okwu E Ji Emechi</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Okwu Mmechi</value>
@@ -216,89 +216,89 @@
     <value>Ihe Anyị Mụtara n’Okwu Chineke</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Ibi ndụ - Akụkụ 1</value>
+    <value>Ndụ Ndị Kraịst - Akụkụ 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Ibi ndụ - Akụkụ 2</value>
+    <value>Ndụ Ndị Kraịst - Akụkụ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Okwu Mmeghe</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Ihe ngosi nke ọnwa a</value>
+    <value>Ihe A Ga-ekwu n'Ozi Ọma n'Ọnwa A</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Okwu Ọha</value>
+    <value>Okwu Ihu Ọha</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Ọgụgụ Baịbụl</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Okwu ọrụ</value>
+    <value>Okwu Gbasara Ozi Ọma</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Okwu Akụ</value>
+    <value>Okwu Akụ̀</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Ọmụmụ Ihe Ụlọ Nche</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Izu ụka</value>
+    <value>Ngwụsị Izu</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>elekere 12 (n'ụtụtụ / ehihie)</value>
+    <value>Awa 12 (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-hour (efu efu &amp; am/pm)</value>
+    <value>Awa 12 (efu n'ihu na am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Ọ dịghị</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Ntọala adịghị mgbe ngụ oge na-agba ọsọ!</value>
+    <value>Ị nweghị ike imeghe ntọala mgbe ngụ oge na-aga!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Ntọala</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Akụ</value>
+    <value>Akụ̀</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ozi</value>
+    <value>Izi Ozi Ọma</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Ibi ndụ</value>
+    <value>Ndụ Ndị Kraịst</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Izu ụka</value>
+    <value>Ngwụsị Izu</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
     <value>Onye nchịkwa gbanyụrụ ntọala!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ozi - Nkebi 4</value>
+    <value>Izi Ozi Ọma - Nke 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Nleta sekit</value>
+    <value>Nleta onye nlekọta sekit</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>mechie COUNTdown</value>
+    <value>MECHIE NGỤDA OGE</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Enyemaka</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[nleta okirikiri]</value>
+    <value>[nleta onye nlekọta sekit]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Ụdị ọhụrụ dị!</value>
+    <value>E nwere ụdị ọhụrụ!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>Isi</value>
+    <value>ISI</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,43 +306,43 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Ụdị ngbanwe nke etiti izu</value>
+    <value>Ọnọdụ mmegharị nzukọ n'etiti izu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Ụdị mgbanwe izu ụka</value>
+    <value>Ọnọdụ mmegharị nzukọ ngwụsị izu</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Kwe ka ngụkọ tụgharịa</value>
+    <value>Kwe ka a gbanwee gaa n'ịgụ oge n'ihu</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Na-elu mgbe niile</value>
+    <value>Nọrọ n'elu mgbe niile</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APPS dịpụrụ adịpụ</value>
+    <value>NGWA SITE N'EBE DỊ ANYA</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>Ụdị akpaaka</value>
+    <value>ỌNỌDỤ AKPAAKA</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Mgbịrịgba</value>
+    <value>MGBỊRỊGBA</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>Elekere weebụ</value>
+    <value>ELEKERE WEEBỤ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>OGWU Nzuko</value>
+    <value>NGỤDA OGE TUPU NZUKỌ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Njegharị nleta sekit</value>
+    <value>Mgbanwe nleta onye nlekọta sekit</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Ụdị elekere dijitalụ</value>
@@ -352,10 +352,10 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Ụdị elekere ihuenyo zuru oke</value>
+    <value>Ọnọdụ elekere ihuenyo zuru ezu</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>adreesị IP</value>
+    <value>Adreesị IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
@@ -363,113 +363,113 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Oge mmalite nzukọ (1 ahịrị ọ bụla)</value>
+    <value>Oge nzukọ na-amalite (otu n'ahịrị ọ bụla)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>IHE dị iche iche</value>
+    <value>IHE NDỊ ỌZỌ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Nyochaa</value>
+    <value>Ihuenyo</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Gosi ntụnye òké</value>
+    <value>Gosi ihe ntụaka òké</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Tinye oge mmalite ọ bụla na ahịrị ọhụrụ.</value>
+    <value>Dee oge mmalite ọ bụla n'ahịrị ọhụrụ.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Jiri usoro oge ọ bụla masịrị gị!</value>
+    <value>Jiri ụdị oge ọ bụla masịrị gị!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Nhọrọ gụnyere otu ụbọchị, dịka ọmụmaatụ. Tụt 19:15</value>
+    <value>Ị nwekwara ike itinye ụbọchị, dịka "Tọọ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>ndetu:</value>
+    <value>Ndetu:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>Oghere Port</value>
+    <value>MEGHEE PỌỌTỤ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Ụdị</value>
+    <value>Ọnọdụ</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Na-anọgide na-agụ akwụkwọ</value>
+    <value>Gosikwuo oge nwa akwụkwọ</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Na-aga n'ihu ogologo oge okwu</value>
+    <value>Oge a ga-egosikwu oge okwu</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Onu mmiri</value>
+    <value>Pọọtụ</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>Nnweta dịpụrụ adịpụ</value>
+    <value>NNWETA SITE N'EBE DỊ ANYA</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Gosi ngalaba na elekere analog</value>
+    <value>Gosi akụkụ oge n'elekere analọg</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Obosara ihuenyo gbawara:</value>
+    <value>Obosara ihuenyo e kewara:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>Nnwale</value>
+    <value>NWALEE</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Akwụsịla</value>
+    <value>E belatara ya</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Ngụ oge na-agụta</value>
+    <value>Ngụ oge na-agụ n'ihu</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>Window oge</value>
+    <value>WINDO NGỤ OGE</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Oge nke ụbọchị n'okpuru ngụ oge</value>
+    <value>Oge ugbu a n'okpuru ngụ oge</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Olu:</value>
+    <value>Ụda:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Asụsụ</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Biko malitegharịa naanịT ka ị gbanwee asụsụ.</value>
+    <value>Biko malitegharịa OnlyT mgbe ị gbanwechara asụsụ.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Belata 1m
-Ctrl - Wedata 15s
-Mgbanwe - Belata 5m</value>
+    <value>Belata 1 nkeji
+Ctrl - Belata 15 sekọnd
+Shift - Belata 5 nkeji</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Na-abawanye 1m
-Ctrl - Mmụba 15s
-Mgbanwe - Mmụba 5m</value>
+    <value>Gbakwunye 1 nkeji
+Ctrl - Gbakwunye 15 sekọnd
+Shift - Gbakwunye 5 nkeji</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Ụkpụrụ ntuziaka</value>
+    <value>Ọnọdụ iji aka</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Na-agụta ala</value>
+    <value>Ọ na-agụda oge ugbu a</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Na-agụta elu</value>
+    <value>Ọ na-agụ oge n'ihu ugbu a</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -490,19 +490,19 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Gosi etiti</value>
+    <value>Gosi okpokoro</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Eku elekere</value>
+    <value>Okpokoro elekere</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Ọkwa mbugharị:</value>
+    <value>Ọkwa mbuwanye:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Ebe</value>
+    <value>Ebe ọ ga-anọ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
@@ -518,7 +518,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Ebe etiti</value>
+    <value>N'etiti</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,7 +526,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Nke imete</value>
+    <value>Aka nri</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -542,19 +542,19 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Ọ DỊ MMA</value>
+    <value>Ọ dị mma</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Ọdụ ụgbọ mmiri meghere ma chekwaa ya</value>
+    <value>E meghere pọọtụ ma debe ya</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Enweghị ike imepe ọdụ ụgbọ mmiri (lee ndekọ)!</value>
+    <value>Enweghị ike imeghe pọọtụ (lee ndekọ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Akuko oge ewepụtara</value>
+    <value>E mepụtala akụkọ oge</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -562,15 +562,15 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Akụkụ mmechi</value>
+    <value>Akụkụ Mmechi</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Akụkụ nwa oge</value>
+    <value>Akụkụ Etiti</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Akụkụ mmalite</value>
+    <value>Akụkụ Mmalite</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -578,7 +578,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Mebie</value>
+    <value>Nchọpụta nsogbu</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Na-egbu egbu</value>
+    <value>Oke njehie</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Okwu ọnụ</value>
+    <value>Nkọwa zuru ezu</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,11 +602,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Na-enyocha data ngụ oge nzukọ</value>
+    <value>Na-enyocha ozi ngụ oge nzukọ</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Nwepụtaghị akụkọ!</value>
+    <value>E MEPỤTAGHỊ akụkọ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Ụda na-akpaghị aka</value>
+    <value>Kpọọ ya akpaaka</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Pịa ka ịkpọ mgbịrịgba</value>
+    <value>Kpọọ mgbịrịgba</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -626,15 +626,15 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Ihe</value>
+    <value>Ihe a ga-egosi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Ịkpọ oku</value>
+    <value>Ihu elekere</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Ịkpọ oku na dijitalụ</value>
+    <value>Ihu elekere na dijitalụ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,23 +642,23 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Nzụlite nghọta</value>
+    <value>Ndabere a na-ahụ ìhè ya</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Rịba ama na usoro ahịrị na-achịkwa ihe nleba anya</value>
+    <value>Rịba ama na ntọala ahịrị iwu na-achịkwa ihuenyo a</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Ngụ oge ndabere gradient</value>
+    <value>Ngwakọta agba ndabere ngụ oge</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>gradient ndabere elekere</value>
+    <value>Ngwakọta agba ndabere elekere</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Igwe ngụ oge</value>
+    <value>Okpokoro ngụ oge</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Mgbanwe - Mmụba 5m</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Ụbọchị izu ụka gụnyere Fraịde</value>
+    <value>Ngwụsị izu gụnyere Fraịde</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Ohere mepere</value>
+    <value>N'ime windo</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Ohere mepere</value>
+    <value>N'ime windo</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Mechie windo Ngụkọta</value>
+    <value>Mechie windo ngụda oge</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Enweghị ike imepe ngụkọ "windowed" doro anya</value>
+    <value>Enweghị ike imeghe ngụda oge a na-ahụ ìhè ya "n'ime windo"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,47 +690,47 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Ndị na-agụ oge</value>
+    <value>Ngụ oge</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>na-anọghị n'ịntanetị...</value>
+    <value>anọghị n'ịntanetị...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Kwuo ntakịrị</value>
+    <value>Mee ka ọ dị obere mgbe e wedara ya</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>nke mbụ</value>
+    <value>isi</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Rịba ama na atọrọ mmepụta na NDI site na nhazi ahịrị iwu.</value>
+    <value>Rịba ama na ntọala ahịrị iwu mere ka ihe a na-egosi gaa na NDI.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Kwesịrị ịmalite ngụ oge?</value>
+    <value>Ị kwesịrị ịmalitelarị ngụ oge?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ihe ncheta mmapụta</value>
+    <value>Ihe ncheta na-apụta</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Nzukọ a na-agba {0} nkeji oge ngafe</value>
+    <value>Nzukọ a agafeela oge ya ji nkeji {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Nzukọ a na-aga {0} nkeji obere oge</value>
+    <value>Nzukọ a dị nkeji {0} n'ihu oge ya</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Ịmafefefefe/mechie ya</value>
+    <value>Ọkwa oge gafere/oge fọdụrụ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Ọnọdụ gbara ọchịchịrị</value>
+    <value>Ọnọdụ ọchịchịrị</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -738,11 +738,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Chekwa</value>
+    <value>Chekwaa</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Weghachite ume</value>
+    <value>Mee ọhụrụ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -758,15 +758,15 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Nzukọ na-amalite na</value>
+    <value>Nzukọ ga-amalite n'ime</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Jiri ngwaọrụ mkpanaka lelee elekere weebụ</value>
+    <value>Jiri ekwentị mkpanaaka nyochaa ya ka i lee elekere weebụ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>Sistemụ:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
@@ -774,15 +774,15 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Ụdị ihuenyo zuru oke</value>
+    <value>Ọnọdụ ihuenyo zuru ezu</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Oge abawanye (+1 min). Pịa aka nri maka nhọrọ ndị ọzọ.</value>
+    <value>Gbakwunye oge (+1 nkeji). Pịa aka nri maka nhọrọ ndị ọzọ.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Mbelata oge (-1 nkeji). Pịa aka nri maka nhọrọ ndị ọzọ.</value>
+    <value>Belata oge (-1 nkeji). Pịa aka nri maka nhọrọ ndị ọzọ.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,11 +790,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Gosi ngụ oge</value>
+    <value>Gosi ngụda oge</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Ụdị ọhụrụ dị</value>
+    <value>E nwere ụdị ọhụrụ</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Dalata na ọnọdụ kọmpat</value>
+    <value>Mee ka ọ dị obere</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,11 +834,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>Ikike netwọk</value>
+    <value>IKIKE NETWỌK</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Oge Flash n'oge oge gafere</value>
+    <value>Mee ka ngụ oge na-enwu mgbe oge gafere</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
@@ -850,19 +850,19 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Na-agba ọsọ</value>
+    <value>Na-aga</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Akwụsịla</value>
+    <value>Kwụsịtụrụ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Oge n'aga</value>
+    <value>Oge agafeela</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Akwụsịla</value>
+    <value>Kwụsịrị</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -870,11 +870,11 @@ Mgbanwe - Mmụba 5m</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>nkeji</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Haziri</value>
+    <value>Ahaziela</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Mgbanwe - Mmụba 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>OTÚ NDỊ KRAỊST SI EBI NDỤ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Aha zuru ezu nke akụkụ nzukọ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Gosi ogwe na-egosi oge fọdụrụ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Oge a ga-egosikwu ya (sekọnd)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Ọdịdị ochie (dị ka nhazi OnlyT mbụ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Jiri nhazi yiri OnlyT mbụ nke dịịrị naanị Windows. A ga-ezo ihe ndị dị naanị na Avalonia.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Gaa n'okwu na-esote</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Nkeji</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Chekwaa</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Chekwaa usoro ihe omume a ka ọ bụrụ ndebiri i nwere ike iji ọzọ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Faịlụ usoro ihe omume</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Gosi bọtịnụ mbupụ usoro ihe omume</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Na-achịkwa ịdị ukwuu nke elekere analọg. Ọ na-arụ ọrụ naanị na nhazi n'akụkụ n'akụkụ nwere elekere analọg.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Nhazi n'akụkụ n'akụkụ (elekere n'aka ekpe, ngụ oge n'aka nri)</value>
   </data>
 
 </root>

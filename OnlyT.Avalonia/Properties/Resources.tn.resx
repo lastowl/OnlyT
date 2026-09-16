@@ -118,47 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Tšhupanaga e a dira</value>
+    <value>Tshipi e a dira</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Epe</value>
+    <value>Ga go sepe</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Tsela e le nngwe</value>
+    <value>Ka tsela e le nngwe</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Ditsela tse pedi</value>
+    <value>Ka ditsela tse pedi</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Mofuta wa serweboleta {0}</value>
+    <value>Mofuta wa porokeramo {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>diura di le 12</value>
+    <value>Diura tse 12</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>Diura di le 12 (tse di eteletseng pele)</value>
+    <value>Diura tse 12 (ka lefela kwa pele)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>diura di le 24</value>
+    <value>Diura tse 24</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>Diura di le 24 (tse di eteletseng pele)</value>
+    <value>Diura tse 24 (ka lefela kwa pele)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Ga e kake ya tlhama foltara {0}</value>
+    <value>Ga go a kgonega go tlhama foltara {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Nako e e fetotsweng</value>
+    <value>Nako e e fetotsweng ka boitiriso</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
@@ -170,20 +170,20 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogue</value>
+    <value>Analoko</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue le Dijithale</value>
+    <value>Analoko le dijithale</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Dijithale</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Tšhupanaga ga e dire</value>
+    <value>Tshipi ga e dire</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Bogare jwa beke</value>
+    <value>Gare ga beke</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
     <value>Bodiredi - Ntlha 1</value>
@@ -195,16 +195,16 @@
     <value>Bodiredi - Ntlha 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>Itiriso</value>
+    <value>Ka boitiriso</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>e e theilweng mo faeleng</value>
+    <value>Go ya ka faele</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Ya diatla</value>
+    <value>Ka seatla</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Go konela Puo</value>
+    <value>Puo e e Konelang</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Dintlha Tse di Konelang</value>
@@ -216,19 +216,19 @@
     <value>Go Ribolola Matlotlo mo Dikwalong</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Go tshela - Karolo 1</value>
+    <value>Botshelo - Karolo 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Go Tshela - Karolo 2</value>
+    <value>Botshelo - Karolo 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Matseno</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Ditlhagiso tsa Kgwedi eno</value>
+    <value>Ditlhagiso tsa Kgwedi Eno</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Puo ya Botlhe</value>
+    <value>Puo ya Phatlalatsa</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Mmalo wa Baebele</value>
@@ -237,30 +237,30 @@
     <value>Puo ya Tirelo</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Matlotlo Puo</value>
+    <value>Puo ya Matlotlo</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Thuto ya Tora ya Tebelo</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Mafelo a beke</value>
+    <value>Bokhutlo jwa beke</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>diura di le 12 (am/pm)</value>
+    <value>Diura tse 12 (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>Diura di le 12 (tse di eteletseng pele le lefela &amp; am/pm)</value>
+    <value>Diura tse 12 (lefela kwa pele le am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Epe</value>
+    <value>Ga go sepe</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Dipeakanyo tse di seng teng fa sebalanako se ntse se dira!</value>
+    <value>Dipeakanyo ga di bulege fa sebalanako se ntse se dira!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Ditseto</value>
+    <value>Dipeakanyo</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
     <value>Matlotlo</value>
@@ -269,90 +269,90 @@
     <value>Bodiredi</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Tshelang</value>
+    <value>Botshelo</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Mafelo a beke</value>
+    <value>Bokhutlo jwa beke</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Dipeakanyo tse di golafetseng ke motsamaisi!</value>
+    <value>Dipeakanyo di thibetswe ke motsamaisi!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
     <value>Bodiredi - Ntlha 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Ketelo ya potologo</value>
+    <value>Ketelo ya molebedi wa potologo</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>TSHWANELA GO TSHWARA</value>
+    <value>TSWALA PALO YA NAKO E E SETSENG</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Thuso</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ketelo ya potologo]</value>
+    <value>[ketelo ya molebedi wa potologo]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Mofuta o mosha o teng!</value>
+    <value>Go na le mofuta o mošwa!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>KONOKONO</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Khoutu ya phitlhelelo</value>
+    <value>Khoutu ya go tsena</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Mokgwa wa go tlwaela wa magareng ga beke</value>
+    <value>Mokgwa wa go tshwanelanya nako (gare ga beke)</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Mokgwa wa go tlwaela maemo a beke</value>
+    <value>Mokgwa wa go tshwanelanya nako (bokhutlo jwa beke)</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Letla go fetoga</value>
+    <value>Letla go fetola go bala go ya kwa godimo</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Ka metlha mo godimo</value>
+    <value>Ka metlha e le kwa godimo</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APPS REMOTE</value>
+    <value>DIPOROKERAMO TSA KGAKALA</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>MODE WA YONE</value>
+    <value>MOKGWA WA BOITIRISO</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BELL</value>
+    <value>TSHIPI</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB CLOCK</value>
+    <value>TSHUPANAKO YA INTHANETE</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>LAMOTLAMORAGO WA TLHOKOMEDISO</value>
+    <value>PALO YA NAKO PELE GA KOPANO</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Leeto la potologo le le leng teng</value>
+    <value>Tshuba/tima ketelo ya molebedi wa potologo</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Fomete ya tshupanako ya dijithale</value>
+    <value>Sebopego sa tshupanako ya dijithale</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Kgontshitswe</value>
+    <value>E kgontshitswe</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Mokgwa wa tshupanako ya sekerini se se tletseng</value>
+    <value>Mokgwa wa tshupanako mo sekirining sotlhe</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>Aterese ya IP</value>
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Dinako tsa go simolola tsa kopano (1 ka mola)</value>
+    <value>Dinako tsa go simolola kopano (1 ka mola)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>TSELE LE TSELE</value>
+    <value>TSE DINGWE</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Lebela</value>
+    <value>Sekirini</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Bontsha tshupo ya peba</value>
+    <value>Bontsha sesupi sa peba</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Beha nako e nngwe le e nngwe ya ho qala moleng o motjha.</value>
+    <value>Kwala nako nngwe le nngwe ya go simolola mo moleng o mošwa.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Dirisa fomete epe ya nako e o e ratang!</value>
+    <value>Dirisa sebopego sefe le sefe sa nako se o se ratang!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Ga go na ope gore o akaretse letsatsi, sk. "Thu 19:15"</value>
+    <value>O ka tsenya le letsatsi fa o batla, sk. "Labn 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Dintlha:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PORT E E TLHOKANG</value>
+    <value>BULA POROTO</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,57 +396,57 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Nna le nako ya moithuti</value>
+    <value>Tswelela go bontsha nako ya moithuti</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Nako ya go bua ka nako e e sa siamang</value>
+    <value>Tswelela go bontsha nako ya puo</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Boemakepe</value>
+    <value>Poroto</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>REMOTE ACES</value>
+    <value>GO TSENA GO TSWA KGAKALA</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Bontsha lekala ka tshupanako ya analogue</value>
+    <value>Bontsha karolo mo tshupanakong ya analoko</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Bophara jwa sekerini se se kgaoganeng:</value>
+    <value>Bophara jwa sekirini se se kgaogantsweng:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEKO</value>
+    <value>TEKA</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Throttleed</value>
+    <value>Lebelo le fokoditswe</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Nako ya Tirter e a bala</value>
+    <value>Sebalanako se bala go ya kwa godimo</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER WINDOW</value>
+    <value>LEFENSETERE LA SEBALANAKO</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Nako ya motshegare ka fa tlase ga nako</value>
+    <value>Nako ya jaanong ka fa tlase ga sebalanako</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Volumu:</value>
+    <value>Modumo:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Puo</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Tsweetswee simolola gape OnlyT morago ga go fetola puo.</value>
+    <value>Tsweetswee simolola OnlyT sešwa morago ga go fetola puo.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
     <value>Fokotsa 1m
@@ -461,44 +461,44 @@ Shift - Oketsa 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Mokgwa wa diatla</value>
+    <value>Mokgwa wa ka seatla</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>Jaanong e bala go ya kwa tlase</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>Jaanong e bala go ya kwa godimo</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} metsotswana</value>
+    <value>metsotswana e le {0}</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Kgontshitswe</value>
+    <value>E kgontshitswe</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Kgontshitswe</value>
+    <value>E kgontshitswe</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Kgontshitswe</value>
+    <value>E kgontshitswe</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>Bontsha metsotswana</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Bontsha foreimi</value>
+    <value>Bontsha foreime</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Foreimi ya tshupanako</value>
+    <value>Foreime ya tshupanako</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Selekanyo sa Zoom:</value>
+    <value>Selekanyo sa go godisa:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -506,11 +506,11 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Tlase</value>
+    <value>Kwa tlase</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Botlhokwa jo bo setseng</value>
+    <value>Kwa tlase ka fa molemeng</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
@@ -518,19 +518,19 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Bogare</value>
+    <value>Fa gare</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Tsamaile</value>
+    <value>Ka fa molemeng</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Nepile</value>
+    <value>Ka fa mojeng</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Godimo</value>
+    <value>Kwa godimo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -538,35 +538,35 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Kwa godimo</value>
+    <value>Kwa godimo ka fa mojeng</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>GO SIAME</value>
+    <value>Go siame</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Boemakepe bo ne jwa bulwa le go dira dipeeletso</value>
+    <value>Poroto e butswe mme peeletso e dirilwe</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Ga a kgone go bula boemakepe (bona log)!</value>
+    <value>Ga go a kgonega go bula poroto (bona rekoto)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Pegelo ya nako e e tlhagisitsweng</value>
+    <value>Pegelo ya dinako e dirilwe</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Tlhaga dipegelo</value>
+    <value>Dira dipegelo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Karolo ya go konela</value>
+    <value>Karolo e e Konelang</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Karolo ya Nakwana</value>
+    <value>Karolo ya fa Gare</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
@@ -574,11 +574,11 @@ Shift - Oketsa 5m</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Maemo a go rema ditlhare</value>
+    <value>Selekanyo sa go kwala rekoto</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Tlhatlhobo</value>
+    <value>Tlhotlhomiso ya diphoso</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>E e Bolaileng</value>
+    <value>Phoso e e masisi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Ka Botlalo</value>
+    <value>Ka botlalo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -606,35 +606,35 @@ Shift - Oketsa 5m</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Pegelo GA E a tlhagisiwa!</value>
+    <value>Pegelo GA E A dirwa!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>TEBO</value>
+    <value>BONA</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Modumo ka itiriso</value>
+    <value>Lela ka boitiriso</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>Lidisa tshipi</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Nako (me mins)</value>
+    <value>Nako (metsotso)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Dielemente</value>
+    <value>Dikarolo</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Dial</value>
+    <value>Sefatlhego sa tshupanako</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial le dijithale</value>
+    <value>Sefatlhego sa tshupanako le dijithale</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,71 +646,71 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Ela tlhoko gore monithara o laolwa ke seting ya mola wa taelo</value>
+    <value>Ela tlhoko gore sekirini se laolwa ke thulaganyo ya mola wa taelo</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Mothalo wa lemorago la nako ya nako</value>
+    <value>Mebala ya lemorago la sebalanako</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Mothalo wa lemorago la tshupanako</value>
+    <value>Mebala ya lemorago la tshupanako</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Foreime ya nako e e fetileng</value>
+    <value>Foreime ya sebalanako</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Tshupanako e e sephaphathi</value>
+    <value>Tshupanako e e phaphathi</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Mafelobeke a akaretsa Labotlhano</value>
+    <value>Bokhutlo jwa beke bo akaretsa Labotlhano</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Kentswe ka difensetere</value>
+    <value>Mo lefensetereng</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Kentswe ka difensetere</value>
+    <value>Mo lefensetereng</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Tswala Lefensetere la Countdown</value>
+    <value>Tswala Lefensetere la Palo ya Nako e e Setseng</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Ga e kgone go bula go bala go go bonalang "go tsenngwa mo fensetereng"</value>
+    <value>Ga go kgonege go bula palo ya nako e e setseng e e bonaletsang "mo lefensetereng"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>Orolose</value>
+    <value>Tshupanako</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Badiri ba nako</value>
+    <value>Dibalanako</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>ga e a golagana...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Go ngotlega go fokotsa</value>
+    <value>Nnyefatsa fa lefensetere le fokodiwa</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>potlana</value>
+    <value>konokono</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Ela tlhoko gore dipholo di setilwe go NDI ka thulaganyo ya mola wa taelo.</value>
+    <value>Ela tlhoko gore setshwantsho se romelwa kwa NDI ka thulaganyo ya mola wa taelo.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>A o ne o tshwanetse go simolola sebalanako?</value>
+    <value>A o ne o tshwanetse go bo o simolotse sebalanako?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Oketsa 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Kopano e dira {0} metsotso e e okeditsweng</value>
+    <value>Kopano e fetile nako ka metsotso e le {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Kopano e tsamaya {0} metsotso e e sa nnang teng</value>
+    <value>Kopano e kwa pele ga nako ka metsotso e le {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Dikitsiso tsa go feta/tse di sa ruseng</value>
+    <value>Dikitsiso tsa go feta nako kgotsa go nna kwa pele ga nako</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,139 +734,139 @@ Shift - Oketsa 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>Tswala</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>Boloka</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Ntšhafatsa</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Rulaganya</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>Kopa Tetla</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Tlosa</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>Kopano e simolola morago ga</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>Sekena ka sediriswa sa mogala go bona tshupanako ya inthanete</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>Polatefomo:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>Maemo:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>Mokgwa wa Sekirini Sotlhe</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>Oketsa nako (+1 min). Tobetsa ka fa mojeng go bona dikgetho tse dingwe.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>Fokotsa nako (-1 min). Tobetsa ka fa mojeng go bona dikgetho tse dingwe.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>Dira pegelo ya dinako (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>Bontsha palo ya nako e e setseng</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>Go na le mofuta o mošwa</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>Dipeakanyo</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>Thuso</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>Nnyefatsa go ya mokgweng o mmotlana</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 metsotswana</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+1 motsotso</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+5 metsotso</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-15 metsotswana</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>-1 motsotso</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-5 metsotso</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>DITETLA TSA NETEWEKE</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>Phatsimisa sebalanako fa nako e fetile</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>Lidisa tshipi fa nako e fetile</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>E siametse</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>E a tsamaya</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>E emisitswe ka nakwana</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>Nako e fetile</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>E emisitswe</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>Tsenya khoutu ya go tsena...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Shift - Oketsa 5m</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>E rulagantswe</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>Ga e a rulaganngwa</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Oketsa 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>BOTSHELO JWA BOKERESETE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Maina a a feletseng a dikarolo tsa kopano</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Bontsha mola wa nako e e setseng</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Nako ya go tswelela go bontsha (metsotswana)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Sebopego sa kgale (se tshwana le sa ntlha sa OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Dirisa sebopego se se tshwanang le sa OnlyT sa ntlha sa Windows fela. Dikarolo tsa Avalonia fela di a fitlhwa.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Tlolela kwa karolong e e latelang</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Boloka</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Boloka thulaganyo ya jaanong jaaka sekao se se ka dirisiwang gape</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Faele ya thulaganyo</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Bontsha konopo ya go boloka thulaganyo</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>E laola bogolo jwa tshupanako ya analoko. E dira fela fa sebopego se rapame e bile go na le tshupanako ya analoko.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Tshupanako le sebalanako di bapile (tshupanako ka fa molemeng, sebalanako ka fa mojeng)</value>
   </data>
 
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ກະດິ່ງມີການເຄື່ອນໄຫວ</value>
+    <value>ກະດິ່ງເປີດຢູ່</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 ຊົ່ວໂມງ (ສູນນຳໜ້າ)</value>
+    <value>12 ຊົ່ວໂມງ (ມີເລກສູນນຳໜ້າ)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,7 +150,7 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 ຊົ່ວໂມງ (ເປັນສູນນຳໜ້າ)</value>
+    <value>24 ຊົ່ວໂມງ (ມີເລກສູນນຳໜ້າ)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -158,15 +158,15 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>ໄລຍະເວລາດັດແປງ</value>
+    <value>ໄລຍະເວລາທີ່ປັບແລ້ວ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>ໄລຍະເວລາດັດແກ້</value>
+    <value>ໄລຍະເວລາທີ່ແກ້ໄຂແລ້ວ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>ໄລຍະເວລາຕົ້ນສະບັບ</value>
+    <value>ໄລຍະເວລາເດີມ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -174,37 +174,37 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>ອະນາລັອກ ແລະດິຈິຕອລ</value>
+    <value>ອະນາລັອກ ແລະ ດິຈິຕອລ</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>ດິຈິຕອລ</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ກະດິ່ງບໍ່ເຄື່ອນໄຫວ</value>
+    <value>ກະດິ່ງປິດຢູ່</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>ກາງອາທິດ</value>
+    <value>ການປະຊຸມກາງອາທິດ</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>ກະຊວງ - ລາຍການ 1</value>
+    <value>ຝຶກເປັນຜູ້ສອນ - ສ່ວນທີ 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>ກະຊວງ - ລາຍການ 2</value>
+    <value>ຝຶກເປັນຜູ້ສອນ - ສ່ວນທີ 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>ກະຊວງ - ລາຍການ 3</value>
+    <value>ຝຶກເປັນຜູ້ສອນ - ສ່ວນທີ 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>ອັດຕະໂນມັດ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>ອີງໃສ່ໄຟລ໌</value>
+    <value>ຈາກໄຟລ໌</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>ຄູ່ມື</value>
+    <value>ຄວບຄຸມເອງ</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>ສະຫຼຸບການສົນທະນາ</value>
+    <value>ຄຳບັນລະຍາຍປິດທ້າຍ</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>ສະຫຼຸບແລະປິດການປະຊຸມ</value>
@@ -216,105 +216,105 @@
     <value>ຊອກຫາຄວາມຮູ້ທີ່ມີຄ່າຂອງພະເຈົ້າ</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>ການດຳລົງຊີວິດ - Part 1</value>
+    <value>ຊີວິດຄລິດສະຕຽນ - ສ່ວນທີ 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>ການດໍາລົງຊີວິດ - Part 2</value>
+    <value>ຊີວິດຄລິດສະຕຽນ - ສ່ວນທີ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>ຄຳນຳເປີດການປະຊຸມ</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>ການນຳສະເໜີຂອງເດືອນນີ້</value>
+    <value>ຕົວຢ່າງການສະເໜີຂອງເດືອນນີ້</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>ສົນທະນາສາທາລະນະ</value>
+    <value>ຄຳບັນລະຍາຍສາທາລະນະ</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>ການອ່ານຄຳພີໄບເບິນ</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>ສົນທະນາການບໍລິການ</value>
+    <value>ຄຳບັນລະຍາຍເລື່ອງການຮັບໃຊ້</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Treasures ສົນທະນາ</value>
+    <value>ຄຳບັນລະຍາຍສິ່ງທີ່ມີຄ່າ</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>ຫໍສັງເກດການສະບັບສຶກສາ</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>ທ້າຍອາທິດ</value>
+    <value>ການປະຊຸມທ້າຍອາທິດ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 ຊົ່ວໂມງ (ເຊົ້າ/ແລງ)</value>
+    <value>12 ຊົ່ວໂມງ (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 ຊົ່ວໂມງ (ນຳໜ້າສູນ ແລະ ເຊົ້າ/ໂມງແລງ)</value>
+    <value>12 ຊົ່ວໂມງ (ມີເລກສູນນຳໜ້າ ແລະ am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>ບໍ່ມີ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>ການຕັ້ງຄ່າບໍ່ສາມາດໃຊ້ໄດ້ໃນຂະນະທີ່ເຄື່ອງຈັບເວລາແລ່ນ!</value>
+    <value>ໃຊ້ການຕັ້ງຄ່າບໍ່ໄດ້ ໃນຂະນະທີ່ໂມງຈັບເວລາກຳລັງເຮັດວຽກ!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>ການຕັ້ງຄ່າ</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>ສົມບັດ</value>
+    <value>ສິ່ງທີ່ມີຄ່າ</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ກະຊວງ</value>
+    <value>ຝຶກເປັນຜູ້ສອນ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>ດໍາລົງຊີວິດ</value>
+    <value>ຊີວິດຄລິດສະຕຽນ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>ທ້າຍອາທິດ</value>
+    <value>ການປະຊຸມທ້າຍອາທິດ</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>ການ​ຕັ້ງ​ຄ່າ​ປິດ​ການ​ນໍາ​ໃຊ້​ໂດຍ​ຜູ້​ບໍ​ລິ​ຫານ​!</value>
+    <value>ຜູ້ດູແລລະບົບໄດ້ປິດການຕັ້ງຄ່າ!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ກະຊວງ - ລາຍການ 4</value>
+    <value>ຝຶກເປັນຜູ້ສອນ - ສ່ວນທີ 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>ການຢ້ຽມຢາມວົງຈອນ</value>
+    <value>ການຢ້ຽມຂອງຜູ້ດູແລໝວດ</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ປິດ COUNTDOWN</value>
+    <value>ປິດການນັບຖອຍຫຼັງ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>ຊ່ວຍເຫຼືອ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ການ​ຢ້ຽມ​ຢາມ​ວົງ​ຈອນ​]</value>
+    <value>[ການຢ້ຽມຂອງຜູ້ດູແລໝວດ]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>ມີລຸ້ນໃໝ່!</value>
+    <value>ມີເວີຊັນໃໝ່!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>ຫຼັກ</value>
+    <value>ການຕັ້ງຄ່າຫຼັກ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>ລະຫັດການເຂົ້າເຖິງ</value>
+    <value>ລະຫັດເຂົ້າໃຊ້</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>ໂໝດປັບຕົວກາງອາທິດ</value>
+    <value>ໂໝດປັບເວລາສຳລັບການປະຊຸມກາງອາທິດ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>ໂໝດປັບຕົວໃນທ້າຍອາທິດ</value>
+    <value>ໂໝດປັບເວລາສຳລັບການປະຊຸມທ້າຍອາທິດ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>ອະນຸຍາດໃຫ້ປິດການນັບ-up</value>
+    <value>ອະນຸຍາດໃຫ້ສະຫຼັບເປັນນັບຂຶ້ນ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,7 +322,7 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>ແອັບໄລຍະໄກ</value>
+    <value>ແອັບຄວບຄຸມທາງໄກ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -338,17 +338,17 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ປະຊຸມ Countdown</value>
+    <value>ນັບຖອຍຫຼັງກ່ອນການປະຊຸມ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>ສະຫຼັບການຢ້ຽມຢາມວົງຈອນ</value>
+    <value>ສະຫຼັບການຢ້ຽມຂອງຜູ້ດູແລໝວດ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>ຮູບແບບໂມງດິຈິຕອນ</value>
+    <value>ຮູບແບບໂມງດິຈິຕອລ</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>ເປີດໃຊ້ແລ້ວ</value>
+    <value>ເປີດໃຊ້</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -359,36 +359,36 @@
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>ກອງປະຊຸມ</value>
+    <value>ການປະຊຸມ</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>ເວລາເລີ່ມຕົ້ນກອງປະຊຸມ (1 ຕໍ່ແຖວ)</value>
+    <value>ເວລາເລີ່ມການປະຊຸມ (ແຖວລະ 1 ເວລາ)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>ຫຼາຢ</value>
+    <value>ອື່ນໆ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>ຕິດຕາມກວດກາ</value>
+    <value>ຈໍພາບ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>ສະແດງຕົວຊີ້ເມົ້າ</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ເອົາເວລາເລີ່ມຕົ້ນແຕ່ລະອັນໃສ່ແຖວໃໝ່.</value>
+    <value>ໃສ່ເວລາເລີ່ມແຕ່ລະອັນໃນແຖວໃໝ່.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>ໃຊ້ຮູບແບບໃດກໍໄດ້ຕາມໃຈມັກ!</value>
+    <value>ໃຊ້ຮູບແບບເວລາໃດກໍໄດ້ຕາມທີ່ມັກ!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ທາງເລືອກປະກອບມີມື້ຫນຶ່ງ, e.g. “ພະ​ຫັດ 19:15”</value>
+    <value>ສາມາດໃສ່ມື້ນຳໄດ້ ເຊັ່ນ: "ພະຫັດ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>ໝາຍເຫດ:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ເປີດປະຕູ</value>
+    <value>ເປີດພອດ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,72 +396,72 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>ຄົງເວລານັກຮຽນ</value>
+    <value>ສະແດງເວລາຂອງນັກຮຽນຕໍ່ອີກໜ້ອຍໜຶ່ງ</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>ໄລຍະເວລາສົນທະນາຢ່າງຕໍ່ເນື່ອງ</value>
+    <value>ຄ້າງເວລາຂອງຄຳບັນລະຍາຍໄວ້</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ທ່າເຮືອ</value>
+    <value>ພອດ</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ການເຂົ້າເຖິງໄລຍະໄກ</value>
+    <value>ການເຂົ້າເຖິງທາງໄກ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>ສະແດງພາກສ່ວນຢູ່ໃນໂມງອະນາລັອກ</value>
+    <value>ສະແດງສ່ວນເວລາເທິງໂມງອະນາລັອກ</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>ຄວາມກວ້າງຂອງໜ້າຈໍແຍກ:</value>
+    <value>ຄວາມກວ້າງຂອງໜ້າຈໍແບ່ງ:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>ທົດສອບ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>ຖືກບີບອັດ</value>
+    <value>ຈຳກັດການສື່ສານ</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>ໂມງນັບຖອຍຫຼັງ</value>
+    <value>ໂມງຈັບເວລານັບຂຶ້ນ</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>ປ່ອງຢ້ຽມຈັບເວລາ</value>
+    <value>ໜ້າຕ່າງໂມງຈັບເວລາ</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>ເວລາຂອງມື້ພາຍໃຕ້ການຈັບເວລາ</value>
+    <value>ເວລາປັດຈຸບັນໃຕ້ໂມງຈັບເວລາ</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>ປະລິມານ:</value>
+    <value>ລະດັບສຽງ:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ພາສາ</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>ກະລຸນາຣີສະຕາດ OnlyT ຫຼັງຈາກປ່ຽນພາສາ.</value>
+    <value>ກະລຸນາເປີດ OnlyT ຄືນໃໝ່ຫຼັງຈາກປ່ຽນພາສາ.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>ຫຼຸດລົງ 1 ມ
-Ctrl - ຫຼຸດລົງ 15ວິ
-Shift - ຫຼຸດລົງ 5m</value>
+    <value>ຫຼຸດ 1 ນາທີ
+Ctrl - ຫຼຸດ 15 ວິນາທີ
+Shift - ຫຼຸດ 5 ນາທີ</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>ເພີ່ມຂຶ້ນ 1 ມ
-Ctrl - ເພີ່ມ 15ວິ
-Shift - ເພີ່ມຂຶ້ນ 5m</value>
+    <value>ເພີ່ມ 1 ນາທີ
+Ctrl - ເພີ່ມ 15 ວິນາທີ
+Shift - ເພີ່ມ 5 ນາທີ</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>ໂໝດຄູ່ມື</value>
+    <value>ໂໝດຄວບຄຸມເອງ</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
@@ -469,7 +469,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>ນັບເຖິງ</value>
+    <value>ກຳລັງນັບຂຶ້ນ</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,13 +477,13 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>ເປີດໃຊ້ແລ້ວ</value>
+    <value>ເປີດໃຊ້</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>ເປີດໃຊ້ແລ້ວ</value>
+    <value>ເປີດໃຊ້</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>ເປີດໃຊ້ແລ້ວ</value>
+    <value>ເປີດໃຊ້</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>ສະແດງວິນາທີ</value>
@@ -502,7 +502,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>ສະຖານທີ່</value>
+    <value>ຕຳແໜ່ງ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
@@ -510,7 +510,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>ຊ້າຍລຸ່ມ</value>
+    <value>ລຸ່ມຊ້າຍ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
@@ -518,7 +518,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>ສູນ</value>
+    <value>ກາງ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,7 +526,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>ສິດ</value>
+    <value>ຂວາ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -534,11 +534,11 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ຊ້າຍເທິງ</value>
+    <value>ເທິງຊ້າຍ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ຂວາເທິງ</value>
+    <value>ເທິງຂວາ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,31 +546,31 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ເປີດທ່າເຮືອ ແລະຈອງແລ້ວ</value>
+    <value>ເປີດພອດ ແລະ ຈອງໄວ້ແລ້ວ</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ບໍ່ສາມາດເປີດຜອດໄດ້ (ເບິ່ງບັນທຶກ)!</value>
+    <value>ບໍ່ສາມາດເປີດພອດໄດ້ (ເບິ່ງບັນທຶກ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>ສ້າງ​ບົດ​ລາຍ​ງານ​ກໍາ​ນົດ​ເວ​ລາ​</value>
+    <value>ສ້າງລາຍງານເວລາແລ້ວ</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>ສ້າງບົດລາຍງານ</value>
+    <value>ສ້າງລາຍງານ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>ສະຫຼຸບສ່ວນ</value>
+    <value>ຊ່ວງປິດທ້າຍ</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ພາກສ່ວນຊົ່ວຄາວ</value>
+    <value>ຊ່ວງກາງ</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>ພາກແນະນຳ</value>
+    <value>ຊ່ວງເປີດ</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -582,11 +582,11 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>ຜິດພາດ</value>
+    <value>ຂໍ້ຜິດພາດ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ຕາຍ</value>
+    <value>ຮ້າຍແຮງ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>ຄຳເວົ້າ</value>
+    <value>ລະອຽດ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,7 +602,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>ກຳລັງວິເຄາະຂໍ້ມູນໂມງຈັບເວລາປະຊຸມ</value>
+    <value>ກຳລັງວິເຄາະຂໍ້ມູນເວລາຂອງການປະຊຸມ</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>ສຽງອັດຕະໂນມັດ</value>
+    <value>ດັງອັດຕະໂນມັດ</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>ຄລິກເພື່ອສຽງກະດິ່ງ</value>
+    <value>ເປີດສຽງກະດິ່ງ</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ໂທ</value>
+    <value>ໜ້າປັດ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>ໂທ ແລະ ດິຈິຕອລ</value>
+    <value>ໜ້າປັດ ແລະ ດິຈິຕອລ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,15 +646,15 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>ໃຫ້ສັງເກດວ່າຈໍພາບຖືກຄວບຄຸມໂດຍການຕັ້ງຄ່າເສັ້ນຄໍາສັ່ງ</value>
+    <value>ໝາຍເຫດ: ຈໍພາບຖືກກຳນົດໂດຍການຕັ້ງຄ່າຜ່ານບັນທັດຄຳສັ່ງ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ການຈັບເວລາພື້ນຫຼັງສີ</value>
+    <value>ສີພື້ນຫຼັງແບບໄລ່ສີຂອງໂມງຈັບເວລາ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ສີພື້ນຫຼັງໂມງ</value>
+    <value>ສີພື້ນຫຼັງແບບໄລ່ສີຂອງໂມງ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -662,27 +662,27 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>ໂມງແບນ</value>
+    <value>ໂມງແບບແບນ</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>ທ້າຍອາທິດລວມມີວັນສຸກ</value>
+    <value>ທ້າຍອາທິດລວມວັນສຸກ</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>ປ່ອງຢ້ຽມ</value>
+    <value>ແບບໜ້າຕ່າງ</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>ປ່ອງຢ້ຽມ</value>
+    <value>ແບບໜ້າຕ່າງ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>ປິດປ່ອງຢ້ຽມນັບຖອຍຫຼັງ</value>
+    <value>ປິດໜ້າຕ່າງນັບຖອຍຫຼັງ</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ບໍ່ສາມາດເປີດການນັບຖອຍຫຼັງແບບໂປ່ງໃສ "windowed" ໄດ້</value>
+    <value>ບໍ່ສາມາດເປີດການນັບຖອຍຫຼັງແບບໂປ່ງໃສໃນ "ໜ້າຕ່າງ" ໄດ້</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,7 +690,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>ເຄື່ອງຈັບເວລາ</value>
+    <value>ໂມງຈັບເວລາ</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
@@ -698,19 +698,19 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>ຫຍໍ້ລົງໃຫ້ໜ້ອຍທີ່ສຸດ</value>
+    <value>ຫຍໍ້ລົງເມື່ອຍໍ່ໜ້າຕ່າງ</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>ປະຖົມ</value>
+    <value>ຫຼັກ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>ໃຫ້ສັງເກດວ່າຜົນຜະລິດຖືກຕັ້ງເປັນ NDI ຜ່ານການຕັ້ງຄ່າເສັ້ນຄໍາສັ່ງ.</value>
+    <value>ໝາຍເຫດ: ການສົ່ງອອກຖືກຕັ້ງເປັນ NDI ຜ່ານການຕັ້ງຄ່າບັນທັດຄຳສັ່ງ.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>ເຈົ້າຄວນເລີ່ມໂມງຈັບເວລາບໍ?</value>
+    <value>ທ່ານລືມເລີ່ມໂມງຈັບເວລາບໍ?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>ກອງ​ປະ​ຊຸມ​ແມ່ນ​ດໍາ​ເນີນ​ການ​ເຮັດ​ວຽກ​ລ່ວງ​ເວ​ລາ {0} ນາ​ທີ​</value>
+    <value>ການປະຊຸມເກີນເວລາ {0} ນາທີ</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>ກອງ​ປະ​ຊຸມ​ກໍາ​ລັງ​ດໍາ​ເນີນ​ການ {0} ນາ​ທີ​ຫນ້ອຍ​</value>
+    <value>ການປະຊຸມໄວກວ່າກຳນົດ {0} ນາທີ</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun ແຈ້ງ​ການ​</value>
+    <value>ແຈ້ງເຕືອນເມື່ອເກີນເວລາ/ໄວກວ່າກຳນົດ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -742,7 +742,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>ໂຫຼດຂໍ້ມູນຄືນໃໝ່</value>
+    <value>ໂຫຼດຄືນໃໝ່</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -750,7 +750,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>ຮ້ອງຂໍການເຂົ້າເຖິງ</value>
+    <value>ຂໍສິດເຂົ້າເຖິງ</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,7 +758,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>ກອງປະຊຸມເລີ່ມຕົ້ນໃນ</value>
+    <value>ການປະຊຸມຈະເລີ່ມໃນອີກ</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
@@ -766,7 +766,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>ເວທີ:</value>
+    <value>ແພລດຟອມ:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>ເພີ່ມເວລາ (+1 ນາທີ). ຄລິກຂວາສໍາລັບທາງເລືອກເພີ່ມເຕີມ.</value>
+    <value>ເພີ່ມເວລາ (+1 ນາທີ). ຄລິກຂວາເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>ຫຼຸດເວລາລົງ (-1 ນາທີ). ຄລິກຂວາສໍາລັບທາງເລືອກເພີ່ມເຕີມ.</value>
+    <value>ຫຼຸດເວລາ (-1 ນາທີ). ຄລິກຂວາເພື່ອເບິ່ງຕົວເລືອກເພີ່ມເຕີມ.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>ສ້າງບົດລາຍງານເວລາ (PDF)</value>
+    <value>ສ້າງລາຍງານເວລາ (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -794,7 +794,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>ມີລຸ້ນໃໝ່</value>
+    <value>ມີເວີຊັນໃໝ່</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>ຫຍໍ້ລົງເປັນໂໝດກະທັດຮັດ</value>
+    <value>ຫຍໍ້ເປັນໂໝດກະທັດຮັດ</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,15 +834,15 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>ການອະນຸຍາດເຄືອຂ່າຍ</value>
+    <value>ສິດການເຂົ້າເຖິງເຄືອຂ່າຍ</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>ຈັບເວລາແຟລດໃນລະຫວ່າງການເຮັດວຽກລ່ວງເວລາ</value>
+    <value>ໃຫ້ໂມງຈັບເວລາກະພິບເມື່ອເກີນເວລາ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>ສຽງກະດິ່ງເມື່ອເວລາລ່ວງເວລາ</value>
+    <value>ເປີດສຽງກະດິ່ງເມື່ອເກີນເວລາ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>ແລ່ນ</value>
+    <value>ກຳລັງເຮັດວຽກ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,15 +858,15 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>ລ່ວງເວລາ</value>
+    <value>ເກີນເວລາ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>ຢຸດເຊົາ</value>
+    <value>ຢຸດແລ້ວ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>ໃສ່ລະຫັດການເຂົ້າເຖິງ...</value>
+    <value>ໃສ່ລະຫັດເຂົ້າໃຊ້...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -878,7 +878,7 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>ບໍ່ໄດ້ກຳນົດຄ່າ</value>
+    <value>ຍັງບໍ່ໄດ້ຕັ້ງຄ່າ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - ເພີ່ມຂຶ້ນ 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ຊີວິດຄລິດສະຕຽນ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>ຊື່ເຕັມຂອງແຕ່ລະພາກໃນການປະຊຸມ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>ສະແດງແຖບເວລາທີ່ເຫຼືອຂອງການຄ້າງໜ້າຈໍ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ໄລຍະເວລາຄ້າງໜ້າຈໍ (ວິນາທີ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ໜ້າຕາແບບຄລາສສິກ (ຄືກັບ OnlyT ເດີມ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>ໃຊ້ການຈັດວາງທີ່ຄືກັບ OnlyT ເດີມທີ່ໃຊ້ໄດ້ສະເພາະໃນ Windows. ຄຸນສົມບັດທີ່ມີສະເພາະໃນ Avalonia ຈະຖືກເຊື່ອງໄວ້.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>ຂ້າມໄປສ່ວນຕໍ່ໄປ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>ນາທີ</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>ບັນທຶກ</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ບັນທຶກຕາຕະລາງປັດຈຸບັນເປັນແມ່ແບບເພື່ອໃຊ້ຄືນ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>ໄຟລ໌ຕາຕະລາງ</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ສະແດງປຸ່ມສົ່ງອອກຕາຕະລາງ</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>ກຳນົດຂະໜາດຂອງໂມງອະນາລັອກ. ໃຊ້ໄດ້ສະເພາະການຈັດວາງແນວນອນທີ່ມີໂມງອະນາລັອກ.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>ຈັດວາງໂມງຄຽງຂ້າງກັນ (ໂມງຢູ່ຊ້າຍ, ໂມງຈັບເວລາຢູ່ຂວາ)</value>
   </data>
 
 </root>

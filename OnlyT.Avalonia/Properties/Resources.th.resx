@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>เบลล์กำลังใช้งานอยู่</value>
+    <value>กระดิ่งเปิดใช้งานอยู่</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 ชั่วโมง (นำหน้าศูนย์)</value>
+    <value>12 ชั่วโมง (มีศูนย์นำหน้า)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,7 +150,7 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 ชั่วโมง (นำหน้าศูนย์)</value>
+    <value>24 ชั่วโมง (มีศูนย์นำหน้า)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -162,7 +162,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>ระยะเวลาที่แก้ไข</value>
+    <value>ระยะเวลาที่แก้ไขแล้ว</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -170,41 +170,41 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>อะนาล็อก</value>
+    <value>อนาล็อก</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>อะนาล็อกและดิจิตอล</value>
+    <value>อนาล็อกและดิจิทัล</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>ดิจิตอล</value>
+    <value>ดิจิทัล</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>เบลล์ไม่ได้ใช้งาน</value>
+    <value>กระดิ่งไม่ได้เปิดใช้งาน</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>กลางสัปดาห์</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>กระทรวง - ข้อ 1</value>
+    <value>งานรับใช้ - ส่วนที่ 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>กระทรวง - ข้อ 2</value>
+    <value>งานรับใช้ - ส่วนที่ 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>กระทรวง - ข้อ 3</value>
+    <value>งานรับใช้ - ส่วนที่ 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>อัตโนมัติ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>แบบไฟล์</value>
+    <value>ใช้ไฟล์</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>คู่มือ</value>
+    <value>ควบคุมเอง</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>การพูดคุยสรุป</value>
+    <value>คำบรรยายปิดท้าย</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>คำกล่าวปิดการประชุม</value>
@@ -216,28 +216,28 @@
     <value>ค้นหาความรู้ที่มีค่าของพระเจ้า</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>การใช้ชีวิต - ตอนที่ 1</value>
+    <value>ชีวิตคริสเตียน - ส่วนที่ 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>การใช้ชีวิต - ตอนที่ 2</value>
+    <value>ชีวิตคริสเตียน - ส่วนที่ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>คำนำเปิดการประชุม</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>การนำเสนอของเดือนนี้</value>
+    <value>การเสนอของเดือนนี้</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>การพูดคุยในที่สาธารณะ</value>
+    <value>คำบรรยายสาธารณะ</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>การอ่านคัมภีร์ไบเบิล</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>การสนทนาเกี่ยวกับบริการ</value>
+    <value>คำบรรยายเรื่องงานรับใช้</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>คุยเรื่องสมบัติ</value>
+    <value>คำบรรยายความรู้ที่มีค่า</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>หอสังเกตการณ์ฉบับศึกษา</value>
@@ -246,75 +246,75 @@
     <value>สุดสัปดาห์</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 ชั่วโมง (เช้า/บ่าย)</value>
+    <value>12 ชั่วโมง (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 ชั่วโมง (นำหน้าศูนย์ &amp; am/pm)</value>
+    <value>12 ชั่วโมง (มีศูนย์นำหน้าและ am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>ไม่มี</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>การตั้งค่าไม่สามารถใช้งานได้ในขณะที่ตัวจับเวลากำลังทำงาน!</value>
+    <value>ใช้การตั้งค่าไม่ได้ขณะที่ตัวจับเวลากำลังทำงาน!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>การตั้งค่า</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>สมบัติล้ำค่า</value>
+    <value>ความรู้ที่มีค่า</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>กระทรวง</value>
+    <value>งานรับใช้</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>การดำรงชีวิต</value>
+    <value>ชีวิตคริสเตียน</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>สุดสัปดาห์</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>การตั้งค่าถูกปิดใช้งานโดยผู้ดูแลระบบ!</value>
+    <value>การตั้งค่าถูกปิดโดยผู้ดูแลระบบ!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>กระทรวง - ข้อ 4</value>
+    <value>งานรับใช้ - ส่วนที่ 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>เยี่ยมชมสนามแข่ง</value>
+    <value>การเยี่ยมของผู้ดูแลหมวด</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>นับถอยหลังปิด</value>
+    <value>ปิดการนับถอยหลัง</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>ช่วย</value>
+    <value>ความช่วยเหลือ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[เยี่ยมชมวงจร]</value>
+    <value>[การเยี่ยมของผู้ดูแลหมวด]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>เวอร์ชันใหม่มีจำหน่ายแล้ว!</value>
+    <value>มีเวอร์ชันใหม่แล้ว!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>หลัก</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>รหัสการเข้าถึง</value>
+    <value>รหัสเข้าถึง</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>โหมดปรับตัวกลางสัปดาห์</value>
+    <value>โหมดปรับเวลาสำหรับการประชุมกลางสัปดาห์</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>โหมดปรับตัวสุดสัปดาห์</value>
+    <value>โหมดปรับเวลาสำหรับการประชุมสุดสัปดาห์</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>อนุญาตให้สลับการนับขึ้น</value>
+    <value>อนุญาตให้สลับเป็นการนับขึ้น</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,7 +322,7 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>แอประยะไกล</value>
+    <value>แอปควบคุมระยะไกล</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -334,21 +334,21 @@
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>เว็บคล็อก</value>
+    <value>นาฬิกาบนเว็บ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>นับถอยหลังการประชุม</value>
+    <value>นับถอยหลังก่อนการประชุม</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>สลับการเยี่ยมชมวงจร</value>
+    <value>ปุ่มสลับการเยี่ยมของผู้ดูแลหมวด</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>รูปแบบนาฬิกาดิจิตอล</value>
+    <value>รูปแบบนาฬิกาดิจิทัล</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>เปิดใช้งานแล้ว</value>
+    <value>เปิดใช้งาน</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
@@ -363,26 +363,26 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>เวลาเริ่มการประชุม (1 ท่านต่อบรรทัด)</value>
+    <value>เวลาเริ่มการประชุม (บรรทัดละ 1 เวลา)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>เบ็ดเตล็ด</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>เฝ้าสังเกต</value>
+    <value>จอภาพ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>แสดงตัวชี้เมาส์</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ใส่เวลาเริ่มต้นแต่ละครั้งในบรรทัดใหม่</value>
+    <value>ใส่เวลาเริ่มแต่ละเวลาในบรรทัดใหม่</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>ใช้ได้ทุกรูปแบบตามที่คุณต้องการ!</value>
+    <value>ใช้รูปแบบเวลาแบบใดก็ได้!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ระบุวันได้ตามต้องการ เช่น "พฤหัสบดี 19:15 น."</value>
+    <value>ระบุวันด้วยก็ได้ เช่น "พฤหัส 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>หมายเหตุ:</value>
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>คงเวลาของนักเรียนไว้</value>
+    <value>แสดงเวลาของนักเรียนค้างไว้</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>ระยะเวลาการสนทนาคงอยู่</value>
+    <value>ระยะเวลาแสดงเวลาคำบรรยายค้าง</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ท่าเรือ</value>
+    <value>พอร์ต</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,22 +412,22 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>แสดงเซกเตอร์บนนาฬิกาแบบอนาล็อก</value>
+    <value>แสดงแถบช่วงเวลาบนนาฬิกาอนาล็อก</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>ความกว้างหน้าจอแยก:</value>
+    <value>ความกว้างเมื่อแบ่งหน้าจอ:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>ทดสอบ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>คันเร่ง</value>
+    <value>จำกัดความถี่</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>ตัวจับเวลาจะนับขึ้น</value>
+    <value>ตัวจับเวลานับขึ้น</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,41 +435,41 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>เวลาของวันภายใต้ตัวจับเวลา</value>
+    <value>แสดงเวลาปัจจุบันใต้ตัวจับเวลา</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>ปริมาณ:</value>
+    <value>ระดับเสียง:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ภาษา</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>กรุณารีสตาร์ท OnlyT หลังจากเปลี่ยนภาษา</value>
+    <value>โปรดรีสตาร์ท OnlyT หลังจากเปลี่ยนภาษา</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>ลด 1 เมตร
+    <value>ลด 1 นาที
 Ctrl - ลด 15 วินาที
-Shift - ลด 5 เมตร</value>
+Shift - ลด 5 นาที</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>เพิ่ม 1 เมตร
+    <value>เพิ่ม 1 นาที
 Ctrl - เพิ่ม 15 วินาที
-Shift - เพิ่ม 5 เมตร</value>
+Shift - เพิ่ม 5 นาที</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>โหมดแมนนวล</value>
+    <value>โหมดควบคุมเอง</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>นับถอยหลัง</value>
+    <value>กำลังนับถอยหลัง</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>นับขึ้น</value>
+    <value>กำลังนับขึ้น</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>เปิดใช้งานแล้ว</value>
+    <value>เปิดใช้งาน</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>เปิดใช้งานแล้ว</value>
+    <value>เปิดใช้งาน</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>เปิดใช้งานแล้ว</value>
+    <value>เปิดใช้งาน</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>แสดงวินาที</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>แสดงเฟรม</value>
+    <value>แสดงกรอบ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -502,7 +502,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>ที่ตั้ง</value>
+    <value>ตำแหน่ง</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
@@ -514,11 +514,11 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>มุมขวาล่าง</value>
+    <value>ล่างขวา</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>ศูนย์</value>
+    <value>กึ่งกลาง</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,15 +530,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>สูงสุด</value>
+    <value>ด้านบน</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ซ้ายบน</value>
+    <value>บนซ้าย</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>มุมขวาบน</value>
+    <value>บนขวา</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
@@ -546,7 +546,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ท่าเรือเปิดแล้วและทำการจอง</value>
+    <value>เปิดพอร์ตและสำรองไว้แล้ว</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,7 +554,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>รายงานเวลาที่สร้างขึ้น</value>
+    <value>สร้างรายงานเวลาแล้ว</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -562,15 +562,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>ส่วนสรุป</value>
+    <value>ช่วงปิดการประชุม</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ส่วนงานระหว่างกาล</value>
+    <value>ช่วงกลางการประชุม</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>ส่วนแนะนำ</value>
+    <value>ช่วงเปิดการประชุม</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>เยิ่นเย้อ</value>
+    <value>ละเอียด</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,11 +602,11 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>การวิเคราะห์ข้อมูลตัวจับเวลาการประชุม</value>
+    <value>กำลังวิเคราะห์ข้อมูลตัวจับเวลาการประชุม</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>รายงานไม่ถูกสร้างขึ้น!</value>
+    <value>ไม่ได้สร้างรายงาน!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,11 +614,11 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>เสียงอัตโนมัติ</value>
+    <value>ส่งเสียงอัตโนมัติ</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>คลิกเพื่อส่งเสียงระฆัง</value>
+    <value>ส่งเสียงกระดิ่ง</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,15 +630,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>หมุนหมายเลข</value>
+    <value>หน้าปัด</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>หน้าปัดและดิจิตอล</value>
+    <value>หน้าปัดและดิจิทัล</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>ดิจิตอล</value>
+    <value>ดิจิทัล</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,19 +646,19 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>โปรดทราบว่าจอภาพได้รับการควบคุมโดยการตั้งค่าบรรทัดคำสั่ง</value>
+    <value>โปรดทราบว่าจอภาพถูกกำหนดโดยการตั้งค่าจากบรรทัดคำสั่ง</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>การไล่ระดับพื้นหลังของตัวจับเวลา</value>
+    <value>ไล่เฉดสีพื้นหลังตัวจับเวลา</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>การไล่เฉดสีพื้นหลังนาฬิกา</value>
+    <value>ไล่เฉดสีพื้นหลังนาฬิกา</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>กรอบจับเวลา</value>
+    <value>กรอบตัวจับเวลา</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,15 +666,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>สุดสัปดาห์รวมถึงวันศุกร์</value>
+    <value>สุดสัปดาห์รวมวันศุกร์</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>หน้าต่าง</value>
+    <value>แสดงในหน้าต่าง</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>หน้าต่าง</value>
+    <value>แสดงในหน้าต่าง</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ไม่สามารถเปิดการนับถอยหลังแบบ "หน้าต่าง" ที่โปร่งใสได้</value>
+    <value>ไม่สามารถเปิดการนับถอยหลังแบบโปร่งใสใน "หน้าต่าง" ได้</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>หดตัวเมื่อย่อให้เล็กสุด</value>
+    <value>ย่อเป็นขนาดกะทัดรัดเมื่อย่อหน้าต่าง</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,11 +706,11 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>โปรดทราบว่าเอาต์พุตจะถูกตั้งค่าเป็น NDI ผ่านการตั้งค่าบรรทัดคำสั่ง</value>
+    <value>โปรดทราบว่าเอาต์พุตถูกตั้งเป็น NDI ผ่านการตั้งค่าจากบรรทัดคำสั่ง</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>คุณควรเริ่มจับเวลาหรือยัง?</value>
+    <value>คุณควรเริ่มจับเวลาแล้วหรือยัง?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>การประชุมกำลังดำเนินไปล่วงเวลา {0} นาที</value>
+    <value>การประชุมเกินเวลา {0} นาที</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>การประชุมกำลังดำเนินไป {0} นาที</value>
+    <value>การประชุมเร็วกว่ากำหนด {0} นาที</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>การแจ้งเตือนการล้น/ขาด</value>
+    <value>แจ้งเตือนเมื่อเกินเวลา/เร็วกว่ากำหนด</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -746,23 +746,23 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>การกำหนดค่า</value>
+    <value>กำหนดค่า</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>ขอการเข้าถึง</value>
+    <value>ขอสิทธิ์เข้าถึง</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>อนุญาตให้ออกไป</value>
+    <value>ปิด</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>การประชุมจะเริ่มใน</value>
+    <value>การประชุมจะเริ่มในอีก</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>สแกนด้วยอุปกรณ์มือถือเพื่อดูนาฬิกาเว็บ</value>
+    <value>สแกนด้วยอุปกรณ์มือถือเพื่อดูนาฬิกาบนเว็บ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -786,15 +786,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>สร้างรายงานการกำหนดเวลา (PDF)</value>
+    <value>สร้างรายงานเวลา (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>แสดงตัวนับเวลาถอยหลัง</value>
+    <value>แสดงตัวนับถอยหลัง</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>เวอร์ชันใหม่พร้อมจำหน่ายแล้ว</value>
+    <value>มีเวอร์ชันใหม่</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,7 +802,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>ช่วย</value>
+    <value>ความช่วยเหลือ</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
@@ -834,15 +834,15 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>การอนุญาตเครือข่าย</value>
+    <value>สิทธิ์เครือข่าย</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>ตัวจับเวลาแฟลชระหว่างการทำงานล่วงเวลา</value>
+    <value>ตัวจับเวลากะพริบเมื่อเกินเวลา</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>กดกริ่งเมื่อทำงานล่วงเวลา</value>
+    <value>ส่งเสียงกระดิ่งเมื่อเกินเวลา</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>วิ่ง</value>
+    <value>กำลังทำงาน</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>การทำงานล่วงเวลา</value>
+    <value>เกินเวลา</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>กรอกรหัสเข้าใช้งาน...</value>
+    <value>ใส่รหัสเข้าถึง...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -878,7 +878,7 @@ Shift - เพิ่ม 5 เมตร</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>ไม่ได้กำหนดค่า</value>
+    <value>ยังไม่ได้กำหนดค่า</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - เพิ่ม 5 เมตร</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ชีวิตคริสเตียน</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>ชื่อส่วนของการประชุมแบบเต็ม</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>แสดงแถบนับถอยหลังขณะแสดงเวลาค้าง</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ระยะเวลาแสดงค้าง (วินาที)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>หน้าตาแบบคลาสสิก (ตรงกับรูปแบบ OnlyT ดั้งเดิม)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>ใช้รูปแบบที่ตรงกับ OnlyT ดั้งเดิมซึ่งใช้ได้เฉพาะบน Windows ฟีเจอร์ที่มีเฉพาะใน Avalonia จะถูกซ่อนไว้</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>ข้ามไปยังส่วนถัดไป</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>นาที</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>บันทึกกำหนดการปัจจุบันเป็นแม่แบบเพื่อใช้ซ้ำ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>ไฟล์กำหนดการ</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>แสดงปุ่มส่งออกกำหนดการ</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>ปรับขนาดนาฬิกาอนาล็อก ใช้ได้เฉพาะการจัดวางแนวนอนที่มีนาฬิกาอนาล็อก</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>จัดวางนาฬิกาเคียงกัน (นาฬิกาซ้าย ตัวจับเวลาขวา)</value>
   </data>
 
 </root>

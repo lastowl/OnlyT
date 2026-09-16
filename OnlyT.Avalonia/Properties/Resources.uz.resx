@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell faol</value>
+    <value>Qo‘ng‘iroq yoqilgan</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Yo'q</value>
+    <value>Yo‘q</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Bir tomonga</value>
+    <value>Bir tomonlama</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,23 +134,23 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Dasturiy taʼminot versiyasi {0}</value>
+    <value>Dastur versiyasi {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 soat</value>
+    <value>12 soatlik</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 soatlik (etakchi nol)</value>
+    <value>12 soatlik (boshida nol)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 soat</value>
+    <value>24 soatlik</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 soat (etakchi nol)</value>
+    <value>24 soatlik (boshida nol)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -158,15 +158,15 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Moslashtirilgan muddat</value>
+    <value>Moslashtirilgan davomiylik</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>O'zgartirilgan muddat</value>
+    <value>O‘zgartirilgan davomiylik</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Asl muddat</value>
+    <value>Asl davomiylik</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -180,19 +180,19 @@
     <value>Raqamli</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell faol emas</value>
+    <value>Qo‘ng‘iroq o‘chirilgan</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Hafta o'rtasida</value>
+    <value>Hafta o‘rtasi</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Vazirlik - 1-band</value>
+    <value>Xizmat - 1-qism</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Vazirlik - 2-band</value>
+    <value>Xizmat - 2-qism</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Vazirlik – 3-band</value>
+    <value>Xizmat - 3-qism</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Avtomatik</value>
@@ -201,10 +201,10 @@
     <value>Faylga asoslangan</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Qo'llanma</value>
+    <value>Qo‘lda</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Yakuniy suhbat</value>
+    <value>Yakunlovchi nutq</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Xotima so‘zlari</value>
@@ -216,28 +216,28 @@
     <value>Ma’naviy marvaridlar</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Yashash - 1-qism</value>
+    <value>Hayot tarzimiz - 1-qism</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Yashash - 2-qism</value>
+    <value>Hayot tarzimiz - 2-qism</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Kirish so‘zlari</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Bu oylik taqdimotlar</value>
+    <value>Bu oydagi taqdimotlar</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Ommaviy suhbat</value>
+    <value>Ommaviy nutq</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Muqaddas Kitob qiroati</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Xizmat suhbati</value>
+    <value>Xizmatga oid nutq</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Xazinalar nutq</value>
+    <value>Xazinalar nutqi</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>«Qo‘riqchi minorasi» tadqiqi</value>
@@ -246,18 +246,18 @@
     <value>Dam olish kunlari</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 soat (soat/soat)</value>
+    <value>12 soatlik (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-soat (asosiy nol va ertalab/kech)</value>
+    <value>12 soatlik (boshida nol va am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Yo'q</value>
+    <value>Yo‘q</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Taymer ishlayotgan vaqtda sozlamalar mavjud emas!</value>
+    <value>Taymer ishlayotganda sozlamalarni o‘zgartirib bo‘lmaydi!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Sozlamalar</value>
@@ -266,33 +266,33 @@
     <value>Xazinalar</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>vazirligi</value>
+    <value>Xizmat</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Yashash</value>
+    <value>Hayot tarzimiz</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Dam olish kunlari</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Sozlamalar administrator tomonidan o'chirilgan!</value>
+    <value>Sozlamalar administrator tomonidan o‘chirilgan!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Vazirlik – 4-band</value>
+    <value>Xizmat - 4-qism</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Davraga tashrif</value>
+    <value>Tuman nazoratchisining tashrifi</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ORTA SAAQNI YOPISH</value>
+    <value>TESKARI SANOQNI YOPISH</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>Yordam</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[avval tashrifi]</value>
+    <value>[tuman nazoratchisining tashrifi]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Yangi versiya mavjud!</value>
@@ -306,43 +306,43 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Hafta o'rtasida moslashish rejimi</value>
+    <value>Hafta o‘rtasi uchun moslashuvchan rejim</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Dam olish kunlariga moslashish rejimi</value>
+    <value>Dam olish kunlari uchun moslashuvchan rejim</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Hisobni o'zgartirishga ruxsat bering</value>
+    <value>Oldinga sanashga o‘tishga ruxsat berish</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Har doim tepada</value>
+    <value>Doim yuqorida</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>MOSOQTA ILOVALAR</value>
+    <value>MASOFAVIY ILOVALAR</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AVTOMAT REJIM</value>
+    <value>AVTOMATIK REJIM</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Qo'ng'iroq</value>
+    <value>QO‘NG‘IROQ</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB SOAT</value>
+    <value>VEB-SOAT</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>UCHRASHGAN ORTAGA SAAQ</value>
+    <value>YIG‘ILISHGACHA TESKARI SANOQ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Aylanaga tashrif buyurishni yoqish</value>
+    <value>Tuman nazoratchisi tashrifini yoqish/o‘chirish</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Raqamli soat formati</value>
@@ -352,18 +352,18 @@
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>To'liq ekranli soat rejimi</value>
+    <value>To‘liq ekranli soat rejimi</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>IP manzili</value>
+    <value>IP manzil</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Uchrashuv</value>
+    <value>Yig‘ilish</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Uchrashuv boshlanish vaqti (har bir satrda 1 ta)</value>
+    <value>Yig‘ilish boshlanish vaqtlari (har qatorda bittadan)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>TURLI</value>
@@ -373,22 +373,22 @@
     <value>Monitor</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Sichqoncha ko'rsatkichini ko'rsatish</value>
+    <value>Sichqoncha ko‘rsatkichini ko‘rsatish</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Har bir boshlanish vaqtini yangi qatorga qo'ying.</value>
+    <value>Har bir boshlanish vaqtini yangi qatorga yozing.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
     <value>Istalgan vaqt formatidan foydalaning!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Ixtiyoriy ravishda bir kunni qo'shing, masalan. "Pas 19:15"</value>
+    <value>Xohlasangiz, kunni ham qo‘shing, masalan: "Pay 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Eslatmalar:</value>
+    <value>Izohlar:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>PORT OCHIQ</value>
+    <value>PORTNI OCHISH</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,80 +396,80 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Talabalik vaqtini davom ettiring</value>
+    <value>O‘quvchi vaqtini uzoqroq ko‘rsatish</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Doimiy suhbat davomiyligi</value>
+    <value>Nutq vaqtini uzoqroq ko‘rsatish</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Portlamoq</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>MASAFLI KIRISH</value>
+    <value>MASOFAVIY KIRISH</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Analog soatda sektorni ko'rsatish</value>
+    <value>Analog soatda sektorni ko‘rsatish</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Ajratilgan ekran kengligi:</value>
+    <value>Bo‘lingan ekran kengligi:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>Test</value>
+    <value>SINASH</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Bosilgan</value>
+    <value>Cheklangan</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Taymer sanaydi</value>
+    <value>Taymer oldinga sanaydi</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TAYMER OYZASI</value>
+    <value>TAYMER OYNASI</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Taymer ostida kun vaqti</value>
+    <value>Taymer ostida joriy vaqt</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Hajmi:</value>
+    <value>Ovoz balandligi:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Til</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Tilni o'zgartirgandan so'ng OnlyT ni qayta ishga tushiring.</value>
+    <value>Tilni o‘zgartirgandan so‘ng OnlyT dasturini qayta ishga tushiring.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1 m kamaytiring
-Ctrl - 15 soniyani kamaytiring
-Shift - 5 m kamaytiring</value>
+    <value>1 daqiqa kamaytirish
+Ctrl - 15 soniya kamaytirish
+Shift - 5 daqiqa kamaytirish</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 m oshiring
-Ctrl - 15 soniyani oshiring
-Shift - 5 m oshirish</value>
+    <value>1 daqiqa qo‘shish
+Ctrl - 15 soniya qo‘shish
+Shift - 5 daqiqa qo‘shish</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Qo'lda rejim</value>
+    <value>Qo‘lda boshqarish rejimi</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Hisoblash</value>
+    <value>Hozir teskari sanamoqda</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Hisoblash</value>
+    <value>Hozir oldinga sanamoqda</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -486,11 +486,11 @@ Shift - 5 m oshirish</value>
     <value>Yoqilgan</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>soniyalarni ko'rsatish</value>
+    <value>Soniyalarni ko‘rsatish</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Ramkani ko'rsatish</value>
+    <value>Ramkani ko‘rsatish</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -506,55 +506,55 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Pastki</value>
+    <value>Pastda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Pastki chap</value>
+    <value>Pastda chapda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Pastki o'ng</value>
+    <value>Pastda o‘ngda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Markaz</value>
+    <value>Markazda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Chapga</value>
+    <value>Chapda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>To'g'ri</value>
+    <value>O‘ngda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Yuqori</value>
+    <value>Yuqorida</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Yuqori chap</value>
+    <value>Yuqorida chapda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Yuqori o'ng</value>
+    <value>Yuqorida o‘ngda</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>KELISHDIKMI</value>
+    <value>Xo‘p</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port ochildi va bron qilindi</value>
+    <value>Port ochildi va band qilindi</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Portni ochib bo'lmadi (jurnalga qarang)!</value>
+    <value>Portni ochib bo‘lmadi (jurnalni ko‘ring)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Yaratilgan vaqt hisoboti</value>
+    <value>Vaqt hisoboti yaratildi</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -562,19 +562,19 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Yakuniy segment</value>
+    <value>Yakunlovchi qism</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Vaqtinchalik segment</value>
+    <value>Oraliq qism</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Kirish bo'limi</value>
+    <value>Kirish qismi</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Ro'yxatga olish darajasi</value>
+    <value>Jurnal yuritish darajasi</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -586,11 +586,11 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Halokatli</value>
+    <value>Jiddiy xato</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Ma'lumot</value>
+    <value>Ma’lumot</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
@@ -602,23 +602,23 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Uchrashuv taymer ma'lumotlarini tahlil qilish</value>
+    <value>Yig‘ilish vaqti ma’lumotlari tahlil qilinmoqda</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Hisobot yaratilmadi!</value>
+    <value>Hisobot YARATILMADI!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>KOʻRISH</value>
+    <value>KO‘RISH</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Avtomatik ovoz</value>
+    <value>Avtomatik chalish</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Qo'ng'iroq chalish uchun bosing</value>
+    <value>Qo‘ng‘iroqni chalish</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Tering</value>
+    <value>Siferblat</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Qo'ng'iroq va raqamli</value>
+    <value>Siferblat va raqamli</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,15 +646,15 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>E'tibor bering, monitor buyruq qatori sozlamalari bilan boshqariladi</value>
+    <value>Diqqat: monitor buyruq qatori sozlamasi orqali boshqarilmoqda</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Taymer fon gradienti</value>
+    <value>Taymer fonining gradienti</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Soat fon gradienti</value>
+    <value>Soat fonining gradienti</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -666,23 +666,23 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Dam olish kunlari jumani o'z ichiga oladi</value>
+    <value>Dam olish kunlariga juma ham kiradi</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Derazalangan</value>
+    <value>Oynada</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Derazalangan</value>
+    <value>Oynada</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Ortga hisoblash oynasini yoping</value>
+    <value>Teskari sanoq oynasini yopish</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Shaffof "oynali" ortga hisoblashni ochib bo'lmaydi</value>
+    <value>Shaffof teskari sanoqni "oynada" ochib bo‘lmaydi</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Shift - 5 m oshirish</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Kichraytirish va kamaytirish</value>
+    <value>Yig‘ishtirilganda kichraytirish</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,11 +706,11 @@ Shift - 5 m oshirish</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>E'tibor bering, chiqish buyruq qatori sozlamalari orqali NDI ga o'rnatiladi.</value>
+    <value>Diqqat: chiqish buyruq qatori sozlamasi orqali NDI ga o‘rnatilgan.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Taymerni ishga tushirish kerakmidi?</value>
+    <value>Taymerni ishga tushirishni unutmadingizmi?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,19 +718,19 @@ Shift - 5 m oshirish</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Uchrashuv {0} daqiqa qoʻshimcha ish vaqti davom etmoqda</value>
+    <value>Yig‘ilish belgilangan vaqtdan {0} daqiqa ortiq davom etmoqda</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Uchrashuv {0} daqiqa kam vaqt davom etmoqda</value>
+    <value>Yig‘ilish belgilangan vaqtdan {0} daqiqa oldinda bormoqda</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Haddan tashqari bajarilish/to'liq bajarilganligi haqida bildirishnomalar</value>
+    <value>Vaqtdan oshish/oldinda borish haqida bildirishnomalar</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Qorong'i rejim</value>
+    <value>Qorong‘i rejim</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -746,23 +746,23 @@ Shift - 5 m oshirish</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Sozlang</value>
+    <value>Sozlash</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Kirish so'rovi</value>
+    <value>Ruxsat so‘rash</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Rad etish</value>
+    <value>Yashirish</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Uchrashuv boshlanadi</value>
+    <value>Yig‘ilish boshlanishiga</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Veb-soatni ko'rish uchun mobil qurilma bilan skanerlang</value>
+    <value>Veb-soatni ko‘rish uchun mobil qurilma bilan skanerlang</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -774,15 +774,15 @@ Shift - 5 m oshirish</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>To'liq ekran rejimi</value>
+    <value>To‘liq ekran rejimi</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Vaqtni oshiring (+1 min). Qo'shimcha parametrlar uchun o'ng tugmasini bosing.</value>
+    <value>Vaqtni oshirish (+1 daq.). Boshqa imkoniyatlar uchun sichqonchaning o‘ng tugmasini bosing.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Vaqtni qisqartirish (-1 min). Qo'shimcha parametrlar uchun o'ng tugmasini bosing.</value>
+    <value>Vaqtni kamaytirish (-1 daq.). Boshqa imkoniyatlar uchun sichqonchaning o‘ng tugmasini bosing.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,7 +790,7 @@ Shift - 5 m oshirish</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Ortga hisoblash taymerini ko'rsatish</value>
+    <value>Teskari sanoq taymerini ko‘rsatish</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - 5 m oshirish</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Yilni ixcham rejimga qisqartiring</value>
+    <value>Ixcham rejimga kichraytirish</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - 5 m oshirish</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Qo'shimcha ish vaqtida miltillovchi taymer</value>
+    <value>Vaqt oshganda taymerni miltillatish</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Qo'shimcha ish vaqtida qo'ng'iroq</value>
+    <value>Vaqt oshganda qo‘ng‘iroq chalish</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,19 +850,19 @@ Shift - 5 m oshirish</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Yugurish</value>
+    <value>Ishlamoqda</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pauza qilingan</value>
+    <value>To‘xtatib turilgan</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Vaqt o'tishi bilan</value>
+    <value>Vaqt oshdi</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>To'xtatildi</value>
+    <value>To‘xtatilgan</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -870,7 +870,7 @@ Shift - 5 m oshirish</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>daq</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5 m oshirish</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>HAYOT TARZIMIZ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Yig‘ilish qismlarining to‘liq nomlari</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Ushlab turish vaqti chizig‘ini ko‘rsatish</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Ushlab turish davomiyligi (soniya)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klassik interfeys (asl OnlyT ko‘rinishiga mos)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Faqat Windows uchun bo‘lgan asl OnlyT ko‘rinishiga mos maketdan foydalanish. Faqat Avalonia versiyasidagi funksiyalar yashiriladi.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Keyingi qismga o‘tish</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Daq</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Saqlash</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Joriy jadvalni qayta ishlatiladigan shablon sifatida saqlash</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Jadval fayli</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Jadvalni eksport qilish tugmasini ko‘rsatish</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Analog soat o‘lchamini boshqaradi. Faqat analog soatli gorizontal maketda ishlaydi.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Soat va taymer yonma-yon (soat chapda, taymer o‘ngda)</value>
   </data>
 
 </root>

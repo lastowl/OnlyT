@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Хонх идэвхтэй байна</value>
+    <value>Хонх идэвхтэй</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,23 +126,23 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Нэг талын</value>
+    <value>Нэг чиглэлтэй</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Хоёр талын</value>
+    <value>Хоёр чиглэлтэй</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Програм хангамжийн хувилбар {0}</value>
+    <value>Програмын хувилбар {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12 цаг</value>
+    <value>12 цагийн</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 цаг (тэргүүлэх тэг)</value>
+    <value>12 цагийн (урдаа тэгтэй)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,19 +150,19 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 цагийн (тэргүүлэх тэг)</value>
+    <value>24 цагийн (урдаа тэгтэй)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>{0} фолдерыг үүсгэж чадсангүй</value>
+    <value>{0} хавтас үүсгэж чадсангүй</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Дасан зохицсон хугацаа</value>
+    <value>Тохируулсан хугацаа</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Өөрчлөгдсөн хугацаа</value>
+    <value>Өөрчилсөн хугацаа</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -180,31 +180,31 @@
     <value>Дижитал</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell идэвхгүй байна</value>
+    <value>Хонх идэвхгүй</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Долоо хоногийн дундуур</value>
+    <value>Долоо хоногийн дунд</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Яам - 1-р зүйл</value>
+    <value>Дэлгэрүүлэх ажил - 1-р зүйл</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Яам - 2-р зүйл</value>
+    <value>Дэлгэрүүлэх ажил - 2-р зүйл</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Яам - 3-р зүйл</value>
+    <value>Дэлгэрүүлэх ажил - 3-р зүйл</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Автомат</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Файлд суурилсан</value>
+    <value>Файлаас</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Гарын авлага</value>
+    <value>Гараар</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Төгсгөлийн яриа</value>
+    <value>Төгсгөлийн илтгэл</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Дүгнэлт</value>
@@ -216,28 +216,28 @@
     <value>Эрдэнэс хайх нь</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Амьдрах - 1-р хэсэг</value>
+    <value>Амьдрал - 1-р хэсэг</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Амьдрах - 2-р хэсэг</value>
+    <value>Амьдрал - 2-р хэсэг</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Эхний үг</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Энэ сарын илтгэлүүд</value>
+    <value>Энэ сарын жишээ яриа</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Олон нийтийн яриа</value>
+    <value>Олон нийтийн илтгэл</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Библиэс унших</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Үйлчилгээний яриа</value>
+    <value>Дэлгэрүүлэх ажлын илтгэл</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Эрдэнэсийн яриа</value>
+    <value>Эрдэнэс хэсгийн илтгэл</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Судлах Харуулын цамхаг</value>
@@ -246,18 +246,18 @@
     <value>Амралтын өдөр</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 цаг (өглөө/цаг)</value>
+    <value>12 цагийн (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 цаг (тэг болон өглөөний цаг)</value>
+    <value>12 цагийн (урдаа тэгтэй, am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Байхгүй</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Цаг хэмжигч ажиллаж байх үед тохиргоо хийх боломжгүй!</value>
+    <value>Цаг хэмжигч ажиллаж байхад тохиргоо хийх боломжгүй!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Тохиргоо</value>
@@ -266,59 +266,59 @@
     <value>Эрдэнэс</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>яам</value>
+    <value>Дэлгэрүүлэх ажил</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Амьдрах</value>
+    <value>Амьдрал</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Амралтын өдөр</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Тохиргоог админ идэвхгүй болгосон!</value>
+    <value>Тохиргоог админ хаасан!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Яам - 4-р зүйл</value>
+    <value>Дэлгэрүүлэх ажил - 4-р зүйл</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Тойргийн айлчлал</value>
+    <value>Тойргийн харгалзагчийн айлчлал</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ТООЛОЛТЫГ ХААХ</value>
+    <value>УРВУУ ТООЛЛЫГ ХААХ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Туслаач</value>
+    <value>Тусламж</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ тойргийн айлчлал ]</value>
+    <value>[тойргийн харгалзагчийн айлчлал]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Шинэ хувилбар боломжтой!</value>
+    <value>Шинэ хувилбар гарсан!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>ҮНДСЭН</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Хандалтын код</value>
+    <value>Нэвтрэх код</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Долоо хоногийн дундуур дасан зохицох горим</value>
+    <value>Долоо хоногийн дундах цуглааны дасан зохицох горим</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Амралтын өдрүүдэд дасан зохицох горим</value>
+    <value>Амралтын өдрийн цуглааны дасан зохицох горим</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Тоолохыг асаахыг зөвшөөрөх</value>
+    <value>Өсөх тоололд шилжихийг зөвшөөрөх</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Үргэлж дээгүүр</value>
+    <value>Үргэлж дээр харуулах</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -326,7 +326,7 @@
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>АВТОМАТ горим</value>
+    <value>АВТОМАТ ГОРИМ</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
@@ -338,57 +338,57 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>УУЛЗАЛТЫН ТООЛОЛТ</value>
+    <value>ЦУГЛААНЫ УРВУУ ТООЛОЛ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Тойрог зочлох/унтраах/унтраах</value>
+    <value>Тойргийн харгалзагчийн айлчлалыг асаах/унтраах</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>Дижитал цагны формат</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Идэвхжүүлсэн</value>
+    <value>Идэвхтэй</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Бүтэн дэлгэцийн цагийн горим</value>
+    <value>Бүтэн дэлгэцийн цагны горим</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP хаяг</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Уулзалт</value>
+    <value>Цуглаан</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Уулзалт эхлэх цаг (нэг мөрөнд 1)</value>
+    <value>Цуглаан эхлэх цаг (мөр бүрт нэг)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>БУСАД ЗҮЙЛ</value>
+    <value>БУСАД</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Хяналт</value>
+    <value>Дэлгэц</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Хулганы заагчийг харуулах</value>
+    <value>Хулганы заагч харуулах</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Эхлэх цаг бүрийг шинэ мөрөнд оруулаарай.</value>
+    <value>Эхлэх цаг бүрийг шинэ мөрөнд бичнэ үү.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Та дуртай цагийн форматаа ашиглаарай!</value>
+    <value>Дурын цагийн форматыг ашиглаж болно!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Сонголтоор өдөр оруулах, жишээлбэл. "Пу 19:15"</value>
+    <value>Хүсвэл гарагийг нэмж болно, ж.нь "Пү 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Тэмдэглэл:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>НЭЭЛТТЭЙ порт</value>
+    <value>ПОРТ НЭЭХ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Оюутны цагийг үргэлжлүүлэх</value>
+    <value>Сурагчийн хугацааг удаан харуулах</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Тогтвортой ярианы үргэлжлэх хугацаа</value>
+    <value>Илтгэлийн хугацааг үлдээх</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,68 +408,68 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>АЛСЫН ХАНДАХ</value>
+    <value>АЛСЫН ХАНДАЛТ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Аналог цаг дээр салбарыг харуулах</value>
+    <value>Аналог цаган дээр сектор харуулах</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Хуваах дэлгэцийн өргөн:</value>
+    <value>Хуваасан дэлгэцийн өргөн:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>ТУРШИЛТ</value>
+    <value>ТУРШИХ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Дарагдсан</value>
+    <value>Хязгаарласан</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Цаг хэмжигч тоолж байна</value>
+    <value>Цаг хэмжигч өсөхөөр тоолно</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER ЦОНХ</value>
+    <value>ЦАГ ХЭМЖИГЧИЙН ЦОНХ</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Таймерын дор өдрийн цаг</value>
+    <value>Цаг хэмжигчийн доор одоогийн цаг</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Эзлэхүүн:</value>
+    <value>Дууны түвшин:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Хэл</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Хэлийг өөрчилсний дараа OnlyT-г дахин эхлүүлнэ үү.</value>
+    <value>Хэл өөрчилсний дараа OnlyT-г дахин эхлүүлнэ үү.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1м-ээр бууруулна
-Ctrl - 15 секунд бууруулах
-Шилжилт - 5м-ээр багасна</value>
+    <value>1 мин хасах
+Ctrl - 15 сек хасах
+Shift - 5 мин хасах</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1м нэмэгдүүлэх
-Ctrl - 15 секунд нэмэгдүүлэх
-Шилжилт - 5м-ээр нэмэгдэнэ</value>
+    <value>1 мин нэмэх
+Ctrl - 15 сек нэмэх
+Shift - 5 мин нэмэх</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Гарын авлагын горим</value>
+    <value>Гар горим</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Тоолж байна</value>
+    <value>Одоо буурахаар тоолж байна</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Тоолж байна</value>
+    <value>Одоо өсөхөөр тоолж байна</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Идэвхжүүлсэн</value>
+    <value>Идэвхтэй</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Идэвхжүүлсэн</value>
+    <value>Идэвхтэй</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Идэвхжүүлсэн</value>
+    <value>Идэвхтэй</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Секундыг харуулах</value>
+    <value>Секунд харуулах</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Хүрээг харуулах</value>
+    <value>Хүрээ харуулах</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,7 +498,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Томруулах түвшин:</value>
+    <value>Томруулалт:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -506,19 +506,19 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Доод талд</value>
+    <value>Доор</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Зүүн доод талд</value>
+    <value>Зүүн доор</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Баруун доод талд</value>
+    <value>Баруун доор</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Төв</value>
+    <value>Голд</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,39 +526,39 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Зөв</value>
+    <value>Баруун</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Топ</value>
+    <value>Дээр</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Зүүн дээд</value>
+    <value>Зүүн дээр</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Баруун дээд</value>
+    <value>Баруун дээр</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Бас</value>
+    <value>За</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Боомт нээгдэж, захиалга хийгдсэн</value>
+    <value>Порт нээгдэж, бүртгэл хийгдлээ</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Портыг нээж чадсангүй (логийг харна уу)!</value>
+    <value>Порт нээж чадсангүй (логийг харна уу)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Цагийн тайланг үүсгэсэн</value>
+    <value>Цагийн тайлан үүслээ</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Тайлан үүсгэх</value>
+    <value>Тайлан гаргах</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
@@ -566,19 +566,19 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Завсрын сегмент</value>
+    <value>Завсрын хэсэг</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Танилцуулгын хэсэг</value>
+    <value>Эхний хэсэг</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Бүртгэлийн түвшин</value>
+    <value>Лог бичих түвшин</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Дибаг хийх</value>
+    <value>Дибаг</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Үхлийн аюултай</value>
+    <value>Ноцтой алдаа</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Нарийвчилсан</value>
+    <value>Дэлгэрэнгүй</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,11 +602,11 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Уулзалтын таймерын өгөгдөлд дүн шинжилгээ хийж байна</value>
+    <value>Цуглааны цаг хэмжилтийн өгөгдлийг шинжилж байна</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Тайлан үүсээгүй!</value>
+    <value>Тайлан ҮҮСЭЭГҮЙ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
@@ -614,27 +614,27 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Автоматаар дуугарна</value>
+    <value>Автоматаар дуугаргах</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Хонх дуугарахын тулд товшино уу</value>
+    <value>Хонх дуугаргах</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Үргэлжлэх хугацаа (минут)</value>
+    <value>Хугацаа (мин)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Элементүүд</value>
+    <value>Бүрэлдэхүүн</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Залгах</value>
+    <value>Цагны нүүр</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Залгах ба дижитал</value>
+    <value>Цагны нүүр ба дижитал</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,23 +642,23 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Ил тод дэвсгэр</value>
+    <value>Тунгалаг дэвсгэр</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Мониторыг командын мөрийн тохиргоогоор удирддаг гэдгийг анхаарна уу</value>
+    <value>Дэлгэцийг тушаалын мөрийн тохиргоогоор тогтоосныг анхаарна уу</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Таймер дэвсгэр градиент</value>
+    <value>Цаг хэмжигчийн дэвсгэрийн градиент</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Цагийн дэвсгэр градиент</value>
+    <value>Цагны дэвсгэрийн градиент</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Таймерын хүрээ</value>
+    <value>Цаг хэмжигчийн хүрээ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Амралтын өдрүүдэд Баасан гараг багтана</value>
+    <value>Амралтын өдөрт баасан гараг багтана</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Цонхтой</value>
+    <value>Цонхонд</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Цонхтой</value>
+    <value>Цонхонд</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Countdown цонхыг хаах</value>
+    <value>Урвуу тооллын цонхыг хаах</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Ил тод "цонхтой" тооллогыг нээх боломжгүй</value>
+    <value>Тунгалаг дэвсгэртэй "цонхонд" урвуу тооллыг нээх боломжгүй</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,43 +694,43 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>офлайн...</value>
+    <value>холболтгүй...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Багасгах дээр багасгах</value>
+    <value>Багасгахад жижиг горимд шилжих</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>анхан шатны</value>
+    <value>үндсэн</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Гаралтыг тушаалын мөрийн тохиргоогоор NDI болгож тохируулсан гэдгийг анхаарна уу.</value>
+    <value>Гаралтыг тушаалын мөрийн тохиргоогоор NDI болгосныг анхаарна уу.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Та таймерыг эхлүүлэх ёстой байсан уу?</value>
+    <value>Цаг хэмжигчийг эхлүүлэх ёстой байсан юм биш үү?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Попап сануулагч</value>
+    <value>Гарч ирэх сануулга</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Хурал {0} минут илүү цагаар үргэлжилж байна</value>
+    <value>Цуглаан {0} минутаар хэтэрч байна</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Уулзалт {0} минут дутуу үргэлжилж байна</value>
+    <value>Цуглаан төлөвлөснөөс {0} минут түрүүлж байна</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Хэт их/дутуу гарсан мэдэгдлүүд</value>
+    <value>Хугацаа хэтэрсэн/түрүүлсэн тухай мэдэгдэл</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Харанхуй горим</value>
+    <value>Бараан горим</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -742,7 +742,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Сэргээх</value>
+    <value>Шинэчлэх</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -750,19 +750,19 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Хандалт хүсэх</value>
+    <value>Хандах эрх хүсэх</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Өгүүлэх</value>
+    <value>Хаах</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Уулзалт эхэлнэ</value>
+    <value>Цуглаан эхлэхэд</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Вэб цагийг үзэхийн тулд хөдөлгөөнт төхөөрөмжөөр сканнердах боломжтой</value>
+    <value>Вэб цагийг үзэхийн тулд гар утсаараа уншуулна уу</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -770,7 +770,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Статус:</value>
+    <value>Төлөв:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,23 +778,23 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Цагийг нэмэгдүүлэх (+1 мин). Бусад сонголтыг харахын тулд хулганы баруун товчийг дарна уу.</value>
+    <value>Хугацаа нэмэх (+1 мин). Бусад сонголтыг харахын тулд баруун товшино уу.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Хугацаа багасгах (-1 мин). Бусад сонголтыг харахын тулд хулганы баруун товчийг дарна уу.</value>
+    <value>Хугацаа хасах (-1 мин). Бусад сонголтыг харахын тулд баруун товшино уу.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Цагийн тайлан үүсгэх (PDF)</value>
+    <value>Цагийн тайлан гаргах (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Цаг тоологчийг харуулах</value>
+    <value>Урвуу тооллыг харуулах</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Шинэ хувилбар боломжтой</value>
+    <value>Шинэ хувилбар гарсан</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Туслаач</value>
+    <value>Тусламж</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Компакт горим руу багасах</value>
+    <value>Жижиг горимд шилжих</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Илүү цагаар ажиллах цаг хэмжигч</value>
+    <value>Хугацаа хэтрэхэд цаг хэмжигчийг анивчуулах</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Илүү цагаар ажиллах үед хонх дуугарах</value>
+    <value>Хугацаа хэтрэхэд хонх дуугаргах</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Гүйж байна</value>
+    <value>Ажиллаж байна</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Түр зогсоосон</value>
+    <value>Түр зогссон</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Илүү цаг</value>
+    <value>Хугацаа хэтэрсэн</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Ctrl - 15 секунд нэмэгдүүлэх
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Хандалтын кодыг оруулна уу...</value>
+    <value>Нэвтрэх код оруулна уу...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -889,6 +889,45 @@ Ctrl - 15 секунд нэмэгдүүлэх
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>БУРХНЫ ҮЙЛЧЛЭГЧИЙН ЁСООР АМЬДРАХ НЬ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Цуглааны хэсгүүдийн бүтэн нэр</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Үлдсэн хугацааг заах мөр харуулах</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Үлдээх хугацаа (сек)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Сонгодог загвар (анхны OnlyT-тэй адил)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Зөвхөн Windows-д зориулсан анхны OnlyT-тэй адил загварыг ашиглана. Зөвхөн Avalonia хувилбарт байдаг боломжууд нуугдана.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Дараагийн илтгэл рүү шилжих</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Мин</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Хадгалах</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Одоогийн хуваарийг дахин ашиглах загвар болгон хадгалах</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Хуваарийн файл</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Хуваарь экспортлох товч харуулах</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Аналог цагны хэмжээг тохируулна. Зөвхөн аналог цагтай хэвтээ байрлалд үйлчилнэ.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Цаг ба цаг хэмжигчийг зэрэгцүүлэх (цаг зүүн талд, цаг хэмжигч баруун талд)</value>
   </data>
 
 </root>

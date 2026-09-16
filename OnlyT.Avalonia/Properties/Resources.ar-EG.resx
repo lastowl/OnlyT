@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>الجرس نشط</value>
+    <value>الجرس مفعّل</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>لا أحد</value>
+    <value>بدون</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>طريقة واحدة</value>
+    <value>باتجاه واحد</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>اتجاهين</value>
+    <value>باتجاهين</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 ساعة (الصفر الرئيسي)</value>
+    <value>12 ساعة (بصفر بادئ)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,19 +150,19 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 ساعة (الصفر الرئيسي)</value>
+    <value>24 ساعة (بصفر بادئ)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>تعذر إنشاء المجلد {0}</value>
+    <value>تعذّر إنشاء المجلد {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>المدة المُكيّفة</value>
+    <value>المدة المعدّلة تلقائيًا</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>مدة معدلة</value>
+    <value>المدة المعدّلة</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
@@ -170,41 +170,41 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>التناظرية</value>
+    <value>تناظرية</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>التناظرية والرقمية</value>
+    <value>تناظرية ورقمية</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>رقمي</value>
+    <value>رقمية</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>الجرس غير نشط</value>
+    <value>الجرس غير مفعّل</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>منتصف الاسبوع</value>
+    <value>وسط الأسبوع</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>الوزارة - البند 1</value>
+    <value>الخدمة - الجزء 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>الوزارة - البند 2</value>
+    <value>الخدمة - الجزء 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>الوزارة - البند 3</value>
+    <value>الخدمة - الجزء 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>أوتوماتيكي</value>
+    <value>تلقائي</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>مستند إلى الملف</value>
+    <value>من ملف</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
     <value>يدوي</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>محاضرة ختامية</value>
+    <value>الخطاب الختامي</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>تعليقات ختامية</value>
@@ -216,10 +216,10 @@
     <value>جواهر روحية</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>المعيشة - الجزء الأول</value>
+    <value>الحياة المسيحية - الجزء 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>المعيشة - الجزء الثاني</value>
+    <value>الحياة المسيحية - الجزء 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>تعليقات افتتاحية</value>
@@ -228,74 +228,74 @@
     <value>عروض هذا الشهر</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>حديث عام</value>
+    <value>الخطاب العام</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>قراءة الكتاب المقدس</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>محادثة الخدمة</value>
+    <value>خطاب الخدمة</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>حديث الكنوز</value>
+    <value>خطاب الكنوز</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>درس برج المراقبة</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>عطلة نهاية الأسبوع</value>
+    <value>نهاية الأسبوع</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 ساعة (صباحًا/مساءً)</value>
+    <value>12 ساعة (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 ساعة (الصفر الرئيسي و صباحًا/مساءً)</value>
+    <value>12 ساعة (بصفر بادئ و am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>لا أحد</value>
+    <value>بدون</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
     <value>الإعدادات غير متاحة أثناء تشغيل المؤقت!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>إعدادات</value>
+    <value>الإعدادات</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
     <value>الكنوز</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>الوزارة</value>
+    <value>الخدمة</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>معيشة</value>
+    <value>الحياة المسيحية</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>عطلة نهاية الأسبوع</value>
+    <value>نهاية الأسبوع</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>تم تعطيل الإعدادات بواسطة المسؤول!</value>
+    <value>الإعدادات معطّلة من قِبل المسؤول!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>الوزارة - البند 4</value>
+    <value>الخدمة - الجزء 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>زيارة الدائرة</value>
+    <value>زيارة ناظر الدائرة</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
     <value>إغلاق العد التنازلي</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>يساعد</value>
+    <value>مساعدة</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[زيارة الدائرة]</value>
+    <value>[زيارة ناظر الدائرة]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>النسخة الجديدة متاحة!</value>
+    <value>يتوفر إصدار جديد!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
     <value>رئيسي</value>
@@ -306,23 +306,23 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>الوضع التكيفي منتصف الأسبوع</value>
+    <value>الوضع التكيّفي لاجتماع وسط الأسبوع</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>وضع التكيف في عطلة نهاية الأسبوع</value>
+    <value>الوضع التكيّفي لاجتماع نهاية الأسبوع</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>السماح بالتبديل بين العد التصاعدي</value>
+    <value>السماح بالتبديل إلى العد التصاعدي</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>دائما في القمة</value>
+    <value>دائمًا في المقدمة</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>التطبيقات عن بعد</value>
+    <value>تطبيقات التحكم عن بُعد</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>جرس</value>
+    <value>الجرس</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -342,73 +342,73 @@
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>تبديل زيارة الدائرة</value>
+    <value>تبديل زيارة ناظر الدائرة</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
     <value>تنسيق الساعة الرقمية</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>مُمَكَّن</value>
+    <value>مفعّل</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>وضع الساعة على كامل الشاشة</value>
+    <value>وضع الساعة بملء الشاشة</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>عنوان IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>مقابلة</value>
+    <value>الاجتماع</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>أوقات بدء الاجتماع (1 لكل خط)</value>
+    <value>أوقات بدء الاجتماعات (وقت واحد في كل سطر)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>متنوع</value>
+    <value>متفرقات</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>شاشة</value>
+    <value>الشاشة</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>إظهار مؤشر الماوس</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ضع كل وقت بداية على سطر جديد.</value>
+    <value>ضع كل وقت بدء في سطر جديد.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>استخدم أي تنسيق زمني تريده!</value>
+    <value>استخدم أي تنسيق للوقت تريده!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>يمكنك اختيار تضمين يوم، على سبيل المثال "الخميس 19:15"</value>
+    <value>يمكنك أيضًا إضافة اليوم، مثلًا "خميس 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>ملحوظات:</value>
+    <value>ملاحظات:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>منفذ مفتوح</value>
+    <value>فتح المنفذ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>وضع</value>
+    <value>الوضع</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>استمرار وقت الطالب</value>
+    <value>إبقاء وقت التلميذ ظاهرًا</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>استمرار مدة الحديث</value>
+    <value>مدة إبقاء وقت الخطاب ظاهرًا</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ميناء</value>
+    <value>المنفذ</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>الوصول عن بعد</value>
+    <value>الوصول عن بُعد</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
@@ -416,18 +416,18 @@
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>عرض الشاشة المنقسمة:</value>
+    <value>عرض الشاشة المقسّمة:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>امتحان</value>
+    <value>اختبار</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>مخنوق</value>
+    <value>محدود</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>المؤقت يحسب</value>
+    <value>المؤقت يعدّ تصاعديًا</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,29 +435,29 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>وقت اليوم تحت المؤقت</value>
+    <value>الوقت الحالي تحت المؤقت</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>مقدار:</value>
+    <value>مستوى الصوت:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
-    <value>لغة</value>
+    <value>اللغة</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>يرجى إعادة تشغيل OnlyT بعد تغيير اللغة.</value>
+    <value>يُرجى إعادة تشغيل OnlyT بعد تغيير اللغة.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>تقليل ١ متر
-Ctrl - تقليل ١٥ ثانية
-Shift - تقليل ٥ أمتار</value>
+    <value>إنقاص دقيقة
+Ctrl - إنقاص 15 ثانية
+Shift - إنقاص 5 دقائق</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>زيادة دقيقة واحدة
-Ctrl - زيادة ١٥ ثانية
-Shift - زيادة ٥ دقائق</value>
+    <value>زيادة دقيقة
+Ctrl - زيادة 15 ثانية
+Shift - زيادة 5 دقائق</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>العد التنازلي</value>
+    <value>يعدّ تنازليًا الآن</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>العد التصاعدي</value>
+    <value>يعدّ تصاعديًا الآن</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,20 +477,20 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>مُمَكَّن</value>
+    <value>مفعّل</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>مُمَكَّن</value>
+    <value>مفعّل</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>مُمَكَّن</value>
+    <value>مفعّل</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
     <value>إظهار الثواني</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>عرض الإطار</value>
+    <value>إظهار الإطار</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -502,11 +502,11 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>موقع</value>
+    <value>الموضع</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>قاع</value>
+    <value>أسفل</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,11 +518,11 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>مركز</value>
+    <value>الوسط</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>غادر</value>
+    <value>يسار</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
@@ -530,7 +530,7 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>قمة</value>
+    <value>أعلى</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,19 +542,19 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>نعم</value>
+    <value>موافق</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>تم فتح الميناء وتم الحجز</value>
+    <value>تم فتح المنفذ وحجزه</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>تعذر فتح المنفذ (انظر السجل)!</value>
+    <value>تعذّر فتح المنفذ (راجع السجل)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>تقرير التوقيت المُولّد</value>
+    <value>تم إنشاء تقرير التوقيت</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -566,15 +566,15 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>الجزء المؤقت</value>
+    <value>الجزء الانتقالي</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>الجزء التمهيدي</value>
+    <value>الجزء الافتتاحي</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>مستوى التسجيل</value>
+    <value>مستوى السجل</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>مميت</value>
+    <value>خطأ فادح</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>معلومة</value>
+    <value>معلومات</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>مطول</value>
+    <value>تفصيلي</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,7 +602,7 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>تحليل بيانات مؤقت الاجتماع</value>
+    <value>جارٍ تحليل بيانات توقيت الاجتماع</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
@@ -610,15 +610,15 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>منظر</value>
+    <value>عرض</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>صوت تلقائيا</value>
+    <value>قرع تلقائي</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>انقر لإصدار صوت الجرس</value>
+    <value>قرع الجرس</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -626,15 +626,15 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>عناصر</value>
+    <value>العناصر</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>الاتصال الهاتفي</value>
+    <value>قرص الساعة</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>قرص ورقمية</value>
+    <value>قرص الساعة ورقمي</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,35 +646,35 @@ Shift - زيادة ٥ دقائق</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>لاحظ أن الشاشة يتم التحكم فيها من خلال إعداد سطر الأوامر</value>
+    <value>ملاحظة: يتم التحكم في الشاشة عبر إعداد في سطر الأوامر</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>تدرج الخلفية المؤقت</value>
+    <value>تدرّج خلفية المؤقت</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>تدرج خلفية الساعة</value>
+    <value>تدرّج خلفية الساعة</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>إطار زمني</value>
+    <value>إطار المؤقت</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>ساعة مسطحة</value>
+    <value>ساعة مسطّحة</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>تشمل عطلة نهاية الأسبوع يوم الجمعة</value>
+    <value>نهاية الأسبوع تشمل الجمعة</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>نافذة</value>
+    <value>في نافذة</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>نافذة</value>
+    <value>في نافذة</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,11 +682,11 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>لا يمكن فتح العد التنازلي الشفاف "المُحاط بنافذة"</value>
+    <value>لا يمكن فتح العد التنازلي الشفاف "في نافذة"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>ساعة</value>
+    <value>الساعة</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
@@ -698,79 +698,79 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>انكماش على تقليل</value>
+    <value>التقليص عند التصغير</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>أساسي</value>
+    <value>رئيسية</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>لاحظ أن الإخراج تم تعيينه على NDI عبر إعداد سطر الأوامر.</value>
+    <value>ملاحظة: تم ضبط الإخراج على NDI عبر إعداد في سطر الأوامر.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>هل كان يجب عليك أن تبدأ المؤقت؟</value>
+    <value>ألم يكن عليك تشغيل المؤقت؟</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>التذكيرات المنبثقة</value>
+    <value>تذكيرات منبثقة</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>يستغرق الاجتماع {0} دقيقة إضافية</value>
+    <value>الاجتماع يتجاوز الوقت المحدد بـ {0} دقيقة</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>الاجتماع يستغرق {0} دقيقة أقل من الوقت المحدد</value>
+    <value>الاجتماع أقل من الوقت المحدد بـ {0} دقيقة</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>إشعارات التجاوز/النقص</value>
+    <value>إشعارات تجاوز الوقت/نقصه</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>الوضع المظلم</value>
+    <value>الوضع الداكن</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>يغلق</value>
+    <value>إغلاق</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>يحفظ</value>
+    <value>حفظ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>ينعش</value>
+    <value>تحديث</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>تكوين</value>
+    <value>إعداد</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>طلب الوصول</value>
+    <value>طلب الإذن</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>رفض</value>
+    <value>تجاهل</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>يبدأ الاجتماع في</value>
+    <value>يبدأ الاجتماع بعد</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>امسح ضوئيًا باستخدام جهازك المحمول لعرض ساعة الويب</value>
+    <value>امسح الرمز بجهاز محمول لعرض ساعة الويب</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>منصة:</value>
+    <value>المنصة:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>حالة:</value>
+    <value>الحالة:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -782,7 +782,7 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>تقليل الوقت (-١ دقيقة). انقر بزر الماوس الأيمن لمزيد من الخيارات.</value>
+    <value>إنقاص الوقت (-1 دقيقة). انقر بزر الماوس الأيمن لمزيد من الخيارات.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,23 +790,23 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>إظهار عداد الوقت التنازلي</value>
+    <value>إظهار مؤقت العد التنازلي</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>النسخة الجديدة متاحة</value>
+    <value>يتوفر إصدار جديد</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>إعدادات</value>
+    <value>الإعدادات</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>يساعد</value>
+    <value>مساعدة</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>انكماش إلى الوضع المضغوط</value>
+    <value>التصغير إلى الوضع المضغوط</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>مؤقت فلاش أثناء الوقت الإضافي</value>
+    <value>وميض المؤقت عند تجاوز الوقت</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>رن الجرس عند الوقت الإضافي</value>
+    <value>قرع الجرس عند تجاوز الوقت</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>مستعد</value>
+    <value>جاهز</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>جري</value>
+    <value>قيد التشغيل</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>متأخر , بعد فوات الوقت</value>
+    <value>تجاوز الوقت</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,15 +870,15 @@ Shift - زيادة ٥ دقائق</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>دقيقة</value>
+    <value>د</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>تم تكوينه</value>
+    <value>تم الإعداد</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>غير مُهيأ</value>
+    <value>لم يتم الإعداد</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - زيادة ٥ دقائق</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>كلمة اللّٰه في حياتك</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>الأسماء الكاملة لأقسام الاجتماع</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>إظهار شريط العد التنازلي أثناء مدة الإبقاء</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>مدة الإبقاء (بالثواني)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>الواجهة الكلاسيكية (مطابقة لتخطيط OnlyT الأصلي)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>استخدام تخطيط مطابق لبرنامج OnlyT الأصلي الخاص بنظام Windows فقط. تُخفى الميزات الخاصة بإصدار Avalonia.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>الانتقال إلى الجزء التالي</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>حفظ الجدول الحالي كقالب لإعادة استخدامه</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>ملف الجدول</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>إظهار زر تصدير الجدول</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>يتحكم في حجم الساعة التناظرية. ينطبق فقط على التخطيط الأفقي مع ساعة تناظرية.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>تخطيط جنبًا إلى جنب (الساعة يسارًا، المؤقت يمينًا)</value>
   </data>
 
 </root>

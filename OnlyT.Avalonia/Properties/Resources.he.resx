@@ -122,15 +122,15 @@
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>אַף לֹא אֶחָד</value>
+    <value>ללא</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>חַד סִטרִי</value>
+    <value>חד־כיווני</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>דו-כיווני</value>
+    <value>דו־כיווני</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -142,31 +142,31 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12 שעות (אפס מוביל)</value>
+    <value>12 שעות (עם אפס מוביל)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 שעות ביממה</value>
+    <value>24 שעות</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24 שעות (אפס מוביל)</value>
+    <value>24 שעות (עם אפס מוביל)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>לא ניתן היה ליצור את התיקייה {0}</value>
+    <value>לא ניתן ליצור את התיקייה {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>משך זמן מותאם</value>
+    <value>משך מותאם</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>משך זמן שונה</value>
+    <value>משך ששונה</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>משך הזמן המקורי</value>
+    <value>משך מקורי</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -177,34 +177,34 @@
     <value>אנלוגי ודיגיטלי</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>דִיגִיטָלי</value>
+    <value>דיגיטלי</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>בל אינו פעיל</value>
+    <value>הפעמון אינו פעיל</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>אמצע השבוע</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>משרד - סעיף 1</value>
+    <value>שירות - חלק 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>משרד - סעיף 2</value>
+    <value>שירות - חלק 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>משרד - סעיף 3</value>
+    <value>שירות - חלק 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>אוֹטוֹמָטִי</value>
+    <value>אוטומטי</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>מבוסס קבצים</value>
+    <value>מבוסס קובץ</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>יָדָנִי</value>
+    <value>ידני</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>שיחה מסכמת</value>
+    <value>נאום סיום</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>דברי סיכום</value>
@@ -225,39 +225,39 @@
     <value>דברי פתיחה</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>מצגות החודש</value>
+    <value>הצגות החודש</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>שיחה פומבית</value>
+    <value>נאום פומבי</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>קריאת המקרא</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>שיחת שירות</value>
+    <value>נאום שירות</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>שיחת אוצרות</value>
+    <value>נאום אוצרות</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>שיעור המצפה</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>סוֹף שָׁבוּעַ</value>
+    <value>סוף השבוע</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12 שעות (בוקר/ערב)</value>
+    <value>12 שעות (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12 שעות (אפס מוביל ו-am/pm)</value>
+    <value>12 שעות (אפס מוביל ו־am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>אַף לֹא אֶחָד</value>
+    <value>ללא</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>הגדרות אינן זמינות בזמן שהטיימר פועל!</value>
+    <value>ההגדרות אינן זמינות כשהטיימר פועל!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>הגדרות</value>
@@ -266,39 +266,39 @@
     <value>אוצרות</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>מִשׂרָד</value>
+    <value>שירות</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>חַי</value>
+    <value>חיים</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>סוֹף שָׁבוּעַ</value>
+    <value>סוף השבוע</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
     <value>ההגדרות הושבתו על ידי מנהל המערכת!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>משרד - סעיף 4</value>
+    <value>שירות - חלק 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>ביקור במעגל</value>
+    <value>ביקור משגיח הנפה</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>סגירת ספירה לאחור</value>
+    <value>סגור ספירה לאחור</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>עֶזרָה</value>
+    <value>עזרה</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[ביקור במעגל]</value>
+    <value>[ביקור משגיח הנפה]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>גרסה חדשה זמינה!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>רָאשִׁי</value>
+    <value>ראשי</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,23 +306,23 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>מצב אדפטיבי באמצע השבוע</value>
+    <value>מצב מסתגל לאסיפת אמצע השבוע</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>מצב אדפטיבי לסוף השבוע</value>
+    <value>מצב מסתגל לאסיפת סוף השבוע</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>אפשר ספירה כלפי מעלה</value>
+    <value>אפשר מעבר לספירה עולה</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>תמיד למעלה</value>
+    <value>תמיד עליון</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>אפליקציות מרחוק</value>
+    <value>יישומים מרוחקים</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -330,7 +330,7 @@
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>פַּעֲמוֹן</value>
+    <value>פעמון</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
@@ -338,14 +338,14 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ספירה לאחור לפגישה</value>
+    <value>ספירה לאחור לאסיפה</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>החלפת ביקור במעגל</value>
+    <value>מתג ביקור משגיח הנפה</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>פורמט שעון דיגיטלי</value>
+    <value>תבנית שעון דיגיטלי</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>מופעל</value>
@@ -359,11 +359,11 @@
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>פְּגִישָׁה</value>
+    <value>אסיפה</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>זמני תחילת פגישה (1 בכל שורה)</value>
+    <value>שעות תחילת האסיפה (אחת בכל שורה)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>שונות</value>
@@ -373,22 +373,22 @@
     <value>צג</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>הצג מצביע עכבר</value>
+    <value>הצג את סמן העכבר</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>שים כל שעת התחלה בשורה חדשה.</value>
+    <value>כתוב כל שעת התחלה בשורה נפרדת.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>השתמשו בכל פורמט זמן שתרצו!</value>
+    <value>אפשר להשתמש בכל תבנית שעה!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ניתן לכלול יום, לדוגמה "חמישי 19:15"</value>
+    <value>ניתן לציין גם יום, לדוגמה "יום ה׳ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>הערות:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>פתח יציאה</value>
+    <value>פתח פורט</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>זמן סטודנטים מתמיד</value>
+    <value>השאר את זמן התלמיד בתצוגה</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>משך השיחה המתמשך</value>
+    <value>השארת זמן החלק בתצוגה</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>נָמָל</value>
+    <value>פורט</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -412,52 +412,52 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>הצגת סקטור בשעון אנלוגי</value>
+    <value>הצג מקטע בשעון האנלוגי</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
     <value>רוחב מסך מפוצל:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>מִבְחָן</value>
+    <value>בדיקה</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>מצער</value>
+    <value>קצב מוגבל</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>טיימר סופר למעלה</value>
+    <value>הטיימר סופר כלפי מעלה</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>חלון טיימר</value>
+    <value>חלון הטיימר</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>שעת היום תחת טיימר</value>
+    <value>השעה מתחת לטיימר</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>כֶּרֶך:</value>
+    <value>עוצמת קול:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
-    <value>שָׂפָה</value>
+    <value>שפה</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>אנא הפעל מחדש את OnlyT לאחר שינוי השפה.</value>
+    <value>יש להפעיל מחדש את OnlyT לאחר שינוי השפה.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>הקטן ב-1 דקה
-Ctrl - הקטן ב-15 שניות
-Shift - הקטן ב-5 דקה</value>
+    <value>הפחת דקה
+Ctrl - הפחת 15 שניות
+Shift - הפחת 5 דקות</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>הגדלה ב-1 מטר
-Ctrl - הגדלה ב-15 שניות
-Shift - הגדלה ב-5 מטר</value>
+    <value>הוסף דקה
+Ctrl - הוסף 15 שניות
+Shift - הוסף 5 דקות</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>ספירה לאחור</value>
+    <value>סופר כעת לאחור</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>סופרים למעלה</value>
+    <value>סופר כעת כלפי מעלה</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -494,7 +494,7 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>מסגרת השעון</value>
+    <value>מסגרת שעון</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -502,11 +502,11 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>מִקוּם</value>
+    <value>מיקום</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>תַחתִית</value>
+    <value>למטה</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,19 +518,19 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>מֶרְכָּז</value>
+    <value>מרכז</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>שְׁמֹאל</value>
+    <value>שמאל</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>יָמִינָה</value>
+    <value>ימין</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>רֹאשׁ</value>
+    <value>למעלה</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,27 +542,27 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>בְּסֵדֶר</value>
+    <value>אישור</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>הנמל נפתח וההזמנה בוצעה</value>
+    <value>הפורט נפתח וההקצאה נרשמה</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>לא ניתן היה לפתוח את הפורט (ראה יומן)!</value>
+    <value>לא ניתן לפתוח את הפורט (ראה יומן)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>דוח תזמון שנוצר</value>
+    <value>דוח התזמון נוצר</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>יצירת דוחות</value>
+    <value>צור דוחות</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>קטע מסכם</value>
+    <value>קטע סיום</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
@@ -570,39 +570,39 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>קטע מבוא</value>
+    <value>קטע פתיחה</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>רמת רישום</value>
+    <value>רמת רישום ביומן</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>לְנַפּוֹת</value>
+    <value>ניפוי באגים</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>שְׁגִיאָה</value>
+    <value>שגיאה</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>קָטלָנִי</value>
+    <value>קריטי</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>מֵידָע</value>
+    <value>מידע</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>מִלוּלִי</value>
+    <value>מפורט</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>אַזהָרָה</value>
+    <value>אזהרה</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>ניתוח נתוני טיימר פגישות</value>
+    <value>מנתח את נתוני התזמון של האסיפה</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
@@ -610,35 +610,35 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>נוֹף</value>
+    <value>הצג</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>צליל אוטומטי</value>
+    <value>צלצול אוטומטי</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>לחץ כדי להשמיע את הצלצול</value>
+    <value>צלצל בפעמון</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>משך זמן (דקות)</value>
+    <value>משך (דקות)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>אלמנטים</value>
+    <value>רכיבים</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>חוּגָה</value>
+    <value>לוח שעון</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>חיוג ודיגיטלי</value>
+    <value>לוח שעון ודיגיטלי</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>דִיגִיטָלי</value>
+    <value>דיגיטלי</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -646,15 +646,15 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>שים לב שהצג נשלט על ידי הגדרה בשורת הפקודה</value>
+    <value>שים לב: הצג נקבע על ידי הגדרה בשורת הפקודה</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>רקע של טיימר</value>
+    <value>מעבר צבע ברקע הטיימר</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>רקע שעון, גרדיאנט</value>
+    <value>מעבר צבע ברקע השעון</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
@@ -666,15 +666,15 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>סוף השבוע כולל יום שישי</value>
+    <value>סוף השבוע כולל את יום שישי</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>חלון</value>
+    <value>בחלון</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>חלון</value>
+    <value>בחלון</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -686,7 +686,7 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>שָׁעוֹן</value>
+    <value>שעון</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
@@ -698,19 +698,19 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>כיווץ בעת מזעור</value>
+    <value>כווץ בעת מזעור</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>יְסוֹדִי</value>
+    <value>ראשי</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>שים לב שהפלט מוגדר ל-NDI דרך הגדרת שורת פקודה.</value>
+    <value>שים לב: הפלט מוגדר ל־NDI באמצעות הגדרה בשורת הפקודה.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>האם היית צריך להפעיל את הטיימר?</value>
+    <value>האם היה עליך להפעיל את הטיימר?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>הפגישה מתמשכת ב-{0} דקות נוספות</value>
+    <value>האסיפה חורגת מהזמן ב־{0} דקות</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>הפגישה מתקיימת ב-{0} דקות פחות זמן</value>
+    <value>האסיפה מקדימה את הזמן ב־{0} דקות</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>התראות חריגה/חסרה</value>
+    <value>התראות על חריגה/הקדמה בזמן</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,43 +734,43 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>לִסְגוֹר</value>
+    <value>סגור</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>לְהַצִיל</value>
+    <value>שמור</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>לְרַעֲנֵן</value>
+    <value>רענן</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>הגדרות</value>
+    <value>הגדר</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>בקשת גישה</value>
+    <value>בקש גישה</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>לְפַטֵר</value>
+    <value>התעלם</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>הפגישה מתחילה בעוד</value>
+    <value>האסיפה תתחיל בעוד</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>סרוק עם מכשיר נייד כדי לצפות בשעון אינטרנט</value>
+    <value>סרוק במכשיר נייד כדי לצפות בשעון האינטרנט</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>פּלַטפוֹרמָה:</value>
+    <value>פלטפורמה:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>סטָטוּס:</value>
+    <value>סטטוס:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>הגדל את הזמן (+1 דקה). לחץ לחיצה ימנית לקבלת אפשרויות נוספות.</value>
+    <value>הוסף זמן (+1 דק׳). לחיצה ימנית לאפשרויות נוספות.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>הקטן את הזמן (דקה אחת-). לחץ לחיצה ימנית לקבלת אפשרויות נוספות.</value>
+    <value>הפחת זמן (-1 דק׳). לחיצה ימנית לאפשרויות נוספות.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>יצירת דוח תזמון (PDF)</value>
+    <value>צור דוח תזמון (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>עֶזרָה</value>
+    <value>עזרה</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>כיווץ למצב קומפקטי</value>
+    <value>כווץ למצב מצומצם</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -814,7 +814,7 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>דקה אחת</value>
+    <value>+1 דקה</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
@@ -822,11 +822,11 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>15 שניות</value>
+    <value>-15 שניות</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>דקה אחת</value>
+    <value>-1 דקה</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>טיימר פלאש במהלך הארכה</value>
+    <value>הבהוב הטיימר בחריגה מהזמן</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>צלצול בפעמון בעת הארכה</value>
+    <value>צלצול בחריגה מהזמן</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>מוּכָן</value>
+    <value>מוכן</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>רִיצָה</value>
+    <value>פועל</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,11 +858,11 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>שָׁעוֹת נוֹסָפוֹת</value>
+    <value>חריגה מהזמן</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>נֶעצָר</value>
+    <value>נעצר</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -870,7 +870,7 @@ Shift - הגדלה ב-5 מטר</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>דקות</value>
+    <value>דק׳</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - הגדלה ב-5 מטר</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>לחיות כמשיחיים</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>שמות מלאים לחלקי האסיפה</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>הצג פס ספירה לאחור בזמן השארת התצוגה</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>משך השארת התצוגה (שניות)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ממשק קלאסי (כמו הפריסה המקורית של OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>שימוש בפריסה התואמת את OnlyT המקורי, שפעל רק ב־Windows. תכונות הייחודיות ל־Avalonia מוסתרות.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>דלג לחלק הבא</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>דק׳</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>שמור את התוכנית הנוכחית כתבנית לשימוש חוזר</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>קובץ תוכנית</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>הצג לחצן לייצוא התוכנית</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>קובע את גודל השעון האנלוגי. חל רק בפריסה אופקית עם שעון אנלוגי.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>שעון וטיימר זה לצד זה (שעון משמאל, טיימר מימין)</value>
   </data>
 
 </root>

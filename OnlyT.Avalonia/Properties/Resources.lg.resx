@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Bell akola nnyo</value>
+    <value>Ekide kikola</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,85 +126,85 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Ekkubo erimu</value>
+    <value>Ku ludda lumu</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Amakubo abiri</value>
+    <value>Ku njuyi zombi</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Enkyusa ya pulogulaamu {0}</value>
+    <value>Enkyusa ya programu {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>essaawa 12</value>
+    <value>Essaawa 12</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>essaawa 12 (ekulembedde ziro) .</value>
+    <value>Essaawa 12 (nga waliwo ziro mu maaso)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>essaawa 24</value>
+    <value>Essaawa 24</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>essaawa 24 (ekulembedde ziro) .</value>
+    <value>Essaawa 24 (nga waliwo ziro mu maaso)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Teyasobodde kutondawo folda {0}.</value>
+    <value>Tekisobose kukola folda {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Ebbanga erikyusiddwa</value>
+    <value>Ebbanga eryatereezeddwa</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Ebbanga erikyusiddwa</value>
+    <value>Ebbanga eryakyusiddwa</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Ebbanga ery’olubereberye</value>
+    <value>Ebbanga eryasooka</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>analogu .</value>
+    <value>Ey’emikono</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue ne Digital</value>
+    <value>Ey’emikono ne digito</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digital .</value>
+    <value>Digito</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>Bell takola</value>
+    <value>Ekide tekikola</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
     <value>Wakati mu wiiki</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Obuweereza - Ekintu 1</value>
+    <value>Obuweereza — Ekitundu 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Obuweereza - Ekintu 2</value>
+    <value>Obuweereza — Ekitundu 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Obuweereza - Ekintu 3</value>
+    <value>Obuweereza — Ekitundu 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Otomatiki</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Okusinziira ku fayiro</value>
+    <value>Okuva mu fayiro</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Maniyo</value>
+    <value>Mu ngalo</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Okwogera Okumaliriza</value>
+    <value>Emboozi y’Okufundikira</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Okufundikira</value>
@@ -216,19 +216,19 @@
     <value>Eby’Obugagga eby’eby’Omwoyo</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Obulamu - Ekitundu 1</value>
+    <value>Obulamu bw’Ekikristaayo — Ekitundu 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Obulamu - Ekitundu 2</value>
+    <value>Obulamu bw’Ekikristaayo — Ekitundu 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Ennyanjula</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Enyanjula z'omwezi guno</value>
+    <value>Ennyanjula z’Omwezi Guno</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Okwogera mu Lujjudde</value>
+    <value>Emboozi ya Bonna</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
     <value>Okusoma Bayibuli</value>
@@ -237,205 +237,205 @@
     <value>Emboozi y’Obuweereza</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Okwogera ku by’obugagga</value>
+    <value>Okwogera: Ekigambo kya Katonda</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Omunaala gw’Omukuumi ogw’Okusoma</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Wikendi</value>
+    <value>Ku wiikendi</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>essaawa 12 (okumakya/ekiro)</value>
+    <value>Essaawa 12 (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>essaawa 12 (okukulembera zero &amp; am/pm)</value>
+    <value>Essaawa 12 (ziro mu maaso ne am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Tewali</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Ensengeka teziriwo nga timer ekola!</value>
+    <value>Ensengeka teziggulwa ng’ekipima obudde kikola!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Ensengeka</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Eby’obugagga</value>
+    <value>Ekigambo kya Katonda</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
     <value>Obuweereza</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Okubeera</value>
+    <value>Obulamu bw’Ekikristaayo</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Wikendi</value>
+    <value>Wiikendi</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Ensengeka ziremeddwa omuddukanya!</value>
+    <value>Ensengeka zaggaddwa omuddukanya!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Obuweereza - Ekintu 4</value>
+    <value>Obuweereza — Ekitundu 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Okukyalira ekitundu</value>
+    <value>Okukyala kw’Omulabirizi Akyalira Ebibiina</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>CLOSE COUNTDOWN OKUGGALAWO</value>
+    <value>GGALAWO OKUBALA OKUDDA EMABEGA</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Okuyamba</value>
+    <value>Obuyambi</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[okukyalira circuit].</value>
+    <value>[okukyala kw’omulabirizi akyalira ebibiina]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Enkyusa empya eriwo!</value>
+    <value>Waliwo enkyusa empya!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>KIKULU</value>
+    <value>EBIKULU</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Koodi y'okuyingira</value>
+    <value>Koodi y’okuyingira</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Enkola y’okukyusakyusa mu makkati ga wiiki</value>
+    <value>Enkola y’okutereeza obudde mu lukuŋŋaana olwa wakati mu wiiki</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Enkola y’okukyusakyusa ku wiikendi</value>
+    <value>Enkola y’okutereeza obudde mu lukuŋŋaana olwa wiikendi</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Kiriza okukyusakyusa okubala waggulu</value>
+    <value>Kkiriza okukyusa ku kubala okweyongera</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Bulijjo ku ntikko</value>
+    <value>Bulijjo kibeere waggulu w’amadirisa amalala</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>APPS EZ'Ewala</value>
+    <value>APPU EZ’OKUFUGA OKUVA EWALA</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>MODE YA AUTOMATIC</value>
+    <value>ENKOLA YA OTOMATIKI</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>Akagombe .</value>
+    <value>EKIDE</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>ESSAAWA YA WEB</value>
+    <value>ESSAAWA Y’OKU MUKUTU</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>OLUKUNG'AANA OKUBALA OKUDDAMU</value>
+    <value>OKUBALA OKUDDA EMABEGA OKUTUUKA KU LUKUŊŊAANA</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Okukyalira circuit toggle</value>
+    <value>Ekikyusa eky’okukyala kw’omulabirizi akyalira ebibiina</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Enkola y’essaawa ya digito</value>
+    <value>Engeri essaawa ya digito gy’eragibwamu</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Kisobozeseddwa</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Mode y’essaawa ey’oku ssirini enzijuvu</value>
+    <value>Essaawa ku ssirini yonna</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>Endagiriro ya IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Okusisinkana</value>
+    <value>Olukuŋŋaana</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Ebiseera by'okutandika enkiiko (1 buli layini)</value>
+    <value>Essaawa enkuŋŋaana kwe zitandikira (emu ku buli layini)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>EBINTU BY'ENJAWULO</value>
+    <value>EBIRALA</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Okukebera</value>
+    <value>Ssirini</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Laga omusono gwa mouse</value>
+    <value>Laga akasonga k’emmese</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Buli ssaawa y’okutandika giteeke ku layini empya.</value>
+    <value>Buli ssaawa y’okutandika giteeke ku layini yaayo.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Kozesa enkola yonna ey'obudde gy'oyagala!</value>
+    <value>Kozesa engeri yonna gy’oyagala ey’okuwandiika essaawa!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Okwesalirawo ssaako olunaku, e.g. "Lwakuna 19:15".</value>
+    <value>Osobola n’okuteekako olunaku, okugeza “Lw4 19:15”</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Ebiwandiiko:</value>
+    <value>Weetegereze:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>OMWALO GGULAWO</value>
+    <value>GGULAWO POOTI</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Omutindo</value>
+    <value>Enkola</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Gumiikiriza obudde bw’abayizi</value>
+    <value>Obudde bw’omuyizi busigale nga bulabika</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Gumiikiriza ebbanga ly’okwogera</value>
+    <value>Obudde bw’ekitundu busigale nga bulabika</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Omwaalo</value>
+    <value>Pooti</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>OKUTWALA OKW’Ewala</value>
+    <value>OKUYINGIRA OKUVA EWALA</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Laga sector ku ssaawa ya analog</value>
+    <value>Laga ekitundu ekirimu langi ku ssaawa ey’emikono</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
     <value>Obugazi bwa ssirini eyawuddwamu:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>EKIGEZO</value>
+    <value>GEZESA</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Okusiba omukka</value>
+    <value>Kiriko ekkomo</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Timer ebala waggulu</value>
+    <value>Ekipima obudde kibala nga kyeyongera</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>EDDISA LY'EKISEERA</value>
+    <value>EDDIRISA LY’EKIPIMA OBUDDE</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Obudde bw'olunaku wansi w'ekiseera</value>
+    <value>Essaawa eriwo kati wansi w’ekipima obudde</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
@@ -446,34 +446,34 @@
     <value>Olulimi</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Nsaba oddemu okutandika OnlyT oluvannyuma lw'okukyusa olulimi.</value>
+    <value>Bw’omala okukyusa olulimi, ggalawo OnlyT oddemu ogiggulewo.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Okukendeeza ku 1m
-Ctrl - Okukendeeza ku 15s
-Shift - Okukendeeza ku 5m</value>
+    <value>Kendeezaako ddak. 1
+Ctrl - Kendeezaako sek. 15
+Shift - Kendeezaako ddak. 5</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Yongera ku 1m
-Ctrl - Okwongera ku 15s
-Shift - Yongera ku 5m</value>
+    <value>Yongerako ddak. 1
+Ctrl - Yongerako sek. 15
+Shift - Yongerako ddak. 5</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Omutindo gw’omu ngalo</value>
+    <value>Enkola ey’omu ngalo</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Okubala wansi</value>
+    <value>Kati kibala nga kidda emabega</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Okubala waggulu</value>
+    <value>Kati kibala nga kyeyongera</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} sekondi</value>
+    <value>Sekondi {0}</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
@@ -490,15 +490,15 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Laga fuleemu</value>
+    <value>Laga olukugiro</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Fuleemu y’essaawa</value>
+    <value>Olukugiro lw’essaawa</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Omutendera gwa zoom:</value>
+    <value>Obunene:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -518,15 +518,15 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Mu makati</value>
+    <value>Wakati</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Kkono</value>
+    <value>Ku kkono</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Kituufu</value>
+    <value>Ku ddyo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
@@ -542,43 +542,43 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>KALE</value>
+    <value>Kale</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Omwalo gwaggulwawo era reservation nebakolebwa</value>
+    <value>Pooti eguddwawo era etegekeddwa</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>Teyasobodde kuggulawo mwalo (laba log)!</value>
+    <value>Pooti tesobodde kuggulwawo (laba ebiwandiiko by’ensobi)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Lipoota y’ebiseera eyakolebwa</value>
+    <value>Lipoota y’obudde ekoleddwa</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Okukola lipoota</value>
+    <value>Kola lipoota</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Ekitundu ekifundikira</value>
+    <value>Ekitundu eky’okufundikira</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Ekitundu eky’ekiseera</value>
+    <value>Ekitundu eky’omu makkati</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Ekitundu eky’Ennyanjula</value>
+    <value>Ekitundu eky’okutandika</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Omutendera gw’okutema emiti</value>
+    <value>Omutendera gw’okuwandiika ebibaddewo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Okulongoosa obuzibu</value>
+    <value>Okunoonya ensobi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Ekintu ekitta</value>
+    <value>Ensobi ey’amaanyi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Ebigambo ebingi</value>
+    <value>Byonna mu bujjuvu</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,87 +602,87 @@ Shift - Yongera ku 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Okwekenenya data y’ekiseera ky’enkiiko</value>
+    <value>Kyekenneenya ebikwata ku budde bw’olukuŋŋaana</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Lipoota TEYAkoleddwa!</value>
+    <value>Lipoota TEKOLEDDWA!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>ENDOWOOZA</value>
+    <value>LABA</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Amaloboozi mu ngeri ey’otoma</value>
+    <value>Kivuge ku bwakyo</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Nyiga okukuba akagombe</value>
+    <value>Kuba ekide</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Ebbanga (eddakiika) .</value>
+    <value>Ebbanga (ddakiika)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Ebintu ebikozesebwa (Elements).</value>
+    <value>Ebirimu</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Kuba essimu</value>
+    <value>Obwenyi bw’essaawa</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial ne digito</value>
+    <value>Obwenyi bw’essaawa ne digito</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digital .</value>
+    <value>Digito</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Ennyuma entangaavu</value>
+    <value>Emabega entangaavu</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Weetegereze nti monitor efugibwa ensengeka ya command-line</value>
+    <value>Weetegereze nti ssirini efugibwa ensengeka eyateekebwa ku layini y’ebiragiro</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Timer mugongo gradient</value>
+    <value>Langi ez’emabega w’ekipima obudde</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Essaawa emabega gradient</value>
+    <value>Langi ez’emabega w’essaawa</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Fuleemu y’ekiseera</value>
+    <value>Olukugiro lw’ekipima obudde</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Essaawa ya fulaati</value>
+    <value>Essaawa eseeteevu</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Wiikendi mulimu n’Olwokutaano</value>
+    <value>Wiikendi erimu n’Olwokutaano</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Eriko amadirisa</value>
+    <value>Mu ddirisa</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Eriko amadirisa</value>
+    <value>Mu ddirisa</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Ggalawo Eddirisa ly’Okubala Okudda emabega</value>
+    <value>Ggalawo eddirisa ly’okubala okudda emabega</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Tesobola kuggulawo "windowed" countdown entangaavu</value>
+    <value>Okubala okudda emabega okulina emabega entangaavu tekusobola kuggulirwa mu ddirisa</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,111 +690,111 @@ Shift - Yongera ku 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Ebipimo by’obudde</value>
+    <value>Ebipima obudde</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>Offline...</value>
+    <value>tekiyungiddwa...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Shrink ku minimize</value>
+    <value>Kikendeeze obunene ng’okiwanula</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>pulayimale</value>
+    <value>enkulu</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Weetegereze nti ebifulumizibwa biteekebwa ku NDI nga biyita mu nteekateeka ya layini y'ekiragiro.</value>
+    <value>Weetegereze nti ebifuluma biteekeddwa ku NDI nga biyita mu nsengeka ya layini y’ebiragiro.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Wandibadde otandise ekiseera ekigere?</value>
+    <value>Wandibadde otandise ekipima obudde?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ebijjukizo ebifuluma</value>
+    <value>Ebijjukizo ebivaayo</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Olukiiko lugenda mu maaso n'eddakiika {0} ez'essaawa ezisukka mu</value>
+    <value>Olukuŋŋaana lususseeko obudde bwalwo ddakiika {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Olukiiko lutambula eddakiika {0} wansi w'obudde</value>
+    <value>Olukuŋŋaana luli mu maaso g’obudde ddakiika {0}</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Okumanyisibwa okusukka/okusukkuluma</value>
+    <value>Obubaka ku kusukka oba okusigaza obudde</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Mode y’ekizikiza</value>
+    <value>Enkola ey’ekizikiza</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Okuggalawo</value>
+    <value>Ggalawo</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Okununula</value>
+    <value>Tereka</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Okuzza obuggya</value>
+    <value>Zza buggya</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Okutegeka</value>
+    <value>Tegeka</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Saba Okuyingira</value>
+    <value>Saba olukusa</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Okusiibula</value>
+    <value>Ggyawo</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Olukiiko lutandikira mu...</value>
+    <value>Olukuŋŋaana lutandika mu</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Sikaani n'ekyuma eky'omu ngalo okulaba essaawa ya web</value>
+    <value>Sikaani n’essimu okulaba essaawa y’oku mukutu</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Ekifo:</value>
+    <value>Enkola ya kompyuta:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Ennyimirira:</value>
+    <value>Embeera:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Omutindo gwa Screen Omujjuvu</value>
+    <value>Ssirini yonna</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Yongera ku budde (+1 min). Koona ku ddyo omanye ebirala by’osobola okulonda.</value>
+    <value>Yongerako obudde (+1 ddak.). Nyiga ku ddyo okulaba ebirala.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Kendeeza ku budde (-1 min). Koona ku ddyo omanye ebirala by’osobola okulonda.</value>
+    <value>Kendeezaako obudde (-1 ddak.). Nyiga ku ddyo okulaba ebirala.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Okukola lipoota y’ebiseera (PDF) .</value>
+    <value>Kola lipoota y’obudde (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Laga ekiseera ky’okubala okudda emabega</value>
+    <value>Laga ekipima obudde ekibala okudda emabega</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Enkyusa empya eriwo</value>
+    <value>Waliwo enkyusa empya</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,79 +802,79 @@ Shift - Yongera ku 5m</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Okuyamba</value>
+    <value>Obuyambi</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Okukendeeza ku mbeera ya compact</value>
+    <value>Kifuule kitono</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 sekondi</value>
+    <value>+sekondi 15</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+eddakiika emu</value>
+    <value>+ddakiika 1</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+eddakiika 5</value>
+    <value>+ddakiika 5</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-Sikonda 15</value>
+    <value>-sekondi 15</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-Eddakiika emu</value>
+    <value>-ddakiika 1</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-Eddakiika 5</value>
+    <value>-ddakiika 5</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>OKUKOLA KU NETWORK</value>
+    <value>OLUKUSA KU NETIWAAKI</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer Mu kiseera ky'okukola Overtime</value>
+    <value>Ekipima obudde kimyanse ng’obudde busussiddwa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell Nga Overtime</value>
+    <value>Kuba ekide ng’obudde busussiddwa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Okwetegeka</value>
+    <value>Kyetegese</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Okudduka</value>
+    <value>Kikola</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Yayimirirako katono</value>
+    <value>Kiyimiriddeko</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>Obudde busussiddwa</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Yayimiridde</value>
+    <value>Kiyimiriziddwa</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Yingiza koodi y'okuyingira...</value>
+    <value>Yingiza koodi y’okuyingira...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>ddak.</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Etegekeddwa</value>
+    <value>Kitegekeddwa</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Yongera ku 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>OBULAMU BW’EKIKRISTAAYO</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Amannya amajjuvu ag’ebitundu by’olukuŋŋaana</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Laga layini eraga ebbanga erisigaddeyo</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Ebbanga ly’okusigala nga kirabika (sekondi)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Endabika ey’edda (nga OnlyT eyasooka)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Kozesa endabika efaanana OnlyT eyasooka eyali eya Windows yokka. Ebintu ebiri mu Avalonia yokka bikwekebwa.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Genda ku kitundu ekiddako</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Ddak.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Tereka</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Tereka enteekateeka eriwo kati osobole okugiddamu okugikozesa</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fayiro y’enteekateeka</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Laga eppeesa ly’okufulumya enteekateeka</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Kitereeza obunene bw’essaawa ey’emikono. Kikola wokka ng’essaawa ey’emikono eri ku mabbali g’ekipima obudde.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Essaawa n’ekipima obudde biri ku mabbali (essaawa ku kkono, ekipima obudde ku ddyo)</value>
   </data>
 
 </root>
