@@ -207,13 +207,13 @@
     <value>མཇུག་སྡོམ་གཏམ་བཤད</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>མཇུག་སྡོམ་མཆན་འགྲེལ།</value>
+    <value>མཇུག་སྡོམ་གྱི་གཏམ</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>ཚོགས་སྡེ་ཡི་ཤུའི་གསུང་རབ་ཞིབ་འཇུག།</value>
+    <value>ཚོགས་པའི་དམ་པའི་གསུང་རབ་ཉམས་ཞིབ</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>ཆོས་ཀྱི་རིན་པོ་ཆེས།</value>
+    <value>རིན་ཐང་ཆེ་བའི་ནོར་བུ</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
     <value>འཚོ་བ - ཆ་ཤས་ 1</value>
@@ -222,7 +222,7 @@
     <value>འཚོ་བ - ཆ་ཤས་ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>ཁ་ཕྱེ་བའི་མཆན་འགྲེལ།</value>
+    <value>འགོ་འཛུགས་ཀྱི་གཏམ</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
     <value>ཟླ་བ་འདིའི་ངོ་སྤྲོད་བྱེད་སྟངས</value>
@@ -231,7 +231,7 @@
     <value>མང་ཚོགས་གཏམ་བཤད</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>བཀའ་འགྱུར་ཀློག་པ།</value>
+    <value>དམ་པའི་གསུང་རབ་ཀློག་འདོན</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
     <value>ཞབས་ཞུའི་གཏམ་བཤད</value>
@@ -240,7 +240,7 @@
     <value>གཅེས་ནོར་གཏམ་བཤད</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>བལྟ་རྟོག་ཁང་ཞིབ་འཇུག།</value>
+    <value>ལྟ་མཁར་ཉམས་ཞིབ</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
     <value>གཟའ་མཇུག</value>
@@ -919,6 +919,15 @@ Shift - སྐར་མ་ 5 སྣོན</value>
   </data>
   <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
     <value>ཆུ་ཚོད་གཤིབ་སྒྲིག་བཀོད་པ (ཆུ་ཚོད་གཡོན་དང་དུས་ཚོད་རྩིས་ཆས་གཡས)</value>
+  </data>
+  <data name="SECTION_TREASURES_FULL" xml:space="preserve">
+    <value>དཀོན་མཆོག་གི་གསུང་ལས་རྙེད་པའི་གཅེས་ནོར</value>
+  </data>
+  <data name="SECTION_MINISTRY_FULL" xml:space="preserve">
+    <value>གཏམ་བཟང་སྤེལ་བའི་ལག་རྩལ་ཡར་རྒྱས་གཏོང</value>
+  </data>
+  <data name="SECTION_LIVING_FULL" xml:space="preserve">
+    <value>ཡེ་ཤུའི་རྗེས་འབྲང་བ་ལྟར་འཚོ་བ་སྐྱེལ</value>
   </data>
 
 </root>

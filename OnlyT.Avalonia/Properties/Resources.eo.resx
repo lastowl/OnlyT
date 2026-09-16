@@ -134,7 +134,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Programara versio {0}</value>
+    <value>Programversio {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -142,7 +142,7 @@
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-hora (antaŭa nulo)</value>
+    <value>12-hora (kun antaŭa nulo)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
@@ -150,11 +150,11 @@
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-hora (antaŭa nulo)</value>
+    <value>24-hora (kun antaŭa nulo)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Ne eblis krei dosierujon {0}</value>
+    <value>Ne eblis krei la dosierujon {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
@@ -166,7 +166,7 @@
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Origina daŭro</value>
+    <value>Originala daŭro</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -174,7 +174,7 @@
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analoga kaj Cifereca</value>
+    <value>Analoga kaj cifereca</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Cifereca</value>
@@ -183,81 +183,81 @@
     <value>Sonorilo estas neaktiva</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Mezsemajno</value>
+    <value>Semajnmezo</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministerio - Ero 1</value>
+    <value>Predikado - ero 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministerio - Ero 2</value>
+    <value>Predikado - ero 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministerio - Ero 3</value>
+    <value>Predikado - ero 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Aŭtomata</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Dosier-bazita</value>
+    <value>Laŭ dosiero</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Manlibro</value>
+    <value>Mana</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Fina Parolado</value>
+    <value>Fina parolado</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Finaj Komentoj</value>
+    <value>Finaj komentoj</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Bibliostudo de la Parokanaro</value>
+    <value>Kongregacia biblia studo</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Spiritaj Gemoj</value>
+    <value>Spiritaj gemoj</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Vivado - Parto 1</value>
+    <value>Kristana vivo - parto 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Vivado - Parto 2</value>
+    <value>Kristana vivo - parto 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Komencaj Komentoj</value>
+    <value>Enkondukaj komentoj</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Prezentoj de ĉi tiu monato</value>
+    <value>Ĉi-monataj prezentoj</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Publika Babilado</value>
+    <value>Publika parolado</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Bibliolegado</value>
+    <value>Biblia legado</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Serva Babilado</value>
+    <value>Serva parolado</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Trezoroj Parolas</value>
+    <value>Parolado de Trezoroj</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Studo pri Gardoturo</value>
+    <value>Studo de La Gardoturo</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
     <value>Semajnfino</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-hora (matene/posttagmeze)</value>
+    <value>12-hora (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-hora (antaŭa nulo kaj matene/posttagmeze)</value>
+    <value>12-hora (antaŭa nulo kaj am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>Neniu</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Agordoj ne haveblas dum la tempigilo funkcias!</value>
+    <value>Agordoj ne disponeblas dum la tempigilo funkcias!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Agordoj</value>
@@ -266,39 +266,39 @@
     <value>Trezoroj</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministerio</value>
+    <value>Predikado</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Vivado</value>
+    <value>Kristana vivo</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Semajnfino</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Agordoj malŝaltitaj de administranto!</value>
+    <value>Agordoj malebligitaj de la administranto!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministerio - Ero 4</value>
+    <value>Predikado - ero 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Cirkvita vizito</value>
+    <value>Vizito de cirkvita kontrolanto</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>FERMI RETRONOMBRADO</value>
+    <value>FERMI RETRONOMBRADON</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Helpu</value>
+    <value>Helpo</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[cirkvita vizito]</value>
+    <value>[vizito de cirkvita kontrolanto]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>Nova versio havebla!</value>
+    <value>Nova versio disponeblas!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>Ĉefa</value>
+    <value>ĈEFAJ AGORDOJ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,15 +306,15 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Mezsemajna adapta reĝimo</value>
+    <value>Adapta reĝimo por semajnmeza kunveno</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Semajnfina adapta reĝimo</value>
+    <value>Adapta reĝimo por semajnfina kunveno</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Permesi ŝaltilon de suprenkalkulo</value>
+    <value>Permesi ŝanĝi al supren-nombrado</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,7 +322,7 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>MALPROKSIMAJ APLIKAĴOJ</value>
+    <value>FORAJ APLIKAĴOJ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -334,25 +334,25 @@
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>TTT-HORLOĜO</value>
+    <value>RETA HORLOĜO</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>KUNVENA RETRONOMBRADO</value>
+    <value>RETRONOMBRADO ANTAŬ KUNVENO</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Ŝalti/ŝalti cirkvitviziton</value>
+    <value>Ŝaltilo por vizito de cirkvita kontrolanto</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Cifereca horloĝa formato</value>
+    <value>Formato de cifereca horloĝo</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>Ebligita</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Plenekrana horloĝreĝimo</value>
+    <value>Plenekrana horloĝa reĝimo</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP-adreso</value>
@@ -363,32 +363,32 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Komencaj tempoj de kunvenoj (1 por linio)</value>
+    <value>Komenchoroj de kunvenoj (po unu en linio)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>DIVERSAĴOJ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Monitoro</value>
+    <value>Ekrano</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
     <value>Montri musmontrilon</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Metu ĉiun komenctempon sur novan linion.</value>
+    <value>Metu ĉiun komenchoron en novan linion.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Uzu ajnan tempoformaton, kiun vi ŝatas!</value>
+    <value>Uzu kiun ajn horformaton vi volas!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Laŭvole inkluzivi tagon, ekz. "Ĵaŭ 19:15"</value>
+    <value>Laŭvole aldonu tagon, ekz. "ĵa 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Notoj:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>MALFERMA HAVENO</value>
+    <value>MALFERMI PORDON</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,15 +396,15 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Daŭrigi studentan tempon</value>
+    <value>Plu montri la tempon de lernanto</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Daŭrigo de parolado</value>
+    <value>Plu montri la tempon de parolado</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Haveno</value>
+    <value>Pordo</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -419,11 +419,11 @@
     <value>Larĝo de dividita ekrano:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TESTO</value>
+    <value>TESTI</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Strangolita</value>
+    <value>Bremsita</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
@@ -431,33 +431,33 @@
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TEMPIGILO-FENESTRO</value>
+    <value>FENESTRO DE TEMPIGILO</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Tempo de la tago sub tempmezurilo</value>
+    <value>Horo sub la tempigilo</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Volumo:</value>
+    <value>Laŭteco:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Lingvo</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>Bonvolu rekomenci OnlyT post ŝanĝo de la lingvo.</value>
+    <value>Bonvolu restartigi OnlyT post ŝanĝo de la lingvo.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Malpliigi 1m
-Ctrl - Malpliigi 15s
-Shift - Malpliigi 5m</value>
+    <value>Malpliigi 1 min
+Ctrl - Malpliigi 15 s
+Shift - Malpliigi 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Pligrandigi 1m
-Ctrl - Pligrandigi 15s
-Shift - Pligrandigi 5m</value>
+    <value>Pliigi 1 min
+Ctrl - Pliigi 15 s
+Shift - Pliigi 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shift - Pligrandigi 5m</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Rekalkulado</value>
+    <value>Nun nombras malsupren</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Kalkulante supren</value>
+    <value>Nun nombras supren</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -494,11 +494,11 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Horloĝa kadro</value>
+    <value>Kadro de horloĝo</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Zoomnivelo:</value>
+    <value>Zomnivelo:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
@@ -506,7 +506,7 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Fundo</value>
+    <value>Malsupre</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,7 +518,7 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Centro</value>
+    <value>Centre</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,7 +530,7 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Supro</value>
+    <value>Supre</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -546,7 +546,7 @@ Shift - Pligrandigi 5m</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Haveno malfermita kaj rezervo farita</value>
+    <value>Pordo malfermita kaj rezervita</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,31 +554,31 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Generita tempiga raporto</value>
+    <value>Tempa raporto kreita</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Generi raportojn</value>
+    <value>Krei raportojn</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Konkluda Segmento</value>
+    <value>Fina segmento</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Provizora Segmento</value>
+    <value>Intera segmento</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Enkonduka Segmento</value>
+    <value>Enkonduka segmento</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Registra nivelo</value>
+    <value>Protokola nivelo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Sencimigi</value>
+    <value>Sencimigo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,15 +586,15 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Mortiga</value>
+    <value>Fatala</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>Informoj</value>
+    <value>Informo</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Multvorta</value>
+    <value>Detalega</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,27 +602,27 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Analizante datumojn de kunventempigilo</value>
+    <value>Analizante la tempajn datumojn de la kunveno</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Raporto NE generita!</value>
+    <value>Raporto NE kreita!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>VIDU</value>
+    <value>VIDI</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Aŭtomate sono</value>
+    <value>Aŭtomate sonorigi</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Alklaku por sonigi sonorilon</value>
+    <value>Sonorigi la sonorilon</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Daŭro (minutoj)</value>
+    <value>Daŭro (min)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
@@ -630,11 +630,11 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Disku</value>
+    <value>Ciferplato</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Ciferdisko kaj cifereca</value>
+    <value>Ciferplato kaj cifereca</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,19 +646,19 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Notu, ke la ekrano estas kontrolata per komandlinia agordo</value>
+    <value>Notu, ke la ekrano estas regata de komandlinia agordo</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Tempigilo fona gradiento</value>
+    <value>Fona kolortransiro de la tempigilo</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Horloĝa fona gradiento</value>
+    <value>Fona kolortransiro de la horloĝo</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Tempmezurilo</value>
+    <value>Kadro de tempigilo</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -670,19 +670,19 @@ Shift - Pligrandigi 5m</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Fenestro</value>
+    <value>En fenestro</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Fenestro</value>
+    <value>En fenestro</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Fermi la retronombradan fenestron</value>
+    <value>Fermi la fenestron de retronombrado</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Ne eblas malfermi travideblan "fenestron" retronombradon</value>
+    <value>Ne eblas malfermi travideblan retronombradon "en fenestro"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -694,15 +694,15 @@ Shift - Pligrandigi 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>senkonekte...</value>
+    <value>senkonekta...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Ŝrumpi dum minimumigo</value>
+    <value>Malgrandigi dum minimumigo</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primara</value>
+    <value>ĉefa</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
@@ -710,23 +710,23 @@ Shift - Pligrandigi 5m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Ĉu vi devus esti startiginta la tempigilon?</value>
+    <value>Ĉu vi forgesis starti la tempigilon?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ŝprucfenestraj memorigiloj</value>
+    <value>Ŝprucaj memorigoj</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>La kunveno daŭras {0} minutojn kromtempe</value>
+    <value>La kunveno malfruas je {0} minutoj</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>La kunveno daŭras {0} minutojn malpli ol la tempo.</value>
+    <value>La kunveno antaŭas la horaron je {0} minutoj</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Sciigoj pri superkuro/subkuro</value>
+    <value>Sciigoj pri malfruo/antaŭo</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -742,7 +742,7 @@ Shift - Pligrandigi 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refreŝigi</value>
+    <value>Aktualigi</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -750,19 +750,19 @@ Shift - Pligrandigi 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Peti Aliron</value>
+    <value>Peti aliron</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Malakcepti</value>
+    <value>Forigi</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Kunveno komenciĝas en</value>
+    <value>La kunveno komenciĝos post</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skanu per portebla aparato por vidi retan horloĝon</value>
+    <value>Skanu per poŝaparato por vidi la retan horloĝon</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -774,27 +774,27 @@ Shift - Pligrandigi 5m</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Plena Ekranreĝimo</value>
+    <value>Plenekrana reĝimo</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Pligrandigu la tempon (+1 minuto). Dekstreklaku por pli da opcioj.</value>
+    <value>Pliigi la tempon (+1 min). Dekstre alklaku por pliaj opcioj.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Malpliigu tempon (-1 min). Dekstreklaku por pli da opcioj.</value>
+    <value>Malpliigi la tempon (-1 min). Dekstre alklaku por pliaj opcioj.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generi tempigan raporton (PDF)</value>
+    <value>Krei tempan raporton (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Montri retronombran tempigilon</value>
+    <value>Montri la retronombradon</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Nova versio havebla</value>
+    <value>Nova versio disponeblas</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - Pligrandigi 5m</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Helpu</value>
+    <value>Helpo</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Ŝrumpi al kompakta reĝimo</value>
+    <value>Malgrandigi al kompakta reĝimo</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Pligrandigi 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Fulmtempilo Dum Kromtempo</value>
+    <value>Flagrigi la tempigilon kiam la tempo estas superita</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Sonorigu Sonorilon Kiam Kromlaboro</value>
+    <value>Sonorigi kiam la tempo estas superita</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Shift - Pligrandigi 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Kurado</value>
+    <value>Funkcias</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Pligrandigi 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Kromlaboro</value>
+    <value>Tempo superita</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,16 +870,64 @@ Shift - Pligrandigi 5m</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>minuto</value>
+    <value>min</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurita</value>
+    <value>Agordita</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
     <value>Ne agordita</value>
     <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="SECTION_TREASURES_FULL" xml:space="preserve">
+    <value>TREZOROJ EL LA VORTO DE DIO</value>
+  </data>
+  <data name="SECTION_MINISTRY_FULL" xml:space="preserve">
+    <value>PLIBONIGU VIAN PREDIKADON</value>
+  </data>
+  <data name="SECTION_LIVING_FULL" xml:space="preserve">
+    <value>VIVI KIEL KRISTANOJ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Plenaj nomoj de la kunvenpartoj</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Montri breton de restanta montrotempo</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Daŭro de plua montrado (sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasika interfaco (kiel la originala OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Uzi aranĝon kiel en la originala OnlyT, kiu funkcias nur en Windows. Funkcioj ekskluzivaj al Avalonia estas kaŝitaj.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Salti al la sekva parto</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Konservi</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Konservi la nunan programon kiel reuzeblan ŝablonon</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Programa dosiero</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Montri butonon por eksporti la programon</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Regas la grandon de la analoga horloĝo. Validas nur en horizontala aranĝo kun analoga horloĝo.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Flank-al-flanka aranĝo (horloĝo maldekstre, tempigilo dekstre)</value>
   </data>
 
 </root>

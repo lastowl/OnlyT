@@ -118,467 +118,467 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ᱜᱷᱚᱱᱴᱟ ᱪᱟᱹᱞᱩ ᱢᱮᱱᱟᱜ-ᱟ</value>
+    <value>ᱜᱷᱟᱱᱴᱤ ᱪᱟᱹᱞᱩ ᱢᱮᱱᱟᱜᱼᱟ</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>ᱚᱱᱰᱮ ᱫᱚ</value>
+    <value>ᱵᱟᱹᱱᱩᱜᱼᱟ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>ᱢᱤᱫ ᱥᱟᱶᱛᱮ</value>
+    <value>ᱢᱤᱫ ᱥᱮᱫ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>ᱵᱟᱨᱭᱟ</value>
+    <value>ᱵᱟᱨ ᱥᱮᱫ</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Software version {0}</value>
+    <value>ᱥᱟᱯᱷᱴᱣᱮᱭᱟᱨ ᱵᱷᱟᱨᱥᱚᱱ {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>᱑-᱒</value>
+    <value>12 ᱜᱷᱚᱱᱴᱟ</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>᱑-᱒ (ᱥᱯᱨᱤᱝ) ᱨᱮᱭᱟᱜ ᱴᱷᱤᱠ</value>
+    <value>12 ᱜᱷᱚᱱᱴᱟ (ᱮᱦᱚᱵ ᱨᱮ 0)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>᱒-᱔</value>
+    <value>24 ᱜᱷᱚᱱᱴᱟ</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>᱒-᱔ (ᱯᱟᱱᱴ)</value>
+    <value>24 ᱜᱷᱚᱱᱴᱟ (ᱮᱦᱚᱵ ᱨᱮ 0)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>Could not create folder {0}</value>
+    <value>ᱯᱷᱚᱞᱰᱟᱨ {0} ᱵᱟᱝ ᱵᱮᱱᱟᱣ ᱫᱟᱲᱮᱭᱮᱱᱟ</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>ᱞᱟᱦᱟ ᱪᱟᱞᱟᱣ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱢᱤᱞᱟᱹᱣ ᱟᱠᱟᱱ ᱚᱠᱛᱚ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>ᱚᱠᱛᱚ ᱚᱠᱛᱚ ᱨᱮ</value>
+    <value>ᱵᱚᱫᱚᱞ ᱟᱠᱟᱱ ᱚᱠᱛᱚ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>ᱢᱟᱲᱟᱝ ᱨᱮ</value>
+    <value>ᱢᱩᱞ ᱚᱠᱛᱚ</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>ᱟᱯᱷᱜᱽᱱᱟᱥ</value>
+    <value>ᱮᱱᱟᱞᱚᱜᱽ</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>ᱰᱤᱡᱤᱴᱟᱞᱟᱭᱡᱮᱥᱚᱱ ᱟᱨ ᱨᱚᱲ</value>
+    <value>ᱮᱱᱟᱞᱚᱜᱽ ᱟᱨ ᱰᱤᱡᱤᱴᱟᱞ</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>ᱰᱤᱨᱮᱠᱴᱚᱨ</value>
+    <value>ᱰᱤᱡᱤᱴᱟᱞ</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ᱜᱷᱚᱱᱴᱟ ᱵᱚᱸᱫᱽ ᱢᱮᱱᱟᱜ-ᱟ</value>
+    <value>ᱜᱷᱟᱱᱴᱤ ᱵᱚᱸᱫᱽ ᱢᱮᱱᱟᱜᱼᱟ</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>ᱮᱢ ᱦᱟᱴ</value>
+    <value>ᱦᱟᱯᱛᱟ ᱛᱟᱞᱟ</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>ᱱᱚᱣᱟ/-------------------------------᱾</value>
+    <value>ᱯᱨᱚᱪᱟᱨ - ᱦᱟᱹᱴᱤᱧ 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>ᱢᱮ-᱒----</value>
+    <value>ᱯᱨᱚᱪᱟᱨ - ᱦᱟᱹᱴᱤᱧ 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>ᱯᱮᱨᱤ-᱓ -</value>
+    <value>ᱯᱨᱚᱪᱟᱨ - ᱦᱟᱹᱴᱤᱧ 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>ᱫᱟᱲᱮ</value>
+    <value>ᱟᱡᱛᱮ</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>ᱥᱟᱱᱟᱢ ᱠᱷᱚᱱ ᱵᱮᱥ</value>
+    <value>ᱯᱷᱟᱭᱤᱞ ᱛᱮ</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>ᱟᱭᱢᱟ</value>
+    <value>ᱛᱤᱛᱮ</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>ᱢᱤᱫ ᱥᱟᱶᱛᱮ</value>
+    <value>ᱢᱩᱪᱟᱹᱫ ᱵᱷᱟᱥᱚᱱ</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ</value>
+    <value>ᱢᱩᱪᱟᱹᱫ ᱠᱟᱛᱷᱟ</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>ᱵᱟᱱᱟᱨ ᱯᱟᱲᱦᱟᱣ ᱠᱚ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱢᱚᱱᱰᱚᱞᱤ ᱵᱟᱭᱵᱮᱞ ᱥᱮᱪᱮᱫ</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>ᱡᱤᱭᱚᱜᱽᱨᱟᱯᱷᱤ ᱨᱮ</value>
+    <value>ᱟᱹᱛᱢᱟᱹ ᱨᱮᱭᱟᱜ ᱨᱚᱛᱚᱱ</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>ᱥᱟᱱᱟᱢ ᱠᱚ ᱞᱟᱹᱜᱤᱫ - ᱑</value>
+    <value>ᱠᱨᱤᱥᱴᱟᱱ ᱡᱤᱭᱟᱹᱱ - ᱦᱟᱹᱴᱤᱧ 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>᱒-ᱮ-ᱞᱟᱴᱮᱥᱚᱱ</value>
+    <value>ᱠᱨᱤᱥᱴᱟᱱ ᱡᱤᱭᱟᱹᱱ - ᱦᱟᱹᱴᱤᱧ 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>ᱚᱯᱨᱮᱴᱚᱨ ᱠᱚ</value>
+    <value>ᱮᱦᱚᱵ ᱠᱟᱛᱷᱟ</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>ᱱᱚᱣᱟ ᱫᱚ ᱯᱨᱤᱥᱠᱨᱤᱯᱥᱚᱱ ᱠᱟᱱᱟ</value>
+    <value>ᱱᱚᱶᱟ ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱜ ᱯᱨᱚᱪᱟᱨ ᱩᱫᱩᱜ</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>ᱛᱤᱨᱞᱟᱹ</value>
+    <value>ᱥᱟᱱᱟᱢ ᱦᱚᱲ ᱞᱟᱹᱜᱤᱫ ᱵᱷᱟᱥᱚᱱ</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>ᱯᱟᱲᱦᱟᱣ ᱯᱟᱲᱦᱟᱣ</value>
+    <value>ᱵᱟᱭᱵᱮᱞ ᱯᱟᱲᱦᱟᱣ</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>ᱚᱲᱟᱜ</value>
+    <value>ᱥᱮᱵᱟ ᱵᱷᱟᱥᱚᱱ</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>ᱵᱮᱯᱟᱨ ᱦᱮᱣᱟ</value>
+    <value>ᱫᱷᱚᱱ ᱵᱷᱟᱥᱚᱱ</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>ᱯᱟᱲᱦᱟᱣ ᱠᱚ ᱧᱮᱞ ᱢᱮ</value>
+    <value>ᱯᱨᱚᱦᱚᱨᱤᱫᱩᱨᱜᱽ ᱥᱮᱪᱮᱫ</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>ᱯᱷᱨᱮᱱᱠ</value>
+    <value>ᱦᱟᱯᱛᱟ ᱢᱩᱪᱟᱹᱫ</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>᱑/᱒ (ᱧᱮᱞ ᱢᱮ)--</value>
+    <value>12 ᱜᱷᱚᱱᱴᱟ (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>᱑/᱒) ᱟᱨ (ᱵᱤ) ᱨᱮᱡᱤᱢᱮᱱᱴ - ᱜᱞᱩᱴᱮᱱ</value>
+    <value>12 ᱜᱷᱚᱱᱴᱟ (ᱮᱦᱚᱵ ᱨᱮ 0 ᱟᱨ am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>ᱚᱱᱰᱮ ᱫᱚ</value>
+    <value>ᱵᱟᱹᱱᱩᱜᱼᱟ</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>ᱚᱠᱛᱚ ᱚᱠᱛᱚ ᱨᱮ ᱥᱮᱴᱟᱯ ᱫᱚ ᱵᱟᱝ ᱪᱟᱹᱞᱩᱜ ᱠᱟᱱᱟ!</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱪᱟᱹᱞᱩ ᱢᱮᱱᱟᱜ ᱡᱷᱚᱜ ᱥᱮᱴᱤᱝ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>ᱥᱟᱡᱟᱣ</value>
+    <value>ᱥᱮᱴᱤᱝ</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>ᱵᱮᱵᱷᱟᱨ</value>
+    <value>ᱫᱷᱚᱱ</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>ᱢᱚᱱᱤᱠᱟ</value>
+    <value>ᱯᱨᱚᱪᱟᱨ</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>ᱱᱚᱶᱟ ᱠᱚ</value>
+    <value>ᱠᱨᱤᱥᱴᱟᱱ ᱡᱤᱭᱟᱹᱱ</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>ᱯᱷᱨᱮᱱᱠ</value>
+    <value>ᱦᱟᱯᱛᱟ ᱢᱩᱪᱟᱹᱫ</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>ᱱᱳᱴ ᱠᱚ ᱫᱚ ᱥᱴᱨᱤᱝ ᱨᱮ ᱥᱮᱴ ᱟᱠᱟᱱᱟ!</value>
+    <value>ᱮᱰᱢᱤᱱ ᱥᱮᱴᱤᱝ ᱵᱚᱸᱫᱽ ᱟᱠᱟᱫᱟᱭ!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ᱵᱟᱯᱞᱟ----᱔</value>
+    <value>ᱯᱨᱚᱪᱟᱨ - ᱦᱟᱹᱴᱤᱧ 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>ᱧᱮᱞ ᱢᱮ</value>
+    <value>ᱥᱟᱨᱠᱤᱴ ᱱᱤᱜᱽᱨᱟᱱ ᱟᱜ ᱦᱤᱡᱩᱜ</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>ᱥᱤ ᱤ ᱳ</value>
+    <value>ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱵᱚᱸᱫᱽ ᱢᱮ</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>ᱜᱚᱲᱚ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>ᱯᱟᱲᱦᱟᱣ ᱛᱟᱭᱚᱢ</value>
+    <value>[ᱥᱟᱨᱠᱤᱴ ᱱᱤᱜᱽᱨᱟᱱ ᱟᱜ ᱦᱤᱡᱩᱜ]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>ᱱᱟᱶᱟ ᱵᱷᱟᱨᱥᱚᱱ!</value>
+    <value>ᱱᱟᱶᱟ ᱵᱷᱟᱨᱥᱚᱱ ᱧᱟᱢᱚᱜ ᱠᱟᱱᱟ!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>ᱢᱮᱭ</value>
+    <value>ᱢᱩᱞ</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>ᱱᱚᱣᱟ ᱥᱤᱯᱷᱴ</value>
+    <value>ᱵᱚᱞᱚ ᱠᱳᱰ</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>ᱢᱮᱜᱽᱱᱤᱯᱷᱤᱠᱮᱥᱚᱱ ᱥᱯᱤᱰ ᱚᱠᱛᱚ</value>
+    <value>ᱦᱟᱯᱛᱟ ᱛᱟᱞᱟ ᱢᱤᱞᱟᱹᱣ ᱢᱳᱰ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>ᱟᱹᱰᱤ ᱟᱭᱢᱟ ᱠᱮᱴᱮᱡ ᱩᱛᱱᱟᱹᱣ ᱢᱮ ᱾</value>
+    <value>ᱦᱟᱯᱛᱟ ᱢᱩᱪᱟᱹᱫ ᱢᱤᱞᱟᱹᱣ ᱢᱳᱰ</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>ᱥᱟᱱᱟᱢ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱥᱟᱱᱟᱢ ᱠᱚ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱪᱮᱛᱟᱱ ᱥᱮᱫ ᱞᱮᱠᱷᱟ ᱛᱮ ᱵᱚᱫᱚᱞ ᱨᱮᱭᱟᱜ ᱦᱩᱠᱩᱢ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>ᱪᱮᱛᱟᱱ ᱨᱮ ᱛᱟᱦᱮᱱ ᱢᱮ</value>
+    <value>ᱡᱟᱣᱜᱮ ᱪᱮᱛᱟᱱ ᱨᱮ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱠᱚ</value>
+    <value>ᱥᱟᱝᱜᱤᱧ ᱮᱯ ᱠᱚ</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>ᱢᱮᱰᱤᱠᱮᱭᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱾</value>
+    <value>ᱟᱡᱛᱮ ᱢᱳᱰ</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>ᱟᱨ</value>
+    <value>ᱜᱷᱟᱱᱴᱤ</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>ᱥᱤᱞᱤᱱᱰᱨᱤᱠᱟᱞ |</value>
+    <value>ᱣᱮᱵᱽ ᱜᱷᱟᱲᱤ</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ ᱴᱷᱤᱠ ᱜᱮᱭᱟ</value>
+    <value>ᱥᱚᱵᱷᱟ ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>ᱧᱮᱧᱮᱞᱤᱭᱟᱹ ᱠᱚ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱥᱟᱨᱠᱤᱴ ᱱᱤᱜᱽᱨᱟᱱ ᱟᱜ ᱦᱤᱡᱩᱜ ᱪᱟᱹᱞᱩ/ᱵᱚᱸᱫᱽ</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>ᱰᱤᱡᱤᱴᱟᱞ ᱯᱞᱟᱴᱯᱷᱚᱨᱢ</value>
+    <value>ᱰᱤᱡᱤᱴᱟᱞ ᱜᱷᱟᱲᱤ ᱯᱷᱚᱨᱢᱮᱴ</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>ᱯᱨᱚᱯᱨᱮᱡᱮᱱᱴᱮᱥᱚᱱ</value>
+    <value>ᱪᱟᱹᱞᱩ</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>ᱟᱞᱜᱟ ᱵᱷᱟᱨᱥᱚᱱ ᱞᱟᱹᱜᱤᱫ ᱯᱷᱨᱮᱱᱪᱟᱭᱤᱡ</value>
+    <value>ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ ᱜᱷᱟᱲᱤ ᱢᱳᱰ</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>ᱤᱧᱟᱜ ᱤ</value>
+    <value>IP ᱴᱷᱤᱠᱟᱹᱱᱟ</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>ᱢᱟᱭᱠᱨᱚᱥᱚᱯᱷᱴ</value>
+    <value>ᱥᱚᱵᱷᱟ</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>ᱯᱩᱭᱞᱩ (᱑) ᱚᱠᱛᱚ ᱨᱮ ᱱᱚᱣᱟ ᱞᱟᱭᱤᱱ ᱨᱮ ᱾</value>
+    <value>ᱥᱚᱵᱷᱟ ᱮᱦᱚᱵ ᱚᱠᱛᱚ (ᱢᱤᱫ ᱞᱟᱭᱤᱱ ᱨᱮ 1)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>ᱮᱢ ᱮᱥ ᱥᱤ ᱮᱞ</value>
+    <value>ᱮᱴᱟᱜ ᱮᱴᱟᱜ</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>ᱢᱚᱱᱴᱨᱤᱭᱟᱞ</value>
+    <value>ᱢᱚᱱᱤᱴᱚᱨ</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>ᱥᱤᱱᱠᱨᱚᱱᱚᱥ ᱩᱫᱩᱜ ᱮᱫᱟᱭ</value>
+    <value>ᱢᱟᱣᱥ ᱯᱚᱭᱤᱱᱴᱟᱨ ᱩᱫᱩᱜ ᱢᱮ</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>ᱥᱟᱱᱟᱢ ᱚᱠᱛᱚ ᱨᱮ ᱱᱟᱶᱟ ᱞᱟᱭᱤᱱ ᱨᱮ ᱢᱤᱫ ᱞᱟᱭᱤᱱ ᱢᱮᱱᱟᱜᱼᱟ ᱾</value>
+    <value>ᱢᱤᱫᱴᱟᱹᱝ ᱢᱤᱫᱴᱟᱹᱝ ᱮᱦᱚᱵ ᱚᱠᱛᱚ ᱱᱟᱶᱟ ᱞᱟᱭᱤᱱ ᱨᱮ ᱚᱞ ᱢᱮ ᱾</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>ᱟᱢ ᱡᱟᱦᱟᱸ ᱛᱤᱱᱟᱹᱜ ᱚᱠᱛᱚᱢ ᱮᱢᱟᱢ ᱠᱟᱱᱟ!</value>
+    <value>ᱡᱟᱦᱟᱱ ᱚᱠᱛᱚ ᱯᱷᱚᱨᱢᱮᱴ ᱠᱩᱥᱤ ᱞᱮᱠᱟ ᱵᱮᱵᱷᱟᱨ ᱢᱮ!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱫᱚ ᱢᱤᱫ ᱫᱤᱱ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ, ᱮᱴᱟᱜ ᱠᱚ ᱾ "ᱚᱱᱟᱛᱮ ᱑᱙:᱑᱕"</value>
+    <value>ᱢᱚᱱ ᱞᱮᱠᱟ ᱫᱤᱱ ᱦᱚᱸ ᱥᱮᱞᱮᱫ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ, ᱡᱮᱞᱠᱟ "ᱥᱟᱹᱨ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>ᱱᱚᱴ:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>ᱚᱯᱴᱤᱢᱟᱭᱤᱡᱽ</value>
+    <value>ᱯᱚᱨᱴ ᱡᱷᱤᱡ ᱢᱮ</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>ᱜᱡᱚᱴ</value>
+    <value>ᱢᱳᱰ</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>ᱥᱟᱱᱟᱢ ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ᱠᱚ ᱚᱠᱛᱚ</value>
+    <value>ᱯᱟᱹᱴᱷᱩᱣᱟᱹ ᱟᱜ ᱚᱠᱛᱚ ᱡᱟᱹᱥᱛᱤ ᱩᱫᱩᱜ ᱢᱮ</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>ᱚᱠᱛᱚ ᱚᱠᱛᱚ ᱨᱮ ᱨᱚᱲ ᱢᱮ</value>
+    <value>ᱵᱷᱟᱥᱚᱱ ᱴᱟᱭᱢᱟᱨ ᱛᱟᱦᱮᱸ ᱚᱠᱛᱚ</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>ᱰᱭᱩᱠ</value>
+    <value>ᱯᱚᱨᱴ</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>ᱥᱤ-ᱴᱤᱰᱤᱴᱤ ᱠᱚ</value>
+    <value>ᱥᱟᱝᱜᱤᱧ ᱠᱷᱚᱱ ᱵᱚᱞᱚ</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>ᱧᱮᱞ ᱢᱮ ᱢᱤᱫ ᱥᱮᱠᱴᱨᱮᱴᱤ ᱥᱤᱥᱴᱚᱢ</value>
+    <value>ᱮᱱᱟᱞᱚᱜᱽ ᱜᱷᱟᱲᱤ ᱨᱮ ᱥᱮᱠᱴᱚᱨ ᱩᱫᱩᱜ ᱢᱮ</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱨᱮᱭᱟᱜ ᱥᱯᱤᱰ:</value>
+    <value>ᱦᱟᱹᱴᱤᱧ ᱥᱠᱨᱤᱱ ᱚᱥᱟᱨ:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>ᱴᱤᱯ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱡᱟᱸᱪ</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>ᱵᱚᱭᱞᱟᱨ</value>
+    <value>ᱥᱤᱢᱤᱛ</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>ᱫᱚᱞ ᱠᱚ ᱞᱟᱹᱜᱤᱫ</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱪᱮᱛᱟᱱ ᱥᱮᱫ ᱞᱮᱠᱷᱟ</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>ᱴᱨᱩᱥᱯ</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱣᱤᱱᱰᱳ</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>ᱚᱠᱛᱚ ᱨᱮᱭᱟᱜ ᱚᱠᱛᱚ ᱨᱮ ᱾</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱞᱟᱛᱟᱨ ᱨᱮ ᱱᱤᱛᱚᱜᱟᱜ ᱚᱠᱛᱚ</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>ᱚᱞ::</value>
+    <value>ᱟᱲᱟᱝ:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ᱯᱟᱹᱨᱥᱤ</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>ᱫᱟᱭᱟ ᱠᱟᱛᱮ ᱢᱩᱪᱟᱹᱫ ᱟᱹᱲᱟᱹ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱯᱩᱨᱟᱹᱣ ᱢᱮ ᱾</value>
+    <value>ᱯᱟᱹᱨᱥᱤ ᱵᱚᱫᱚᱞ ᱛᱟᱭᱚᱢ ᱫᱟᱭᱟ ᱠᱟᱛᱮ OnlyT ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ ᱢᱮ ᱾</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>᱑ᱰᱤ ᱠᱷᱚᱱ
-ᱰᱤ-᱕/ᱥᱤ ᱮᱞ ᱥᱤ ᱰᱤ
-ᱰᱤ/ᱴᱤᱵᱷᱤ᱕ ᱥᱮᱴ ᱢᱮ</value>
+    <value>1 ᱢᱤᱱᱤᱴ ᱠᱚᱢ ᱢᱮ
+Ctrl - 15 ᱥᱮᱠᱮᱱᱰ ᱠᱚᱢ ᱢᱮ
+Shift - 5 ᱢᱤᱱᱤᱴ ᱠᱚᱢ ᱢᱮ</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>᱑ ᱢᱤᱢᱤᱴᱤ
-ᱥᱤᱞᱤᱱᱰᱟᱨ/᱕ ᱠᱭᱩᱴᱤ᱑
-ᱥᱤ-᱕ ᱜᱞᱩᱠᱚᱡᱽ ᱥᱟᱶᱛᱮ</value>
+    <value>1 ᱢᱤᱱᱤᱴ ᱵᱟᱲᱦᱟᱣ ᱢᱮ
+Ctrl - 15 ᱥᱮᱠᱮᱱᱰ ᱵᱟᱲᱦᱟᱣ ᱢᱮ
+Shift - 5 ᱢᱤᱱᱤᱴ ᱵᱟᱲᱦᱟᱣ ᱢᱮ</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>ᱟᱹᱰᱤ ᱞᱮᱠᱟᱱ</value>
+    <value>ᱛᱤᱛᱮ ᱢᱳᱰ</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>ᱱᱤᱛᱚᱜ ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>ᱱᱤᱛᱚᱜ ᱪᱮᱛᱟᱱ ᱥᱮᱫ ᱞᱮᱠᱷᱟ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} seconds</value>
+    <value>{0} ᱥᱮᱠᱮᱱᱰ</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>ᱯᱨᱚᱯᱨᱮᱡᱮᱱᱴᱮᱥᱚᱱ</value>
+    <value>ᱪᱟᱹᱞᱩ</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>ᱯᱨᱚᱯᱨᱮᱡᱮᱱᱴᱮᱥᱚᱱ</value>
+    <value>ᱪᱟᱹᱞᱩ</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>ᱯᱨᱚᱯᱨᱮᱡᱮᱱᱴᱮᱥᱚᱱ</value>
+    <value>ᱪᱟᱹᱞᱩ</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>ᱢᱩᱪᱟᱹᱫ ᱨᱮ ᱩᱫᱩᱜ ᱢᱮ᱾</value>
+    <value>ᱥᱮᱠᱮᱱᱰ ᱩᱫᱩᱜ ᱢᱮ</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>ᱪᱤᱛᱟᱹᱨ ᱠᱚ</value>
+    <value>ᱯᱷᱨᱮᱢ ᱩᱫᱩᱜ ᱢᱮ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>ᱥᱤᱰᱟᱨ ᱠᱚ</value>
+    <value>ᱜᱷᱟᱲᱤ ᱯᱷᱨᱮᱢ</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>ᱛᱷᱟᱠ: ᱞᱮᱵᱮᱞ</value>
+    <value>ᱡᱩᱢ ᱞᱮᱵᱮᱞ:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>ᱯᱨᱚᱠᱥᱤ</value>
+    <value>ᱡᱟᱭᱜᱟ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>ᱮᱴᱚᱢ</value>
+    <value>ᱞᱟᱛᱟᱨ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>ᱡᱮᱞᱠᱟ ᱥᱤ ᱮ</value>
+    <value>ᱞᱟᱛᱟᱨ ᱞᱮᱸᱜᱟ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>ᱢᱤᱫ ᱥᱚᱡᱷᱮ</value>
+    <value>ᱞᱟᱛᱟᱨ ᱡᱚᱡᱚᱢ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>ᱤᱨᱟᱱ</value>
+    <value>ᱛᱟᱞᱟ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>ᱜᱨᱟᱢ</value>
+    <value>ᱞᱮᱸᱜᱟ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>ᱡᱚᱡᱚᱢ ᱛᱤ</value>
+    <value>ᱡᱚᱡᱚᱢ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>ᱜᱨᱥ</value>
+    <value>ᱪᱮᱛᱟᱱ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>ᱞᱟᱦᱟ ᱛᱮ</value>
+    <value>ᱪᱮᱛᱟᱱ ᱞᱮᱸᱜᱟ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ᱡᱚᱡᱚᱢ ᱯᱟᱦᱴᱟ</value>
+    <value>ᱪᱮᱛᱟᱱ ᱡᱚᱡᱚᱢ</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>~</value>
+    <value>ᱴᱷᱤᱠ</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>ᱯᱚᱨᱴᱯᱷᱚᱞᱤᱭᱳ ᱟᱨ ᱠᱚᱱᱠᱨᱤᱴ ᱡᱷᱤᱡ ᱮᱱᱟ ᱾</value>
+    <value>ᱯᱚᱨᱴ ᱡᱷᱤᱡ ᱮᱱᱟ ᱟᱨ ᱨᱤᱡᱟᱨᱵ ᱮᱱᱟ</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ᱯᱚᱨᱴ ᱠᱚ ᱫᱚ ᱵᱟᱝ ᱡᱷᱤᱡᱚᱜ ᱠᱟᱱᱟ (ᱞᱟᱛᱟᱨ)!</value>
+    <value>ᱯᱚᱨᱴ ᱵᱟᱝ ᱡᱷᱤᱡ ᱫᱟᱲᱮᱭᱮᱱᱟ (ᱞᱚᱜᱽ ᱧᱮᱞ ᱢᱮ)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>ᱞᱟᱦᱟ ᱨᱮ ᱥᱚᱫᱚᱨ ᱟᱠᱟᱱ ᱡᱤᱱᱤᱥ ᱠᱚ</value>
+    <value>ᱚᱠᱛᱚ ᱨᱤᱯᱚᱨᱴ ᱵᱮᱱᱟᱣ ᱮᱱᱟ</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>ᱠᱷᱚᱵᱚᱨ ᱥᱟᱠᱟᱢ ᱦᱚᱛᱮᱛᱮ</value>
+    <value>ᱨᱤᱯᱚᱨᱴ ᱵᱮᱱᱟᱣ ᱢᱮ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>ᱤᱱᱴᱮᱜᱽᱨᱮᱥᱚᱱ ᱥᱟᱶ</value>
+    <value>ᱢᱩᱪᱟᱹᱫ ᱦᱟᱹᱴᱤᱧ</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>ᱤᱱᱴᱮᱜᱽᱨᱮᱥᱚᱱ ᱦᱚᱨᱟ</value>
+    <value>ᱛᱟᱞᱟ ᱦᱟᱹᱴᱤᱧ</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>ᱤᱱᱴᱮᱜᱽᱨᱮᱥᱚᱱ ᱦᱚᱨᱟ ᱨᱮ</value>
+    <value>ᱮᱦᱚᱵ ᱦᱟᱹᱴᱤᱧ</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>ᱨᱤᱭᱟᱠᱴᱤᱵᱷᱤᱴᱤ</value>
+    <value>ᱞᱚᱜᱽ ᱞᱮᱵᱮᱞ</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>ᱰᱤᱵᱚᱜᱽ</value>
+    <value>ᱰᱤᱵᱟᱜᱽ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>ᱡᱤᱣᱤ ᱵᱟᱹᱲᱛᱤ ᱵᱷᱩᱞ</value>
+    <value>ᱢᱟᱨᱟᱝ ᱵᱷᱩᱞ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>ᱵᱤᱥᱛᱤ ᱞᱮᱠᱷᱟ</value>
+    <value>ᱵᱤᱥᱛᱟᱹᱨ</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,284 +602,332 @@
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>ᱰᱟᱴᱟ ᱢᱤᱴᱤᱝ ᱚᱠᱛᱚ ᱨᱮ ᱥᱟ.ᱜᱟ.ᱭ ᱾</value>
+    <value>ᱥᱚᱵᱷᱟ ᱴᱟᱭᱢᱟᱨ ᱰᱟᱴᱟ ᱡᱟᱸᱪᱚᱜ ᱠᱟᱱᱟ</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱧᱟᱢ ᱟᱠᱟᱱᱟ!</value>
+    <value>ᱨᱤᱯᱚᱨᱴ ᱵᱟᱝ ᱵᱮᱱᱟᱣᱚᱜ ᱞᱮᱱᱟ!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>ᱵᱤ ᱭᱩ</value>
+    <value>ᱧᱮᱞ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>ᱚᱱᱟ ᱨᱮᱭᱟᱜ ᱥᱟᱰᱮ ᱫᱚ ᱟᱹᱰᱤ ᱵᱮᱥ ᱜᱮᱭᱟ</value>
+    <value>ᱟᱡᱛᱮ ᱵᱟᱡᱟᱣ</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>ᱜᱷᱟᱱᱴᱤ ᱵᱟᱡᱟᱣ ᱢᱮ</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>(ᱢᱩᱪᱟᱹᱫ)</value>
+    <value>ᱚᱠᱛᱚ (ᱢᱤᱱᱤᱴ)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>ᱮᱞᱤᱢᱮᱱᱴ</value>
+    <value>ᱦᱟᱹᱴᱤᱧ ᱠᱚ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ᱟᱨ</value>
+    <value>ᱰᱟᱭᱟᱞ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>ᱰᱤᱡᱤᱴᱟᱞ ᱟᱨ ᱢᱮᱠᱟᱱᱤᱡᱽ</value>
+    <value>ᱰᱟᱭᱟᱞ ᱟᱨ ᱰᱤᱡᱤᱴᱟᱞ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>ᱰᱤᱨᱮᱠᱴᱚᱨ</value>
+    <value>ᱰᱤᱡᱤᱴᱟᱞ</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>ᱴᱨᱟᱱᱥᱢᱤᱥᱚᱱ ᱥᱟᱶᱛᱮ ᱾</value>
+    <value>ᱧᱮᱞ ᱯᱟᱨᱚᱢ ᱵᱮᱠᱜᱽᱨᱟᱣᱩᱸᱰ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>ᱫᱤᱥᱟᱹ ᱫᱚᱦᱚᱭ ᱢᱟ ᱡᱮ ᱱᱚᱣᱟ ᱫᱚ ᱚᱯᱟᱨᱮᱴᱤᱝ ᱠᱚᱱᱴᱨᱚᱞᱟᱨ ᱨᱮᱭᱟᱜ ᱥᱮᱴ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ ᱾</value>
+    <value>ᱫᱷᱤᱭᱟᱹᱱ ᱢᱮ: ᱢᱚᱱᱤᱴᱚᱨ ᱫᱚ ᱠᱚᱢᱟᱱᱰ-ᱞᱟᱭᱤᱱ ᱥᱮᱴᱤᱝ ᱛᱮ ᱪᱟᱞᱟᱣᱚᱜ ᱠᱟᱱᱟ</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱨᱮ ᱢᱟᱨᱟᱝ ᱯᱮᱴᱟᱨᱱ ᱧᱟᱢ ᱢᱮ</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱵᱮᱠᱜᱽᱨᱟᱣᱩᱸᱰ ᱨᱚᱝ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ᱯᱞᱟᱴᱯᱷᱚᱨᱢ ᱠᱚ ᱛᱟᱞᱟ ᱨᱮ ᱴᱤᱭᱩᱢᱟᱨ ᱠᱚ</value>
+    <value>ᱜᱷᱟᱲᱤ ᱵᱮᱠᱜᱽᱨᱟᱣᱩᱸᱰ ᱨᱚᱝ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>ᱴᱤᱢ</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱯᱷᱨᱮᱢ</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>ᱟᱞᱚᱯᱮ ᱩᱛᱱᱟᱹᱣᱟ</value>
+    <value>ᱪᱟᱯᱴᱟ ᱜᱷᱟᱲᱤ</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>ᱠᱟᱹᱢᱤᱦᱚᱨᱟ ᱦᱟᱯᱛᱟ ᱢᱩᱪᱟᱹᱫ ᱨᱮ ᱱᱭᱩ ᱭᱚᱨᱠ</value>
+    <value>ᱦᱟᱯᱛᱟ ᱢᱩᱪᱟᱹᱫ ᱨᱮ ᱡᱟᱹᱨᱩᱢ ᱦᱚᱸ ᱥᱮᱞᱮᱫ</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>ᱣᱤᱱᱪᱮᱥᱴᱟᱨ</value>
+    <value>ᱣᱤᱱᱰᱳ ᱨᱮ</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>ᱣᱤᱱᱪᱮᱥᱴᱟᱨ</value>
+    <value>ᱣᱤᱱᱰᱳ ᱨᱮ</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>ᱴᱟᱣᱩᱱᱥᱤᱯ ᱠᱟᱨᱰ ᱠᱚ</value>
+    <value>ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱣᱤᱱᱰᱳ ᱵᱚᱸᱫᱽ ᱢᱮ</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>"ᱟᱢᱮᱨᱤᱠᱟᱱ" ᱴᱨᱟᱱᱥᱯᱚᱨᱴᱮᱥᱚᱱ ᱦᱚᱛᱮᱛᱮ "ᱥᱯᱮᱠ"</value>
+    <value>ᱧᱮᱞ ᱯᱟᱨᱚᱢ "ᱣᱤᱱᱰᱳ" ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱵᱟᱝ ᱡᱷᱤᱡ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>ᱠᱨᱳᱢᱥ</value>
+    <value>ᱜᱷᱟᱲᱤ</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>ᱵᱟᱨᱱ</value>
+    <value>ᱴᱟᱭᱢᱟᱨ ᱠᱚ</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>ᱞᱟᱭᱤᱱ..</value>
+    <value>ᱡᱩᱲᱟᱹᱣ ᱵᱟᱹᱱᱩᱜᱼᱟ...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>ᱠᱚᱢ ᱥᱮ ᱠᱚᱢ</value>
+    <value>ᱢᱤᱱᱤᱢᱟᱭᱤᱡᱽ ᱠᱷᱟᱱ ᱦᱩᱰᱤᱧ ᱢᱮ</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>ᱟ.</value>
+    <value>ᱢᱩᱞ</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>ᱱᱚᱴ ᱢᱮ ᱡᱮ ᱱᱳᱰ ᱫᱚ ᱥᱴᱨᱤᱝ ᱥᱮᱴ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫ ᱣᱮᱨᱭᱟᱵᱚᱞ ᱱᱳᱰ ᱠᱟᱱᱟ ᱾</value>
+    <value>ᱫᱷᱤᱭᱟᱹᱱ ᱢᱮ: ᱠᱚᱢᱟᱱᱰ-ᱞᱟᱭᱤᱱ ᱥᱮᱴᱤᱝ ᱛᱮ ᱟᱣᱴᱯᱩᱴ NDI ᱨᱮ ᱥᱮᱴ ᱟᱠᱟᱱᱟ ᱾</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>ᱪᱮᱫ ᱟᱢ ᱢᱟᱲᱟᱝ ᱠᱷᱚᱱ ᱚᱠᱛᱚᱢ ᱦᱟᱛᱟᱣ ᱟᱠᱟᱫᱟ?</value>
+    <value>ᱪᱮᱫ ᱴᱟᱭᱢᱟᱨ ᱮᱦᱚᱵ ᱞᱟᱹᱠᱛᱤ ᱛᱟᱦᱮᱸ ᱠᱟᱱᱟ?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>ᱫᱤᱥᱟᱹ ᱫᱚᱦᱚᱭ ᱢᱮ-</value>
+    <value>ᱯᱚᱯ-ᱟᱯ ᱩᱭᱦᱟᱹᱨ</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>ᱥᱚᱵᱷᱟ ᱚᱠᱛᱚ ᱠᱷᱚᱱ {0} ᱢᱤᱱᱤᱴ ᱡᱟᱹᱥᱛᱤ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>ᱥᱚᱵᱷᱟ ᱚᱠᱛᱚ ᱠᱷᱚᱱ {0} ᱢᱤᱱᱤᱴ ᱠᱚᱢ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>/ᱵᱟᱝ-ᱥᱤᱨᱡᱚᱱ ᱠᱚ ᱫᱚ ᱵᱟᱝ ᱾</value>
+    <value>ᱚᱠᱛᱚ ᱡᱟᱹᱥᱛᱤ/ᱠᱚᱢ ᱠᱷᱚᱵᱚᱨ</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>ᱥᱤ ᱰᱤ</value>
+    <value>ᱧᱩᱛ ᱢᱳᱰ</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>ᱵᱚᱸᱫᱽ ᱢᱮ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>ᱫᱚᱦᱚ ᱢᱮ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>ᱨᱤᱯᱷᱨᱮᱥ ᱢᱮ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>ᱥᱮᱴ ᱢᱮ</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>ᱵᱚᱞᱚ ᱦᱩᱠᱩᱢ ᱠᱩᱞᱤ ᱢᱮ</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>ᱦᱟᱴᱟᱣ ᱢᱮ</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>ᱥᱚᱵᱷᱟ ᱮᱦᱚᱵᱚᱜ ᱨᱮ ᱵᱟᱠᱤ</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>ᱣᱮᱵᱽ ᱜᱷᱟᱲᱤ ᱧᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱢᱚᱵᱟᱭᱤᱞ ᱛᱮ ᱥᱠᱮᱱ ᱢᱮ</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>ᱯᱞᱮᱴᱯᱷᱚᱨᱢ:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>ᱦᱟᱞᱚᱛ:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ ᱢᱳᱰ</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>ᱚᱠᱛᱚ ᱵᱟᱲᱦᱟᱣ ᱢᱮ (+1 ᱢᱤᱱᱤᱴ) ᱾ ᱡᱟᱹᱥᱛᱤ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱡᱚᱡᱚᱢ-ᱠᱞᱤᱠ ᱢᱮ ᱾</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>ᱚᱠᱛᱚ ᱠᱚᱢ ᱢᱮ (-1 ᱢᱤᱱᱤᱴ) ᱾ ᱡᱟᱹᱥᱛᱤ ᱵᱟᱪᱷᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱡᱚᱡᱚᱢ-ᱠᱞᱤᱠ ᱢᱮ ᱾</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>ᱚᱠᱛᱚ ᱨᱤᱯᱚᱨᱴ ᱵᱮᱱᱟᱣ ᱢᱮ (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱴᱟᱭᱢᱟᱨ ᱩᱫᱩᱜ ᱢᱮ</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>ᱱᱟᱶᱟ ᱵᱷᱟᱨᱥᱚᱱ ᱧᱟᱢᱚᱜ ᱠᱟᱱᱟ</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>ᱥᱮᱴᱤᱝ</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>ᱜᱚᱲᱚ</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>ᱦᱩᱰᱤᱧ ᱢᱳᱰ ᱨᱮ ᱵᱚᱫᱚᱞ ᱢᱮ</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 ᱥᱮᱠᱮᱱᱰ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+1 ᱢᱤᱱᱤᱴ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+5 ᱢᱤᱱᱤᱴ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-15 ᱥᱮᱠᱮᱱᱰ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>-1 ᱢᱤᱱᱤᱴ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-5 ᱢᱤᱱᱤᱴ</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>ᱱᱮᱴᱣᱟᱨᱠ ᱦᱩᱠᱩᱢ</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>ᱚᱠᱛᱚ ᱯᱟᱨᱚᱢ ᱠᱷᱟᱱ ᱴᱟᱭᱢᱟᱨ ᱡᱷᱤᱞᱢᱤᱞ ᱢᱮ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>ᱚᱠᱛᱚ ᱯᱟᱨᱚᱢ ᱠᱷᱟᱱ ᱜᱷᱟᱱᱴᱤ ᱵᱟᱡᱟᱣ ᱢᱮ</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>ᱛᱮᱭᱟᱨ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>ᱛᱷᱟᱢ ᱟᱠᱟᱱᱟ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>ᱚᱠᱛᱚ ᱯᱟᱨᱚᱢ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>ᱵᱚᱸᱫᱽ ᱮᱱᱟ</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>ᱵᱚᱞᱚ ᱠᱳᱰ ᱚᱞ ᱢᱮ...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>ᱢᱤᱱᱤᱴ</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>ᱥᱮᱴ ᱟᱠᱟᱱᱟ</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>ᱵᱟᱝ ᱥᱮᱴ ᱟᱠᱟᱱᱟ</value>
     <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="SECTION_TREASURES_FULL" xml:space="preserve">
+    <value>ᱤᱥᱚᱨ ᱟᱜ ᱠᱟᱛᱷᱟ ᱠᱷᱚᱱ ᱫᱷᱚᱱ</value>
+  </data>
+  <data name="SECTION_MINISTRY_FULL" xml:space="preserve">
+    <value>ᱯᱨᱚᱪᱟᱨ ᱠᱟᱹᱢᱤ ᱨᱮ ᱢᱚᱱ ᱮᱢ ᱢᱮ</value>
+  </data>
+  <data name="SECTION_LIVING_FULL" xml:space="preserve">
+    <value>ᱠᱨᱤᱥᱴᱟᱱ ᱞᱮᱠᱟᱛᱮ ᱡᱤᱭᱟᱹᱱ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>ᱥᱚᱵᱷᱟ ᱦᱟᱹᱴᱤᱧ ᱨᱮᱭᱟᱜ ᱯᱩᱨᱟᱹ ᱧᱩᱛᱩᱢ</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>ᱛᱟᱦᱮᱸ ᱚᱠᱛᱚ ᱨᱮᱭᱟᱜ ᱩᱞᱴᱟ ᱞᱮᱠᱷᱟ ᱯᱟᱴᱤ ᱩᱫᱩᱜ ᱢᱮ</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>ᱛᱟᱦᱮᱸ ᱚᱠᱛᱚ (ᱥᱮᱠᱮᱱᱰ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ᱢᱟᱲᱟᱝ ᱨᱩᱯ (ᱢᱩᱞ OnlyT ᱞᱮᱠᱟ ᱥᱟᱡᱟᱣ)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>ᱥᱤᱨᱤᱯᱷ Windows ᱞᱟᱹᱜᱤᱫ ᱛᱟᱦᱮᱸ ᱢᱩᱞ OnlyT ᱞᱮᱠᱟ ᱥᱟᱡᱟᱣ ᱵᱮᱵᱷᱟᱨ ᱢᱮ ᱾ ᱥᱤᱨᱤᱯᱷ Avalonia ᱨᱮ ᱢᱮᱱᱟᱜ ᱥᱩᱵᱤᱫᱷᱟ ᱠᱚ ᱫᱟᱱᱟᱝ ᱜᱮᱭᱟ ᱾</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>ᱛᱟᱭᱚᱢ ᱵᱷᱟᱥᱚᱱ ᱛᱮ ᱥᱮᱱ ᱢᱮ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>ᱢᱤᱱᱤᱴ</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>ᱫᱚᱦᱚ ᱢᱮ</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ᱱᱤᱛᱚᱜᱟᱜ ᱚᱠᱛᱚ ᱥᱩᱪᱤ ᱫᱚᱦᱲᱟ ᱵᱮᱵᱷᱟᱨ ᱞᱟᱹᱜᱤᱫ ᱱᱚᱢᱩᱱᱟ ᱞᱮᱠᱟᱛᱮ ᱫᱚᱦᱚ ᱢᱮ</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>ᱚᱠᱛᱚ ᱥᱩᱪᱤ ᱯᱷᱟᱭᱤᱞ</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>ᱚᱠᱛᱚ ᱥᱩᱪᱤ ᱫᱚᱦᱚ ᱵᱩᱴᱚᱱ ᱩᱫᱩᱜ ᱢᱮ</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>ᱮᱱᱟᱞᱚᱜᱽ ᱜᱷᱟᱲᱤ ᱨᱮᱭᱟᱜ ᱢᱟᱯ ᱥᱮᱴ ᱢᱮ ᱾ ᱮᱱᱟᱞᱚᱜᱽ ᱜᱷᱟᱲᱤ ᱥᱟᱶ ᱟᱲᱮ ᱟᱲᱮ ᱥᱟᱡᱟᱣ ᱨᱮ ᱜᱮ ᱠᱟᱹᱢᱤᱭᱟ ᱾</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>ᱟᱲᱮ ᱟᱲᱮ ᱜᱷᱟᱲᱤ ᱥᱟᱡᱟᱣ (ᱞᱮᱸᱜᱟ ᱥᱮᱫ ᱜᱷᱟᱲᱤ, ᱡᱚᱡᱚᱢ ᱥᱮᱫ ᱴᱟᱭᱢᱟᱨ)</value>
   </data>
 
 </root>

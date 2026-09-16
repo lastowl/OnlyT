@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>Hoʻoikaika ka bele</value>
+    <value>Ua hoʻā ʻia ka bele</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,11 +126,11 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Hoʻokahi ala</value>
+    <value>Hoʻokahi ʻaoʻao</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>ʻElua ala</value>
+    <value>ʻElua ʻaoʻao</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
@@ -138,19 +138,19 @@
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-hola</value>
+    <value>12 hola</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-hola (alakaʻi ʻole)</value>
+    <value>12 hola (me ka ʻole ma mua)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24-hola</value>
+    <value>24 hola</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-hola (alakaʻi ʻole)</value>
+    <value>24 hola (me ka ʻole ma mua)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
@@ -158,163 +158,163 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Hoʻololi ʻia ka lōʻihi</value>
+    <value>Lōʻihi i hoʻoponopono ʻakomi ʻia</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Hoʻololi ʻia ka lōʻihi</value>
+    <value>Lōʻihi i hoʻololi ʻia</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Ka lōʻihi kumu</value>
+    <value>Lōʻihi kumu</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Nā hoʻohālike</value>
+    <value>Me nā lima uaki</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue a me Digital</value>
+    <value>Me nā lima uaki a me ke kikohoʻe</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
     <value>Kikohoʻe</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ʻAʻole hana ʻo Bell</value>
+    <value>Ua hoʻopio ʻia ka bele</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Midtyhai</value>
+    <value>Waena pule</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Kuhina - Kumuhana 1</value>
+    <value>ʻOihana - Helu 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Kuhina - Kumuhana 2</value>
+    <value>ʻOihana - Helu 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Kuhina - Kumuhana 3</value>
+    <value>ʻOihana - Helu 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
-    <value>'akomi</value>
+    <value>ʻAkomi</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Ma muli o ka waihona</value>
+    <value>Ma ka faila</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Hoʻohui</value>
+    <value>Me ka lima</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Olelo Hoopau</value>
+    <value>Haʻiʻōlelo Panina</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
-    <value>Manaʻo Hoʻopau</value>
+    <value>Nā ʻŌlelo Panina</value>
   </data>
   <data name="TALK_CONG_STUDY" xml:space="preserve">
-    <value>Haawina Baibala o ke anaina</value>
+    <value>Hoʻopaʻa Paipala a ke Anaina</value>
   </data>
   <data name="TALK_DIGGING" xml:space="preserve">
-    <value>Nā Momi ʻuhane</value>
+    <value>Nā Pōhaku Makamae ʻUhane</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Noho - Mahele 1</value>
+    <value>Nohona - Mahele 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Noho - Mahele 2</value>
+    <value>Nohona - Mahele 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
-    <value>Nā Manaʻo Wehe</value>
+    <value>Nā ʻŌlelo Hoʻolauna</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Nā Hōʻikeʻike o kēia mahina</value>
+    <value>Nā Hōʻikeʻike o Kēia Mahina</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
-    <value>Olelo Lehulehu</value>
+    <value>Haʻiʻōlelo no ka Lehulehu</value>
   </data>
   <data name="TALK_READING" xml:space="preserve">
-    <value>Heluhelu Baibala</value>
+    <value>Heluhelu Paipala</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Kamailio lawelawe</value>
+    <value>Haʻiʻōlelo ʻOihana</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Kamailio Waiwai</value>
+    <value>Haʻiʻōlelo o Nā Waiwai</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
-    <value>Haawina o ka hale kiai</value>
+    <value>Hoʻopaʻa ʻana i Ka Hale Kiaʻi</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Ka hopena pule</value>
+    <value>Hopena pule</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-hola (am/pm)</value>
+    <value>12 hola (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-hola (alakaʻi zero &amp; am/pm)</value>
+    <value>12 hola (me ka ʻole ma mua a me am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>ʻAʻohe</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>ʻAʻole loaʻa nā hoʻonohonoho i ka wā e holo ana ka manawa!</value>
+    <value>ʻAʻole loaʻa nā hoʻonohonoho i ka wā e holo ana ka mea helu manawa!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>Nā hoʻonohonoho</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Waiwai</value>
+    <value>Nā Waiwai</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Kuhina</value>
+    <value>ʻOihana</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>Noho</value>
+    <value>Nohona</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
-    <value>Ka hopena pule</value>
+    <value>Hopena pule</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Ua pio nā hoʻonohonoho e ka luna hoʻoponopono!</value>
+    <value>Ua hoʻopio ʻia nā hoʻonohonoho e ka luna mālama!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>ʻOihana - Kumuhana 4</value>
+    <value>ʻOihana - Helu 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Kaapuni kipa</value>
+    <value>Kipa a ka lunakahiko kaʻapuni</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>PANAI HELU</value>
+    <value>PANI I KA HELU HOʻĒMI</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Kokua</value>
+    <value>Kōkua</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[kaapuni kipa]</value>
+    <value>[kipa a ka lunakahiko kaʻapuni]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Loaʻa ka mana hou!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>Nui</value>
+    <value>NĀ MEA NUI</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Code komo</value>
+    <value>Helu komo</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>ʻO ke ʻano hoʻololi waena waena</value>
+    <value>ʻAno hoʻoponopono ʻakomi o waena pule</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>ʻO ke ʻano hoʻololi hopena pule</value>
+    <value>ʻAno hoʻoponopono ʻakomi o ka hopena pule</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>E ʻae i ka hoʻololi helu-up</value>
+    <value>ʻAe i ka hoʻololi ʻana i ka helu hoʻonui</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
@@ -322,11 +322,11 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>PALAPALA LOA</value>
+    <value>NĀ POLOKALAMU MAMAO</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>KE ANO AUMI</value>
+    <value>ʻANO ʻAKOMI</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
@@ -334,73 +334,73 @@
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>UIKA UIKA</value>
+    <value>UAKI PŪNAEWELE</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>HELU HALAWAI</value>
+    <value>HELU HOʻĒMI O KA HĀLĀWAI</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Kaapuni kipa toggle</value>
+    <value>Hoʻololi kipa a ka lunakahiko kaʻapuni</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Hōʻuluʻulu uaki kikohoʻe</value>
+    <value>Ke ʻano o ka uaki kikohoʻe</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Hoʻohana ʻia</value>
+    <value>Hoʻā ʻia</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>ʻO ke ʻano uaki pale piha</value>
+    <value>ʻAno uaki piha pale</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
-    <value>Hoʻopakahi Ip Kauoha</value>
+    <value>Helu wahi IP</value>
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>Halawai</value>
+    <value>Hālāwai</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Nā manawa hoʻomaka o ka hālāwai (1 no kēlā me kēia laina)</value>
+    <value>Nā manawa hoʻomaka hālāwai (1 no ka laina)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>NUI</value>
+    <value>NĀ MEA ʻĒ AʻE</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Mākaʻikaʻi</value>
+    <value>Pale</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Hōʻike i ke kuhikuhi ʻiole</value>
+    <value>Hōʻike i ke kuhi ʻiole</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
     <value>E kau i kēlā me kēia manawa hoʻomaka ma kahi laina hou.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>E hoʻohana i kēlā me kēia format manawa āu e makemake ai!</value>
+    <value>E hoʻohana i ke ʻano manawa āu e makemake ai!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>E hoʻokomo i kahi lā, e.g. "Tu 19:15"</value>
+    <value>Hiki ke hoʻokomo i ka lā, e laʻa me "P4 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
-    <value>Nā memo:</value>
+    <value>Nā kuhikuhi:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>AWA WAHA</value>
+    <value>WEHE I KE AWA</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Ke ano</value>
+    <value>ʻAno</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Hoʻomau i ka manawa haumāna</value>
+    <value>Hoʻomau i ka hōʻike ʻana i ka manawa haumāna</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Hoʻomau ka lōʻihi kamaʻilio</value>
+    <value>Hoʻomau i ka hōʻike ʻana i ka manawa haʻiʻōlelo</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,68 +408,68 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>HANA MAHELE</value>
+    <value>KOMO MAMAO</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Hōʻike i ka ʻāpana ma ka uaki analogue</value>
+    <value>Hōʻike i ka ʻāpana ma ka uaki me nā lima</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Māhele-pale laula:</value>
+    <value>Laulā o ka pale māhele:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>HOAO</value>
+    <value>HOʻĀʻO</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Hoʻopaʻa ʻia</value>
+    <value>Hoʻolohi ʻia</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Hoʻonui ka manawa</value>
+    <value>Helu hoʻonui ka mea helu manawa</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>PANAKA WAIWAI</value>
+    <value>PUKAANIANI MEA HELU MANAWA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Ka manawa o ka lā ma lalo o ka manawa</value>
+    <value>Ka hola ma lalo o ka mea helu manawa</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Volume:</value>
+    <value>Leo:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>ʻŌlelo</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>E ʻoluʻolu e hoʻomaka hou iā OnlyT ma hope o ka hoʻololi ʻana i ka ʻōlelo.</value>
+    <value>E ʻoluʻolu, e hoʻomaka hou iā OnlyT ma hope o ka hoʻololi ʻana i ka ʻōlelo.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>E hoemi 1m
-Ctrl - E ho'ēmi i 15s
-Hoʻololi - Hoʻemi 5m</value>
+    <value>Hoʻēmi 1 minuke
+Ctrl - Hoʻēmi 15 kekona
+Shift - Hoʻēmi 5 minuke</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>E hoʻonui i 1m
-Ctrl - Hoʻonui i 15s
-Hoʻololi - Hoʻonui 5m</value>
+    <value>Hoʻonui 1 minuke
+Ctrl - Hoʻonui 15 kekona
+Shift - Hoʻonui 5 minuke</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>ʻano hana lima</value>
+    <value>ʻAno me ka lima</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Ke helu iho nei</value>
+    <value>Ke helu hoʻēmi nei</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Ke helu ʻana</value>
+    <value>Ke helu hoʻonui nei</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -477,48 +477,48 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Hoʻohana ʻia</value>
+    <value>Hoʻā ʻia</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Hoʻohana ʻia</value>
+    <value>Hoʻā ʻia</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Hoʻohana ʻia</value>
+    <value>Hoʻā ʻia</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Hōʻike kekona</value>
+    <value>Hōʻike i nā kekona</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Hōʻike kiʻi</value>
+    <value>Hōʻike i ke kaʻe</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Kiʻi uaki</value>
+    <value>Kaʻe uaki</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>pae kiʻekiʻe:</value>
+    <value>Pae hoʻonui:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Wahi</value>
+    <value>Kahi</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Malalo</value>
+    <value>Lalo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>hema hema</value>
+    <value>Lalo hema</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Ma lalo ʻākau</value>
+    <value>Lalo ʻākau</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Ke kikowaena</value>
+    <value>Waena</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -526,35 +526,35 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Akau</value>
+    <value>ʻĀkau</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>luna</value>
+    <value>Luna</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>hema hema</value>
+    <value>Luna hema</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>ʻĀkau luna</value>
+    <value>Luna ʻākau</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>ʻAe</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Ua wehe ʻia ke awa a hoʻopaʻa ʻia</value>
+    <value>Ua wehe ʻia ke awa a ua hoʻopaʻa ʻia</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ʻAʻole hiki ke wehe i ke awa (e ʻike i ka log)!</value>
+    <value>ʻAʻole hiki ke wehe i ke awa (e nānā i ka moʻolelo)!</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Hana ʻia ka hōʻike manawa</value>
+    <value>Ua hana ʻia ka hōʻike manawa</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -562,39 +562,39 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Mahele Hoʻopau</value>
+    <value>Māhele Panina</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Mahele Kūwaena</value>
+    <value>Māhele Waena</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Māhele Hoʻomaka</value>
+    <value>Māhele Hoʻolauna</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>pae logging</value>
+    <value>Pae moʻolelo</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debug</value>
+    <value>Hoʻoponopono hewa</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
-    <value>Kuhihewa</value>
+    <value>Hewa</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>He mea make</value>
+    <value>Hewa koʻikoʻi</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
-    <value>ʻIkepili</value>
+    <value>ʻIke</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>ʻŌlelo waha</value>
+    <value>Kikoʻī loa</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,39 +602,39 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Ke kālailai ʻana i ka ʻikepili manawa manawa hālāwai</value>
+    <value>Ke kālailai nei i ka ʻikepili manawa o ka hālāwai</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>ʻAʻole i hana ʻia ka hōʻike!</value>
+    <value>ʻAʻOLE i hana ʻia ka hōʻike!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>IKE</value>
+    <value>NĀNĀ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>kani 'akomi</value>
+    <value>Kani ʻakomi</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Kaomi no ke kani ʻana i ka bele</value>
+    <value>Hoʻokani i ka bele</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Ka lōʻihi (min)</value>
+    <value>Lōʻihi (minuke)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>ʻElemu</value>
+    <value>Nā ʻāpana</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>Kāhea</value>
+    <value>Alo uaki</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Kāhea a kikohoʻe</value>
+    <value>Alo uaki a me ke kikohoʻe</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,23 +642,23 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>ʻO ke kāʻei ʻalohilohi</value>
+    <value>Kua aniani</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>E hoʻomaopopo i ka mālama ʻia ʻana o ka monitor e kahi hoʻonohonoho laina kauoha</value>
+    <value>E nānā: Hoʻomalu ʻia ka pale e kekahi hoʻonohonoho laina kauoha</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Kaha kiʻi ʻoniʻoni</value>
+    <value>Nā kala kua o ka mea helu manawa</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>ʻO ke kāʻei kua i ka uaki</value>
+    <value>Nā kala kua o ka uaki</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Kiʻi manawa</value>
+    <value>Kaʻe mea helu manawa</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,23 +666,23 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Loaʻa i ka hopena pule ka Pōʻalima</value>
+    <value>Komo ka Pōʻalima i ka hopena pule</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>puka makani</value>
+    <value>Ma ka pukaaniani</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>puka makani</value>
+    <value>Ma ka pukaaniani</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>E pani i ka pukaaniani helu iho</value>
+    <value>Pani i ka pukaaniani helu hoʻēmi</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>ʻAʻole hiki ke wehe i ka helu "windowed" maopopo</value>
+    <value>ʻAʻole hiki ke wehe i ka helu hoʻēmi aniani "ma ka pukaaniani"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -690,15 +690,15 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Nā hola manawa</value>
+    <value>Nā mea helu manawa</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>pahemo...</value>
+    <value>pili ʻole...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>E hōʻemi i ka liʻiliʻi</value>
+    <value>Hoʻoliʻiliʻi ke hoʻohaʻahaʻa ʻia ka pukaaniani</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,31 +706,31 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>E hoʻomaopopo ua hoʻonohonoho ʻia ka huahana i NDI ma o kahi hoʻonohonoho laina kauoha.</value>
+    <value>E nānā: Ua hoʻonohonoho ʻia ka hoʻopuka i NDI e kekahi hoʻonohonoho laina kauoha.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Ua hoʻomaka paha ʻoe i ka manawa?</value>
+    <value>Pono paha ʻoe e hoʻomaka i ka mea helu manawa?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Hoʻomanaʻo pop-up</value>
+    <value>Nā hoʻomanaʻo puka mai</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Ke holo nei ka hālāwai i ka hola {0} minuke</value>
+    <value>Ke ʻoi aku nei ka hālāwai i ka manawa he {0} minuke</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Ke holo nei ka hālāwai i {0} minuke ma lalo o ka manawa</value>
+    <value>Ke emi nei ka hālāwai ma lalo o ka manawa he {0} minuke</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Nā leka hoʻomaopopo overrun/underrun</value>
+    <value>Nā hoʻolaha no ka ʻoi a emi o ka manawa</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>ʻAno ʻeleʻele</value>
+    <value>ʻAno pōuliuli</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -742,7 +742,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Hōʻano hou</value>
+    <value>Hoʻohou</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -750,7 +750,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Noi komo</value>
+    <value>Noi i ke komo</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,15 +758,15 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Hoʻomaka ka hālāwai ma</value>
+    <value>E hoʻomaka ana ka hālāwai i loko o</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>E ʻimi me ke kelepona paʻalima e ʻike i ka uaki pūnaewele</value>
+    <value>E hoʻohana i ke kelepona paʻalima no ka nānā ʻana i ka uaki pūnaewele</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Papahana:</value>
+    <value>Kahua:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
@@ -774,7 +774,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Keʻano pale piha</value>
+    <value>ʻAno Piha Pale</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
@@ -782,7 +782,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>E hoemi i ka manawa (-1 min). Kaomi ʻākau no nā koho hou aʻe.</value>
+    <value>Hoʻēmi i ka manawa (-1 min). Kaomi ʻākau no nā koho hou aʻe.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,7 +790,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Hōʻike i ka manawa helu iho</value>
+    <value>Hōʻike i ka helu hoʻēmi</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -802,11 +802,11 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Kokua</value>
+    <value>Kōkua</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>E emi i ke ʻano paʻa</value>
+    <value>Hoʻoliʻiliʻi i ke ʻano paʻapū</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -818,7 +818,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 mau minuke</value>
+    <value>+5 minuke</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
@@ -834,15 +834,15 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NA AE HANA</value>
+    <value>NĀ ʻAE PŪNAEWELE</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>ʻO ka manawa uila i ka wā ʻoi aku</value>
+    <value>Hoʻōlapa i ka mea helu manawa ke ʻoi ka manawa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Hookani i ka bele i ka wa o ka manawa</value>
+    <value>Hoʻokani i ka bele ke ʻoi ka manawa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -854,11 +854,11 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Hoʻomaha</value>
+    <value>Hoʻomaha ʻia</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Ua holo ʻoi aʻe ka manawa</value>
+    <value>Ua ʻoi ka manawa</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>E hoʻokomo i ke code komo...</value>
+    <value>E hoʻokomo i ka helu komo...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,12 +874,60 @@ Hoʻololi - Hoʻonui 5m</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Hoʻonohonoho ʻia</value>
+    <value>Ua hoʻonohonoho ʻia</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
     <value>ʻAʻole i hoʻonohonoho ʻia</value>
     <comment>Firewall/network status indicator</comment>
+  </data>
+  <data name="SECTION_TREASURES_FULL" xml:space="preserve">
+    <value>NĀ WAIWAI MAI KA ʻŌLELO A KE AKUA</value>
+  </data>
+  <data name="SECTION_MINISTRY_FULL" xml:space="preserve">
+    <value>E HOʻOIKAIKA I KA HAʻI ʻEUANELIO ʻANA</value>
+  </data>
+  <data name="SECTION_LIVING_FULL" xml:space="preserve">
+    <value>KA NOHONA KALIKIANO</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nā inoa piha o nā māhele hālāwai</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Hōʻike i ke kaha o ka manawa hoʻomau i koe</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Lōʻihi hoʻomau (kekona)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>ʻAno kuʻuna (like me ka hoʻonohonoho mua o OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>E hoʻohana i ka hoʻonohonoho like me ka OnlyT mua no Windows wale nō. Hūnā ʻia nā hiʻohiʻona no Avalonia wale nō.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Lele i ka haʻiʻōlelo aʻe</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Mālama</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mālama i ka papa manawa o kēia manawa i kumu e hoʻohana hou ʻia ai</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Faila papa manawa</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Hōʻike i ke pihi mālama papa manawa</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Hoʻoholo i ka nui o ka uaki me nā lima. Pili wale nō i ka hoʻonohonoho ʻaoʻao ma ʻaoʻao me ka uaki me nā lima.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Uaki a me ka mea helu manawa ʻaoʻao ma ʻaoʻao (uaki ma ka hema, mea helu manawa ma ka ʻākau)</value>
   </data>
 
 </root>
