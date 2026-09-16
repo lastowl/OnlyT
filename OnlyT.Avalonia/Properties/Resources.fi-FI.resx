@@ -734,11 +734,11 @@ Vaihto - Lisää 5M</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Lähellä</value>
+    <value>Sulje</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Tallentaa</value>
+    <value>Tallenna</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -754,15 +754,15 @@ Vaihto - Lisää 5M</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Hylkää</value>
+    <value>Ohita</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Kokous alkaa</value>
+    <value>Kokouksen alkuun</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skannaa mobiililaitteella nähdäksesi verkkokellon</value>
+    <value>Avaa web-kello skannaamalla koodi mobiililaitteella</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -770,7 +770,7 @@ Vaihto - Lisää 5M</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>Tila:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,11 +778,11 @@ Vaihto - Lisää 5M</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Lisää aikaa (+1 min). Napsauta hiiren kakkospainikkeella nähdäksesi lisää vaihtoehtoja.</value>
+    <value>Lisää aikaa (+1 min). Lisää vaihtoehtoja hiiren oikealla painikkeella.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Lyhennä aikaa (-1 min). Napsauta hiiren kakkospainikkeella nähdäksesi lisää vaihtoehtoja.</value>
+    <value>Vähennä aikaa (-1 min). Lisää vaihtoehtoja hiiren oikealla painikkeella.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,7 +790,7 @@ Vaihto - Lisää 5M</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Näytä lähtölaskenta-ajastin</value>
+    <value>Näytä lähtölaskenta</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -802,7 +802,7 @@ Vaihto - Lisää 5M</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Auttaa</value>
+    <value>Ohje</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
@@ -838,11 +838,11 @@ Vaihto - Lisää 5M</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash-ajastin jatkoajalla</value>
+    <value>Vilkuta ajastinta, kun aika ylittyy</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Soita kelloa jatkoajalla</value>
+    <value>Soita äänimerkki, kun aika ylittyy</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,23 +850,23 @@ Vaihto - Lisää 5M</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Juoksu</value>
+    <value>Käynnissä</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Keskeytetty</value>
+    <value>Tauolla</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Jatkoaika</value>
+    <value>Yliaika</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Pysähtynyt</value>
+    <value>Pysäytetty</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Syötä pääsykoodi...</value>
+    <value>Syötä salasana...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -895,6 +895,39 @@ Vaihto - Lisää 5M</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ELÄMÄ KRISTITTYNÄ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Kokouksen osien täydet nimet</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Pitoaika (sekunteina)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klassinen käyttöliittymä (alkuperäisen OnlyT:n asettelu)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Käytä samaa asettelua kuin alkuperäisessä, vain Windows-käyttöjärjestelmässä toimivassa OnlyT:ssä. Vain Avalonia-versiossa olevat ominaisuudet piilotetaan.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Siirry seuraavaan ohjelmakohtaan</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Tallenna nykyinen aikataulu uudelleen käytettäväksi malliksi</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Näytä aikataulun vientipainike</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Säätää analogikellon kokoa. Koskee vain vaakasuuntaista asettelua, jossa on analogikello.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Kello ja ajastin rinnakkain (kello vasemmalla, ajastin oikealla)</value>
   </data>
 
 </root>

@@ -404,7 +404,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Kikötő</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -542,7 +542,7 @@ Shift - Növelés 5 perccel</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>RENDBEN</value>
+    <value>Rendben</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -694,11 +694,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>nincs kapcsolat...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Zsugorítás minimalizáláskor</value>
+    <value>Zsugorítás kis méretre állításkor</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,11 +706,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Vegye figyelembe, hogy a kimenet NDI-re van állítva egy parancssori beállításon keresztül.</value>
+    <value>Figyelem: a kimenet egy parancssori beállítás miatt NDI-re van állítva.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Elindítanod kellett volna az időzítőt?</value>
+    <value>Nem kellett volna már elindítani az időzítőt?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Növelés 5 perccel</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>A megbeszélés {0} perccel túlórázik</value>
+    <value>Az összejövetel {0} perc késésben van</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>A megbeszélés {0} perccel a tervezettnél rövidebb ideig tart</value>
+    <value>Az összejövetel {0} perccel előrébb tart a tervezettnél</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Túllépési/alulfutási értesítések</value>
+    <value>Értesítés késésről/előrébb tartásról</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,11 +734,11 @@ Shift - Növelés 5 perccel</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Közeli</value>
+    <value>Bezárás</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Megtakarítás</value>
+    <value>Mentés</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -746,7 +746,7 @@ Shift - Növelés 5 perccel</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurálás</value>
+    <value>Beállítás</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -758,11 +758,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>A találkozó kezdete:</value>
+    <value>Az összejövetel kezdetéig</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Szkennelés mobileszközzel a webóra megtekintéséhez</value>
+    <value>Olvassa be mobileszközzel a webóra megtekintéséhez</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - Növelés 5 perccel</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Idő növelése (+1 perc). Kattintson jobb gombbal a további lehetőségekért.</value>
+    <value>Idő növelése (+1 perc). További lehetőségek: jobb kattintás.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Csökkentse az időt (-1 perc). Kattintson jobb gombbal a további lehetőségekért.</value>
+    <value>Idő csökkentése (-1 perc). További lehetőségek: jobb kattintás.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Időzítési jelentés generálása (PDF)</value>
+    <value>Időjelentés készítése (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -794,7 +794,7 @@ Shift - Növelés 5 perccel</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Új verzió elérhető</value>
+    <value>Új verzió érhető el</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Segítség</value>
+    <value>Súgó</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Összehúzás kompakt módba</value>
+    <value>Váltás kompakt nézetre</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash időzítő hosszabbítás alatt</value>
+    <value>Időzítő villogása időtúllépéskor</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Csengetés hosszabbításkor</value>
+    <value>Csengetés időtúllépéskor</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - Növelés 5 perccel</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Futás</value>
+    <value>Fut</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Szüneteltetett</value>
+    <value>Szüneteltetve</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Túlóra</value>
+    <value>Időtúllépés</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shift - Növelés 5 perccel</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Adja meg a hozzáférési kódot...</value>
+    <value>Hozzáférési kód megadása...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Shift - Növelés 5 perccel</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Konfigurálva</value>
+    <value>Beállítva</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Nincs konfigurálva</value>
+    <value>Nincs beállítva</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Növelés 5 perccel</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>KERESZTÉNYI ÉLETÜNK</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Az összejövetel részeinek teljes neve</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Visszaszámláló sáv mutatása kint tartáskor</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Kint tartás időtartama (mp)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasszikus felület (az eredeti OnlyT elrendezése)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Az eredeti, csak Windowson futó OnlyT elrendezését használja. A csak az Avalonia-verzióban elérhető funkciók rejtve maradnak.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Ugrás a következő programra</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Perc</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>A jelenlegi programrend mentése újrahasználható sablonként</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Programrend-fájl</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Programrend-exportálás gomb mutatása</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Az analóg óra méretét szabályozza. Csak vízszintes elrendezésben, analóg óra esetén érvényes.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Óra és időzítő egymás mellett (óra balra, időzítő jobbra)</value>
   </data>
 
 </root>

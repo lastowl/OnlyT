@@ -449,15 +449,15 @@
     <value>Будь ласка, перезапустіть OnlyT після зміни мови.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Зменшити на 1 м
+    <value>Зменшити на 1 хв
 Ctrl - Зменшити на 15 с
-Shift - Зменшити на 5 м</value>
+Shift - Зменшити на 5 хв</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Збільшити на 1 м
+    <value>Збільшити на 1 хв
 Ctrl - Збільшити на 15 с
-Shift - Збільшити на 5 м</value>
+Shift - Збільшити на 5 хв</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -710,7 +710,7 @@ Shift - Збільшити на 5 м</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Чи варто було запускати таймер?</value>
+    <value>Чи не забули ви запустити таймер?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Збільшити на 5 м</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Зустріч триває на {0} хвилин довше</value>
+    <value>Зібрання перевищує відведений час на {0} хв</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Зустріч триває на {0} хвилин швидше</value>
+    <value>Зібрання випереджає відведений час на {0} хв</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Сповіщення про перевищення/недостатнє витрачання</value>
+    <value>Сповіщення про перевищення/випередження часу</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -750,19 +750,19 @@ Shift - Збільшити на 5 м</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Запит доступу</value>
+    <value>Запросити доступ</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Відхилити</value>
+    <value>Приховати</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Зустріч починається о</value>
+    <value>Зібрання почнеться через</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Відскануйте за допомогою мобільного пристрою, щоб переглянути веб-годинник</value>
+    <value>Відскануйте мобільним пристроєм, щоб переглянути веб-годинник</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -770,7 +770,7 @@ Shift - Збільшити на 5 м</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Статус:</value>
+    <value>Стан:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - Збільшити на 5 м</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Збільшити час (+1 хв). Клацніть правою кнопкою миші, щоб переглянути більше опцій.</value>
+    <value>Збільшити час (+1 хв). Клацніть правою кнопкою миші, щоб побачити інші опції.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Зменшити час (-1 хв). Клацніть правою кнопкою миші, щоб переглянути більше опцій.</value>
+    <value>Зменшити час (-1 хв). Клацніть правою кнопкою миші, щоб побачити інші опції.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Згенерувати звіт про час (PDF)</value>
+    <value>Створити звіт про час (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - Збільшити на 5 м</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Допомога</value>
+    <value>Довідка</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Зменшити до компактного режиму</value>
+    <value>Згорнути до компактного режиму</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Збільшити на 5 м</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Таймер спалаху під час овертайму</value>
+    <value>Блимання таймера при перевищенні часу</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Дзвінок у дзвінок, коли овертайм триває понаднормово</value>
+    <value>Дзвінок при перевищенні часу</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Готовий</value>
+    <value>Готово</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Біг</value>
+    <value>Працює</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Збільшити на 5 м</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Овертайм</value>
+    <value>Перевищення часу</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Збільшити на 5 м</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ХРИСТИЯНСЬКЕ ЖИТТЯ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Повні назви частин зібрання</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Показувати смугу відліку часу утримання</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Тривалість утримання (с)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Класичний інтерфейс (як в оригінальному OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Використовувати макет, як в оригінальному OnlyT лише для Windows. Функції, доступні тільки в Avalonia, буде приховано.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Перейти до наступної частини</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Хв</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Зберегти поточний розклад як шаблон для повторного використання</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Файл розкладу</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Показувати кнопку експорту розкладу</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Регулює розмір аналогового годинника. Діє лише в горизонтальному макеті з аналоговим годинником.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Годинник і таймер поруч (годинник ліворуч, таймер праворуч)</value>
   </data>
 
 </root>

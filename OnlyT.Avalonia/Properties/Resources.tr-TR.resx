@@ -404,7 +404,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Liman</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -419,7 +419,7 @@
     <value>Bölünmüş ekran genişliği:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>TEST</value>
+    <value>DENE</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
@@ -710,7 +710,7 @@ Shift - 5dk Artır</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Zamanlayıcıyı başlatmalı mıydın?</value>
+    <value>Kronometreyi başlatmanız gerekmiyor muydu?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - 5dk Artır</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Toplantı {0} dakika fazla mesai yapıyor</value>
+    <value>İbadet {0} dakika gecikmeli ilerliyor</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Toplantı {0} dakika gecikmeli olarak devam ediyor</value>
+    <value>İbadet programdan {0} dakika önde ilerliyor</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Aşırı/Az bildirimleri</value>
+    <value>Gecikme/erken ilerleme bildirimleri</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,11 +734,11 @@ Shift - 5dk Artır</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Kapalı</value>
+    <value>Kapat</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Kaydetmek</value>
+    <value>Kaydet</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -750,19 +750,19 @@ Shift - 5dk Artır</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Erişim Talebinde Bulunun</value>
+    <value>Erişim İste</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Azletmek</value>
+    <value>Yoksay</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Toplantı başlıyor</value>
+    <value>İbadetin başlamasına kalan süre</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Web saatini görüntülemek için mobil cihazınızla tarayın</value>
+    <value>Web saatini görüntülemek için mobil cihazla tarayın</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - 5dk Artır</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Süreyi artırın (+1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+    <value>Süreyi artır (+1 dk). Daha fazla seçenek için sağ tıklayın.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Süreyi azaltın (-1 dk). Daha fazla seçenek için sağ tıklayın.</value>
+    <value>Süreyi azalt (-1 dk). Daha fazla seçenek için sağ tıklayın.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Zamanlama raporu oluştur (PDF)</value>
+    <value>Süre raporu oluştur (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Geri sayım zamanlayıcısını göster</value>
+    <value>Geri sayımı göster</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - 5dk Artır</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Uzatma Süresince Flaş Zamanlayıcısı</value>
+    <value>Süre aşıldığında kronometre yanıp sönsün</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Uzatmalarda Zil Çalar</value>
+    <value>Süre aşıldığında zil çalsın</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Shift - 5dk Artır</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Koşma</value>
+    <value>Çalışıyor</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - 5dk Artır</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Mesai</value>
+    <value>Süre aşıldı</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,7 +870,7 @@ Shift - 5dk Artır</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>dakika</value>
+    <value>dk</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5dk Artır</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>HIRİSTİYANLAR OLARAK YAŞAM TARZIMIZ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>İbadet bölümlerinin tam adları</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Kalan süre çubuğunu göster</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Ekranda kalma süresi (sn)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasik arayüz (orijinal OnlyT düzeniyle aynı)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Yalnızca Windows'ta çalışan orijinal OnlyT ile aynı düzeni kullanır. Yalnızca Avalonia sürümüne özgü özellikler gizlenir.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Sonraki bölüme geç</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Dk</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mevcut programı yeniden kullanılabilir bir şablon olarak kaydet</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Program dosyası</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Programı dışa aktarma düğmesini göster</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Analog saatin boyutunu ayarlar. Yalnızca analog saatli yatay düzende geçerlidir.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Yan yana saat düzeni (saat solda, kronometre sağda)</value>
   </data>
 
 </root>

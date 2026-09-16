@@ -706,27 +706,27 @@ Shift - Palielināt 5 min</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Ņemiet vērā, ka izvade ir iestatīta uz NDI, izmantojot komandrindas iestatījumu.</value>
+    <value>Piezīme: izvade uz NDI ir iestatīta ar komandrindas parametru.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Vai vajadzēja ieslēgt taimeri?</value>
+    <value>Vai nevajadzēja ieslēgt taimeri?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Uznirstošie atgādinājumi</value>
+    <value>Uznirstoši atgādinājumi</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Sanāksme tiek pagarināta par {0} minūtēm</value>
+    <value>Sapulce pārsniedz laiku par {0} min</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Sanāksme ilgst {0} minūtes par īsāku laiku</value>
+    <value>Sapulce apsteidz laiku par {0} min</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Pārsniegšanas/nepietiekamības paziņojumi</value>
+    <value>Paziņojumi par laika pārsniegšanu/apsteigšanu</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -754,15 +754,15 @@ Shift - Palielināt 5 min</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Noraidīt</value>
+    <value>Paslēpt</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Sanāksme sākas plkst.</value>
+    <value>Sapulce sāksies pēc</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skenējiet ar mobilo ierīci, lai skatītu tīmekļa pulksteni</value>
+    <value>Noskenējiet ar mobilo ierīci, lai atvērtu web pulksteni</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Palielināt 5 min</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Palielināt laiku (+1 min). Noklikšķiniet ar peles labo pogu, lai skatītu citas opcijas.</value>
+    <value>Palielināt laiku (+1 min). Citas iespējas – ar peles labo pogu.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Samazināt laiku (-1 min). Noklikšķiniet ar peles labo pogu, lai skatītu citas opcijas.</value>
+    <value>Samazināt laiku (-1 min). Citas iespējas – ar peles labo pogu.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Laika atskaites ģenerēšana (PDF)</value>
+    <value>Izveidot laika pārskatu (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Rādīt atpakaļskaitīšanas taimeri</value>
+    <value>Parādīt laika atskaiti</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Palielināt 5 min</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Samazināt kompaktajā režīmā</value>
+    <value>Samazināt līdz kompaktajam režīmam</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Palielināt 5 min</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Zibspuldzes taimeris papildlaika laikā</value>
+    <value>Taimeris mirgo, kad laiks pārsniegts</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Zvanīt pēc papildlaika</value>
+    <value>Zvanīt, kad laiks pārsniegts</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - Palielināt 5 min</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Skriešana</value>
+    <value>Darbojas</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Apturēts</value>
+    <value>Pauze</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Virsstundas</value>
+    <value>Laiks pārsniegts</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Palielināt 5 min</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>KRISTĪGA DZĪVE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Pilni sapulces daļu nosaukumi</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Rādīt noturēšanas laika joslu</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Noturēšanas ilgums (sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasiskā saskarne (kā oriģinālajā OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Izmantot izkārtojumu, kas atbilst oriģinālajai, tikai Windows paredzētajai OnlyT versijai. Funkcijas, kas ir tikai Avalonia versijā, tiek paslēptas.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Pāriet uz nākamo daļu</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Saglabāt</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Saglabāt pašreizējo grafiku kā atkārtoti lietojamu veidni</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Grafika fails</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Rādīt grafika eksporta pogu</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Nosaka analogā pulksteņa izmēru. Attiecas tikai uz horizontālu izkārtojumu ar analogo pulksteni.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Pulkstenis un taimeris blakus (pulkstenis pa kreisi, taimeris pa labi)</value>
   </data>
 
 </root>

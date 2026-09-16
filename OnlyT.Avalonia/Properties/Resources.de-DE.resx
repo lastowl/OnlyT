@@ -404,7 +404,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Hafen</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -419,7 +419,7 @@
     <value>Teilungsverhältnis des Bildschirms:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>PRÜFEN</value>
+    <value>TESTEN</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
@@ -449,15 +449,15 @@
     <value>Bitte OnlyT nach dem Ändern der Sprache neustarten.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Verringern Sie um 1 Minute.
-Strg – Verringern Sie um 15 Sekunden.
-Umschalt – Verringern Sie um 5 Minuten.</value>
+    <value>1 Min. verkürzen
+Ctrl - 15 Sek. verkürzen
+Shift - 5 Min. verkürzen</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1 Minute erhöhen
-Strg – 15 Sekunden erhöhen
-Umschalt – 5 Minuten erhöhen</value>
+    <value>1 Min. verlängern
+Ctrl - 15 Sek. verlängern
+Shift - 5 Min. verlängern</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -494,7 +494,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>Uhrenrahmen</value>
+    <value>Rahmen um die Uhr</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -578,7 +578,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Debuggen</value>
+    <value>Fehlersuche</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Tödlich</value>
+    <value>Schwerwiegend</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -650,15 +650,15 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Hintergrundverlauf für Timer</value>
+    <value>Farbverlauf im Timer-Hintergrund</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Hintergrundverlauf der Uhr</value>
+    <value>Farbverlauf im Uhr-Hintergrund</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Zeitrahmen</value>
+    <value>Rahmen um den Timer</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,7 +666,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Das Wochenende umfasst Freitag</value>
+    <value>Wochenende schließt Freitag ein</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
@@ -682,7 +682,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Transparenter Countdown im Fenstermodus kann nicht geöffnet werden</value>
+    <value>Transparenter Countdown kann nicht im Fenstermodus geöffnet werden</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,7 +698,7 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Verkleinern auf minimieren</value>
+    <value>Beim Minimieren verkleinern</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
@@ -706,11 +706,11 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Beachten Sie, dass die Ausgabe über eine Befehlszeileneinstellung auf NDI festgelegt wird.</value>
+    <value>Hinweis: Die Ausgabe wurde per Kommandozeilenbefehl auf NDI gesetzt.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Hätten Sie den Timer starten sollen?</value>
+    <value>Hätte der Timer schon gestartet werden sollen?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Die Sitzung dauert {0} Minuten länger als geplant.</value>
+    <value>Die Zusammenkunft überzieht um {0} Minuten</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Die Sitzung läuft {0} Minuten unter der geplanten Zeit.</value>
+    <value>Die Zusammenkunft liegt {0} Minuten unter der Zeit</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Über-/Unterlaufbenachrichtigungen</value>
+    <value>Hinweise bei Zeitüberschreitung/-unterschreitung</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -754,15 +754,15 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Zurückweisen</value>
+    <value>Ausblenden</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Das Treffen beginnt in</value>
+    <value>Die Zusammenkunft beginnt in</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Mit einem Mobilgerät scannen, um die Webuhr anzuzeigen</value>
+    <value>Mit einem Mobilgerät scannen, um die Internet-Uhr anzuzeigen</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -786,11 +786,11 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Zeitbericht erstellen (PDF)</value>
+    <value>Bericht über Zeiteinhaltung erstellen (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Countdown-Timer anzeigen</value>
+    <value>Countdown anzeigen</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -802,11 +802,11 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Helfen</value>
+    <value>Hilfe</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>In den Kompaktmodus verkleinern</value>
+    <value>Auf Kompaktansicht verkleinern</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,15 +834,15 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>Netzwerkberechtigungen</value>
+    <value>NETZWERKBERECHTIGUNGEN</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Blitzzeitmesser während der Überstunden</value>
+    <value>Timer bei Zeitüberschreitung blinken lassen</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Klingeln Sie die Glocke, wenn Überstunden anstehen</value>
+    <value>Signalton bei Zeitüberschreitung</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -854,23 +854,23 @@ Umschalt – 5 Minuten erhöhen</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Angehalten</value>
+    <value>Pausiert</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Im Laufe der Zeit</value>
+    <value>Zeit überschritten</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Angehalten</value>
+    <value>Gestoppt</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Zugangscode eingeben...</value>
+    <value>PIN eingeben...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min</value>
+    <value>Min.</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Umschalt – 5 Minuten erhöhen</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>UNSER LEBEN ALS CHRIST</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Vollständige Namen der Programmteile</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Fortschrittsbalken für die Anzeigedauer anzeigen</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Anzeigedauer (Sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klassische Oberfläche (wie das ursprüngliche OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Verwendet ein Layout wie das ursprüngliche OnlyT, das nur für Windows verfügbar war. Funktionen, die es nur in der Avalonia-Version gibt, werden ausgeblendet.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Zum nächsten Programmpunkt springen</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Aktuellen Zeitplan als wiederverwendbare Vorlage speichern</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Zeitplandatei</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Schaltfläche zum Exportieren des Zeitplans anzeigen</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Legt die Größe der analogen Uhr fest. Gilt nur für die waagerechte Anordnung mit analoger Uhr.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Uhr und Timer nebeneinander (Uhr links, Timer rechts)</value>
   </data>
 
 </root>

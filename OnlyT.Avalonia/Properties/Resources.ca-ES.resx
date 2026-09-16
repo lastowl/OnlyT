@@ -710,7 +710,7 @@ Shift - Augmenta 5m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Hauries d'haver engegat el temporitzador?</value>
+    <value>No hauries d'haver engegat el cronòmetre?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Augmenta 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>La reunió s'allargarà {0} minuts</value>
+    <value>La reunió va {0} minuts per sobre del temps previst</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>La reunió s'està executant amb {0} minuts de retard.</value>
+    <value>La reunió va {0} minuts per sota del temps previst</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Notificacions de sobreexecució/subexecució</value>
+    <value>Avisos d'excés o manca de temps</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -754,15 +754,15 @@ Shift - Augmenta 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Ignora</value>
+    <value>Descarta</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>La reunió comença a</value>
+    <value>La reunió comença d'aquí a</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Escaneja amb el dispositiu mòbil per veure el rellotge web</value>
+    <value>Escaneja amb un dispositiu mòbil per veure el rellotge web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,23 +778,23 @@ Shift - Augmenta 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Augmenta el temps (+1 min). Fes clic amb el botó dret per obtenir més opcions.</value>
+    <value>Augmenta el temps (+1 min). Fes clic amb el botó dret per a més opcions.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Redueix el temps (-1 min). Fes clic amb el botó dret per obtenir més opcions.</value>
+    <value>Redueix el temps (-1 min). Fes clic amb el botó dret per a més opcions.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generar informe de temps (PDF)</value>
+    <value>Genera l'informe dels temps (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostra el temporitzador de compte enrere</value>
+    <value>Mostra el compte enrere</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Nova versió disponible</value>
+    <value>Hi ha una nova versió disponible</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Augmenta 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Reduir a mode compacte</value>
+    <value>Redueix a mode compacte</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Augmenta 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Temporitzador de flaix durant la pròrroga</value>
+    <value>Fes parpellejar el cronòmetre en excedir el temps</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Toca el timbre quan hi hagi temps extra</value>
+    <value>Fes sonar el timbre en excedir el temps</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Llest</value>
+    <value>A punt</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Córrer</value>
+    <value>En marxa</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Augmenta 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>hores extres</value>
+    <value>Temps excedit</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shift - Augmenta 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Introduïu el codi d'accés...</value>
+    <value>Introdueix el codi d'accés...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Augmenta 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VIDA CRISTIANA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Noms complets de les seccions de la reunió</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Mostra una barra amb el temps de conservació restant</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Durada de la conservació (segons)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interfície clàssica (igual que el disseny original d'OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Fes servir un disseny igual que el de l'OnlyT original, només per a Windows. Les funcions exclusives d'Avalonia s'amaguen.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Passa a la part següent</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Desa</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Desa el programa actual com a plantilla reutilitzable</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fitxer del programa</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostra el botó per exportar el programa</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controla la mida del rellotge analògic. Només s'aplica a la disposició horitzontal amb rellotge analògic.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Rellotge i cronòmetre l'un al costat de l'altre (rellotge a l'esquerra, cronòmetre a la dreta)</value>
   </data>
 
 </root>

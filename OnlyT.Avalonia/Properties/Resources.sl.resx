@@ -750,19 +750,19 @@ Shift — podaljšaj 5 min</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Zahteva za dostop</value>
+    <value>Zahtevaj dostop</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Zavrzi</value>
+    <value>Opusti</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Sestanek se začne čez</value>
+    <value>Shod se začne čez</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Skenirajte z mobilno napravo za ogled spletne ure</value>
+    <value>Za ogled spletne ure skenirajte z mobilno napravo</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,11 +778,11 @@ Shift — podaljšaj 5 min</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Podaljšajte čas (+1 min). Za več možnosti kliknite z desno miškino tipko.</value>
+    <value>Podaljšaj čas (+1 min). Za več možnosti kliknite z desno tipko miške.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Zmanjšajte čas (-1 min). Za več možnosti kliknite z desno miškino tipko.</value>
+    <value>Skrajšaj čas (-1 min). Za več možnosti kliknite z desno tipko miške.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,11 +790,11 @@ Shift — podaljšaj 5 min</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Prikaži odštevalnik časa</value>
+    <value>Prikaži odštevalnik</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Na voljo nova različica</value>
+    <value>Na voljo je nova različica</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift — podaljšaj 5 min</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Časovnik bliskavice med podaljškom</value>
+    <value>Utripanje časomera ob prekoračitvi časa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Zvoni ob podaljšku</value>
+    <value>Zvočni signal ob prekoračitvi časa</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,23 +850,23 @@ Shift — podaljšaj 5 min</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Tek</value>
+    <value>Teče</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Zaustavljeno</value>
+    <value>Začasno ustavljen</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Nadurno delo</value>
+    <value>Prekoračen čas</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Ustavljeno</value>
+    <value>Ustavljen</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Vnesite dostopno kodo ...</value>
+    <value>Vnesite kodo za dostop ...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -896,6 +896,39 @@ Shift — podaljšaj 5 min</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>KRŠČANSKO ŽIVLJENJE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Polna imena delov shoda</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Trajanje začasnega prikaza (s)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasični vmesnik (izvirna postavitev OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Uporabi postavitev, ki ustreza izvirnemu OnlyT samo za Windows. Funkcije, ki so na voljo le v različici Avalonia, so skrite.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Preskoči na naslednjo točko</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Shrani</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Shrani trenutni urnik kot predlogo za ponovno uporabo</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Prikaži gumb za izvoz urnika</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Določa velikost analogne ure. Velja le za vodoravno postavitev z analogno uro.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Postavitev drug ob drugem (ura levo, časomer desno)</value>
   </data>
 
 </root>

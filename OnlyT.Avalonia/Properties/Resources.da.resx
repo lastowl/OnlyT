@@ -134,7 +134,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Softwareversion {0}</value>
+    <value>Programversion {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
@@ -177,7 +177,7 @@
     <value>Analog og Digital</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Digitalt</value>
+    <value>Digital</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
     <value>Klokke er inaktiv</value>
@@ -243,7 +243,7 @@
     <value>Vagttårnsstudie</value>
   </data>
   <data name="WEEKEND" xml:space="preserve">
-    <value>Weekend</value>
+    <value>Weekendmøde</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
     <value>12-timers (am/pm)</value>
@@ -263,13 +263,13 @@
     <value>Indstillinger</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>PERLER FRA GUDS ORD</value>
+    <value>Perler</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>BLIV DYGTIGERE TIL AT FORKYNDE</value>
+    <value>Forkyndelse</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>VORES LIV SOM KRISTNE</value>
+    <value>Livet som kristne</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Weekend</value>
@@ -322,7 +322,7 @@
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>FJERNBETJENINGSAPPS</value>
+    <value>FJERNSTYRING</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
@@ -404,7 +404,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Havn</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -419,7 +419,7 @@
     <value>Split-screen bredde:</value>
   </data>
   <data name="TEST" xml:space="preserve">
-    <value>PRØVE</value>
+    <value>AFPRØV</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
@@ -542,7 +542,7 @@ Shift - Plus 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Okay</value>
+    <value>OK</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -638,7 +638,7 @@ Shift - Plus 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Digitalt</value>
+    <value>Digital</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
@@ -734,19 +734,19 @@ Shift - Plus 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Tæt</value>
+    <value>Luk</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Spare</value>
+    <value>Gem</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Opfriske</value>
+    <value>Opdater</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Konfigurér</value>
+    <value>Konfigurer</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -754,7 +754,7 @@ Shift - Plus 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Afskedige</value>
+    <value>Afvis</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
@@ -762,7 +762,7 @@ Shift - Plus 5m</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan med mobilenhed for at se webur</value>
+    <value>Scan med en mobilenhed for at se weburet</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,11 +778,11 @@ Shift - Plus 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Øg tiden (+1 min). Højreklik for flere muligheder.</value>
+    <value>Forlæng tiden (+1 min.). Højreklik for flere muligheder.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Reducer tiden (-1 min). Højreklik for flere muligheder.</value>
+    <value>Forkort tiden (-1 min.). Højreklik for flere muligheder.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,7 +790,7 @@ Shift - Plus 5m</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Vis nedtællingstimer</value>
+    <value>Vis nedtælling</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Plus 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Formindsk til kompakt tilstand</value>
+    <value>Formindsk til kompakt visning</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,27 +838,27 @@ Shift - Plus 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash-timer under overtid</value>
+    <value>Lad timeren blinke ved overtid</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring klokken ved overtid</value>
+    <value>Ring med klokken ved overtid</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Parat</value>
+    <value>Klar</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Løb</value>
+    <value>Kører</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Pausesat</value>
+    <value>Sat på pause</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overarbejde</value>
+    <value>Overtid</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -895,6 +895,39 @@ Shift - Plus 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VORES LIV SOM KRISTNE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Fulde navne på mødets afsnit</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Visningstid efter afslutning (sek.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klassisk brugerflade (som det oprindelige OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Brug et layout, der svarer til det oprindelige OnlyT, som kun fandtes til Windows. Funktioner, der kun findes i Avalonia-versionen, skjules.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Spring til næste punkt</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Gem den aktuelle tidsplan som en skabelon, der kan genbruges</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Vis knap til eksport af tidsplan</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Styrer størrelsen på det analoge ur. Gælder kun i vandret layout med analogt ur.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Ur og timer side om side (ur til venstre, timer til højre)</value>
   </data>
 
 </root>

@@ -449,15 +449,15 @@
     <value>Redémarrez OnlyT après avoir changé la langue.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Diminuer de 1 m
+    <value>Diminuer de 1 min
 Ctrl - Diminuer de 15 s
-Maj - Diminuer de 5 m</value>
+Shift - Diminuer de 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Augmenter de 1 m
+    <value>Augmenter de 1 min
 Ctrl - Augmenter de 15 s
-Maj - Augmenter de 5 m</value>
+Shift - Augmenter de 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -542,7 +542,7 @@ Maj - Augmenter de 5 m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>D'ACCORD</value>
+    <value>OK</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -710,7 +710,7 @@ Maj - Augmenter de 5 m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Auriez-vous dû démarrer le minuteur ?</value>
+    <value>Avez-vous oublié de démarrer le minuteur ?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Maj - Augmenter de 5 m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>La réunion a dépassé de {0} minutes l'heure prévue.</value>
+    <value>La réunion a {0} minutes de retard</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>La réunion a {0} minutes de retard.</value>
+    <value>La réunion a {0} minutes d'avance</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Notifications de dépassement/sous-dépassement</value>
+    <value>Notifications de retard/d'avance</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -738,39 +738,39 @@ Maj - Augmenter de 5 m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Sauvegarder</value>
+    <value>Enregistrer</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Rafraîchir</value>
+    <value>Actualiser</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Configurer</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Demande d'accès</value>
+    <value>Demander l'accès</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Rejeter</value>
+    <value>Ignorer</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>La réunion commence à</value>
+    <value>La réunion commence dans</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scannez avec votre appareil mobile pour afficher l'horloge web</value>
+    <value>Scannez avec un appareil mobile pour afficher l'horloge en ligne</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Plate-forme:</value>
+    <value>Plateforme :</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Statut:</value>
+    <value>État :</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,15 +778,15 @@ Maj - Augmenter de 5 m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Augmenter la durée (+1 min). Cliquez avec le bouton droit pour plus d'options.</value>
+    <value>Augmenter le temps (+1 min). Clic droit pour plus d'options.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Réduisez le temps (-1 min). Cliquez avec le bouton droit pour plus d'options.</value>
+    <value>Réduire le temps (-1 min). Clic droit pour plus d'options.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Générer un rapport de chronométrage (PDF)</value>
+    <value>Générer le rapport des temps (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -838,11 +838,11 @@ Maj - Augmenter de 5 m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Minuteur clignotant pendant les heures supplémentaires</value>
+    <value>Faire clignoter le minuteur en cas de dépassement</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Sonnez la cloche lorsque les heures supplémentaires sont dépassées.</value>
+    <value>Signal sonore en cas de dépassement</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Maj - Augmenter de 5 m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>En cours d'exécution</value>
+    <value>En cours</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Maj - Augmenter de 5 m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Au fil du temps</value>
+    <value>Temps dépassé</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -874,7 +874,7 @@ Maj - Augmenter de 5 m</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>configuré</value>
+    <value>Configuré</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Maj - Augmenter de 5 m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VIE CHRÉTIENNE</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Noms complets des sections de la réunion</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Afficher une barre de progression du temps de conservation</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Durée de conservation (s)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interface classique (disposition d'origine d'OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Utiliser la disposition de la version originale d'OnlyT (Windows uniquement). Les fonctionnalités propres à Avalonia sont masquées.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Passer à la partie suivante</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Enregistrer le programme actuel comme modèle réutilisable</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fichier de programme</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Afficher le bouton d'exportation du programme</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Règle la taille de l'horloge analogique. S'applique uniquement à la disposition horizontale avec une horloge analogique.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Horloge et minuteur côte à côte (horloge à gauche, minuteur à droite)</value>
   </data>
 
 </root>

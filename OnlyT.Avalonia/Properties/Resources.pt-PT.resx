@@ -694,7 +694,7 @@ Shift - Adicionar 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>sem ligação...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
@@ -746,13 +746,13 @@ Shift - Adicionar 5m</value>
     <value>Atualizar</value>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Solicitar Acesso</value>
+    <value>Pedir acesso</value>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
     <value>Guardar</value>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Modo de Ecrã Inteiro</value>
+    <value>Modo de ecrã inteiro</value>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
     <value>Plataforma:</value>
@@ -779,10 +779,10 @@ Shift - Adicionar 5m</value>
     <value>+5 minutos</value>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>A reunião começa em</value>
+    <value>A reunião começa dentro de</value>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Digitalize com dispositivo móvel para ver o relógio web</value>
+    <value>Leia com um dispositivo móvel para ver o relógio no navegador</value>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
     <value>PERMISSÕES DE REDE</value>
@@ -791,40 +791,40 @@ Shift - Adicionar 5m</value>
     <value>Configurado</value>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Não Configurado</value>
+    <value>Não configurado</value>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Tempo Excedido</value>
+    <value>Tempo excedido</value>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Em Pausa</value>
+    <value>Em pausa</value>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
     <value>Pronto</value>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Em Execução</value>
+    <value>Em curso</value>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
     <value>Parado</value>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Tocar Campainha Quando Exceder o Tempo</value>
+    <value>Tocar a campainha quando exceder o tempo</value>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Piscar Cronómetro Durante Tempo Excedido</value>
+    <value>Piscar o cronómetro quando exceder o tempo</value>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Diminuir tempo (-1 min). Clique com o botão direito para mais opções.</value>
+    <value>Diminuir o tempo (-1 min). Clique com o botão direito para mais opções.</value>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Gerar relatório de cronometragem (PDF)</value>
+    <value>Gerar relatório de tempos (PDF)</value>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
     <value>Ajuda</value>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Aumentar tempo (+1 min). Clique com o botão direito para mais opções.</value>
+    <value>Aumentar o tempo (+1 min). Clique com o botão direito para mais opções.</value>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
     <value>Nova versão disponível</value>
@@ -833,7 +833,7 @@ Shift - Adicionar 5m</value>
     <value>Definições</value>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostrar cronómetro regressivo</value>
+    <value>Mostrar contagem decrescente</value>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
     <value>Reduzir para modo compacto</value>
@@ -842,7 +842,7 @@ Shift - Adicionar 5m</value>
     <value>min</value>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Introduzir código de acesso...</value>
+    <value>Introduza o código de acesso...</value>
   </data>
   <data name="SCHEDULE_FILE" xml:space="preserve">
     <value>Ficheiro de agendamento</value>
@@ -858,5 +858,38 @@ Shift - Adicionar 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VIVER COMO CRISTÃOS</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nomes completos das secções da reunião</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Tempo de permanência no ecrã (seg)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interface clássica (igual ao OnlyT original)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Utiliza um aspeto igual ao do OnlyT original, que era apenas para Windows. As funcionalidades exclusivas da versão Avalonia ficam ocultas.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Avançar para a parte seguinte</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Guardar o programa atual como modelo reutilizável</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostrar botão de exportar programa</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controla o tamanho do relógio analógico. Só se aplica à disposição horizontal com relógio analógico.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Relógio e cronómetro lado a lado (relógio à esquerda, cronómetro à direita)</value>
   </data>
 </root>

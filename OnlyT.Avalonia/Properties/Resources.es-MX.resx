@@ -542,7 +542,7 @@ Mayús - Aumentar 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>Aceptar</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -734,15 +734,15 @@ Mayús - Aumentar 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Cerca</value>
+    <value>Cerrar</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Ahorrar</value>
+    <value>Guardar</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refrescar</value>
+    <value>Actualizar</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -754,7 +754,7 @@ Mayús - Aumentar 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Despedir</value>
+    <value>Descartar</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
@@ -762,7 +762,7 @@ Mayús - Aumentar 5m</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Escanee con el dispositivo móvil para ver el reloj web</value>
+    <value>Escanea con un dispositivo móvil para ver el reloj web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -782,7 +782,7 @@ Mayús - Aumentar 5m</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Disminuir el tiempo (-1 min). Haga clic derecho para ver más opciones.</value>
+    <value>Disminuir el tiempo (-1 min). Haz clic derecho para ver más opciones.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
@@ -790,7 +790,7 @@ Mayús - Aumentar 5m</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostrar temporizador de cuenta regresiva</value>
+    <value>Mostrar la cuenta regresiva</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -798,7 +798,7 @@ Mayús - Aumentar 5m</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Ajustes</value>
+    <value>Configuración</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
@@ -838,11 +838,11 @@ Mayús - Aumentar 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Temporizador de destello durante las horas extra</value>
+    <value>Hacer parpadear el temporizador al pasarse del tiempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Toca la campana cuando hagas horas extras</value>
+    <value>Tocar la campana al pasarse del tiempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Mayús - Aumentar 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Correr</value>
+    <value>En marcha</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,19 +858,19 @@ Mayús - Aumentar 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Con el tiempo</value>
+    <value>Tiempo excedido</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Interrumpido</value>
+    <value>Detenido</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Introduzca el código de acceso...</value>
+    <value>Ingresa el código de acceso...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>mín.</value>
+    <value>min</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Mayús - Aumentar 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>NUESTRA VIDA CRISTIANA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nombres completos de las secciones de la reunión</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Mostrar barra de cuenta regresiva de persistencia</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Duración de la persistencia (seg.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interfaz clásica (igual que el diseño original de OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Usa un diseño igual al del OnlyT original, que solo funciona en Windows. Se ocultan las funciones exclusivas de Avalonia.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Pasar a la siguiente parte</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Guardar el programa actual como plantilla reutilizable</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Archivo de programa</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostrar botón para exportar el programa</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controla el tamaño del reloj analógico. Solo se aplica en el diseño horizontal con reloj analógico.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Reloj y temporizador lado a lado (reloj a la izquierda, temporizador a la derecha)</value>
   </data>
 
 </root>

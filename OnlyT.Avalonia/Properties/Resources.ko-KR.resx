@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>일방통행</value>
+    <value>단방향</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -158,15 +158,15 @@
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>적응된 기간</value>
+    <value>자동 조정된 시간</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>수정된 기간</value>
+    <value>수정된 시간</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>원래 기간</value>
+    <value>원래 시간</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -204,7 +204,7 @@
     <value>수동</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>마무리 토크</value>
+    <value>맺음 연설</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>맺음말</value>
@@ -734,15 +734,15 @@ Shift - 5분 늘리기</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>닫다</value>
+    <value>닫기</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>구하다</value>
+    <value>저장</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>새로 고치다</value>
+    <value>새로 고침</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -750,19 +750,19 @@ Shift - 5분 늘리기</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>접근 요청</value>
+    <value>접근 권한 요청</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>해고하다</value>
+    <value>닫기</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>회의는 ~에 시작됩니다</value>
+    <value>집회 시작까지</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>모바일 기기로 스캔하여 웹 시계를 확인하세요</value>
+    <value>웹 시계를 보려면 모바일 기기로 스캔하세요</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - 5분 늘리기</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>시간을 늘리세요(+1분). 더 많은 옵션을 보려면 마우스 오른쪽 버튼을 클릭하세요.</value>
+    <value>시간 늘리기(+1분). 더 많은 옵션을 보려면 마우스 오른쪽 버튼을 클릭하세요.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>시간을 줄이세요(-1분). 더 많은 옵션을 보려면 마우스 오른쪽 버튼을 클릭하세요.</value>
+    <value>시간 줄이기(-1분). 더 많은 옵션을 보려면 마우스 오른쪽 버튼을 클릭하세요.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>타이밍 보고서 생성(PDF)</value>
+    <value>타이머 기록표 생성(PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -794,7 +794,7 @@ Shift - 5분 늘리기</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>새로운 버전이 출시되었습니다</value>
+    <value>새 버전이 있습니다</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -802,11 +802,11 @@ Shift - 5분 늘리기</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>돕다</value>
+    <value>도움말</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>컴팩트 모드로 축소</value>
+    <value>작은 화면 모드로 축소</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,35 +838,35 @@ Shift - 5분 늘리기</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>연장전 중 플래시 타이머</value>
+    <value>시간 초과 시 타이머 깜박이기</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>초과 근무 시 벨을 울리세요</value>
+    <value>시간 초과 시 벨 울리기</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>준비가 된</value>
+    <value>준비됨</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>달리기</value>
+    <value>진행 중</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>일시 중지됨</value>
+    <value>일시 정지됨</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>시간 외에</value>
+    <value>시간 초과</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>멈췄다</value>
+    <value>정지됨</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>액세스 코드를 입력하세요...</value>
+    <value>액세스 코드 입력...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - 5분 늘리기</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>그리스도인 생활</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>집회 부분 전체 제목</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>시간 띄우기 남은 시간 막대 표시</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>시간 띄우기 지속 시간(초)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>클래식 화면(원래 OnlyT 레이아웃과 동일)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Windows 전용인 원래 OnlyT와 같은 레이아웃을 사용합니다. Avalonia 전용 기능은 숨겨집니다.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>다음 순서로 건너뛰기</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>분</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>현재 일정을 다시 사용할 수 있는 템플릿으로 저장</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>일정 파일</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>일정 내보내기 버튼 표시</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>아날로그 시계 크기를 조절합니다. 아날로그 시계가 있는 가로 레이아웃에서만 적용됩니다.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>시계와 타이머 나란히 배치(시계 왼쪽, 타이머 오른쪽)</value>
   </data>
 
 </root>

@@ -722,7 +722,7 @@ Shift - Crește cu 5 min</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Întâlnirea are un decalaj de {0} minute.</value>
+    <value>Întrunirea este cu {0} minute sub timpul programat</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
@@ -734,35 +734,35 @@ Shift - Crește cu 5 min</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Aproape</value>
+    <value>Închide</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Salva</value>
+    <value>Salvează</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Reîmprospăta</value>
+    <value>Reîmprospătează</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configurați</value>
+    <value>Configurează</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Solicitați acces</value>
+    <value>Solicită acces</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Închide</value>
+    <value>Ignoră</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Întâlnirea începe în</value>
+    <value>Întrunirea începe peste</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scanați cu dispozitivul mobil pentru a vizualiza ceasul web</value>
+    <value>Scanați cu un dispozitiv mobil pentru a vedea ceasul web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Crește cu 5 min</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Măriți timpul (+1 minut). Faceți clic dreapta pentru mai multe opțiuni.</value>
+    <value>Mărește timpul (+1 min). Clic dreapta pentru mai multe opțiuni.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Reduceți timpul (-1 min). Faceți clic dreapta pentru mai multe opțiuni.</value>
+    <value>Reduce timpul (-1 min). Clic dreapta pentru mai multe opțiuni.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generați raportul de cronometrare (PDF)</value>
+    <value>Generează raportul de cronometrare (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Afișează cronometrul cu numărătoare inversă</value>
+    <value>Arată contracronometrul</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Crește cu 5 min</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Micșorați la modul compact</value>
+    <value>Micșorează la modul compact</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - Crește cu 5 min</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Cronometru flash în timpul prelungirilor</value>
+    <value>Cronometrul clipește la depășirea timpului</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Sunați clopoțelul când aveți prelungiri</value>
+    <value>Sună clopoțelul la depășirea timpului</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - Crește cu 5 min</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Funcţionare</value>
+    <value>Pornit</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Întrerupt</value>
+    <value>În pauză</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Peste orar</value>
+    <value>Timp depășit</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Crește cu 5 min</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VIAȚA DE CREȘTIN</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Denumirile complete ale secțiunilor întrunirii</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Arată bara cu timpul rămas de afișare</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Durata menținerii afișării (sec.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interfață clasică (aspectul original OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Folosește un aspect identic cu cel al versiunii originale OnlyT, disponibilă doar pentru Windows. Funcțiile specifice versiunii Avalonia sunt ascunse.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Treci la următoarea temă</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Salvează programul curent ca șablon reutilizabil</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fișier de program</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Arată butonul de export al programului</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controlează dimensiunea ceasului analogic. Se aplică doar în aspectul orizontal cu ceas analogic.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Ceas și cronometru alăturate (ceasul în stânga, cronometrul în dreapta)</value>
   </data>
 
 </root>

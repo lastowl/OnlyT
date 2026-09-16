@@ -404,7 +404,7 @@
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
-    <value>Prístav</value>
+    <value>Port</value>
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
@@ -449,15 +449,15 @@
     <value>Reštartujte OnlyT po zmene jazyka.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Znížiť o 1 m
-Ctrl - Znížiť o 15 s
-Shift - Znížiť o 5 m</value>
+    <value>Skrátiť o 1 min
+Ctrl - Skrátiť o 15 s
+Shift - Skrátiť o 5 min</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Zväčšiť o 1 m
-Ctrl - Zväčšiť o 15 s
-Shift - Zväčšiť o 5 m</value>
+    <value>Predĺžiť o 1 min
+Ctrl - Predĺžiť o 15 s
+Shift - Predĺžiť o 5 min</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -542,7 +542,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>V poriadku</value>
+    <value>OK</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Smrteľné</value>
+    <value>Kritická chyba</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,11 +594,11 @@ Shift - Zväčšiť o 5 m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Podrobný</value>
+    <value>Podrobné</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>POZOR</value>
+    <value>Varovanie</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
@@ -694,7 +694,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>bez pripojenia...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
@@ -706,27 +706,27 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Upozorňujeme, že výstup je nastavený na NDI pomocou nastavenia príkazového riadka.</value>
+    <value>Upozornenie: výstup je nastavený na NDI parametrom príkazového riadka.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Mal si spustiť časovač?</value>
+    <value>Nemali ste už spustiť časovač?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Kontextové pripomienky</value>
+    <value>Vyskakovacie pripomienky</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Stretnutie trvá {0} minút nadčas</value>
+    <value>Zhromaždenie prekračuje čas o {0} min</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Stretnutie trvá o {0} minút kratšie ako je čas</value>
+    <value>Zhromaždenie je {0} min pred časom</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Upozornenia na prekročenie/nedoplnenie</value>
+    <value>Upozornenia na prekročenie/náskok času</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -750,7 +750,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Žiadosť o prístup</value>
+    <value>Požiadať o prístup</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
@@ -758,7 +758,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Stretnutie sa začína o</value>
+    <value>Do začiatku zhromaždenia zostáva</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
@@ -778,15 +778,15 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Predĺžte čas (+1 min). Kliknite pravým tlačidlom myši pre viac možností.</value>
+    <value>Predĺžiť čas (+1 min). Pravým kliknutím zobrazíte ďalšie možnosti.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Skrátiť čas (-1 min). Kliknite pravým tlačidlom myši pre viac možností.</value>
+    <value>Skrátiť čas (-1 min). Pravým kliknutím zobrazíte ďalšie možnosti.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Vygenerovať správu o načasovaní (PDF)</value>
+    <value>Vytvoriť správu o časovaní (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -794,7 +794,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Nová verzia k dispozícii</value>
+    <value>K dispozícii je nová verzia</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Časovač blesku počas predĺženia</value>
+    <value>Blikanie časovača pri prekročení času</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Zvoňte pri predĺžení</value>
+    <value>Zazvoniť pri prekročení času</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Pripravený</value>
+    <value>Pripravené</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Beh</value>
+    <value>Beží</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Nadčasy</value>
+    <value>Prekročený čas</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,7 +870,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>min.</value>
+    <value>min</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -878,7 +878,7 @@ Shift - Zväčšiť o 5 m</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Nie je nakonfigurované</value>
+    <value>Nenakonfigurované</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Zväčšiť o 5 m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ŽIVOT KRESŤANA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Celé názvy častí zhromaždenia</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Zobraziť pruh zostávajúceho času zobrazenia</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Dĺžka zobrazenia konečného času (s)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasické rozhranie (pôvodné rozloženie OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Použije rozloženie zhodné s pôvodnou verziou OnlyT iba pre Windows. Funkcie dostupné len vo verzii Avalonia sa skryjú.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Preskočiť na ďalší bod programu</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Uložiť</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Uložiť aktuálny program ako šablónu na opakované použitie</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Súbor s programom</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Zobraziť tlačidlo na uloženie programu</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Určuje veľkosť analógových hodín. Platí iba pri rozložení vedľa seba s analógovými hodinami.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Rozloženie vedľa seba (hodiny vľavo, časovač vpravo)</value>
   </data>
 
 </root>

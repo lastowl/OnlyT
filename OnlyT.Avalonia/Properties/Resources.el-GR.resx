@@ -382,7 +382,7 @@
     <value>Για να χρησιμοποιήσετε οποιαδήποτε μορφή ώρας που σας αρέσει!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>Προαιρετικά, συμπεριλάβετε μια ημέρα, π.χ. "Πέμ 19:15"</value>
+    <value>Προαιρετικά, προσθέστε ημέρα, π.χ. "Πέμ 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Σημειώσεις:</value>
@@ -449,15 +449,15 @@
     <value>Παρακαλώ επανεκκινήστε το OnlyT αφού αλλάξετε τη γλώσσα.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Μείωση 1λ
-Ctrl - Μείωση 15 δευτ.
-Shift - Μείωση 5λ</value>
+    <value>Μείωση κατά 1 λεπτό
+Ctrl - Μείωση κατά 15 δευτ.
+Shift - Μείωση κατά 5 λεπτά</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Αύξηση 1m
-Ctrl - Αύξηση 15s
-Shift - Αύξηση 5m</value>
+    <value>Αύξηση κατά 1 λεπτό
+Ctrl - Αύξηση κατά 15 δευτ.
+Shift - Αύξηση κατά 5 λεπτά</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -502,11 +502,11 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Τοποθεσία</value>
+    <value>Θέση</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>Κάτω μέρος</value>
+    <value>Κάτω</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -526,27 +526,27 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Δικαίωμα</value>
+    <value>Δεξιά</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Κορυφή</value>
+    <value>Πάνω</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Επάνω αριστερά</value>
+    <value>Πάνω αριστερά</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Επάνω δεξιά</value>
+    <value>Πάνω δεξιά</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>ΕΝΤΑΞΕΙ</value>
+    <value>Εντάξει</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Άνοιξε το λιμάνι και έγιναν κρατήσεις</value>
+    <value>Η θύρα άνοιξε και έγινε η δέσμευση</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,7 +554,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Δημιουργήθηκε αναφορά χρονισμού</value>
+    <value>Δημιουργήθηκε αναφορά χρονομέτρησης</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
@@ -578,7 +578,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Εντοπισμός σφαλμάτων</value>
+    <value>Αποσφαλμάτωση</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Θανατηφόρος</value>
+    <value>Κρίσιμο σφάλμα</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Πολύλογος</value>
+    <value>Αναλυτικό</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,7 +602,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>Ανάλυση δεδομένων χρονομέτρου σύσκεψης</value>
+    <value>Ανάλυση δεδομένων χρονομέτρησης της συνάθροισης</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
@@ -610,15 +610,15 @@ Shift - Αύξηση 5m</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>ΘΕΑ</value>
+    <value>ΠΡΟΒΟΛΗ</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Αυτόματος ήχος</value>
+    <value>Αυτόματο χτύπημα</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Κάντε κλικ για να ηχήσει το κουδούνι</value>
+    <value>Χτυπήστε το κουδούνι</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
@@ -634,7 +634,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Κλήση και ψηφιακή</value>
+    <value>Καντράν και ψηφιακό</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -646,11 +646,11 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Σημειώστε ότι η οθόνη ελέγχεται από μια ρύθμιση γραμμής εντολών</value>
+    <value>Σημειώστε ότι η οθόνη ελέγχεται από ρύθμιση γραμμής εντολών</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Διαβάθμιση φόντου χρονοδιακόπτη</value>
+    <value>Διαβάθμιση φόντου χρονομέτρου</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
@@ -658,7 +658,7 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Πλαίσιο χρονοδιακόπτη</value>
+    <value>Πλαίσιο χρονομέτρου</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -666,15 +666,15 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Το Σαββατοκύριακο περιλαμβάνει και την Παρασκευή</value>
+    <value>Το Σαββατοκύριακο περιλαμβάνει την Παρασκευή</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Παραθυρωμένο</value>
+    <value>Σε παράθυρο</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Παραθυρωμένο</value>
+    <value>Σε παράθυρο</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,7 +682,7 @@ Shift - Αύξηση 5m</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>Δεν είναι δυνατό το άνοιγμα της διαφανούς αντίστροφης μέτρησης σε "παράθυρο"</value>
+    <value>Δεν είναι δυνατό το άνοιγμα διαφανούς αντίστροφης μέτρησης "σε παράθυρο"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
@@ -698,19 +698,19 @@ Shift - Αύξηση 5m</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Συρρίκνωση κατά την ελαχιστοποίηση</value>
+    <value>Σμίκρυνση κατά την ελαχιστοποίηση</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>πρωταρχικός</value>
+    <value>κύρια</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Σημειώστε ότι η έξοδος έχει οριστεί σε NDI μέσω μιας ρύθμισης γραμμής εντολών.</value>
+    <value>Σημειώστε ότι η έξοδος έχει οριστεί σε NDI μέσω ρύθμισης γραμμής εντολών.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Έπρεπε να είχες ξεκινήσει το χρονόμετρο;</value>
+    <value>Μήπως έπρεπε να έχετε ξεκινήσει το χρονόμετρο;</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Η σύσκεψη έχει παράταση {0} λεπτών</value>
+    <value>Η συνάθροιση έχει υπέρβαση χρόνου κατά {0} λεπτά</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Η συνάντηση εκτελείται {0} λεπτά νωρίτερα από το ωράριο</value>
+    <value>Η συνάθροιση προηγείται του χρόνου κατά {0} λεπτά</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Ειδοποιήσεις υπέρβασης/υποτροπής</value>
+    <value>Ειδοποιήσεις υπέρβασης/προπορείας χρόνου</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,19 +734,19 @@ Shift - Αύξηση 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Κοντά</value>
+    <value>Κλείσιμο</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Εκτός</value>
+    <value>Αποθήκευση</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Φρεσκάρω</value>
+    <value>Ανανέωση</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Ρύθμιση παραμέτρων</value>
+    <value>Ρύθμιση</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -754,15 +754,15 @@ Shift - Αύξηση 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Απολύω</value>
+    <value>Απόρριψη</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Η συνάντηση ξεκινάει σε</value>
+    <value>Η συνάθροιση αρχίζει σε</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Σαρώστε με κινητή συσκευή για να δείτε το ρολόι ιστού</value>
+    <value>Σαρώστε με κινητή συσκευή για να δείτε το διαδικτυακό ρολόι</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Αύξηση 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Αύξηση χρόνου (+1 λεπτό). Κάντε δεξί κλικ για περισσότερες επιλογές.</value>
+    <value>Αύξηση χρόνου (+1 λεπτό). Δεξί κλικ για περισσότερες επιλογές.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Μειώστε τον χρόνο (-1 λεπτό). Κάντε δεξί κλικ για περισσότερες επιλογές.</value>
+    <value>Μείωση χρόνου (-1 λεπτό). Δεξί κλικ για περισσότερες επιλογές.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Δημιουργία αναφοράς χρονισμού (PDF)</value>
+    <value>Δημιουργία αναφοράς χρονομέτρησης (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Εμφάνιση χρονομέτρου αντίστροφης μέτρησης</value>
+    <value>Εμφάνιση αντίστροφης μέτρησης</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Αύξηση 5m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Συρρίκνωση σε συμπαγή λειτουργία</value>
+    <value>Σμίκρυνση σε συμπαγή προβολή</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Αύξηση 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Χρονοδιακόπτης Flash κατά την παράταση</value>
+    <value>Αναβόσβημα χρονομέτρου κατά την υπέρβαση χρόνου</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Χτυπήστε το κουδούνι στην παράταση</value>
+    <value>Χτύπημα κουδουνιού σε υπέρβαση χρόνου</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ετοιμος</value>
+    <value>Έτοιμο</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Τρέξιμο</value>
+    <value>Σε λειτουργία</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Αύξηση 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Υπερωρία</value>
+    <value>Υπέρβαση χρόνου</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,19 +866,19 @@ Shift - Αύξηση 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Εισαγάγετε τον κωδικό πρόσβασης...</value>
+    <value>Εισαγάγετε κωδικό πρόσβασης...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>λεπτά</value>
+    <value>λεπ.</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Διαμορφωμένο</value>
+    <value>Ρυθμισμένο</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Δεν έχει ρυθμιστεί</value>
+    <value>Μη ρυθμισμένο</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Αύξηση 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>ΠΩΣ ΝΑ ΖΟΥΜΕ ΩΣ ΧΡΙΣΤΙΑΝΟΙ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Πλήρεις τίτλοι τμημάτων της συνάθροισης</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Εμφάνιση γραμμής υπολειπόμενου χρόνου παραμονής</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Διάρκεια παραμονής (δευτ.)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Κλασική διεπαφή (όπως η αρχική διάταξη του OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Χρήση διάταξης όμοιας με το αρχικό OnlyT μόνο για Windows. Οι λειτουργίες που υπάρχουν μόνο στην έκδοση Avalonia αποκρύπτονται.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Μετάβαση στην επόμενη ομιλία</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Λεπ.</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Αποθήκευση του τρέχοντος προγράμματος ως προτύπου για επαναχρησιμοποίηση</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Αρχείο προγράμματος</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Εμφάνιση κουμπιού εξαγωγής προγράμματος</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Ρυθμίζει το μέγεθος του αναλογικού ρολογιού. Ισχύει μόνο στην οριζόντια διάταξη με αναλογικό ρολόι.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Διάταξη ρολογιού δίπλα-δίπλα (ρολόι αριστερά, χρονόμετρο δεξιά)</value>
   </data>
 
 </root>

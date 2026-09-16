@@ -694,7 +694,7 @@ Shift - dodaj 5 minut</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>brak połączenia...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
@@ -734,15 +734,15 @@ Shift - dodaj 5 minut</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Zamknąć</value>
+    <value>Zamknij</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Ratować</value>
+    <value>Zapisz</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Odświeżać</value>
+    <value>Odśwież</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
@@ -754,15 +754,15 @@ Shift - dodaj 5 minut</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Odrzucać</value>
+    <value>Odrzuć</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Spotkanie rozpoczyna się za</value>
+    <value>Zebranie rozpocznie się za</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Zeskanuj za pomocą urządzenia mobilnego, aby wyświetlić zegar internetowy</value>
+    <value>Zeskanuj urządzeniem mobilnym, aby wyświetlić zegar internetowy</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,7 +778,7 @@ Shift - dodaj 5 minut</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Wydłuż czas (+1 min). Kliknij prawym przyciskiem myszy, aby uzyskać więcej opcji.</value>
+    <value>Wydłuż czas (+1 min). Kliknij prawym przyciskiem myszy, aby zobaczyć więcej opcji.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
@@ -786,15 +786,15 @@ Shift - dodaj 5 minut</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Wygeneruj raport czasowy (PDF)</value>
+    <value>Wygeneruj raport pomiaru czasu (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Pokaż licznik czasu</value>
+    <value>Pokaż odliczanie</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>Nowa wersja dostępna</value>
+    <value>Dostępna jest nowa wersja</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -838,11 +838,11 @@ Shift - dodaj 5 minut</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer podczas nadgodzin</value>
+    <value>Miganie stopera po przekroczeniu czasu</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Zadzwoń dzwonkiem, gdy nadgodziny</value>
+    <value>Dzwonek po przekroczeniu czasu</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,15 +850,15 @@ Shift - dodaj 5 minut</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Działanie</value>
+    <value>Uruchomiony</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Wstrzymano</value>
+    <value>Wstrzymany</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Nadgodziny</value>
+    <value>Przekroczenie czasu</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shift - dodaj 5 minut</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Wprowadź kod dostępu...</value>
+    <value>Wpisz kod dostępu...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -895,6 +895,39 @@ Shift - dodaj 5 minut</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>CHRZEŚCIJAŃSKI TRYB ŻYCIA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Pełne nazwy części zebrania</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Czas wyświetlania po zatrzymaniu (s)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klasyczny interfejs (jak w oryginalnym OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Używa układu zgodnego z oryginalnym OnlyT tylko dla systemu Windows. Funkcje dostępne wyłącznie w wersji Avalonia są ukryte.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Przejdź do następnego punktu</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Zapisz bieżący harmonogram jako szablon do ponownego użycia</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Pokaż przycisk eksportu harmonogramu</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Określa rozmiar zegara analogowego. Działa tylko w układzie poziomym z zegarem analogowym.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Zegar i stoper obok siebie (zegar po lewej, stoper po prawej)</value>
   </data>
 
 </root>

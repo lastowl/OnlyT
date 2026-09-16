@@ -246,11 +246,11 @@
     <value>Fine settimana</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-hour (am/pm)</value>
+    <value>12 ore (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-hour (leading zero &amp; am/pm)</value>
+    <value>12 ore (zero iniziale e am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
@@ -694,7 +694,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>non connesso...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
@@ -734,7 +734,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Vicino</value>
+    <value>Chiudi</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
@@ -746,7 +746,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configurare</value>
+    <value>Configura</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -754,15 +754,15 @@ Maiusc - Aggiungi 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Congedare</value>
+    <value>Ignora</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>La riunione inizia tra</value>
+    <value>L'adunanza inizia tra</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scansiona con il dispositivo mobile per visualizzare l'orologio web</value>
+    <value>Scansiona con un dispositivo mobile per vedere l'orologio web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -778,19 +778,19 @@ Maiusc - Aggiungi 5m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Aumenta il tempo (+1 min). Fai clic con il tasto destro del mouse per altre opzioni.</value>
+    <value>Aumenta il tempo (+1 min). Clic destro per altre opzioni.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Riduci il tempo (-1 min). Fai clic con il pulsante destro del mouse per altre opzioni.</value>
+    <value>Riduci il tempo (-1 min). Clic destro per altre opzioni.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Genera report di temporizzazione (PDF)</value>
+    <value>Genera rapporto dei tempi (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostra il timer per il conto alla rovescia</value>
+    <value>Mostra il conto alla rovescia</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -802,7 +802,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Aiuto</value>
+    <value>Guida</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
@@ -838,11 +838,11 @@ Maiusc - Aggiungi 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Timer flash durante gli straordinari</value>
+    <value>Timer lampeggiante quando il tempo è scaduto</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Suona la campana quando sono gli straordinari</value>
+    <value>Suona la campanella quando il tempo è scaduto</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
@@ -850,7 +850,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Corsa</value>
+    <value>In corso</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Col tempo</value>
+    <value>Tempo scaduto</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -870,7 +870,7 @@ Maiusc - Aggiungi 5m</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>minimo</value>
+    <value>min</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -895,6 +895,39 @@ Maiusc - Aggiungi 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>VITA CRISTIANA</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nomi completi delle sezioni dell'adunanza</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Durata permanenza (sec)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interfaccia classica (come l'OnlyT originale)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Usa una disposizione identica a quella dell'OnlyT originale solo per Windows. Le funzioni esclusive di Avalonia vengono nascoste.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Passa alla parte successiva</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Salva il programma attuale come modello riutilizzabile</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostra pulsante per esportare il programma</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Regola le dimensioni dell'orologio analogico. Vale solo con la disposizione orizzontale e l'orologio analogico.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Orologio e timer affiancati (orologio a sinistra, timer a destra)</value>
   </data>
 
 </root>

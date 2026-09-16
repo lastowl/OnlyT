@@ -449,15 +449,15 @@
     <value>Por favor reinicie o OnlyT depois de mudar o idioma.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Decrease 1m
-Ctrl - Decrease 15s
-Shift - Decrease 5m</value>
+    <value>Diminuir 1m
+Ctrl - Diminuir 15s
+Shift - Diminuir 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Increase 1m
-Ctrl - Increase 15s
-Shift - Increase 5m</value>
+    <value>Aumentar 1m
+Ctrl - Aumentar 15s
+Shift - Aumentar 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -694,43 +694,43 @@ Shift - Increase 5m</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>offline...</value>
+    <value>sem conexão...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Shrink on minimise</value>
+    <value>Reduzir ao minimizar</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>primary</value>
+    <value>principal</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Note that output is set to NDI via a command-line setting.</value>
+    <value>Observação: a saída está definida como NDI por uma configuração de linha de comando.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Should you have started the timer?</value>
+    <value>Você não deveria ter iniciado o cronômetro?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Pop-up reminders</value>
+    <value>Lembretes na tela</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes overtime</value>
+    <value>A reunião está {0} minutos atrasada</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>The meeting is running {0} minutes undertime</value>
+    <value>A reunião está {0} minutos adiantada</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Overrun/Underrun notifications</value>
+    <value>Notificações de atraso/adiantamento</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Dark mode</value>
+    <value>Modo escuro</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
@@ -754,7 +754,7 @@ Shift - Increase 5m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Liberar</value>
+    <value>Dispensar</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
@@ -762,7 +762,7 @@ Shift - Increase 5m</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Escaneie com seu dispositivo móvel para visualizar o relógio online.</value>
+    <value>Escaneie com um dispositivo móvel para ver o relógio na web</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -790,7 +790,7 @@ Shift - Increase 5m</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostrar cronômetro de contagem regressiva</value>
+    <value>Mostrar contagem regressiva</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Increase 5m</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Temporizador intermitente durante horas extras</value>
+    <value>Piscar o cronômetro ao exceder o tempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Toque a campainha quando houver horas extras.</value>
+    <value>Tocar a campainha ao exceder o tempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Preparar</value>
+    <value>Pronto</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Correndo</value>
+    <value>Em andamento</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,11 +858,11 @@ Shift - Increase 5m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Ao longo do tempo</value>
+    <value>Tempo excedido</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Parou</value>
+    <value>Parado</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Increase 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>NOSSA VIDA CRISTÃ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nomes completos das seções da reunião</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Mostrar barra do tempo de permanência</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Tempo de permanência na tela (seg)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interface clássica (igual ao OnlyT original)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Usa um visual igual ao do OnlyT original, que era só para Windows. Os recursos exclusivos da versão Avalonia ficam ocultos.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Pular para a próxima parte</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Salvar a programação atual como modelo reutilizável</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Arquivo de programação</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostrar botão de exportar programação</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controla o tamanho do relógio analógico. Só se aplica à disposição horizontal com relógio analógico.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Relógio e cronômetro lado a lado (relógio à esquerda, cronômetro à direita)</value>
   </data>
 
 </root>

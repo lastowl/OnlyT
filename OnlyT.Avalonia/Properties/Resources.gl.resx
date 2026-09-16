@@ -542,7 +542,7 @@ Shift - Aumentar 5min</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>De acordo</value>
+    <value>Aceptar</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
@@ -586,7 +586,7 @@ Shift - Aumentar 5min</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Fatal</value>
+    <value>Crítico</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -754,7 +754,7 @@ Shift - Aumentar 5min</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Rexeitar</value>
+    <value>Descartar</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
@@ -786,11 +786,11 @@ Shift - Aumentar 5min</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Xerar informe de temporización (PDF)</value>
+    <value>Crear o informe dos tempos (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Mostrar o temporizador de conta atrás</value>
+    <value>Mostrar a conta atrás</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Aumentar 5min</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Reducir a modo compacto</value>
+    <value>Cambiar ao modo compacto</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -838,19 +838,19 @@ Shift - Aumentar 5min</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Temporizador de flash durante a prórroga</value>
+    <value>Temporizador intermitente ao pasarse do tempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Tocar a campá cando haxa tempo extra</value>
+    <value>Tocar o timbre ao pasarse do tempo</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Listo/a</value>
+    <value>Preparado</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Correndo</value>
+    <value>En marcha</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,15 +858,15 @@ Shift - Aumentar 5min</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Horas extra</value>
+    <value>Tempo excedido</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Parado</value>
+    <value>Detido</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Introduza o código de acceso...</value>
+    <value>Introduce o código de acceso...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -895,6 +895,39 @@ Shift - Aumentar 5min</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>A NOSA VIDA CRISTIÁ</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Nomes completos das seccións da reunión</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Tempo que se mantén en pantalla (segundos)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Interface clásica (igual ao deseño orixinal de OnlyT)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Usa un deseño igual ao do OnlyT orixinal, que só funcionaba en Windows. As funcións exclusivas de Avalonia ocúltanse.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Pasar á seguinte asignación</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Gardar</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Gardar a programación actual como modelo reutilizable</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Mostrar o botón para exportar a programación</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Controla o tamaño do reloxo analóxico. Só se aplica no deseño horizontal cun reloxo analóxico.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Reloxo e temporizador lado a lado (reloxo á esquerda, temporizador á dereita)</value>
   </data>
 
 </root>

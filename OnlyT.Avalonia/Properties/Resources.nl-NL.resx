@@ -658,7 +658,7 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Timerframe</value>
+    <value>Timerkader</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
@@ -710,7 +710,7 @@ Shift - Verhoog 5 m</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Had je de timer moeten starten?</value>
+    <value>Had je de timer al moeten starten?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>De vergadering loopt {0} minuten over</value>
+    <value>De vergadering loopt {0} minuten uit</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>De vergadering duurt {0} minuten te kort</value>
+    <value>De vergadering loopt {0} minuten voor op schema</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Meldingen overschrijding/onderschrijding</value>
+    <value>Meldingen bij uitlopen/voorlopen</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,11 +734,11 @@ Shift - Verhoog 5 m</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Dichtbij</value>
+    <value>Sluiten</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Redden</value>
+    <value>Opslaan</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
@@ -746,7 +746,7 @@ Shift - Verhoog 5 m</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Configureren</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
@@ -754,7 +754,7 @@ Shift - Verhoog 5 m</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Afwijzen</value>
+    <value>Negeren</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
@@ -778,19 +778,19 @@ Shift - Verhoog 5 m</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Verleng de tijd (+1 min). Klik met de rechtermuisknop voor meer opties.</value>
+    <value>Tijd verlengen (+1 min). Klik met de rechtermuisknop voor meer opties.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Verkort de tijd (-1 min). Klik met de rechtermuisknop voor meer opties.</value>
+    <value>Tijd verkorten (-1 min). Klik met de rechtermuisknop voor meer opties.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Timingrapport genereren (PDF)</value>
+    <value>Tijdsrapport maken (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Afteltimer weergeven</value>
+    <value>Afteltimer tonen</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
@@ -806,7 +806,7 @@ Shift - Verhoog 5 m</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Krimpen naar compacte modus</value>
+    <value>Verkleinen tot compacte weergave</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,23 +834,23 @@ Shift - Verhoog 5 m</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWERKMACHTIGINGEN</value>
+    <value>NETWERKTOESTEMMINGEN</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer tijdens verlenging</value>
+    <value>Timer laten knipperen bij tijdoverschrijding</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Bel bij overwerk</value>
+    <value>Bel laten klinken bij tijdoverschrijding</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Klaar</value>
+    <value>Gereed</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Rennen</value>
+    <value>Loopt</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
@@ -858,7 +858,7 @@ Shift - Verhoog 5 m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overwerk</value>
+    <value>Tijd overschreden</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,11 +866,11 @@ Shift - Verhoog 5 m</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Voer de toegangscode in...</value>
+    <value>Voer toegangscode in...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
-    <value>mijn</value>
+    <value>min</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
@@ -889,6 +889,45 @@ Shift - Verhoog 5 m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>LEVEN ALS CHRISTENEN</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Volledige namen van vergaderonderdelen</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Aftelbalk voor weergaveduur tonen</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Weergaveduur (sec)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Klassieke interface (oorspronkelijke OnlyT-indeling)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Gebruik een indeling die overeenkomt met de oorspronkelijke OnlyT voor alleen Windows. Functies die alleen in de Avalonia-versie bestaan, worden verborgen.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Naar het volgende onderdeel</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Opslaan</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Huidig schema opslaan als herbruikbaar sjabloon</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Schemabestand</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Knop voor schema exporteren tonen</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Bepaalt de grootte van de analoge klok. Alleen van toepassing bij een horizontale indeling met analoge klok.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Klok en timer naast elkaar (klok links, timer rechts)</value>
   </data>
 
 </root>
