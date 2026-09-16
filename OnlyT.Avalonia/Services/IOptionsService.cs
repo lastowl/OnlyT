@@ -528,7 +528,7 @@ public class AppOptions
     public void Sanitize()
     {
         BellVolumePercent = Math.Clamp(BellVolumePercent, 0, 100);
-        AnalogueClockWidthPercent = Math.Clamp(AnalogueClockWidthPercent, 0, 100);
+        AnalogueClockWidthPercent = Math.Clamp(AnalogueClockWidthPercent, 10, 100);
         CountdownDurationMins = Math.Clamp(CountdownDurationMins, 1, 60);
         HttpServerPort = Math.Clamp(HttpServerPort, 1, 65535);
         PersistDurationSecs = Math.Clamp(PersistDurationSecs, 5, 600);
