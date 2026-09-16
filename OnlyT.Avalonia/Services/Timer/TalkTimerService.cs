@@ -157,7 +157,13 @@
             _isPaused = false;
 
             _stopWatch.Reset();
-            UpdateTimerValue();
+
+            // Reset both backing fields directly rather than via CurrentTimeElapsed:
+            // its unchanged-value guard can swallow the reset (and the stop event)
+            // when the elapsed TimeSpan is already zero but the seconds value isn't
+            // (e.g. CurrentSecondsElapsed was set externally).
+            _currentTimeElapsed = TimeSpan.Zero;
+            CurrentSecondsElapsed = 0;
         }
 
         /// <summary>
