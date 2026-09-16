@@ -8,6 +8,7 @@ using OnlyT.Avalonia.Services;
 using OnlyT.Avalonia.Services.Options;
 using OnlyT.Avalonia.EventArgsTypes;
 using OnlyT.Avalonia.Controls.AnalogueClock;
+using OnlyT.Common.Services.DateTime;
 using Serilog;
 
 namespace OnlyT.Avalonia.ViewModels;
@@ -20,6 +21,7 @@ public partial class TimerOutputViewModel : ObservableObject
     private readonly ITalkTimerService _timerService;
     private readonly IOptionsService _optionsService;
     private readonly IBellService? _bellService;
+    private readonly IDateTimeService _dateTimeService;
     private readonly DispatcherTimer _clockTimer;
     private readonly DispatcherTimer _flashTimer;
     private readonly DispatcherTimer _persistTimer;
@@ -144,11 +146,16 @@ public partial class TimerOutputViewModel : ObservableObject
     private global::Avalonia.Input.Cursor _mousePointer =
         new(global::Avalonia.Input.StandardCursorType.None);
 
-    public TimerOutputViewModel(ITalkTimerService timerService, IOptionsService optionsService, IBellService? bellService = null)
+    public TimerOutputViewModel(
+        ITalkTimerService timerService,
+        IOptionsService optionsService,
+        IBellService? bellService = null,
+        IDateTimeService? dateTimeService = null)
     {
         _timerService = timerService;
         _optionsService = optionsService;
         _bellService = bellService;
+        _dateTimeService = dateTimeService ?? new DateTimeService(null);
         _timerService.TimerChangedEvent += OnTimerChanged;
         _timerService.TimerStartedEvent += OnTimerStarted;
         _optionsService.OptionsChanged += (_, _) =>
@@ -195,7 +202,7 @@ public partial class TimerOutputViewModel : ObservableObject
 
     public DateTime QueryDateTime()
     {
-        return DateTime.Now;
+        return _dateTimeService.Now();
     }
 
     /// <summary>
@@ -320,7 +327,7 @@ public partial class TimerOutputViewModel : ObservableObject
             _targetSecs = e.TargetSecs;
             _closingSecs = e.ClosingSecs;
             _isCountingUp = e.IsCountingUp;
-            _startAngle = CalculateAngleFromTime(DateTime.Now);
+            _startAngle = CalculateAngleFromTime(_dateTimeService.Now());
             IsShowingClock = false;
             _hasPlayedOvertimeBell = false;
             _isInOvertime = false;
@@ -414,7 +421,7 @@ public partial class TimerOutputViewModel : ObservableObject
             return;
         }
 
-        var now = DateTime.Now;
+        var now = _dateTimeService.Now();
         var currentAngle = CalculateAngleFromTime(now);
         var targetAngle = _startAngle + (_targetSecs / 60.0) * 6.0; // 6 degrees per minute
 
@@ -444,7 +451,7 @@ public partial class TimerOutputViewModel : ObservableObject
         // Always update time of day if enabled
         if (ShowTimeOfDay)
         {
-            CurrentTimeOfDay = FormatTimeOfDay(DateTime.Now, showSeconds: true);
+            CurrentTimeOfDay = FormatTimeOfDay(_dateTimeService.Now(), showSeconds: true);
         }
 
         if (IsShowingClock)
@@ -455,7 +462,7 @@ public partial class TimerOutputViewModel : ObservableObject
 
     private void UpdateClockDisplay()
     {
-        var now = DateTime.Now;
+        var now = _dateTimeService.Now();
         TimeDisplay = FormatTimeOfDay(now, ShowDigitalSeconds);
         TextColor = new SolidColorBrush(Colors.White);
     }

@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using OnlyT.Avalonia.Services.Options;
 using OnlyT.Avalonia.Utils;
+using OnlyT.Common.Services.DateTime;
 using Serilog;
 
 namespace OnlyT.Avalonia.Services;
@@ -31,12 +32,14 @@ public class SimpleOptionsService : IOptionsService
 
     private readonly string _optionsFilePath;
     private readonly string _wpfOptionsFilePath;
+    private readonly IDateTimeService _dateTimeService;
     private AppOptions? _cachedOptions;
 
-    public SimpleOptionsService()
+    public SimpleOptionsService(IDateTimeService? dateTimeService = null)
     {
         _optionsFilePath = FileUtils.GetOptionsFilePath();
         _wpfOptionsFilePath = FileUtils.GetWpfOptionsFilePath();
+        _dateTimeService = dateTimeService ?? new DateTimeService(null);
     }
 
     public event EventHandler? OptionsChanged;
@@ -99,7 +102,7 @@ public class SimpleOptionsService : IOptionsService
     /// </summary>
     public bool IsNowWeekend()
     {
-        var today = DateTime.Now.DayOfWeek;
+        var today = _dateTimeService.Now().DayOfWeek;
         return today == DayOfWeek.Saturday ||
                today == DayOfWeek.Sunday ||
                (WeekendIncludesFriday && today == DayOfWeek.Friday);

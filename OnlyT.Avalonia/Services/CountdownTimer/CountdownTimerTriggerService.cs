@@ -12,6 +12,7 @@ public sealed class CountdownTimerTriggerService
     private readonly IOptionsService _optionsService;
     private readonly IDateTimeService _dateTimeService;
     private List<CountdownTriggerPeriod>? _triggerPeriods;
+    private DateTime _triggerPeriodsDate;
 
     public CountdownTimerTriggerService(
         IOptionsService optionsService,
@@ -38,16 +39,21 @@ public sealed class CountdownTimerTriggerService
     {
         lock (_locker)
         {
-            if (_triggerPeriods != null)
-            {
-                var now = _dateTimeService.Now();
+            var now = _dateTimeService.Now();
 
-                var trigger = _triggerPeriods.FirstOrDefault(x => x.Start <= now && x.End > now);
-                if (trigger != null)
-                {
-                    secondsRemaining = (int)(trigger.End - now).TotalSeconds;
-                    return secondsRemaining >= 10;
-                }
+            // Trigger periods are absolute times on the date they were
+            // calculated for, so a long-running app must recalculate them
+            // after midnight or the new day's meetings never trigger.
+            if (_triggerPeriods == null || _triggerPeriodsDate != now.Date)
+            {
+                CalculateTriggerPeriods(_optionsService.MeetingStartTimes.Times);
+            }
+
+            var trigger = _triggerPeriods!.FirstOrDefault(x => x.Start <= now && x.End > now);
+            if (trigger != null)
+            {
+                secondsRemaining = (int)(trigger.End - now).TotalSeconds;
+                return secondsRemaining >= 10;
             }
         }
 
@@ -123,5 +129,6 @@ public sealed class CountdownTimerTriggerService
         }
 
         _triggerPeriods = triggerPeriods;
+        _triggerPeriodsDate = today;
     }
 }

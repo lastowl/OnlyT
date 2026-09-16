@@ -146,7 +146,12 @@ public class MeetingStartTime
             }
         }
 
-        if (hour < 12 && hasPm)
+        if (hour == 12 && HasAm(text))
+        {
+            // "12 am" is midnight, not noon
+            hour = 0;
+        }
+        else if (hour < 12 && hasPm)
         {
             hour += 12;
         }
@@ -163,5 +168,11 @@ public class MeetingStartTime
     {
         var trimmedText = text.Trim().ToLowerInvariant();
         return trimmedText.EndsWith("pm") || trimmedText.EndsWith("p.m.") || trimmedText.EndsWith("p");
+    }
+
+    private static bool HasAm(string text)
+    {
+        var trimmedText = text.Trim().ToLowerInvariant();
+        return trimmedText.EndsWith("am") || trimmedText.EndsWith("a.m.") || trimmedText.EndsWith("a");
     }
 }
