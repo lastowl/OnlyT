@@ -128,6 +128,7 @@ public partial class OperatorPageViewModel : ObservableObject
     /// </summary>
     private OperatingMode _lastOperatingMode;
     private MidWeekOrWeekend _lastMeetingType;
+    private bool _lastFullSectionNames;
 
     private void OnOptionsChangedExternally()
     {
@@ -156,12 +157,17 @@ public partial class OperatorPageViewModel : ObservableObject
             // fires property-changed for IsManualMode / IsAutoMode etc.
             // Adaptive modes don't need this — they're read on-demand by
             // AdaptiveTimerService.CalculateAdaptedDuration each tick.
+            // Section names are baked into the schedule items, so switching between short and
+            // full names needs a rebuild too.
             var currentMode = _optionsService.OperatingMode;
             var currentMeeting = _optionsService.MidWeekOrWeekend;
-            if (currentMode != _lastOperatingMode || currentMeeting != _lastMeetingType)
+            var currentFullSectionNames = _optionsService.ShowFullSectionNames;
+            if (currentMode != _lastOperatingMode || currentMeeting != _lastMeetingType ||
+                currentFullSectionNames != _lastFullSectionNames)
             {
                 _lastOperatingMode = currentMode;
                 _lastMeetingType = currentMeeting;
+                _lastFullSectionNames = currentFullSectionNames;
                 RefreshTalks();
             }
 
@@ -438,6 +444,7 @@ public partial class OperatorPageViewModel : ObservableObject
         CountUp = _optionsService.GetOptions().CountUp;
         _lastOperatingMode = _optionsService.OperatingMode;
         _lastMeetingType = _optionsService.MidWeekOrWeekend;
+        _lastFullSectionNames = _optionsService.ShowFullSectionNames;
 
         // Initialize localized status text
         StatusText = _localizationService.GetString("STATUS_READY") ?? "Ready";

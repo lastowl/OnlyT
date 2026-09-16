@@ -165,6 +165,12 @@ public interface IOptionsService
     bool TimerReminder { get; }
 
     /// <summary>
+    /// Whether meeting sections use the workbook's full titles (e.g. "TREASURES FROM GOD’S WORD")
+    /// instead of short labels (e.g. "Treasures")
+    /// </summary>
+    bool ShowFullSectionNames { get; }
+
+    /// <summary>
     /// Whether to show a gradient background on the timer display (when in full screen mode)
     /// </summary>
     bool ShowBackgroundOnTimer { get; }
@@ -412,6 +418,11 @@ public class AppOptions
     public string SelectedScheduleFile { get; set; } = string.Empty;
 
     public bool ShowExportScheduleButton { get; set; } = false;
+
+    /// <summary>
+    /// Whether meeting sections use the workbook's full titles instead of short labels (default: false)
+    /// </summary>
+    public bool ShowFullSectionNames { get; set; } = false;
 
     public bool HorizontalClockLayout { get; set; } = false;
 

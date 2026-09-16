@@ -83,6 +83,8 @@ public class SimpleOptionsService : IOptionsService
     public AdaptiveMode MidWeekAdaptiveMode => GetOptions().MidWeekAdaptiveMode;
     public AdaptiveMode WeekendAdaptiveMode => GetOptions().WeekendAdaptiveMode;
     public bool TimerReminder => GetOptions().TimerReminder;
+
+    public bool ShowFullSectionNames => GetOptions().ShowFullSectionNames;
     public bool ShowBackgroundOnTimer => GetOptions().ShowBackgroundOnTimer;
     public bool IsCountdownWindowTransparent => GetOptions().IsCountdownWindowTransparent;
     public bool PersistStudentTime => GetOptions().PersistStudentTime;

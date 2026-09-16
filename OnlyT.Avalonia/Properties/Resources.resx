@@ -271,6 +271,22 @@
   <data name="SECTION_LIVING" xml:space="preserve">
     <value>Living</value>
   </data>
+  <data name="SECTION_TREASURES_FULL" xml:space="preserve">
+    <value>TREASURES FROM GOD’S WORD</value>
+    <comment>Full title of the first midweek meeting section, as printed in the meeting workbook</comment>
+  </data>
+  <data name="SECTION_MINISTRY_FULL" xml:space="preserve">
+    <value>APPLY YOURSELF TO THE FIELD MINISTRY</value>
+    <comment>Full title of the second midweek meeting section, as printed in the meeting workbook</comment>
+  </data>
+  <data name="SECTION_LIVING_FULL" xml:space="preserve">
+    <value>LIVING AS CHRISTIANS</value>
+    <comment>Full title of the third midweek meeting section, as printed in the meeting workbook</comment>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Full meeting section names</value>
+    <comment>Settings checkbox: use the workbook's full section titles instead of short labels such as "Treasures"</comment>
+  </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Weekend</value>
   </data>

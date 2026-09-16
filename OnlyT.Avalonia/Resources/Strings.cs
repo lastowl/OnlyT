@@ -41,6 +41,9 @@ public static class Strings
     public static string SECTION_MINISTRY => GetString("SECTION_MINISTRY");
     public static string SECTION_LIVING => GetString("SECTION_LIVING");
     public static string SECTION_WEEKEND => GetString("SECTION_WEEKEND");
+    public static string SECTION_TREASURES_FULL => GetString("SECTION_TREASURES_FULL");
+    public static string SECTION_MINISTRY_FULL => GetString("SECTION_MINISTRY_FULL");
+    public static string SECTION_LIVING_FULL => GetString("SECTION_LIVING_FULL");
 
     // Meeting Types
     public static string MIDWEEK => GetString("MIDWEEK");

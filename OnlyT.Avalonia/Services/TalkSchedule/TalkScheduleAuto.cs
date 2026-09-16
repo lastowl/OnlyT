@@ -36,10 +36,30 @@ internal static class TalkScheduleAuto
         var autoBell = optionsService.IsBellEnabled && optionsService.AutoBell;
         var isJanuary2020OrLater = DateTime.Now.Date >= January2020Change;
 
-        return optionsService.MidWeekOrWeekend == Options.MidWeekOrWeekend.Weekend
+        var schedule = optionsService.MidWeekOrWeekend == Options.MidWeekOrWeekend.Weekend
             ? GetWeekendMeetingSchedule(isCircuitVisit)
             : GetMidweekMeetingSchedule(isCircuitVisit, autoBell, isJanuary2020OrLater, null);
+
+        if (optionsService.ShowFullSectionNames)
+        {
+            foreach (var item in schedule)
+            {
+                item.MeetingSectionNameLocalised =
+                    GetFullSectionName(item.MeetingSectionNameInternal) ?? item.MeetingSectionNameLocalised;
+            }
+        }
+
+        return schedule;
     }
+
+    // The workbook's full section titles, e.g. "TREASURES FROM GOD’S WORD" rather than "Treasures"
+    private static string? GetFullSectionName(string internalName) => internalName switch
+    {
+        SectionTreasures => Strings.SECTION_TREASURES_FULL,
+        SectionMinistry => Strings.SECTION_MINISTRY_FULL,
+        SectionLiving => Strings.SECTION_LIVING_FULL,
+        _ => null
+    };
 
     private static TalkScheduleItem CreateTreasuresItem(
         TalkTypesAutoMode talkType,

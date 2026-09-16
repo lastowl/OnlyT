@@ -155,6 +155,9 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
     private bool _showExportScheduleButton;
 
     [ObservableProperty]
+    private bool _showFullSectionNames;
+
+    [ObservableProperty]
     private int _httpServerPort = 8096;
 
     [ObservableProperty]
@@ -443,6 +446,7 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
         options.OverrunNotifications = OverrunNotifications;
         options.GenerateTimingReports = GenerateTimingReports;
         options.ShowExportScheduleButton = ShowExportScheduleButton;
+        options.ShowFullSectionNames = ShowFullSectionNames;
         options.HorizontalClockLayout = HorizontalClockLayout;
         options.HttpServerPort = HttpServerPort;
         options.MeetingStartTimesText = MeetingStartTimesText;
@@ -556,6 +560,7 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
         OverrunNotifications = options.OverrunNotifications;
         GenerateTimingReports = options.GenerateTimingReports;
         ShowExportScheduleButton = options.ShowExportScheduleButton;
+        ShowFullSectionNames = options.ShowFullSectionNames;
         HorizontalClockLayout = options.HorizontalClockLayout;
         HttpServerPort = options.HttpServerPort;
         MeetingStartTimesText = options.MeetingStartTimesText;
