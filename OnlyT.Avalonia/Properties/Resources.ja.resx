@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ACTIVE_BELL" xml:space="preserve">
-    <value>ベルはアクティブです</value>
+    <value>ベルは有効です</value>
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
@@ -126,7 +126,7 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>一方通行</value>
+    <value>一方向</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
@@ -134,39 +134,39 @@
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>ソフトウェアバージョン {0}</value>
+    <value>ソフトウェアのバージョン {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12時間</value>
+    <value>12時間制</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12時間制（先頭ゼロ）</value>
+    <value>12時間制（ゼロ埋め）</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24時間</value>
+    <value>24時間制</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24時間制（先頭ゼロ）</value>
+    <value>24時間制（ゼロ埋め）</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>フォルダ {0} を作成できませんでした</value>
+    <value>フォルダー {0} を作成できませんでした</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>適応期間</value>
+    <value>自動調整後の時間</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>変更された期間</value>
+    <value>変更後の時間</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>オリジナルの長さ</value>
+    <value>元の時間</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
@@ -180,19 +180,19 @@
     <value>デジタル</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
-    <value>ベルは非アクティブです</value>
+    <value>ベルは無効です</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>週半ば</value>
+    <value>週日</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>省庁 - 項目1</value>
+    <value>伝道 - 項目1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>省庁 - 項目2</value>
+    <value>伝道 - 項目2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>省庁 - 項目3</value>
+    <value>伝道 - 項目3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>自動</value>
@@ -201,10 +201,10 @@
     <value>ファイルベース</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>マニュアル</value>
+    <value>手動</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>締めくくりの講演</value>
+    <value>結びの話</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>閉会の言葉</value>
@@ -216,16 +216,16 @@
     <value>宝石を探し出す</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>生きる - パート1</value>
+    <value>生活 - 項目1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>生きる - パート2</value>
+    <value>生活 - 項目2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>開会の言葉</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>今月のプレゼンテーション</value>
+    <value>今月の証言の仕方</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
     <value>公開講演</value>
@@ -234,10 +234,10 @@
     <value>聖書朗読</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>サービストーク</value>
+    <value>奉仕の話</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>宝物の話</value>
+    <value>「神の言葉の宝」の話</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>「ものみの塔」研究</value>
@@ -250,55 +250,55 @@
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12時間制（先頭のゼロと午前/午後）</value>
+    <value>12時間制（ゼロ埋め・午前/午後）</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
     <value>なし</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>タイマーの実行中は設定が利用できません。</value>
+    <value>タイマーの作動中は設定を開けません！</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
     <value>設定</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>神の言葉の宝</value>
+    <value>宝</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>野外奉仕に励む</value>
+    <value>伝道</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>クリスチャンとして生活する</value>
+    <value>生活</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>週末</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>管理者によって設定が無効にされています。</value>
+    <value>設定は管理者によって無効にされています！</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>省庁 - 項目4</value>
+    <value>伝道 - 項目4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>巡回訪問</value>
+    <value>巡回監督の訪問</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>カウントダウン終了</value>
+    <value>カウントダウンを閉じる</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
     <value>ヘルプ</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[巡回訪問]</value>
+    <value>[巡回監督の訪問]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
-    <value>新しいバージョンが利用可能になりました!</value>
+    <value>新しいバージョンがあります！</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>主要</value>
+    <value>メイン</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
@@ -306,19 +306,19 @@
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>平日の適応モード</value>
+    <value>週日の自動調整モード</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>週末適応モード</value>
+    <value>週末の自動調整モード</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>カウントアップの切り替えを許可する</value>
+    <value>カウントアップへの切り替えを許可</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>常にトップ</value>
+    <value>常に手前に表示</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
@@ -338,14 +338,14 @@
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>会議カウントダウン</value>
+    <value>集会のカウントダウン</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>サーキット訪問トグル</value>
+    <value>巡回監督の訪問の切り替え</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>デジタル時計形式</value>
+    <value>デジタル時計の表示形式</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
     <value>有効</value>
@@ -359,11 +359,11 @@
     <comment>Network address</comment>
   </data>
   <data name="MEETING" xml:space="preserve">
-    <value>ミーティング</value>
+    <value>集会</value>
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>会議の開始時刻（1行につき1件）</value>
+    <value>集会の開始時刻（1行に1つ）</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
     <value>その他</value>
@@ -376,19 +376,19 @@
     <value>マウスポインターを表示</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>それぞれの開始時刻を新しい行に入力します。</value>
+    <value>開始時刻は1行に1つずつ入力してください。</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>好きな時間形式を使用してください。</value>
+    <value>時刻はどの形式でも入力できます！</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>オプションで日付を含めます（例：「木 19:15」）</value>
+    <value>曜日も指定できます（例: 「木 19:15」）</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>注:</value>
   </data>
   <data name="OPEN_PORT" xml:space="preserve">
-    <value>オープンポート</value>
+    <value>ポートを開く</value>
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
@@ -396,11 +396,11 @@
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>学生時代を続ける</value>
+    <value>生徒の割り当ての時間表示を延長</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>持続的な会話時間</value>
+    <value>話の終了後の時間表示の長さ</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -412,7 +412,7 @@
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>アナログ時計にセクターを表示する</value>
+    <value>アナログ時計に扇形を表示</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
@@ -423,11 +423,11 @@
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>スロットル</value>
+    <value>通信頻度を制限</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>タイマーがカウントアップ</value>
+    <value>タイマーをカウントアップ</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
@@ -435,29 +435,29 @@
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>タイマーが設定されている時刻</value>
+    <value>タイマーの下に現在時刻を表示</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>音量：</value>
+    <value>音量:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>言語</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
-    <value>言語を変更した後は、OnlyT を再起動してください。</value>
+    <value>言語を変更した後は、OnlyTを再起動してください。</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>1m短縮
-Ctrlキーを押しながら15秒短縮
-Shiftキーを押しながら5m短縮</value>
+    <value>1分短縮
+Ctrl - 15秒短縮
+Shift - 5分短縮</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>1m増加
-Ctrlキー - 15秒増加
-Shiftキー - 5m増加</value>
+    <value>1分延長
+Ctrl - 15秒延長
+Shift - 5分延長</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
@@ -465,11 +465,11 @@ Shiftキー - 5m増加</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>カウントダウン</value>
+    <value>現在カウントダウン中</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>カウントアップ</value>
+    <value>現在カウントアップ中</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
@@ -486,15 +486,15 @@ Shiftキー - 5m増加</value>
     <value>有効</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>秒数を表示</value>
+    <value>秒を表示</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>フレームを表示</value>
+    <value>枠を表示</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
-    <value>時計フレーム</value>
+    <value>時計の枠</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
@@ -506,7 +506,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>底</value>
+    <value>下</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
@@ -518,7 +518,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>中心</value>
+    <value>中央</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
@@ -530,7 +530,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>トップ</value>
+    <value>上</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
@@ -542,35 +542,35 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>わかりました</value>
+    <value>OK</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>港が開き、予約が完了</value>
+    <value>ポートを開き、予約を登録しました</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
-    <value>ポートを開けませんでした (ログを参照)。</value>
+    <value>ポートを開けませんでした（ログを参照）！</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>生成されたタイミングレポート</value>
+    <value>時間計測レポートを作成しました</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>レポートを生成する</value>
+    <value>レポートを作成</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>締めくくり</value>
+    <value>閉会の部</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>中間セグメント</value>
+    <value>中間の部</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>導入部</value>
+    <value>開会の部</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
@@ -586,7 +586,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>致命的</value>
+    <value>致命的エラー</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,7 +594,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>冗長</value>
+    <value>詳細</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
@@ -602,39 +602,39 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
-    <value>会議タイマーデータの分析</value>
+    <value>集会のタイマーデータを分析中</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>レポートは生成されませんでした。</value>
+    <value>レポートは作成されませんでした！</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>ビュー</value>
+    <value>表示</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>自動的に音を鳴らす</value>
+    <value>自動で鳴らす</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>クリックするとベルが鳴ります</value>
+    <value>ベルを鳴らす</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>所要時間（分）</value>
+    <value>時間（分）</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>要素</value>
+    <value>表示要素</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
-    <value>ダイヤル</value>
+    <value>文字盤</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>ダイヤルとデジタル</value>
+    <value>文字盤とデジタル</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
@@ -642,11 +642,11 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>透明な背景</value>
+    <value>背景を透明にする</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>モニターはコマンドライン設定によって制御されることに注意してください</value>
+    <value>モニターはコマンドラインの設定で指定されています</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
@@ -658,23 +658,23 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>タイマーフレーム</value>
+    <value>タイマーの枠</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>フラット時計</value>
+    <value>フラットな時計</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>週末には金曜日も含まれます</value>
+    <value>週末に金曜日を含める</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>窓付き</value>
+    <value>ウィンドウ表示</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>窓付き</value>
+    <value>ウィンドウ表示</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
@@ -682,11 +682,11 @@ Shiftキー - 5m増加</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>透明な「ウィンドウ」カウントダウンを開くことができません</value>
+    <value>背景が透明な「ウィンドウ表示」のカウントダウンは開けません</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>クロック</value>
+    <value>時計</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
@@ -702,15 +702,15 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>主要な</value>
+    <value>メイン</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>出力はコマンドライン設定によって NDI に設定されることに注意してください。</value>
+    <value>出力はコマンドラインの設定でNDIに指定されています。</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>タイマーを開始すべきでしたか?</value>
+    <value>タイマーを開始し忘れていませんか？</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
@@ -718,15 +718,15 @@ Shiftキー - 5m増加</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>会議は{0}分超過しています</value>
+    <value>集会は{0}分超過しています</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>会議は時間より{0}分遅れています</value>
+    <value>集会は予定より{0}分早く進んでいます</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>オーバーラン/アンダーラン通知</value>
+    <value>時間超過/前倒しの通知</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
@@ -734,7 +734,7 @@ Shiftキー - 5m増加</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>近い</value>
+    <value>閉じる</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
@@ -742,27 +742,27 @@ Shiftキー - 5m増加</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>リフレッシュ</value>
+    <value>更新</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>設定</value>
+    <value>設定する</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>アクセスをリクエストする</value>
+    <value>アクセスを要求</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>却下する</value>
+    <value>閉じる</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>会議開始まで</value>
+    <value>集会開始まで</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>モバイルデバイスでスキャンしてウェブ時計を表示</value>
+    <value>モバイル端末でスキャンしてウェブ時計を表示</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
@@ -770,7 +770,7 @@ Shiftキー - 5m増加</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>状態：</value>
+    <value>状態:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
@@ -778,15 +778,15 @@ Shiftキー - 5m増加</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>時間を延長します（+1分）。右クリックすると、その他のオプションが表示されます。</value>
+    <value>時間を延長（+1分）。右クリックでその他のオプションを表示。</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>時間を短縮します（-1分）。右クリックすると、その他のオプションが表示されます。</value>
+    <value>時間を短縮（-1分）。右クリックでその他のオプションを表示。</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>タイミングレポート（PDF）を生成する</value>
+    <value>時間計測レポート（PDF）を作成</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
@@ -794,7 +794,7 @@ Shiftキー - 5m増加</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>新しいバージョンが利用可能</value>
+    <value>新しいバージョンがあります</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
@@ -806,7 +806,7 @@ Shiftキー - 5m増加</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>コンパクトモードに縮小</value>
+    <value>コンパクト表示に縮小</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
@@ -834,31 +834,31 @@ Shiftキー - 5m増加</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>ネットワーク権限</value>
+    <value>ネットワークのアクセス許可</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>残業中のフラッシュタイマー</value>
+    <value>時間超過時にタイマーを点滅</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>残業時にベルを鳴らす</value>
+    <value>時間超過時にベルを鳴らす</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>準備ができて</value>
+    <value>準備完了</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>ランニング</value>
+    <value>計測中</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>一時停止</value>
+    <value>一時停止中</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>時間とともに</value>
+    <value>時間超過</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
@@ -866,7 +866,7 @@ Shiftキー - 5m増加</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>アクセスコードを入力してください...</value>
+    <value>アクセスコードを入力...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Shiftキー - 5m増加</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>構成済み</value>
+    <value>設定済み</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>構成されていません</value>
+    <value>未設定</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Shiftキー - 5m増加</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>クリスチャンとして生活する</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>集会の各部の正式名称</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>表示延長の残り時間バーを表示</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>表示延長の時間（秒）</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>クラシック画面（従来のOnlyTと同じレイアウト）</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Windows専用の従来のOnlyTと同じレイアウトを使用します。Avalonia版だけの機能は非表示になります。</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>次の話へスキップ</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>現在のスケジュールを再利用できるテンプレートとして保存</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>スケジュールファイル</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>スケジュールのエクスポートボタンを表示</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>アナログ時計の大きさを調整します。アナログ時計を横並びレイアウトで表示する場合にのみ適用されます。</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>時計を横並びに配置（左に時計、右にタイマー）</value>
   </data>
 
 </root>

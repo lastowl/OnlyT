@@ -122,89 +122,89 @@
     <comment>This is the tooltip text displayed for the Bell icon when the automatic bell is active</comment>
   </data>
   <data name="ADAPTIVE_MODE_NONE" xml:space="preserve">
-    <value>Nogat wanpela samting</value>
+    <value>Nogat</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_ONE_WAY" xml:space="preserve">
-    <value>Wan-wei</value>
+    <value>Wanpela sait</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_MODE_TWO_WAY" xml:space="preserve">
-    <value>Tu-wei</value>
+    <value>Tupela sait</value>
     <comment>One of the drop-down options in Settings, Automatic Mode</comment>
   </data>
   <data name="APP_VER" xml:space="preserve">
-    <value>Software vesen {0}</value>
+    <value>Vesen bilong program {0}</value>
     <comment>See Settings, Main. Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="CLOCK_FORMAT_12" xml:space="preserve">
-    <value>12-pela aua</value>
+    <value>12-aua</value>
     <comment>The 12-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_12Z" xml:space="preserve">
-    <value>12-aua (i go pas long zero)</value>
+    <value>12-aua (putim 0 long pes)</value>
     <comment>The 12-hour clock format with a leading zero where appropriate</comment>
   </data>
   <data name="CLOCK_FORMAT_24" xml:space="preserve">
-    <value>24 aua</value>
+    <value>24-aua</value>
     <comment>The 24-hour clock format</comment>
   </data>
   <data name="CLOCK_FORMAT_24Z" xml:space="preserve">
-    <value>24-aua (i go pas long zero)</value>
+    <value>24-aua (putim 0 long pes)</value>
     <comment>The 24-hour clock format with leading zero where appropriate</comment>
   </data>
   <data name="CREATE_FOLDER_ERROR" xml:space="preserve">
-    <value>No inap kamapim folda {0}</value>
+    <value>No inap wokim folda {0}</value>
     <comment>Please keep the curly braces and thier contents - these are placeholders for text that is inserted at run-time.</comment>
   </data>
   <data name="DURATION_ADAPTED" xml:space="preserve">
-    <value>Taim bilong kisim taim</value>
+    <value>Taim ol i stretim</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_MODIFIED" xml:space="preserve">
-    <value>Taim bilong senis</value>
+    <value>Taim ol i senisim</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="DURATION_ORIGINAL" xml:space="preserve">
-    <value>Orijinol taim</value>
+    <value>Taim bilong pastaim</value>
     <comment>Tooltip describing the time that is shown bottom left of the black panel in the main page.</comment>
   </data>
   <data name="FULL_SCREEN_ANALOGUE" xml:space="preserve">
-    <value>Analogue</value>
+    <value>Analog</value>
     <comment>i.e. an analogue clock (with face and hands)</comment>
   </data>
   <data name="FULL_SCREEN_BOTH" xml:space="preserve">
-    <value>Analogue na Dijitel</value>
+    <value>Analog na Dijitol</value>
   </data>
   <data name="FULL_SCREEN_DIGITAL" xml:space="preserve">
-    <value>Dijitel</value>
+    <value>Dijitol</value>
   </data>
   <data name="INACTIVE_BELL" xml:space="preserve">
     <value>Belo i no wok</value>
   </data>
   <data name="MIDWEEK" xml:space="preserve">
-    <value>Midweek</value>
+    <value>Namel long wik</value>
   </data>
   <data name="MINISTRY1" xml:space="preserve">
-    <value>Ministri - Aitm 1</value>
+    <value>Wok Autim Tok - Hap 1</value>
   </data>
   <data name="MINISTRY2" xml:space="preserve">
-    <value>Ministri - Aitm 2</value>
+    <value>Wok Autim Tok - Hap 2</value>
   </data>
   <data name="MINISTRY3" xml:space="preserve">
-    <value>Ministri - Aitm 3</value>
+    <value>Wok Autim Tok - Hap 3</value>
   </data>
   <data name="OP_MODE_AUTO" xml:space="preserve">
     <value>Otomatik</value>
   </data>
   <data name="OP_MODE_FILE" xml:space="preserve">
-    <value>Fail-bes</value>
+    <value>Bihainim fail</value>
   </data>
   <data name="OP_MODE_MANUAL" xml:space="preserve">
-    <value>Menuel</value>
+    <value>Long han</value>
   </data>
   <data name="TALK_CONCLUDING" xml:space="preserve">
-    <value>Toktok long pinisim</value>
+    <value>Tok Bilong Pinisim Miting</value>
   </data>
   <data name="TALK_CONCLUDING_COMMENTS" xml:space="preserve">
     <value>Mekim Riviu Bilong Nau na Bilong Neks Wik</value>
@@ -216,16 +216,16 @@
     <value>Mekim Wok Painimaut</value>
   </data>
   <data name="TALK_LIVING1" xml:space="preserve">
-    <value>Laip - Hap 1</value>
+    <value>Pasin Kristen - Hap 1</value>
   </data>
   <data name="TALK_LIVING2" xml:space="preserve">
-    <value>Laip - Hap 2</value>
+    <value>Pasin Kristen - Hap 2</value>
   </data>
   <data name="TALK_OPENING_COMMENTS" xml:space="preserve">
     <value>Tok Bilong Kirapim Miting</value>
   </data>
   <data name="TALK_PRESENTATIONS" xml:space="preserve">
-    <value>Ol Presentesen ia blong Manis ia</value>
+    <value>Ol Rot Bilong Autim Tok Long Dispela Mun</value>
   </data>
   <data name="TALK_PUBLIC" xml:space="preserve">
     <value>Pablik Tok</value>
@@ -234,10 +234,10 @@
     <value>Baibel Ritim</value>
   </data>
   <data name="TALK_SERVICE" xml:space="preserve">
-    <value>Tok bilong sevis</value>
+    <value>Tok Bilong Wok Autim Tok</value>
   </data>
   <data name="TALK_TREASURES" xml:space="preserve">
-    <value>Ol tok orait</value>
+    <value>Tok Bilong Gutpela Save</value>
   </data>
   <data name="TALK_WT" xml:space="preserve">
     <value>Wastaua Stadi</value>
@@ -246,113 +246,113 @@
     <value>Wiken</value>
   </data>
   <data name="CLOCK_FORMAT_12AMPM" xml:space="preserve">
-    <value>12-pela aua (am/pm)</value>
+    <value>12-aua (am/pm)</value>
     <comment>The 12-hour clock format with "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="CLOCK_FORMAT_12ZAMPM" xml:space="preserve">
-    <value>12-aua (i go pas long zero &amp; am/pm)</value>
+    <value>12-aua (putim 0 long pes na am/pm)</value>
     <comment>The 12-hour clock format with a leading zero and "am" or "pm" appended. If your language doesn't use "am" and "pm" you can leave this item untranslated</comment>
   </data>
   <data name="MONITOR_NONE" xml:space="preserve">
-    <value>Nogat wanpela samting</value>
+    <value>Nogat</value>
   </data>
   <data name="NOT_AVAIL_TIMER_RUNNING" xml:space="preserve">
-    <value>Ol seting i no stap taim taima i ran!</value>
+    <value>Yu no inap opim ol seting taim taima i wok!</value>
   </data>
   <data name="SETTINGS" xml:space="preserve">
-    <value>Ol seting</value>
+    <value>Ol Seting</value>
   </data>
   <data name="SECTION_TREASURES" xml:space="preserve">
-    <value>Ol Treasure</value>
+    <value>Gutpela Save</value>
   </data>
   <data name="SECTION_MINISTRY" xml:space="preserve">
-    <value>Ministri</value>
+    <value>Wok Autim Tok</value>
   </data>
   <data name="SECTION_LIVING" xml:space="preserve">
-    <value>I stap long</value>
+    <value>Pasin Kristen</value>
   </data>
   <data name="SECTION_WEEKEND" xml:space="preserve">
     <value>Wiken</value>
   </data>
   <data name="NOT_AVAIL_ADMIN" xml:space="preserve">
-    <value>Ol seting we administreta i disabol!</value>
+    <value>Administreta i pasim ol seting!</value>
     <comment>This text is used as the Settings button tooltip when the Settings page has been disabled by the administrator.</comment>
   </data>
   <data name="MINISTRY4" xml:space="preserve">
-    <value>Ministri - Aitm 4</value>
+    <value>Wok Autim Tok - Hap 4</value>
   </data>
   <data name="CIRCUIT_VISIT" xml:space="preserve">
-    <value>Visit bilong seket</value>
+    <value>Visit bilong wasman bilong sekit</value>
   </data>
   <data name="CLOSE_COUNTDOWN" xml:space="preserve">
-    <value>KLOS KAUNDOWN</value>
+    <value>PASIM KAUNDAUN</value>
     <comment>Title of the CLOSE COUNTDOWN button on the main page. Please keep the capitals. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="HELP" xml:space="preserve">
-    <value>Halivim</value>
+    <value>Helpim</value>
   </data>
   <data name="CIRCUIT_VISIT_BRACKETS" xml:space="preserve">
-    <value>[seket visit]</value>
+    <value>[visit bilong wasman bilong sekit]</value>
   </data>
   <data name="NEW_VERSION" xml:space="preserve">
     <value>Nupela vesen i stap!</value>
   </data>
   <data name="MAIN_SECTION" xml:space="preserve">
-    <value>NAMBAWAN</value>
+    <value>OL MEN SETING</value>
     <comment>Title for Settings, MAIN section. Please keep capitals</comment>
   </data>
   <data name="ACCESS_CODE" xml:space="preserve">
-    <value>Akses kod</value>
+    <value>Kod bilong go insait</value>
     <comment>See Settings, Remote Apps. Similar to a PIN or a password</comment>
   </data>
   <data name="ADAPTIVE_MIDWEEK" xml:space="preserve">
-    <value>Midweek adaptiv mod</value>
+    <value>Stretim taim long miting namel long wik</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ADAPTIVE_WEEKEND" xml:space="preserve">
-    <value>Wiken adaptiv mod</value>
+    <value>Stretim taim long miting long wiken</value>
     <comment>See Settings, Automatic Mode</comment>
   </data>
   <data name="ALLOW_COUNT_UP_TOGGLE" xml:space="preserve">
-    <value>Larim kaun-ap toggle</value>
+    <value>Larim swis bilong kaunim i go antap</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="ALWAYS_ON_TOP" xml:space="preserve">
-    <value>Oltaim antap</value>
+    <value>Oltaim i stap antap</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="APPS_SECTION" xml:space="preserve">
-    <value>ROMET APPS</value>
+    <value>OL APP BILONG LONGWE</value>
     <comment>Title for Settings, REMOTE APPS section. Please keep capitals</comment>
   </data>
   <data name="AUTO_SECTION" xml:space="preserve">
-    <value>AUTOMATIK MODE</value>
+    <value>WOK OTOMATIK</value>
     <comment>Title for Settings, AUTOMATIC MODE  section. Please keep capitals</comment>
   </data>
   <data name="BELL_SECTION" xml:space="preserve">
-    <value>BILL</value>
+    <value>BELO</value>
     <comment>Title for Settings, BELL section. Please keep capitals</comment>
   </data>
   <data name="CLOCK_SECTION" xml:space="preserve">
-    <value>WEB KLOS</value>
+    <value>WEB KLOK</value>
     <comment>Title for Settings, WEB CLOCK section. Please keep capitals</comment>
   </data>
   <data name="COUNTDOWN_SECTION" xml:space="preserve">
-    <value>METIM KANTDOWN</value>
+    <value>KAUNDAUN BILONG MITING</value>
     <comment>Title for Settings, MEETING COUNTDOWN section. Please keep capitals. 	CLOSE_COUNTDOWN	CLOSE COUNTDOWN	Title of the CLOSE COUNTDOWN button on the main page. "Countdown" refers to the function that displays a countdown timer before the start of the meeting</comment>
   </data>
   <data name="CO_VISIT_TOGGLE" xml:space="preserve">
-    <value>Seket visit toggle</value>
+    <value>Swis bilong visit bilong wasman bilong sekit</value>
   </data>
   <data name="DIGITAL_CLOCK_FORMAT" xml:space="preserve">
-    <value>Dijitel klok fomat</value>
+    <value>Fomat bilong dijitol klok</value>
   </data>
   <data name="ENABLED" xml:space="preserve">
-    <value>Em i laik</value>
+    <value>I wok</value>
     <comment>This item is no longer used. Please see "ENABLED_XYZ"</comment>
   </data>
   <data name="FULL_SCREEN_CLOCK" xml:space="preserve">
-    <value>Ful-skrin klok mode</value>
+    <value>Klok i pulapim skrin</value>
   </data>
   <data name="IP_ADDRESS" xml:space="preserve">
     <value>IP adres</value>
@@ -363,26 +363,26 @@
     <comment>Type of meeting (i.e. weeked or mid-week)</comment>
   </data>
   <data name="MEETING_STARTS" xml:space="preserve">
-    <value>Miting stat taim (1 long wan wan lain)</value>
+    <value>Taim miting i stat (1 long wanwan lain)</value>
   </data>
   <data name="MISC_SECTION" xml:space="preserve">
-    <value>KAINKAIN NARAPELA SAMTING</value>
+    <value>KAINKAIN SAMTING</value>
     <comment>Title for Settings, MISCELLANEOUS section. Please keep capitals</comment>
   </data>
   <data name="MONITOR" xml:space="preserve">
-    <value>Sikirim</value>
+    <value>Skrin</value>
   </data>
   <data name="MOUSE_PTR" xml:space="preserve">
-    <value>Soim maus pointa</value>
+    <value>Soim pointa bilong maus</value>
   </data>
   <data name="MTG_START_NOTES1" xml:space="preserve">
-    <value>Putum wanwan stat taem long wan niu laen.</value>
+    <value>Putim wanwan taim bilong stat long nupela lain.</value>
   </data>
   <data name="MTG_START_NOTES2" xml:space="preserve">
-    <value>Yusum eni taem fomat we yu laekem!</value>
+    <value>Yu ken yusim wanem fomat bilong taim yu laikim!</value>
   </data>
   <data name="MTG_START_NOTES3" xml:space="preserve">
-    <value>I gat wan dei, e.g. "Tu 19:15"</value>
+    <value>Sapos yu laik, putim de tu, olsem "Thu 19:15"</value>
   </data>
   <data name="NOTES" xml:space="preserve">
     <value>Ol toksave:</value>
@@ -392,15 +392,15 @@
     <comment>Caption for the "open port" button in settings. Please keep the capitals</comment>
   </data>
   <data name="OP_MODE" xml:space="preserve">
-    <value>Mode</value>
+    <value>Pasin bilong wok</value>
     <comment>The operating mode (i.e. manual, auto or file-based)</comment>
   </data>
   <data name="PERSIST_STUDENT_TIME" xml:space="preserve">
-    <value>Taim bilong ol sumatin i stap yet</value>
+    <value>Larim taim bilong sumatin i stap yet</value>
     <comment>All the monitor to display the final student time for a little longer than normal</comment>
   </data>
   <data name="PERSIST_TALK_DURATION" xml:space="preserve">
-    <value>Taim bilong toktok i stap yet</value>
+    <value>Larim taim bilong tok i stap yet</value>
     <comment>How long the talk timer is shown after the end of the item</comment>
   </data>
   <data name="PORT" xml:space="preserve">
@@ -408,89 +408,89 @@
     <comment>i.e. the TCP (networking) "port"</comment>
   </data>
   <data name="REMOTE_SECTION" xml:space="preserve">
-    <value>RAUSIM AKSES</value>
+    <value>KONTROLIM LONG LONGWE</value>
     <comment>Title for Settings, REMOTE ACCESS section. Please keep capitals</comment>
   </data>
   <data name="SECTOR_ANALOG_CLOCK" xml:space="preserve">
-    <value>Soim sekta long analog klok</value>
+    <value>Soim hap bilong taim long analog klok</value>
     <comment>The "sector" is the light green quadrant that appears on the analogue clock face to denote a talk duration</comment>
   </data>
   <data name="SPLIT_WIDTH" xml:space="preserve">
-    <value>Bikpela bilong Slit-skrin:</value>
+    <value>Braitpela bilong hap skrin:</value>
   </data>
   <data name="TEST" xml:space="preserve">
     <value>TRAIM</value>
     <comment>Caption for the Bell test button in settings. Please keep the capitals</comment>
   </data>
   <data name="THROTTLED" xml:space="preserve">
-    <value>Trotel</value>
+    <value>Spid i daun</value>
     <comment>Communication is deliberately limited to prevent overloading</comment>
   </data>
   <data name="TIMER_COUNT_UP" xml:space="preserve">
-    <value>Taima i kauntim antap</value>
+    <value>Taima i kaunim i go antap</value>
     <comment>Counts up rather than down</comment>
   </data>
   <data name="TIMER_WIN_SECTION" xml:space="preserve">
-    <value>TIMER WINDOW</value>
+    <value>WINDO BILONG TAIMA</value>
     <comment>Title for Settings, TIMER WINDOW section. Please keep capitals</comment>
   </data>
   <data name="TIME_UNDER_TIMER" xml:space="preserve">
-    <value>Taim bilong de aninit long taim.</value>
+    <value>Taim bilong de aninit long taima</value>
     <comment>Show time of day underneath the timer</comment>
   </data>
   <data name="VOLUME" xml:space="preserve">
-    <value>Volum:</value>
+    <value>Strong bilong nois:</value>
     <comment>Label for the volume control in the Bell settings</comment>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
-    <value>Tok ples</value>
+    <value>Tokples</value>
   </data>
   <data name="RESTART_LANGUAGE" xml:space="preserve">
     <value>Plis statim gen OnlyT bihain long yu senisim tokples.</value>
   </data>
   <data name="TIME_DECREASE" xml:space="preserve">
-    <value>Dikrisim 1m
-Ctrl - Daunim 15s
-Sif - Daunim 5m</value>
+    <value>Rausim 1m
+Ctrl - Rausim 15s
+Shift - Rausim 5m</value>
     <comment>Tooltip displayed on "Minus" button to reduce time</comment>
   </data>
   <data name="TIME_INCREASE" xml:space="preserve">
-    <value>Inkrisim 1m
-Ctrl - Inkrisim 15s
-Sif - Inkrisim 5m</value>
+    <value>Skruim 1m
+Ctrl - Skruim 15s
+Shift - Skruim 5m</value>
     <comment>Tooltip displayed on "Plus" button to increase time</comment>
   </data>
   <data name="MANUAL_MODE" xml:space="preserve">
-    <value>Manuel mode</value>
+    <value>Wokim long han</value>
     <comment>Title displayed at the top of the main page when in manual mode</comment>
   </data>
   <data name="COUNTING_DOWN" xml:space="preserve">
-    <value>Counting down</value>
+    <value>Nau em i kaunim i go daun</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="COUNTING_UP" xml:space="preserve">
-    <value>Counting up</value>
+    <value>Nau em i kaunim i go antap</value>
     <comment>Tooltip on the Operator page "up/down" glyph</comment>
   </data>
   <data name="X_SECONDS" xml:space="preserve">
-    <value>{0} seken</value>
+    <value>{0} sekon</value>
     <comment>See Settings =&gt; Timer window =&gt; Persist talk duration</comment>
   </data>
   <data name="ENABLED_API" xml:space="preserve">
-    <value>Em i laik</value>
+    <value>I wok</value>
   </data>
   <data name="ENABLED_BELL" xml:space="preserve">
-    <value>Em i laik</value>
+    <value>I wok</value>
   </data>
   <data name="ENABLED_WEB_CLOCK" xml:space="preserve">
-    <value>Em i laik</value>
+    <value>I wok</value>
   </data>
   <data name="SHOW_SECONDS" xml:space="preserve">
-    <value>Soim ol seken</value>
+    <value>Soim ol sekon</value>
     <comment>See Settings, Main. Determines if settings are shown when displaying the digital clock (time of day) </comment>
   </data>
   <data name="SHOW_COUNTDOWN_FRAME" xml:space="preserve">
-    <value>Soim freim</value>
+    <value>Soim frem</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="SHOW_CLOCK_FRAME" xml:space="preserve">
@@ -498,55 +498,55 @@ Sif - Inkrisim 5m</value>
     <comment>See Settings =&gt;Timer window</comment>
   </data>
   <data name="COUNTDOWN_ZOOM" xml:space="preserve">
-    <value>Level bilong Zum:</value>
+    <value>Mak bilong zum:</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="LOCATION_ON_SCREEN" xml:space="preserve">
-    <value>Ples</value>
+    <value>Ples long skrin</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM" xml:space="preserve">
-    <value>As</value>
+    <value>Daunbilo</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_LEFT" xml:space="preserve">
-    <value>Dait long lephan</value>
+    <value>Daunbilo long lephan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_BOTTOM_RIGHT" xml:space="preserve">
-    <value>Daon stret</value>
+    <value>Daunbilo long raithan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_CENTRE" xml:space="preserve">
-    <value>Senta</value>
+    <value>Namel</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_LEFT" xml:space="preserve">
-    <value>Lep</value>
+    <value>Lephan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_RIGHT" xml:space="preserve">
-    <value>Rait</value>
+    <value>Raithan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP" xml:space="preserve">
-    <value>Top</value>
+    <value>Antap</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_LEFT" xml:space="preserve">
-    <value>Top lephan</value>
+    <value>Antap long lephan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="SCREEN_LOCATION_TOP_RIGHT" xml:space="preserve">
-    <value>Top stret</value>
+    <value>Antap long raithan</value>
     <comment>See Settings =&gt; Countdown =&gt; Location</comment>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OKEI</value>
+    <value>Orait</value>
     <comment>Caption of the button that closes the snackbar</comment>
   </data>
   <data name="PORT_OPENED" xml:space="preserve">
-    <value>Port i op na ol i wokim reservation</value>
+    <value>Port i op na ol i holim pinis</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port is successfully opened.</comment>
   </data>
   <data name="PORT_OPEN_FAILED" xml:space="preserve">
@@ -554,31 +554,31 @@ Sif - Inkrisim 5m</value>
     <comment>See Settings =&gt; Remote Access. This is the message displayed in the snackbar when the port could not be opened.</comment>
   </data>
   <data name="GENERATING_REPORT" xml:space="preserve">
-    <value>Ripot bilong taim we i kamap</value>
+    <value>Ripot bilong taim i kamap pinis</value>
     <comment>Displayed in the notification bar when the timing report is created</comment>
   </data>
   <data name="SHOULD_GENERATE_REPORTS" xml:space="preserve">
-    <value>Ol ripot i save kamapim ol ripot</value>
+    <value>Wokim ol ripot</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="CONCLUDING_SEGMENT" xml:space="preserve">
-    <value>Tok orait long pinisim</value>
+    <value>Hap Bilong Pinisim Miting</value>
     <comment>Title of the song and prayer segment at the end of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTERIM_SEGMENT" xml:space="preserve">
-    <value>Segmen blong Intaem</value>
+    <value>Hap Bilong Namel</value>
     <comment>Title of the song segment in the middle of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="INTRO_SEGMENT" xml:space="preserve">
-    <value>Segmen blong statem</value>
+    <value>Hap Bilong Statim Miting</value>
     <comment>Title of the song and prayer segment at the beginning of a meeting (as it appears in the timing report)</comment>
   </data>
   <data name="LOGGING_LEVEL" xml:space="preserve">
-    <value>Logging level</value>
+    <value>Mak bilong log</value>
     <comment>See Settings =&gt; Misc</comment>
   </data>
   <data name="LOG_LEVEL_DEBUG" xml:space="preserve">
-    <value>Sakim gut</value>
+    <value>Painim asua</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_ERROR" xml:space="preserve">
@@ -586,7 +586,7 @@ Sif - Inkrisim 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_FATAL" xml:space="preserve">
-    <value>Pinis bilong soim</value>
+    <value>Bikpela asua</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_INFORMATION" xml:space="preserve">
@@ -594,11 +594,11 @@ Sif - Inkrisim 5m</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_VERBOSE" xml:space="preserve">
-    <value>Tok plenti</value>
+    <value>Olgeta samting</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="LOG_LEVEL_WARNING" xml:space="preserve">
-    <value>Toktok bilong lukaut</value>
+    <value>Tok lukaut</value>
     <comment>See Settings =&gt; Miscellaneous =&gt; Logging level</comment>
   </data>
   <data name="ANALYSING_REPORT_DATA" xml:space="preserve">
@@ -606,27 +606,27 @@ Sif - Inkrisim 5m</value>
     <comment>Displayed in the notification bar before a timing report is generated</comment>
   </data>
   <data name="NO_REPORT" xml:space="preserve">
-    <value>Ripot NO jeneret!</value>
+    <value>Ripot i NO kamap!</value>
     <comment>Displayed in the notification bar when there is insufficient timing data to create a report.</comment>
   </data>
   <data name="VIEW_REPORT" xml:space="preserve">
-    <value>LUKLUK</value>
+    <value>LUKIM</value>
     <comment>The caption of the button on the notification bar when a report has been created. Allows the user to display the report.</comment>
   </data>
   <data name="AUTO_BELL" xml:space="preserve">
-    <value>Saon blong otomatik</value>
+    <value>Paitim belo long otomatik</value>
     <comment>See Settings =&gt; Bell</comment>
   </data>
   <data name="SOUND_BELL" xml:space="preserve">
-    <value>Click to sound bell</value>
+    <value>Paitim belo</value>
     <comment>Tooltip displayed for manual bell button</comment>
   </data>
   <data name="COUNTDOWN_DURATION_MINS" xml:space="preserve">
-    <value>Longpela taim (mins)</value>
+    <value>Hamas taim (minit)</value>
     <comment>See Settings =&gt;Countdown section</comment>
   </data>
   <data name="COUNTDOWN_ELEMENTS" xml:space="preserve">
-    <value>Ol samting</value>
+    <value>Ol samting i kamap</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="DIAL" xml:space="preserve">
@@ -634,239 +634,239 @@ Sif - Inkrisim 5m</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIAL_AND_DIGITAL" xml:space="preserve">
-    <value>Dial na dijitel</value>
+    <value>Dail na dijitol</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="DIGITAL" xml:space="preserve">
-    <value>Dijitel</value>
+    <value>Dijitol</value>
     <comment>See Settings =&gt;Countdown</comment>
   </data>
   <data name="COUNTDOWN_TRANSPARENT" xml:space="preserve">
-    <value>Ol bekgraun i kamap klia</value>
+    <value>Baksait i klia</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CONTROLLED_BY_CMD_LINE" xml:space="preserve">
-    <value>Luksave olsem monita i save kontrolim long wanpela komand-lain seting</value>
+    <value>Luksave: seting bilong komand-lain i kontrolim skrin</value>
     <comment>In Settings page. Displayed above the monitor name when it has been specified via the command-line)</comment>
   </data>
   <data name="TIMER_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Taima bekgraun gradient</value>
+    <value>Kala bilong baksait bilong taima</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="CLOCK_BACKGROUND_COLOUR" xml:space="preserve">
-    <value>Klok bekgraun gradient</value>
+    <value>Kala bilong baksait bilong klok</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="SHOW_TIMER_FRAME" xml:space="preserve">
-    <value>Taima freim</value>
+    <value>Frem bilong taima</value>
     <comment>See Settings =&gt; Timer window</comment>
   </data>
   <data name="FLAT_CLOCK" xml:space="preserve">
-    <value>Klok bilong Flet</value>
+    <value>Klok i plat</value>
     <comment>See Settings =&gt; Timer window. Refres to whether the analogue clock is flat or 3D</comment>
   </data>
   <data name="WEEKEND_INCLUDES_FRIDAY" xml:space="preserve">
-    <value>Wiken i gat long Fraide</value>
+    <value>Wiken i kisim Fraide tu</value>
     <comment>See Settings =&gt; Automatic mode</comment>
   </data>
   <data name="MONITOR_IS_WINDOWED" xml:space="preserve">
-    <value>Windoed</value>
+    <value>Long windo</value>
     <comment>See Settings =&gt; Main</comment>
   </data>
   <data name="COUNTDOWN_IS_WINDOWED" xml:space="preserve">
-    <value>Windoed</value>
+    <value>Long windo</value>
     <comment>See Settings =&gt; Countdown</comment>
   </data>
   <data name="CLOSE_COUNTDOWN_TOOLTIP" xml:space="preserve">
-    <value>Windo bilong Kauntim Daundaun</value>
+    <value>Pasim windo bilong kaundaun</value>
     <comment>Tooltip for main window button</comment>
   </data>
   <data name="COUNTDOWN_STYLE_CONFLICT" xml:space="preserve">
-    <value>No inap opim transparent "windo" kaundaun daun</value>
+    <value>No inap opim kaundaun i klia insait long "windo"</value>
     <comment>Warning displayed when the user attempts to open the countdown timer in windowed mode with Transparency turned on.</comment>
   </data>
   <data name="WEB_LINK_CLOCK" xml:space="preserve">
-    <value>Kilok</value>
+    <value>Klok</value>
     <comment>Link to clock on web interface</comment>
   </data>
   <data name="WEB_LINK_TIMERS" xml:space="preserve">
-    <value>Taima</value>
+    <value>Ol taima</value>
     <comment>Link to timers on web interface</comment>
   </data>
   <data name="WEB_OFFLINE" xml:space="preserve">
-    <value>i no konekt...</value>
+    <value>i no konek...</value>
     <comment>Text displayed in web interface</comment>
   </data>
   <data name="SHRINK_ON_MINIMISE" xml:space="preserve">
-    <value>Yu mas go liklik</value>
+    <value>Mekim i liklik taim yu daunim windo</value>
     <comment>See Settings =&gt; Misc =&gt; Shrink on minimise</comment>
   </data>
   <data name="PRIMARY_MONITOR" xml:space="preserve">
-    <value>praimeri</value>
+    <value>nambawan</value>
     <comment>Used to designate the primary monitor</comment>
   </data>
   <data name="TIMER_ON_NDI" xml:space="preserve">
-    <value>Luksave olsem autput i stap long NDI long rot bilong wanpela komand-lain seting.</value>
+    <value>Luksave: seting bilong komand-lain i salim autput i go long NDI.</value>
     <comment>"NDI" is a proprietary video streaming technology.</comment>
   </data>
   <data name="TIMER_REMINDER_MSG" xml:space="preserve">
-    <value>Yu bin stat taima?</value>
+    <value>Ating yu lusim tingting long statim taima?</value>
     <comment>Reminder msg that pops up if OnlyT thinks you may have forgotten!</comment>
   </data>
   <data name="TIMER_REMINDER" xml:space="preserve">
-    <value>Ol pop-ap rimaenda</value>
+    <value>Ol toksave bilong kirapim tingting</value>
     <comment>See Settings =&gt; Misc =&gt; Pop-up reminders</comment>
   </data>
   <data name="OVERRUN_MSG" xml:space="preserve">
-    <value>Miting i ron {0} minit ovataim</value>
+    <value>Miting i winim taim long {0} minit</value>
     <comment>Notification message</comment>
   </data>
   <data name="UNDERRUN_MSG" xml:space="preserve">
-    <value>Miting i ron {0} minit andataim</value>
+    <value>Miting i stap {0} minit paslain long taim</value>
     <comment>Notification message</comment>
   </data>
   <data name="OVERRUN_NOTIFICATIONS" xml:space="preserve">
-    <value>Ol ovaran/Andarant toksave</value>
+    <value>Toksave taim miting i winim taim o i go paslain</value>
     <comment>See Settings =&gt; Misc =&gt; Overrun</comment>
   </data>
   <data name="DARK_MODE" xml:space="preserve">
-    <value>Tudak mode</value>
+    <value>Kala tudak</value>
     <comment>See Settings, Miscellaneous</comment>
   </data>
   <data name="BTN_CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>Pasim</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>Seivim</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REFRESH" xml:space="preserve">
-    <value>Refresh</value>
+    <value>Nupim</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_CONFIGURE" xml:space="preserve">
-    <value>Configure</value>
+    <value>Stretim</value>
     <comment>Button label</comment>
   </data>
   <data name="BTN_REQUEST_ACCESS" xml:space="preserve">
-    <value>Request Access</value>
+    <value>Askim tok orait</value>
     <comment>Button label for macOS network access request</comment>
   </data>
   <data name="BTN_DISMISS" xml:space="preserve">
-    <value>Dismiss</value>
+    <value>Rausim</value>
     <comment>Button label for dismissing notifications</comment>
   </data>
   <data name="MSG_MEETING_STARTS_IN" xml:space="preserve">
-    <value>Meeting starts in</value>
+    <value>Miting bai i stat insait long</value>
     <comment>Message shown on countdown window and web clock</comment>
   </data>
   <data name="MSG_SCAN_QR_CODE" xml:space="preserve">
-    <value>Scan with mobile device to view web clock</value>
+    <value>Skenim long mobail fon bilong lukim web klok</value>
     <comment>Instructions shown near QR code in settings</comment>
   </data>
   <data name="LBL_PLATFORM" xml:space="preserve">
-    <value>Platform:</value>
+    <value>Platfom:</value>
     <comment>Label for platform display in network settings</comment>
   </data>
   <data name="LBL_STATUS" xml:space="preserve">
-    <value>Status:</value>
+    <value>Kondisen:</value>
     <comment>Label for status display</comment>
   </data>
   <data name="LBL_FULL_SCREEN_MODE" xml:space="preserve">
-    <value>Full Screen Mode</value>
+    <value>Pulapim skrin</value>
     <comment>Checkbox label in main settings</comment>
   </data>
   <data name="TIP_INCREASE_TIME" xml:space="preserve">
-    <value>Increase time (+1 min). Right-click for more options.</value>
+    <value>Skruim taim (+1 min). Klikim raithan bilong lukim moa samting.</value>
     <comment>Tooltip for increase time button</comment>
   </data>
   <data name="TIP_DECREASE_TIME" xml:space="preserve">
-    <value>Decrease time (-1 min). Right-click for more options.</value>
+    <value>Rausim taim (-1 min). Klikim raithan bilong lukim moa samting.</value>
     <comment>Tooltip for decrease time button</comment>
   </data>
   <data name="TIP_GENERATE_REPORT" xml:space="preserve">
-    <value>Generate timing report (PDF)</value>
+    <value>Wokim ripot bilong taim (PDF)</value>
     <comment>Tooltip for report generation button</comment>
   </data>
   <data name="TIP_SHOW_COUNTDOWN" xml:space="preserve">
-    <value>Show countdown timer</value>
+    <value>Soim taima bilong kaundaun</value>
     <comment>Tooltip for countdown button</comment>
   </data>
   <data name="TIP_NEW_VERSION" xml:space="preserve">
-    <value>New version available</value>
+    <value>Nupela vesen i stap</value>
     <comment>Tooltip for new version indicator</comment>
   </data>
   <data name="TIP_SETTINGS" xml:space="preserve">
-    <value>Settings</value>
+    <value>Ol Seting</value>
     <comment>Tooltip for settings button</comment>
   </data>
   <data name="TIP_HELP" xml:space="preserve">
-    <value>Help</value>
+    <value>Helpim</value>
     <comment>Tooltip for help button</comment>
   </data>
   <data name="TIP_SHRINK" xml:space="preserve">
-    <value>Shrink to compact mode</value>
+    <value>Mekim i liklik</value>
     <comment>Tooltip for shrink/minimize button</comment>
   </data>
   <data name="MENU_PLUS_15_SEC" xml:space="preserve">
-    <value>+15 seconds</value>
+    <value>+15 sekon</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_1_MIN" xml:space="preserve">
-    <value>+1 minute</value>
+    <value>+1 minit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_PLUS_5_MIN" xml:space="preserve">
-    <value>+5 minutes</value>
+    <value>+5 minit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_15_SEC" xml:space="preserve">
-    <value>-15 seconds</value>
+    <value>-15 sekon</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_1_MIN" xml:space="preserve">
-    <value>-1 minute</value>
+    <value>-1 minit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="MENU_MINUS_5_MIN" xml:space="preserve">
-    <value>-5 minutes</value>
+    <value>-5 minit</value>
     <comment>Context menu item for time adjustment</comment>
   </data>
   <data name="SECTION_NETWORK" xml:space="preserve">
-    <value>NETWORK PERMISSIONS</value>
+    <value>TOK ORAIT BILONG NETWOK</value>
     <comment>Title for Settings, NETWORK PERMISSIONS section. Please keep capitals</comment>
   </data>
   <data name="TIMER_FLASH_OVERTIME" xml:space="preserve">
-    <value>Flash Timer During Overtime</value>
+    <value>Taima i lait i go i kam taim em i winim taim</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="TIMER_BELL_OVERTIME" xml:space="preserve">
-    <value>Ring Bell When Overtime</value>
+    <value>Paitim belo taim i winim taim</value>
     <comment>Checkbox label in timer window settings</comment>
   </data>
   <data name="STATUS_READY" xml:space="preserve">
-    <value>Ready</value>
+    <value>Redi</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>I wok</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_PAUSED" xml:space="preserve">
-    <value>Paused</value>
+    <value>I stop liklik</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_OVERTIME" xml:space="preserve">
-    <value>Overtime</value>
+    <value>Winim taim</value>
     <comment>Timer status message</comment>
   </data>
   <data name="STATUS_STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>I stop</value>
     <comment>Timer status message</comment>
   </data>
   <data name="WATERMARK_ACCESS_CODE" xml:space="preserve">
-    <value>Enter access code...</value>
+    <value>Raitim kod bilong go insait...</value>
     <comment>Watermark/placeholder text for access code input</comment>
   </data>
   <data name="UNIT_MIN" xml:space="preserve">
@@ -874,11 +874,11 @@ Sif - Inkrisim 5m</value>
     <comment>Abbreviation for minute(s)</comment>
   </data>
   <data name="STATUS_CONFIGURED" xml:space="preserve">
-    <value>Configured</value>
+    <value>Stretim pinis</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="STATUS_NOT_CONFIGURED" xml:space="preserve">
-    <value>Not Configured</value>
+    <value>I no stretim yet</value>
     <comment>Firewall/network status indicator</comment>
   </data>
   <data name="SECTION_TREASURES_FULL" xml:space="preserve">
@@ -889,6 +889,45 @@ Sif - Inkrisim 5m</value>
   </data>
   <data name="SECTION_LIVING_FULL" xml:space="preserve">
     <value>BIHAINIM PASIN KRISTEN</value>
+  </data>
+  <data name="SHOW_FULL_SECTION_NAMES" xml:space="preserve">
+    <value>Ful nem bilong ol hap bilong miting</value>
+  </data>
+  <data name="PERSIST_COUNTDOWN_BAR" xml:space="preserve">
+    <value>Soim ba bilong taim i stap yet</value>
+  </data>
+  <data name="PERSIST_DURATION" xml:space="preserve">
+    <value>Hamas taim em i stap yet (sekon)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE" xml:space="preserve">
+    <value>Olpela luk (wankain olsem OnlyT bilong pastaim)</value>
+  </data>
+  <data name="CLASSIC_UI_MODE_TOOLTIP" xml:space="preserve">
+    <value>Yusim luk i wankain olsem OnlyT bilong pastaim we i wok long Windows tasol. Ol samting bilong Avalonia tasol bai i hait.</value>
+  </data>
+  <data name="TIP_SKIP_TALK" xml:space="preserve">
+    <value>Kalap i go long neks tok</value>
+  </data>
+  <data name="QUICK_SET_WATERMARK" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="BTN_SAVE_TEMPLATE" xml:space="preserve">
+    <value>Seivim</value>
+  </data>
+  <data name="TIP_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Seivim skedul bilong nau olsem templet bilong yusim gen</value>
+  </data>
+  <data name="SCHEDULE_FILE" xml:space="preserve">
+    <value>Fail bilong skedul</value>
+  </data>
+  <data name="SHOW_EXPORT_SCHEDULE" xml:space="preserve">
+    <value>Soim baten bilong seivim skedul</value>
+  </data>
+  <data name="SPLIT_WIDTH_TIP" xml:space="preserve">
+    <value>Em i stretim bikpela bilong analog klok. Em i wok tasol taim klok na taima i stap sait long sait na i gat analog klok.</value>
+  </data>
+  <data name="HORIZONTAL_CLOCK_LAYOUT" xml:space="preserve">
+    <value>Klok na taima i stap sait long sait (klok long lephan, taima long raithan)</value>
   </data>
 
 </root>
