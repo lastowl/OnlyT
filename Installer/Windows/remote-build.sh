@@ -10,7 +10,8 @@
 # it the build is unsigned.
 # See memory: windows-vm-access (shared with VirtualCamApp; user "build", key under /tmp/vcam-ssh).
 #
-# Usage: VM_HOST=192.168.189.128 SSH_KEY=/tmp/vcam-ssh/id_ed25519 ./remote-build.sh
+# Usage: VM_HOST=192.168.189.128 SSH_KEY=~/.ssh/id_ed25519 ./remote-build.sh
+#        VM_HOST=192.168.50.215 VM_USER=kittentamer SSH_KEY=~/.ssh/id_ed25519 ./remote-build.sh
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
@@ -20,7 +21,8 @@ VM_HOST="${VM_HOST:?set VM_HOST to the Windows VM IP}"
 SSH_KEY="${SSH_KEY:?set SSH_KEY to the private key path}"
 SSH="ssh -i $SSH_KEY -o StrictHostKeyChecking=no -o ServerAliveInterval=30"
 SCP="scp -i $SSH_KEY -o StrictHostKeyChecking=no"
-DEST='C:/Users/build/OnlyT'
+REMOTE_HOME="${REMOTE_HOME:-C:/Users/$VM_USER}"
+DEST="$REMOTE_HOME/OnlyT"
 
 echo "=== packaging source (clean) ==="
 COPYFILE_DISABLE=1 tar \
@@ -29,12 +31,23 @@ COPYFILE_DISABLE=1 tar \
   -czf /tmp/onlyt-src.tgz -C "$REPO" .
 
 echo "=== copying to $VM_USER@$VM_HOST ==="
-$SCP /tmp/onlyt-src.tgz "$VM_USER@$VM_HOST:C:/Users/build/onlyt-src.tgz"
+$SCP /tmp/onlyt-src.tgz "$VM_USER@$VM_HOST:$REMOTE_HOME/onlyt-src.tgz"
 
 echo "=== extract + build (+sign) on VM ==="
-# $ErrorActionPreference + the tar exit-code check make the remote step fail fast instead of
-# building whatever partial tree a failed extract left behind.
-$SSH "$VM_USER@$VM_HOST" "powershell -NoProfile -ExecutionPolicy Bypass -Command \"\$ErrorActionPreference='Stop'; if(Test-Path '$DEST'){Remove-Item -Recurse -Force '$DEST'}; New-Item -ItemType Directory -Force '$DEST' | Out-Null; tar -xzf C:/Users/build/onlyt-src.tgz -C '$DEST'; if(\$LASTEXITCODE -ne 0){throw 'tar extract failed'}; Set-Location '$DEST'; & '$DEST/Installer/Windows/build-windows.ps1'\""
+# Run a script file rather than an inline -Command: the remote default shell may be cmd or PowerShell,
+# and each mangles quoting and $variables differently. $ErrorActionPreference + the tar exit-code check
+# make the remote step fail fast instead of building whatever partial tree a failed extract left behind.
+cat > /tmp/onlyt-remote-build.ps1 <<PS1
+\$ErrorActionPreference = 'Stop'
+if (Test-Path '$DEST') { Remove-Item -Recurse -Force '$DEST' }
+New-Item -ItemType Directory -Force '$DEST' | Out-Null
+tar -xzf '$REMOTE_HOME/onlyt-src.tgz' -C '$DEST'
+if (\$LASTEXITCODE -ne 0) { throw 'tar extract failed' }
+Set-Location '$DEST'
+& '$DEST/Installer/Windows/build-windows.ps1'
+PS1
+$SCP /tmp/onlyt-remote-build.ps1 "$VM_USER@$VM_HOST:$REMOTE_HOME/onlyt-remote-build.ps1"
+$SSH "$VM_USER@$VM_HOST" "powershell -NoProfile -ExecutionPolicy Bypass -File $REMOTE_HOME/onlyt-remote-build.ps1"
 
 echo "=== copying installer + portable zips back ==="
 mkdir -p "$REPO/dist/Windows"
