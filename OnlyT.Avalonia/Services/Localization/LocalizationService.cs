@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Linq;
 using System.Resources;
 using System.Threading;
 using Serilog;
@@ -15,42 +17,8 @@ public class LocalizationService : ILocalizationService
     private readonly ResourceManager _resourceManager;
     private CultureInfo _currentCulture;
 
-    // List of supported culture codes (matching the resx files)
-    private static readonly string[] SupportedCultures =
-    [
-        "en-GB",  // Default (base Resources.resx)
-        "en-US",
-        "es-ES",
-        "es-MX",
-        "pt-PT",
-        "pt-BR",
-        "fr-FR",
-        "de-DE",
-        "it-IT",
-        "nl-NL",
-        "sv-SE",
-        "no-NO",
-        "pl-PL",
-        "cs-CZ",
-        "sk-SK",
-        "ru-RU",
-        "uk-UA",
-        "el-GR",
-        "hu-HU",
-        "ro-RO",
-        "hr-HR",
-        "fi-FI",
-        "lv-LV",
-        "tr-TR",
-        "ko-KR",
-        "vi-VN",
-        "id-ID",
-        "fil-PH",
-        "ka-GE",
-        "ca-ES",
-        "jv-ID",
-        "pap"
-    ];
+    // The base Resources.resx is British English
+    private const string DefaultCulture = "en-GB";
 
     public event EventHandler? CultureChanged;
 
@@ -117,34 +85,72 @@ public class LocalizationService : ILocalizationService
 
     public IEnumerable<LanguageItem> GetSupportedLanguages()
     {
-        foreach (var cultureCode in SupportedCultures)
-        {
-            LanguageItem? item = null;
-            try
-            {
-                var culture = new CultureInfo(cultureCode);
-                item = new LanguageItem
-                {
-                    CultureCode = cultureCode,
-                    DisplayName = culture.DisplayName,
-                    NativeName = culture.NativeName
-                };
-            }
-            catch
-            {
-                // Culture not supported on this system
-                item = new LanguageItem
-                {
-                    CultureCode = cultureCode,
-                    DisplayName = cultureCode,
-                    NativeName = cultureCode
-                };
-            }
+        return GetTranslatedCultures()
+            .Select(CreateLanguageItem)
+            .OrderBy(item => item.NativeName, StringComparer.Create(CultureInfo.InvariantCulture, ignoreCase: true))
+            .ToList();
+    }
 
-            if (item != null)
+    /// <summary>
+    /// Every culture with a satellite resource assembly next to the app, plus the default culture.
+    /// </summary>
+    private static IEnumerable<string> GetTranslatedCultures()
+    {
+        var cultures = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { DefaultCulture };
+
+        var assembly = typeof(LocalizationService).Assembly;
+        var satelliteName = $"{assembly.GetName().Name}.resources.dll";
+        var baseDirectory = Path.GetDirectoryName(assembly.Location);
+        if (string.IsNullOrEmpty(baseDirectory))
+        {
+            baseDirectory = AppContext.BaseDirectory;
+        }
+
+        try
+        {
+            foreach (var directory in Directory.EnumerateDirectories(baseDirectory))
             {
-                yield return item;
+                var name = Path.GetFileName(directory);
+
+                // The neutral English resources duplicate the default culture
+                if (name.Equals("en", StringComparison.OrdinalIgnoreCase) ||
+                    !File.Exists(Path.Combine(directory, satelliteName)))
+                {
+                    continue;
+                }
+
+                cultures.Add(name);
             }
+        }
+        catch (Exception ex)
+        {
+            Log.Warning(ex, "Failed to enumerate translations in {Directory}", baseDirectory);
+        }
+
+        return cultures;
+    }
+
+    private static LanguageItem CreateLanguageItem(string cultureCode)
+    {
+        try
+        {
+            var culture = new CultureInfo(cultureCode);
+            return new LanguageItem
+            {
+                CultureCode = cultureCode,
+                DisplayName = culture.DisplayName,
+                NativeName = culture.NativeName
+            };
+        }
+        catch (CultureNotFoundException)
+        {
+            // Culture not supported on this system
+            return new LanguageItem
+            {
+                CultureCode = cultureCode,
+                DisplayName = cultureCode,
+                NativeName = cultureCode
+            };
         }
     }
 }
