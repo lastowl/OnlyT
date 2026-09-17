@@ -169,12 +169,6 @@ build_windows() {
         mkdir -p "$DIST_DIR/Windows"
         cd "$publish_dir"
         zip -r "$DIST_DIR/Windows/$APP_NAME-$APP_VERSION-win-x64-portable.zip" .
-
-        # Copy StreamDeck plugin
-        if [ -d "$PROJECT_ROOT/StreamDeck/com.onlyt.timer.sdPlugin" ]; then
-            cd "$PROJECT_ROOT/StreamDeck"
-            zip -r "$DIST_DIR/Windows/OnlyT-StreamDeck-Plugin.streamDeckPlugin" "com.onlyt.timer.sdPlugin"
-        fi
         print_success "Windows portable ZIP created"
     fi
 
@@ -255,23 +249,7 @@ build_linux() {
 # Package StreamDeck plugin
 build_streamdeck() {
     print_header "Packaging StreamDeck Plugin"
-
-    if [ -f "$SCRIPT_DIR/StreamDeck/pack-streamdeck.sh" ]; then
-        chmod +x "$SCRIPT_DIR/StreamDeck/pack-streamdeck.sh"
-        "$SCRIPT_DIR/StreamDeck/pack-streamdeck.sh"
-    else
-        # Fallback to manual packaging
-        if [ -d "$PROJECT_ROOT/StreamDeck/com.onlyt.timer.sdPlugin" ]; then
-            mkdir -p "$DIST_DIR/StreamDeck"
-            cd "$PROJECT_ROOT/StreamDeck"
-            zip -r "$DIST_DIR/StreamDeck/com.onlyt.timer-$APP_VERSION.streamDeckPlugin" "com.onlyt.timer.sdPlugin" \
-                -x "*.DS_Store" \
-                -x "*__MACOSX*"
-            print_success "StreamDeck plugin packaged"
-        else
-            print_warning "StreamDeck plugin source not found"
-        fi
-    fi
+    "$SCRIPT_DIR/StreamDeck/pack-streamdeck.sh"
 }
 
 # Print usage

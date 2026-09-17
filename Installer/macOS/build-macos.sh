@@ -278,12 +278,9 @@ DMG_TEMP="$BUILD_DIR/dmg_temp"
 mkdir -p "$DMG_TEMP"
 cp -R "$APP_BUNDLE" "$DMG_TEMP/"
 
-# Copy StreamDeck plugin to DMG
-if [ -d "$PROJECT_ROOT/StreamDeck/com.onlyt.timer.sdPlugin" ]; then
-    # Package the StreamDeck plugin
-    cd "$PROJECT_ROOT/StreamDeck"
-    zip -r "$DMG_TEMP/OnlyT-StreamDeck-Plugin.streamDeckPlugin" "com.onlyt.timer.sdPlugin"
-fi
+# Package the StreamDeck plugin (version-stamped) and add it to the DMG
+STREAMDECK_PACKAGE="$("$PROJECT_ROOT/Installer/StreamDeck/pack-streamdeck.sh" | tail -1)"
+cp "$STREAMDECK_PACKAGE" "$DMG_TEMP/OnlyT-StreamDeck-Plugin.streamDeckPlugin"
 
 # Create Applications symlink
 ln -s /Applications "$DMG_TEMP/Applications"

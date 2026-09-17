@@ -86,6 +86,38 @@ function Sign-File($path) {
 Get-ChildItem "publish\win-x64\*.exe","publish\win-x64-wpf\*.exe" -EA SilentlyContinue |
     ForEach-Object { Write-Host "signing $($_.Name)"; Sign-File $_.FullName }
 
+# 4b. Stream Deck plugin package for the installer: a zip with the plugin folder at its root, with the
+# manifest's top-level Version (4-space indent, unlike Nodejs.Version) set to the app version.
+# Built with ZipFile rather than Compress-Archive, which writes backslashes into entry names.
+$pluginSrc = Join-Path $root 'StreamDeck\com.onlyt.timer.sdPlugin'
+$pluginPackage = Join-Path $root 'publish\streamdeck\com.onlyt.timer.streamDeckPlugin'
+New-Item -ItemType Directory -Force (Split-Path $pluginPackage) | Out-Null
+if (Test-Path $pluginPackage) { Remove-Item $pluginPackage }
+Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+$zip = [System.IO.Compression.ZipFile]::Open($pluginPackage, 'Create')
+try {
+    Get-ChildItem $pluginSrc -Recurse -File | Where-Object { $_.Name -ne '.DS_Store' } | ForEach-Object {
+        $entryName = 'com.onlyt.timer.sdPlugin/' + $_.FullName.Substring($pluginSrc.Length + 1).Replace('\', '/')
+        $stream = $zip.CreateEntry($entryName).Open()
+        try {
+            if ($entryName -eq 'com.onlyt.timer.sdPlugin/manifest.json') {
+                $manifest = [regex]::Replace([IO.File]::ReadAllText($_.FullName), '(?m)^    "Version":\s*"[^"]*"', "    `"Version`": `"$ver`"")
+                if ($manifest -notmatch "(?m)^    `"Version`": `"$([regex]::Escape($ver))`"") { throw "Could not set the Stream Deck plugin version" }
+                $bytes = (New-Object System.Text.UTF8Encoding $false).GetBytes($manifest)
+                $stream.Write($bytes, 0, $bytes.Length)
+            } else {
+                $file = [IO.File]::OpenRead($_.FullName)
+                try { $file.CopyTo($stream) } finally { $file.Dispose() }
+            }
+        } finally {
+            $stream.Dispose()
+        }
+    }
+} finally {
+    $zip.Dispose()
+}
+Write-Host "Stream Deck plugin packaged: $pluginPackage"
+
 # 5. Inno Setup with the derived version
 & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' "/DMyAppVersion=$ver" "Installer\Windows\OnlyT-Setup.iss"
 if ($LASTEXITCODE -ne 0) { throw "Inno Setup failed" }

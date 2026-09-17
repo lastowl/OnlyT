@@ -161,11 +161,7 @@ exec "$SCRIPT_DIR/OnlyT" "$@"
 EOF
 chmod +x "$APP_NAME-$APP_VERSION/run.sh"
 
-# Copy StreamDeck plugin
-if [ -d "$PROJECT_ROOT/StreamDeck/com.onlyt.timer.sdPlugin" ]; then
-    mkdir -p "$APP_NAME-$APP_VERSION/StreamDeck"
-    cp -R "$PROJECT_ROOT/StreamDeck/com.onlyt.timer.sdPlugin" "$APP_NAME-$APP_VERSION/StreamDeck/"
-fi
+# No StreamDeck plugin: the Stream Deck app isn't available for Linux
 
 tar -czvf "$APP_NAME-$APP_VERSION-linux-x64.tar.gz" "$APP_NAME-$APP_VERSION"
 rm -rf "$APP_NAME-$APP_VERSION"

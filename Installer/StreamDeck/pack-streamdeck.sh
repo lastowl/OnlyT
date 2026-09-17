@@ -1,8 +1,9 @@
 #!/bin/bash
 # OnlyT StreamDeck Plugin Packaging Script
-# This script packages the StreamDeck plugin for distribution
+# Packages StreamDeck/com.onlyt.timer.sdPlugin as dist/StreamDeck/com.onlyt.timer-<version>.streamDeckPlugin,
+# with the plugin version set from SolutionInfo.cs. Prints the package path on its last line.
 
-set -e
+set -euo pipefail
 
 # Configuration
 PLUGIN_ID="com.onlyt.timer"
@@ -18,60 +19,46 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
 PLUGIN_SRC="$PROJECT_ROOT/StreamDeck/$PLUGIN_ID.sdPlugin"
 BUILD_DIR="$PROJECT_ROOT/dist/StreamDeck"
+PACKAGE="$BUILD_DIR/$PLUGIN_ID-$PLUGIN_VERSION.streamDeckPlugin"
 
 echo "=== OnlyT StreamDeck Plugin Packaging ==="
 echo "Plugin: $PLUGIN_ID"
 echo "Version: $PLUGIN_VERSION"
 echo ""
 
-# Check if plugin source exists
 if [ ! -d "$PLUGIN_SRC" ]; then
     echo "Error: Plugin source not found at $PLUGIN_SRC"
     exit 1
 fi
 
-# Clean and create build directory
+# Stage a copy so the version can be stamped into the manifest without touching the source
+STAGE_DIR="$(mktemp -d)"
+trap 'rm -rf "$STAGE_DIR"' EXIT
+COPYFILE_DISABLE=1 cp -R "$PLUGIN_SRC" "$STAGE_DIR/"
+find "$STAGE_DIR" -name '.DS_Store' -delete
+# Only the top-level "Version" (4-space indent), not Nodejs.Version
+sed -i.bak -E "s/^    \"Version\": *\"[^\"]*\"/    \"Version\": \"$PLUGIN_VERSION\"/" "$STAGE_DIR/$PLUGIN_ID.sdPlugin/manifest.json"
+rm "$STAGE_DIR/$PLUGIN_ID.sdPlugin/manifest.json.bak"
+grep -q "^    \"Version\": \"$PLUGIN_VERSION\"" "$STAGE_DIR/$PLUGIN_ID.sdPlugin/manifest.json" || {
+    echo "Error: could not set the version in manifest.json"
+    exit 1
+}
+
 rm -rf "$BUILD_DIR"
 mkdir -p "$BUILD_DIR"
 
-# Method 1: Using Stream Deck CLI (if available)
 if command -v streamdeck &> /dev/null; then
+    # The official CLI validates the plugin as it packs it
     echo "Using Stream Deck CLI to package plugin..."
-    cd "$PROJECT_ROOT/StreamDeck"
-    streamdeck pack "$PLUGIN_ID.sdPlugin" -o "$BUILD_DIR"
-
-    # Rename to include version
-    if [ -f "$BUILD_DIR/$PLUGIN_ID.streamDeckPlugin" ]; then
-        mv "$BUILD_DIR/$PLUGIN_ID.streamDeckPlugin" "$BUILD_DIR/$PLUGIN_ID-$PLUGIN_VERSION.streamDeckPlugin"
-    fi
+    streamdeck pack "$STAGE_DIR/$PLUGIN_ID.sdPlugin" --output "$BUILD_DIR" --force
+    mv "$BUILD_DIR/$PLUGIN_ID.streamDeckPlugin" "$PACKAGE"
 else
-    echo "Stream Deck CLI not found, using manual packaging..."
-
-    # Method 2: Manual packaging (zip-based)
-    # The .streamDeckPlugin format is essentially a renamed ZIP file
-
-    cd "$PROJECT_ROOT/StreamDeck"
-
-    # Create the plugin package
-    zip -r "$BUILD_DIR/$PLUGIN_ID-$PLUGIN_VERSION.streamDeckPlugin" "$PLUGIN_ID.sdPlugin" \
-        -x "*.DS_Store" \
-        -x "*__MACOSX*" \
-        -x "*.git*"
-
-    echo ""
-    echo "Note: Plugin was packaged manually."
-    echo "For official distribution, install Stream Deck CLI:"
-    echo "  npm install -g @elgato/cli"
-    echo "  streamdeck pack $PLUGIN_ID.sdPlugin"
+    # A .streamDeckPlugin is a zip with the plugin folder at its root
+    echo "Stream Deck CLI not found, packaging with zip (install it with: npm install -g @elgato/cli)"
+    (cd "$STAGE_DIR" && zip -qr "$PACKAGE" "$PLUGIN_ID.sdPlugin")
 fi
 
 echo ""
 echo "=== Packaging Complete ==="
-echo "Output: $BUILD_DIR/$PLUGIN_ID-$PLUGIN_VERSION.streamDeckPlugin"
-echo ""
-echo "Installation:"
-echo "  Double-click the .streamDeckPlugin file to install"
-echo "  Or copy $PLUGIN_ID.sdPlugin to your Stream Deck plugins folder:"
-echo "    Windows: %APPDATA%\\Elgato\\StreamDeck\\Plugins\\"
-echo "    macOS:   ~/Library/Application Support/com.elgato.StreamDeck/Plugins/"
-echo "    Linux:   ~/.local/share/StreamDeck/Plugins/"
+echo "Double-click the package to install it in Stream Deck (7.1 or later)."
+echo "$PACKAGE"

@@ -153,12 +153,14 @@ Requires Inno Setup installed in CrossOver bottle "Test".
 ### StreamDeck Plugin
 
 ```bash
-cd StreamDeck
-zip -r ../dist/com.onlyt.timer-${VERSION}.streamDeckPlugin com.onlyt.timer.sdPlugin -x "*.DS_Store"
-cd ..
+./Installer/StreamDeck/pack-streamdeck.sh
 ```
 
-**Output**: `dist/com.onlyt.timer-{version}.streamDeckPlugin`
+Stamps the version from `SolutionInfo.cs` into the manifest, and uses the Stream Deck CLI
+(`npm install -g @elgato/cli`) when installed, which also validates the plugin. The plugin is a
+dependency-free Node.js plugin (Stream Deck 7.1+); test it with `node --test StreamDeck/tests/plugin.test.js`.
+
+**Output**: `dist/StreamDeck/com.onlyt.timer-{version}.streamDeckPlugin`
 
 ---
 
@@ -201,11 +203,11 @@ cd publish && zip -r ../dist/Windows/OnlyT-${VERSION}-win-arm64-portable.zip win
   "$HOME/Library/Application Support/CrossOver/Bottles/Test/drive_c/Program Files (x86)/Inno Setup 6/ISCC.exe" \
   "Z:$(pwd)/Installer/Windows/OnlyT-Setup.iss"
 
-# 6. StreamDeck plugin
-cd StreamDeck && zip -r ../dist/com.onlyt.timer-${VERSION}.streamDeckPlugin com.onlyt.timer.sdPlugin -x "*.DS_Store" && cd ..
+# 6. StreamDeck plugin (build-macos.sh has already packed it; this is a no-op rebuild)
+./Installer/StreamDeck/pack-streamdeck.sh
 
 # 7. Verify all artifacts
-ls -lh dist/macOS/*.dmg dist/Linux/*.tar.gz dist/Windows/*.exe dist/Windows/*.zip dist/*.streamDeckPlugin
+ls -lh dist/macOS/*.dmg dist/Linux/*.tar.gz dist/Windows/*.exe dist/Windows/*.zip dist/StreamDeck/*.streamDeckPlugin
 # (Windows ZIPs: both win-x64-portable.zip and win-arm64-portable.zip)
 ```
 
@@ -253,7 +255,7 @@ EOF
   dist/Linux/OnlyT-${VERSION}-linux-arm64.tar.gz \
   dist/Windows/OnlyT-${VERSION}-win-x64-portable.zip \
   dist/Windows/OnlyT-${VERSION}-win-arm64-portable.zip \
-  dist/com.onlyt.timer-${VERSION}.streamDeckPlugin
+  dist/StreamDeck/com.onlyt.timer-${VERSION}.streamDeckPlugin
 ```
 
 ---

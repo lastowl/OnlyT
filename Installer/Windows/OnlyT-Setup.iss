@@ -42,6 +42,8 @@ ArchitecturesInstallIn64BitMode=x64compatible
 ; Privileges
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
+; Stream Deck detection looks in the user's profile, which is fine for per-user and all-users installs
+UsedUserAreasWarning=no
 
 ; Appearance
 WizardStyle=modern
@@ -88,8 +90,9 @@ Source: "..\..\publish\win-x64-wpf\*.ico"; DestDir: "{app}\Classic"; Tasks: clas
 Source: "..\..\publish\win-x64-wpf\*.txt"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
 Source: "..\..\publish\win-x64-wpf\runtimes\*"; DestDir: "{app}\Classic\runtimes"; Tasks: classicversion; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
 
-; StreamDeck plugin - only install if user selects it AND StreamDeck is installed
-Source: "..\..\StreamDeck\com.onlyt.timer.sdPlugin\*"; DestDir: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"; Tasks: streamdeck; Check: IsStreamDeckInstalled; Flags: ignoreversion recursesubdirs createallsubdirs
+; StreamDeck plugin package (built by build-windows.ps1) - only if selected AND Stream Deck is installed.
+; It's opened after installation so the Stream Deck app installs or updates the plugin itself.
+Source: "..\..\publish\streamdeck\com.onlyt.timer.streamDeckPlugin"; DestDir: "{app}\StreamDeck"; Tasks: streamdeck; Check: IsStreamDeckInstalled; Flags: ignoreversion
 
 [Icons]
 ; Avalonia version shortcuts
@@ -102,14 +105,20 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 Name: "{autoprograms}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: classicversion; Check: ClassicExeExists
 Name: "{autodesktop}\{#MyAppName} Classic"; Filename: "{app}\Classic\{#MyAppExeName}"; Tasks: desktopicon and classicversion; Check: ClassicExeExists
 
+[InstallDelete]
+; Earlier installers copied the plugin into the wrong folder (Local rather than Roaming AppData)
+Type: filesandordirs; Name: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"
+
 [Run]
+Filename: "{app}\StreamDeck\com.onlyt.timer.streamDeckPlugin"; StatusMsg: "Installing the Stream Deck plugin..."; Tasks: streamdeck; Check: IsStreamDeckInstalled; Flags: shellexec nowait skipifsilent runasoriginaluser
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
 [Code]
-// Check if Stream Deck is installed
+// Check if Stream Deck is installed (its settings and plugins live in Roaming AppData)
 function IsStreamDeckInstalled(): Boolean;
 begin
-  Result := DirExists(ExpandConstant('{localappdata}\Elgato\StreamDeck'));
+  Result := DirExists(ExpandConstant('{userappdata}\Elgato\StreamDeck')) or
+    FileExists(ExpandConstant('{commonpf64}\Elgato\StreamDeck\StreamDeck.exe'));
 end;
 
 // True only if the WPF "Classic" executable was actually installed. Used to
@@ -157,5 +166,3 @@ begin
   end;
 end;
 
-[UninstallDelete]
-Type: filesandordirs; Name: "{localappdata}\Elgato\StreamDeck\Plugins\com.onlyt.timer.sdPlugin"
