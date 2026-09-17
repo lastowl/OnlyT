@@ -1,18 +1,23 @@
 {
-    "Name": "OnlyT Timer Control",
-    "Description": "Control OnlyT meeting timer - start, stop timers and ring the bell",
+    "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+    "UUID": "com.onlyt.timer",
+    "Name": "OnlyT",
+    "Description": "Control the OnlyT meeting timer: start and stop talk timers, move to the next talk and ring the bell",
     "Author": "OnlyT",
-    "Version": "1.0.0",
+    "Version": "2.5.0.11",
     "Category": "OnlyT",
     "CategoryIcon": "images/category-icon",
     "Icon": "images/plugin-icon",
-    "URL": "https://github.com/AntonyCorbett/OnlyT",
+    "URL": "https://github.com/lastowl/OnlyT",
     "CodePath": "plugin.js",
+    "Nodejs": {
+        "Version": "24"
+    },
     "PropertyInspectorPath": "pi.html",
     "OS": [
         {
             "Platform": "mac",
-            "MinimumVersion": "10.14"
+            "MinimumVersion": "12"
         },
         {
             "Platform": "windows",
@@ -20,41 +25,43 @@
         }
     ],
     "Software": {
-        "MinimumVersion": "6.0"
+        "MinimumVersion": "7.1"
     },
     "SDKVersion": 2,
     "Actions": [
         {
             "Name": "Start Timer",
             "UUID": "com.onlyt.timer.start",
-            "Icon": "images/start-icon",
-            "Tooltip": "Start the timer for a specific talk",
+            "Icon": "images/actions/start",
+            "Tooltip": "Start the timer for a talk",
+            "Controllers": ["Keypad"],
             "States": [
                 {
                     "Image": "images/start-icon",
                     "Title": "Start"
                 }
-            ],
-            "PropertyInspectorPath": "pi.html"
+            ]
         },
         {
             "Name": "Stop Timer",
             "UUID": "com.onlyt.timer.stop",
-            "Icon": "images/stop-icon",
-            "Tooltip": "Stop the currently running timer",
+            "Icon": "images/actions/stop",
+            "Tooltip": "Stop the running timer",
+            "Controllers": ["Keypad"],
             "States": [
                 {
                     "Image": "images/stop-icon",
                     "Title": "Stop"
                 }
-            ],
-            "PropertyInspectorPath": "pi.html"
+            ]
         },
         {
-            "Name": "Toggle Timer",
+            "Name": "Start/Stop Timer",
             "UUID": "com.onlyt.timer.toggle",
-            "Icon": "images/toggle-icon",
-            "Tooltip": "Toggle timer - start if stopped, stop if running",
+            "Icon": "images/actions/toggle",
+            "Tooltip": "Stop the running timer, or start one when none is running",
+            "Controllers": ["Keypad"],
+            "DisableAutomaticStates": true,
             "States": [
                 {
                     "Image": "images/start-icon",
@@ -64,34 +71,33 @@
                     "Image": "images/stop-icon",
                     "Title": "Stop"
                 }
-            ],
-            "PropertyInspectorPath": "pi.html"
+            ]
         },
         {
             "Name": "Ring Bell",
             "UUID": "com.onlyt.timer.bell",
-            "Icon": "images/bell-icon",
-            "Tooltip": "Ring the bell sound",
+            "Icon": "images/actions/bell",
+            "Tooltip": "Ring OnlyT's bell",
+            "Controllers": ["Keypad"],
             "States": [
                 {
                     "Image": "images/bell-icon",
                     "Title": "Bell"
                 }
-            ],
-            "PropertyInspectorPath": "pi.html"
+            ]
         },
         {
             "Name": "Next Talk",
             "UUID": "com.onlyt.timer.next",
-            "Icon": "images/next-icon",
-            "Tooltip": "Start timer for the next talk in the schedule",
+            "Icon": "images/actions/next",
+            "Tooltip": "Stop the running talk and start the next one",
+            "Controllers": ["Keypad"],
             "States": [
                 {
                     "Image": "images/next-icon",
                     "Title": "Next"
                 }
-            ],
-            "PropertyInspectorPath": "pi.html"
+            ]
         }
     ]
 }

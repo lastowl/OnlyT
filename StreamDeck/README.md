@@ -1,85 +1,74 @@
 # OnlyT Stream Deck Plugin
 
-Control the OnlyT meeting timer from your Elgato Stream Deck.
+Control the OnlyT meeting timer from an Elgato Stream Deck.
 
-## Features
+## Actions
 
-- **Start Timer** - Start the timer for a specific talk
-- **Stop Timer** - Stop the currently running timer
-- **Toggle Timer** - Start if stopped, stop if running (with visual state)
-- **Ring Bell** - Trigger the bell sound
-- **Next Talk** - Automatically start the next talk in the schedule
-
-## Installation
-
-### Manual Installation
-
-1. Close Stream Deck application
-2. Copy the `com.onlyt.timer.sdPlugin` folder to the Stream Deck plugins directory:
-   - **macOS:** `~/Library/Application Support/com.elgato.StreamDeck/Plugins/`
-   - **Windows:** `%APPDATA%\Elgato\StreamDeck\Plugins\`
-3. Restart Stream Deck application
-4. The "OnlyT" category should appear in the action list
-
-### From Release (Future)
-
-Download the `.streamDeckPlugin` file and double-click to install.
-
-## Configuration
-
-Each action can be configured with:
-
-- **OnlyT Host** - The hostname/IP where OnlyT is running (default: `localhost`)
-- **Port** - The HTTP API port (default: `8096`)
-- **Select Talk** - Optionally specify which talk to control (default: auto-selects next available)
+- **Start Timer** - Start the timer for a chosen talk, or the first talk not yet timed
+- **Stop Timer** - Stop the running timer (optionally only a chosen talk)
+- **Start/Stop Timer** - Stop the running timer, or start one when none is running; the key shows which it will do
+- **Next Talk** - Stop the running talk and start the one after it
+- **Ring Bell** - Ring OnlyT's bell
 
 ## Requirements
 
-- OnlyT application running with HTTP API enabled (Settings > API Enabled)
-- Stream Deck software v6.0 or later
-- Network access between Stream Deck and OnlyT (if not on same machine)
+- Stream Deck 7.1 or later on Windows 10+ or macOS 12+ (the Stream Deck app isn't available for Linux)
+- OnlyT with its API turned on: **Settings > Remote apps > Enabled**
+
+## Installation
+
+- **Windows installer:** choose "Install Stream Deck plugin"; the installer opens the plugin package so
+  Stream Deck installs or updates it.
+- **macOS DMG:** double-click `OnlyT-StreamDeck-Plugin.streamDeckPlugin`.
+- **Otherwise:** double-click `com.onlyt.timer-<version>.streamDeckPlugin` from the release.
+
+## Configuration
+
+The connection is shared by every OnlyT key. Select any OnlyT key in Stream Deck to set:
+
+- **Host** - where OnlyT is running (default `localhost`)
+- **Port** - OnlyT's web server port (default `8096`)
+- **Access code** - only if one is set in OnlyT's Remote apps settings
+
+**Test connection** shows whether OnlyT can be reached and, if not, why (not running, API turned off,
+wrong access code, or requests throttled).
+
+Start, Stop and Start/Stop keys can each be set to a specific talk, or left on Automatic.
 
 ## API Endpoints Used
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
-| `/api/v1/timers/` | GET | Get all talks and current status |
+| `/api/v1/system/` | GET | Connection test |
+| `/api/v1/timers/` | GET | Talks and current status |
 | `/api/v1/timers/{id}` | POST | Start timer for talk |
 | `/api/v1/timers/{id}` | DELETE | Stop timer for talk |
 | `/api/v1/bell/` | POST | Ring the bell |
 
+The access code is sent in the `X-Api-Key` header. Only visible Start/Stop keys poll OnlyT (every 2 seconds).
+
 ## Troubleshooting
 
-### Plugin doesn't appear in Stream Deck
-- Ensure the folder is named exactly `com.onlyt.timer.sdPlugin`
-- Check that `manifest.json` is valid JSON
-- Restart Stream Deck application
-
-### Actions don't work
-1. Verify OnlyT is running
-2. Check that the API is enabled in OnlyT settings
-3. Verify the host/port settings in the action configuration
-4. Test the API directly: `curl http://localhost:8096/api/v1/timers/`
-
-### Bell action doesn't work
-- Ensure bell is enabled in OnlyT settings
-- Check the OnlyT logs for any errors
+- **Keys show a warning triangle:** open any OnlyT key's settings and use **Test connection**.
+- **Start does nothing:** another talk may already be running, or every talk has been timed.
+- **Bell doesn't ring:** make sure the bell is enabled in OnlyT's settings.
 
 ## Development
 
-### Building the Plugin
-
-Stream Deck plugins don't require compilation, but to create a distributable package:
+The plugin is plain Node.js with no dependencies (`plugin.js` handles Stream Deck, `onlyt.js` the OnlyT
+API and action logic), so there's no build step.
 
 ```bash
-# Package as .streamDeckPlugin
-cd StreamDeck
-zip -r com.onlyt.timer.streamDeckPlugin com.onlyt.timer.sdPlugin
+# Tests (fake OnlyT API and fake Stream Deck connection)
+node --test StreamDeck/tests/plugin.test.js
+
+# Validate the manifest and package (version from SolutionInfo.cs)
+npx @elgato/cli validate StreamDeck/com.onlyt.timer.sdPlugin
+./Installer/StreamDeck/pack-streamdeck.sh
 ```
 
-### Testing
-
-Use the Stream Deck software's developer mode to reload the plugin during development.
+To try changes, link the folder into Stream Deck with `npx @elgato/cli link StreamDeck/com.onlyt.timer.sdPlugin`
+and restart it with `npx @elgato/cli restart com.onlyt.timer`.
 
 ## License
 

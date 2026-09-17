@@ -1,344 +1,252 @@
-/**
- * OnlyT Timer Control - Stream Deck Plugin
- *
- * This plugin allows you to control the OnlyT meeting timer application
- * via its HTTP API from your Stream Deck.
- *
- * API Endpoints:
- * - GET  /api/v1/timers/      - Get all talks and current status
- * - POST /api/v1/timers/{id}  - Start timer for talk
- * - DELETE /api/v1/timers/{id} - Stop timer for talk
- * - POST /api/v1/bell/        - Ring the bell
- */
-
-// Global WebSocket connection to Stream Deck
-let websocket = null;
-
-// Store action instances and their settings
-const actionInstances = {};
-
-// Default settings
-const DEFAULT_HOST = 'localhost';
-const DEFAULT_PORT = 8096;
-
-// Current timer state (cached from polling)
-let currentTimerState = {
-    isRunning: false,
-    activeTalkId: null,
-    talks: []
-};
-
-// Polling interval for timer status
-let pollInterval = null;
+'use strict';
 
 /**
- * Connect to Stream Deck
+ * OnlyT Timer Control - Stream Deck plugin (Node.js).
+ *
+ * Stream Deck starts this with: -port <n> -pluginUUID <id> -registerEvent <name> -info <json>
+ * and talks to it over a local WebSocket. Uses only Node's built-in fetch and WebSocket, so there
+ * are no dependencies to install or bundle.
  */
-function connectElgatoStreamDeckSocket(inPort, inPluginUUID, inRegisterEvent, inInfo) {
-    websocket = new WebSocket(`ws://127.0.0.1:${inPort}`);
 
-    websocket.onopen = () => {
-        // Register plugin with Stream Deck
-        const json = {
-            event: inRegisterEvent,
-            uuid: inPluginUUID
-        };
-        websocket.send(JSON.stringify(json));
+const {
+    ACTIONS,
+    OnlyTClient,
+    OnlyTError,
+    describeError,
+    normaliseConnection,
+    performAction,
+} = require('./onlyt');
 
-        // Start polling timer status
-        startPolling();
-    };
+const POLL_INTERVAL_MS = 2000;
 
-    websocket.onmessage = (evt) => {
-        const jsonObj = JSON.parse(evt.data);
-        const event = jsonObj.event;
-        const action = jsonObj.action;
-        const context = jsonObj.context;
-        const payload = jsonObj.payload || {};
+// OnlyT starts a timer at the next second boundary and its status catches up after that, so after a
+// key press trust the expected state for a little while rather than flicker back
+const STATE_SETTLE_MS = 2500;
 
+const TOGGLE_STATE_START = 0;
+const TOGGLE_STATE_STOP = 1;
+
+function parseArgs(argv) {
+    const args = {};
+    for (let i = 0; i + 1 < argv.length; i += 2) {
+        args[argv[i].replace(/^-+/, '')] = argv[i + 1];
+    }
+    return args;
+}
+
+class Plugin {
+    /**
+     * @param {object} args parsed launch arguments
+     * @param {(url: string) => WebSocket} [openSocket] for tests
+     */
+    constructor(args, openSocket = url => new WebSocket(url)) {
+        this.pluginUUID = args.pluginUUID;
+        this.registerEvent = args.registerEvent;
+        this.connection = normaliseConnection({});
+        this.instances = new Map(); // context -> { action, settings, state }
+        this.pollTimer = null;
+        this.refreshing = false;
+        this.refreshAgain = false;
+        this.settleUntil = 0;
+
+        this.socket = openSocket(`ws://127.0.0.1:${args.port}`);
+        this.socket.addEventListener('open', () => this.onOpen());
+        this.socket.addEventListener('message', evt => this.onMessage(evt.data));
+        this.socket.addEventListener('close', () => this.onClose());
+    }
+
+    get client() {
+        return new OnlyTClient(this.connection);
+    }
+
+    onClose() {
+        this.dispose();
+        process.exit(0);
+    }
+
+    dispose() {
+        clearInterval(this.pollTimer);
+        this.pollTimer = null;
+    }
+
+    send(message) {
+        if (this.socket.readyState === 1 /* OPEN */) {
+            this.socket.send(JSON.stringify(message));
+        }
+    }
+
+    onOpen() {
+        this.send({ event: this.registerEvent, uuid: this.pluginUUID });
+        this.send({ event: 'getGlobalSettings', context: this.pluginUUID });
+    }
+
+    onMessage(data) {
+        let message;
+        try {
+            message = JSON.parse(data);
+        } catch {
+            return;
+        }
+
+        const { event, action, context, payload = {} } = message;
         switch (event) {
-            case 'keyDown':
-                handleKeyDown(action, context, payload);
+            case 'didReceiveGlobalSettings':
+                this.setConnection(payload.settings);
                 break;
 
             case 'willAppear':
-                // Action appeared on Stream Deck
-                actionInstances[context] = {
-                    action: action,
-                    settings: payload.settings || {}
-                };
+                this.instances.set(context, { action, settings: payload.settings || {}, state: payload.state ?? null });
+                this.updatePolling();
                 break;
 
             case 'willDisappear':
-                // Action removed from Stream Deck
-                delete actionInstances[context];
+                this.instances.delete(context);
+                this.updatePolling();
                 break;
 
-            case 'didReceiveSettings':
-                // Settings updated from Property Inspector
-                if (actionInstances[context]) {
-                    actionInstances[context].settings = payload.settings || {};
+            case 'didReceiveSettings': {
+                const instance = this.instances.get(context);
+                if (instance) {
+                    instance.settings = payload.settings || {};
+                }
+                break;
+            }
+
+            case 'keyDown':
+                this.onKeyDown(action, context, payload.settings || {});
+                break;
+
+            case 'sendToPlugin':
+                this.onPropertyInspectorMessage(action, context, payload);
+                break;
+        }
+    }
+
+    setConnection(settings) {
+        this.connection = normaliseConnection(settings);
+        this.refreshToggles();
+    }
+
+    async onKeyDown(action, context, settings) {
+        try {
+            const result = await performAction(action, settings, this.client);
+            this.send({ event: result.ok ? 'showOk' : 'showAlert', context });
+            if (!result.ok) {
+                console.warn(`${action}: ${result.reason}`);
+            } else if (result.running !== undefined) {
+                this.settleUntil = Date.now() + STATE_SETTLE_MS;
+                this.setToggleStates(result.running);
+                return;
+            }
+        } catch (error) {
+            console.warn(`${action}: ${describeError(error)}`);
+            this.send({ event: 'showAlert', context });
+        }
+
+        this.refreshToggles();
+    }
+
+    async onPropertyInspectorMessage(action, context, payload) {
+        const reply = response => this.send({ event: 'sendToPropertyInspector', action, context, payload: response });
+
+        switch (payload.request) {
+            case 'connectionChanged':
+                // The inspector also saves the global settings; applying them here avoids waiting
+                // for Stream Deck to echo them back.
+                this.setConnection(payload.connection);
+                break;
+
+            case 'testConnection':
+                try {
+                    const system = await this.client.getSystem();
+                    reply({ response: 'connection', ok: true, version: system.onlyTVersion || null });
+                } catch (error) {
+                    reply({ response: 'connection', ok: false, message: describeError(error) });
+                }
+                break;
+
+            case 'getTalks':
+                try {
+                    const state = await this.client.getState();
+                    reply({ response: 'talks', ok: true, talks: state.talks.map(t => ({ id: t.id, title: t.title })) });
+                } catch (error) {
+                    reply({ response: 'talks', ok: false, message: describeError(error) });
                 }
                 break;
         }
-    };
+    }
 
-    websocket.onclose = () => {
-        stopPolling();
-    };
-}
-
-/**
- * Handle button press
- */
-async function handleKeyDown(action, context, payload) {
-    const settings = payload.settings || {};
-    const host = settings.host || DEFAULT_HOST;
-    const port = settings.port || DEFAULT_PORT;
-    const baseUrl = `http://${host}:${port}`;
-
-    try {
-        switch (action) {
-            case 'com.onlyt.timer.start':
-                await startTimer(baseUrl, settings.talkId, context);
-                break;
-
-            case 'com.onlyt.timer.stop':
-                await stopTimer(baseUrl, settings.talkId, context);
-                break;
-
-            case 'com.onlyt.timer.toggle':
-                await toggleTimer(baseUrl, settings.talkId, context);
-                break;
-
-            case 'com.onlyt.timer.bell':
-                await ringBell(baseUrl, context);
-                break;
-
-            case 'com.onlyt.timer.next':
-                await startNextTalk(baseUrl, context);
-                break;
+    hasToggles() {
+        for (const instance of this.instances.values()) {
+            if (instance.action === ACTIONS.toggle) {
+                return true;
+            }
         }
-    } catch (error) {
-        console.error('Error handling key press:', error);
-        showAlert(context);
-    }
-}
-
-/**
- * Start timer for a specific talk
- */
-async function startTimer(baseUrl, talkId, context) {
-    // If no specific talk ID, use the first available or currently selected
-    if (!talkId && currentTimerState.talks.length > 0) {
-        talkId = currentTimerState.talks[0].talkId;
+        return false;
     }
 
-    if (!talkId) {
-        showAlert(context);
-        return;
+    setToggleStates(running) {
+        const wanted = running ? TOGGLE_STATE_STOP : TOGGLE_STATE_START;
+        for (const [context, instance] of this.instances) {
+            if (instance.action === ACTIONS.toggle && instance.state !== wanted) {
+                instance.state = wanted;
+                this.send({ event: 'setState', context, payload: { state: wanted } });
+            }
+        }
     }
 
-    const response = await fetch(`${baseUrl}/api/v1/timers/${talkId}`, {
-        method: 'POST'
-    });
-
-    if (response.ok) {
-        showOk(context);
-        await refreshTimerState(baseUrl);
-    } else {
-        showAlert(context);
-    }
-}
-
-/**
- * Stop timer for a specific talk
- */
-async function stopTimer(baseUrl, talkId, context) {
-    // If no specific talk ID, stop the currently running one
-    if (!talkId && currentTimerState.activeTalkId) {
-        talkId = currentTimerState.activeTalkId;
+    /** Poll OnlyT only while a Toggle key is visible; it's the only key that shows timer state. */
+    updatePolling() {
+        if (this.hasToggles()) {
+            if (!this.pollTimer) {
+                this.pollTimer = setInterval(() => this.refreshToggles(), POLL_INTERVAL_MS);
+            }
+            this.refreshToggles();
+        } else if (this.pollTimer) {
+            clearInterval(this.pollTimer);
+            this.pollTimer = null;
+        }
     }
 
-    if (!talkId) {
-        showAlert(context);
-        return;
-    }
+    async refreshToggles() {
+        if (!this.hasToggles()) {
+            return;
+        }
 
-    const response = await fetch(`${baseUrl}/api/v1/timers/${talkId}`, {
-        method: 'DELETE'
-    });
+        if (this.refreshing) {
+            // A poll that started before a key press could report the old state; check again after it
+            this.refreshAgain = true;
+            return;
+        }
 
-    if (response.ok) {
-        showOk(context);
-        await refreshTimerState(baseUrl);
-    } else {
-        showAlert(context);
-    }
-}
+        if (Date.now() < this.settleUntil) {
+            return;
+        }
 
-/**
- * Toggle timer - start if stopped, stop if running
- */
-async function toggleTimer(baseUrl, talkId, context) {
-    if (currentTimerState.isRunning) {
-        await stopTimer(baseUrl, currentTimerState.activeTalkId, context);
-    } else {
-        await startTimer(baseUrl, talkId, context);
-    }
+        this.refreshing = true;
+        try {
+            const state = await this.client.getState();
+            if (Date.now() >= this.settleUntil) {
+                this.setToggleStates(state.isRunning);
+            }
+        } catch (error) {
+            // OnlyT isn't reachable; leave the keys as they are until it is
+            if (!(error instanceof OnlyTError)) {
+                console.warn(`Refreshing timer state: ${error.message}`);
+            }
+        } finally {
+            this.refreshing = false;
+        }
 
-    // Update button state
-    updateToggleState(context);
-}
-
-/**
- * Ring the bell
- */
-async function ringBell(baseUrl, context) {
-    const response = await fetch(`${baseUrl}/api/v1/bell/`, {
-        method: 'POST'
-    });
-
-    const data = await response.json();
-
-    if (data.Success) {
-        showOk(context);
-    } else {
-        showAlert(context);
-    }
-}
-
-/**
- * Start the next talk in the schedule
- */
-async function startNextTalk(baseUrl, context) {
-    await refreshTimerState(baseUrl);
-
-    // Find the next talk that hasn't been completed
-    const nextTalk = currentTimerState.talks.find(talk =>
-        talk.completedTimeSecs === null || talk.completedTimeSecs === 0
-    );
-
-    if (nextTalk) {
-        await startTimer(baseUrl, nextTalk.talkId, context);
-    } else {
-        showAlert(context);
-    }
-}
-
-/**
- * Refresh timer state from API
- */
-async function refreshTimerState(baseUrl) {
-    try {
-        const response = await fetch(`${baseUrl}/api/v1/timers/`);
-        const data = await response.json();
-
-        currentTimerState.talks = data.timerInfo || [];
-        currentTimerState.isRunning = data.status?.isRunning || false;
-        currentTimerState.activeTalkId = data.status?.talkId || null;
-
-        // Update all toggle button states
-        updateAllToggleStates();
-    } catch (error) {
-        console.error('Error refreshing timer state:', error);
-    }
-}
-
-/**
- * Start polling for timer status
- */
-function startPolling() {
-    stopPolling();
-
-    // Get base URL from first action instance settings
-    const firstInstance = Object.values(actionInstances)[0];
-    const settings = firstInstance?.settings || {};
-    const host = settings.host || DEFAULT_HOST;
-    const port = settings.port || DEFAULT_PORT;
-    const baseUrl = `http://${host}:${port}`;
-
-    // Poll every 2 seconds
-    pollInterval = setInterval(() => {
-        refreshTimerState(baseUrl);
-    }, 2000);
-}
-
-/**
- * Stop polling
- */
-function stopPolling() {
-    if (pollInterval) {
-        clearInterval(pollInterval);
-        pollInterval = null;
-    }
-}
-
-/**
- * Update toggle button state based on timer running state
- */
-function updateToggleState(context) {
-    const state = currentTimerState.isRunning ? 1 : 0;
-    setActionState(context, state);
-}
-
-/**
- * Update all toggle button states
- */
-function updateAllToggleStates() {
-    for (const [context, instance] of Object.entries(actionInstances)) {
-        if (instance.action === 'com.onlyt.timer.toggle') {
-            updateToggleState(context);
+        if (this.refreshAgain) {
+            this.refreshAgain = false;
+            this.refreshToggles();
         }
     }
 }
 
-/**
- * Set action state (for multi-state buttons)
- */
-function setActionState(context, state) {
-    if (websocket && websocket.readyState === WebSocket.OPEN) {
-        websocket.send(JSON.stringify({
-            event: 'setState',
-            context: context,
-            payload: { state: state }
-        }));
-    }
+if (require.main === module) {
+    new Plugin(parseArgs(process.argv.slice(2)));
 }
 
-/**
- * Show OK checkmark on button
- */
-function showOk(context) {
-    if (websocket && websocket.readyState === WebSocket.OPEN) {
-        websocket.send(JSON.stringify({
-            event: 'showOk',
-            context: context
-        }));
-    }
-}
-
-/**
- * Show alert on button (error indicator)
- */
-function showAlert(context) {
-    if (websocket && websocket.readyState === WebSocket.OPEN) {
-        websocket.send(JSON.stringify({
-            event: 'showAlert',
-            context: context
-        }));
-    }
-}
-
-/**
- * Set title on button
- */
-function setTitle(context, title) {
-    if (websocket && websocket.readyState === WebSocket.OPEN) {
-        websocket.send(JSON.stringify({
-            event: 'setTitle',
-            context: context,
-            payload: { title: title }
-        }));
-    }
-}
+module.exports = { Plugin, parseArgs };
