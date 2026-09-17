@@ -84,21 +84,15 @@
     </Compile>
   </ItemGroup>
 
-  <!-- MSBuild doesn't recognise these language codes as cultures and would embed them in the main
-       assembly, where ResourceManager never looks. Assign the culture explicitly so each one gets a
-       satellite assembly like the other languages. -->
+  <!-- Which language codes MSBuild recognises as cultures depends on the build machine's ICU/NLS data
+       (e.g. macOS doesn't know "tpi", Windows 10 doesn't know "sat"). Unrecognised ones get embedded in
+       the main assembly, where ResourceManager never looks. Assign every translation's culture from its
+       file name (Resources.<culture>.resx) so each always gets a satellite assembly. -->
   <PropertyGroup>
     <RespectAlreadyAssignedItemCulture>true</RespectAlreadyAssignedItemCulture>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.ay.resx" Culture="ay" />
-    <EmbeddedResource Update="Properties\Resources.bi.resx" Culture="bi" />
-    <EmbeddedResource Update="Properties\Resources.fj.resx" Culture="fj" />
-    <EmbeddedResource Update="Properties\Resources.ilo.resx" Culture="ilo" />
-    <EmbeddedResource Update="Properties\Resources.jv-Latn-ID.resx" Culture="jv-Latn-ID" />
-    <EmbeddedResource Update="Properties\Resources.pap-PAP.resx" Culture="pap-PAP" />
-    <EmbeddedResource Update="Properties\Resources.srn.resx" Culture="srn" />
-    <EmbeddedResource Update="Properties\Resources.tpi.resx" Culture="tpi" />
+    <EmbeddedResource Update="Properties\Resources.*.resx" Culture="$([System.String]::Copy('%(Filename)').Substring(10))" />
   </ItemGroup>
 
 </Project>
