@@ -71,24 +71,13 @@ Name: "streamdeck"; Description: "Install Stream Deck plugin"; GroupDescription:
 [Files]
 ; OnlyT Avalonia application files (from OnlyT.Avalonia project publish output)
 ; The AssemblyName is set to "OnlyT" in the csproj, so the executable is OnlyT.exe
-Source: "..\..\publish\win-x64\OnlyT.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\publish\win-x64\OnlyT.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\publish\win-x64\OnlyT.pdb"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64\*.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\..\publish\win-x64\*.json"; DestDir: "{app}"; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64\runtimes\*"; DestDir: "{app}\runtimes"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
-Source: "..\..\publish\win-x64\wwwroot\*"; DestDir: "{app}\wwwroot"; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+; Everything in the publish folder, including subfolders: translations (<culture>\OnlyT.resources.dll),
+; Sounds and runtimes. Listing file types missed the translation and Sounds folders.
+Source: "..\..\publish\win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; OnlyT Classic (WPF) application files - installed to Classic subdirectory
 ; Only included if WPF was built (skipifsourcedoesntexist handles missing files gracefully)
-Source: "..\..\publish\win-x64-wpf\OnlyT.exe"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.dll"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.pdb"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.json"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.mp3"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.ico"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\*.txt"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion skipifsourcedoesntexist
-Source: "..\..\publish\win-x64-wpf\runtimes\*"; DestDir: "{app}\Classic\runtimes"; Tasks: classicversion; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
+Source: "..\..\publish\win-x64-wpf\*"; DestDir: "{app}\Classic"; Tasks: classicversion; Flags: ignoreversion recursesubdirs createallsubdirs skipifsourcedoesntexist
 
 ; StreamDeck plugin package (built by build-windows.ps1) - only if selected AND Stream Deck is installed.
 ; It's opened after installation so the Stream Deck app installs or updates the plugin itself.
