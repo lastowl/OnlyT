@@ -5,7 +5,7 @@
 ; Version is normally passed by the build script (/DMyAppVersion=...) derived from SolutionInfo.cs;
 ; this default is only used when compiling the .iss directly.
 #ifndef MyAppVersion
-  #define MyAppVersion "2.5.0.10"
+  #define MyAppVersion "2.5.0.11"
 #endif
 #define MyAppPublisher "OnlyT"
 #define MyAppURL "https://github.com/lastowl/OnlyT"
