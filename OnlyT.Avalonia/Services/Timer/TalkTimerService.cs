@@ -24,6 +24,7 @@
         private bool _isCountingUp;
         private bool _isPaused;
         private bool _persistFinalTimerValue;
+        private volatile bool _isStarting;
 
         public TalkTimerService()
         {
@@ -94,6 +95,11 @@
             _closingSecs = closingSecs;
         }
 
+        public void BeginStarting()
+        {
+            _isStarting = true;
+        }
+
         public void AdjustTarget(int newTargetSecs)
         {
             _targetSecs = newTargetSecs;
@@ -136,6 +142,7 @@
             _isCountingUp = isCountingUp;
             _persistFinalTimerValue = persistFinalTimerValue;
             _stopWatch.Start();
+            _isStarting = false;
             UpdateTimerValue();
             _timer.Start();
 
@@ -153,6 +160,7 @@
         public void Stop()
         {
             _timer.Stop();
+            _isStarting = false;
             _talkId = null;
             _isPaused = false;
 
@@ -200,7 +208,7 @@
             {
                 TalkId = _talkId,
                 TargetSeconds = _targetSecs,
-                IsRunning = IsRunning,
+                IsRunning = IsRunning || _isStarting,
                 TimeElapsed = CurrentTimeElapsed,
                 ClosingSecs = _closingSecs
             };

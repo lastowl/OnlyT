@@ -142,6 +142,34 @@ public class TalkTimerServiceTests
     }
 
     [TestMethod]
+    public void GetStatus_ReportsRunningWhileStartIsPending()
+    {
+        var svc = new TalkTimerService();
+        svc.SetupTalk(talkId: 7, targetSeconds: 450, closingSecs: 30);
+        svc.BeginStarting();
+
+        Assert.IsTrue(svc.GetStatus().IsRunning, "API clients should see the talk as running before the timer ticks");
+        Assert.IsFalse(svc.IsRunning, "the timer itself hasn't started");
+
+        svc.Start(targetSecs: 450, talkId: 7, isCountingUp: false);
+        svc.Stop();
+
+        Assert.IsFalse(svc.GetStatus().IsRunning);
+    }
+
+    [TestMethod]
+    public void Stop_CancelsPendingStartStatus()
+    {
+        var svc = new TalkTimerService();
+        svc.SetupTalk(talkId: 7, targetSeconds: 450, closingSecs: 30);
+        svc.BeginStarting();
+
+        svc.Stop();
+
+        Assert.IsFalse(svc.GetStatus().IsRunning);
+    }
+
+    [TestMethod]
     public void StartTalkTimerFromApi_ReturnsStartCommand()
     {
         var svc = new TalkTimerService();

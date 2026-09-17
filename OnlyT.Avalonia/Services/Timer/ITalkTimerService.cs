@@ -32,6 +32,12 @@
 
         void SetupTalk(int talkId, int targetSeconds, int closingSecs);
 
+        /// <summary>
+        /// Records that <see cref="Start"/> will follow shortly (the operator page waits for the next
+        /// second boundary), so the status reports the timer as running in the meantime.
+        /// </summary>
+        void BeginStarting();
+
         void AdjustTarget(int newTargetSecs);
 
         TimerStartStopEventArgs StartTalkTimerFromApi(int talkId);

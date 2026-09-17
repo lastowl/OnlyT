@@ -32,6 +32,12 @@ namespace OnlyT.Avalonia.ViewModels;
 /// </summary>
 public partial class OperatorPageViewModel : ObservableObject
 {
+    private static readonly TimeSpan ApiCommandTimeout = TimeSpan.FromSeconds(5);
+
+    // Guards starting the timer service at the next second boundary against a Stop in the meantime
+    private readonly object _timerStartLock = new();
+    private int _timerStartVersion;
+
     private readonly ITalkTimerService _timerService;
     private readonly ITalkScheduleService _scheduleService;
     private readonly IOptionsService _optionsService;
@@ -510,62 +516,75 @@ public partial class OperatorPageViewModel : ObservableObject
     /// </summary>
     private void HandleTimerStartStopFromApi(object? sender, TimerStartStopEventArgs e)
     {
-        Dispatcher.UIThread.Post(() =>
+        // The API reads e.Success as soon as this handler returns, so wait for the UI thread
+        // to apply the command (Post would return before it ran and always report failure).
+        if (Dispatcher.UIThread.CheckAccess())
         {
-            // Always on UI thread to prevent synchronization issues
-            Log.Debug("Handling timer control from API - TalkId: {TalkId}, Command: {Command}", e.TalkId, e.Command);
+            ApplyTimerStartStopFromApi(e);
+            return;
+        }
 
-            // Check if the talk exists
-            var requestedTalk = Talks.FirstOrDefault(t => t.Id == e.TalkId);
-            if (requestedTalk == null)
-            {
-                Log.Warning("API timer control failed - talk ID {TalkId} does not exist", e.TalkId);
-                e.Success = false;
-                e.CurrentStatus = _timerService.GetStatus();
-                return;
-            }
+        var operation = Dispatcher.UIThread.InvokeAsync(() => ApplyTimerStartStopFromApi(e));
+        if (!operation.GetTask().Wait(ApiCommandTimeout))
+        {
+            Log.Warning("API timer control timed out waiting for the UI thread - TalkId: {TalkId}", e.TalkId);
+        }
+    }
 
-            var success = TalkId == e.TalkId || IsNotRunning;
+    private void ApplyTimerStartStopFromApi(TimerStartStopEventArgs e)
+    {
+        Log.Debug("Handling timer control from API - TalkId: {TalkId}, Command: {Command}", e.TalkId, e.Command);
+
+        // Check if the talk exists
+        var requestedTalk = Talks.FirstOrDefault(t => t.Id == e.TalkId);
+        if (requestedTalk == null)
+        {
+            Log.Warning("API timer control failed - talk ID {TalkId} does not exist", e.TalkId);
+            e.Success = false;
+            e.CurrentStatus = _timerService.GetStatus();
+            return;
+        }
+
+        var success = TalkId == e.TalkId || IsNotRunning;
+
+        if (success)
+        {
+            // Select the requested talk
+            SelectedTalk = requestedTalk;
+            success = TalkId == e.TalkId;
 
             if (success)
             {
-                // Select the requested talk
-                SelectedTalk = requestedTalk;
-                success = TalkId == e.TalkId;
-
-                if (success)
+                switch (e.Command)
                 {
-                    switch (e.Command)
-                    {
-                        case Models.StartStopTimerCommands.Start:
-                            success = IsNotRunning;
-                            if (success)
-                            {
-                                Start();
-                                Log.Information("Timer started via API for talk: {TalkName}", requestedTalk.Name);
-                            }
-                            break;
+                    case Models.StartStopTimerCommands.Start:
+                        success = IsNotRunning;
+                        if (success)
+                        {
+                            Start();
+                            Log.Information("Timer started via API for talk: {TalkName}", requestedTalk.Name);
+                        }
+                        break;
 
-                        case Models.StartStopTimerCommands.Stop:
-                            success = IsRunning;
-                            if (success)
-                            {
-                                Stop();
-                                Log.Information("Timer stopped via API for talk: {TalkName}", requestedTalk.Name);
-                            }
-                            break;
-                    }
+                    case Models.StartStopTimerCommands.Stop:
+                        success = IsRunning;
+                        if (success)
+                        {
+                            Stop();
+                            Log.Information("Timer stopped via API for talk: {TalkName}", requestedTalk.Name);
+                        }
+                        break;
                 }
             }
+        }
 
-            e.CurrentStatus = _timerService.GetStatus();
-            if (success)
-            {
-                e.CurrentStatus.IsRunning = e.Command == Models.StartStopTimerCommands.Start;
-            }
+        e.CurrentStatus = _timerService.GetStatus();
+        if (success)
+        {
+            e.CurrentStatus.IsRunning = e.Command == Models.StartStopTimerCommands.Start;
+        }
 
-            e.Success = success;
-        });
+        e.Success = success;
     }
 
     private void LoadTalks()
@@ -804,6 +823,7 @@ public partial class OperatorPageViewModel : ObservableObject
                 SelectedTalk.Id,
                 (int)SelectedTalk.ActualDuration.TotalSeconds,
                 SelectedTalk.ClosingSecs);
+            _timerService.BeginStarting();
 
             // Track timing for reports (meeting-level structure + individual talk)
             StoreTimerStartData();
@@ -812,6 +832,12 @@ public partial class OperatorPageViewModel : ObservableObject
             _reminderService.OnTimerStarted(SelectedTalk.Id);
 
             StatusText = _localizationService.GetString("STATUS_RUNNING") ?? "Running";
+
+            // Treat the timer as running straight away, as the WPF version does. The timer service only
+            // starts at the next second boundary and first reports a second after that; until then a
+            // second Start (e.g. a double click or a Stream Deck key) was accepted and Stop refused.
+            IsRunning = true;
+            UpdateButtonStates();
 
             // Notify commands
             StopCommand.NotifyCanExecuteChanged();
@@ -826,6 +852,12 @@ public partial class OperatorPageViewModel : ObservableObject
             // stop, but only when the user has the persist option enabled.
             var persistFinalValue = SelectedTalk.PersistFinalTimerValue && _optionsService.PersistStudentTime;
 
+            int startVersion;
+            lock (_timerStartLock)
+            {
+                startVersion = ++_timerStartVersion;
+            }
+
             Task.Run(async () =>
             {
                 var ms = _dateTimeService.Now().Millisecond;
@@ -834,7 +866,16 @@ public partial class OperatorPageViewModel : ObservableObject
                     await Task.Delay(1000 - ms);
                 }
 
-                _timerService.Start(targetSecs, talkId, countUp, persistFinalValue);
+                lock (_timerStartLock)
+                {
+                    // Stopped before reaching the second boundary
+                    if (startVersion != _timerStartVersion)
+                    {
+                        return;
+                    }
+
+                    _timerService.Start(targetSecs, talkId, countUp, persistFinalValue);
+                }
             });
 
             Log.Information("Started timer for talk: {TalkName}", SelectedTalk.Name);
@@ -860,7 +901,19 @@ public partial class OperatorPageViewModel : ObservableObject
             var varianceSeconds = TargetSeconds - ElapsedSeconds;
             var variance = TimeSpan.FromSeconds(varianceSeconds);
 
-            _timerService.Stop();
+            lock (_timerStartLock)
+            {
+                // Also cancels a start still waiting for the second boundary
+                _timerStartVersion++;
+                _timerService.Stop();
+            }
+
+            // Stopping within the first second raises no timer change event, so update the state here
+            IsRunning = false;
+            UpdateButtonStates();
+            StartCommand.NotifyCanExecuteChanged();
+            StopCommand.NotifyCanExecuteChanged();
+            PauseCommand.NotifyCanExecuteChanged();
 
             // Record completed time on the talk for overtime display
             _scheduleService.RecordTalkCompleted(stoppedTalkId, ElapsedSeconds);
@@ -1105,7 +1158,8 @@ public partial class OperatorPageViewModel : ObservableObject
         }
     }
 
-    private bool CanPause() => IsRunning && !IsPaused;
+    // Not until the timer service has actually started, which can be up to a second after Start
+    private bool CanPause() => IsRunning && !IsPaused && _timerService.IsRunning;
 
     [RelayCommand(CanExecute = nameof(CanResume))]
     private void Resume()
