@@ -49,6 +49,11 @@
         public bool IsPaused => _isPaused;
 
         /// <summary>
+        /// Gets a value indicating whether the current talk counts up rather than down
+        /// </summary>
+        public bool IsCountingUp => _isCountingUp;
+
+        /// <summary>
         /// Gets or sets the current number of seconds elapsed
         /// </summary>
         public int CurrentSecondsElapsed
@@ -103,6 +108,21 @@
         public void AdjustTarget(int newTargetSecs)
         {
             _targetSecs = newTargetSecs;
+
+            // Let displays pick up the new target now rather than on the next
+            // whole second, which never comes while paused.
+            if (IsRunning || _isPaused)
+            {
+                OnTimerChangedEvent(new TimerChangedEventArgs
+                {
+                    TargetSecs = _targetSecs,
+                    ElapsedSecs = _currentSecondsElapsed,
+                    IsRunning = IsRunning,
+                    ClosingSecs = _closingSecs,
+                    IsCountingUp = _isCountingUp,
+                    PersistFinalTimerValue = _persistFinalTimerValue,
+                });
+            }
         }
 
         public TimerStartStopEventArgs StartTalkTimerFromApi(int talkId)

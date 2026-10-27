@@ -427,6 +427,9 @@
                         <CheckBox Content="{loc:Localize TIMER_COUNT_UP}"
                                   IsChecked="{Binding CountUp}"/>
 
+                        <CheckBox Content="{loc:Localize TIMER_COUNT_UP_SHOW_TARGET}"
+                                  IsChecked="{Binding ShowCountUpTarget}"/>
+
                         <CheckBox Content="{loc:Localize ALLOW_COUNT_UP_TOGGLE}"
                                   IsChecked="{Binding AllowCountUpToggle}"/>
 

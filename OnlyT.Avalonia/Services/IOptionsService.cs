@@ -233,6 +233,11 @@ public interface IOptionsService
     bool CountUp { get; }
 
     /// <summary>
+    /// Whether to show the target duration under the timer when it counts up
+    /// </summary>
+    bool ShowCountUpTarget { get; }
+
+    /// <summary>
     /// Whether to generate timing reports at end of meeting
     /// </summary>
     bool GenerateTimingReports { get; }
@@ -527,6 +532,11 @@ public class AppOptions
     /// Whether the timer counts up by default (false = count down)
     /// </summary>
     public bool CountUp { get; set; } = false;
+
+    /// <summary>
+    /// Whether to show the target duration under the timer when it counts up (default: true)
+    /// </summary>
+    public bool ShowCountUpTarget { get; set; } = true;
 
     /// <summary>
     /// Whether to generate timing reports at end of meeting

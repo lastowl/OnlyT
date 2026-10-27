@@ -92,6 +92,7 @@ public class SimpleOptionsService : IOptionsService
     public int PersistDurationSecs => GetOptions().PersistDurationSecs;
 
     public bool CountUp => GetOptions().CountUp;
+    public bool ShowCountUpTarget => GetOptions().ShowCountUpTarget;
     public bool GenerateTimingReports => GetOptions().GenerateTimingReports;
     public string Culture => GetOptions().Culture;
     public bool ShrinkOnMinimise => GetOptions().ShrinkOnMinimise;

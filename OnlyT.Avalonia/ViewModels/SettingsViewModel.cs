@@ -143,6 +143,9 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
     private bool _countUp;
 
     [ObservableProperty]
+    private bool _showCountUpTarget;
+
+    [ObservableProperty]
     private bool _weekendIncludesFriday;
 
     [ObservableProperty]
@@ -442,6 +445,7 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
         options.ShowCircuitVisitToggle = ShowCircuitVisitToggle;
         options.AllowCountUpToggle = AllowCountUpToggle;
         options.CountUp = CountUp;
+        options.ShowCountUpTarget = ShowCountUpTarget;
         options.WeekendIncludesFriday = WeekendIncludesFriday;
         options.OverrunNotifications = OverrunNotifications;
         options.GenerateTimingReports = GenerateTimingReports;
@@ -556,6 +560,7 @@ public partial class SettingsViewModel : ObservableObject, System.IDisposable
         ShowCircuitVisitToggle = options.ShowCircuitVisitToggle;
         AllowCountUpToggle = options.AllowCountUpToggle;
         CountUp = options.CountUp;
+        ShowCountUpTarget = options.ShowCountUpTarget;
         WeekendIncludesFriday = options.WeekendIncludesFriday;
         OverrunNotifications = options.OverrunNotifications;
         GenerateTimingReports = options.GenerateTimingReports;

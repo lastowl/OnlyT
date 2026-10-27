@@ -148,4 +148,44 @@ public class HttpServerDataTests
         Assert.IsFalse(data.showCountdown);
         Assert.IsNull(data.countdownSecs);
     }
+
+    [TestMethod]
+    public void BuildClockData_CountingUp_ReportsElapsedAndTarget()
+    {
+        _timer.Setup(t => t.GetStatus()).Returns(new TimerStatus
+        {
+            IsRunning = true,
+            TargetSeconds = 600,
+            TimeElapsed = TimeSpan.FromSeconds(125),
+        });
+        _timer.SetupGet(t => t.IsCountingUp).Returns(true);
+        _options.SetupGet(o => o.ShowCountUpTarget).Returns(true);
+
+        var data = CreateServer().BuildClockData(DateTime.Now);
+
+        Assert.IsTrue(data.countUp);
+        Assert.AreEqual(125, data.elapsedSecs);
+        Assert.AreEqual(600, data.targetSecs);
+        Assert.IsTrue(data.showCountUpTarget);
+    }
+
+    [TestMethod]
+    public void BuildClockData_Paused_KeepsTimerInsteadOfIdle()
+    {
+        _timer.Setup(t => t.GetStatus()).Returns(new TimerStatus
+        {
+            IsRunning = false, // the stopwatch is stopped while paused
+            TargetSeconds = 300,
+            TimeElapsed = TimeSpan.FromSeconds(100),
+        });
+        _timer.SetupGet(t => t.IsPaused).Returns(true);
+
+        var data = CreateServer().BuildClockData(DateTime.Now);
+
+        Assert.IsFalse(data.isRunning, "isRunning keeps its meaning for API clients");
+        Assert.IsTrue(data.isPaused);
+        Assert.AreEqual(200, data.remainingSecs);
+        Assert.AreEqual(100, data.elapsedSecs);
+        Assert.IsFalse(data.showCountdown, "No meeting countdown while a talk is paused");
+    }
 }

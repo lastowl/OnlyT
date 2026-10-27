@@ -184,4 +184,47 @@ public class TalkTimerServiceTests
         var result = svc.StopTalkTimerFromApi(3);
         Assert.AreEqual(StartStopTimerCommands.Stop, result.Command);
     }
+
+    [TestMethod]
+    public void AdjustTarget_WhilePaused_RaisesChangedEventWithNewTarget()
+    {
+        var svc = new TalkTimerService();
+        svc.Start(targetSecs: 300, talkId: 1, isCountingUp: true);
+        svc.Pause();
+        // set after pausing: Pause() resyncs elapsed from the real stopwatch
+        svc.CurrentSecondsElapsed = 60;
+        TimerChangedEventArgs? changed = null;
+        svc.TimerChangedEvent += (_, e) => changed = e;
+
+        svc.AdjustTarget(600);
+
+        // paused, so no tick will carry the new target; the adjust itself must
+        Assert.IsNotNull(changed);
+        Assert.AreEqual(600, changed!.TargetSecs);
+        Assert.AreEqual(60, changed.ElapsedSecs);
+        Assert.IsTrue(changed.IsCountingUp);
+
+        svc.Stop();
+    }
+
+    [TestMethod]
+    public void AdjustTarget_WhenIdle_RaisesNoEvent()
+    {
+        var svc = new TalkTimerService();
+        var raised = false;
+        svc.TimerChangedEvent += (_, _) => raised = true;
+
+        svc.AdjustTarget(600);
+
+        Assert.IsFalse(raised);
+    }
+
+    [TestMethod]
+    public void IsCountingUp_ReflectsStartedTalk()
+    {
+        var svc = new TalkTimerService();
+        svc.Start(targetSecs: 300, talkId: 1, isCountingUp: true);
+        Assert.IsTrue(svc.IsCountingUp);
+        svc.Stop();
+    }
 }

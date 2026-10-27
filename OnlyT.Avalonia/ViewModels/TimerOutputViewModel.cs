@@ -98,6 +98,7 @@ public partial class TimerOutputViewModel : ObservableObject
     // identical wall-clock readouts stacked on top of each other.
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(IsTimeOfDayVisible))]
+    [NotifyPropertyChangedFor(nameof(IsCountUpTargetVisible))]
     private bool _isShowingClock = true;
 
     /// <summary>
@@ -105,6 +106,15 @@ public partial class TimerOutputViewModel : ObservableObject
     /// main display is showing the timer (not the wall clock).
     /// </summary>
     public bool IsTimeOfDayVisible => ShowTimeOfDay && !IsShowingClock;
+
+    // The talk's target duration ("end at" value), shown under the timer when
+    // counting up so the speaker knows when the talk should end; null when not
+    // counting up or when the ShowCountUpTarget option is off.
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(IsCountUpTargetVisible))]
+    private string? _countUpTargetDisplay;
+
+    public bool IsCountUpTargetVisible => CountUpTargetDisplay != null && !IsShowingClock;
 
     // Whether the animated "persist countdown" bar is currently shown — i.e.
     // a student talk has stopped and its final value is being held on screen.
@@ -220,6 +230,8 @@ public partial class TimerOutputViewModel : ObservableObject
         ShowTimeOfDay = _optionsService.ShowTimeOfDayUnderTimer;
         ShowDigitalSeconds = _optionsService.ShowDigitalSeconds;
         ShowDurationSector = _optionsService.ShowDurationSector;
+        _showCountUpTarget = _optionsService.ShowCountUpTarget;
+        UpdateCountUpTarget();
         FlashTimerEnabled = _optionsService.FlashTimerWhenOvertime;
         BellOnOvertimeEnabled = _optionsService.BellOnOvertime;
         AnalogueClockWidthPercent = _optionsService.AnalogueClockWidthPercent;
@@ -319,6 +331,14 @@ public partial class TimerOutputViewModel : ObservableObject
     }
 
     private bool _isCountingUp;
+    private bool _showCountUpTarget;
+
+    private void UpdateCountUpTarget()
+    {
+        CountUpTargetDisplay = _isCountingUp && _showCountUpTarget
+            ? FormatSignedTime(_targetSecs)
+            : null;
+    }
 
     private void OnTimerStarted(object? sender, TimerStartedEventArgs e)
     {
@@ -340,6 +360,7 @@ public partial class TimerOutputViewModel : ObservableObject
             TimeDisplay = _isCountingUp
                 ? FormatSignedTime(0)
                 : FormatSignedTime(e.TargetSecs);
+            UpdateCountUpTarget();
         });
     }
 
@@ -347,7 +368,9 @@ public partial class TimerOutputViewModel : ObservableObject
     {
         Dispatcher.UIThread.Post(() =>
         {
-            if (!e.IsRunning)
+            // A pause can raise a change event with IsRunning false (when it
+            // lands on a new second); that isn't a stop, so keep the timer shown.
+            if (!e.IsRunning && !_timerService.IsPaused)
             {
                 // A student talk that stopped keeps its final value on screen
                 // for a configurable period before reverting to the clock.
@@ -371,8 +394,14 @@ public partial class TimerOutputViewModel : ObservableObject
             StopPersist();
             IsShowingClock = false;
             _isCountingUp = e.IsCountingUp;
+
+            // Take the target from the event rather than the start: the operator
+            // can change the duration while the talk is running or paused.
+            _targetSecs = e.TargetSecs;
+            UpdateCountUpTarget();
+
             var remaining = e.RemainingSecs;
-            var elapsed = _targetSecs - remaining;
+            var elapsed = e.ElapsedSecs;
 
             // Update duration sector for analogue clock
             UpdateDurationSector(elapsed, remaining);

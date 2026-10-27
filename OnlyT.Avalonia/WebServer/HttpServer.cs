@@ -485,12 +485,17 @@ public sealed class HttpServer : IHttpServer
     {
         var status = _timerService.GetStatus();
 
+        // A paused talk keeps its timer on the web clock (frozen) rather than
+        // dropping back to idle or the meeting countdown.
+        var isPaused = _timerService.IsPaused;
+        var isActive = status.IsRunning || isPaused;
+
         // Calculate countdown to meeting start if timer is not running
         int? countdownSecs = null;
         bool showCountdown = false;
         var countdownDurationMins = _optionsService.CountdownDurationMins;
 
-        if (!status.IsRunning)
+        if (!isActive)
         {
             var todayStartTime = _optionsService.MeetingStartTimes.GetStartTimeForDay(now.DayOfWeek);
             if (todayStartTime.HasValue)
@@ -511,9 +516,13 @@ public sealed class HttpServer : IHttpServer
         {
             time = now.ToString("HH:mm:ss"),
             isRunning = status.IsRunning,
-            remainingSecs = status.IsRunning
+            isPaused = isPaused,
+            remainingSecs = isActive
                 ? (int)(status.TargetSeconds - status.TimeElapsed.TotalSeconds)
                 : 0,
+            elapsedSecs = isActive ? (int)status.TimeElapsed.TotalSeconds : 0,
+            countUp = isActive && _timerService.IsCountingUp,
+            showCountUpTarget = _optionsService.ShowCountUpTarget,
             targetSecs = status.TargetSeconds,
             talkId = status.TalkId,
             showCountdown = showCountdown,
@@ -529,7 +538,11 @@ public sealed class HttpServer : IHttpServer
     {
         public string time { get; set; } = string.Empty;
         public bool isRunning { get; set; }
+        public bool isPaused { get; set; }
         public int remainingSecs { get; set; }
+        public int elapsedSecs { get; set; }
+        public bool countUp { get; set; }
+        public bool showCountUpTarget { get; set; }
         public int targetSecs { get; set; }
         public int? talkId { get; set; }
         public bool showCountdown { get; set; }
@@ -665,6 +678,7 @@ public sealed class HttpServer : IHttpServer
         #timer { font-size: 80px; font-family: 'Consolas', monospace; margin-top: 30px; }
         #countdown { font-size: 100px; font-family: 'Consolas', monospace; margin-top: 30px; display: none; }
         #countdown-label { font-size: 20px; color: #888; margin-bottom: 10px; display: none; }
+        #count-up-target { font-size: 40px; font-family: 'Consolas', monospace; color: #b3b3b3; display: none; }
         .running { color: #4CAF50; }
         .overtime { color: #F44336; }
         .idle { color: #888; }
@@ -675,6 +689,7 @@ public sealed class HttpServer : IHttpServer
             #clock { font-size: 60px; }
             #timer { font-size: 50px; }
             #countdown { font-size: 60px; }
+            #count-up-target { font-size: 25px; }
         }
     </style>
 </head>
@@ -683,6 +698,7 @@ public sealed class HttpServer : IHttpServer
     <div id=""countdown-label"">Meeting starts in</div>
     <div id=""countdown"" class=""countdown-active"">--:--</div>
     <div id=""timer"" class=""idle"">00:00</div>
+    <div id=""count-up-target""></div>
     <script>
         var showClockSeconds = __SHOW_CLOCK_SECONDS__;
         function updateClock() {
@@ -710,18 +726,29 @@ public sealed class HttpServer : IHttpServer
                     var timerEl = document.getElementById('timer');
                     var countdownEl = document.getElementById('countdown');
                     var countdownLabel = document.getElementById('countdown-label');
+                    var targetEl = document.getElementById('count-up-target');
+                    targetEl.style.display = 'none';
 
-                    if (data.isRunning) {
+                    if (data.isRunning || data.isPaused) {
                         // Show timer, hide countdown
                         timerEl.style.display = 'block';
                         countdownEl.style.display = 'none';
                         countdownLabel.style.display = 'none';
 
-                        var mins = Math.floor(Math.abs(data.remainingSecs) / 60);
-                        var secs = Math.abs(data.remainingSecs) % 60;
-                        var sign = data.remainingSecs < 0 ? '-' : '';
+                        // counting up shows elapsed time; colour still tracks remaining
+                        var shownSecs = data.countUp ? data.elapsedSecs : data.remainingSecs;
+                        var mins = Math.floor(Math.abs(shownSecs) / 60);
+                        var secs = Math.abs(shownSecs) % 60;
+                        var sign = shownSecs < 0 ? '-' : '';
                         timerEl.textContent = sign + mins.toString().padStart(2,'0') + ':' + secs.toString().padStart(2,'0');
                         timerEl.className = data.remainingSecs < 0 ? 'overtime' : 'running';
+
+                        // when counting up, show the target duration ('end at' arrow + duration)
+                        if (data.countUp && data.showCountUpTarget) {
+                            targetEl.textContent = '\u21E5 ' + Math.floor(data.targetSecs / 60).toString().padStart(2,'0')
+                                + ':' + (data.targetSecs % 60).toString().padStart(2,'0');
+                            targetEl.style.display = 'block';
+                        }
                     } else if (data.showCountdown && data.countdownSecs !== null) {
                         // Show countdown, hide timer
                         timerEl.style.display = 'none';
